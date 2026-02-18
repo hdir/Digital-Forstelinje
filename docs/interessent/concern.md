@@ -1,9 +1,9 @@
 ---
-title: Motivasjon - Concern og interessent
+title: Motivasjon - Concerns og interessent
 ---
 
-# Concern og interessenter
+# Concerns og interessenter
 
-Concern og interessenter for digital førstelinje.
+Concerns og interessenter for digital førstelinje.
 
 ![concern](concern.drawio)
