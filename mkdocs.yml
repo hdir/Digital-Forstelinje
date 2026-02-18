@@ -8,7 +8,7 @@ nav:
     - Interessentanalyser:
       - interessent/index.md
       - Verdiforslag: interessent/verdi-og-malbilde.md
-      - Interesser: interessent-concern.md
+      - Interesser: interessent/interessent-concern.md
     
 theme:
   name: material
