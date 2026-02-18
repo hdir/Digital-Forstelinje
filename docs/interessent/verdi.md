@@ -1,8 +1,6 @@
 ---
-title: Motivasjon - interessenter og verdi
+title: Motivasjon - Verdiforslag
 ---
-
-# Verdi og interessenter
 
 Verdi og interessenter for digital førstelinje.
 
