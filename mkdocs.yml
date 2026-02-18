@@ -1,5 +1,5 @@
 site_name: Arkitektur for digital førstelinje
-repo_url: https://github.com/Digital_forstelinje
+repo_url: https://github.com/hdir/Digital-Forstelinje
 repo_name: hdir/Digital-Forstelinje
 site_author: Helsedirektoratet
 nav:
@@ -8,7 +8,7 @@ nav:
     
 theme:
   name: material
-  logo: logo/ehelse-hvit.svg
+  #logo: logo/ehelse-hvit.svg
   #custom_dir: material/.overrides
   features:
     # - navigation.path #sponsorfeature
