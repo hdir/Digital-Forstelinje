@@ -2,8 +2,8 @@
 title: Start
 ---
 
-# Verdi og målbilde
+# Verdi og interessenter
 
-Verdi og målbilde for digital førstelinje.
+Verdi og interessenter for digital førstelinje.
 
 ![verdi](verdi.drawio)
