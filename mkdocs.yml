@@ -3,10 +3,12 @@ repo_url: https://github.com/hdir/Digital-Forstelinje
 repo_name: hdir/Digital-Forstelinje
 site_author: Helsedirektoratet
 nav:
-    - Verdiforslag: 
+    - Arkitekturskisser: 
       - index.md
     - Interessentanalyser:
-      - interessent-concern.md
+      - interessent/index.md
+      - Verdiforslag: interessent/verdi-og-malbilde.md
+      - Interesser: interessent-concern.md
     
 theme:
   name: material

@@ -1,9 +1,18 @@
 ---
-title: Motivasjon - interessenter og verdi
+title: Arkitektur for digital førstelinje
 ---
 
-# Verdi og interessenter
+# Arkiekturskisser
 
-Verdi og interessenter for digital førstelinje.
+Arkitekturskisser for området digital førstelinje.
 
-![verdi](verdi.drawio)
+Fokuset er å få oversikt over aktører og interessenter, vise verdi og knytte dette sammen med underliggende prosesser, tjenester og nødvendige integrasjoner.
+
+Planen er å vise:  
+
+* Interessentanalyser: Verdi, concerns og interessenter
+* Felles målbilde med mål og innsikt (barrierer)
+* Felles prinsipper og krav
+* Nødvendige kapabiliteter og tiltak
+* Overordnede prosesser, roller, aktører og ansvaret til aktørene.
+* Behov for informasjonstjenester og integrasjoner.
