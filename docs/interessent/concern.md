@@ -6,4 +6,4 @@ title: Motivasjon - Concerns og interessent
 
 Concerns og interessenter for digital førstelinje.
 
-![concern](concern.drawio)
+![innbygger-concern](motivasjon-interessent.drawio)
