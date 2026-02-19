@@ -69,8 +69,8 @@ plugins:
   - search
   - git-revision-date-localized:
       type: datetime
-  - with-pdf:
-      cover_subtitle: "currentversion"
-      copyright: ""
-      # two_columns_level: 3
-      output_path: ./pdf/malarkitektur.pdf
+  #- with-pdf:
+  #    cover_subtitle: "currentversion"
+  #    copyright: ""
+  #    # two_columns_level: 3
+  #    output_path: ./pdf/malarkitektur.pdf
