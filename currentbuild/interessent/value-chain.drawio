@@ -223,19 +223,37 @@
                     <mxGeometry x="200" y="120" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-4" value="Godkjenning&lt;span style=&quot;font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Samhandling%22%20style%3D%22html%3D1%3BoutlineConnect%3D0%3BwhiteSpace%3Dwrap%3BfillColor%3D%23F5DEAA%3Bshape%3Dmxgraph.archimate3.application%3BappType%3Dcapability%3BarchiType%3Drounded%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%2240%22%20y%3D%22120%22%20width%3D%22120%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="280" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="200" y="280" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-5" value="Betaling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
                     <mxGeometry x="40" y="360" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-6" value="Avtaler" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="200" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="40" y="280" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-7" value="Autentisering og autorisering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
                     <mxGeometry x="360" y="120" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-8" value="Oppdaging og orkestrering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
                     <mxGeometry x="520" y="120" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TeFL5omvhbVfAXykElzv-9" value="Sankasse og testing" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="200" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TeFL5omvhbVfAXykElzv-10" value="Logging" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="200" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TeFL5omvhbVfAXykElzv-11" value="Tjenesteforvaltning/ informasjons forvaltning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="280" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TeFL5omvhbVfAXykElzv-13" value="Standardisering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="200" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TeFL5omvhbVfAXykElzv-14" value="Overvåkning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="200" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TeFL5omvhbVfAXykElzv-15" value="Personvern" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="280" width="120" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
