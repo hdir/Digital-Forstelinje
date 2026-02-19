@@ -6,3 +6,4 @@ Inneholder beskrivelse av de viktigste interessentene, problemer de har, verdi d
 
 [Verdiforslag for interessentene](verdi.md)  
 [Interesser for interessentene](concern.md)
+[Verdikjede og viktige kapabiliteter](value-chain.md)
