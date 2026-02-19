@@ -258,4 +258,142 @@
             </root>
         </mxGraphModel>
     </diagram>
+    <diagram id="QePevzOGQcMEyxp_wbvx" name="verdikjede-verdi">
+        <mxGraphModel dx="1436" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-1" value="Oppleve Symptomer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="120" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-2" value="Forebygge" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="200" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-3" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-4" target="t-pgimBPQop8rT4Ed4PY-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-4" value="Kartlegge" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="120" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-5" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-6" target="t-pgimBPQop8rT4Ed4PY-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-6" value="Egenmestre" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="120" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-7" value="Behandling&lt;div&gt;med klinker&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="120" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-8" value="Veivise til tjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="200" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-9" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-4" target="t-pgimBPQop8rT4Ed4PY-6">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="220" y="470" as="sourcePoint"/>
+                        <mxPoint x="380" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-10" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-1" target="t-pgimBPQop8rT4Ed4PY-4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="220" y="470" as="sourcePoint"/>
+                        <mxPoint x="380" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-11" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-2" target="t-pgimBPQop8rT4Ed4PY-1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="150" y="155" as="sourcePoint"/>
+                        <mxPoint x="40" y="145" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-13" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-8" target="t-pgimBPQop8rT4Ed4PY-6">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="380" y="230" as="sourcePoint"/>
+                        <mxPoint x="380" y="470" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="320" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-14" value="Fastlege, Spesialist, legevakt etc" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="290" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-15" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-8" target="t-pgimBPQop8rT4Ed4PY-14">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="220" y="380" as="sourcePoint"/>
+                        <mxPoint x="380" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-17" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-7" target="t-pgimBPQop8rT4Ed4PY-14">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="220" y="380" as="sourcePoint"/>
+                        <mxPoint x="380" y="380" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="620" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-19" value="Henvise /medisinere" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="200" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-20" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-8" target="t-pgimBPQop8rT4Ed4PY-19">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="290" y="235" as="sourcePoint"/>
+                        <mxPoint x="430" y="240" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="330" y="240"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-21" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-19" target="t-pgimBPQop8rT4Ed4PY-14">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="290" y="248" as="sourcePoint"/>
+                        <mxPoint x="470" y="235" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="260"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-22" value="Rask behandling på riktig nivå" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="120" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-24" value="Lavest mulig omsorgsnivå" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="200" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-26" value="Innnbygger" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.role;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="40" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-27" value="Helsetjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.role;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="295" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-28" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-27" target="t-pgimBPQop8rT4Ed4PY-24">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="500" y="430" as="sourcePoint"/>
+                        <mxPoint x="660" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-29" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-22" target="t-pgimBPQop8rT4Ed4PY-26">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="710" y="305" as="sourcePoint"/>
+                        <mxPoint x="710" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-30" value="" style="endArrow=block;html=1;endFill=0;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t-pgimBPQop8rT4Ed4PY-22">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="700" y="200" as="sourcePoint"/>
+                        <mxPoint x="660" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="t-pgimBPQop8rT4Ed4PY-31" value="+" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=open;elbow=vertical;endFill=0;dashed=1;dashPattern=6 4;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-7" target="t-pgimBPQop8rT4Ed4PY-22">
+                    <mxGeometry x="0.2469" y="1" relative="1" as="geometry">
+                        <mxPoint x="500" y="430" as="sourcePoint"/>
+                        <mxPoint x="660" y="430" as="targetPoint"/>
+                        <mxPoint x="1" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
