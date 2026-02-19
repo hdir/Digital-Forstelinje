@@ -199,7 +199,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="61" value="Egen henvisning og medisinering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                <mxCell id="61" value="Egen-henvisning og -medisinering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
                     <mxGeometry x="580" y="460" width="100" height="52.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="Bestilling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
@@ -363,10 +363,10 @@
                     <mxGeometry x="640" y="200" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="t-pgimBPQop8rT4Ed4PY-26" value="Innnbygger" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.role;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="40" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="640" y="30" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="t-pgimBPQop8rT4Ed4PY-27" value="Helsetjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.role;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="295" width="120" height="40" as="geometry"/>
+                    <mxGeometry x="640" y="290" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="t-pgimBPQop8rT4Ed4PY-28" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t-pgimBPQop8rT4Ed4PY-27" target="t-pgimBPQop8rT4Ed4PY-24">
                     <mxGeometry width="160" relative="1" as="geometry">
