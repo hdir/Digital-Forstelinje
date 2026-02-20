@@ -180,4 +180,27 @@
             </root>
         </mxGraphModel>
     </diagram>
+    <diagram id="uZDiXMdDXtCZhB73OTtF" name="helsepersonell-concern">
+        <mxGraphModel dx="1436" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="iUnAbKbfwJ2h7VyurNM5-1" value="Helsepersonell" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="160" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5jJqph9-wX7G9FDdYqim-1" value="Rask tilgang til gode tjenester" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="35" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5jJqph9-wX7G9FDdYqim-2" value="Helsepersonell opplever økende arbeidspress" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry y="280" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5jJqph9-wX7G9FDdYqim-3" value="Mangler verktøy for samarbeid mellom omsorgsnivå." style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="280" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5jJqph9-wX7G9FDdYqim-4" value="Arbeidsverktøy er laget for dokumentasjon og støtter i for liten grad effektiv klinisk arbeisflyt" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="280" width="140" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
