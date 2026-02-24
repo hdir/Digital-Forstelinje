@@ -14,4 +14,4 @@ title: Motivasjon - Concerns og interessent
 
 ## Concerns for Leverandører
 
-![marked-concern](motivasjon-interessent.drawio)
+![markedet-concern](motivasjon-interessent.drawio)
