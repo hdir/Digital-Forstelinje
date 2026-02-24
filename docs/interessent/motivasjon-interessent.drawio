@@ -79,6 +79,15 @@
                         <mxPoint x="200" y="200" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="m0nQK9sQs5HpI7PMzgMJ-20" value="Rask teknologiutvikling og nye verktøy tilgjengelig på det private markedet" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=driver;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="40" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="m0nQK9sQs5HpI7PMzgMJ-21" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4" target="m0nQK9sQs5HpI7PMzgMJ-20">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="325" y="170" as="sourcePoint"/>
+                        <mxPoint x="525" y="110" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
