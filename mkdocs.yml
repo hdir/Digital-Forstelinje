@@ -9,7 +9,9 @@ nav:
       - interessent/index.md
       - Verdiforslag: interessent/verdi.md
       - Interesser: interessent/concern.md
-      - Verdikjede: interessent/value-chain.md
+    - Verdikjede og strategi:
+      - strategi/index.md
+      - Verdikjede: strategi/value-chain.md
     
 theme:
   name: material
