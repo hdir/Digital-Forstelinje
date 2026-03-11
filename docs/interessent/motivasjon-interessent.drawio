@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="9jrngiqiaGl_he06MmHT" name="stakeholder-value">
-        <mxGraphModel dx="2232" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="759" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -116,7 +116,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="wq-FRsHbn7Wm64MDP4UE" name="innbygger-concern">
-        <mxGraphModel dx="2232" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="759" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -246,26 +246,26 @@
                         <mxPoint x="525" y="490" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="c3fMhTfUc643ahhrQ0z3-19" value="Fra fragmenterte, lokale løsninger til en nasjonal, helhetlig digital førstelinje" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+                <mxCell id="c3fMhTfUc643ahhrQ0z3-19" value="Fra fragmenterte, lokale løsninger til en nasjonal, helhetlig digital førstelinje" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" parent="1" vertex="1">
                     <mxGeometry x="240" y="40" width="150" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="c3fMhTfUc643ahhrQ0z3-20" value="Fra «vent-og-se» til proaktiv forebygging" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+                <mxCell id="c3fMhTfUc643ahhrQ0z3-20" value="Fra «vent-og-se» til proaktiv forebygging" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" parent="1" vertex="1">
                     <mxGeometry x="140" y="160" width="150" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="c3fMhTfUc643ahhrQ0z3-21" value="Fra «én-til-én» aktivitet til egenmestring og digital behandling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+                <mxCell id="c3fMhTfUc643ahhrQ0z3-21" value="Fra «én-til-én» aktivitet til egenmestring og digital behandling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" parent="1" vertex="1">
                     <mxGeometry x="340" y="160" width="150" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="c3fMhTfUc643ahhrQ0z3-22" value="Fra varierende kvalitet til godkjent og dokumentert effekt og refusjon" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+                <mxCell id="c3fMhTfUc643ahhrQ0z3-22" value="Fra varierende kvalitet til godkjent og dokumentert effekt og refusjon" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" parent="1" vertex="1">
                     <mxGeometry x="540" y="160" width="150" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="c3fMhTfUc643ahhrQ0z3-23" value="Innbyggeren i sentrum – med sin digitale helsetvilling som verktøy" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" vertex="1" parent="1">
+                <mxCell id="c3fMhTfUc643ahhrQ0z3-23" value="Innbyggeren i sentrum – med sin digitale helsetvilling som verktøy" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;" parent="1" vertex="1">
                     <mxGeometry x="440" y="40" width="150" height="75" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="uZDiXMdDXtCZhB73OTtF" name="helsepersonell-concern">
-        <mxGraphModel dx="2232" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="759" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -282,7 +282,7 @@
                     <mxGeometry x="240" y="210" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="5jJqph9-wX7G9FDdYqim-4" value="Arbeidsverktøy er laget for dokumentasjon og støtter i for liten grad effektiv klinisk arbeisflyt" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="210" width="140" height="60" as="geometry"/>
+                    <mxGeometry x="640" y="210" width="140" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="1U_bypcOy_7-IAYSQ4Q3-2" value="Bedre beslutningsgrunnlag" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;" parent="1" vertex="1">
                     <mxGeometry x="240" y="90" width="140" height="60" as="geometry"/>
@@ -323,7 +323,7 @@
                         <mxPoint x="175" y="510" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="-Wyyqc0fi66ZAidkGGX_-8" value="" style="html=1;endArrow=none;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="1U_bypcOy_7-IAYSQ4Q3-4" edge="1">
+                <mxCell id="-Wyyqc0fi66ZAidkGGX_-8" value="" style="html=1;endArrow=none;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=5;exitDy=-5;exitPerimeter=0;" parent="1" target="1U_bypcOy_7-IAYSQ4Q3-4" edge="1" source="5jJqph9-wX7G9FDdYqim-4">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="510" y="270" as="sourcePoint"/>
                         <mxPoint x="509.5" y="320" as="targetPoint"/>
@@ -347,7 +347,7 @@
                         <mxPoint x="120" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="QvpuhYh_02mwrx5KmDrf-3" value="" style="html=1;endArrow=none;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="PJGyxPhyZqkLL_oZDY1f-1" target="5jJqph9-wX7G9FDdYqim-4" edge="1">
+                <mxCell id="QvpuhYh_02mwrx5KmDrf-3" value="" style="html=1;endArrow=none;elbow=vertical;entryX=0;entryY=0;entryDx=5;entryDy=5;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="PJGyxPhyZqkLL_oZDY1f-1" target="5jJqph9-wX7G9FDdYqim-4" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="520" y="280" as="sourcePoint"/>
                         <mxPoint x="520" y="340" as="targetPoint"/>
@@ -362,19 +362,17 @@
                         <mxPoint x="320" y="460" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="QvpuhYh_02mwrx5KmDrf-7" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QvpuhYh_02mwrx5KmDrf-4" target="5jJqph9-wX7G9FDdYqim-4" edge="1">
+                <mxCell id="QvpuhYh_02mwrx5KmDrf-7" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="QvpuhYh_02mwrx5KmDrf-4" target="5jJqph9-wX7G9FDdYqim-4" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="720" y="400" as="sourcePoint"/>
                         <mxPoint x="320" y="460" as="targetPoint"/>
-                        <Array as="points">
-                            <mxPoint x="650" y="250"/>
-                        </Array>
+                        <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="R-xV4YZLjeGnwkZC9rEJ-1" value="Oppgaver løses effektivt og med høy kvalitet" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;" parent="1" vertex="1">
                     <mxGeometry x="640" y="90" width="140" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="R-xV4YZLjeGnwkZC9rEJ-2" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="R-xV4YZLjeGnwkZC9rEJ-1" target="5jJqph9-wX7G9FDdYqim-4" edge="1">
+                <mxCell id="R-xV4YZLjeGnwkZC9rEJ-2" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="R-xV4YZLjeGnwkZC9rEJ-1" target="5jJqph9-wX7G9FDdYqim-4" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="720" y="340" as="sourcePoint"/>
                         <mxPoint x="590" y="265" as="targetPoint"/>
@@ -382,6 +380,9 @@
                             <mxPoint x="650" y="220"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="5COD3jGBB_3VAa3JyaT5-1" value="Mangler &quot;sense of urgency&quot;,liten endringsvilje" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="210" width="140" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
