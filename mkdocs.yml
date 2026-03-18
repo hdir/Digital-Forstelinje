@@ -14,6 +14,8 @@ nav:
       - Verdikjede: strategi/value-chain.md
     - Applikasjonsarkitektur:
       - application/index.md
+    - Motivasjon for virksomhetsarkitektur:
+      - why/index.md
     
 theme:
   name: material
