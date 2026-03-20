@@ -2,7 +2,7 @@
 title: Arkitektur for digital førstelinje
 ---
 
-## Arkiekturskisser
+## Arkitekturskisser
 
 Arkitekturskisser for området digital førstelinje. Fokuset er å få oversikt over aktører og interessenter, vise verdi og knytte dette sammen med underliggende prosesser, tjenester og nødvendige integrasjoner.
 
