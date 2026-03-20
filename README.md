@@ -2,6 +2,8 @@
 
 Virksomhetsarkitektur for Digital førstelinje.  
 
+> Innholdet er under arbeid og ikke noe som publiseres her er regnet som normativt.  
+
 ## Artefakter
 
 - [x] Verdi og stakeholders
