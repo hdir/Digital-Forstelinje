@@ -6,6 +6,8 @@ title: Arkitektur for digital førstelinje
 
 Arkitekturskisser for området digital førstelinje. Fokuset er å få oversikt over aktører og interessenter, vise verdi og knytte dette sammen med underliggende prosesser, tjenester og nødvendige integrasjoner.
 
+> Innholdet er under arbeid og ikke noe som publiseres her er å regne som normativt.  
+
 ![verdikjede-verdi](strategi/value-chain.drawio)
 
 Planen er å vise:  
