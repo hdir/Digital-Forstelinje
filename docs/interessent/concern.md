@@ -15,3 +15,7 @@ title: Motivasjon - Concerns og interessent
 ## Concerns for Leverandører
 
 ![markedet-concern](motivasjon-interessent.drawio)
+
+## Concerns for Helsedirektoratet
+
+![helsedirektoratet](motivasjon-interessent.drawio)
