@@ -9,6 +9,7 @@ nav:
       - interessent/index.md
       - Verdiforslag: interessent/verdi.md
       - Interesser: interessent/concern.md
+      - Målbilde: interessent/goals.md
     - Verdikjede og strategi:
       - strategi/index.md
       - Verdikjede: strategi/value-chain.md

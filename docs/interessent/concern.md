@@ -18,4 +18,4 @@ title: Motivasjon - Concerns og interessent
 
 ## Concerns for Helsedirektoratet
 
-![helsedirektoratet](motivasjon-interessent.drawio)
+![helsedirektoratet-concern](motivasjon-interessent.drawio)
