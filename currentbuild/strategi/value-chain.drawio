@@ -1,83 +1,86 @@
 <mxfile host="65bd71144e">
     <diagram id="KhulNWOh6ZCrj-raD0nd" name="økosystem">
-        <mxGraphModel dx="1548" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1288" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="xKit_TpfabmGGuKowgRL-6" value="Distribuerte data&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="500" width="720" height="90" as="geometry"/>
+                <mxCell id="xKit_TpfabmGGuKowgRL-6" value="Distribuerte data&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="460" width="720" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="xKit_TpfabmGGuKowgRL-5" value="Sammenstilling av data og lagring&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="390" width="720" height="90" as="geometry"/>
+                <mxCell id="xKit_TpfabmGGuKowgRL-5" value="Sammenstilling av data og lagring&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="350" width="720" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="xKit_TpfabmGGuKowgRL-4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Ressurser for dataanalyse og KI&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="280" width="720" height="90" as="geometry"/>
+                <mxCell id="xKit_TpfabmGGuKowgRL-4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Ressurser for dataanalyse og KI&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="240" width="720" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="xKit_TpfabmGGuKowgRL-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Plattform for tjenesteutvikling og produksjon&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="170" width="720" height="90" as="geometry"/>
+                <mxCell id="xKit_TpfabmGGuKowgRL-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Plattform for tjenesteutvikling og produksjon&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="130" width="720" height="90" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-1" value="Åpent modulært økosystem for innbyggertjenester" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="80" width="720" height="40" as="geometry"/>
+                    <mxGeometry x="40" y="40" width="720" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-2" value="Samhandling/ formidling/varsling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="160" width="50" height="440" as="geometry"/>
+                    <mxGeometry x="440" y="120" width="50" height="440" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-3" value="Grunndata" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="414" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="60" y="374" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-4" value="Godkjenning og kvalitetssikring" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="600" y="160" width="50" height="440" as="geometry"/>
+                    <mxGeometry x="600" y="120" width="50" height="440" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-6" value="Avtaler" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="194.73000000000002" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="340" y="154.73000000000002" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-7" value="Autentisering og autorisering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="680" y="160" width="50" height="440" as="geometry"/>
+                    <mxGeometry x="680" y="120" width="50" height="440" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-8" value="Oppdaging og orkestrering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="160" width="50" height="440" as="geometry"/>
+                    <mxGeometry x="520" y="120" width="50" height="440" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-9" value="Sandkasse og testing" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="194.73" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="200" y="154.73" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-10" value="Logging" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="620" y="194.73000000000002" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="620" y="154.73000000000002" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-11" value="Tjenesteforvaltning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="194.73000000000002" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="60" y="154.73000000000002" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-13" value="Standardisering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="340" y="420" width="120" height="150" as="geometry"/>
+                    <mxGeometry x="340" y="380" width="120" height="150" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-14" value="Overvåkning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="530" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="790" y="230" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-15" value="Personvern" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="840" y="210.00000000000003" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="790" y="154.73000000000002" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="u9fwJug513jWiIlwAGDL-1" value="Kunnskaps- informasjons- forvaltning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="200" y="310" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="200" y="270" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="u9fwJug513jWiIlwAGDL-2" value="Kvalitetsstyring (kvalitets og styringsdata)" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="310" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="60" y="270" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-5" value="Betaling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="480" y="194.73000000000002" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="480" y="154.73000000000002" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="xKit_TpfabmGGuKowgRL-8" value="Strategisk styring" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="610" width="220" height="70" as="geometry"/>
+                <mxCell id="xKit_TpfabmGGuKowgRL-8" value="Strategisk styring" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="570" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="xKit_TpfabmGGuKowgRL-9" value="Virkemidler og finansiering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="290" y="610" width="220" height="70" as="geometry"/>
+                <mxCell id="xKit_TpfabmGGuKowgRL-9" value="Virkemidler og finansiering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="570" width="220" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="xKit_TpfabmGGuKowgRL-10" value="Regelverk og juridisk koordinering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="610" width="220" height="70" as="geometry"/>
+                <mxCell id="xKit_TpfabmGGuKowgRL-10" value="Regelverk og juridisk koordinering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="570" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="VVHO--vzeyekFK8HYkrx-1" value="Lagring?" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFCCCC;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="374" width="120" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="yR3UBU6f4qSMuNbV7_kY" name="verdikjede-overordnet">
-        <mxGraphModel dx="1548" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1546" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -286,7 +289,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="QePevzOGQcMEyxp_wbvx" name="verdikjede-verdi">
-        <mxGraphModel dx="1548" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1546" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
