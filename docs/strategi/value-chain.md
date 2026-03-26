@@ -11,3 +11,9 @@ Forenklet verdikjede med noen viktige kapabiliteter som må bygges/videreutvikle
 Noen kapabiliteter som er nødvendige for å fasilistere et økosystem av tjenester (på Helsenorge).
 
 ![økosystem](value-chain.drawio)
+
+## Tjenesteleveranse og hendelser
+
+Hvordan levere tjenester til innbygger og knytte tjenesteforløp sammen med standardiserte data og hendelser.
+
+![tjeneste-kjede](value-chain.drawio)
