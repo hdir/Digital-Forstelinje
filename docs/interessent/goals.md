@@ -2,6 +2,6 @@
 title: Målbilde
 ---
 
-Målbilde for DF
+Målbilde for DF fra oppdragsbrevet til Helsedirektoratet fra Helse og omsorgsdepartementet.  
 
-![goals](motivasjon-interessent.drawio)
+![goals](motivasjon-interessent.drawio)  
