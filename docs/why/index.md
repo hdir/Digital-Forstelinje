@@ -10,4 +10,4 @@ Formålet med arkitekturarbeidet er å vise motivasjonen bak tiltakene og hvorda
 
 Motivasjon for virksomhetsarkitektur med litt mer detaljerte sammenhenger og hvordan viewpoints fra [verktøykassen](https://github.com/hdir/Arkitekturverktoykasse) kan integreres.
 
-![arkitekturmotivasjon](akitektur-motivasjon.md)  
+![arkitekturmotivasjon](akitektur-motivasjon.drawio)  
