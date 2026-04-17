@@ -6,4 +6,10 @@ Vise de viktigste prosjektene og tiltakene som skal realisere ulike kapabiltiter
 
 ## Psyk helse og rus porteføljen
 
-![tiltak-psykhelse](tiltak-kapabiliteter.drawio)
+![tiltak-psykhelse](tiltak-kapabiliteter.drawio)  
+
+## Arbeidsspor i programmet
+
+Arbeidssporene skal realisere kapabiliteter som tilsammen svarer ut leveransene beskrevet i tildelingsbrevet. Andre delmengder tas frem i prosjektene som er nevnt i tildelingsbrevet som psyk helse og rus, Offentlig KI tjeneste osv...
+
+![tiltak-programmet](tiltak-kapabiliteter.drawio)  
