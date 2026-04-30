@@ -122,7 +122,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="goals-program" id="EX7v0UTFPVLRICESX4oI">
-        <mxGraphModel dx="2158" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="686" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="Dyx_au14e4OenD-yCI5F-0"/>
                 <mxCell id="Dyx_au14e4OenD-yCI5F-1" parent="Dyx_au14e4OenD-yCI5F-0"/>
@@ -835,7 +835,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="EXsAzrLTWkN9tnuZUtBU" name="helsedirektoratet-concern">
-        <mxGraphModel dx="2158" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="686" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
