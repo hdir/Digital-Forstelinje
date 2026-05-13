@@ -23,3 +23,9 @@ title: Motivasjon - Concerns og interessent
 ## Concerns for Helsedirektoratet
 
 ![helsedirektoratet-concern](motivasjon-interessent.drawio)
+
+## Barrierer
+
+Oppsummering av alle identifiserte barrierer for interessentene.
+
+![barrierer-oppsummert](motivasjon-interessent.drawio)
