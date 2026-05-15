@@ -1,0 +1,84 @@
+
+
+# Innspill til Helsereformutvalget
+
+Norge står overfor en aldrende befolkning, økende sykdomsbyrde og mangel på helsepersonell. Helsepersonellkommisjonen har slått fast at personellveksten ikke er bærekraftig, og at vi ikke kan bemanne oss ut av utfordringene.
+
+Samtidig har behovet for satsing på sikkerhet og beredskap - også innen helse – økt. Dette fører i sum til mindre økonomisk handlingsrom innenfor de offentlige budsjettene, både kommunalt og statlig.
+
+Det er behov for å bruke eksisterende kompetanse mer effektivt. Her kan apotekene spille en rolle.
+
+## Utfordringer knyttet til legemiddelbruk
+
+Feil legemiddelbruk er en stor utfordring i helse- og omsorgstjenestene. Ifølge Helsedirektoratet koster legemiddelrelaterte hendelser spesialisthelsetjenesten alene rundt 10 milliarder kroner årlig. Diakonhjemmet sykehus har dokumentert at én av fem akuttinnleggelser skyldes legemidler pasienten allerede brukte før innleggelsen, og WHO anslår at 30–50 % av pasienter bruker legemidlene sine feil.
+
+Det er den eldre delen av befolkningen som bruker mest legemidler, og det er denne delen av befolkningen som oftest opplever legemiddelrelaterte problemer. I 2040 vil det være over 400 000 flere innbyggere over 65 år enn i dag.
+
+Legemiddelbruken og legemiddelutgiftene må ventes å øke kraftig. I 2025 brukes det legemidler for om lag 50 milliarder kroner, hvorav staten betaler  $\frac{2}{3}$ . Med flere eldre, flere tilgjengelige legemidler og høye forventninger til behandling med legemidler i befolkningen, vil det også følge mer feilbruk, alt annet likt.
+
+Apotekene har en sentral rolle i å forhindre feil bruk av legemidler. Helsepersonell i apotek gir veiledning om riktig bruk, hvordan legemidlene virker, interaksjoner og bivirkninger. Apotekene tilbyr tjenester som Medisinstart, Inhalasjonsveiledning og multidosepakking, - tjenester som alle skal bidra til bedret etterlevelse og riktigere bruk.
+
+Det brukes svært lite ressurser på oppfølging av innbyggernes legemiddelbehandling: eksempelvis brukes det 1,1 milliarder kroner på inhalasjonslegemidler, men bare 5 millioner på Inhalasjonsveiledning i apotek, en tjeneste som skal sikre at pasientene bruker inhalatorer riktig og får best mulig effekt av legemidlene.
+
+Feilbruk av legemidler fører ikke bare til manglende effekt. Feilbruk fører til helseskader og redusert livskvalitet for den enkelte, innleggelser og økt liggetid i sykehus, redusert deltakelse i arbeidslivet og andre effekter med store samfunnskostnader.
+
+## Forebygging av uhelse
+
+For å sikre en offentlig helsetjeneste av høy kvalitet i fremtiden, er det nødvendig å redusere sykdomsbyrden i samfunnet. Utfordringene den norske økonomien, og ikke minst helse- og omsorgstjenesten, står overfor er godt dokumentert i regjeringens perspektivmelding og utredningen til Helsepersonellkommisjonen. Offentlige utgifter øker mer enn inntektene, og knappheten på helsepersonell vil fortsette å øke. Effektiv forebygging av sykdom vil gi helsegevinster, men vil også innebære at flere kan stå i arbeid og bidra til samfunnets verdiskaping, samt å redusere presset på helse- og omsorgstjenesten.
+
+Vaksinering er et viktig og kostnadseffektivt tiltak for å forebygge sykdom ([Oslo Economics](#) og WHO). Økt vaksinasjonsdekning i voksenbefolkningen er viktig for å lette presset på helsetjenesten. FHI har foreslått å inkludere flere vaksiner i voksenvaksinasjonsprogrammet uten at dette har blitt prioritert av helsemyndighetene. Vaksinasjonsdekningen er ikke på målsatt nivå i den voksne befolkningen. Samtidig har WHO definert både motstand mot vaksinering i befolkningen og utvikling av antibiotikaresistens som globale helsetrusler. Prioritering av vaksinasjon er et svært viktig forebyggende tiltak som bør prioriteres nå.
+
+I 2025 setter apotekene omkring en halv million vaksiner, både influensa- og andre vaksiner. Apotekene er lett tilgjengelige for befolkningen og undersøkelser viser høy tilfredshet med vaksinasjonstjenesten i apotek. Likevel er ikke apotekene inkludert som en viktig aktør i vaksinasjonsarbeidet.
+
+En reduksjon i forekomsten av ikke-smittsomme sykdommer vil være vesentlig for å begrense befolkningens behov for behandling både i primær- og spesialisthelsetjenesten. Primærforebygging som kostholdsråd og fysisk aktivitet er viktig, men kunnskapen om helse og betydningen av forebygging må bedres i befolkningen. Når hver fjerde 10-12-åring bruker paracetamol minst ukentlig, er det en indikasjon om at vi i samfunnet har utfordringer med holdningene både til helse og til legemiddelbruk.
+
+Sekundærforebygging ved riktig bruk av legemidler, er også en avgjørende faktor. Apotekenes mulige roller i både primær- og sekundærforebygging må utredes.
+
+## Styrking av primærhelsetjenesten
+
+Fastlegeordningen er grunnmuren i primærhelsetjenesten. Selv om ordningen vesentlig er styrket de siste årene, vil fastlegene fortsatt være under press og presset vil øke ytterligere med en økende eldre befolkning. For å øke bærekraften i primærhelsetjenesten, og hindre overforbruk av spesialisthelsetjenesten, må de ulike helseprofesjonene i primærhelsetjenesten brukes effektivt. Oppgavedelingen må gjennomgås, med sikte på behandling på lavest effektive omsorgsnivå, og det må etableres gode og effektive dialogløsninger som sikrer god informasjonsflyt. Apotekenes
+
+systemløsninger og helsepersonellet i apotek bør integreres bedre i myndighetenes øvrige systemløsninger.
+
+Det er mange plager og lidelser som ikke er avhengig av diagnostisering og behandling hos fastlegen, men der pasienten i dag likevel oppsøker fastlegen. Sykepleiere og annet helsepersonell i kommunene sørger i dag for en viss siling, men det er rom for å effektivisere og iverksette tiltak slik at flere helseplager løses andre steder enn hos fastlegen. I en rekke land har man innført standardiserte tjenester i apotek som et tiltak for å avlaste fastlegene og sikre befolkningen lettere tilgang til god behandling ved definerte plager og lidelser.
+
+Apotekene (unntatt sykehusapotekene) er en del av primærhelsetjenesten, men apotekene er løst tilknyttet kommunehelsetjenesten. Dette gjør det mer krevende å bruke helsepersonellet i apotek som en integrert del av primærhelsetjenesten. Om lag 7 000 helsepersonell blir dermed stående på sidelinjen, mens kommunehelsetjenesten opplever stadig sterkere press på sine tjenester. Det finnes ingen nasjonale modeller for offentlig-privat samarbeid på dette området, som kunne gjort at flere helseproblemer kunne blitt løst i apotek.
+
+## Større behov for helseberedskap
+
+Under pandemien ble det tydelig at helseberedskapen i Norge hadde store mangler. Håndteringen av pandemien er grundig evaluert, og det er definert flere forbedringsområder. En rekke tiltak er iverksatt både som følge av evalueringene og som følge av helseberedskapsmeldingen.
+
+Apotekene er representert i den nasjonale privat/ offentlig samarbeidsgruppen som skal bidra i arbeidet for å sikre legemiddelberedskapen nasjonalt, men lokalt i den enkelte kommune er apotek i svært begrenset grad involvert i det kommunale helseberedskapsarbeidet.
+
+## Erfaringer fra utlandet
+
+Flere land har allerede tatt grep for å integrere apotekene bedre i helsetjenesten:
+
+- **Storbritannia, Canada, Australia, Sveits og Frankrike** har innført modellen *Pharmacy First*, der pasienter med lette definerte helseplager får hjelp direkte i apoteket uten å måtte oppsøke lege. Tjenesten frigjør tid hos leger og har blitt et populært, tidsbesparende og kostnadseffektivt tilbud. Det varierer litt mellom landene hvilke tjenester som inngår.
+- **Et stort antall land** har innført vaksinasjonstjenester i apotek. Farmasøyter i apotekene er gitt rekvireringsrett, og helsepersonellet setter et stort antall vaksiner i tråd med de nasjonale retningslinjene for vaksinasjon. Et eksempel er Frankrike der farmasøytene kan rekvirere alle ikke-levende vaksiner og vaksinere i tråd med nasjonale helsemyndigheters anbefalinger.
+
+- I Norge har apotekene et utnyttet potensial. Kompetansen til over 4 000 universitetsutdannede farmasøyter kan brukes mer effektivt til å yte helsetjenester. Apotekene er tilgjengelige over hele landet, har lange åpningstider og møter pasientene uten timebestilling. Dette gjør dem ideelle som førstelinjaktør i helsetjenesten.
+- Apotekforeningen har foreslått å innføre en standardisert tjeneste der farmasøyter følger opp pasienter som bruker fem eller flere legemidler etter dansk modell (**Medisinsamtale**). Dette kan bidra til å redusere feilbruk, forbedre behandlingsresultater og frigjøre kapasitet i resten av helsetjenesten.
+
+## Kilder
+
+|                                                                                   | Kilde                                                                                                                                                                                                                                                                                                                           |
+|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Apotekenes rolle i helsetjenesten i Europa                                        | <a href="https://www.thelancet.com/journals/lanpe/article/PIIS2666-7762(24)00255-2/fulltext">https://www.thelancet.com/journals/lanpe/article/PIIS2666-7762(24)00255-2/fulltext</a>                                                                                                                                             |
+| Norge har en aldrende befolkning, økende sykdomsbyrde og mangel på helsepersonell | <a href="https://www.regjeringen.no/no/dokumenter/nou-2023-4/id2961552/">https://www.regjeringen.no/no/dokumenter/nou-2023-4/id2961552/</a>                                                                                                                                                                                     |
+| Personellveksten i helse- og omsorgstjenesten er ikke bærekraftig                 | <a href="https://www.regjeringen.no/no/dokumenter/nou-2023-4/id2961552/">https://www.regjeringen.no/no/dokumenter/nou-2023-4/id2961552/</a>                                                                                                                                                                                     |
+| Legemiddelrelaterte problemer er utbredt blant eldre                              | <a href="https://www.helsebiblioteket.no/inhold/omsorgsbiblioteket/oppsummeringer/legemiddelbruk-og-pasientsikkerhet">https://www.helsebiblioteket.no/inhold/omsorgsbiblioteket/oppsummeringer/legemiddelbruk-og-pasientsikkerhet</a>                                                                                           |
+| Feil legemiddelbruk koster spesialisthelsetjenesten ca. 10 mrd. kr årlig          | <a href="https://www.helsedirektoratet.no/digitalisering-og-e-helse/pasientens-legemiddelliste/tryggere-behandling-og-bedre-samhandling/samfunnsokonomisk-analyse">https://www.helsedirektoratet.no/digitalisering-og-e-helse/pasientens-legemiddelliste/tryggere-behandling-og-bedre-samhandling/samfunnsokonomisk-analyse</a> |
+| Én av fem akuttinnleggelser skyldes legemidler pasienten allerede brukte          | <a href="https://www.titan.uio.no/andre-temaer/2022/ikkje-bruk-kvar-femte-">https://www.titan.uio.no/andre-temaer/2022/ikkje-bruk-kvar-femte-</a>                                                                                                                                                                               |
+
+|                                                                                        | Kilde                                                                                                                                                                                                                                                                                                                                               |
+|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                                        | <a href="#">innlegging-i-akuttmottaket-kunne-knyttast-til-legemiddelbruk.html</a>                                                                                                                                                                                                                                                                   |
+| WHO anslår at 30–50 % av pasienter bruker legemidlene sine feil                        | <a href="https://www.who.int/initiatives/medication-without-harm">https://www.who.int/initiatives/medication-without-harm</a>                                                                                                                                                                                                                       |
+| Legemiddelbruk og -utgifter vil øke kraftig frem mot 2040                              | <a href="https://www.ssb.no/befolkning/befolkningsframskrivinger">https://www.ssb.no/befolkning/befolkningsframskrivinger</a>                                                                                                                                                                                                                       |
+| Apotekene gir veiledning og tilbyr tjenester som Medisinstart og inhalasjonsveiledning | <a href="https://www.apotek.no/aktuelt/nyhetsarkiv/ber-stortinget-s%C3%B8rge-for-utredning-om-nye-apotekoppgaver">https://www.apotek.no/aktuelt/nyhetsarkiv/ber-stortinget-s%C3%B8rge-for-utredning-om-nye-apotekoppgaver</a>                                                                                                                       |
+| Vaksinering er et viktig og kostnadseffektivt tiltak                                   | <a href="https://www.lmi.no/download.php?file=/wp-content/uploads/2023/10/Kostnader-ved-vaksinering-og-mulige-gevinster-av-et-vaksinasjonsprogram-for-voksne_OErappport.pdf">https://www.lmi.no/download.php?file=/wp-content/uploads/2023/10/Kostnader-ved-vaksinering-og-mulige-gevinster-av-et-vaksinasjonsprogram-for-voksne_OErappport.pdf</a> |
+| Når hver fjerde 10-12-åring bruker paracetamol minst ukentlig                          | <a href="https://www.oslomet.no/forskning/forskningsnyheter/hoyt-antall-barn-bruker-smertestillende">https://www.oslomet.no/forskning/forskningsnyheter/hoyt-antall-barn-bruker-smertestillende</a>                                                                                                                                                 |
+| Under pandemien ble det tydelig at helseberedskapen hadde store mangler                | <a href="https://www.koronakommisjonen.no/">https://www.koronakommisjonen.no/</a>                                                                                                                                                                                                                                                                   |
+| Storbritannia har innført Pharmacy First-modellen                                      | <a href="https://www.england.nhs.uk/primary-care/pharmacy/pharmacy-services/pharmacy-first/">https://www.england.nhs.uk/primary-care/pharmacy/pharmacy-services/pharmacy-first/</a>                                                                                                                                                                 |
+| Canada, Australia, Frankrike og Sveits har utvidet apotekenes ansvar                   | <a href="https://gpo.fip.org/">https://gpo.fip.org/</a>                                                                                                                                                                                                                                                                                             |
