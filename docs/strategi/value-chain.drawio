@@ -1,9 +1,12 @@
 <mxfile host="65bd71144e">
     <diagram id="KhulNWOh6ZCrj-raD0nd" name="økosystem">
-        <mxGraphModel dx="686" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="xnoThjykjK7Eu692T0Zw-3" value="Runtime tjenester&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="570" width="720" height="90" as="geometry"/>
+                </mxCell>
                 <mxCell id="xKit_TpfabmGGuKowgRL-6" value="Distribuerte data&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;align=left;" parent="1" vertex="1">
                     <mxGeometry x="40" y="460" width="720" height="90" as="geometry"/>
                 </mxCell>
@@ -20,22 +23,19 @@
                     <mxGeometry x="40" y="40" width="720" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-2" value="Samhandling/ formidling/varsling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="120" width="50" height="440" as="geometry"/>
-                </mxCell>
-                <mxCell id="TeFL5omvhbVfAXykElzv-3" value="Grunndata" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="374" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="440" y="120" width="50" height="550" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-4" value="Godkjenning og kvalitetssikring" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="600" y="120" width="50" height="440" as="geometry"/>
+                    <mxGeometry x="600" y="120" width="50" height="550" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-6" value="Avtaler" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
                     <mxGeometry x="340" y="154.73000000000002" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-7" value="Autentisering og autorisering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="680" y="120" width="50" height="440" as="geometry"/>
+                    <mxGeometry x="680" y="120" width="50" height="550" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-8" value="Oppdaging og orkestrering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;direction=south;" parent="1" vertex="1">
-                    <mxGeometry x="520" y="120" width="50" height="440" as="geometry"/>
+                    <mxGeometry x="520" y="120" width="50" height="550" as="geometry"/>
                 </mxCell>
                 <mxCell id="TeFL5omvhbVfAXykElzv-9" value="Sandkasse og testing" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
                     <mxGeometry x="200" y="154.73" width="120" height="50" as="geometry"/>
@@ -65,22 +65,40 @@
                     <mxGeometry x="480" y="154.73000000000002" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="xKit_TpfabmGGuKowgRL-8" value="Strategisk styring" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="570" width="220" height="70" as="geometry"/>
+                    <mxGeometry x="40" y="680" width="220" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="xKit_TpfabmGGuKowgRL-9" value="Virkemidler og finansiering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="570" width="220" height="70" as="geometry"/>
+                    <mxGeometry x="290" y="680" width="220" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="xKit_TpfabmGGuKowgRL-10" value="Regelverk og juridisk koordinering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
-                    <mxGeometry x="540" y="570" width="220" height="70" as="geometry"/>
+                    <mxGeometry x="540" y="680" width="220" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="VVHO--vzeyekFK8HYkrx-1" value="Lagring?" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#FFCCCC;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" parent="1" vertex="1">
                     <mxGeometry x="200" y="374" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Språkmodeller og trening av modeller" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="270" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="xnoThjykjK7Eu692T0Zw-2" value="Tilpasning av modellens intensjon" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="485" y="270" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="xnoThjykjK7Eu692T0Zw-4" value="Kontrollmekanismer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="600" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="xnoThjykjK7Eu692T0Zw-5" value="Chat og dialogmotor" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="600" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="xnoThjykjK7Eu692T0Zw-6" value="Grunndata" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="374" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="xnoThjykjK7Eu692T0Zw-7" value="Protokoller for samhandling med deltjenester" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=capability;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="600" width="120" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="yR3UBU6f4qSMuNbV7_kY" name="verdikjede-overordnet">
-        <mxGraphModel dx="686" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -289,7 +307,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="QePevzOGQcMEyxp_wbvx" name="verdikjede-verdi">
-        <mxGraphModel dx="686" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -458,7 +476,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="O3QjiOL2nl1_qWtQnt6R" name="tjeneste-kjede">
-        <mxGraphModel dx="807" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
