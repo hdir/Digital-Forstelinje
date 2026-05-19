@@ -54,13 +54,7 @@ Bare 3 % av helseutgiftene går til forebygging. Ingen klar ansvarslinje. Foreby
 
 Kun 37 % av EMA-godkjente legemidler (2020–2023) var tilgjengelige i Norge per januar 2025. Over 500 dager ventetid fra EU-godkjenning til norsk tilgang. Systemet «Nye Metoder» fungerer ikke etter hensikten — svak klageadgang, lav tillit.
 
-### 9. Feil legemiddelbruk — underinvestert oppfølging
-
-*Apotekforeningen (begge innspill)*
-
-WHO anslår at 30–50 % av pasienter bruker legemidler feil. Koster spesialisthelsetjenesten ~10 mrd. kr/år. 1 av 5 akuttinnleggelser skyldes legemiddelbruk. Farmasøytenes kapasitet utnyttes ikke.
-
-### 10. Kommunene har for svak innovasjonskapasitet
+### 9. Kommunene har for svak innovasjonskapasitet
 
 *SINTEF, Health2B, TEK Norge*
 
@@ -87,6 +81,10 @@ WHO anslår at 30–50 % av pasienter bruker legemidler feil. Koster spesialisth
 **Dignio:** Helsefellesskapene har fragmentert økonomi og ansvar — investering og gevinst havner på ulike nivåer, hemmer skalering av digital hjemmeoppfølging.
 
 **Melanor:** Gjennomsnittlig kun 2,4 tilbud per anskaffelse — kritisk lavt. Pacemaker-eksempel: kontinuerlig digital overvåkning er ikke standard, ikke pga. manglende teknologi men pga. finansiering og styringssignaler.
+
+**Apotekforeningen (begge innspill)**
+
+Feil legemiddelbruk — underinvestert oppfølging. WHO anslår at 30–50 % av pasienter bruker legemidler feil. Koster spesialisthelsetjenesten ~10 mrd. kr/år. 1 av 5 akuttinnleggelser skyldes legemiddelbruk. Farmasøytenes kapasitet utnyttes ikke.
 
 ---
 
@@ -252,21 +250,7 @@ Originalformuleringer fra innspillene som underbygger hvert av de ti gjengangerp
 
 ---
 
-### 9. Feil legemiddelbruk — underinvestert oppfølging (kilde)
-
-**Apotekforeningen (innspill 1):**
-> «Ifølge Helsedirektoratet koster legemiddelrelaterte hendelser spesialisthelsetjenesten alene rundt 10 milliarder kroner årlig. Diakonhjemmet sykehus har dokumentert at én av fem akuttinnleggelser skyldes legemidler pasienten allerede brukte før innleggelsen. Feilbruk av legemidler fører ikke bare til manglende effekt. Feilbruk fører til helseskader og redusert livskvalitet for den enkelte, innleggelser og økt liggetid i sykehus, redusert deltakelse i arbeidslivet og andre effekter med store samfunnskostnader.»
->
-> «Det brukes alt for lite ressurser på å sikre at pasientene faktisk bruker legemidlene i henhold til legens rekvirering og får effekt av legemidlene. Eksempelvis brukes det 1,1 milliarder kroner på inhalasjonslegemidler, men bare 5 millioner på Inhalasjonsveiledning i apotek.»
-
-**Apotekforeningen (innspill 2):**
-> «WHO anslår at 30–50 % av pasienter bruker legemidlene sine feil. Med knapphet på helsepersonell vil det også være færre som kan hjelpe til med å administrere den enkeltes legemidler. I 2025 brukes det legemidler for om lag 50 milliarder kroner, hvorav staten betaler 2/3.»
->
-> «Apotekene (unntatt sykehusapotekene) er en del av primærhelsetjenesten, men apotekene er løst tilknyttet kommunehelsetjenesten. Dette gjør det mer krevende å bruke helsepersonellet i apotek som en integrert del av primærhelsetjenesten. Om lag 7 000 helsepersonell blir dermed stående på sidelinjen.»
-
----
-
-### 10. Kommunene har for svak innovasjonskapasitet (kilde)
+### 9. Kommunene har for svak innovasjonskapasitet (kilde)
 
 **SINTEF:**
 > «De fleste kommuner mangler både kapasitet og strukturer for systematisk innovasjonsarbeid. Primærhelsetjenesten mangler en aktør med en tydelig lederrolle og gjennomføringskraft til å gjøre nødvendige prioriteringer og gjennomføre tiltak på tvers av kommunene. Primærhelsetjenesten blir derfor også den svake part i samarbeidet med spesialisthelsetjenesten. Kapasitetsregnestykkene går ikke opp uten betydelige forsknings- og innovasjonsgrep i primærhelsetjenesten. Her er behovene størst, men omstillingsevnen svakest.»
