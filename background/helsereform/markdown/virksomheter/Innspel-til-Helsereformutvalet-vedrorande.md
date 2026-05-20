@@ -1,0 +1,78 @@
+
+
+# Innspel til Helsereformutvalet vedrørende framtidig organisering av spesialisthelseteneste tilbudet innan voksenpsykiatri og barne og ungdomspsykiatri
+
+På leiarsamling i Helse Vest 18.03.26 presenterte Lars Erik Flatø, dagleg leiar Fagforbundet og medlem i Helsereformutvalet, arbeid og konklusjonar vedrørende framtidig organisering av helsetenestene i Noreg. Utifrå det som vart presentert har direktørane i psykisk helsevern i Helse Vest utarbeidd eit høyringsinnspel til Helsereformutvalet.
+
+Noverande organisering av spesialisthelsetenestene har bidratt til ein positiv satsning og utvikling av behandlingstilbudet innan voksenpsykiatri, tverrfagleg spesialisert rusbehandling og barne og ungdomspsykiatri. Det gjenstår framleis utfordringer som må adresserast, men det er usikkert om ein omorganisering vil vere den rette «medisinen» i så måte. Eit vesentleg moment som ein må ta omsyn til når det gjeld organisering av spesialisthelsetensta, er at helseføretaka må forholde seg til eit stort tal kommunar som har valgt å organisere tenestene sine ulikt og der det er betydelege forskjeller i forhold til kva tenester kommunane tilbyr. Det eksisterer i dag ingen normering av tenestene ute i kommunane, mens det for spesialisthelsetenesta har vore ein tydeleg styring og normering over år som har gjort at ein har utvikla eit heilheitleg tilbud i spesialisthelsetenesta. Ofte kompenserer tilbudet i spesialisthelsetenesta for variasjoner i kommunehelsetenesta. Endringer i organisering av spesialisthelsetenesta må ta omsyn til dette. For eksempel vil ein endring i organisering av DPS i forhold til sjukehusfunksjoner innan psykisk helsevern, der ein organiserer helsetenester i kommunane og DPS i eigne einingar, kunne skape store utfordringer knytta til heilheitlege pasientforløp, oppfølging av pasientar på tvang samt utvikling av bærekraftige fagmiljø. Uavhengig av organisering bør det vere ein minste felles standard for kva et DPS skal ivareta samtidig som ein opner opp for lokale variasjoner som ivaretek lokalsamfunnet sine behov.
+
+Tilbakemelding er forsøkt systematisert ved at ein har gått gjennom helseføretaka sine hovedoppgåver og sett på nytteverdi av noverande organisering og utfordringsbilete.
+
+## Pasientbehandling
+
+Kva har ein oppnådd -
+
+1. **Heilheitlege pasientforløp i spesialisthelsetenesta:** Mange pasientar innan voksenpsykiatri, barne og ungdomspsykiatri og tverrfagleg spesialisert rusbehandling vil ofte ha oppfølging frå ulike deler av behandlingstilbudet i spesialisthelsetenesta avhengig av kva sjukdomsfase dei er i. For å sikre god behandling er samarbeid mellom dei ulike deler av spesialisthelsetenesta avgjerande. Spesielt er dette viktig for pasientar
+
+med alvorlege psykiske liingar som kan ha behov for døginnleggelse både på DPS og sjukehusnivå parallelt med at dei får poliklinisk behandling. Noverande organisering av spesialisthelsetenestene i helseføretaka har gjort det mogleg å etablere gjennomgåande pasientforløp på tvers av sjukehus og DPS nivå samt døgn og poliklinikk som ivaretek dette behovet. Systematisk kvalitetsarbeid, felles digitale løysingar herunder EPJ system og spesialistar som arbeider på tvers av sjukehus og DPS samt døgn og poliklinikk har bidratt sterkt til dette.
+
+2. **Desentralisert behandlingstilbud:** Organisering i helseføretak har gjort det mogleg å sikre eit desentralisert behandlingstilbud med korte ventetider og med få fristbrot. Antall unike pasientar som får utgreiing og behandling i spesialisthelsetenesta har auka betydeleg dei siste 20 åra. For eksempel har ein nådd nasjonal målsetning om ein dekningsgrad på 5% av barnebefolkninga innan barne og ungdomspsykiatri.
+3. **Samhandling kommune og spesialisthelseteneste:** Samarbeidet på tvers av spesialisthelsetenesta og kommunhelsetenesta er betre enn nokon gong med etablering av felles tenester for pasientgrupper i behov for dette. Eksempel på slike tilbod er FACT team VOP, FACTUng, ACT team ([ACT-, FACT- og FACT ung-team - Helsedirektoratet](#)) og samarbeid rundt pasientforløp som «Barn og Unges helseteneste» ([Barn og unges helseteneste - Helse Fonna HF](#)). Etablering av helsefellesskapa har bidratt til å setje fart på samarbeidet mellom spesialisthelsetenesta og kommunehelsetenesta ([Helsefellesskap - Helsedirektoratet](#), [FSU barn og unge -- Et felles nettsted for samhandling mellom kommuner og sykehus i Helse Fonna -regionen](#)) gjennom målbevisst arbeid med utfordringane som oppstår i grenseflata mellom spesialisthelsetensta og kommunehelsetenesta.
+4. **Samhandling somatikk og psykisk helsevern.** Nesten 20% av alle innleggelsar i somatiske sjukehus skuldast skadeleg bruk av rusmidler eller rusavhengighet. Dei fleste pasientar med alvorlege somatiske tilstander har psykiske tilleggslager som dei enten treng behandling for eller råd og veiledning for å kunne mestre. Psykiske helseplager medfører ofte ein forverra prognose i forhold til somatiske sjukdommer. Det er auka fokus på ein heilheitleg tilnærming hjå somatisk sjuke pasientar i sjukehus der ein tar omsyn til betydningen av psykiske helseplager for deira somatiske sjukdomstilstand og behandling av denne. Psykisk helsevern for voksne og barne og ungdomspsykiatri samt tverrfagleg spesialisert rusbehandling spelar ei nøkkelrolle i forhold til dette arbeidet i spesialisthelsetenesta.
+
+## Utfordringar som må løysast - Voksenpsykiatri
+
+Utfordringane som ein har identifisert innan voksenpsykiatri er i hovudsak knytta til kapasitet med omsyn til lukka døgnbehandling på sjukehusnivå i forhold til pasientar med alvorlege psykiske liingar med samtidig rusavhengighet, rehabilitering/habilitering av sikkerhetspasienter samt utvikling av felles tenester på tvers av kommune og spesialisthelseteneste som skal førebyggje utvikling av psykisk sjukdom, sikre tidleg utgreiing og behandling samt at pasientar som er i behandling får eit heilheitleg omsorgs og behandlingstilbud.
+
+Tilgang på lukka døgnbehandlingssplasser på sjukehusnivå er ein utfordring i fleire helseføretak. Ein av årsakene til dette er ein betydeleg auke av andelen menneske som vert dømt til tvungent psykisk helsevern og som opptek ein stadig større andel av lukka døgnbehandlingssplasser på sjukehusnivå. I oppdragsdokumentet er det gjeve føringar på at talet på døgnplassar innan psykisk helsevern for voksne skal aukast. Helseføretaka har som svar på føringar i
+
+oppdragsdokumentet utarbeidd ein plan for å sikre adekvat døgnkapasitet i tenestene. I Helse Vest legg ein opp til ein meir fleksibel utnytting av døgnkapasitet på tvers av sjukehus og DPS samt ein kapasitetsauka. Nasjonalt er det satt ned ei eiga arbeidsgruppe som skal sjå på framtidas DPS og korleis ein betre kan utnytte kapasitet på tvers av DPS og sjukehus. For å kunne sikre adekvat døgnkapasitet er det vesentleg å vidareføre dagens samla organisering av sjukehus og DPS-funksjoner då ein må sjå på den samla sengekapasiteten på tvers av sjukehus og DPS. I mange helseføretak er det etablert brukerstyrte senger. Dette tilbudet kan med fordel overførast til dei kommunale øyeblikkeleg hjelp senger, men erfaringar så langt er at kommunale øyeblikkeleg hjelp senger kun prioriterer pasienter med somatiske tilstandsbilder.
+
+Auke av talet på døgnplasser vil ikkje aleine kunne løyse utfordringane innan sikkerhetspsykiatri med aukande tal menneske dømd til behandling. Ein utfordring i rehabilitering/habilitering i psykisk helsevern er utforming av lovverk knytta til pasientar dømd til psykisk helsevern og tvungent psykisk helsevern utan døgnopphold på tvers av spesialisthelsetenesta og kommunehelsetenesta. Dagens lovverk gjev strenge føringar for utveksling av informasjon mellom helsetenestene og andre viktige aktørar som Politi og barnevern. Vidare er det begrensinger i lov om psykisk helsevern i forhold til pasienter på tvunget vern som hindrar rehabilitering/habilitering ut i samfunnet. Det er behov for å sjå på både lovverk som regulerer taushetsplikt og utlevering av helseopplysninger samt lov om psykisk helsevern i forhold til regulering av tvungent psykisk helsevern utan døgnopphold. Målsetting må vere eit lovverk som understøtter god pasientbehandling og som ivaretek samfunnsvernet. Denne utfordringa vil ikkje løyse seg gjennom å endre dagens organisering av spesialisthelsetensta, men kunne bli vesentleg større dersom ein ikkje vidarefører ein samla organisering av sjukehus og DPS funksjoner som i dag. For eksempel vil ein endring i organisering av DPS i forhold til sjukehusfunksjoner innan psykisk helsevern, der ein organiserer helsetenester i kommunane og DPS i eigne einingar, kunne medføre ein fragmentering av ansvaret for tvang etter psykisk helsevern lov og skape nye grenseflater mellom kommune/DPS og sjukehus.
+
+Det er framleis behov for å betre samhandlinga mellom kommunane og spesialisthelsetenesta i psykiske helsevern for å sikre heilheitlege pasientforløp, trass i at mykje er blitt betre dei siste åra. Først og fremst er det behov for å få på plass ein felles plattform for digital samhandling. Dagens organisering av spesialisthelsetensta har sikra felles digital plattform i spesialisthelsetenesta, men det eksisterer ingen felles digital plattform på tvers av spesialisthelsetenesta og kommunane med omsyn til dei ulike fagsystem. Einaste unntaket er Helseplattformen i Helse Midt. Ein endring av dagens organisering vil ikkje løyse utfordringa med korkje felles digital plattform eller behov for forbetra samhandling, snarare skape nye barrierar.
+
+## Utfordringar som må løysast – BUP
+
+Innan barne og ungdomspsykiatri så er det utfordringer knytta til kapasitet innan poliklinisk utgreiing og behandling samt utvikling av felles tenester på tvers av kommune og speislisthelseteneste som skal førebyggje utvikling av psykisk sjukdom, sikre tidleg utgreiing og behandling samt at pasientar som er i behandling får eit heilheitleg omsorgs og behandlingstilbud. Barne og ungdomspsykiatri har ein lang tradisjon med tett samarbeid både med kommunehelsetensta, skule og barnevern. I Helse Vest har dette resultert i «Barn og Unges helseteneste» og samarbeidsprosjekt rundt vurderingssamtaler og digital behandling. Erfaringar så langt er at dette bidrar til at spesialisthelseteneste og kommunehelseteneste kan tilby
+
+verksame og gode tenester til befolkninga uavhengig av behandlingsnivå. Det som i størst grad begrenser det barne og ungdomspsykiatriske helsetilbudet på tvers av spesialist og kommunehelsetenesta er altså ikkje dagens organisering av tenestene, men utfordringer knytta til manglande felles digital plattform på tvers av kommunehelseteneste, spesialisthelseteneste, utdanningssektoren og barnevern. Vidare er ikkje helse-loverket tilrettelagt for praktisk samhandling i dei einskilde pasientforløp. Dagens loverk gjev strenge føringar for utveksling av informasjon mellom helsetenestene, kommunehelsetenesta, barnevern og utdanningssektoren. Utfordringane lar seg ikkje løyse gjennom ein endra organisering av tenestene, men det vil vere behov for ein tydelegare styring i forhold til utvikling av felles digital plattform på tvers av kommuner og inn mot spesialisthelsetenesta og utdanningssektoren samt endringer i loverk som regulerer taushetsplikt og utlevering av helseopplysninger for å understøtte gode og forsvarlege pasientforløp.
+
+### Utdanning og rekruttering:
+
+Ei av hovedoppgåvene til helseføretaka er å utdanne helsepersonell. Spesialistutdanning for leger er ressurskrevjande. Det er etablert regionale oppfølging av dette gjennom REGUT samt satt av betydelege ressurser til dette i dei einskilde helseføretak. Innan barne og ungdomspsykiatri og voksenpsykiatri må utdanningskandidater innom ulike deler av tenestetilbudet i spesialisthelsetenesta for å oppnå alle læringsmål knytta til spesialistutdanning. Ein del av læringsaktivitetane er felles med spesialiteter innan ulike somatiske fagområder. I forhold til spesialistutdanning av leger så vil det vere vesentleg at noverande organisering med somatiske fagområder og psykisk helsevern vert vidareført. Ein oppdeling av psykisk helsevern der sjukehusfunksjoner og DPS funksjoner blir organisert ulikt og uavhengig av somatiske fagområder vil medføre betydelege utfordringer knytta til å oppretthalde kvalitet på spesialistutdanninga.
+
+I forhold til rekruttering har dagens modell for organisering av spesialisthelsetenesta gjort det mogleg å etablere robuste fagmiljø i rurale områder. Ved å samordne spesialisthelseteneste tilbudet på tvers av døgnstilbud, poliklinikk, sjukehus og DPS både innan voksenpsykiatri, tverrfagleg spesialisert rusbehandling og barne og ungdomspsykiatri så har ein greidd å skape fagmiljøer som virker rekrutterande. Einskilde spesialister har då ofte fleire funksjoner inn både mot døgnbehandling, ambulant behandling og poliklinikk. Ein endring i organisering av tenestene der ein for eksempel organiserer DPS funksjoner saman med kommunale tenester vil medføre utfordringer med å skape robuste fagmiljø og oppretthalde det behandlingstilbudet ein i dag har i spesialisthelsetnesta.
+
+### Forskning:
+
+Det har vore ein betydeleg satsning på forskning innan psykisk helsevern og tverrfagleg spesialisert rusbehandling i helseføretaka. Gjennom samarbeid mellom dei ulike helseføretaka regionalt har ein lagt til rette for kliniske forskningsprosjekter som kjem pasientane direkte til gode. Eksempel på dette er EBehandling ([eBehandling - Helse Vest RHF](#)) og Ungmeistring ([Om Ung Meistring - Forhelse](#)). Forskning i helseføretaka skjer på alle nivå frå sjukehus til DPS i voksenpsykiatri og på tvers av døgn og poliklinikk i barne og ungdomspsykiatri. Fleire forskningsprosjekter involverer og kommunale tenester. Hovedårsaken til at ein har lukkast med satsning på forskning er etablering av forskningsgrupper på tvers av nivå i helseføretaka og
+
+regionalt som er tett knytta opp til universiteta. Organisering av spesialisthelsetensta vil derfor ha betydning for forskningsaktivitet. Det vil vere vesentleg å sikre at dei ulike deler av spesialisthelsetenesta er samorganiserte og i framtida for å kunne leggjast til rette for forskningsgrupper og forskning på tvers med tett samarbeid opp mot utdanningssektoren.
+
+### Økonomi:
+
+- **ISF:** Innsatsstyrt finansiering er ein annan utfordring i forhold til samhandling mellom kommunehelsetensta og spesialisthelsetensta. Det er ikkje samsvar mellom kva som er til pasienten sitt beste i form av samhandling, og den økonomiske kompensasjonen for dette. Ved mål om økt samhandling, bør dei økonomiske insitamentene gjennomgåast, uansett kva organisering det landes på.
+- **Helseforetaksmodellen:** I dagens modell, der RHF og HF sjølv fordelar økonomiske midler internt, ser vi at ein i praksis har vanskeleg for å prioritere ned behov innan somatikken, og dermed ikkje oppnår dei politiske måla om å prioritere opp behov innan psykisk helsevern. Det kan opplevast som om det i dagens modell i praksis er for lang vei frå politisk beslutning, til ynskja mål, og at dette særskilt går ut over psykisk helsevern og TSB. Det må tydelegare styring på plass for å sikre prioritering av barne og ungdomspsykiatri, voksenpsykiatri og tverrfagleg spesialisert rusbehandling uavhengig av modell for organisering.
+
+Randi Louise Møgster, Direktør
+
+Kenneth Eikeset, Klinikkdirektør
+
+Divisjon psykisk helse, Helse Bergen HF
+
+Klinikk for psykisk helsevern og rus  
+Helse Fonna HF
+
+Sølve Braut, Klinikksjef
+
+Lotte Hansgaard, Klinikksjef
+
+Klinikk psykisk helsevern voksne, Helse Stavanger HF
+
+Klinikk PH barn, unge og rusavhengige,  
+Helse Stavanger HF
+
+Børge Tvedt, Direktør
+
+Psykisk helsevern, Helse Førde HF
