@@ -80,8 +80,6 @@ Helsepersonellorganisasjoner, fagforbund og enkeltpersoner med helsefaglig bakgr
 | Innspill-til-Helsereformutvalget_Kommuneoverlegeforum-Helgeland.md | Kommuneoverlegeforum Helgeland |
 | Privatperson-Peter-Daniel-Aune-i-Levanger-kommune.md | Privatperson Peter Daniel Aune |
 | Privatperson-Veronica-Berg-radiologi-HelseNord.md | Privatperson Veronica Berg (radiolog, Helse Nord) |
-| Privatpersons-Kommentar-til-Helsereformutvalget-Jon-Einar-Nielsen.md | Privatperson Jon Einar Nielsen |
-| Jon-HovdaX.md | Jon Hovda (enkeltperson) |
 | Brev_Helsereformkommisjonen_2026-Knut-Borch.md | Knut Borch (kirurg, UNN Harstad) |
 | Innspill-fra-Arvid-Rongve-Helse-Fonna-og-UiB.md | Arvid Rongve (Helse Fonna / UiB) |
 | Helsereformutvalget-innspill.md | IT-utvalget / fastleger (Legeforeningen, klinisk informatikk) |
@@ -147,3 +145,12 @@ Kommuner, fylkeskommuner og KS.
 | Innspel-helsereformutvalet_Sunnmore-regionrad.md | Sunnmøre regionråd |
 | signert-innspill-til-helsereformutvalget-fra-snr.md | Samarbeidsrådet for Nedre Romerike (SNR) |
 | Innspill-til-Helsereformutvalget-om-dagens-utfordringsbilde-fra-helseadministrasjonen-i-Drammen-kommune.md | Helseadministrasjonen i Drammen kommune |
+
+## Usortert
+
+Privatpersoner uten kjent tilknytning til helsevesenet.
+
+| Fil | Organisasjon/avsender |
+|-----|-----------------------|
+| Privatpersons-Kommentar-til-Helsereformutvalget-Jon-Einar-Nielsen.md | Privatperson Jon Einar Nielsen |
+| Jon-HovdaX.md | Jon Hovda (enkeltperson) |
