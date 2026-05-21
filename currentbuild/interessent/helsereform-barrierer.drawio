@@ -1,0 +1,445 @@
+<mxfile host="65bd71144e">
+    <diagram id="leverandor-barrierer" name="leverandør-gjenganger">
+        <mxGraphModel dx="602" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Leverandører" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="360" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Finansieringsmodellen belønner aktivitet, ikke effekt/utfall" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="500" y="35" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Manglende skalering fra pilot til drift" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="712" y="112" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Svak og fragmentert digital samhandling / dataflyt" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="825" y="308" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Komplekse og lite verdiskapende anskaffelsesprosesser" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="786" y="530" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Svak offentlig-privat samhandling og for lite sektoråpning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="613" y="675" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Personellmangel og feil bruk av eksisterende kompetanse" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="387" y="675" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Manglende forebygging — ingen eier ansvaret" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="214" y="530" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Sen og uforutsigbar tilgang til nye legemidler og metoder" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="175" y="308" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Kommunene har for svak innovasjonskapasitet" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;" parent="1" vertex="1">
+                    <mxGeometry x="288" y="112" width="200" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="html=1;endArrow=none;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="html=1;endArrow=none;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="html=1;endArrow=none;" parent="1" source="2" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="html=1;endArrow=none;" parent="1" source="2" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="html=1;endArrow=none;" parent="1" source="2" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;endArrow=none;" parent="1" source="2" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="html=1;endArrow=none;" parent="1" source="2" target="9" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="html=1;endArrow=none;" parent="1" source="2" target="10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="html=1;endArrow=none;" parent="1" source="2" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="kommuner-barrierer" name="kommuner-gjenganger">
+        <mxGraphModel dx="713" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+            <root>
+                <mxCell id="100"/>
+                <mxCell id="101" parent="100"/>
+                <mxCell id="102" value="Kommuner" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="450" y="320" width="180" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="Manglende digital samhandling og fragmentert IKT-infrastruktur" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="430" y="10" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Svak og asymmetrisk samhandling mellom kommuner og spesialisthelsetjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="650" y="80" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Finansieringsmodellen skaper gale insentiver mellom nivåene" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="730" y="240" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="Oppgaveglidning fra spesialist til kommuner uten tilstrekkelig finansiering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="650" y="430" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="Ulikhet i tjenestetilbudet basert på geografi og kommunestørrelse" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="430" y="520" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="Svak beredskapskapasitet i normaldrift" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="200" y="430" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Helsefellesskapene fungerer for dårlig" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="120" y="240" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Juridisk rammeverk hemmer samhandling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="200" y="80" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Mangel på helsepersonell og kompetanse – særlig i distriktene" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="101" vertex="1">
+                    <mxGeometry x="260" y="160" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="" style="html=1;endArrow=none;" parent="101" source="102" target="103" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="" style="html=1;endArrow=none;" parent="101" source="102" target="104" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="html=1;endArrow=none;" parent="101" source="102" target="105" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="" style="html=1;endArrow=none;" parent="101" source="102" target="106" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="" style="html=1;endArrow=none;" parent="101" source="102" target="107" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="html=1;endArrow=none;" parent="101" source="102" target="108" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="" style="html=1;endArrow=none;" parent="101" source="102" target="109" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="" style="html=1;endArrow=none;" parent="101" source="102" target="110" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="" style="html=1;endArrow=none;" parent="101" source="102" target="111" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="uniforsk-barrierer" name="universitet og forskning-gjenganger">
+        <mxGraphModel dx="713" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+            <root>
+                <mxCell id="200"/>
+                <mxCell id="201" parent="200"/>
+                <mxCell id="202" value="Universitet og forskning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="400" y="350" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="Manglende praksisplasser og svak utdanningskapasitet i kommunehelsetjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="350" y="10" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="Svak kobling mellom utdanning og tjenesteutvikling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="700" y="70" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="Underutnyttelse av fagkompetanse hos audiografer og optikere" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="820" y="290" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="Fragmentert organisering og manglende nasjonale retningslinjer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="700" y="490" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="Geografisk ulikhet og svak tilgang i distrikt" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="350" y="640" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="208" value="Manglende digital informasjonsflyt og dobbeltundersøkelser" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="80" y="490" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="Svak forskning og kunnskapsbase i primærhelsetjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="70" y="290" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="Helseforetaksmodellens styrings- og åpenhetsproblemer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="201" vertex="1">
+                    <mxGeometry x="180" y="70" width="230" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="211" value="" style="html=1;endArrow=none;" parent="201" source="202" target="203" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="" style="html=1;endArrow=none;" parent="201" source="202" target="204" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="" style="html=1;endArrow=none;" parent="201" source="202" target="205" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="" style="html=1;endArrow=none;" parent="201" source="202" target="206" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="" style="html=1;endArrow=none;" parent="201" source="202" target="207" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="216" value="" style="html=1;endArrow=none;" parent="201" source="202" target="208" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="217" value="" style="html=1;endArrow=none;" parent="201" source="202" target="209" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="218" value="" style="html=1;endArrow=none;" parent="201" source="202" target="210" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="virksomheter-barrierer" name="virksomheter i helsesektoren-gjenganger">
+        <mxGraphModel dx="839" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+            <root>
+                <mxCell id="300"/>
+                <mxCell id="301" parent="300"/>
+                <mxCell id="302" value="Virksomheter i helsesektoren" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="380" y="340" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="303" value="Ideelle aktørers rammebetingelser: priskonkurranser og korte kontrakter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="300" y="10" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="304" value="Fragmenterte pasientforløp og svak samhandling mellom nivåer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="620" y="55" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="305" value="TSB og psykisk helsevern underfinansiert og nedprioritert" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="800" y="240" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="306" value="Manglende digital samhandling og fragmenterte IT-systemer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="650" y="480" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="307" value="Geografisk ulikhet i tjenestetilbud" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="350" y="650" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="308" value="Rehabilitering nedprioritert i helsetjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="50" y="480" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="309" value="ISF fremmer ikke samhandling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="50" y="240" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="310" value="Rekrutteringsutfordringer og mangel på helsepersonell" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="180" y="50" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="311" value="«The missing middle» – pasienter som faller mellom nivåer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="300" y="720" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="312" value="Uklart ansvar og manglende forpliktende strukturer i samhandlingen" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="301" vertex="1">
+                    <mxGeometry x="630" y="720" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="313" value="" style="html=1;endArrow=none;" parent="301" source="302" target="303" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="314" value="" style="html=1;endArrow=none;" parent="301" source="302" target="304" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="315" value="" style="html=1;endArrow=none;" parent="301" source="302" target="305" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="316" value="" style="html=1;endArrow=none;" parent="301" source="302" target="306" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="317" value="" style="html=1;endArrow=none;" parent="301" source="302" target="307" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="318" value="" style="html=1;endArrow=none;" parent="301" source="302" target="308" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="319" value="" style="html=1;endArrow=none;" parent="301" source="302" target="309" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="320" value="" style="html=1;endArrow=none;" parent="301" source="302" target="310" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="321" value="" style="html=1;endArrow=none;" parent="301" source="302" target="311" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="322" value="" style="html=1;endArrow=none;" parent="301" source="302" target="312" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="direktorater-barrierer" name="direktorater og kunnskapsorganer-gjenganger">
+        <mxGraphModel dx="839" dy="1058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+            <root>
+                <mxCell id="400"/>
+                <mxCell id="401" parent="400"/>
+                <mxCell id="402" value="Direktorater og kunnskapsorganer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;align=center;verticalAlign=middle;" parent="401" vertex="1">
+                    <mxGeometry x="420" y="330" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="403" value="Koordineringssvikt og fragmenterte pasientforløp mellom nivåer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="401" vertex="1">
+                    <mxGeometry x="420" y="30" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="404" value="Finansieringssystemet fremmer ikke forebygging, ny teknologi eller samarbeid" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="401" vertex="1">
+                    <mxGeometry x="730" y="175" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="405" value="Mangel på kompetanse og uønsket variasjon i kommunehelsetjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="401" vertex="1">
+                    <mxGeometry x="640" y="490" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="406" value="Helsedata: fragmentert, utilgjengelig og underutnyttet" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="401" vertex="1">
+                    <mxGeometry x="200" y="490" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="407" value="Svake insentiver til forskning og innovasjon i primærhelsetjenesten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="401" vertex="1">
+                    <mxGeometry x="110" y="175" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="408" value="" style="html=1;endArrow=none;" parent="401" source="402" target="403" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="409" value="" style="html=1;endArrow=none;" parent="401" source="402" target="404" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="410" value="" style="html=1;endArrow=none;" parent="401" source="402" target="405" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="411" value="" style="html=1;endArrow=none;" parent="401" source="402" target="406" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="412" value="" style="html=1;endArrow=none;" parent="401" source="402" target="407" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="ideelle-barrierer" name="ideelle organisasjoner-gjenganger">
+        <mxGraphModel dx="713" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="980" math="0" shadow="0">
+            <root>
+                <mxCell id="500"/>
+                <mxCell id="501" parent="500"/>
+                <mxCell id="502" value="Ideelle organisasjoner" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="430" y="410" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="503" value="Fragmenterte pasientforløp og svak samhandling mellom tjenestenivåer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="430" y="20" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="504" value="Rehabilitering og habilitering nedprioritert og underfinansiert" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="780" y="120" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="505" value="Psykisk helse og rus nedprioritert – foretaksmodellen virker mot intensjonen" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="960" y="415" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="506" value="Overgang barn–voksen helsetjeneste svikter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="780" y="700" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="507" value="Geografisk ulikhet i tjenestetilbud" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="430" y="810" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="508" value="Finansiering fremmer ikke samhandling, forebygging eller koordinering" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="80" y="700" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="509" value="Ideelle aktørers rammevilkår svekker kontinuitet og tjenestekvalitet" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="100" y="415" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="510" value="Pårørende bærer usynlige kostnader systemet ikke anerkjenner" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="80" y="120" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="511" value="Digital samhandling og informasjonsflyt svikter mellom nivåer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="501" vertex="1">
+                    <mxGeometry x="780" y="280" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="512" value="" style="html=1;endArrow=none;" parent="501" source="502" target="503" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="513" value="" style="html=1;endArrow=none;" parent="501" source="502" target="504" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="514" value="" style="html=1;endArrow=none;" parent="501" source="502" target="505" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="515" value="" style="html=1;endArrow=none;" parent="501" source="502" target="506" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="516" value="" style="html=1;endArrow=none;" parent="501" source="502" target="507" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="517" value="" style="html=1;endArrow=none;" parent="501" source="502" target="508" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="518" value="" style="html=1;endArrow=none;" parent="501" source="502" target="509" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="519" value="" style="html=1;endArrow=none;" parent="501" source="502" target="510" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="520" value="" style="html=1;endArrow=none;" parent="501" source="502" target="511" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="helsepersonell-barrierer" name="helsepersonell-gjenganger">
+        <mxGraphModel dx="713" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="940" math="0" shadow="0">
+            <root>
+                <mxCell id="600"/>
+                <mxCell id="601" parent="600"/>
+                <mxCell id="602" value="Helsepersonell" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="490" y="395" width="220" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="603" value="Fragmenterte pasientforløp og svak samhandling mellom tjenestenivåene" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="490" y="20" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="604" value="Forebygging og rehabilitering underfinansiert og nedprioritert" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="490" y="775" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="605" value="Dårlige og fragmenterte IT-systemer og manglende digital samhandling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="860" y="100" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="606" value="Finansieringsmodellen belønner aktivitet fremfor utfall og kvalitet" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="860" y="280" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="607" value="Underfinansiering og manglende investeringer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="860" y="460" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="608" value="Geografisk ulikhet i tjenestetilbud" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="860" y="640" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="609" value="Mangel på personell og rekrutteringsutfordringer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="120" y="100" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="610" value="Mangel på nasjonale standarder, kvalitetssikring og registerdata" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="120" y="280" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="611" value="Uklare grensesnitt og glidende oppgaveoverføring fra spesialist til primærhelsetjeneste" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="120" y="460" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="612" value="Høyt arbeidspress, dokumentasjonskrav og administrativ belastning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="120" y="640" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="613" value="Nedbygging av psykiatrisk kapasitet og svikt i psykisk helsevern" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="601" vertex="1">
+                    <mxGeometry x="490" y="210" width="220" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="614" value="" style="html=1;endArrow=none;" parent="601" source="602" target="603" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="615" value="" style="html=1;endArrow=none;" parent="601" source="602" target="604" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="616" value="" style="html=1;endArrow=none;" parent="601" source="602" target="605" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="617" value="" style="html=1;endArrow=none;" parent="601" source="602" target="606" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="618" value="" style="html=1;endArrow=none;" parent="601" source="602" target="607" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="619" value="" style="html=1;endArrow=none;" parent="601" source="602" target="608" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="620" value="" style="html=1;endArrow=none;" parent="601" source="602" target="609" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="621" value="" style="html=1;endArrow=none;" parent="601" source="602" target="610" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="622" value="" style="html=1;endArrow=none;" parent="601" source="602" target="611" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="623" value="" style="html=1;endArrow=none;" parent="601" source="602" target="612" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="624" value="" style="html=1;endArrow=none;" parent="601" source="602" target="613" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
