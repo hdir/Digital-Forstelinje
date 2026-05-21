@@ -8,4 +8,4 @@ title: Motivasjon - Concerns fra innspill helsereformutvalget
 
 Barrierer som er påpekt i innspill til helsereformutvalget fra leverandører og andre interessenter fra næringslivet.
 
-![Leverandør - Gjengangerbarrierer](helsereform-leverandor-barrierer.drawio)
+![leverandør-gjenganger](helsereform-barrierer.drawio)
