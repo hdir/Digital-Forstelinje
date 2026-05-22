@@ -4,6 +4,14 @@ title: Motivasjon - Concerns fra innspill helsereformutvalget
 
 # Concerns fra innspill helsereformutvalget
 
+Analyse av inspill til helsereformutvalget. Hovedformålet var å oppsummere problemer og barrierer som ble påpekt av ulike interessenter og grupper av interessenter. Diagrammene oppsummerer barrierer og problemer gitt fra ulike grupper av interessenter. Diagrammene baserer seg på en tekstlig oppsummering av innspillene med henvisning til orgiginalteksten og hvilke aktører som har kommet med ulike innspill. De tekstlige oppsummeringene ligger [her](https://github.com/hdir/Digital-Forstelinje/tree/main/background).
+
+## Oppsummering av alle inspill
+
+Innspill om barrierer og problemer som er påpekt fra flere grupper av interessenter til helsereformutvalget.
+
+![interessenter-gjenganger](helsereform-barrierer.drawio)
+
 ## Concerns for industri/leverandører
 
 Barrierer som er påpekt i innspill til helsereformutvalget fra leverandører og andre interessenter fra næringslivet.
