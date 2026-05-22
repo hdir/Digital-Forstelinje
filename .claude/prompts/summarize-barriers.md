@@ -1,5 +1,7 @@
 ## Input 
+
 Given the input from stakeholders collected in the directory background\helsereform\markdown\virksomheter
+
 * Each file contains input from one stakeholder
 
 ## Tasks
