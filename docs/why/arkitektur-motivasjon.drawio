@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="4i1tIy7PnkKh6Ib2sM68" name="arkitekturmotivasjon">
-        <mxGraphModel dx="2190" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="962" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -263,7 +263,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="C4_Aklt4fzfHQmkYk3Lm" name="motivasjon-enkel">
-        <mxGraphModel dx="2190" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="962" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -338,6 +338,17 @@
                 </mxCell>
                 <mxCell id="WKxpOIt4ba3SkUK8lHkn-1" value="Data objekt" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#99ffff;shape=mxgraph.archimate3.businessObject;overflow=fill;" parent="1" vertex="1">
                     <mxGeometry x="790" y="220" width="150" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="kVqC_FHprEK2qO6GUZ7b" name="Page-3">
+        <mxGraphModel dx="962" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2GSJAVYTecqBmpmiLgoL-1" value="Verdikjede" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="160" width="150" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
