@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="GwMaOcinR9aT1UnFt0KR" name="value-chain-produktutvikling">
+        <mxGraphModel dx="1461" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Produkt ide og utvikling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="80" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Kvalitetssikring og godkjenning" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="80" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Markedsføring, distribusjon og salg" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="80" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Avtale" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="80" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Betaling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="80" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Drift og vedlikehold" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="200" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Erfaring" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="200" width="150" height="75" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
