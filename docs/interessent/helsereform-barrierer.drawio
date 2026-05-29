@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="leverandor-barrierer" name="leverandør-gjenganger">
-        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+        <mxGraphModel dx="1461" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -449,12 +449,12 @@
         </mxGraphModel>
     </diagram>
     <diagram id="interessenter-barrierer" name="interessenter-gjenganger">
-        <mxGraphModel dx="1324" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+        <mxGraphModel dx="1008" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
             <root>
                 <mxCell id="700"/>
                 <mxCell id="701" parent="700"/>
                 <mxCell id="702" value="Interessenter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=role;archiType=oct;align=center;verticalAlign=middle;" parent="701" vertex="1">
-                    <mxGeometry x="460" y="320" width="180" height="70" as="geometry"/>
+                    <mxGeometry x="490" y="320" width="180" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="703" value="Fragmenterte pasientforløp og svak samhandling mellom tjenestenivåene" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=assess;archiType=oct;align=center;verticalAlign=middle;" parent="701" vertex="1">
                     <mxGeometry x="90" y="120" width="220" height="90" as="geometry"/>
