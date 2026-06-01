@@ -13,7 +13,9 @@ nav:
       - Innspill helsereformutvalget: interessent/helsereform.md
     - Verdikjede og strategi:
       - strategi/index.md
-      - Verdikjede: strategi/value-chain.md
+      - Verdikjede Innbygger: strategi/value-chain.md
+      - Verdikjede leverandør: strategi/value-chain-applev.md
+      - Tiltak i programmet: strategi/tiltak-kapabiliteter.md
     - Applikasjonsarkitektur:
       - application/index.md
     - Motivasjon for virksomhetsarkitektur:

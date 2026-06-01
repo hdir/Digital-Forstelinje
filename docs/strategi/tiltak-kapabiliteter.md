@@ -2,7 +2,7 @@
 title: Tiltak og kapabiliteter
 ---
 
-Vise de viktigste prosjektene og tiltakene som skal realisere ulike kapabiltiter som er nødvendig for å realisere en sammenhengende digital førstelinje.
+Handler om intern organisering av digital førstelinje og prosjektene rundt. Modellene skal vise de viktigste prosjektene og tiltakene som skal realisere ulike kapabiltiter som er nødvendig for å realisere en sammenhengende digital førstelinje.
 
 ## Psyk helse og rus porteføljen
 
