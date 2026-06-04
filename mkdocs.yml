@@ -14,7 +14,7 @@ nav:
     - Verdikjede og strategi:
       - strategi/index.md
       - Verdikjede Innbygger: strategi/value-chain.md
-      - Verdikjede leverandør: strategi/value-chain-applev.md
+      - Verdikjede leverandør: strategi/value-chain-apper.md
       - Tiltak i programmet: strategi/tiltak-kapabiliteter.md
     - Applikasjonsarkitektur:
       - application/index.md
