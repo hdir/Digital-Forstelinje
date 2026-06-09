@@ -8,7 +8,7 @@ Arkitekturskisser for området digital førstelinje. Fokuset er å få oversikt 
 
 > Innholdet er under arbeid og ikke noe som publiseres her er å regne som normativt.  
 
-![verdikjede-verdi](strategi/value-chain.drawio)
+![verdikjede-maal](strategi/value-chain.drawio)
 
 Planen er å vise:  
 
