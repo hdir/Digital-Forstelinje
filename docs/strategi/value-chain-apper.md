@@ -12,11 +12,16 @@ Hypoteser knyttet til hvilke verdi arbeidet med digital førstelinje kan gi til 
 
 ## Verdikjede innbygger
 
-KOMMER: Hvilken verdi får innbygger av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.
+KOMMER: Hvilken verdi får innbygger av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.  
+
+![verdikjede-pasient](value-chain.drawio)
 
 ## Verdikjede helsepersonell
 
-KOMMER: Hvilken verdi får helsepersonell av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.
+KOMMER: Hvilken verdi får helsepersonell av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.  
+
+![verdikjede-helsepersonell](value-chain.drawio)
+
 
 ## Verdikjede helsevirksomheter
 
