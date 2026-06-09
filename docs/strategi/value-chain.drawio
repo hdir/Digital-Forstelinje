@@ -842,7 +842,7 @@
                     <mxGeometry x="770" y="50" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="Ewt-2GHIlFxj87s593cp-3" value="Automatisering" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
-                    <mxGeometry x="70" y="380" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="210" y="50" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="Ewt-2GHIlFxj87s593cp-4" value="Riktig helsehjelp til innbygger" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
                     <mxGeometry x="350" y="50" width="120" height="50" as="geometry"/>
@@ -860,12 +860,6 @@
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="850" y="210" as="sourcePoint"/>
                         <mxPoint x="150" y="210" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="Ewt-2GHIlFxj87s593cp-8" value="" style="html=1;endArrow=none;elbow=vertical;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ewt-2GHIlFxj87s593cp-3" target="Ewt-2GHIlFxj87s593cp-5">
-                    <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="500" y="430" as="sourcePoint"/>
-                        <mxPoint x="660" y="430" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
             </root>
