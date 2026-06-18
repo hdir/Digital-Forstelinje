@@ -17,3 +17,9 @@ Noen kapabiliteter som er nødvendige for å fasilistere et økosystem av tjenes
 Hvordan levere tjenester til innbygger og knytte tjenesteforløp sammen med standardiserte data og hendelser.
 
 ![tjeneste-kjede](value-chain.drawio)
+
+## Økosystem livsløp
+
+Noen kapabiliteter som er nødvendige for å fasilistere et livsløp for applikasjoner i et økosysetm
+
+![kapabilitetskart-okosystem](value-chain.drawio)
