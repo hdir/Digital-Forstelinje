@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="leverandor-barrierer" name="leverandør-gjenganger">
-        <mxGraphModel dx="647" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+        <mxGraphModel dx="1490" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -449,7 +449,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="interessenter-barrierer" name="interessenter-gjenganger">
-        <mxGraphModel dx="2158" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
+        <mxGraphModel dx="1490" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
             <root>
                 <mxCell id="700"/>
                 <mxCell id="701" parent="700"/>
