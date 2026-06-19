@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="helsepersonell-barrierer" name="helsepersonell barrierer">
-        <mxGraphModel dx="1490" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="332" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -77,7 +77,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="interessenter-barrierer" name="interessenter barrierer">
-        <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="332" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="100"/>
                 <mxCell id="101" parent="100"/>
@@ -136,7 +136,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="interessenter-drivers" name="interessenter-drivers">
-        <mxGraphModel dx="500" dy="422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="833" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="200"/>
                 <mxCell id="201" parent="200"/>
@@ -215,14 +215,14 @@
                 <mxCell id="269" value="" style="html=1;endArrow=none;rounded=0;" parent="201" source="250" target="252" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="OdYoaBc4Z0CiXsBB9SdR-269" value="GPT 5.3" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=sysSw;archiType=square;" vertex="1" parent="201">
+                <mxCell id="OdYoaBc4Z0CiXsBB9SdR-269" value="GPT 5.3" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=sysSw;archiType=square;" parent="201" vertex="1">
                     <mxGeometry x="40" y="40" width="150" height="75" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="interessenter-drivers-sonnet" name="interessenter-drivers-sonnet">
-        <mxGraphModel dx="648" dy="1249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="332" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="300"/>
                 <mxCell id="301" parent="300"/>
@@ -331,7 +331,7 @@
                 <mxCell id="374" value="" style="html=1;endArrow=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="301" source="344" target="345" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="J2stvwI8H5nrewLNoAHz-374" value="Claude sonnet 2.6" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=sysSw;archiType=square;" vertex="1" parent="301">
+                <mxCell id="J2stvwI8H5nrewLNoAHz-374" value="Claude sonnet 2.6" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=sysSw;archiType=square;" parent="301" vertex="1">
                     <mxGeometry x="30" y="-75" width="150" height="75" as="geometry"/>
                 </mxCell>
             </root>
