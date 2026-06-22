@@ -1,5 +1,5 @@
 ---
-title: Verdikjede apper og verktøy
+title: Verdikjede for apper og verktøy
 ---
 
 Forenklet verdikjede med noen viktige kapabiliteter som må bygges/videreutvikles for interessenter som skal bygge, bruke eller forskrive applikasjoner for egenbehandling, selvhjelp og forebygging.  
@@ -12,17 +12,19 @@ Hypoteser knyttet til hvilke verdi arbeidet med digital førstelinje kan gi til 
 
 ## Verdikjede innbygger
 
-KOMMER: Hvilken verdi får innbygger av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.  
+Hvilken verdi får innbygger av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.  
 
 ![verdikjede-pasient](value-chain.drawio)
 
 ## Verdikjede helsepersonell
 
-KOMMER: Hvilken verdi får helsepersonell av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.  
+Hvilken verdi får helsepersonell av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.  
 
 ![verdikjede-helsepersonell](value-chain.drawio)
 
 
 ## Verdikjede helsevirksomheter
 
-KOMMER: Hvilken verdi får helsevirksomhetene av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.
+Hvilken verdi får helsevirksomhetene av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.
+
+![verdikjede-virksomheter](value-chain.drawio)

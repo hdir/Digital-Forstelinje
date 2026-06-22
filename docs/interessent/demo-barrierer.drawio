@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="helsepersonell-barrierer" name="helsepersonell barrierer">
-        <mxGraphModel dx="332" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1057" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -77,7 +77,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="interessenter-barrierer" name="interessenter barrierer">
-        <mxGraphModel dx="332" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1057" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="100"/>
                 <mxCell id="101" parent="100"/>
@@ -136,7 +136,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="interessenter-drivers" name="interessenter-drivers">
-        <mxGraphModel dx="833" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1057" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="200"/>
                 <mxCell id="201" parent="200"/>
@@ -222,7 +222,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="interessenter-drivers-sonnet" name="interessenter-drivers-sonnet">
-        <mxGraphModel dx="332" dy="1326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1057" dy="1678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="300"/>
                 <mxCell id="301" parent="300"/>
