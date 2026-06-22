@@ -18,13 +18,13 @@ Hvilken verdi får innbygger av et bedre tilbud av digitale verktøy for egenbeh
 
 ## Verdikjede helsepersonell
 
-Hvilken verdi får helsepersonell av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.  
+Hvilken verdi får helsepersonell av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging. 
 
 ![verdikjede-helsepersonell](value-chain.drawio)
 
 
 ## Verdikjede helsevirksomheter
 
-Hvilken verdi får helsevirksomhetene av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging.
+Hvilken verdi får helsevirksomhetene av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging og et solid økosystem for å finne og ta i bruk slike verktøy i egen virksomhet. Økosystemet skal gjøre det mulig for helsevirksomhetene ta i bruk digitale verktøy på en kostnadseffektiv måte og sikre at verktøy kan tas i bruk og fungere som en integrert del av helsetjenestene som virksomhetene tilbyr.
 
 ![verdikjede-virksomheter](value-chain.drawio)
