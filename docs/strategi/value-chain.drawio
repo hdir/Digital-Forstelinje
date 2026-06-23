@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="KhulNWOh6ZCrj-raD0nd" name="økosystem">
-        <mxGraphModel dx="1181" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="712" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -307,7 +307,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="QePevzOGQcMEyxp_wbvx" name="verdikjede-maal">
-        <mxGraphModel dx="1129" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="712" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -574,7 +574,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="kD5SVFTxomVVtew1QQYn" name="verdikjede-pasient">
-        <mxGraphModel dx="1129" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="712" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -704,55 +704,55 @@
                 <mxCell id="vUo9fFcne8-G4kXsT4NR-1" value="Evaluere" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
                     <mxGeometry x="220" y="360" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-1" value="Egen dokumentasjon" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-1" value="Egen dokumentasjon" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
                     <mxGeometry x="360" y="360" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-2" value="Tilgang til dokumentasjon og pasientdata" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-2" value="Tilgang til dokumentasjon og pasientdata" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
                     <mxGeometry x="500" y="360" width="100" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-3" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="NgBqiMIX1UNoC0kXI6Hd-2">
+                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-3" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="NgBqiMIX1UNoC0kXI6Hd-2" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="680" y="385" as="sourcePoint"/>
                         <mxPoint x="750" y="390" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-4" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NgBqiMIX1UNoC0kXI6Hd-2" target="NgBqiMIX1UNoC0kXI6Hd-1">
+                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-4" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NgBqiMIX1UNoC0kXI6Hd-2" target="NgBqiMIX1UNoC0kXI6Hd-1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="690" y="395" as="sourcePoint"/>
                         <mxPoint x="610" y="395" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-5" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="NgBqiMIX1UNoC0kXI6Hd-1" target="vUo9fFcne8-G4kXsT4NR-1">
+                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-5" value="" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="NgBqiMIX1UNoC0kXI6Hd-1" target="vUo9fFcne8-G4kXsT4NR-1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="700" y="405" as="sourcePoint"/>
                         <mxPoint x="620" y="405" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-6" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vUo9fFcne8-G4kXsT4NR-1">
+                <mxCell id="NgBqiMIX1UNoC0kXI6Hd-6" value="" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="vUo9fFcne8-G4kXsT4NR-1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="710" y="415" as="sourcePoint"/>
                         <mxPoint x="270" y="340" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="iJipRRajuP7YALeSxhzE-1" value="Det er behov for informasjon og mulighet for å dokumentere flere steder i kjeden" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+                <mxCell id="iJipRRajuP7YALeSxhzE-1" value="Det er behov for informasjon og mulighet for å dokumentere flere steder i kjeden" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" parent="1" vertex="1">
                     <mxGeometry x="630" y="350" width="120" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="iJipRRajuP7YALeSxhzE-3" value="" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#ffffff" vertex="1" parent="1">
+                <mxCell id="iJipRRajuP7YALeSxhzE-3" value="" style="ellipse;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;fillColor=#ffffff" parent="1" vertex="1">
                     <mxGeometry x="250" y="300" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="iJipRRajuP7YALeSxhzE-6" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iJipRRajuP7YALeSxhzE-3">
+                <mxCell id="iJipRRajuP7YALeSxhzE-6" value="" style="edgeStyle=none;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="iJipRRajuP7YALeSxhzE-3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="280" y="370" as="sourcePoint"/>
                         <mxPoint x="300" y="290" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="iJipRRajuP7YALeSxhzE-7" value="" style="edgeStyle=none;html=1;" edge="1" parent="1">
+                <mxCell id="iJipRRajuP7YALeSxhzE-7" value="" style="edgeStyle=none;html=1;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="270" y="300" as="sourcePoint"/>
                         <mxPoint x="270" y="280" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="iJipRRajuP7YALeSxhzE-8" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iJipRRajuP7YALeSxhzE-3">
+                <mxCell id="iJipRRajuP7YALeSxhzE-8" value="" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="iJipRRajuP7YALeSxhzE-3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="260" y="300" as="sourcePoint"/>
                         <mxPoint x="240" y="290" as="targetPoint"/>
@@ -762,7 +762,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="ROh_sp9kGxVtqd-Csz3F" name="verdikjede-helsepersonell">
-        <mxGraphModel dx="1129" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -931,7 +931,7 @@
                         <mxPoint x="360" y="409" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="NR1uPlq0cM5RNoCU2OlR-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EUAhRap9nQhrzpEnaN1I-5" target="Ewt-2GHIlFxj87s593cp-5">
+                <mxCell id="NR1uPlq0cM5RNoCU2OlR-1" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EUAhRap9nQhrzpEnaN1I-5" target="Ewt-2GHIlFxj87s593cp-5" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
                         <mxPoint x="350" y="370" as="sourcePoint"/>
                         <mxPoint x="280" y="340" as="targetPoint"/>
@@ -941,7 +941,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="bawxxcnRtzc2co6NDBRk" name="kapabilitetskart-okosystem">
-        <mxGraphModel dx="1129" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1039,108 +1039,129 @@
         </mxGraphModel>
     </diagram>
     <diagram id="JzUoryuY-ONzmsBb9_RO" name="verdikjede-virksomheter">
-        <mxGraphModel dx="1001" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1409" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="3puApJdQffZGweI2LUcB-1" value="Oversikt/prioritering av behov i virksomheten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="160" width="150" height="75" as="geometry"/>
-                </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-2" value="Oversikt over tilgjengelige verktøy, anskaffelse" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="160" width="150" height="75" as="geometry"/>
-                </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-3" value="Inngå avtale med leverandør" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="640" y="160" width="150" height="75" as="geometry"/>
-                </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-4" value="Tilpasse løsning og integrere med andre systemer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="840" y="160" width="150" height="75" as="geometry"/>
-                </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-5" value="Opplæring og justering av prosesser" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="840" y="280" width="150" height="75" as="geometry"/>
-                </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-6" value="Erfaring" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="280" width="150" height="75" as="geometry"/>
-                </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-7" value="Samhandling med andre løsninger/tjenester" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="280" width="150" height="75" as="geometry"/>
-                </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-8" value="Avvikling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                <mxCell id="3puApJdQffZGweI2LUcB-1" value="Oversikt/prioritering av behov i virksomheten" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
                     <mxGeometry x="40" y="280" width="150" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-9" value="Drift, vedlikehold og håndtering av feil" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
+                <mxCell id="3puApJdQffZGweI2LUcB-2" value="Oversikt over tilgjengelige verktøy, anskaffelse" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="280" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="3puApJdQffZGweI2LUcB-3" value="Inngå avtale med leverandør" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
                     <mxGeometry x="640" y="280" width="150" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-10" value="Beskrive krav til kvalitet, godkjenning, integrasjoner og pris" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="160" width="150" height="75" as="geometry"/>
+                <mxCell id="3puApJdQffZGweI2LUcB-4" value="Tilpasse løsning og integrere med andre systemer" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="280" width="150" height="75" as="geometry"/>
                 </mxCell>
-                <mxCell id="3puApJdQffZGweI2LUcB-11" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-1" target="3puApJdQffZGweI2LUcB-10">
+                <mxCell id="3puApJdQffZGweI2LUcB-5" value="Opplæring og justering av prosesser" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="400" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="3puApJdQffZGweI2LUcB-6" value="Erfaring" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="400" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="3puApJdQffZGweI2LUcB-7" value="Samhandling med andre løsninger/tjenester" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="400" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="3puApJdQffZGweI2LUcB-8" value="Avvikling" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="400" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="3puApJdQffZGweI2LUcB-9" value="Drift, vedlikehold og håndtering av feil" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="400" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="3puApJdQffZGweI2LUcB-10" value="Beskrive krav til kvalitet, godkjenning, integrasjoner og pris" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#F5DEAA;shape=mxgraph.archimate3.application;appType=valueStream;archiType=rounded;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="280" width="150" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="3puApJdQffZGweI2LUcB-11" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-1" target="3puApJdQffZGweI2LUcB-10" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="420" y="280" as="sourcePoint"/>
-                        <mxPoint x="580" y="280" as="targetPoint"/>
+                        <mxPoint x="420" y="400" as="sourcePoint"/>
+                        <mxPoint x="580" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-1" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-10" target="3puApJdQffZGweI2LUcB-2">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-1" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-10" target="3puApJdQffZGweI2LUcB-2" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="200" y="208" as="sourcePoint"/>
-                        <mxPoint x="250" y="208" as="targetPoint"/>
+                        <mxPoint x="200" y="328" as="sourcePoint"/>
+                        <mxPoint x="250" y="328" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-2" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-2" target="3puApJdQffZGweI2LUcB-3">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-2" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-2" target="3puApJdQffZGweI2LUcB-3" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="600" y="210" as="sourcePoint"/>
-                        <mxPoint x="260" y="218" as="targetPoint"/>
+                        <mxPoint x="600" y="330" as="sourcePoint"/>
+                        <mxPoint x="260" y="338" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-3" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-3" target="3puApJdQffZGweI2LUcB-4">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-3" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-3" target="3puApJdQffZGweI2LUcB-4" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="790" y="200" as="sourcePoint"/>
-                        <mxPoint x="270" y="228" as="targetPoint"/>
+                        <mxPoint x="790" y="320" as="sourcePoint"/>
+                        <mxPoint x="270" y="348" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-4" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-4" target="3puApJdQffZGweI2LUcB-5">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-4" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-4" target="3puApJdQffZGweI2LUcB-5" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="230" y="238" as="sourcePoint"/>
-                        <mxPoint x="280" y="238" as="targetPoint"/>
+                        <mxPoint x="230" y="358" as="sourcePoint"/>
+                        <mxPoint x="280" y="358" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-6" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-5" target="3puApJdQffZGweI2LUcB-9">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-6" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-5" target="3puApJdQffZGweI2LUcB-9" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="250" y="258" as="sourcePoint"/>
-                        <mxPoint x="300" y="258" as="targetPoint"/>
+                        <mxPoint x="250" y="378" as="sourcePoint"/>
+                        <mxPoint x="300" y="378" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-7" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-9" target="3puApJdQffZGweI2LUcB-7">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-7" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-9" target="3puApJdQffZGweI2LUcB-7" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="260" y="268" as="sourcePoint"/>
-                        <mxPoint x="310" y="268" as="targetPoint"/>
+                        <mxPoint x="260" y="388" as="sourcePoint"/>
+                        <mxPoint x="310" y="388" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-8" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-7" target="3puApJdQffZGweI2LUcB-6">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-8" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-7" target="3puApJdQffZGweI2LUcB-6" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="270" y="278" as="sourcePoint"/>
-                        <mxPoint x="320" y="278" as="targetPoint"/>
+                        <mxPoint x="270" y="398" as="sourcePoint"/>
+                        <mxPoint x="320" y="398" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-10" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0;exitDx=2.9;exitDy=2.9;exitPerimeter=0;entryX=1;entryY=1;entryDx=-2.9;entryDy=-2.9;entryPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-6" target="3puApJdQffZGweI2LUcB-1">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-10" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0;exitDx=2.9;exitDy=2.9;exitPerimeter=0;entryX=1;entryY=1;entryDx=-2.9;entryDy=-2.9;entryPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-6" target="3puApJdQffZGweI2LUcB-1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="450" y="328" as="sourcePoint"/>
-                        <mxPoint x="400" y="328" as="targetPoint"/>
+                        <mxPoint x="450" y="448" as="sourcePoint"/>
+                        <mxPoint x="400" y="448" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-11" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-6" target="3puApJdQffZGweI2LUcB-8">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-11" value="" style="html=1;endArrow=block;dashed=0;elbow=vertical;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-6" target="3puApJdQffZGweI2LUcB-8" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="460" y="338" as="sourcePoint"/>
-                        <mxPoint x="410" y="338" as="targetPoint"/>
+                        <mxPoint x="460" y="458" as="sourcePoint"/>
+                        <mxPoint x="410" y="458" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-14" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3puApJdQffZGweI2LUcB-8" target="3puApJdQffZGweI2LUcB-1">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-14" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=block;dashed=1;elbow=vertical;endFill=1;dashPattern=6 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3puApJdQffZGweI2LUcB-8" target="3puApJdQffZGweI2LUcB-1" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="420" y="280" as="sourcePoint"/>
-                        <mxPoint x="580" y="280" as="targetPoint"/>
+                        <mxPoint x="420" y="400" as="sourcePoint"/>
+                        <mxPoint x="580" y="400" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="Bip5WMCNJWeH0pGRVTUg-15" value="Helsevirksomheter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.role;" vertex="1" parent="1">
+                <mxCell id="Bip5WMCNJWeH0pGRVTUg-15" value="Helsevirksomheter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.role;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-1" value="Lett tilgjengelig informasjon om kvalitetssikrede apper og nytten de kan gi for pasientgrupper" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="160" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-2" value="Finansiering og insentivordninger for virksomhetene" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="160" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-3" value="Standardiserte grensesnitt for integrasjon mellom løsninger." style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="160" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-4" value="Gode eksempler på hvordan verktøy er brukt i helsetjenesten av andre virksomheter" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="530" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-5" value="Klare roller og ansvar knyttet til feilhåndtering og drift" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="630" y="530" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-6" value="Beskrivelse av rutiner for erfaringsinnhenting og erfaringsoppsummering" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="530" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-7" value="Dokumenterte eksempler på anvendelse og bruk andre steder i tjenesten." style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="160" width="150" height="70" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
