@@ -1039,7 +1039,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="JzUoryuY-ONzmsBb9_RO" name="verdikjede-virksomheter">
-        <mxGraphModel dx="1409" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="712" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1142,26 +1142,38 @@
                 <mxCell id="Bip5WMCNJWeH0pGRVTUg-15" value="Helsevirksomheter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.role;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ifj_46WI0tPaZBBpMG58-1" value="Lett tilgjengelig informasjon om kvalitetssikrede apper og nytten de kan gi for pasientgrupper" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-1" value="Lett tilgjengelig informasjon om kvalitetssikrede apper og nytten de kan gi for pasientgrupper" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" parent="1" vertex="1">
                     <mxGeometry x="440" y="160" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ifj_46WI0tPaZBBpMG58-2" value="Finansiering og insentivordninger for virksomhetene" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-2" value="Finansiering og insentivordninger for virksomhetene" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" parent="1" vertex="1">
                     <mxGeometry x="640" y="160" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ifj_46WI0tPaZBBpMG58-3" value="Standardiserte grensesnitt for integrasjon mellom løsninger." style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-3" value="Standardiserte grensesnitt for integrasjon mellom løsninger." style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" parent="1" vertex="1">
                     <mxGeometry x="840" y="160" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ifj_46WI0tPaZBBpMG58-4" value="Gode eksempler på hvordan verktøy er brukt i helsetjenesten av andre virksomheter" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-4" value="Gode eksempler på hvordan verktøy er brukt i helsetjenesten av andre virksomheter" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" parent="1" vertex="1">
                     <mxGeometry x="840" y="530" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ifj_46WI0tPaZBBpMG58-5" value="Klare roller og ansvar knyttet til feilhåndtering og drift" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-5" value="Beskrivelse av roller og ansvar knyttet til feilhåndtering og drift" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" parent="1" vertex="1">
                     <mxGeometry x="630" y="530" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ifj_46WI0tPaZBBpMG58-6" value="Beskrivelse av rutiner for erfaringsinnhenting og erfaringsoppsummering" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-6" value="Beskrivelse av rutiner for erfaringsinnhenting og erfaringsoppsummering" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" parent="1" vertex="1">
                     <mxGeometry x="240" y="530" width="150" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ifj_46WI0tPaZBBpMG58-7" value="Dokumenterte eksempler på anvendelse og bruk andre steder i tjenesten." style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                <mxCell id="Ifj_46WI0tPaZBBpMG58-7" value="Dokumenterte eksempler på anvendelse og bruk andre steder i tjenesten." style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" parent="1" vertex="1">
                     <mxGeometry x="40" y="160" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="xI5lRAaW-LA3qQA6Y_Kv-1" value="Veldokumenterte krav til kvalitet for digitale verktøy." style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="160" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="xI5lRAaW-LA3qQA6Y_Kv-2" value="Avklarte roller og ansvar, hvem anskaffer og hvem betaler" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="60" width="150" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="xI5lRAaW-LA3qQA6Y_Kv-3" value="" style="edgeStyle=elbowEdgeStyle;html=1;endArrow=none;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ifj_46WI0tPaZBBpMG58-2" target="xI5lRAaW-LA3qQA6Y_Kv-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="560" y="170" as="sourcePoint"/>
+                        <mxPoint x="720" y="170" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
