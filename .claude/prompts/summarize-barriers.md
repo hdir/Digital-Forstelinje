@@ -14,6 +14,8 @@ Given the input from stakeholders collected in the directory background\helseref
 * Barriers and problems are often signified by "problem", "barriere" and "utfordring
 * Focus on repeating problems and barriers, but do list all the problems that are mentioned by only one in a separate list.
 * Also include a chapter containing the original text about each of the recurring problems and barriers pointed out by the stakeholders and numbered in the chapter containing recurrring problems
+  * Can you include 3 original texts
+  * Include the name of the stakeholder that is cited with the original text
 
 ## Output
 

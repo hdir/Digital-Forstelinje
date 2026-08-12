@@ -61,39 +61,81 @@ Disse problemstillingene er mindre gjennomgående, men er likevel relevante:
 ## 3. Originaltekst for gjentakende problemer og barrierer
 
 ### 1. Fragmenterte pasientforløp og svak samhandling
+
+> *Assisterende fagdirektører i de fire RHF (psykisk helsevern og TSB):*
 > «I dag er god samhandling mellom kommunehelsetjenesten og spesialisthelsetjenesten en forutsetning for effektive, helhetlige og sammenhengende pasientforløp innen psykisk helse- og rustjenester. Til tross for langvarig målsetting om bedre og mer samhandling, rapporterer både kommuner og spesialisthelsetjenesten om utfordringer knyttet til ansvarsdeling og kommunikasjon. Når pasienter ikke får rett tilbud til rett tid, kan det medføre forverring av tilstanden, dobbeltarbeid og økt bruk av akutte tjenester.»
 
+> *Assisterende fagdirektører i de fire RHF (psykisk helsevern og TSB):*
 > «Den mest fremtredende strukturelle utfordringen er gapet mellom tjenestetilbudene, som resulterer i fragmenterte pasientforløp og svekket behandlingskvalitet.»
 
+> *Strategisk samarbeidsutvalg Troms og Ofoten:*
+> «Vår vurdering er at de mest alvorlige utfordringene i dagens system ikke ligger i hovedstrukturen, men i samhandlingen mellom tjenester og nivåer. Særlig gjelder dette i overganger, mellom kommune og spesialisthelsetjeneste, mellom ulike deler av spesialisthelsetjenesten, og internt i kommunale tjenester. Dette rammer spesielt pasienter med sammensatte og langvarige behov, hvor flere aktører er involvert, og hvor koordinering og kontinuitet er avgjørende for kvaliteten i tilbudet.»
+
 ### 2. Uklare roller, ansvar og styring
+
+> *Helsefellesskapet Bergensområdet / Prosjekt SDHO:*
 > «Pasientforløp som går på tvers av Helseforetak og kommuner krever en tydelig organisering hvor sektorovergripende oppgaver løses gjennom definerte roller og ansvarsområder. Mange oppgaver skal løses både med tanke på pasientbehandlingen, vedlikehold av tjenesten, support, utstyr, IT-drift og avtaleforvaltning. DHO kan eksempelvis føre til at pasienten sendes hjem, mens behandlingsansvaret fortsatt er spesialisthelsetjenestens, samtidig som pasienten kanskje også mottar kommunale tjenester. Dette skaper stor forvirring rundt roller og ansvar mellom kommuner og sykehus.»
 
+> *Interkommunale samhandlingsledere i Nord-Norge:*
 > «Det er en felles forståelse av at det særlig er pasienter med sammensatte behov som rammes, og det er her innsatsen særskilt må styrkes.»
 
+> *Universitetssykehuset Nord-Norge HF (UNN):*
+> «Erfaringene fra Helseforetakene er at det har oppstått mye godt samarbeid med mange spennende enkeltprosjekter, men manglende samordning på kommunesiden gjør det svært utfordrende å få på plass forpliktende avtaler og ordninger som sikrer sømløse pasientforløp i større målestokk. Hovedutfordringen i dag er at avtaler mellom kommuner og foretak må gjøres med den enkelte kommune.»
+
 ### 3. Finansieringsbarrierer og svake insentiver
+
+> *Helsefellesskapet Bergensområdet / Prosjekt SDHO (finansielle barrierer):*
 > «Analysen viser at manglende eller mangelfull varig finansieringsmodell for DHO i drift utgjør hovedbarrieren. Denne forsterkes av delbarrierer knyttet til risiko for oppgave- og kostnadsglidning til kommunene uten understøttende finansiering, svake økonomiske insentiver i dagens finansieringssystem og mangelfull styringsinformasjon om effektivitetsgevinner ved DHO.»
 
-> «Dagens finansieringsmodeller er i hovedsak utviklet for etablerte tjenester og arbeidsformer. De fungerer godt for dagens aktivitet, men er mindre innrettet for overgang til arbeidsformer som forebygging, hjemmeoppfølging, oppgavedeling og digital samhandling.»
+> *Helsefellesskapet Bergensområdet / Prosjekt SDHO (finansielle barrierer):*
+> «Den største uløste utfordringen er at dagens finansieringsordninger ikke understøtter en kostnadsforskyvning fra sykehus til kommunal helsetjeneste. En konsekvens av dette er at samhandlingsprosjektene stopper opp, og ikke klarer overgang til drift.»
+
+> *Helse Bergen HF / Helse Fonna HF (Divisjon psykisk helse):*
+> «Innsatsstyrt finansiering er ein annan utfordring i forhold til samhandling mellom kommunehelsetensta og spesialisthelsetensta. Det er ikkje samsvar mellom kva som er til pasienten sitt beste i form av samhandling, og den økonomiske kompensasjonen for dette. Ved mål om økt samhandling, bør dei økonomiske insitamentene gjennomgåast, uansett kva organisering det landes på.»
 
 ### 4. Digital fragmentering og mangelfull dataflyt
+
+> *Helse Sør-Øst RHF:*
 > «En gjennomgående utfordring er at regelverket ikke legger til rette for effektiv bruk av helseopplysninger til styringsinformasjon på tvers av virksomheter, samtidig som nasjonale krav gjør det krevende å ta i bruk nye teknologiske løsninger, for eksempel til digital hjemmeoppfølging.»
 
+> *Assisterende fagdirektører i de fire RHF (psykisk helsevern og TSB):*
 > «Mangelfull digital informasjonsflyt og utydelig ansvarsdeling mellom nivåene bidrar til ineffektivitet og risiko for svikt i pasientbehandlingen.»
 
+> *Helsefellesskapet Bergensområdet / Prosjekt SDHO (teknologiske barrierer):*
+> «Manglende integrasjon mellom DHO-system og EPJ skaper dobbeltregistrering og ineffektivitet. Begrenset tilgang til felles digitale behandlingsplaner gjør koordinering vanskelig, særlig for pasienter med sammensatte diagnoser. Ulik modenhet i bruk av nasjonale felleskomponenter hindrer standardisert samhandling.»
+
 ### 5. Personellmangel og kompetansegap
+
+> *Strategisk samarbeidsutvalg Troms og Ofoten:*
 > «Både kommune- og spesialisthelsetjenesten står overfor betydelige personellutfordringer i årene som kommer. Dette innebærer at reformarbeidet må ha en tydelig realisme knyttet til hva som er gjennomførbart innenfor tilgjengelige ressurser.»
 
-> «Mangel på kvalifisert helsepersonell er ikke et fremtidssenario – det er nåsituasjonen.»
+> *Meråker Kurbad AS:*
+> «Helsepersonellkomisjonen er tydelig på at personell og kompetanse blir den kritiske flaskehalsen fremover, og at vi ikke kan bemanne oss ut av utfordringene – vi må organisere oss smartere.»
+
+> *Helsefellesskapet Østfold:*
+> «Vi vil i økende grad få for lite helsepersonell til å gi tjenester på samme måte som i dag. Personer med mer komplekse lidelser og utfordringer må ivaretas og motta helsetjenester i stadig større grad i kommunene.»
 
 ### 6. Kapasitetsutfordringer, «missing middle» og geografisk ulikhet
-> «En betydelig andel kommuner mangler fremdeles tilstrekkelige lavterskeltilbud, og flere pasientgrupper har behov som er for komplekse for kommunale lavterskeltilbud, men som ikke gir rett til poliklinisk helsehjelp i spesialisthelsetjenesten. Denne gruppen omtales gjerne som ‘the missing middle’.»
 
+> *Assisterende fagdirektører i de fire RHF (psykisk helsevern og TSB):*
+> «En betydelig andel kommuner mangler fremdeles tilstrekkelige lavterskeltilbud, og flere pasientgrupper har behov som er for komplekse for kommunale lavterskeltilbud, men som ikke gir rett til poliklinisk helsehjelp i spesialisthelsetjenesten. Denne gruppen omtales gjerne som 'the missing middle'.»
+
+> *Helse Bergen HF / Helse Fonna HF (Divisjon psykisk helse):*
 > «Tilgang på lukka døgnbehandlingsplasser på sjukehusnivå er ein utfordring i fleire helseføretak.»
 
-### 7. Underprioritering av forebygging, rehabilitering og psykisk helse/rus
-> «Personer med mer komplekse lidelser og utfordringer må ivaretas og motta helsetjenester i stadig større grad i kommunene. Forebygging og helsefremming må være en del av samarbeidet for å bidra til å forhindre og utsette sykdomsutvikling.»
+> *NKS Kløveråsen:*
+> «Utviklingen viser at den offentlige helse- og omsorgstjenesten står i kapasitetsutfordringer, blant annet gjennom økende ventetider og fristbrudd. NKS Kløveråsen har fra 2024 til 2025 hatt en økning i antall nye henvisninger på 7,6 %.»
 
-> «Helsefellesskapet Søndre Trøndelag vil understreke at framtidens utfordringer ikke kan løses gjennom ensidig oppgaveoverføring mellom nivåene. En for sterk vektlegging av oppgavefordeling kan bidra til fragmentering og ansvarspulverisering.»
+### 7. Underprioritering av forebygging, rehabilitering og psykisk helse/rus
+
+> *Helsefellesskapet Østfold:*
+> «Vi vil i økende grad få for lite helsepersonell til å gi tjenester på samme måte som i dag. Personer med mer komplekse lidelser og utfordringer må ivaretas og motta helsetjenester i stadig større grad i kommunene. Forebygging og helsefremming må være en del av samarbeidet for å bidra til å forhindre og utsette sykdomsutvikling.»
+
+> *Helsefellesskapet Søndre Trøndelag:*
+> «Framtidens utfordringer ikke kan løses gjennom ensidig oppgaveoverføring mellom nivåene. En for sterk vektlegging av oppgavefordeling kan bidra til fragmentering og ansvarspulverisering.»
+
+> *Sunnaas sykehus:*
+> «Rehabilitasjonsfeltet skiller seg fra øvrige deler av helsetjenesten på flere avgjørende måter: Tjenestene er delt mellom kommune- og spesialisthelsetjenesten, og en betydelig andel av tilbudet leveres av private aktører. Samtidig brukes det betydelige ressurser på rehabilitering i dag, uten at det i tilstrekkelig grad er standardisert hva pasientene skal motta, hvem som har ansvar, eller hvilken effekt tiltakene gir. Dette gjør feltet særlig krevende å styre – og sårbart for fragmentering og uønsket variasjon.»
 
 ## Oppsummering
 
