@@ -1,6 +1,6 @@
 ## Input 
 
-Given the input from stakeholders collected in the directory background\helsereform-august\markdown\7-naringsliv-og-industri
+Given the input from stakeholders collected in the directory background\helsereform-august\markdown\6-kommuner-og-kommunesektor
 
 * Each file contains input from one stakeholder
   * Exception: Some stakeholders have multiple files, usually identified by the name of the files containing the name of the stakeholder, in those cases all files should count as input from the same stakeholder.  
@@ -20,7 +20,7 @@ Given the input from stakeholders collected in the directory background\helseref
 
 ## Output
 
-* Can you write the result to background\helsereform-august\barriers\helsereform-barriers-naringsliv-og-industri.md
+* Can you write the result to background\helsereform-august\barriers\helsereform-barriers-kommuner-og-kommunesektor.md
 
 ## Avoid
 
