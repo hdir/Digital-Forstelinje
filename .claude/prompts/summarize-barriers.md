@@ -1,9 +1,9 @@
 ## Input 
 
-Given the input from stakeholders collected in the directory background\helsereform-august\markdown\1-virksomheter-i-helsesektoren
+Given the input from stakeholders collected in the directory background\helsereform-august\markdown\7-naringsliv-og-industri
 
 * Each file contains input from one stakeholder
-  * Exception: Some stakeholders have multiple files, usually identified by the name of the files containing the name of the stakeholder
+  * Exception: Some stakeholders have multiple files, usually identified by the name of the files containing the name of the stakeholder, in those cases all files should count as input from the same stakeholder.  
 
 ## Tasks
 
@@ -14,12 +14,13 @@ Given the input from stakeholders collected in the directory background\helseref
 * Barriers and problems are often signified by "problem", "barriere" and "utfordring
 * Focus on repeating problems and barriers, but do list all the problems that are mentioned by only one in a separate list.
 * Also include a chapter containing the original text about each of the recurring problems and barriers pointed out by the stakeholders and numbered in the chapter containing recurrring problems
-  * Can you include 3 original texts
+  * Can you include 3 excerpts of original texts for each barrier
+  * Each excerpt should be from a unique stakeholder
   * Include the name of the stakeholder that is cited with the original text
 
 ## Output
 
-* Can you write the result to background\helsereform-august\barriers\helsereform-barriers-virksomheter.md
+* Can you write the result to background\helsereform-august\barriers\helsereform-barriers-naringsliv-og-industri.md
 
 ## Avoid
 
