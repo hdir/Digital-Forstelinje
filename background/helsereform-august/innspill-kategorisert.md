@@ -1,6 +1,5 @@
 # Innspill kategorisert etter interessenttype
 
-
 ## Virksomheter i helsesektoren (30 innspill)
 
 - AiR – Nordisk institutt for kurstedsstudier og rehabilitering
@@ -126,6 +125,7 @@
 ## Ideelle organisasjoner (34 innspill)
 
 - Brukerrop
+- Diabetesforbundet
 - Epilepsiforbundet
 - FFO – innspill 1
 - FFO – innspill 2 (20. april)
