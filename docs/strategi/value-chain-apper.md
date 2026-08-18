@@ -28,3 +28,9 @@ Hvilken verdi får helsepersonell av et bedre tilbud av digitale verktøy for eg
 Hvilken verdi får helsevirksomhetene av et bedre tilbud av digitale verktøy for egenbehandling, selvhjelp og forebygging og et solid økosystem for å finne og ta i bruk slike verktøy i egen virksomhet. Økosystemet skal gjøre det mulig for helsevirksomhetene ta i bruk digitale verktøy på en kostnadseffektiv måte og sikre at verktøy kan tas i bruk og fungere som en integrert del av helsetjenestene som virksomhetene tilbyr.
 
 ![verdikjede-virksomheter](value-chain.drawio)
+
+## Verdikjede myndigheter
+
+Hvilken verdi får myndighetene av et bedre tilbdu av digitale verktøy for egenbehandling, selvhjelp og forebygging ved etablering av et økosystem for selvhjelps og behanldingsapper.
+
+![verdikjede-myndighet](value-chain.drawio)
