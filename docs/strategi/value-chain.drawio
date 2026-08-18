@@ -1245,7 +1245,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="t6cyat_R1xirDxrAss3y" name="verdikjede-myndighet">
-        <mxGraphModel dx="1400" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1139" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1347,9 +1347,6 @@
                 </mxCell>
                 <mxCell id="TiN6psZRfypE4J7-N-Zq-22" value="Myndighet" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.role;" vertex="1" parent="1">
                     <mxGeometry x="40" y="40" width="150" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="TiN6psZRfypE4J7-N-Zq-23" value="Lett tilgjengelig informasjon om kvalitetssikrede apper og nytten de kan gi for pasientgrupper" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
-                    <mxGeometry x="440" y="160" width="150" height="70" as="geometry"/>
                 </mxCell>
                 <mxCell id="TiN6psZRfypE4J7-N-Zq-24" value="Finansiering og insentivordninger for virksomhetene" style="shape=ellipse;html=1;whiteSpace=wrap;fillColor=#CCCCFF;" vertex="1" parent="1">
                     <mxGeometry x="840" y="160" width="150" height="70" as="geometry"/>
