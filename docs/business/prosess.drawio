@@ -1,98 +1,99 @@
 <mxfile host="65bd71144e">
     <diagram id="helsetjenesten-flow" name="helsetjenesten - pasientflyt">
-        <mxGraphModel dx="809" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+        <mxGraphModel dx="1094" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="zone-kommunal" value="Kommunehelsetenesta" style="html=1;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=#9e9e9e;dashed=1;align=left;verticalAlign=top;fontStyle=1;fontColor=#333333;spacingTop=8;spacingLeft=8;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="40" width="300" height="650" as="geometry"/>
-                </mxCell>
-                <mxCell id="zone-overgang" value="Akutt og overgang" style="html=1;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=#9e9e9e;dashed=1;align=left;verticalAlign=top;fontStyle=1;fontColor=#333333;spacingTop=8;spacingLeft=8;" parent="1" vertex="1">
-                    <mxGeometry x="385" y="40" width="270" height="650" as="geometry"/>
-                </mxCell>
-                <mxCell id="zone-spesialist" value="Spesialisthelsetenesta" style="html=1;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=#9e9e9e;dashed=1;align=left;verticalAlign=top;fontStyle=1;fontColor=#333333;spacingTop=8;spacingLeft=8;" parent="1" vertex="1">
-                    <mxGeometry x="700" y="40" width="380" height="650" as="geometry"/>
-                </mxCell>
-                <mxCell id="fastlege" value="Fastlege" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="85" y="130" width="210" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="kommunale-tjenester" value="Kommunale helse- og omsorgstenester" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="85" y="300" width="210" height="70" as="geometry"/>
-                </mxCell>
-                <mxCell id="rehabilitering" value="Rehabilitering og opptrening" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="85" y="485" width="210" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="hospice" value="Hospice" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="250" y="400" width="210" height="60" as="geometry"/>
+                <mxCell id="tittel" value="Pasientflyt i grunnstrukturen i helsetjenesten" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="10" width="420" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="legevakt" value="Legevakt" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="430" y="80" width="210" height="60" as="geometry"/>
+                    <mxGeometry x="210" y="300" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="dms" value="Distriktsmedisinsk senter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="415" y="300" width="210" height="70" as="geometry"/>
+                <mxCell id="fastlege" value="Fastlege" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="190" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="ambulansetenesta" value="Ambulansetenesta" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="415" y="220" width="210" height="60" as="geometry"/>
+                <mxCell id="ambulansetenesta" value="Ambulanse" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="80" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="spesialist" value="Spesialist / poliklinikk" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="745" y="130" width="210" height="60" as="geometry"/>
+                <mxCell id="spesialist" value="Somatikk" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="190" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="dps" value="Distriktspsykiatrisk senter" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="745" y="250" width="210" height="60" as="geometry"/>
+                <mxCell id="dps" value="Psykiatri" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="300" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="sjukehus" value="Sjukehus" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="745" y="390" width="210" height="60" as="geometry"/>
+                <mxCell id="sjukehus" value="Sykehus" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="80" width="170" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="rusinstitusjon" value="Rusinstitusjon" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="745" y="505" width="210" height="60" as="geometry"/>
+                    <mxGeometry x="700" y="300" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="private-avtalespesialist" value="Private avtalespesialistar" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
-                    <mxGeometry x="890" y="60" width="210" height="60" as="geometry"/>
+                <mxCell id="rehabilitering" value="Rehabilitering og opptrening" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="80" width="170" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-fastlege-legevakt" value="akutt hjelp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="fastlege" target="legevakt" edge="1">
+                <mxCell id="sjukeheim" value="Sykehjem og helsehus" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.role;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="190" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="flow-fastlege-legevakt" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;øyeblikkeleg hjelp&lt;/span&gt;" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fastlege" target="legevakt" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-legevakt-ambulanse" value="nødhjelp" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7" target="ambulansetenesta" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="110" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-fastlege-spesialist" value="henvisning" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fastlege" target="spesialist" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-fastlege-kommunale" value="oppfølging" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="fastlege" target="kommunale-tjenester" edge="1">
+                <mxCell id="flow-fastlege-dps" value="henvisning" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="fastlege" target="dps" edge="1">
+                    <mxGeometry x="0.1412" y="24" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-ambulanse-sjukehus" value="akutt&lt;br&gt;innleggelse" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ambulansetenesta" target="sjukehus" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="740" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-spesialist-sjukehus" value="innleggelse" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="spesialist" target="sjukehus" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-fastlege-spesialist" value="tilvising" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="fastlege" target="spesialist" edge="1">
+                <mxCell id="flow-dps-sjukehus" value="innleggelse" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="dps" target="sjukehus" edge="1">
+                    <mxGeometry x="-0.071" y="-10" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="650" y="330"/>
+                            <mxPoint x="650" y="110"/>
+                        </Array>
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-dps-rus" value="rusbehandling" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="dps" target="rusinstitusjon" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-fastlege-dps" value="tilvising" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="fastlege" target="dps" edge="1">
+                <mxCell id="flow-sjukehus-rehab" value="rehabilitering" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sjukehus" target="rehabilitering" edge="1">
+                    <mxGeometry x="-0.1429" y="20" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="flow-rehab-sjukeheim" value="rekonvalesens" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rehabilitering" target="sjukeheim" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-fastlege-private" value="tilvising" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="fastlege" target="private-avtalespesialist" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="6" value="&lt;span style=&quot;color: rgb(51, 51, 51);&quot;&gt;øyeblikkeleg hjelp&lt;/span&gt;" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7" target="legevakt">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="340" as="sourcePoint"/>
+                        <mxPoint x="305" y="310" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="flow-kommunale-dms" value="samarbeid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="kommunale-tjenester" target="dms" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="7" value="Pasient" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=actor;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="190" width="110" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="flow-kommunale-rehab" value="rehabilitering" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="kommunale-tjenester" target="rehabilitering" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="flow-kommunale-hospice" value="palliasjon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="kommunale-tjenester" target="hospice" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="flow-legevakt-ambulance" value="akutt transport" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="legevakt" target="ambulansetenesta" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="flow-dms-spesialist" value="tilvising" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="dms" target="spesialist" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="flow-dms-sjukehus" value="behov for meir behandling" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="dms" target="sjukehus" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="flow-dps-sjukehus" value="meir spesialisert behandling" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="dps" target="sjukehus" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="flow-ambulance-sjukehus" value="behandling på veg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="ambulansetenesta" target="sjukehus" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="flow-sjukehus-rehab" value="etter sjukehusopphald" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="sjukehus" target="rehabilitering" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="flow-dps-rus" value="rusbehandling" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=1 4;endArrow=block;endFill=1;fontColor=#333333;" parent="1" source="dps" target="rusinstitusjon" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="9" value="" style="endArrow=block;endFill=1;html=1;dashed=1;dashPattern=1 4;rounded=0;fontSize=10;fontColor=#333333;labelBackgroundColor=#ffffff;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7" target="fastlege">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="138" y="200" as="sourcePoint"/>
+                        <mxPoint x="220" y="120" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
