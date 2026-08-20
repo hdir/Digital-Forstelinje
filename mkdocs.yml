@@ -16,6 +16,8 @@ nav:
       - Verdikjede Innbygger: strategi/value-chain.md
       - Verdikjeder økosystem: strategi/value-chain-apper.md
       - Tiltak i programmet: strategi/tiltak-kapabiliteter.md
+    - Forretningsarkitektur:
+      - business/index.md
     - Applikasjonsarkitektur:
       - application/index.md
     - Motivasjon for virksomhetsarkitektur:
