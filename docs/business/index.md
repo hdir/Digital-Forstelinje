@@ -2,6 +2,6 @@
 title: Forretningsarkitektur
 ---
 
-Vikige roller og pasientflyt i det norske helsetjenestens [grunnstruktur](https://www.regjeringen.no/no/tema/helse-og-omsorg/innsikt/grunnstrukturen-i-helsetenesta/id227440/).
+Vikige roller og overordnet pasientflyt i [grunnstrukturen](https://www.regjeringen.no/no/tema/helse-og-omsorg/innsikt/grunnstrukturen-i-helsetenesta/id227440/) til den norske helsetjenesten.
 
 ![helsetjenesten-pasientflyt](prosess.drawio)  
