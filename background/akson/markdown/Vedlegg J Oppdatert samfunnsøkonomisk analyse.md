@@ -1,6 +1,6 @@
 
 
-![Logo of the Norwegian Health Data Authority (DHI) consisting of a grid of white dots of varying sizes on a blue background.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
+![Logo of the Norwegian Health Data Authority (DHI) consisting of a grid of white dots of varying sizes on a blue background.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
 
 Logo of the Norwegian Health Data Authority (DHI) consisting of a grid of white dots of varying sizes on a blue background.
 
@@ -136,7 +136,7 @@ Ikke-prissatte
 
 Mange av kostnadene kommer tidligere enn nyttevirkningene, og dette fører til at tiltaket har en negativ årlig nettoverdi de første årene. Som vist i Figur 2 blir tiltakets prissatte virkninger samfunnsøkonomisk lønnsomme fra og med 2037<sup>1</sup>.
 
-![Line graph showing the accumulated net value (Nettoverdi) in billion Norwegian kroner over time from 2021 to 2037. The value starts at 0 in 2021, drops to a minimum of approximately -21 billion kroner around 2031, and then rises sharply to about 14 billion kroner by 2037. The x-axis is labeled 'År' (Years) and the y-axis is labeled 'Milliarder 2019-kroner' (Billion 2019-kroner).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/ac99eff233b8fe51d30f499e7413c345_img.jpg)
+![Line graph showing the accumulated net value (Nettoverdi) in billion Norwegian kroner over time from 2021 to 2037. The value starts at 0 in 2021, drops to a minimum of approximately -21 billion kroner around 2031, and then rises sharply to about 14 billion kroner by 2037. The x-axis is labeled 'År' (Years) and the y-axis is labeled 'Milliarder 2019-kroner' (Billion 2019-kroner).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/ac99eff233b8fe51d30f499e7413c345_img.jpg)
 
 | År   | Nettoverdi (Milliarder 2019-kroner) |
 |------|-------------------------------------|
@@ -231,7 +231,7 @@ Nullalternativet er beskrevet i Boks 1.
 
 Den samfunnsøkonomiske analysen er utarbeidet i henhold til anbefalingene til Finansdepartementet og Direktoratet for økonomistyring (DFØ) (5) (6). Det er forsøkt å prissette virkninger i den grad det har vært mulig og hensiktsmessig, og alle virkninger er sett opp mot nullalternativet beskrevet i kapittel 2.2. Overordnet fremgangsmåte er gitt i Figur 3. Metode for å vurdere ikke-prissette og prissette virkninger er beskrevet under.
 
-![Flowchart showing the process for updated cost-benefit analysis. The top row shows: Datainnsamling -> Utarbeide samfunnsøkonomisk analyse -> Arbeidsmøter for å kvalitetssikre resultater -> KVVU -> KS1. The bottom row shows: Gjennomgang av tilbakemelding fra KS1 -> Datainnsamling -> Oppdatert samfunnsøkonomisk analyse -> SSD.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/5a4e62bead259c258d069fd3663ea670_img.jpg)
+![Flowchart showing the process for updated cost-benefit analysis. The top row shows: Datainnsamling -> Utarbeide samfunnsøkonomisk analyse -> Arbeidsmøter for å kvalitetssikre resultater -> KVVU -> KS1. The bottom row shows: Gjennomgang av tilbakemelding fra KS1 -> Datainnsamling -> Oppdatert samfunnsøkonomisk analyse -> SSD.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/5a4e62bead259c258d069fd3663ea670_img.jpg)
 
 ```
 
@@ -427,7 +427,7 @@ Antall årsverk og arbeidskraftkostnad per årsverk brukt i den samfunnsøkonomi
 
 Det forventes vekst i aktiviteten og antall årsverk i kommunale helse- og omsorgstjenester i løpet av analyseperioden. Arbeidskraft i de ulike helse- og omsorgstjenestene er framskrevet av SSB i rapporten "Framskrivninger av etterspørselen etter arbeidskraft i helse- og omsorg mot 2060" (15). I den samfunnsøkonomiske analysen legges referansebanen fra SSBs rapport til grunn. For tjenestene som ikke er framskrevet av SSB benyttes samme vekstrate som i hovedalternativet til SSBs befolkningsframskrivninger (14). Veksten i aktivitet og arbeidskraft antas å følge samme vekstkurver. Figur 5 viser vekstkurvene lagt til grunn i den samfunnsøkonomiske analysen.
 
-![Line graph showing growth curves for various municipal health and care services from 2018 to 2040. The Y-axis represents the number of years of work compared to 2018, ranging from 100% to 150%. The X-axis shows years from 2018 to 2040. The graph includes five data series: Sykehjem: Kortid (blue), Sykehjem: Langtid (light blue), Fastlegejenesten (purple), Hjemmetjenester (pink), and Helsestasjon (teal). All series show an upward trend, with Sykehjem: Kortid and Sykehjem: Langtid showing the steepest growth, reaching approximately 145% by 2040. Fastlegejenesten follows, reaching about 135%. Hjemmetjenester and Helsestasjon are closely grouped, reaching about 128% and 125% respectively. A grey line represents SSB Befolkningsframskriving (øvrige tjenester), which shows the slowest growth, reaching about 115% by 2040.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/8ccbc9fa77bf60ba0ca0b79dec8681b8_img.jpg)
+![Line graph showing growth curves for various municipal health and care services from 2018 to 2040. The Y-axis represents the number of years of work compared to 2018, ranging from 100% to 150%. The X-axis shows years from 2018 to 2040. The graph includes five data series: Sykehjem: Kortid (blue), Sykehjem: Langtid (light blue), Fastlegejenesten (purple), Hjemmetjenester (pink), and Helsestasjon (teal). All series show an upward trend, with Sykehjem: Kortid and Sykehjem: Langtid showing the steepest growth, reaching approximately 145% by 2040. Fastlegejenesten follows, reaching about 135%. Hjemmetjenester and Helsestasjon are closely grouped, reaching about 128% and 125% respectively. A grey line represents SSB Befolkningsframskriving (øvrige tjenester), which shows the slowest growth, reaching about 115% by 2040.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/8ccbc9fa77bf60ba0ca0b79dec8681b8_img.jpg)
 
 | År   | Sykehjem: Kortid | Sykehjem: Langtid | Fastlegejenesten | Hjemmetjenester | Helsestasjon | SSB Befolkningsframskriving (øvrige tjenester) |
 |------|------------------|-------------------|------------------|-----------------|--------------|------------------------------------------------|
@@ -471,7 +471,7 @@ Forprosjektet legger til grunn at felles kommunal journalløsning er innført i 
 
 <sup>4</sup> 8.2-avtaler viser til paragraf 8.2 i rammeavtalen om fastlegeordningen mellom KS og Legeforeningen. Fastleger som har 8.2-avtaler kan få kontor, utstyr, IKT eller hjelpepersonell betalt av kommunene. Kommunene bruker dette blant annet for å lette rekruttering av fastleger.
 
-![Line graph showing cumulative participation over time for two groups: 'Alle tjenester, ekskludert fastlege (85%)' and 'Fastlege (60%)'. The x-axis represents years from 2024 to 2040, and the y-axis represents cumulative participation from 0% to 100%.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/3ae74a33759ae31781f484406db4feed_img.jpg)
+![Line graph showing cumulative participation over time for two groups: 'Alle tjenester, ekskludert fastlege (85%)' and 'Fastlege (60%)'. The x-axis represents years from 2024 to 2040, and the y-axis represents cumulative participation from 0% to 100%.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/3ae74a33759ae31781f484406db4feed_img.jpg)
 
 The graph shows two cumulative participation curves over a 16-year period from 2024 to 2040. The y-axis is labeled 'Akkumulert deltakelse' and ranges from 0% to 100% in 10% increments. The x-axis is labeled 'År' and ranges from 2024 to 2040. The first curve, 'Alle tjenester, ekskludert fastlege (85%)', starts at 0% in 2024 and rises to 85% by 2030, remaining constant thereafter. The second curve, 'Fastlege (60%)', starts at 0% in 2024 and rises more gradually, reaching 60% by 2033 and remaining constant thereafter.
 
@@ -521,7 +521,7 @@ viser henholdsvis nytte som realiseres i årene etter at en virksomhet har tatt 
 |----------------------------------------------------------|-----|-----|-----|-----|------|
 | <b>Andel nytte som realiseres etter innføring i år X</b> | 10% | 25% | 50% | 75% | 100% |
 
-![Line graph showing total realization curves for the measure, based on implementation rate. The x-axis represents years from 2025 to 2040. The y-axis represents total realization from 0% to 100%. Two curves are shown: 'Alle tjenester, ekskludert fastlege (85%)' in black and 'Fastlege (60%)' in blue. Both curves start at 0% in 2025 and increase over time, with the black curve reaching 85% by 2034 and the blue curve reaching 60% by 2037.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/ca80b99f7e1d6e6b854f22190f2e14d8_img.jpg)
+![Line graph showing total realization curves for the measure, based on implementation rate. The x-axis represents years from 2025 to 2040. The y-axis represents total realization from 0% to 100%. Two curves are shown: 'Alle tjenester, ekskludert fastlege (85%)' in black and 'Fastlege (60%)' in blue. Both curves start at 0% in 2025 and increase over time, with the black curve reaching 85% by 2034 and the blue curve reaching 60% by 2037.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/ca80b99f7e1d6e6b854f22190f2e14d8_img.jpg)
 
 | År   | Alle tjenester, ekskludert fastlege (85%) | Fastlege (60%) |
 |------|-------------------------------------------|----------------|
@@ -599,7 +599,7 @@ Investeringskostnaden knyttet til Programmet Akson journal, mottaksprosjekter, l
 
 kalkylen. For detaljert beskrivelse av kostnadsanalysen henvises det til vedlegg H Kostnadsanalyse og finansiering.
 
-![Bar chart showing investment costs in million kroner for three categories: Programmet Akson journal (2,779), Mottaksprosjekter (2,547), and Steg 1 i utviklingsretningen (529).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/9b5411fa2d169b66f6185fbf67b49766_img.jpg)
+![Bar chart showing investment costs in million kroner for three categories: Programmet Akson journal (2,779), Mottaksprosjekter (2,547), and Steg 1 i utviklingsretningen (529).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/9b5411fa2d169b66f6185fbf67b49766_img.jpg)
 
 A bar chart titled 'Investeringsskostnader i millioner kroner, nåverdijustert'. The y-axis ranges from 0 to 3,000 in increments of 500. The x-axis lists three categories: 'Programmet Akson journal' with a value of 2,779, 'Mottaksprosjekter, lokal endring og omstilling for felles kommunal journalløsning' with a value of 2,547, and 'Steg 1 i utviklingsretningen for samhandling' with a value of 529.
 
@@ -617,7 +617,7 @@ Bar chart showing investment costs in million kroner for three categories: Progr
 
 Drifts- og forvaltningskostnadene har en forventet nåverdi på 5,3 milliarder kroner. Tilsvarende som for investeringskostnader brukes nåverdier, ekskludert merverdiavgift, kostnadene er gruppert i den samme strukturen. Total verdi for hvert kostnadselement vises i Figur 9. For detaljert beskrivelse henvises det til vedlegg H Kostnadsanalyse og finansiering.
 
-![Bar chart showing operating and administrative costs in million kroner for three categories: Programmet Akson journal (4,329), Mottaksprosjekter (950), and Steg 1 i utviklingsretningen (950).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/65a9654ccb3d0d452378b0f4c0c392f7_img.jpg)
+![Bar chart showing operating and administrative costs in million kroner for three categories: Programmet Akson journal (4,329), Mottaksprosjekter (950), and Steg 1 i utviklingsretningen (950).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/65a9654ccb3d0d452378b0f4c0c392f7_img.jpg)
 
 A bar chart titled 'Drift- og forvaltningskostnader i millioner kroner, nåverdijustert'. The y-axis ranges from 0 to 5,000 in increments of 500. The x-axis lists three categories: 'Programmet Akson journal' with a value of 4,329, 'Mottaksprosjekter, lokal endring og omstilling for felles kommunal journalløsning' with a value of 950, and 'Steg 1 i utviklingsretningen for samhandling' with a value of 950.
 
@@ -658,7 +658,7 @@ prosent de første seks månedene innføring. De påfølgende 18 månedene antas
 
 For å beregne virkningen er det tatt utgangspunkt i antall årsverk og arbeidskraftkostnader per tjeneste, beskrevet i kapittel 4. Arbeidskraftkostnader er vurdert som alternativkostnaden til tapt produktivitet fordi det alternativt kan settes inn ekstra personell for å opprettholde aktivitetsnivået. Årlig endrings- og omstillingskostnad vises i Figur 10, og fordeling per tjeneste i Figur 11.
 
-![Bar chart showing annual change and adjustment costs in million kroner from 2021 to 2035. The costs peak in 2030 at 3,764 million kroner and then decline.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/a1545557e366b6302109d13360b199c3_img.jpg)
+![Bar chart showing annual change and adjustment costs in million kroner from 2021 to 2035. The costs peak in 2030 at 3,764 million kroner and then decline.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/a1545557e366b6302109d13360b199c3_img.jpg)
 
 | År   | Endrings- og omstillingskostnader i millioner kroner |
 |------|------------------------------------------------------|
@@ -682,7 +682,7 @@ Bar chart showing annual change and adjustment costs in million kroner from 2021
 
 **Figur 10 Årlig endrings- og omstillingskostnad, millioner kroner**
 
-![Bar chart showing the present value of change and adjustment costs distributed by service from 2021 to 2035. The highest cost is for 'Sykehjem: Langtidsopphold' at 4,760 million kroner.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/d8d893dd559845f86c5dd46147ef98b6_img.jpg)
+![Bar chart showing the present value of change and adjustment costs distributed by service from 2021 to 2035. The highest cost is for 'Sykehjem: Langtidsopphold' at 4,760 million kroner.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/d8d893dd559845f86c5dd46147ef98b6_img.jpg)
 
 | Tjeneste                           | Endrings- og omstillingskostnader i millioner kroner, nåverdijustert |
 |------------------------------------|----------------------------------------------------------------------|
@@ -758,7 +758,7 @@ Når det oppstår en feil, svikt eller pasientskade i helsetjenesten medfører d
 
 <sup>7</sup> Medisiner, næringstilskudd, stomiutstyr, bleier, etc.
 
-![Bar chart showing unachieved costs in million kroner for various health services.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/920eeb131e71a5b81535239f1c838c68_img.jpg)
+![Bar chart showing unachieved costs in million kroner for various health services.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/920eeb131e71a5b81535239f1c838c68_img.jpg)
 
 A bar chart showing the unachieved costs in million kroner for various health services. The y-axis is labeled 'Unngåtte kostnader i millioner kroner, nåverdijustert' and ranges from 0 to 2,000 in increments of 200. The x-axis lists six services: Fastleitetjenesten, Legevakt, Hjemmetjenester, Sykehjem: Kورتidsopphold, Sykehjem: Langtidsopphold, and Helsestasjon. The bars are teal and have their values labeled on top: 1,843, 485, 872, 359, 62, and 48 respectively.
 
@@ -800,7 +800,7 @@ fastlegers deltakelse er viktig for at andre kommunale helse- og omsorgstjeneste
 | <b>Alvorlig skade</b>       | Sykehusinnleggelse i flere dager eller flere uker, med lettere smerter eller ganske store smerter. Etter sykehusopholdet er det noe smerte eller ubehag i noen uker. Noen begrensninger på fritids- og arbeidsmuligheter i noen uker eller måneder. Helt bra igjen, normalt etter noen måneder eller maksimum tre år. | 3,0 millioner kroner |
 | <b>Meget alvorlig skade</b> | Sykehusinnleggelse i flere uker eller måneder, med ganske store smerter eller svært store smerter. Etter sykehusophold er det smerte eller ubehag resten av livet, med til dels store begrensninger på fritids- og arbeidsmuligheter for resten av livet.                                                             | 7,1 millioner kroner |
 
-![Diagram illustrating the annual calculation of avoided costs in health services as a result of fewer unwanted events. It shows two rows of calculations. The top row is for 'Samhandler tett med fastlege' and the bottom row is for 'Samhandler noe med fastlege'. Each row has three columns: 'Antall skader', 'Kostnad', and 'Effekt av fastlegedeltakelse'. The 'Antall skader' column lists 'Antall lettere skader', 'Antall alvorlige skader', and 'Antall meget alvorlige skader'. The 'Kostnad' column lists the corresponding costs, with a multiplication sign (X) between the number of injuries and the cost per injury. The 'Effekt' column shows a box labeled 'Faktor for fastlegers påvirkning på nytte' with a multiplication sign (X) between the cost and the factor.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/4f148853ae68fdcf5e43f7604cab457d_img.jpg)
+![Diagram illustrating the annual calculation of avoided costs in health services as a result of fewer unwanted events. It shows two rows of calculations. The top row is for 'Samhandler tett med fastlege' and the bottom row is for 'Samhandler noe med fastlege'. Each row has three columns: 'Antall skader', 'Kostnad', and 'Effekt av fastlegedeltakelse'. The 'Antall skader' column lists 'Antall lettere skader', 'Antall alvorlige skader', and 'Antall meget alvorlige skader'. The 'Kostnad' column lists the corresponding costs, with a multiplication sign (X) between the number of injuries and the cost per injury. The 'Effekt' column shows a box labeled 'Faktor for fastlegers påvirkning på nytte' with a multiplication sign (X) between the cost and the factor.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/4f148853ae68fdcf5e43f7604cab457d_img.jpg)
 
 The diagram illustrates the calculation of avoided costs (Figur 13) by comparing two scenarios: 'Samhandler tett med fastlege' (top row) and 'Samhandler noe med fastlege' (bottom row). Each row is structured as follows:
 
@@ -837,7 +837,7 @@ Tabell 9 Forutsetninger som ligger til grunn for andel skader som kan unngås
 
 <sup>10</sup> Tilsvarende *andel skader som kan unngås* multiplisert med *andel av skader som kan unngås tiltaket kan påvirke*
 
-![Figur 14 Eksempel på antall skader som kan forhindre for fastleger. Diagrammet viser en rekke av 100% totalt antall skader og feilbehandlinger, som reduseres til 38% (Antall skader og feilbehandlinger som kunne vært unngått), og deretter til 14% (Antall skader og feilbehandlinger tiltaket kan forhindre). Av disse 14% er: 0.03% Meget alvorlige, 0.03% Alvorlig, og 99.94% Lettere.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/f1df41f68d1ddd39987bd08da7aeadc6_img.jpg)
+![Figur 14 Eksempel på antall skader som kan forhindre for fastleger. Diagrammet viser en rekke av 100% totalt antall skader og feilbehandlinger, som reduseres til 38% (Antall skader og feilbehandlinger som kunne vært unngått), og deretter til 14% (Antall skader og feilbehandlinger tiltaket kan forhindre). Av disse 14% er: 0.03% Meget alvorlige, 0.03% Alvorlig, og 99.94% Lettere.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/f1df41f68d1ddd39987bd08da7aeadc6_img.jpg)
 
 Diagrammet illustrerer reduksjonen i antall skader og feilbehandlinger gjennom tiltak. Den første kolonnen viser 100% totalt antall skader og feilbehandlinger. Den andre kolonnen viser 38% antall skader og feilbehandlinger som kunne vært unngått, med en reduksjon på 38%. Den tredje kolonnen viser 14% antall skader og feilbehandlinger tiltaket kan forhindre, med en reduksjon på 40% fra den andre kolonnen. Av disse 14% er: 0.03% Meget alvorlige, 0.03% Alvorlig, og 99.94% Lettere.
 
@@ -861,7 +861,7 @@ Virkningen bygger på de samme forutsetningene for antall pasientskader i helse-
 | Alvorlig skade       | 2,0 millioner kroner         |
 | Meget alvorlig skade | 4,7 millioner kroner         |
 
-![Diagram showing the calculation of increased value creation as a result of fewer unwanted events. It is structured into two rows: 'Legvæst' (top) and 'Følsende' (bottom). Each row follows a formula: (Antall skader) x (Andel skader som medfører produktivitetsstap) x (Kostnad) = (Effekt av fastlegedeltakelse).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/399a5af4f606059626c92c92279d54b7_img.jpg)
+![Diagram showing the calculation of increased value creation as a result of fewer unwanted events. It is structured into two rows: 'Legvæst' (top) and 'Følsende' (bottom). Each row follows a formula: (Antall skader) x (Andel skader som medfører produktivitetsstap) x (Kostnad) = (Effekt av fastlegedeltakelse).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/399a5af4f606059626c92c92279d54b7_img.jpg)
 
 The diagram illustrates the calculation of increased value creation (verdiskapning) resulting from fewer unwanted events (uønskede hendelser). It is organized into two horizontal sections: 'Legvæst' (top) and 'Følsende' (bottom). Each section follows a multiplicative formula:
 
@@ -936,7 +936,7 @@ En gjennomgang av internasjonale evalueringer av journalløsninger innen primær
 
 Ved innføring av tiltaket kan helsepersonell redusere tid brukt på informasjonsinnhenting, dokumentering og samhandling. Verdien av denne virkningen er estimert til en nåverdi på 13,7 milliarder kroner, oppsummert per tjeneste i Figur 16.
 
-![Bar chart showing the value of reduced time use for health personnel across various services. The y-axis represents the value in millions of kroner, ranging from 0 to 6,000. The x-axis lists various services. The values for each service are: Fastlegetjenesten (leger) 777, Fastlegetjenesten (andre ansatte) 349, Legevakt 86, Hjemmetjenester 4,056, Sykehjem: Korttidsopphold 1,370, Sykehjem: Langtidsopphold 5,445, Helsestasjon 843, Tildelingskontor 282, and Fysioterapi- ergoterapi- og... 517.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/a96c7092bbfc63fc74e856cc53406fe4_img.jpg)
+![Bar chart showing the value of reduced time use for health personnel across various services. The y-axis represents the value in millions of kroner, ranging from 0 to 6,000. The x-axis lists various services. The values for each service are: Fastlegetjenesten (leger) 777, Fastlegetjenesten (andre ansatte) 349, Legevakt 86, Hjemmetjenester 4,056, Sykehjem: Korttidsopphold 1,370, Sykehjem: Langtidsopphold 5,445, Helsestasjon 843, Tildelingskontor 282, and Fysioterapi- ergoterapi- og... 517.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/a96c7092bbfc63fc74e856cc53406fe4_img.jpg)
 
 | Tjeneste                          | Verdi av tidsbesparelse (i millioner kroner, nåverdijustert) |
 |-----------------------------------|--------------------------------------------------------------|
@@ -965,7 +965,7 @@ I intervjuer og samtaler med helsepersonell er det kommet frem at fastlegers del
 
 <sup>11</sup> I kartleggingen ble det angitt opp til 15 aktiviteter per tjenesteområde med potensial for tidsbesparelse.
 
-![Diagram showing two formulas for calculating annual time savings. The top formula is for services that interact closely with fast-track services, and the bottom formula is for services that interact somewhat with fast-track services. Both formulas use dark blue boxes for variables separated by multiplication signs (X).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/7f5df81190b8dc50dad2604562ae0715_img.jpg)
+![Diagram showing two formulas for calculating annual time savings. The top formula is for services that interact closely with fast-track services, and the bottom formula is for services that interact somewhat with fast-track services. Both formulas use dark blue boxes for variables separated by multiplication signs (X).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/7f5df81190b8dc50dad2604562ae0715_img.jpg)
 
 **Samhandler tett med fastlege**
 
@@ -1104,7 +1104,7 @@ Figur 18 viser hvordan de unngåtte kostnadene fordeler seg på ulike aktører. 
 
 <sup>14</sup> Totalt 85 prosent av kommunene og 70 prosent av fastlegene i disse kommunene, som totalt utgjør 60 prosent av alle fastleger utenfor Midt-Norge.
 
-![Bar chart showing unachieved costs (Unngåtte kostnader) in million kroner, adjusted for inflation (nåverdijustert), for three categories: Nasjonale samhandlingsløsninger, Kommunale helse- og omsorgstjenester, and Fastleger og andre private med avtale. The costs are split into investment costs (Investeringskosten) and operating costs (Driftskosten).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/f2c40bfbb63eaf7fd84888bdbf1a0a51_img.jpg)
+![Bar chart showing unachieved costs (Unngåtte kostnader) in million kroner, adjusted for inflation (nåverdijustert), for three categories: Nasjonale samhandlingsløsninger, Kommunale helse- og omsorgstjenester, and Fastleger og andre private med avtale. The costs are split into investment costs (Investeringskosten) and operating costs (Driftskosten).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/f2c40bfbb63eaf7fd84888bdbf1a0a51_img.jpg)
 
 | Kategori                              | Investeringskosten (Mrd. kr.) | Driftskosten (Mrd. kr.) | Total (Mrd. kr.) |
 |---------------------------------------|-------------------------------|-------------------------|------------------|
@@ -1222,7 +1222,7 @@ Usikkerhetsanalysen gir et usikkerhetspåslag på 5,5 prosent på netto nåverdi
 
 De største usikkerhetsfaktorene er hendelsesusikkerhet knyttet til endring i kommune- og fastlegedeltakelse, samt forskyvning i innføringstakten som kan påvirke prosjektets utfall betydelig. Videre i kapittelet gjøres det nærmere rede for estimat- og hendelsesusikkerhet relatert til tiltaket.
 
-![Horizontal bar chart showing the contribution of various risk factors to the variance in net value. The x-axis represents the percentage contribution from 0% to 40%. The y-axis lists risk factors categorized by type: (H) for Hendelsesusikkerhet and (E) for Estimatusikkerhet. The top three factors are (H) - Endring i innføringstakt for kommunedeltakelse (~35%), (H) - Endring i fastlegedeltakelse (~30%), and (H) - Forskyvning i innføringstakt (~28%). Other factors like (E) - Redusert tidsbruk på informasjonsinnhenting... (~10%), (E) - Endrings- og omstillingskostnader (~8%), and (H) - Omfang av funksjonelle områder... (~5%) follow with much smaller contributions.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/ff532befc868d7000c363fbffd734a6a_img.jpg)
+![Horizontal bar chart showing the contribution of various risk factors to the variance in net value. The x-axis represents the percentage contribution from 0% to 40%. The y-axis lists risk factors categorized by type: (H) for Hendelsesusikkerhet and (E) for Estimatusikkerhet. The top three factors are (H) - Endring i innføringstakt for kommunedeltakelse (~35%), (H) - Endring i fastlegedeltakelse (~30%), and (H) - Forskyvning i innføringstakt (~28%). Other factors like (E) - Redusert tidsbruk på informasjonsinnhenting... (~10%), (E) - Endrings- og omstillingskostnader (~8%), and (H) - Omfang av funksjonelle områder... (~5%) follow with much smaller contributions.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/ff532befc868d7000c363fbffd734a6a_img.jpg)
 
 | Riskfaktor                                             | Estimatusikkerhet (E) | Hendelsesusikkerhet (H) | Bidrag til varians i nytte (%) |
 |--------------------------------------------------------|-----------------------|-------------------------|--------------------------------|
@@ -1344,7 +1344,7 @@ Hendelser utenfor og innad i tiltaket kan resultere i at innføringskurven endre
 
 optimistiske anslaget er satt på bakgrunn av prosjektets ambisjonsnivå om 100 prosent kommunedeltakelse på sikt, og hva man mener vil være mulig å oppnå i et optimistisk scenario. Ekstern kvalitetssikrer fra KS1 og Helse- og omsorgsdepartementet anbefaler at det inngås intensjonserklæringer med kommuner som til sammen dekker 50 prosent av befolkningen utenfor Midt-Norge. Det pessimistiske anslaget tar utgangspunkt i denne anbefalingen. 35 prosent av fastlegene vil da ta i bruk felles kommunal journalløsning. Endringer i kommunedeltakelsen som skissert her er anslått til å kunne ha en effekt på -115 prosent eller +95 prosent på basisestimatet.
 
-![Line graph showing the projected change in community participation over time (2024-2040) for three scenarios: P90 (100%), Basis (85%), and P10 (50%).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/3c47f29e8e1963959009844c7f3ee025_img.jpg)
+![Line graph showing the projected change in community participation over time (2024-2040) for three scenarios: P90 (100%), Basis (85%), and P10 (50%).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/3c47f29e8e1963959009844c7f3ee025_img.jpg)
 
 The graph illustrates the projected percentage of total participation over time for three different scenarios. The x-axis represents years from 2024 to 2040, and the y-axis represents the percentage of total participation from 0% to 100%.
 
@@ -1378,7 +1378,7 @@ I tillegg til at innføringstakten kan endres er det også mulig for at start og
 
 Det vurderes som lite sannsynlig at tiltaket kan starte tidligere enn planlagt. Det er imidlertid en større mulighet for at tiltaket blir forsinket som følge av uforutsette hendelser. I et optimistisk scenario antas det at man vil kunne innføre til kommuner som tilsvarer 3 prosent av befolkningen i 2024 og at innføringen ferdigstilles ett år tidligere enn det som ligger til grunn i den samfunnsøkonomiske analysen. I det pessimistiske scenarioet utsettes innføringen med to år. I Figur 21 vises endringene i innføringstakten illustrert i forhold til referansealternativet. Forskyvning i kommunedeltakelsen som skissert her er anslått til å kunne ha en effekt på -125 prosent eller +55 prosent på basisestimatet.
 
-![Line graph showing 'Total utrulling' (Total rollout) from 2024 to 2040 for three scenarios: P90, Basis, and P10. The y-axis ranges from 0% to 100% in 10% increments. The x-axis shows years from 2024 to 2040. P90 (blue line) reaches 100% by 2029. Basis (black line) reaches 100% by 2030. P10 (grey line) reaches 100% by 2032. All lines remain at 100% until 2040.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/d5c71a9a4fb2ffa3da1aa89ccbcf195e_img.jpg)
+![Line graph showing 'Total utrulling' (Total rollout) from 2024 to 2040 for three scenarios: P90, Basis, and P10. The y-axis ranges from 0% to 100% in 10% increments. The x-axis shows years from 2024 to 2040. P90 (blue line) reaches 100% by 2029. Basis (black line) reaches 100% by 2030. P10 (grey line) reaches 100% by 2032. All lines remain at 100% until 2040.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/d5c71a9a4fb2ffa3da1aa89ccbcf195e_img.jpg)
 
 | År   | P90 – Utrulling forskyves frem med et år (%) | Basis – Utrulling lagt til grunn (%) | P10 – Utrulling utsettes to år (%) |
 |------|----------------------------------------------|--------------------------------------|------------------------------------|
@@ -1412,7 +1412,7 @@ Forprosjektet anslår at det i et pessimistisk scenario vil være 10 prosent fas
 
 I et optimistisk scenario anslår prosjektet at man vil kunne oppnå at samtlige fastleger i kommuner som tar i bruk felles kommunal journalløsning kobler seg på fra start. Totalt sett utgjør dette 10 prosent av alle fastleger i 2025, og 85 prosent i 2033. Effekten på innføringstakten for fastlegedeltakelsen er illustrert i Figur 22. Endringer i fastlegedeltakelsen som skissert her er anslått til å kunne ha en effekt på -60 prosent eller +125 prosent på basisestimatet.
 
-![Line graph showing 'Total utrulling' (Total rollout) from 2024 to 2040 for three scenarios: P90 (85%), Fastlegedeltakelse (60% - basis), and P10 (43%).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/ed0b26302ff3a12af19932430728ba03_img.jpg)
+![Line graph showing 'Total utrulling' (Total rollout) from 2024 to 2040 for three scenarios: P90 (85%), Fastlegedeltakelse (60% - basis), and P10 (43%).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/ed0b26302ff3a12af19932430728ba03_img.jpg)
 
 The graph illustrates the projected rollout of a solution over a 16-year period. The P90 scenario shows the fastest rollout, reaching 85% by 2030. The baseline scenario (Fastlegedeltakelse) reaches 60% by 2033. The P10 scenario shows the slowest rollout, reaching 43% by 2033. All scenarios start at 0% in 2024.
 
@@ -1476,7 +1476,7 @@ Det er skissert fire scenarier for kommunedeltakelse i 2030 – lav oppslutning 
 
 <sup>18</sup> Oppgitt som kommuner som dekker andel av befolkningen, ekskludert Midt-Norge.
 
-![Figure 23: Kommunedeltakelse i 2030 med eksempler av kommunesammensetning. Prosent av kommuner utenfor Midt-Norge. Four scenarios are shown: 25% (Lav oppslutning), 40% (Middels oppslutning), 85% (Forventet oppslutning), and 100% (Full oppslutning).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/044324e651f5e7bb5178c637b769cb76_img.jpg)
+![Figure 23: Kommunedeltakelse i 2030 med eksempler av kommunesammensetning. Prosent av kommuner utenfor Midt-Norge. Four scenarios are shown: 25% (Lav oppslutning), 40% (Middels oppslutning), 85% (Forventet oppslutning), and 100% (Full oppslutning).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/044324e651f5e7bb5178c637b769cb76_img.jpg)
 
 **25% Lav oppslutning**  
 Scenariet antar at kommunene som er referansekommuner for prosjektet (unntatt Oslo) tar i bruk løsningen
@@ -1494,7 +1494,7 @@ Figure 23: Kommunedeltakelse i 2030 med eksempler av kommunesammensetning. Prose
 
 **Figur 23 Kommunedeltakelse i 2030 med eksempler av kommunesammensetning. Prosent av kommuner utenfor Midt-Norge**
 
-![Figure 24: Scenarioanalyse kommunedeltakelse. A bar chart showing 'Netto nåverdi (MNOK)' for four scenarios: 25%, 40%, 85%, and 100%.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/730b6615db6d402580db1024a7f4e163_img.jpg)
+![Figure 24: Scenarioanalyse kommunedeltakelse. A bar chart showing 'Netto nåverdi (MNOK)' for four scenarios: 25%, 40%, 85%, and 100%.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/730b6615db6d402580db1024a7f4e163_img.jpg)
 
 | Kommunedeltakelse i 2030 | Netto nåverdi (MNOK)     |
 |--------------------------|--------------------------|
@@ -1511,7 +1511,7 @@ Figure 24: Scenarioanalyse kommunedeltakelse. A bar chart showing 'Netto nåverd
 
 For å synliggjøre sensitiviteten knyttet til kommunedeltakelse er det laget en sensitivitetskurve som viser netto nåverdi for tiltaket mot andel kommuner som tar i bruk løsningen. Figur 25 viser at tiltaket vil være samfunnsøkonomisk lønnsomt så lenge kommuner tilsvarende 55 prosent eller mer av befolkningen kobler seg på løsningen. Dette forutsetter at realiseringsskurven for både kommune og fastlege, i tillegg til innføringskurven for fastlegedeltakelse står seg som beskrevet i kapittel 0.
 
-![Line graph showing the breakeven point for a shared municipal journal solution. The x-axis represents the percentage of residents in municipalities included in the solution, from 0% to 100%. The y-axis represents the net value in million kroner, from -8,000 to 6,000. A blue line starts at approximately -5,500 at 0% and rises linearly to about 4,500 at 100%. A callout box at the 55% mark on the x-axis indicates the breakeven point where the net value is zero.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/99ff399927193b5527d8283e2a74747b_img.jpg)
+![Line graph showing the breakeven point for a shared municipal journal solution. The x-axis represents the percentage of residents in municipalities included in the solution, from 0% to 100%. The y-axis represents the net value in million kroner, from -8,000 to 6,000. A blue line starts at approximately -5,500 at 0% and rises linearly to about 4,500 at 100%. A callout box at the 55% mark on the x-axis indicates the breakeven point where the net value is zero.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/99ff399927193b5527d8283e2a74747b_img.jpg)
 
 | Andel innbyggere (x-axis) | Netto nåverdi i millioner kroner (y-axis) |
 |---------------------------|-------------------------------------------|
@@ -1538,7 +1538,7 @@ I innledende faser er det er frivillig å ta i bruk felles kommunal journalløsn
 
 #### Scenarier for fastlegedeltakelse
 
-![Three scenario boxes for fastlegedeltakelse: 15% (Low adoption), 30% (Expected adoption), and 50% (High adoption).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/4908c132d4fbad657b6fc84561c43fbb_img.jpg)
+![Three scenario boxes for fastlegedeltakelse: 15% (Low adoption), 30% (Expected adoption), and 50% (High adoption).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/4908c132d4fbad657b6fc84561c43fbb_img.jpg)
 
 | Scenario              | Percentage | Description                                                                                                                                                           |
 |-----------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1554,7 +1554,7 @@ Det er modellert tre scenarier for fastlegedeltakelse i en kommune som har tatt 
 
 Figur 27 viser netto nåverdi for det enkelte scenario. Figuren viser at netto nåverdi øker med fastlegedeltakelsen og at fastlegedeltakelse ved sluttpunkt er en viktigere nyttedriver enn startpunkt.
 
-![Figur 27 Scenarioanalyse fastlegedeltakelse. A horizontal bar chart showing net present value (MNOK) for different scenarios based on participation levels and opening rates.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/5000e9028ee2990f6242b2c0a952010d_img.jpg)
+![Figur 27 Scenarioanalyse fastlegedeltakelse. A horizontal bar chart showing net present value (MNOK) for different scenarios based on participation levels and opening rates.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/5000e9028ee2990f6242b2c0a952010d_img.jpg)
 
 | Andel fastleger som ruller på samtidig som tilhørende kommune | Total andel fastleger som ruller på innad i en kommune | Netto nåverdi (MNOK)     |
 |---------------------------------------------------------------|--------------------------------------------------------|--------------------------|
@@ -1576,7 +1576,7 @@ Figur 27 Scenarioanalyse fastlegedeltakelse
 
 For å synliggjøre sensitiviteten knyttet til fastlegedeltakelsen er det laget en sensitivitetskurve som viser netto nåverdi mot andel fastleger som ender opp med å ta i bruk journalløsningen. Figur 28 viser at tiltaket vil ha en positiv netto nåverdi dersom mer enn 39 prosent av fastlegene i hver kommune tar i bruk løsningen i henhold til innføringstakten for kommunedeltakelse og realiseringskurven holdes konstant.
 
-![Figur 28 Nullpunktsanalyse av fastlegedeltakelse. A line graph showing net present value in million kroner against the percentage of GPs who start using the solution by 2030.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/ddfefccc6c2fcfadf4e398109548faf8_img.jpg)
+![Figur 28 Nullpunktsanalyse av fastlegedeltakelse. A line graph showing net present value in million kroner against the percentage of GPs who start using the solution by 2030.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/ddfefccc6c2fcfadf4e398109548faf8_img.jpg)
 
 | Andel fastleger innad i en kommune som tar i bruk felles kommunal journal innen 2030 | Netto nåverdi i millioner kroner |
 |--------------------------------------------------------------------------------------|----------------------------------|
@@ -1603,7 +1603,7 @@ For å belyse tiltakets sensitivitet for endringer i forutsetninger lagt til gru
 
 Analysen viser i samsvar med usikkerhetsanalysen at prosjektet er spesielt utsatt for en reduksjon i tidsbesparelse i kommunal helse- og omsorgstjeneste. Man ser også at det er en betydelig oppside dersom tiltaket skulle klare å ta ut større tidsbesparelser enn hva som er lagt til grunn i basisestimatet.
 
-![Bar chart showing the net present value (MNOK) for four scenarios. The values are 16,889, 7,805, -1,937, and -11,021.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/fcdcb5991d671cadf547dd3fbfe13486_img.jpg)
+![Bar chart showing the net present value (MNOK) for four scenarios. The values are 16,889, 7,805, -1,937, and -11,021.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/fcdcb5991d671cadf547dd3fbfe13486_img.jpg)
 
 | Beskrivelse av scenario                                                                                                                                                                          | Netto nåverdi (MNOK) |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|
@@ -1707,7 +1707,7 @@ Differansen i netto nåverdi mellom konsept 7 i KS1 og tiltaket i den oppdaterte
 
 <sup>22</sup> I KS1-rapporten var netto nåverdi på 14 439 millioner kroner. Dette er nedjustert som følge av korrigering av regnefeil for endrings- og omstillingskostnad beskrevet i Tabell 24.
 
-![Bar chart showing the net present value (NPV) of various cost categories for KS1 and SSD. The y-axis represents millions of kroner, ranging from -15,000 to 20,000. The x-axis lists categories: Investeringstekster, Kostnader til drift, forvaltning og videreutvikling, Endrings- og omstillingstekster, Skattefinansieringstekster, Unngatte kostnader ved at gamle IT-systemer stenges, Virkninger av færre uønskede hendelser, Tidsvirkninger, and Forventet påslag (totalt).](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/fc4b3b76217e9b7dd5486922059bd838_img.jpg)
+![Bar chart showing the net present value (NPV) of various cost categories for KS1 and SSD. The y-axis represents millions of kroner, ranging from -15,000 to 20,000. The x-axis lists categories: Investeringstekster, Kostnader til drift, forvaltning og videreutvikling, Endrings- og omstillingstekster, Skattefinansieringstekster, Unngatte kostnader ved at gamle IT-systemer stenges, Virkninger av færre uønskede hendelser, Tidsvirkninger, and Forventet påslag (totalt).](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/fc4b3b76217e9b7dd5486922059bd838_img.jpg)
 
 | Kategori                                            | KS1 (Millioner kroner) | SSD (Millioner kroner) |
 |-----------------------------------------------------|------------------------|------------------------|
@@ -1724,7 +1724,7 @@ Bar chart showing the net present value (NPV) of various cost categories for KS1
 
 **Figur 30** Nåverdi av prissatte virkninger i den samfunnsøkonomiske analysen sammenlignet med KS1-tall. Millioner kroner, nåverdijustert
 
-![Bar chart comparing the net present value (NPV) of the SSD and KS1 analyses. The y-axis represents millions of kroner, ranging from 0 to 16,000. The chart shows three components for each: Netto nåverdi, Forventet påslag, and Korrigering for regnefeil.](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/7c0a9511fa02b6c2c125ff5be465186e_img.jpg)
+![Bar chart comparing the net present value (NPV) of the SSD and KS1 analyses. The y-axis represents millions of kroner, ranging from 0 to 16,000. The chart shows three components for each: Netto nåverdi, Forventet påslag, and Korrigering for regnefeil.](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/7c0a9511fa02b6c2c125ff5be465186e_img.jpg)
 
 | Analyse | Netto nåverdi (Millioner kroner) | Forventet påslag (Millioner kroner) | Korrigering for regnefeil (Millioner kroner) | Totalt (Millioner kroner) |
 |---------|----------------------------------|-------------------------------------|----------------------------------------------|---------------------------|
@@ -1759,7 +1759,7 @@ For samtlige endringer beskrevet over er konsept 7 mer samfunnsøkonomisk lønns
 
 <sup>25</sup> Endringene gjort i den oppdaterte samfunnsøkonomiske analysen er basert på felles kommunal journalløsning og steg 1 i utviklingsretning for samhandling. De er ikke fullstendig overførbare til konsept 4 eller konsept 7 i sin helhet, men tilstrekkelig realistiske til å kunne skape en sammenlikning mellom konseptene.
 
-![](images/Vedlegg J Oppdatert samfunnsøkonomisk analyse/ad5d2a8873e05b8dcc418cf609192c78_img.jpg)
+![](images/Vedlegg%20J%20Oppdatert%20samfunns%C3%B8konomisk%20analyse/ad5d2a8873e05b8dcc418cf609192c78_img.jpg)
 
 |                                                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |           |           |           |           |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------|-----------|-----------|

@@ -84,7 +84,7 @@ Styringsgruppen for Akson ga i møte 19. juni sin tilslutning til plan for og or
 
 Figur 1 illustrerer utgangspunktet for organiseringen av forprosjektet. Organiseringen har blitt noe justert underveis i forprosjektet, særlig for arbeidet med prosjektstrategi og løsningsomfang og arkitektur.
 
-![Organiseringen av arbeidet i forprosjektet. Diagrammet viser hierarkien fra FIN og HOD til KMD, og deretter til ulike sektorer som Kommunesektor, spesialisthelsetjenesten, nasjonale myndigheter, pasient- og brukerforeninger, og fag- og profesjonsforeninger. Det inneholder også en detaljert oversikt over prosjektstyret, prosjektgruppen, og arbeiderne i løsningsomfang og arkitektur.](images/Vedlegg B Organisering av arbeidet/f76f0f5dfff2511b51f6b875867c029f_img.jpg)
+![Organiseringen av arbeidet i forprosjektet. Diagrammet viser hierarkien fra FIN og HOD til KMD, og deretter til ulike sektorer som Kommunesektor, spesialisthelsetjenesten, nasjonale myndigheter, pasient- og brukerforeninger, og fag- og profesjonsforeninger. Det inneholder også en detaljert oversikt over prosjektstyret, prosjektgruppen, og arbeiderne i løsningsomfang og arkitektur.](images/Vedlegg%20B%20Organisering%20av%20arbeidet/f76f0f5dfff2511b51f6b875867c029f_img.jpg)
 
 Diagrammet illustrerer organiseringen av arbeidet i forprosjektet. Det er strukturert i flere nivåer og sektorer:
 
@@ -169,7 +169,7 @@ I samarbeid med KS ble det våren 2017 etablert fire kommunegrupper med utgangsp
 
 egen referansekommune. Tilsammen har 45 kommuner vært representert og involvert i det forberedende arbeidet i 2017, i konseptvalgutredningen i 2018 og i forprosjektet i 2019 og 2020. I tillegg har KS bidratt for å sikre forankring mot øvrige kommuner. Se Figur 2 for oversikt over referansekommunegruppene.
 
-![A grid of municipal coats of arms categorized into four groups: Bærum og Oslo, Bergen, Tromsø, and a large group for Kristiansand and all municipalities in Aust- and Vest-Agder.](images/Vedlegg B Organisering av arbeidet/91be14371a97fb5ce9eeb29ae18d07c3_img.jpg)
+![A grid of municipal coats of arms categorized into four groups: Bærum og Oslo, Bergen, Tromsø, and a large group for Kristiansand and all municipalities in Aust- and Vest-Agder.](images/Vedlegg%20B%20Organisering%20av%20arbeidet/91be14371a97fb5ce9eeb29ae18d07c3_img.jpg)
 
 **Oversikt over kommuner som har vært representert**
 

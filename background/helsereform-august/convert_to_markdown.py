@@ -10,6 +10,7 @@ import re
 import time
 import requests
 from pathlib import Path
+from urllib.parse import quote
 
 API_KEY = os.environ.get("DATALAB_API_KEY", "g8Ago5sK2TC95qxrl-J3BVXbsw0c0PkZnKx-6kBZ-q8")
 API_URL = "https://www.datalab.to/api/v1/marker"
@@ -102,7 +103,7 @@ def add_image_references(markdown: str, images: list[tuple[str, bytes]], output_
     for filename, image_data in images:
         image_path = image_dir / filename
         image_path.write_bytes(image_data)
-        image_paths[filename] = f"images/{document_stem}/{filename}"
+        image_paths[filename] = quote(f"images/{document_stem}/{filename}", safe="/")
 
     referenced = set()
 
@@ -114,7 +115,7 @@ def add_image_references(markdown: str, images: list[tuple[str, bytes]], output_
         referenced.add(filename)
         return f"{match.group(1)}{image_paths[filename]}{match.group(3)}"
 
-    markdown = re.sub(r"(!\[[^\]]*\]\()([^\s)]+)(\))", replace_reference, markdown)
+    markdown = re.sub(r"(!\[[^\]]*\]\()([^)]*?)(\))", replace_reference, markdown)
     missing = [
         f"![{filename}]({image_paths[filename]})"
         for filename in image_paths
@@ -123,6 +124,22 @@ def add_image_references(markdown: str, images: list[tuple[str, bytes]], output_
     if missing:
         markdown = markdown.rstrip() + "\n\n" + "\n".join(missing) + "\n"
     return markdown
+
+
+def rewrite_existing_links(markdown_file: Path) -> bool:
+    markdown = markdown_file.read_text(encoding="utf-8")
+
+    def replace_link(match):
+        target = match.group(2)
+        if not target.startswith("images/"):
+            return match.group(0)
+        return f"{match.group(1)}{quote(target, safe='/%')}" + match.group(3)
+
+    rewritten = re.sub(r"(!\[[^\]]*\]\()([^)]*?)(\))", replace_link, markdown)
+    if rewritten == markdown:
+        return False
+    markdown_file.write_text(rewritten, encoding="utf-8")
+    return True
 
 
 def poll_result(file_path: Path, check_url: str) -> tuple[Path, str | None, list[tuple[str, bytes]], str | None]:
@@ -173,12 +190,20 @@ def main():
     parser.add_argument("input_dir", nargs="?", type=Path, help="Directory containing source documents")
     parser.add_argument("output_dir", nargs="?", type=Path, help="Directory for generated Markdown files")
     parser.add_argument("--overwrite", action="store_true", help="Reconvert files whose Markdown output already exists")
+    parser.add_argument("--rewrite-links", action="store_true", help="URL-encode local image links in existing Markdown files")
     args = parser.parse_args()
 
     script_dir = Path(__file__).parent
     input_dir = args.input_dir or script_dir / "input"
     output_dir = args.output_dir or script_dir / "markdown"
     output_dir.mkdir(exist_ok=True)
+
+    if args.rewrite_links:
+        files = list(output_dir.glob("*.md"))
+        rewritten = sum(rewrite_existing_links(file_path) for file_path in files)
+        print(f"Rewrote image links in {rewritten} of {len(files)} Markdown files")
+        if not args.input_dir:
+            return
 
     files = [f for f in input_dir.iterdir() if f.suffix.lower() in SUPPORTED_EXTENSIONS]
     print(f"Found {len(files)} files to convert\n")
