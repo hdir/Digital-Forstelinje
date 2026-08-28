@@ -4,6 +4,7 @@ Output is saved to background/helsereform/markdown/
 """
 
 import os
+import argparse
 import time
 import requests
 from pathlib import Path
@@ -89,9 +90,14 @@ def convert_file(file_path: Path, output_dir: Path) -> bool:
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Convert documents to Markdown using the Datalab REST API")
+    parser.add_argument("input_dir", nargs="?", type=Path, help="Directory containing source documents")
+    parser.add_argument("output_dir", nargs="?", type=Path, help="Directory for generated Markdown files")
+    args = parser.parse_args()
+
     script_dir = Path(__file__).parent
-    input_dir = script_dir / "input"
-    output_dir = script_dir / "markdown"
+    input_dir = args.input_dir or script_dir / "input"
+    output_dir = args.output_dir or script_dir / "markdown"
     output_dir.mkdir(exist_ok=True)
 
     files = [f for f in input_dir.iterdir() if f.suffix.lower() in SUPPORTED_EXTENSIONS]
