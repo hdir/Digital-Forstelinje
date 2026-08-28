@@ -1,6 +1,6 @@
 
 
-![Logo of the Norwegian Health Data Authority (DHA) consisting of a grid of white dots of varying sizes.](2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
+![Logo of the Norwegian Health Data Authority (DHA) consisting of a grid of white dots of varying sizes.](images/Vedlegg F Nødvendigheten av å pålegge plikt til å bruke den felles kommunale journalløsningen/2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
 
 Logo of the Norwegian Health Data Authority (DHA) consisting of a grid of white dots of varying sizes.
 
@@ -132,7 +132,7 @@ Netto nåverdi for tiltaket er estimert til 2,9 milliarder kroner. Tiltaket vil 
 
 Det er imidlertid betydelig nytte som vil kunne realiseres ved å øke deltakelsen blant kommuner og fastleger. Figur 1 viser netto nåverdi for to scenarioer, der det første er lagt til grunn i den samfunnsøkonomiske analysen og beskrevet over, og det andre forutsetter 100 prosent kommune- og fastlegedeltakelse utenfor Midt-Norge. Differansen mellom de to scenariene utgjør 3,9 milliarder kroner og kan tolkes som kostnaden av å ikke ta i bruk sterke virkemidler for å sikre at alle tar i bruk felles kommunal journalløsning. Eventuelle kostnader ved å ta i bruk sterke virkemidler og kostnader som påløper etter 2030 er ikke inkludert i beløpet og vil komme i tillegg.
 
-![Bar chart showing the net present value (NPV) in millions of kroner for two scenarios. The y-axis ranges from 0 to 8,000. The x-axis shows two scenarios: '85 % deltakelse (forventningsrett scenario)' with a value of 2,934, and '100% deltakelse blant både kommuner og fastleger' with a value of 6,855.](a71911ad87414271aeb190e0eebcb989_img.jpg)
+![Bar chart showing the net present value (NPV) in millions of kroner for two scenarios. The y-axis ranges from 0 to 8,000. The x-axis shows two scenarios: '85 % deltakelse (forventningsrett scenario)' with a value of 2,934, and '100% deltakelse blant både kommuner og fastleger' with a value of 6,855.](images/Vedlegg F Nødvendigheten av å pålegge plikt til å bruke den felles kommunale journalløsningen/a71911ad87414271aeb190e0eebcb989_img.jpg)
 
 | Scenario                                         | Netto nåverdi (Millioner kroner) |
 |--------------------------------------------------|----------------------------------|
@@ -169,7 +169,7 @@ Direktoratet for e-helse vurderer derfor som sannsynlig at det på sikt vil vær
 
 2. **Norsk Helsenet.** <https://samsvar.nhn.no/godkjenninger/sammenlign>. [Internett] [Sitert: 21 Februar 2020.]
 
-![Directorate for e-health logo](735f2da118cd09cd883392793ca5a27a_img.jpg) Direktoratet for e-helse
+![Directorate for e-health logo](images/Vedlegg F Nødvendigheten av å pålegge plikt til å bruke den felles kommunale journalløsningen/735f2da118cd09cd883392793ca5a27a_img.jpg) Direktoratet for e-helse
 
 ## **Besøksadresse**
 

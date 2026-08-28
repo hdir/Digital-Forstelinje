@@ -1,6 +1,6 @@
 
 
-![Logo for the Directorate for e-health, consisting of a grid of white dots of varying sizes on a blue background.](2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
+![Logo for the Directorate for e-health, consisting of a grid of white dots of varying sizes on a blue background.](images/Bilag G2 Helhetlig samhandling/2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
 
 Logo for the Directorate for e-health, consisting of a grid of white dots of varying sizes on a blue background.
 
@@ -129,7 +129,7 @@ De to bilagene beskriver inngående de funksjonelle og tekniske løsningsbeskriv
 
 Med utgangspunkt i de to bilagene er det utarbeidet et vedlegg til det sentrale styringsdokumentet. Dette vedlegget heter Vedlegg G - Løsningsomfang og -arkitektur.
 
-![Diagram showing the relationship between documents: SSD (Sentralt styringsdokument) with a chapter on scope, leading to Vedlegg G (Scope and architecture), which then branches into Bilag G1 (Felles kommunal journalløsning) and Bilag G2 (Helhetlig samhandling).](d980a3f9608055996a07f31788baf827_img.jpg)
+![Diagram showing the relationship between documents: SSD (Sentralt styringsdokument) with a chapter on scope, leading to Vedlegg G (Scope and architecture), which then branches into Bilag G1 (Felles kommunal journalløsning) and Bilag G2 (Helhetlig samhandling).](images/Bilag G2 Helhetlig samhandling/d980a3f9608055996a07f31788baf827_img.jpg)
 
 ```
 graph TD; SSD["SSD  
@@ -179,7 +179,7 @@ Som illustrert Figur 2 er veikart for realisering av målbildet "Én innbygger -
 2. Videreutvikling av de øvrige regionale helseforetakenes journalsystemer
 3. Akson - etablering av løsning(er) for helhetlig samhandling og felles kommunal journalløsning
 
-![Figur 2: Veikart for realisering av målbildet i Meld.St 9 Én innbygger – én journal. Diagrammet viser en strategisk plan for implementeringen av Akson. Den er organisert i en matricelignende struktur. På toppen er regionene Midt-Norge, Nord, Vest og Sør-Øst. På venstresiden er tjenesteområdene Spesialist-helsetjenesten og Kommunale helse- og omsorgstjenester. I Midt-Norge er Helseplattformen etablert som en grunnleggende komponent. Akson er presentert som en sentral løsning som dekker hele Midt-Norge og er en integrert del av løsningen for helhetlig samhandling og felles journalløsning i de andre regionene. I Nord, Vest og Sør-Øst er det markert at det skal gjennomføres videreutvikling av eksisterende journalsystemer. Akson er også vist som en integrert del av løsningen for helhetlig samhandling og felles journalløsning i disse regionene.](1c953f32bd34345dfd68fddf8a3736d6_img.jpg)
+![Figur 2: Veikart for realisering av målbildet i Meld.St 9 Én innbygger – én journal. Diagrammet viser en strategisk plan for implementeringen av Akson. Den er organisert i en matricelignende struktur. På toppen er regionene Midt-Norge, Nord, Vest og Sør-Øst. På venstresiden er tjenesteområdene Spesialist-helsetjenesten og Kommunale helse- og omsorgstjenester. I Midt-Norge er Helseplattformen etablert som en grunnleggende komponent. Akson er presentert som en sentral løsning som dekker hele Midt-Norge og er en integrert del av løsningen for helhetlig samhandling og felles journalløsning i de andre regionene. I Nord, Vest og Sør-Øst er det markert at det skal gjennomføres videreutvikling av eksisterende journalsystemer. Akson er også vist som en integrert del av løsningen for helhetlig samhandling og felles journalløsning i disse regionene.](images/Bilag G2 Helhetlig samhandling/1c953f32bd34345dfd68fddf8a3736d6_img.jpg)
 
 Figur 2: Veikart for realisering av målbildet i Meld.St 9 Én innbygger – én journal. Diagrammet viser en strategisk plan for implementeringen av Akson. Den er organisert i en matricelignende struktur. På toppen er regionene Midt-Norge, Nord, Vest og Sør-Øst. På venstresiden er tjenesteområdene Spesialist-helsetjenesten og Kommunale helse- og omsorgstjenester. I Midt-Norge er Helseplattformen etablert som en grunnleggende komponent. Akson er presentert som en sentral løsning som dekker hele Midt-Norge og er en integrert del av løsningen for helhetlig samhandling og felles journalløsning i de andre regionene. I Nord, Vest og Sør-Øst er det markert at det skal gjennomføres videreutvikling av eksisterende journalsystemer. Akson er også vist som en integrert del av løsningen for helhetlig samhandling og felles journalløsning i disse regionene.
 
@@ -187,7 +187,7 @@ Figur 2 Veikart for realisering av målbildet i Meld.St 9 Én innbygger – én 
 
 Aksons omfang vises i Figur 3.
 
-![Diagram illustrating the scope of Akson: shared municipal journal solution and integrated care. The central hub is 'Samhandlingsløsning(er)' (Intervention solutions), which connects to various stakeholders and services.](2ee59e629035d641140e55f4d215b0d7_img.jpg)
+![Diagram illustrating the scope of Akson: shared municipal journal solution and integrated care. The central hub is 'Samhandlingsløsning(er)' (Intervention solutions), which connects to various stakeholders and services.](images/Bilag G2 Helhetlig samhandling/2ee59e629035d641140e55f4d215b0d7_img.jpg)
 
 The diagram illustrates the scope of Akson, showing a central 'Samhandlingsløsning(er)' (Intervention solutions) hub connected to various stakeholders and services:
 
@@ -224,7 +224,7 @@ Løsningsomfanget for helhetlig samhandling beskrives i dette dokumentet.
 
 Målbildet for samhandling tar utgangspunkt i kommunale helse- og omsorgstjenester, som omfatter tjenestene vist i Figur 4.
 
-![Diagram showing the relationship between municipal health and care services, common functions, and competency requirements. The diagram is organized into three columns: 'Kommunale helse- og omsorgstjenester', 'Felles funksjoner', and 'Kompetansekrav'. Each column contains boxes with icons and labels for various services and roles. Phone icon Nurse icon House icon Bed icon Person icon Person icon Nurse icon Cross icon Bed icon Person icon Hand icon Person icon Hand icon Person icon Person icon House icon House icon House icon Person icon Hand icon Person icon Person icon Person icon Person icon](b3baf3a29b67c7425d2562ddbc52f0cc_img.jpg)
+![Diagram showing the relationship between municipal health and care services, common functions, and competency requirements. The diagram is organized into three columns: 'Kommunale helse- og omsorgstjenester', 'Felles funksjoner', and 'Kompetansekrav'. Each column contains boxes with icons and labels for various services and roles. Phone icon Nurse icon House icon Bed icon Person icon Person icon Nurse icon Cross icon Bed icon Person icon Hand icon Person icon Hand icon Person icon Person icon House icon House icon House icon Person icon Hand icon Person icon Person icon Person icon Person icon](images/Bilag G2 Helhetlig samhandling/b3baf3a29b67c7425d2562ddbc52f0cc_img.jpg)
 
 | Kommunale helse- og omsorgstjenester |                                    |                                |                             | Felles funksjoner |                 | Kompetansekrav |  |
 |--------------------------------------|------------------------------------|--------------------------------|-----------------------------|-------------------|-----------------|----------------|--|
@@ -259,7 +259,7 @@ For å komme frem til informasjonstjenestene har vi brukt ulike fremgangsmåter 
 
 Følgende bilde gir en oversikt over metodikken:
 
-![Diagram showing the methodology for mapping information needs and architecture for collaboration. The process starts with gathering needs descriptions, then mapping them to information needs, and finally defining information services. The diagram includes a central flow of steps: 'Skrive innbygger-scenarier' (15 scenarios), 'Tegne innbyggerreiser' (15 user journeys), 'Spesifisere og tegne use-cases' (37 use-cases), 'Skrive brukerhistorier' (153 user stories), and 'Knytte informasjonsbehov og aktører til brukerhistorier' (376 information needs). A side box 'Samhandling med innbygger' shows a user journey example. A final box 'Definere informasjons-tjenester ut fra informasjons-behovene' leads to '26 informasjons-tjenester'.](c2fc2621e8206d24427b56bcb2398fc0_img.jpg)
+![Diagram showing the methodology for mapping information needs and architecture for collaboration. The process starts with gathering needs descriptions, then mapping them to information needs, and finally defining information services. The diagram includes a central flow of steps: 'Skrive innbygger-scenarier' (15 scenarios), 'Tegne innbyggerreiser' (15 user journeys), 'Spesifisere og tegne use-cases' (37 use-cases), 'Skrive brukerhistorier' (153 user stories), and 'Knytte informasjonsbehov og aktører til brukerhistorier' (376 information needs). A side box 'Samhandling med innbygger' shows a user journey example. A final box 'Definere informasjons-tjenester ut fra informasjons-behovene' leads to '26 informasjons-tjenester'.](images/Bilag G2 Helhetlig samhandling/c2fc2621e8206d24427b56bcb2398fc0_img.jpg)
 
 **Innhold i metodikken:**
 
@@ -312,9 +312,9 @@ Hvert innbygger scenario er tegnet ut som innbygger reise (*customer journey* (3
 
 Innbyggerens historie er det dominerende elementet, øverst i Figur 6 (lys blå bakgrunn). Helsepersonell i kommunal helse- og omsorgstjeneste som benytter journalløsningen er tegnet i nest øverste "svømmebane" (blå bakgrunn), og aktørene de samhandler med er tegnet i nederste "svømmebane" (grå bakgrunn). Fremtidige samhandlingsløsninger er lagt mellom dem (gul bakgrunn).
 
-![](042733dc5e8e7f5f30b60adba3266cde_img.jpg)
+![](images/Bilag G2 Helhetlig samhandling/042733dc5e8e7f5f30b60adba3266cde_img.jpg)
 
-![](4e4be0bd8b235167902f2c03e41da651_img.jpg)
+![](images/Bilag G2 Helhetlig samhandling/4e4be0bd8b235167902f2c03e41da651_img.jpg)
 
 SHS. Gi støtte til ytelse av helse og omsorgshjelp
 
@@ -337,7 +337,7 @@ SHS. Gi støtte til ytelse av helse og omsorgshjelp
 
 Et use-case kan defineres som en oppgave som en bruker vil utføre ved hjelp av et system, eller som et naturlig avgrenset utsnitt av en arbeidsprosess. Totalt er det identifisert 37 use-cases for samhandling fra helsepersonells perspektiv, og 29 fra innbyggerens perspektiv (her kalt innbyggertjenester).
 
-![BPMN diagram showing the 'Akuttmedisinsk kjede' (Emergency medical chain) use-case. The diagram is organized into swimlanes: 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester), 'Legevaktsentral' (Emergency medical center), 'Legevakttjeneste eller fastlegekontor' (Emergency medical service or general practitioner's office), and 'ØHD/KAD' (Emergency medical service/GP). The process starts with the inhabitant calling the emergency medical center. It branches based on whether the patient travels themselves or if an ambulance is ordered. It details steps like 'Gjennomfører sykebesøk' (Conducts medical visit), 'Har dialog med ØHD' (Has dialog with EMR), 'Bestiller ambulanse' (Orders ambulance), and 'Forbereder mottak' (Prepares for reception). The process ends with either 'Pasient innlagt sykehus' (Patient admitted to hospital) or 'Pasient innlagt ØHD' (Patient admitted to EMR). Data objects like 'Tid for ankomst, status for pasient' and 'ØH henvisning' are shown at the bottom.](b9ecbc3baefab13719e000faa6e0c7eb_img.jpg)
+![BPMN diagram showing the 'Akuttmedisinsk kjede' (Emergency medical chain) use-case. The diagram is organized into swimlanes: 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester), 'Legevaktsentral' (Emergency medical center), 'Legevakttjeneste eller fastlegekontor' (Emergency medical service or general practitioner's office), and 'ØHD/KAD' (Emergency medical service/GP). The process starts with the inhabitant calling the emergency medical center. It branches based on whether the patient travels themselves or if an ambulance is ordered. It details steps like 'Gjennomfører sykebesøk' (Conducts medical visit), 'Har dialog med ØHD' (Has dialog with EMR), 'Bestiller ambulanse' (Orders ambulance), and 'Forbereder mottak' (Prepares for reception). The process ends with either 'Pasient innlagt sykehus' (Patient admitted to hospital) or 'Pasient innlagt ØHD' (Patient admitted to EMR). Data objects like 'Tid for ankomst, status for pasient' and 'ØH henvisning' are shown at the bottom.](images/Bilag G2 Helhetlig samhandling/b9ecbc3baefab13719e000faa6e0c7eb_img.jpg)
 
 BPMN diagram showing the 'Akuttmedisinsk kjede' (Emergency medical chain) use-case. The diagram is organized into swimlanes: 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester), 'Legevaktsentral' (Emergency medical center), 'Legevakttjeneste eller fastlegekontor' (Emergency medical service or general practitioner's office), and 'ØHD/KAD' (Emergency medical service/GP). The process starts with the inhabitant calling the emergency medical center. It branches based on whether the patient travels themselves or if an ambulance is ordered. It details steps like 'Gjennomfører sykebesøk' (Conducts medical visit), 'Har dialog med ØHD' (Has dialog with EMR), 'Bestiller ambulanse' (Orders ambulance), and 'Forbereder mottak' (Prepares for reception). The process ends with either 'Pasient innlagt sykehus' (Patient admitted to hospital) or 'Pasient innlagt ØHD' (Patient admitted to EMR). Data objects like 'Tid for ankomst, status for pasient' and 'ØH henvisning' are shown at the bottom.
 
@@ -539,7 +539,7 @@ Fremgangsmåten for prioritering ble derfor todelt:
 
 klistrelapper til hvert spørsmål. Hver klistrelapp representerte ett poeng. Detaljnivået av informasjonsbehovene på plakatene var forenklet (ved valg av ulike nivå i hierarkiet) slik at antall rader på plakatene ikke skulle bli for omfattende (97 i stedet for 394). Deltagerne fikk beskjed om å fordeler poengene sine basert på viktigheten av de ulike informasjonsbehovene. Det var mulig for deltakerne å sette alle poengene sine på ett informasjonsbehov, men de fleste deltakerne valgte å fordeler poengene på flere. Til slutt ble poengene talt opp, og resultatene diskutert i gruppen.
 
-![Figure 10: A photograph of a poster used in a workshop. The poster is divided into sections with various colored dots (red, yellow, blue, green) pinned to it, representing different information needs and their prioritization by participants. The text on the poster is partially visible and includes categories like 'Informasjonsbehov' and 'Prioritizing'.](2a77eb32ef4c4d8a5c1758a53a908336_img.jpg)
+![Figure 10: A photograph of a poster used in a workshop. The poster is divided into sections with various colored dots (red, yellow, blue, green) pinned to it, representing different information needs and their prioritization by participants. The text on the poster is partially visible and includes categories like 'Informasjonsbehov' and 'Prioritizing'.](images/Bilag G2 Helhetlig samhandling/2a77eb32ef4c4d8a5c1758a53a908336_img.jpg)
 
 Figure 10: A photograph of a poster used in a workshop. The poster is divided into sections with various colored dots (red, yellow, blue, green) pinned to it, representing different information needs and their prioritization by participants. The text on the poster is partially visible and includes categories like 'Informasjonsbehov' and 'Prioritizing'.
 
@@ -567,7 +567,7 @@ Med bakgrunn i dette er de to målbildene for identitets- og tilgangsstyring vur
 
 Kartleggingen av samhandlingsbehovene har gitt en oversikt over de totale samhandlingsbehovene ( slik de fremkommer med dagens kunnskap) og disse behovene er oversatt til informasjonstjenester. Figur 11 viser en overordnet tilnærming til arbeidet med løsningsarkitekturen for helhetlig samhandling.
 
-![Diagram illustrating the overall approach for developing a solution architecture for integrated care. The process starts with 'Samhandlingsbehov' (Care needs) on the left, which includes three sub-categories: 'Digital samhandling mellom helsepersonell med forskjellige journalløsninger (Tema 2)', 'Digital samhandling mellom helsepersonell og andre kommunale og statlige tjenester (Tema 3)', and 'Digital samhandling mellom helsepersonell og innbygger (Tema 4)'. These lead to a central box showing a map of various digital platforms. This central box then leads to a sequence of four steps: A. Kartlegging av muligheter i leverandørmarkedet (Market analysis), B. Utarbeide målarkitektur for helhetlig samhandling (Target architecture), C. Utarbeide funksjonelt veikart for realisering av helhetlig samhandling (Functional map for implementation), and D. Vurdere alternativer for realisering av helhetlig samhandlingsplattform (Evaluate alternatives for implementation). Step A is influenced by 'Eksterne analyser' (External analyses) like KLAS and Gartner. Step B is influenced by 'Sentrale designkriterier' (Central design criteria) like DIF and IDC.](5793a44ffdadd039928e2f9fe6daae06_img.jpg)
+![Diagram illustrating the overall approach for developing a solution architecture for integrated care. The process starts with 'Samhandlingsbehov' (Care needs) on the left, which includes three sub-categories: 'Digital samhandling mellom helsepersonell med forskjellige journalløsninger (Tema 2)', 'Digital samhandling mellom helsepersonell og andre kommunale og statlige tjenester (Tema 3)', and 'Digital samhandling mellom helsepersonell og innbygger (Tema 4)'. These lead to a central box showing a map of various digital platforms. This central box then leads to a sequence of four steps: A. Kartlegging av muligheter i leverandørmarkedet (Market analysis), B. Utarbeide målarkitektur for helhetlig samhandling (Target architecture), C. Utarbeide funksjonelt veikart for realisering av helhetlig samhandling (Functional map for implementation), and D. Vurdere alternativer for realisering av helhetlig samhandlingsplattform (Evaluate alternatives for implementation). Step A is influenced by 'Eksterne analyser' (External analyses) like KLAS and Gartner. Step B is influenced by 'Sentrale designkriterier' (Central design criteria) like DIF and IDC.](images/Bilag G2 Helhetlig samhandling/5793a44ffdadd039928e2f9fe6daae06_img.jpg)
 
 Diagram illustrating the overall approach for developing a solution architecture for integrated care. The process starts with 'Samhandlingsbehov' (Care needs) on the left, which includes three sub-categories: 'Digital samhandling mellom helsepersonell med forskjellige journalløsninger (Tema 2)', 'Digital samhandling mellom helsepersonell og andre kommunale og statlige tjenester (Tema 3)', and 'Digital samhandling mellom helsepersonell og innbygger (Tema 4)'. These lead to a central box showing a map of various digital platforms. This central box then leads to a sequence of four steps: A. Kartlegging av muligheter i leverandørmarkedet (Market analysis), B. Utarbeide målarkitektur for helhetlig samhandling (Target architecture), C. Utarbeide funksjonelt veikart for realisering av helhetlig samhandling (Functional map for implementation), and D. Vurdere alternativer for realisering av helhetlig samhandlingsplattform (Evaluate alternatives for implementation). Step A is influenced by 'Eksterne analyser' (External analyses) like KLAS and Gartner. Step B is influenced by 'Sentrale designkriterier' (Central design criteria) like DIF and IDC.
 
@@ -589,7 +589,7 @@ Med utgangspunkt i det totale behovet for informasjonstjenester, samt de informa
 
 Vi har benyttet Norsk arkitekturrammeverk for samhandling som beskriver fem samhandlingsområder som angitt i ELF-modellen (Figur 12).
 
-![Diagram of the ELF model (Norsk arkitekturrammeverk for samhandling, DIFI) showing four horizontal layers of samhandlingsevne and a vertical bar for management.](ab846b81e78dbc8da2a6f9511e2f248a_img.jpg)
+![Diagram of the ELF model (Norsk arkitekturrammeverk for samhandling, DIFI) showing four horizontal layers of samhandlingsevne and a vertical bar for management.](images/Bilag G2 Helhetlig samhandling/ab846b81e78dbc8da2a6f9511e2f248a_img.jpg)
 
 The diagram illustrates the ELF model (Norsk arkitekturrammeverk for samhandling, DIFI). It features a green header bar at the top labeled "Styring og forvaltning av samhandling". Below this, there are four horizontal bars representing different types of samhandlingsevne (samhandlingsevne):
 
@@ -644,7 +644,7 @@ Som beskrevet i kapittel 1.3 består Akson av en felles kommunal journalløsning
 
 Vi har valgt å dele aktørene som helsepersonell i kommunal helse- og omsorgstjeneste har behov for å samhandle med inn i tre grupper, som vist på figuren under:
 
-![Diagram showing groups of actors that interact with the shared municipal journal solution.](2734e7f9be3e1dc046f14be2e6c9a085_img.jpg)
+![Diagram showing groups of actors that interact with the shared municipal journal solution.](images/Bilag G2 Helhetlig samhandling/2734e7f9be3e1dc046f14be2e6c9a085_img.jpg)
 
 The diagram illustrates the groups of actors that interact with the 'Samhandlingsløsning(er)' (Interoperability solution(s)). The central hub is a blue box labeled 'Samhandlingsløsning(er)' containing a screenshot of a software interface. Six main groups of actors are connected to this central hub by double-headed arrows:
 
@@ -803,7 +803,7 @@ Resten av dette kapittelet inneholder use-casene identifisert fra innbygger scen
 
 #### 3.2.1.1 Bestiller ambulansetransport og får vite prioritet og plan for transporten (U1)
 
-![Flowchart for use-case U1: Bestiller ambulansetransport og får vite prioritet og plan for transporten (U1). The process starts with an 'INNBYGGER/PÅRØRENDE' (Innbygger/Pårørende) who has a need for an ambulance. A decision is made: 'Trenger umiddelbart svar?' (Need an immediate answer?). If 'JA' (Yes), they have a 'Direkte dialog med AMK (U6)' (Direct dialog with AMK (U6)). If 'NEI' (No), they 'Bestiller ambulanse via bestillings-løsning (B13)' (Order ambulance via ordering solution (B13)). Both paths lead to 'Får bekreftelse og info om prioritet (B295)' (Receive confirmation and info on priority (B295)). This leads to 'Varsler pasient om ambulansetransport' (Notify patient of ambulance transport). The final outcome is 'Transport og videre kommunikasjon med mottakersted håndteres av ambulanse.' (Transport and further communication with the recipient location is handled by the ambulance). The AMK (Amبولanse Mottakelse Kjørsel) is involved in the direct dialog and provides confirmation and priority information.](6ca05954842b17f14dfd52f26b9d43d2_img.jpg)
+![Flowchart for use-case U1: Bestiller ambulansetransport og får vite prioritet og plan for transporten (U1). The process starts with an 'INNBYGGER/PÅRØRENDE' (Innbygger/Pårørende) who has a need for an ambulance. A decision is made: 'Trenger umiddelbart svar?' (Need an immediate answer?). If 'JA' (Yes), they have a 'Direkte dialog med AMK (U6)' (Direct dialog with AMK (U6)). If 'NEI' (No), they 'Bestiller ambulanse via bestillings-løsning (B13)' (Order ambulance via ordering solution (B13)). Both paths lead to 'Får bekreftelse og info om prioritet (B295)' (Receive confirmation and info on priority (B295)). This leads to 'Varsler pasient om ambulansetransport' (Notify patient of ambulance transport). The final outcome is 'Transport og videre kommunikasjon med mottakersted håndteres av ambulanse.' (Transport and further communication with the recipient location is handled by the ambulance). The AMK (Amبولanse Mottakelse Kjørsel) is involved in the direct dialog and provides confirmation and priority information.](images/Bilag G2 Helhetlig samhandling/6ca05954842b17f14dfd52f26b9d43d2_img.jpg)
 
 ```
 
@@ -850,7 +850,7 @@ Dette use-case er f.eks. aktuelt dersom innbygger blir utsatt for en ulykke og m
 
 #### 3.2.1.2 Koordinerer og gjennomfører øyeblikkelig hjelp i akuttmedisinsk kjede (U13)
 
-![Flowchart of the acute medical chain (U13) showing interactions between citizens, coordinators, and medical centers.](fa01531ea2c45beeb4036005da3037a4_img.jpg)
+![Flowchart of the acute medical chain (U13) showing interactions between citizens, coordinators, and medical centers.](images/Bilag G2 Helhetlig samhandling/fa01531ea2c45beeb4036005da3037a4_img.jpg)
 
 The flowchart is organized into three horizontal swimlanes: **INNBYGGER/PÅRØRENDE** (Citizen/Requester), **Legevaktsentral** (Urgent Care Center), and **ØHD/KAD** (Urgent Care Unit).
 
@@ -882,7 +882,7 @@ Dette use-case er f.eks. aktuelt der innbygger får en forverring av helsetilsta
 
 #### 3.2.2.1 Har dialog med helsepersonell utenfor felles kommunal journalløsning (U6)
 
-![Flowchart for use-case 3.2.2.1: Har dialog med helsepersonell utenfor felles kommunal journalløsning (U6). The process starts with a trigger 'Helsepersonell har behov for avklaring hos annet helsepersonell'. It follows a linear path through 'Behandlingsansvarlig vurderer behov for dialog med Helsepersonell utenfor Løsningen', 'Vurderer hastegrad og type dialog', and 'Finner ut hvem man skal ha dialog med med, og innhenter kontaktopplysninger (B46)'. A decision 'Synkron dialog?' leads to 'Oppnår avklaring i dialog med helsepersonell (B47)' (if JA) or 'Sender forespørsel/melding til helsepersonell (B48)' (if NEI). From B48, 'Mottar svar fra helsepersonell (B48)' leads to a decision 'Problemstilling Avklart?'. If JA, it goes to 'Evt. virksetter behandling/tiltak/ endrer plan (B41)'. If NEI, it loops back to B48. B41 leads to 'Situasjonen er avklart'. Data flows include 'Rolle, identitet, kontakt-opplysninger', 'Telefon Video Digital dialog/chat', 'Forespørsel', 'Svar', and 'Oppdateringer'.](00504fc688ebcf131ccbeff94dfc9939_img.jpg)
+![Flowchart for use-case 3.2.2.1: Har dialog med helsepersonell utenfor felles kommunal journalløsning (U6). The process starts with a trigger 'Helsepersonell har behov for avklaring hos annet helsepersonell'. It follows a linear path through 'Behandlingsansvarlig vurderer behov for dialog med Helsepersonell utenfor Løsningen', 'Vurderer hastegrad og type dialog', and 'Finner ut hvem man skal ha dialog med med, og innhenter kontaktopplysninger (B46)'. A decision 'Synkron dialog?' leads to 'Oppnår avklaring i dialog med helsepersonell (B47)' (if JA) or 'Sender forespørsel/melding til helsepersonell (B48)' (if NEI). From B48, 'Mottar svar fra helsepersonell (B48)' leads to a decision 'Problemstilling Avklart?'. If JA, it goes to 'Evt. virksetter behandling/tiltak/ endrer plan (B41)'. If NEI, it loops back to B48. B41 leads to 'Situasjonen er avklart'. Data flows include 'Rolle, identitet, kontakt-opplysninger', 'Telefon Video Digital dialog/chat', 'Forespørsel', 'Svar', and 'Oppdateringer'.](images/Bilag G2 Helhetlig samhandling/00504fc688ebcf131ccbeff94dfc9939_img.jpg)
 
 ```
 
@@ -956,7 +956,7 @@ Dette use-case er f.eks. aktuelt der en fastlege trenger avklaring med spesialis
 
 #### 3.2.2.2 Avdekker og følger opp svikt i elektronisk kommunikasjon (U54)
 
-![UML Use Case Diagram for 'Avdekker og følger opp svikt i elektronisk kommunikasjon (U54)'.](14252bcd35912bd656e98b16b2ee51c0_img.jpg)
+![UML Use Case Diagram for 'Avdekker og følger opp svikt i elektronisk kommunikasjon (U54)'.](images/Bilag G2 Helhetlig samhandling/14252bcd35912bd656e98b16b2ee51c0_img.jpg)
 
 The diagram illustrates the use case 'Avdekker og følger opp svikt i elektronisk kommunikasjon (U54)'. It shows the interaction between an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) and an 'Ekstern meldingsmottaker' (External message receiver).
 
@@ -989,11 +989,11 @@ Brukerhistorier beskrives i kapittel 3.2.2.1 med tilhørende use-cas (Har dialog
 
 #### 3.2.3.1 Sender henvisning og får bekreftelse evt. avslag (U12)
 
-![](b5335262987c819d7f71ce40f99cb71b_img.jpg)
+![](images/Bilag G2 Helhetlig samhandling/b5335262987c819d7f71ce40f99cb71b_img.jpg)
 
 #### 3.2.3.2 Purrer på eller oppdaterer henvisning (U50)
 
-![Flowchart for use-case U50: Purrer på eller oppdaterer henvisning (U50). The process starts with an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) who sends a 'Varsel om endring i tilstand eller uteblitt svar' (Notice of change in condition or missed response). This leads to the 'Purrer på eller oppdaterer henvisning (U50)' (Pursue or update referral (U50)) process. The process involves several steps: 1. 'Mottar oppdatert status fra innbygger' (Receives updated status from inhabitant), 2. 'Mottar varsel fra andre aktører' (Receives notice from other actors), 3. 'Mottar varsel om fristdatoversteget fra beslutningsstøtte' (Receives notice of deadline exceeded from decision support), 4. 'Mottar svar på henvisning med tildelt timeavtale (B8)' (Receives response to referral with assigned appointment (B8)). These lead to 'Innhenter aktuell henvisning' (Retrieves current referral). Then, 'Haster mer eller har behov for annen tjeneste' (Is there a need for another service?). If 'INGEN ENDRING' (No change), it goes to 'Vurderer tid fra henvisning sendt/oppdatert sist' (Evaluates time since referral sent/updated). If 'JA' (Yes), it asks 'Har melding kommet frem?' (Has the message come through?). If 'JA', it asks 'Nødvendig å purre på henvisning eller time?' (Necessary to pursue referral or time?). If 'JA', it asks 'Kan pasient purre selv?' (Can patient pursue themselves?). If 'JA', it goes to 'Informerer pasient om evt. oppdatering/purring' (Inform patient of possible update/pursuing). If 'NEI', it goes to 'Følger opp skilt i kommunikasjon (U54)' (Follow up sign in communication (U54)). If 'NEI' to 'Nødvendig...', it goes to 'Skriver og sender oppdatert henvisning (B52)' (Writes and sends updated referral (B52)). If 'NEI' to 'Kan pasient...', it goes to 'Informerer pasient om evt. oppdatering/purring'. If 'NEI' to 'Haster...', it asks 'ØH?' (OPH?). If 'JA', it goes to 'Koordinerer og gjennomfører ØH i akuttmedisinsk kjede (U13)' (Coordinates and performs OPH in emergency medical chain (U13)). If 'NEI', it goes to 'Skriver og sender oppdatert henvisning (B52)'. If 'BEHOV IKKE Lenger tilstede' (Need no longer present), it goes to 'Kansellerer henvisning evt. ber innbygger avbestille time (B53, B54)' (Cancels referral, possibly asking inhabitant to cancel appointment (B53, B54)). The process ends with 'Informerer pasient om evt. oppdatering/purring' and 'Vurderingsprosessen for henvisning er oppdatert' (Referral evaluation process is updated). The diagram also shows external entities 'INNBYGGER/PÅRØRENDE' and 'Spesialisthelsetjeneste' (Specialist health service) with their respective data flows.](cfb98c691c1af5befe32ff9442eea511_img.jpg)
+![Flowchart for use-case U50: Purrer på eller oppdaterer henvisning (U50). The process starts with an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) who sends a 'Varsel om endring i tilstand eller uteblitt svar' (Notice of change in condition or missed response). This leads to the 'Purrer på eller oppdaterer henvisning (U50)' (Pursue or update referral (U50)) process. The process involves several steps: 1. 'Mottar oppdatert status fra innbygger' (Receives updated status from inhabitant), 2. 'Mottar varsel fra andre aktører' (Receives notice from other actors), 3. 'Mottar varsel om fristdatoversteget fra beslutningsstøtte' (Receives notice of deadline exceeded from decision support), 4. 'Mottar svar på henvisning med tildelt timeavtale (B8)' (Receives response to referral with assigned appointment (B8)). These lead to 'Innhenter aktuell henvisning' (Retrieves current referral). Then, 'Haster mer eller har behov for annen tjeneste' (Is there a need for another service?). If 'INGEN ENDRING' (No change), it goes to 'Vurderer tid fra henvisning sendt/oppdatert sist' (Evaluates time since referral sent/updated). If 'JA' (Yes), it asks 'Har melding kommet frem?' (Has the message come through?). If 'JA', it asks 'Nødvendig å purre på henvisning eller time?' (Necessary to pursue referral or time?). If 'JA', it asks 'Kan pasient purre selv?' (Can patient pursue themselves?). If 'JA', it goes to 'Informerer pasient om evt. oppdatering/purring' (Inform patient of possible update/pursuing). If 'NEI', it goes to 'Følger opp skilt i kommunikasjon (U54)' (Follow up sign in communication (U54)). If 'NEI' to 'Nødvendig...', it goes to 'Skriver og sender oppdatert henvisning (B52)' (Writes and sends updated referral (B52)). If 'NEI' to 'Kan pasient...', it goes to 'Informerer pasient om evt. oppdatering/purring'. If 'NEI' to 'Haster...', it asks 'ØH?' (OPH?). If 'JA', it goes to 'Koordinerer og gjennomfører ØH i akuttmedisinsk kjede (U13)' (Coordinates and performs OPH in emergency medical chain (U13)). If 'NEI', it goes to 'Skriver og sender oppdatert henvisning (B52)'. If 'BEHOV IKKE Lenger tilstede' (Need no longer present), it goes to 'Kansellerer henvisning evt. ber innbygger avbestille time (B53, B54)' (Cancels referral, possibly asking inhabitant to cancel appointment (B53, B54)). The process ends with 'Informerer pasient om evt. oppdatering/purring' and 'Vurderingsprosessen for henvisning er oppdatert' (Referral evaluation process is updated). The diagram also shows external entities 'INNBYGGER/PÅRØRENDE' and 'Spesialisthelsetjeneste' (Specialist health service) with their respective data flows.](images/Bilag G2 Helhetlig samhandling/cfb98c691c1af5befe32ff9442eea511_img.jpg)
 
 Flowchart for use-case U50: Purrer på eller oppdaterer henvisning (U50). The process starts with an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) who sends a 'Varsel om endring i tilstand eller uteblitt svar' (Notice of change in condition or missed response). This leads to the 'Purrer på eller oppdaterer henvisning (U50)' (Pursue or update referral (U50)) process. The process involves several steps: 1. 'Mottar oppdatert status fra innbygger' (Receives updated status from inhabitant), 2. 'Mottar varsel fra andre aktører' (Receives notice from other actors), 3. 'Mottar varsel om fristdatoversteget fra beslutningsstøtte' (Receives notice of deadline exceeded from decision support), 4. 'Mottar svar på henvisning med tildelt timeavtale (B8)' (Receives response to referral with assigned appointment (B8)). These lead to 'Innhenter aktuell henvisning' (Retrieves current referral). Then, 'Haster mer eller har behov for annen tjeneste' (Is there a need for another service?). If 'INGEN ENDRING' (No change), it goes to 'Vurderer tid fra henvisning sendt/oppdatert sist' (Evaluates time since referral sent/updated). If 'JA' (Yes), it asks 'Har melding kommet frem?' (Has the message come through?). If 'JA', it asks 'Nødvendig å purre på henvisning eller time?' (Necessary to pursue referral or time?). If 'JA', it asks 'Kan pasient purre selv?' (Can patient pursue themselves?). If 'JA', it goes to 'Informerer pasient om evt. oppdatering/purring' (Inform patient of possible update/pursuing). If 'NEI', it goes to 'Følger opp skilt i kommunikasjon (U54)' (Follow up sign in communication (U54)). If 'NEI' to 'Nødvendig...', it goes to 'Skriver og sender oppdatert henvisning (B52)' (Writes and sends updated referral (B52)). If 'NEI' to 'Kan pasient...', it goes to 'Informerer pasient om evt. oppdatering/purring'. If 'NEI' to 'Haster...', it asks 'ØH?' (OPH?). If 'JA', it goes to 'Koordinerer og gjennomfører ØH i akuttmedisinsk kjede (U13)' (Coordinates and performs OPH in emergency medical chain (U13)). If 'NEI', it goes to 'Skriver og sender oppdatert henvisning (B52)'. If 'BEHOV IKKE Lenger tilstede' (Need no longer present), it goes to 'Kansellerer henvisning evt. ber innbygger avbestille time (B53, B54)' (Cancels referral, possibly asking inhabitant to cancel appointment (B53, B54)). The process ends with 'Informerer pasient om evt. oppdatering/purring' and 'Vurderingsprosessen for henvisning er oppdatert' (Referral evaluation process is updated). The diagram also shows external entities 'INNBYGGER/PÅRØRENDE' and 'Spesialisthelsetjeneste' (Specialist health service) with their respective data flows.
 
@@ -1012,7 +1012,7 @@ Dette use-case er f.eks. aktuelt når en innbygers tilstand har endret seg og de
 
 #### 3.2.4.1 Mottar og følger opp epikrise evt. oppsummering fra andre yrkesgrupper (U8)
 
-![BPMN diagram for use-case U8: Mottar og følger opp epikrise evt. oppsummering fra andre yrkesgrupper. The diagram shows a process starting with 'Pasient har vært behandlet i spesialisthelsetjenesten' leading to 'Mottar epikrise/annen oppsummering fra spesialisthelsetj (84)'. A decision point 'Informasjon om legemiddelendringer som medfører behov for samstemming?' leads to 'Utfører legemiddelsamstemming (U44)' if 'JA', or to 'Behov for annen oppfølging?' if 'NEI'. From 'Behov for annen oppfølging?', 'JA' leads to 'Leser/Oppretter, endrer og deler plan, og følger opp gjennomføring av tiltakene i planen (U30)', and 'NEI' leads to 'Markerer epikrise som lest og håndtert'. Both paths converge at 'Markerer epikrise som lest og håndtert', which leads to the final event 'Epikrise/ annen oppsummering er håndtert'. swimlanes for 'INNBYGGER' and 'Spesialisthelsetjenesten' are shown at the top and bottom respectively.](6e15fc9ea763541c5913d26f85072ae1_img.jpg)
+![BPMN diagram for use-case U8: Mottar og følger opp epikrise evt. oppsummering fra andre yrkesgrupper. The diagram shows a process starting with 'Pasient har vært behandlet i spesialisthelsetjenesten' leading to 'Mottar epikrise/annen oppsummering fra spesialisthelsetj (84)'. A decision point 'Informasjon om legemiddelendringer som medfører behov for samstemming?' leads to 'Utfører legemiddelsamstemming (U44)' if 'JA', or to 'Behov for annen oppfølging?' if 'NEI'. From 'Behov for annen oppfølging?', 'JA' leads to 'Leser/Oppretter, endrer og deler plan, og følger opp gjennomføring av tiltakene i planen (U30)', and 'NEI' leads to 'Markerer epikrise som lest og håndtert'. Both paths converge at 'Markerer epikrise som lest og håndtert', which leads to the final event 'Epikrise/ annen oppsummering er håndtert'. swimlanes for 'INNBYGGER' and 'Spesialisthelsetjenesten' are shown at the top and bottom respectively.](images/Bilag G2 Helhetlig samhandling/6e15fc9ea763541c5913d26f85072ae1_img.jpg)
 
 ```
 
@@ -1053,7 +1053,7 @@ Dette use-case er f.eks. aktuelt når innbygger utskrives fra sykehus og skal f�
 
 #### 3.2.5.1 Innhenter tilleggsinformasjon fra spesialisthelsetjenesten (U51)
 
-![Flowchart for use-case U51: Innhenter tilleggsinformasjon fra spesialisthelsetjenesten. The process starts with a need for information not already described or available, leading to an overview of available information from other places. A decision is made on whether information is available from other places. If yes (JA), it proceeds to retrieve requested information. If no (NEI), it proceeds to send a request for access to information. Both paths lead to receiving the requested information, followed by evaluation and documentation of the conclusion. The diagram includes swimlanes for 'Felles informasjonsressurser' and 'Spesialisthelsetjenesten'.](2837ffdadcdb1e5bababa56b564e56ed_img.jpg)
+![Flowchart for use-case U51: Innhenter tilleggsinformasjon fra spesialisthelsetjenesten. The process starts with a need for information not already described or available, leading to an overview of available information from other places. A decision is made on whether information is available from other places. If yes (JA), it proceeds to retrieve requested information. If no (NEI), it proceeds to send a request for access to information. Both paths lead to receiving the requested information, followed by evaluation and documentation of the conclusion. The diagram includes swimlanes for 'Felles informasjonsressurser' and 'Spesialisthelsetjenesten'.](images/Bilag G2 Helhetlig samhandling/2837ffdadcdb1e5bababa56b564e56ed_img.jpg)
 
 ```
 
@@ -1109,7 +1109,7 @@ Dette use-case er f.eks. aktuelt for fastlege eller institusjonslege som har beh
 
 #### 3.2.5.2 Utleverer tilleggsinformasjon til spesialisthelsetjenesten (U52)
 
-![BPMN flowchart for use-case U52: Utleverer tilleggsinformasjon til spesialisthelsetjenesten (U52). The process starts with a start event, followed by a task 'Mottar forespørsel om utlevering av informasjon (B35)'. A decision diamond 'Finnes i eksisterende delte ressurser?' branches into 'JA' (Yes) leading to 'Refererer til eksisterende delt informasjon (B36)' and 'NEI' (No) leading to 'Velger ut evt. tilpasser relevant informasjon'. Both paths converge at 'Oversender/tilgjengeliggjør informasjonen (B36)'. The process ends with an end event 'Henvendelsen er håndtert'.消息流包括：外部消息流 'Forespørsel om informasjon' 进入任务 B35；任务 B36 发送消息 'Utlevert informasjon'；任务 B36 发送消息 'Generelt svar med lenke'。](145d00f59802048185303f15937ea65c_img.jpg)
+![BPMN flowchart for use-case U52: Utleverer tilleggsinformasjon til spesialisthelsetjenesten (U52). The process starts with a start event, followed by a task 'Mottar forespørsel om utlevering av informasjon (B35)'. A decision diamond 'Finnes i eksisterende delte ressurser?' branches into 'JA' (Yes) leading to 'Refererer til eksisterende delt informasjon (B36)' and 'NEI' (No) leading to 'Velger ut evt. tilpasser relevant informasjon'. Both paths converge at 'Oversender/tilgjengeliggjør informasjonen (B36)'. The process ends with an end event 'Henvendelsen er håndtert'.消息流包括：外部消息流 'Forespørsel om informasjon' 进入任务 B35；任务 B36 发送消息 'Utlevert informasjon'；任务 B36 发送消息 'Generelt svar med lenke'。](images/Bilag G2 Helhetlig samhandling/145d00f59802048185303f15937ea65c_img.jpg)
 
 ```
 graph LR; Start(( )) --> B35[Mottar forespørsel om utlevering av informasjon (B35)]; B35 --> Decision{Finnes i eksisterende delte ressurser?}; Decision -- JA --> B36_Referer[Refererer til eksisterende delt informasjon (B36)]; Decision -- NEI --> B36_Velger[Velger ut evt. tilpasser relevant informasjon]; B36_Velger --> B36_Oversender[Oversender/tilgjengeliggjør informasjonen (B36)]; B36_Referer --> B36_Oversender; B36_Oversender --> End(((Henvendelsen er håndtert)));
@@ -1136,7 +1136,7 @@ Dette use-case er f.eks. aktuelt når spesialisthelsetjenesten har behov for inf
 
 #### 3.2.6.1 Legger inn pasient elektivt fra institusjon til sykehus (U15)
 
-![UML Use Case Diagram for 'Legger inn pasient elektivt fra institusjon til sykehus (U15)'.](6629e8a87e7552e2454b7c3e9f6d73a0_img.jpg)
+![UML Use Case Diagram for 'Legger inn pasient elektivt fra institusjon til sykehus (U15)'.](images/Bilag G2 Helhetlig samhandling/6629e8a87e7552e2454b7c3e9f6d73a0_img.jpg)
 
 The diagram illustrates the use case 'Legger inn pasient elektivt fra institusjon til sykehus (U15)'. It shows the interaction between three external actors and the internal process:
 
@@ -1163,7 +1163,7 @@ Dette use-case er f.eks. aktuelt når en beboer på institusjon har en planlagt 
 
 #### 3.2.6.2 Planlegger og koordinerer utskrivelse fra sykehus eller annen institusjon (U45)
 
-![Flowchart for use-case U45: Planlegger og koordinerer utskrivelse fra sykehus eller annen institusjon. The process involves interaction between 'INNBYGGER/PÅRØRENDE' and 'Planlegger og koordinerer utskrivelse (U45)'. It starts with 'Eventuell informasjon fra innbygger' leading to 'Orientering om tjenestetilbud'. The main flow starts with 'Pasient er innlagt på sykehus og det planlegges hjemreise', followed by 'Mottar melding om innlagt pasient (B25)', 'Mottar melding om behov for tjenester (B26)', 'Vurderer behov for tjenester', 'Har dialog med helsepersonell utenfor løsningen (U6)', 'Innhenter tilleggsopplysninger (U51)', 'Fatter vedtak om planlagte tjenester og tilgjengeliggjør det', 'Oppdaterer plan (U30)', 'Mottar melding om utskrivingsklar pasient (B28)', 'Har dialog med helsepersonell utenfor løsningen (U6)', 'Mottar utskrivingsrapport (B4)', 'Mottar epikrise (U8)', and finally 'Oppdaterer plan (U30)' leading to 'Pasienten er utskrevet med oppfølging i kommunal helse- og omsorgstjeneste'. The process ends with '特ender utskrivingsrapport' to 'Spesialist-helsetjenesten'.](47a7beddcb8a1b7abdca746967e32bb4_img.jpg)
+![Flowchart for use-case U45: Planlegger og koordinerer utskrivelse fra sykehus eller annen institusjon. The process involves interaction between 'INNBYGGER/PÅRØRENDE' and 'Planlegger og koordinerer utskrivelse (U45)'. It starts with 'Eventuell informasjon fra innbygger' leading to 'Orientering om tjenestetilbud'. The main flow starts with 'Pasient er innlagt på sykehus og det planlegges hjemreise', followed by 'Mottar melding om innlagt pasient (B25)', 'Mottar melding om behov for tjenester (B26)', 'Vurderer behov for tjenester', 'Har dialog med helsepersonell utenfor løsningen (U6)', 'Innhenter tilleggsopplysninger (U51)', 'Fatter vedtak om planlagte tjenester og tilgjengeliggjør det', 'Oppdaterer plan (U30)', 'Mottar melding om utskrivingsklar pasient (B28)', 'Har dialog med helsepersonell utenfor løsningen (U6)', 'Mottar utskrivingsrapport (B4)', 'Mottar epikrise (U8)', and finally 'Oppdaterer plan (U30)' leading to 'Pasienten er utskrevet med oppfølging i kommunal helse- og omsorgstjeneste'. The process ends with '特ender utskrivingsrapport' to 'Spesialist-helsetjenesten'.](images/Bilag G2 Helhetlig samhandling/47a7beddcb8a1b7abdca746967e32bb4_img.jpg)
 
 ```
 
@@ -1236,7 +1236,7 @@ Dette use-case er f.eks. aktuelt når innbygger skrives ut fra sykehus men må h
 
 #### 3.2.7.1 Rekvirerer, mottar og vurderer svar på laboratorieundersøkelse fra eksternt laboratorium (U21)
 
-![Flowchart for use-case U21: Rekvirerer, mottar og vurderer svar på laboratorieundersøkelse fra eksternt laboratorium. The process involves an 'INNBYGGER/PÅRØRENDE' and an 'Eksternt laboratorium'. The flow starts with 'Erkjent behov for lab.undersøkelser', followed by 'Avklarer hvilket lab. undersøkelsen skal sendes til (B16)', 'Velger us., fyller ut og sender rekvisisjon (B17)', 'Finner krav til prøvetakning, skriver ut følgeseddel og tar prøve (B18)', and 'Sender prøve med følgeseddel til lab (B40)'. The 'Eksternt laboratorium' then sends a 'Prøvesvar med følgeseddel' back to the patient. The patient then 'Mottar svar på us. (B19)' and 'Mottar varsel'. A decision 'Kritiske verdier?' leads to 'Tolker svar og evt. setter i gang tiltak' if 'JA', or 'Delar kopi av svar med innbygger evt. sender brev om tiltak' if 'NEI'. The process ends with 'Prøvesvar tolet'.](329c96049bb432e9c2cbda4e224a0c9c_img.jpg)
+![Flowchart for use-case U21: Rekvirerer, mottar og vurderer svar på laboratorieundersøkelse fra eksternt laboratorium. The process involves an 'INNBYGGER/PÅRØRENDE' and an 'Eksternt laboratorium'. The flow starts with 'Erkjent behov for lab.undersøkelser', followed by 'Avklarer hvilket lab. undersøkelsen skal sendes til (B16)', 'Velger us., fyller ut og sender rekvisisjon (B17)', 'Finner krav til prøvetakning, skriver ut følgeseddel og tar prøve (B18)', and 'Sender prøve med følgeseddel til lab (B40)'. The 'Eksternt laboratorium' then sends a 'Prøvesvar med følgeseddel' back to the patient. The patient then 'Mottar svar på us. (B19)' and 'Mottar varsel'. A decision 'Kritiske verdier?' leads to 'Tolker svar og evt. setter i gang tiltak' if 'JA', or 'Delar kopi av svar med innbygger evt. sender brev om tiltak' if 'NEI'. The process ends with 'Prøvesvar tolet'.](images/Bilag G2 Helhetlig samhandling/329c96049bb432e9c2cbda4e224a0c9c_img.jpg)
 
 ```
 
@@ -1294,13 +1294,13 @@ Dette use-case er f.eks. aktuelt når innbygger må ta laboratorieprøver som op
 
 #### 3.2.7.2 Henviser til radiologisk undersøkelse, mottar og behandler svar (U32)
 
-![](95e259e8cb3519025066052af263f8c0_img.jpg)
+![](images/Bilag G2 Helhetlig samhandling/95e259e8cb3519025066052af263f8c0_img.jpg)
 
 ### 3.2.8 Legemiddelbehandling
 
 #### 3.2.8.1 Planlegger og gjennomfører legemiddelbehandling utenfor institusjon (U23)
 
-![Flowchart for the use-case 'Planlegger og gjennomfører legemiddelbehandling utenfor institusjon (U23)'. The process starts with 'INNBYGGER/PÅRØRENDE' providing information on medication use. The 'U23 Planlegger og gjennomfører legemiddelbehandling utenfor institusjon' process begins with 'Innhenter informasjon om pasientens legemiddelbruk (B20)'. A decision 'Behov for legemiddel-samstemning?' leads to 'Utfører legemiddel-samstemning (U44)' if 'JA', or to 'Innhenter kunnskap om legemiddelet og evt. alternativer' if 'NEI'. The 'JA' path leads to 'Utfører legemiddel-gjennomgang (U47)', which then leads to 'Innhenter kunnskap om legemiddelet og evt. alternativer'. A decision 'Behov for legemiddel-gjennomgang?' leads to 'Innhenter kunnskap om legemiddelet og evt. alternativer' if 'JA', or to 'Vurderer eventuelle allergier eller overfølsomhet mot legemiddelet (B059)' if 'NEI'. The 'NEI' path leads to 'Vurderer eventuelle allergier eller overfølsomhet mot legemiddelet (B059)'. A decision 'Gjør endring(er) i plan for legemiddel-behandling (B21)' leads to 'Oppdatert plan' if 'JA', or to 'Forskriver legemidler (B22)' if 'NEI'. The 'NEI' path leads to 'Forskriver legemidler (B22)'. A decision 'Behov for å skrive nye resepter?' leads to 'E-Resept(er)' if 'JA', or to 'Innbygger kan hente legemidler etter behov' if 'NEI'. The 'E-Resept(er)' path leads to 'Innbygger kan hente legemidler etter behov'. The 'Innbygger kan hente legemidler etter behov' path leads to 'Innbygger kan hente legemidler etter behov'. The 'Innbygger kan hente legemidler etter behov' path leads to 'Innbygger kan hente legemidler etter behov'.](9252ccfbbe9e34cb108f0060f2b563f1_img.jpg)
+![Flowchart for the use-case 'Planlegger og gjennomfører legemiddelbehandling utenfor institusjon (U23)'. The process starts with 'INNBYGGER/PÅRØRENDE' providing information on medication use. The 'U23 Planlegger og gjennomfører legemiddelbehandling utenfor institusjon' process begins with 'Innhenter informasjon om pasientens legemiddelbruk (B20)'. A decision 'Behov for legemiddel-samstemning?' leads to 'Utfører legemiddel-samstemning (U44)' if 'JA', or to 'Innhenter kunnskap om legemiddelet og evt. alternativer' if 'NEI'. The 'JA' path leads to 'Utfører legemiddel-gjennomgang (U47)', which then leads to 'Innhenter kunnskap om legemiddelet og evt. alternativer'. A decision 'Behov for legemiddel-gjennomgang?' leads to 'Innhenter kunnskap om legemiddelet og evt. alternativer' if 'JA', or to 'Vurderer eventuelle allergier eller overfølsomhet mot legemiddelet (B059)' if 'NEI'. The 'NEI' path leads to 'Vurderer eventuelle allergier eller overfølsomhet mot legemiddelet (B059)'. A decision 'Gjør endring(er) i plan for legemiddel-behandling (B21)' leads to 'Oppdatert plan' if 'JA', or to 'Forskriver legemidler (B22)' if 'NEI'. The 'NEI' path leads to 'Forskriver legemidler (B22)'. A decision 'Behov for å skrive nye resepter?' leads to 'E-Resept(er)' if 'JA', or to 'Innbygger kan hente legemidler etter behov' if 'NEI'. The 'E-Resept(er)' path leads to 'Innbygger kan hente legemidler etter behov'. The 'Innbygger kan hente legemidler etter behov' path leads to 'Innbygger kan hente legemidler etter behov'. The 'Innbygger kan hente legemidler etter behov' path leads to 'Innbygger kan hente legemidler etter behov'.](images/Bilag G2 Helhetlig samhandling/9252ccfbbe9e34cb108f0060f2b563f1_img.jpg)
 
 ```
 
@@ -1373,7 +1373,7 @@ Dette use-case er f.eks. aktuelt når legevaktslege forskriver behandling med pe
 
 #### 3.2.8.2 Utfører legemiddelsamstemming (U44)
 
-![UML Use Case Diagram for 'U44 Utfører legemiddelsamstemming'.](834fb96b114b8fdc001625e1ae28e8b1_img.jpg)
+![UML Use Case Diagram for 'U44 Utfører legemiddelsamstemming'.](images/Bilag G2 Helhetlig samhandling/834fb96b114b8fdc001625e1ae28e8b1_img.jpg)
 
 The diagram illustrates the 'U44 Utfører legemiddelsamstemming' use case. It shows the interaction between an actor (INNBYGGER/PÅRØRENDE) and the system (U44 Utfører legemiddelsamstemming). The process starts with the actor providing 'Informasjon om bruk av legemidler'. The system then performs 'Innhenter informasjon om Innbygers legemiddelbehandling (B20)', followed by 'Velger ut legemiddel på lista', 'Innhenter kunnskap om legemiddelet', and 'Vurderer legemiddel mot andre legemidler mtp. gyldighet, overlapp i virkestoff, funksjon, m.m.'. A decision point 'Endrer eller fjerner legemiddel fra lista' leads to 'Flere legemidler igjen på lista?'. If yes, the process loops back to 'Innhenter kunnskap om legemiddelet'. If no, it proceeds to 'Oppdaterer liste over legemidler i bruk (B21)'. The final state is 'Innbygers liste over legemidler i bruk er i tråd med hva innbygger tar (og skulle tatt)'. The system then provides 'Oppdatert legemidler i bruk' back to the actor. External entities like 'Spesialisthelsetjenesten', 'Reseptformidler / Kjernejournal / annet', and 'Privat helsetjeneste / andre' are also shown, with dashed lines indicating potential interactions.
 
@@ -1388,7 +1388,7 @@ Dette use-case er f.eks. aktuelt når det er behov for å sørge for at pasiente
 
 #### 3.2.8.3 Utfører legemiddelgjennomgang (U47)
 
-![Flowchart for 'Utfører legemiddelgjennomgang (U47)' showing the process from need identification to final medication list update.](f5a5f52bc25d95a7f616290c99e88ae6_img.jpg)
+![Flowchart for 'Utfører legemiddelgjennomgang (U47)' showing the process from need identification to final medication list update.](images/Bilag G2 Helhetlig samhandling/f5a5f52bc25d95a7f616290c99e88ae6_img.jpg)
 
 ```
 
@@ -1477,7 +1477,7 @@ Dette use-case er f.eks. aktuelt når det er behov for en gjennomgang av pasient
 
 #### 3.2.8.4 Registrere oppstart, gjøre endringer og gjennomføre multidose (U088)
 
-![Flowchart for use-case U088: Registrere oppstart, gjøre endringer og gjennomføre multidose. The process starts with a patient or GP finding a basis for multidose treatment, followed by a GP/medicinalist consultation. A decision is made on whether a multidose treatment is needed. If yes, a medicinalist signs off, a list is prepared, and the treatment is registered. The list is then sent to the GP, who signs it and returns it. The list is updated and sent to the patient's GP, who signs it and returns it. The process ends with the patient using the multidose treatment.](60ffbad6c0fb7371a57fe8f267d2d141_img.jpg)
+![Flowchart for use-case U088: Registrere oppstart, gjøre endringer og gjennomføre multidose. The process starts with a patient or GP finding a basis for multidose treatment, followed by a GP/medicinalist consultation. A decision is made on whether a multidose treatment is needed. If yes, a medicinalist signs off, a list is prepared, and the treatment is registered. The list is then sent to the GP, who signs it and returns it. The list is updated and sent to the patient's GP, who signs it and returns it. The process ends with the patient using the multidose treatment.](images/Bilag G2 Helhetlig samhandling/60ffbad6c0fb7371a57fe8f267d2d141_img.jpg)
 
 **INNBYGGER/ PÅRØRENDE**
 
@@ -1515,7 +1515,7 @@ Dette use-case er f.eks. aktuelt for å kunne støtte innbygers legemiddelhåndt
 
 #### 3.2.9.1 Slår opp fysiologiske MTU-undersøkelser (U26)
 
-![UML Use Case Diagram for 'Slår opp fysiologiske MTU-undersøkelser (U26)'](4e85fe330de2c4f5eea6de4b2a53c77f_img.jpg)
+![UML Use Case Diagram for 'Slår opp fysiologiske MTU-undersøkelser (U26)'](images/Bilag G2 Helhetlig samhandling/4e85fe330de2c4f5eea6de4b2a53c77f_img.jpg)
 
 ```
 
@@ -1561,7 +1561,7 @@ Dette use-case er f.eks. aktuelt når legevaktt har behov for å sammenligne utf
 
 #### 3.2.9.2 Leser, deler, endrer målinger og innstillinger for MTU i hjemmet (U25)
 
-![Flowchart for use-case U25: Leser, deler, endrer målinger og innstillinger for MTU i hjemmet. The diagram shows a process involving 'Spesialisthelsetjeneste' and 'MTU'. It starts with an inquirer visiting home, then planning, providing user guidance, interviewing, and reviewing the journal. Decisions are made on whether to consult a specialist, sync with the specialist, transfer settings, or coordinate with acute medical services. The process ends with a plan control.](41aef1f5efab13d4f38f69e86c726062_img.jpg)
+![Flowchart for use-case U25: Leser, deler, endrer målinger og innstillinger for MTU i hjemmet. The diagram shows a process involving 'Spesialisthelsetjeneste' and 'MTU'. It starts with an inquirer visiting home, then planning, providing user guidance, interviewing, and reviewing the journal. Decisions are made on whether to consult a specialist, sync with the specialist, transfer settings, or coordinate with acute medical services. The process ends with a plan control.](images/Bilag G2 Helhetlig samhandling/41aef1f5efab13d4f38f69e86c726062_img.jpg)
 
 **U25 Leser, deler og endrer målinger og innstillinger for MTU i hjemmet**
 
@@ -1610,7 +1610,7 @@ Dette use-case er f.eks. aktuelt når innbygger har medisinsk-teknisk utstyr der
 
 #### 3.2.10.1 Leser/oppretter, endrer, deler og følger opp plan med tiltak (U30)
 
-![Flowchart for use-case U30: Leser/oppretter, endrer, deler og følger opp plan med tiltak. The process involves multiple actors: Innbygger/Pårørende, U30 (helsepersonell), and Spesialist helsejenesten. It starts with an assessment of need for action, followed by creating a local plan, defining actions, consulting with the citizen and specialists, updating and sharing the plan, implementing actions, evaluating, and finally closing the plan or continuing with further health help.](a003ffe7299e0a48bceb7f1e45a4f1a3_img.jpg)
+![Flowchart for use-case U30: Leser/oppretter, endrer, deler og følger opp plan med tiltak. The process involves multiple actors: Innbygger/Pårørende, U30 (helsepersonell), and Spesialist helsejenesten. It starts with an assessment of need for action, followed by creating a local plan, defining actions, consulting with the citizen and specialists, updating and sharing the plan, implementing actions, evaluating, and finally closing the plan or continuing with further health help.](images/Bilag G2 Helhetlig samhandling/a003ffe7299e0a48bceb7f1e45a4f1a3_img.jpg)
 
 ```
 
@@ -1670,7 +1670,7 @@ Dette use-case er f.eks. aktuelt når innbygger står i et behandlingsforløp so
 
 #### 3.2.10.2 Oppretter og oppdaterer individuell plan (U53)
 
-![Flowchart for 'Oppretter og oppdaterer individuell plan (U53)' showing the process from need identification to plan review and coordination.](01e00200a536673d6cd0e6d8705047a0_img.jpg)
+![Flowchart for 'Oppretter og oppdaterer individuell plan (U53)' showing the process from need identification to plan review and coordination.](images/Bilag G2 Helhetlig samhandling/01e00200a536673d6cd0e6d8705047a0_img.jpg)
 
 The flowchart illustrates the process for creating and updating an individual plan (U53). It involves several actors: Innbygger/Pårørende (Inhabitant/Relative), Oppretter og oppdaterer individuell plan (U53) (Creator andUpdater of individual plan), and other municipal and state service areas (e.g., NAV, PPT, barnehagen, skole). The process starts with the need for an individual plan, leading to registration, team formation, access to services, definition of goals, plan updates, and finally, a review and coordination phase.
 
@@ -1772,7 +1772,7 @@ Dette use-case er f.eks. aktuelt når innbygger med behov for langvarige og koor
 INNBYGGER/  
 PÅRØRENDE
 
-![Flowchart for U3 Mottar og vurderer anmodning om deltakelse i eksternt team. The process starts with a need to follow up on an innbygger in an external team. It involves receiving and evaluating a request for assistance (B60), deciding if the team is responsible (JA/NEI), and either finding an internal recipient (JA) or sending a rejection (NEI). If rejected, an invitation is sent (B61) and a rejection letter is sent. If accepted, a confirmation is sent (B62) and the team participation is registered (B63).](7e61b2e2506cc7e5d6e16ce9c9df25bb_img.jpg)
+![Flowchart for U3 Mottar og vurderer anmodning om deltakelse i eksternt team. The process starts with a need to follow up on an innbygger in an external team. It involves receiving and evaluating a request for assistance (B60), deciding if the team is responsible (JA/NEI), and either finding an internal recipient (JA) or sending a rejection (NEI). If rejected, an invitation is sent (B61) and a rejection letter is sent. If accepted, a confirmation is sent (B62) and the team participation is registered (B63).](images/Bilag G2 Helhetlig samhandling/7e61b2e2506cc7e5d6e16ce9c9df25bb_img.jpg)
 
 ```
 
@@ -1804,7 +1804,7 @@ Dette use-case er f.eks. aktuelt når det er behov for at innbygger følges opp 
 
 #### 3.2.11.2 Oppretter og følger opp team på tvers av organisasjoner (U37)
 
-![Flowchart for 'Oppretter og følger opp team på tvers av organisasjoner (U37)'](fe25bbee6685ab20f50ffc80c3feddd8_img.jpg)
+![Flowchart for 'Oppretter og følger opp team på tvers av organisasjoner (U37)'](images/Bilag G2 Helhetlig samhandling/fe25bbee6685ab20f50ffc80c3feddd8_img.jpg)
 
 ```
 
@@ -1842,7 +1842,7 @@ Dette use-case er f.eks. aktuelt når innbygger har behov for tjenester innen re
 
 #### 3.2.11.3 Deltar i team på tvers av organisasjoner (U38)
 
-![UML Use Case Diagram for U38: Deltar i team på tvers av organisasjoner. The diagram shows the interaction between an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) and an 'Eksternt ledet team' (Externally led team). The process starts with the team being created for the inhabitant. The team then receives a meeting invitation (B64) and checks their own schedule. If the date is preferred, they book time (B65) and attend the meeting. If not, they send a decline (B65). After the meeting, they update and share the plan (B41) and receive a report (B66).](40ebe9179df298f1b6d76822f28d90aa_img.jpg)
+![UML Use Case Diagram for U38: Deltar i team på tvers av organisasjoner. The diagram shows the interaction between an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) and an 'Eksternt ledet team' (Externally led team). The process starts with the team being created for the inhabitant. The team then receives a meeting invitation (B64) and checks their own schedule. If the date is preferred, they book time (B65) and attend the meeting. If not, they send a decline (B65). After the meeting, they update and share the plan (B41) and receive a report (B66).](images/Bilag G2 Helhetlig samhandling/40ebe9179df298f1b6d76822f28d90aa_img.jpg)
 
 ```
 
@@ -1888,7 +1888,7 @@ Dette use-case er f.eks. aktuelt der teamets medlemmer har behov for å arranger
 
 #### 3.2.11.4 Planlegger og gjennomfører møter (U27)
 
-![BPMN diagram showing the process for planning and conducting meetings (U27) involving Innbygger, U27 Planlegger og gjennomfører møter, and Tjenester utenfor løsningen.](789ee0a267b24f34bd1f45313e86c9a4_img.jpg)
+![BPMN diagram showing the process for planning and conducting meetings (U27) involving Innbygger, U27 Planlegger og gjennomfører møter, and Tjenester utenfor løsningen.](images/Bilag G2 Helhetlig samhandling/789ee0a267b24f34bd1f45313e86c9a4_img.jpg)
 
 The diagram illustrates the process for planning and conducting meetings (U27) involving three main participants: Innbygger (Inhabitant), U27 Planlegger og gjennomfører møter (U27 Planner and Meeting Conductor), and Tjenester utenfor løsningen (Services outside the solution).
 
@@ -1936,7 +1936,7 @@ Dette use-case er f.eks. aktuelt når mange aktører er involvert i møter rundt
 
 #### 3.2.12.1 Bestille pasientreise for innbygger og få bekreftelse på turen (U29)
 
-![Flowchart for use-case U29: Bestille pasientreise for innbygger og få bekreftelse på turen. The process involves three main participants: Innbygger/Pårørende, U29 (Bestille pasientreise for innbygger og få bekreftelse på turen), and Lokalt pasientreisekontor. The flow starts with a need for transport, followed by a health professional assessing the need, informing the citizen, and then the citizen contacting the local patient travel office for confirmation.](0a73b03fba21af142d619a9a662e6490_img.jpg)
+![Flowchart for use-case U29: Bestille pasientreise for innbygger og få bekreftelse på turen. The process involves three main participants: Innbygger/Pårørende, U29 (Bestille pasientreise for innbygger og få bekreftelse på turen), and Lokalt pasientreisekontor. The flow starts with a need for transport, followed by a health professional assessing the need, informing the citizen, and then the citizen contacting the local patient travel office for confirmation.](images/Bilag G2 Helhetlig samhandling/0a73b03fba21af142d619a9a662e6490_img.jpg)
 
 ```
 
@@ -1993,7 +1993,7 @@ Dette use-case er f.eks. aktuelt når innbygger har behov for transport for å k
 
 #### 3.2.13.1 Anmoder om andre kommunale og statlige tjenester, med vurdering og svar (U002)
 
-![BPMN diagram for use-case U002: Anmoder om andre kommunale og statlige tjenester, med vurdering og svar. The diagram shows a process starting with a patient request, followed by assessment, documentation, and either a dialog or a direct request for services, leading to a response and plan update.](9e8ebf03cae78f4f81b697548c2d7250_img.jpg)
+![BPMN diagram for use-case U002: Anmoder om andre kommunale og statlige tjenester, med vurdering og svar. The diagram shows a process starting with a patient request, followed by assessment, documentation, and either a dialog or a direct request for services, leading to a response and plan update.](images/Bilag G2 Helhetlig samhandling/9e8ebf03cae78f4f81b697548c2d7250_img.jpg)
 
 **INNBYGGER/ PÅRØRENDE**
 
@@ -2042,7 +2042,7 @@ Dette use-case er f.eks. aktuelt dersom innbygger har behov for hjelpemiddel fra
 
 #### 3.2.13.2 Mottar svar (vedtak) og oppdatert oversikt over tildelte tjenester (U061)
 
-![BPMN diagram for use-case U061: Mottar svar (vedtak) og oppdatert oversikt over tildelte tjenester. The diagram shows a process starting with a health professional requesting an overview of services from another municipality. It branches based on whether the user receives services from other municipalities. If yes, they receive a decision and an overview of services. If no, they receive a decision and an overview of services from other municipalities. Both paths lead to the patient receiving services.](675af5bb2357ce5b510e613d04f66bdc_img.jpg)
+![BPMN diagram for use-case U061: Mottar svar (vedtak) og oppdatert oversikt over tildelte tjenester. The diagram shows a process starting with a health professional requesting an overview of services from another municipality. It branches based on whether the user receives services from other municipalities. If yes, they receive a decision and an overview of services. If no, they receive a decision and an overview of services from other municipalities. Both paths lead to the patient receiving services.](images/Bilag G2 Helhetlig samhandling/675af5bb2357ce5b510e613d04f66bdc_img.jpg)
 
 ```
 
@@ -2084,7 +2084,7 @@ Dette use-case er f.eks. aktuelt for å få en oversikt over tjenester innbygger
 
 Motta og følge opp anmodning fra barnevern om innhenting av informasjon om et barn (U048)
 
-![BPMN diagram for the use case 'Motta og følge opp anmodning fra barnevern om innhenting av informasjon om et barn (U048)'. The diagram shows a process flow involving multiple external participants: PÅRØRENDE, Barnevern, Skole, Spesialisthelsetjenesten, and Kommune, forsikring, advokat m.fl. The process starts with 'Bekymring foreligger' and proceeds through 'Mottar anmodning om innhenting av informasjon', 'Innhenter informasjon og gjør vurdering', and a decision 'Er tilstrekkelig informasjon innhentet?'. If 'Nei', it goes to 'Tilleggsinformasjon innhentes (U51)'. If 'Ja', it goes to 'Gjør vurdering og sender oppsummert informasjon (B274 og B275)'. Both paths lead to 'Genererer betaling fra andre aktører med og uten avtale (AS1.2.3)' and end at 'Bekymring er håndtert'. Data objects like 'Henvisning om bekymring', 'Tilleggsinformasjon', 'Oppsummert informasjon', and 'Oppsummert informasjon' are shown as inputs/outputs between the process and external participants.](7ed5d5770331f31ade15439a21c31425_img.jpg)
+![BPMN diagram for the use case 'Motta og følge opp anmodning fra barnevern om innhenting av informasjon om et barn (U048)'. The diagram shows a process flow involving multiple external participants: PÅRØRENDE, Barnevern, Skole, Spesialisthelsetjenesten, and Kommune, forsikring, advokat m.fl. The process starts with 'Bekymring foreligger' and proceeds through 'Mottar anmodning om innhenting av informasjon', 'Innhenter informasjon og gjør vurdering', and a decision 'Er tilstrekkelig informasjon innhentet?'. If 'Nei', it goes to 'Tilleggsinformasjon innhentes (U51)'. If 'Ja', it goes to 'Gjør vurdering og sender oppsummert informasjon (B274 og B275)'. Both paths lead to 'Genererer betaling fra andre aktører med og uten avtale (AS1.2.3)' and end at 'Bekymring er håndtert'. Data objects like 'Henvisning om bekymring', 'Tilleggsinformasjon', 'Oppsummert informasjon', and 'Oppsummert informasjon' are shown as inputs/outputs between the process and external participants.](images/Bilag G2 Helhetlig samhandling/7ed5d5770331f31ade15439a21c31425_img.jpg)
 
 ```
 
@@ -2148,7 +2148,7 @@ Dette use-case er f.eks. aktuelt dersom skole varsler barnevern om bekymring for
 
 #### Mottar og videresender rettighetsklage til fylkesmannen, og mottar tilbakemelding (U062)
 
-![Flowchart of the complaint process (U062) between the citizen and the county administration.](3337af75dfee8af7687b4f49914d6c93_img.jpg)
+![Flowchart of the complaint process (U062) between the citizen and the county administration.](images/Bilag G2 Helhetlig samhandling/3337af75dfee8af7687b4f49914d6c93_img.jpg)
 
 ```
 
@@ -2193,7 +2193,7 @@ Dette use-case er aktuelt dersom innbygger mener at egne rettigheter ikke er opp
 
 #### Avvik som involverer aktører utenfor felles kommunal journalløsning (U4)
 
-![Flowchart for 'Avvik som involverer aktører utenfor felles kommunal journalløsning (U4)'. The process starts with 'Oppstått uønsket hendelse som må håndteres'. A decision 'Oppstått utenfor løsningen?' leads to 'Tilgjengeliggjør identifisert hendelse (B43)' if 'JA', or to 'Blir varslet om uønsket hendelse (B44)' if 'Nei'. 'Blir varslet om uønsket hendelse (B44)' leads to 'Registrerer hendelse'. A decision 'Behov for oppfølging?' leads to 'Revurderer og registrerer tiltak (U A.2.1.1. og A2.1.2. )' if 'JA', or to 'Oppdaterer og deler plan (U30)' if 'NEI'. 'Revurderer og registrerer tiltak' leads to 'Oppdaterer og deler plan'. 'Oppdaterer og deler plan' leads to 'Skriver og sender oppsummering med konklusjon (B45)'. 'Skriver og sender oppsummering' leads to 'Avvik lukkes'. External interactions include 'Supplerende informasjon om hendelse' and 'Konklusjon fra ferdigbehandlet avvik'.](9b1ec0090070bdf52ea28763b8d52477_img.jpg)
+![Flowchart for 'Avvik som involverer aktører utenfor felles kommunal journalløsning (U4)'. The process starts with 'Oppstått uønsket hendelse som må håndteres'. A decision 'Oppstått utenfor løsningen?' leads to 'Tilgjengeliggjør identifisert hendelse (B43)' if 'JA', or to 'Blir varslet om uønsket hendelse (B44)' if 'Nei'. 'Blir varslet om uønsket hendelse (B44)' leads to 'Registrerer hendelse'. A decision 'Behov for oppfølging?' leads to 'Revurderer og registrerer tiltak (U A.2.1.1. og A2.1.2. )' if 'JA', or to 'Oppdaterer og deler plan (U30)' if 'NEI'. 'Revurderer og registrerer tiltak' leads to 'Oppdaterer og deler plan'. 'Oppdaterer og deler plan' leads to 'Skriver og sender oppsummering med konklusjon (B45)'. 'Skriver og sender oppsummering' leads to 'Avvik lukkes'. External interactions include 'Supplerende informasjon om hendelse' and 'Konklusjon fra ferdigbehandlet avvik'.](images/Bilag G2 Helhetlig samhandling/9b1ec0090070bdf52ea28763b8d52477_img.jpg)
 
 ```
 
@@ -2253,7 +2253,7 @@ Dette use-case er aktuelt der f.eks. både spesialisthelsetjenesten og kommunal 
 
 #### 3.2.17.1 Innhenter og tilgjengeliggjør data for registre (U068)
 
-![Flowchart for use-case U068: Innhenter og tilgjengeliggjør data for registre. The process starts with an actor 'INNBYGGER/PÅRØRENDE' providing 'ADL-data' to the system. The system then performs 'Innhenter og tilgjengeliggjør data for registre (U068)'. Inside this process, it first does 'Innhenter/klargjør oversikt over data som er rapporterings-pliktig'. A decision is made: 'Er mer informasjon tilgjengelig fra andre steder?'. If 'JA', it proceeds to 'Innhenter supplerende informasjon' and then 'Sammenstiller rapporterings-pliktig informasjon'. If 'NEI', it proceeds to 'Avgir informasjon (B283)'. Both paths lead to 'Avgir informasjon (B283)', which then sends 'Rapporteringspliktige data' to 'Nasjonale registre'. The process ends with the message 'Registre har mottatt rapporteringspliktige data'.](b34c69e1ec326b01c3a485b27b1df5f6_img.jpg)
+![Flowchart for use-case U068: Innhenter og tilgjengeliggjør data for registre. The process starts with an actor 'INNBYGGER/PÅRØRENDE' providing 'ADL-data' to the system. The system then performs 'Innhenter og tilgjengeliggjør data for registre (U068)'. Inside this process, it first does 'Innhenter/klargjør oversikt over data som er rapporterings-pliktig'. A decision is made: 'Er mer informasjon tilgjengelig fra andre steder?'. If 'JA', it proceeds to 'Innhenter supplerende informasjon' and then 'Sammenstiller rapporterings-pliktig informasjon'. If 'NEI', it proceeds to 'Avgir informasjon (B283)'. Both paths lead to 'Avgir informasjon (B283)', which then sends 'Rapporteringspliktige data' to 'Nasjonale registre'. The process ends with the message 'Registre har mottatt rapporteringspliktige data'.](images/Bilag G2 Helhetlig samhandling/b34c69e1ec326b01c3a485b27b1df5f6_img.jpg)
 
 ```
 
@@ -2285,7 +2285,7 @@ Dette use-case er f.eks. aktuelt når det skal avgis data til KPR, Dødsårsaksr
 
 #### 3.2.17.2 Mottar oppdatert fastlegeliste (fastlegens listepopulasjon) fra HELFO (U058)
 
-![Flowchart for use-case U058: Mottar oppdatert fastlegeliste (fastlegens listepopulasjon) fra HELFO (U058).](b4b91e1f5ced9a2bc4a7f3b038cf3fb6_img.jpg)
+![Flowchart for use-case U058: Mottar oppdatert fastlegeliste (fastlegens listepopulasjon) fra HELFO (U058).](images/Bilag G2 Helhetlig samhandling/b4b91e1f5ced9a2bc4a7f3b038cf3fb6_img.jpg)
 
 ```
 
@@ -2321,7 +2321,7 @@ Dette use-case er aktuelt for at fastlegen skal få en jevnlig oppdatert oversik
 
 #### Opprette og sende sykmelding til NAV (U070)
 
-![BPMN diagram for use case U070: Opprette og sende sykmelding til NAV. The diagram shows a process flow between 'INNBYGGER/PÅRØRENDE' and 'NAV'. The process starts with a start event, followed by 'Oppretter sykmelding i journalen', 'Legge inn relevante opplysninger med diagnose og datoer', 'Godkjenner og sender ferdig sykmelding med del A til NAV og del B, C og D tilgjengeliggjøres for pasient (B284)', 'Mottar applikasjons-melding hvis sending feiler', and ends with 'Sykmelding lagret i journal'. There are two data exchange events: 'Del B, C og D tilgjengeliggjøres for pasient' (top) and 'Del A sendes NAV' (bottom).](56a5265d174ce056c1dbe5e7a60839fc_img.jpg)
+![BPMN diagram for use case U070: Opprette og sende sykmelding til NAV. The diagram shows a process flow between 'INNBYGGER/PÅRØRENDE' and 'NAV'. The process starts with a start event, followed by 'Oppretter sykmelding i journalen', 'Legge inn relevante opplysninger med diagnose og datoer', 'Godkjenner og sender ferdig sykmelding med del A til NAV og del B, C og D tilgjengeliggjøres for pasient (B284)', 'Mottar applikasjons-melding hvis sending feiler', and ends with 'Sykmelding lagret i journal'. There are two data exchange events: 'Del B, C og D tilgjengeliggjøres for pasient' (top) and 'Del A sendes NAV' (bottom).](images/Bilag G2 Helhetlig samhandling/56a5265d174ce056c1dbe5e7a60839fc_img.jpg)
 
 ```
 
@@ -2360,7 +2360,7 @@ Dette use-case er aktuelt når sykmelding er aktuelt og den må sendes fra helse
 
 **Kvalitetssikrer og sender samleoppgjør til HELFO, mottar rapport med evt. avvik, korrigerer og sender korrigeret oppgjør, mottar rapport (U094)**
 
-![BPMN flowchart for the 'Takstoppgjør Helfo' use-case. The process starts with a start event leading to 'Hente samlet oversikt over regningskort' (minst hver 14. dag). A decision 'Behov for korrigering av regnskapskort?' has a 'JA' path to 'Korrigerer regningskort' and a 'NEI' path to 'Istandgjøre samleregning'. Both paths lead to 'Sende samleregning med regningskort (B288)', which sends a 'Samleoppgjør' to HELFO. HELFO then sends a 'Rapport med status for godkjente/ avviste regningskort som grunnlag for utbetaling.' back to the process. A decision 'Avviste kort?' has a 'JA' path to 'Korrigerer regningskort' and a 'NEI' path to an end event 'Regningskort godtatt og utbetaling følger i løpet av dager'.](fd3cbb53e991f8209ba17b398f426e13_img.jpg)
+![BPMN flowchart for the 'Takstoppgjør Helfo' use-case. The process starts with a start event leading to 'Hente samlet oversikt over regningskort' (minst hver 14. dag). A decision 'Behov for korrigering av regnskapskort?' has a 'JA' path to 'Korrigerer regningskort' and a 'NEI' path to 'Istandgjøre samleregning'. Both paths lead to 'Sende samleregning med regningskort (B288)', which sends a 'Samleoppgjør' to HELFO. HELFO then sends a 'Rapport med status for godkjente/ avviste regningskort som grunnlag for utbetaling.' back to the process. A decision 'Avviste kort?' has a 'JA' path to 'Korrigerer regningskort' and a 'NEI' path to an end event 'Regningskort godtatt og utbetaling følger i løpet av dager'.](images/Bilag G2 Helhetlig samhandling/fd3cbb53e991f8209ba17b398f426e13_img.jpg)
 
 ```
 
@@ -2392,7 +2392,7 @@ Dette use-case er aktuelt for at utbetaling fra HELFO kan skje til helsepersonel
 
 #### Vedtak om tvungen somatisk helsehjelp etter Pasient- og brukerrettighetsloven Kapittel 4A til fylkesmannen (U091)
 
-![Flowchart for the use-case 'Vedtak om tvungen somatisk helsehjelp etter Pasient- og brukerrettighetsloven Kap 4A til fylkesmannen (U091)'. The process starts with 'Pasient motsetter seg helsehjelp' and branches based on whether the patient objects to the help. If they do not object, the process proceeds to 'Helsepersonell vurderer om pasient mangler samtykke-kompetanse i forhold til den aktuelle helsehjelpen'. If they do object, the process proceeds to 'Helsepersonell informerer pasient og pårørende om manglende samtykkekompetanse'. Both paths lead to 'Helsepersonell innhenter informasjon fra pårørende og dokumenterer deres synspunkt'. This is followed by 'Helsepersonell rådfører seg med annet kvalifisert personale og fatter vedtak om tvungen somatisk helsehjelp (B290)'. The process then moves to 'Mottar forespørsel om utfyllende informasjon (B291)', 'Mottar forespurt informasjon oversendes (B292)', and 'Mottar henvendelse om å vurdere om grunnlag for vedtak fortsatt er gjeldende (B293)'. Finally, it leads to 'Kan gjennomføre Nødvendig helsehjelp'. The diagram includes swimlanes for 'INNBYGGER/PÅRØRENDE' and 'Fylkesmannen'.](575d7d345b3ec04393bb2ec720ebabca_img.jpg)
+![Flowchart for the use-case 'Vedtak om tvungen somatisk helsehjelp etter Pasient- og brukerrettighetsloven Kap 4A til fylkesmannen (U091)'. The process starts with 'Pasient motsetter seg helsehjelp' and branches based on whether the patient objects to the help. If they do not object, the process proceeds to 'Helsepersonell vurderer om pasient mangler samtykke-kompetanse i forhold til den aktuelle helsehjelpen'. If they do object, the process proceeds to 'Helsepersonell informerer pasient og pårørende om manglende samtykkekompetanse'. Both paths lead to 'Helsepersonell innhenter informasjon fra pårørende og dokumenterer deres synspunkt'. This is followed by 'Helsepersonell rådfører seg med annet kvalifisert personale og fatter vedtak om tvungen somatisk helsehjelp (B290)'. The process then moves to 'Mottar forespørsel om utfyllende informasjon (B291)', 'Mottar forespurt informasjon oversendes (B292)', and 'Mottar henvendelse om å vurdere om grunnlag for vedtak fortsatt er gjeldende (B293)'. Finally, it leads to 'Kan gjennomføre Nødvendig helsehjelp'. The diagram includes swimlanes for 'INNBYGGER/PÅRØRENDE' and 'Fylkesmannen'.](images/Bilag G2 Helhetlig samhandling/575d7d345b3ec04393bb2ec720ebabca_img.jpg)
 
 ```
 
@@ -2452,7 +2452,7 @@ Dette use-case er nødvendig for at helsepersonell skal kunne gjennomføre nødv
 
 #### Donasjon av legeme til forskning (U56)
 
-![Flowchart of the donation process (Donasjon av legemet til forskning U56). The process starts with 'Innbygger har donert legeme til forskning' and proceeds through several steps: 'Lege utfører undersøkelse og erklærer dødsfall (B196)', 'Helsepersonell sjekker om vedkommende er registrert som donor', 'Pårørende informeres om dødsfall og hva som skjer med legemet etter død', 'Helsepersonell informerer om at donasjon kan gjennomføres (B296)', and 'Legeme transporteres til institutt og journal avsluttes'. The process ends with 'Donasjonsprosess er fullført'. External entities involved are 'PÅRØRENDE', 'Dødsårsaksregisteret', and 'Universitet/ institutt'. Information flows include 'Informasjon til pårørende', 'Dødsmelding', and 'Informerer institutt om legeme'.](2cc973099f02f2cc67558feea3b18cde_img.jpg)
+![Flowchart of the donation process (Donasjon av legemet til forskning U56). The process starts with 'Innbygger har donert legeme til forskning' and proceeds through several steps: 'Lege utfører undersøkelse og erklærer dødsfall (B196)', 'Helsepersonell sjekker om vedkommende er registrert som donor', 'Pårørende informeres om dødsfall og hva som skjer med legemet etter død', 'Helsepersonell informerer om at donasjon kan gjennomføres (B296)', and 'Legeme transporteres til institutt og journal avsluttes'. The process ends with 'Donasjonsprosess er fullført'. External entities involved are 'PÅRØRENDE', 'Dødsårsaksregisteret', and 'Universitet/ institutt'. Information flows include 'Informasjon til pårørende', 'Dødsmelding', and 'Informerer institutt om legeme'.](images/Bilag G2 Helhetlig samhandling/2cc973099f02f2cc67558feea3b18cde_img.jpg)
 
 ```
 
@@ -2493,7 +2493,7 @@ Innbyggertjenestene kommer fra analysen som er beskrevet i kapittel 2.2. De iden
 
 Figuren under gir en oversikt over alle innbyggertjenestene.
 
-![Diagram showing the structure of the Akson system, organized into four main areas: Innbyggeretsrettigheter, Administrere helsehjelp, Planlegge og koordinere med helsejenesten, and Kommunikasjon. Each area contains specific services (IN.01.1 to IN.07.4) and their descriptions.](e0627c8e3dfda5da1ee8d5a90c9f7489_img.jpg)
+![Diagram showing the structure of the Akson system, organized into four main areas: Innbyggeretsrettigheter, Administrere helsehjelp, Planlegge og koordinere med helsejenesten, and Kommunikasjon. Each area contains specific services (IN.01.1 to IN.07.4) and their descriptions.](images/Bilag G2 Helhetlig samhandling/e0627c8e3dfda5da1ee8d5a90c9f7489_img.jpg)
 
 | IN.01 Innbyggeretsrettigheter                        | IN.02 Administrere helsehjelp                                  | IN.03 Planlegge og koordinere med helsejenesten   | IN.04 Kommunikasjon                            |
 |------------------------------------------------------|----------------------------------------------------------------|---------------------------------------------------|------------------------------------------------|
@@ -2522,7 +2522,7 @@ I det følgende beskrives alle hovedområdene med tilhørende tjenester. Seksjon
 
 En beskrivelse av dagens situasjon er også inkludert under hver innbyggertjeneste. I hvor stor grad behovet er dekket er vurdert, og følgende kategorisering er brukt:
 
-![Legend for need fulfillment levels: Green circle for 'Behovet er i stor grad oppfylt i dagens situasjon', Yellow circle for 'Behovet er i noen grad dekket i dagens situasjon', and Red circle for 'Behovet er i svært liten grad dekket i dagens situasjon'.](677bcb564410628b8b966ad87b394888_img.jpg)
+![Legend for need fulfillment levels: Green circle for 'Behovet er i stor grad oppfylt i dagens situasjon', Yellow circle for 'Behovet er i noen grad dekket i dagens situasjon', and Red circle for 'Behovet er i svært liten grad dekket i dagens situasjon'.](images/Bilag G2 Helhetlig samhandling/677bcb564410628b8b966ad87b394888_img.jpg)
 
 - Behovet er i stor grad oppfylt i dagens situasjon
 - Behovet er i noen grad dekket i dagens situasjon
@@ -2592,7 +2592,7 @@ Brukerhistorier knyttet til tjenesten:
 
 ##### Dagens situasjon
 
-![Yellow circular icon with a white center](15b2cfa4abfdfc32124795ffe9db7688_img.jpg)
+![Yellow circular icon with a white center](images/Bilag G2 Helhetlig samhandling/15b2cfa4abfdfc32124795ffe9db7688_img.jpg)
 
 Yellow circular icon with a white center
 
@@ -2658,7 +2658,7 @@ Brukerhistorier knyttet til tjenesten:
 
 ##### Dagens situasjon
 
-![Yellow circular icon with a black outline.](d4aa77284498bd7ae7f3ff945623ebc6_img.jpg)
+![Yellow circular icon with a black outline.](images/Bilag G2 Helhetlig samhandling/d4aa77284498bd7ae7f3ff945623ebc6_img.jpg)
 
 Yellow circular icon with a black outline.
 
@@ -2747,7 +2747,7 @@ Brukerhistorier knyttet til tjenesten:
 
 ##### Dagens situasjon
 
-![Red circular icon with a white dot in the center, indicating a current situation or action.](4445828612fb93ac5a2afea8e41f69cc_img.jpg)
+![Red circular icon with a white dot in the center, indicating a current situation or action.](images/Bilag G2 Helhetlig samhandling/4445828612fb93ac5a2afea8e41f69cc_img.jpg)
 
 Red circular icon with a white dot in the center, indicating a current situation or action.
 
@@ -2795,7 +2795,7 @@ Brukerhistorier knyttet til denne tjenesten:
 
 ##### Dagens situasjon
 
-![Yellow circular icon with a white center, indicating a current situation or action.](8d93e9d426fccc5d8a99f98562c38fa3_img.jpg)
+![Yellow circular icon with a white center, indicating a current situation or action.](images/Bilag G2 Helhetlig samhandling/8d93e9d426fccc5d8a99f98562c38fa3_img.jpg)
 
 Yellow circular icon with a white center, indicating a current situation or action.
 
@@ -3048,7 +3048,7 @@ Helsefaglig standardisering (definert i Bilag G1) vil løses forskjellig i felle
 
 ### Helsefaglig standardisering, inndeling
 
-![Diagram showing the structure of health professional standardization, divided into three main areas: National Health Professional Foundation, Common Foundation for Digital Health and Care Services, and Common Health Professional Foundation for Communal Journal Solution. Each area lists specific standards and responsibilities.](4dd5f00d74e7db5bbb2d011609bcc43d_img.jpg)
+![Diagram showing the structure of health professional standardization, divided into three main areas: National Health Professional Foundation, Common Foundation for Digital Health and Care Services, and Common Health Professional Foundation for Communal Journal Solution. Each area lists specific standards and responsibilities.](images/Bilag G2 Helhetlig samhandling/4dd5f00d74e7db5bbb2d011609bcc43d_img.jpg)
 
 The diagram illustrates the structure of health professional standardization, divided into three main areas:
 
@@ -3131,7 +3131,7 @@ Informasjonstjenestene er delt inn i følgende hovedgrupper:
 - Rapportere egen aktivitet
 - Arrangere og delta i møter, konsultasjoner og samtaler
 
-![Diagram showing the structure of information services (Informasjonstjenester) in a goal model for integrated care. The diagram is organized into several sections: 1. Skaffe seg oversikt over innbyggerens tilstand og behov for helsehjelp (get an overview of the citizen's health status and need for health assistance), 2. Gjøre oppslag i tidligere journalopplysninger (search previous journal information), 3. Anmode om eller bestille tjenester eller ytelser, med svar samt kommunisere om saker (request or order services or benefits, with response and communicate about matters), 4. Innhente innbyggerens opplysninger (obtain citizen's information), 5. Slå opp i generelle informasjonskilder (grunndata) (search general information sources (basic data)), and 6. Arrangere og delta i møter, konsulasjoner og samtaler (organize and participate in meetings, consultations and conversations). Each section contains specific tasks or sub-sections. A legend on the right indicates that blue boxes represent 'Endre og dele' (change and share) and grey boxes represent 'Sende og motta' (send and receive).](f4fdce3ce1c0fd291f31813f83d0d0d3_img.jpg)
+![Diagram showing the structure of information services (Informasjonstjenester) in a goal model for integrated care. The diagram is organized into several sections: 1. Skaffe seg oversikt over innbyggerens tilstand og behov for helsehjelp (get an overview of the citizen's health status and need for health assistance), 2. Gjøre oppslag i tidligere journalopplysninger (search previous journal information), 3. Anmode om eller bestille tjenester eller ytelser, med svar samt kommunisere om saker (request or order services or benefits, with response and communicate about matters), 4. Innhente innbyggerens opplysninger (obtain citizen's information), 5. Slå opp i generelle informasjonskilder (grunndata) (search general information sources (basic data)), and 6. Arrangere og delta i møter, konsulasjoner og samtaler (organize and participate in meetings, consultations and conversations). Each section contains specific tasks or sub-sections. A legend on the right indicates that blue boxes represent 'Endre og dele' (change and share) and grey boxes represent 'Sende og motta' (send and receive).](images/Bilag G2 Helhetlig samhandling/f4fdce3ce1c0fd291f31813f83d0d0d3_img.jpg)
 
 **Informasjonstjenester**
 
@@ -4323,7 +4323,7 @@ Hovedparten av informasjonstjenestene er aktuelle for å understøtte samhandlin
 
 Følgende figur gir en oversikt over hvilke informasjonstjenester som ikke er relevante for samhandlingen mellom disse aktørene (markert med rødt):
 
-![Diagram titled 'Informasjonstjenester' showing various information services categorized into five sections. Services marked with a red border are considered irrelevant for the collaboration between these actors.](426a0ab9454f31706038a0ac0bc37b9c_img.jpg)
+![Diagram titled 'Informasjonstjenester' showing various information services categorized into five sections. Services marked with a red border are considered irrelevant for the collaboration between these actors.](images/Bilag G2 Helhetlig samhandling/426a0ab9454f31706038a0ac0bc37b9c_img.jpg)
 
 **Informasjonstjenester**
 
@@ -4409,7 +4409,7 @@ Det er gjennomført en analyse av hvilke informasjonstjenester det er behov for 
 - Innbygger skal på sikt kunne legge inn og dele informasjon om legemidler noe på legemidler (legge inn hvilke medisiner de faktisk har tatt og håndkjøpspreparater/helsekost), uten å endre på forskrivningen.
 - For klinisk kunnskap vil pasienten ønske å se en pasientvennlig versjon, mens helsepersonell ønsker den spesifikke medisinske.
 
-![Diagram titled 'Informasjonstjenester' showing various information services categorized into sections like 'Skaffe seg oversikt', 'Gjøre oppslag', 'Anmode om tjenester', 'Innbygers opplysninger', and 'Rapportere egen aktivitet'.](3fa5b988fc31a30231724a06f3567c54_img.jpg)
+![Diagram titled 'Informasjonstjenester' showing various information services categorized into sections like 'Skaffe seg oversikt', 'Gjøre oppslag', 'Anmode om tjenester', 'Innbygers opplysninger', and 'Rapportere egen aktivitet'.](images/Bilag G2 Helhetlig samhandling/3fa5b988fc31a30231724a06f3567c54_img.jpg)
 
 The diagram 'Informasjonstjenester' is organized into several sections:
 
@@ -4472,7 +4472,7 @@ samhandlingen mellom helsepersonell som bruker forskjellige journalløsningen og
 
 Det er foreløpig identifisert at 25 av totalt 26 identifiserte informasjonstjenester inneholder enkelte informasjonsbehov som er aktuelle for området knyttet til samhandling med andre kommunale og statlige aktører (se Figur 19). Bestilling og svar (lab) er den informasjonstjenesten som foreløpig ikke har identifiserte informasjonsbehov knyttet til seg for dette temaet.
 
-![Diagram titled 'Informasjonstjenester' showing a grid of 26 services categorized into six groups. Services are color-coded: blue for core, light blue for related, grey for optional, and red for not relevant. 'Bestilling og svar (lab)' is highlighted in red.](f4e5a86da5c799372a7c1ea2397dedb7_img.jpg)
+![Diagram titled 'Informasjonstjenester' showing a grid of 26 services categorized into six groups. Services are color-coded: blue for core, light blue for related, grey for optional, and red for not relevant. 'Bestilling og svar (lab)' is highlighted in red.](images/Bilag G2 Helhetlig samhandling/f4e5a86da5c799372a7c1ea2397dedb7_img.jpg)
 
 | Informasjonstjenester                                                                |                            |                                     |                                                        |                                    |  |
 |--------------------------------------------------------------------------------------|----------------------------|-------------------------------------|--------------------------------------------------------|------------------------------------|--|
@@ -4501,7 +4501,7 @@ Velferdsteknologi inkludert medisinsk avstandsoppfølging benytter 19 av de tota
 
 spesielt viktig knyttet til medisinsk avstandsoppfølging, samt at personverntjenesten (IT15) er lovpålagt.
 
-![Diagram titled 'Informasjonstjenester' showing various information services categorized into sections like 'Skaffe seg oversikt', 'Gjøre oppslag', 'Anmode om tjenester', 'Innbygers opplysninger', 'Rapportere egen aktivitet', 'Slå opp i generelle kilder', and 'Arrangere og delta i møter'.](1684f5f8c34bd0ef6e933664d88b9d86_img.jpg)
+![Diagram titled 'Informasjonstjenester' showing various information services categorized into sections like 'Skaffe seg oversikt', 'Gjøre oppslag', 'Anmode om tjenester', 'Innbygers opplysninger', 'Rapportere egen aktivitet', 'Slå opp i generelle kilder', and 'Arrangere og delta i møter'.](images/Bilag G2 Helhetlig samhandling/1684f5f8c34bd0ef6e933664d88b9d86_img.jpg)
 
 The diagram 'Informasjonstjenester' is organized into several sections:
 
@@ -4547,7 +4547,7 @@ Diagram titled 'Informasjonstjenester' showing various information services cate
 
 Følgende bilde gir en vurdering hvorvidt informasjonstjenestene vil brukes langs de fire dimensjonene samhandling mellom helsepersonell, samhandling med innbygger, samhandling med andre kommunale og statlige tjenester og samhandling med velferdsteknologi inkl. medisinsk avstandsoppfølging.
 
-![Diagram titled 'Informasjonstjenester' showing a matrix of services categorized by dimensions. The matrix is divided into sections: 'Skaffe seg oversikt over innbygger tilstand og behov for helsehjelp', 'Gjøre oppslag i tidligere journalopplysninger', 'Anmode om eller bestille tjenester eller ytelser, med svar samt kommunisere om saker', 'Innhente innbygger opplysninger', 'Rapportere egen aktivitet', 'Slå opp i generelle informasjonskilder (grunndata)', and 'Arrangere og delta i møter, konsulasjoner og samtaler'. Services are color-coded based on the number of dimensions they cover: green for 1-3 dimensions, yellow for 2 dimensions, and red for 1 dimension.](2c4c90917583576b27072e2083d75906_img.jpg)
+![Diagram titled 'Informasjonstjenester' showing a matrix of services categorized by dimensions. The matrix is divided into sections: 'Skaffe seg oversikt over innbygger tilstand og behov for helsehjelp', 'Gjøre oppslag i tidligere journalopplysninger', 'Anmode om eller bestille tjenester eller ytelser, med svar samt kommunisere om saker', 'Innhente innbygger opplysninger', 'Rapportere egen aktivitet', 'Slå opp i generelle informasjonskilder (grunndata)', and 'Arrangere og delta i møter, konsulasjoner og samtaler'. Services are color-coded based on the number of dimensions they cover: green for 1-3 dimensions, yellow for 2 dimensions, and red for 1 dimension.](images/Bilag G2 Helhetlig samhandling/2c4c90917583576b27072e2083d75906_img.jpg)
 
 **Informasjonstjenester**
 
@@ -4843,7 +4843,7 @@ Statusen beskrives ut fra om informasjonstjenesten eller informasjonsbehovet er 
 
 Figur 22 gir en samlet oversikt over status for de ulike informasjonstjenestene:
 
-![Diagram showing the maturity of information services across five functional levels: 1. Skaffe seg oversikt over innbygers tilstand og behov for helsehjelp (yellow boxes for Klinsk oppsummering, Problem/diagnose og behov, Plan, Tjenester, ytelser og hjelpemidler, Legemidler og vaksiner, Immunisering (status), Kritisk informasjon). 2. Gjøre oppslag i tidligere journalopplysninger (red boxes for Undersøkelser, målinger og funn, Multimedia og MTU-målinger, Journal-dokumenter, Kliniske bakgrunnsopplysninger). 3. Anmode om eller bestille tjenester eller ytelser, med svar samt kommunisere om saker (green boxes for Bestilling og svar (lab), Henvisning epikrise, m.m., Anmodning om tjeneste, Kommunikasjon ved saksbehandling). 4. Innhente innbygers opplysninger (green boxes for Pasient-demografi, Personvern, Innbygers opplysninger og ønsker). 5. Rapportere egen aktivitet (green boxes for Rapportering helsefag, Rapportering administrativt). 6. Slå opp i generelle informasjonskilder (grunddata) (red boxes for Oversikt over tilgjengelige tjenester og tilbud, Klinisk kunnskap). 7. Arrangere og delta i møter, konsulasjoner og samtaler (green boxes for Team- og møte-administrasjon, Video, Tekstlig dialog). A legend at the bottom indicates: Green = Lite behov for utvidelse, Yellow = Middels til stort behov for utvidelse, Red = Nye tjenester.](516174e327ed8fcb75cb3af20f110de8_img.jpg)
+![Diagram showing the maturity of information services across five functional levels: 1. Skaffe seg oversikt over innbygers tilstand og behov for helsehjelp (yellow boxes for Klinsk oppsummering, Problem/diagnose og behov, Plan, Tjenester, ytelser og hjelpemidler, Legemidler og vaksiner, Immunisering (status), Kritisk informasjon). 2. Gjøre oppslag i tidligere journalopplysninger (red boxes for Undersøkelser, målinger og funn, Multimedia og MTU-målinger, Journal-dokumenter, Kliniske bakgrunnsopplysninger). 3. Anmode om eller bestille tjenester eller ytelser, med svar samt kommunisere om saker (green boxes for Bestilling og svar (lab), Henvisning epikrise, m.m., Anmodning om tjeneste, Kommunikasjon ved saksbehandling). 4. Innhente innbygers opplysninger (green boxes for Pasient-demografi, Personvern, Innbygers opplysninger og ønsker). 5. Rapportere egen aktivitet (green boxes for Rapportering helsefag, Rapportering administrativt). 6. Slå opp i generelle informasjonskilder (grunddata) (red boxes for Oversikt over tilgjengelige tjenester og tilbud, Klinisk kunnskap). 7. Arrangere og delta i møter, konsulasjoner og samtaler (green boxes for Team- og møte-administrasjon, Video, Tekstlig dialog). A legend at the bottom indicates: Green = Lite behov for utvidelse, Yellow = Middels til stort behov for utvidelse, Red = Nye tjenester.](images/Bilag G2 Helhetlig samhandling/516174e327ed8fcb75cb3af20f110de8_img.jpg)
 
 Diagram showing the maturity of information services across five functional levels: 1. Skaffe seg oversikt over innbygers tilstand og behov for helsehjelp (yellow boxes for Klinsk oppsummering, Problem/diagnose og behov, Plan, Tjenester, ytelser og hjelpemidler, Legemidler og vaksiner, Immunisering (status), Kritisk informasjon). 2. Gjøre oppslag i tidligere journalopplysninger (red boxes for Undersøkelser, målinger og funn, Multimedia og MTU-målinger, Journal-dokumenter, Kliniske bakgrunnsopplysninger). 3. Anmode om eller bestille tjenester eller ytelser, med svar samt kommunisere om saker (green boxes for Bestilling og svar (lab), Henvisning epikrise, m.m., Anmodning om tjeneste, Kommunikasjon ved saksbehandling). 4. Innhente innbygers opplysninger (green boxes for Pasient-demografi, Personvern, Innbygers opplysninger og ønsker). 5. Rapportere egen aktivitet (green boxes for Rapportering helsefag, Rapportering administrativt). 6. Slå opp i generelle informasjonskilder (grunddata) (red boxes for Oversikt over tilgjengelige tjenester og tilbud, Klinisk kunnskap). 7. Arrangere og delta i møter, konsulasjoner og samtaler (green boxes for Team- og møte-administrasjon, Video, Tekstlig dialog). A legend at the bottom indicates: Green = Lite behov for utvidelse, Yellow = Middels til stort behov for utvidelse, Red = Nye tjenester.
 
@@ -4895,7 +4895,7 @@ Det første steget fokuserer på forutsetningene for å dele data mellom virksom
 |-----------|-----------------------|
 |-----------|-----------------------|
 
-![Icon representing a document or report.](625d1a3f96b1d8f99a23fdaf0720608a_img.jpg)
+![Icon representing a document or report.](images/Bilag G2 Helhetlig samhandling/625d1a3f96b1d8f99a23fdaf0720608a_img.jpg)
 
 Icon representing a document or report.
 
@@ -4909,7 +4909,7 @@ Icon representing a document or report.
   - A. Å anskaffe manglende delkomponenter og bygge disse inn i dagens arkitektur. I alternativ A sier vi at de tekniske delene av dagens e-helseløsninger skal benyttes til å oppfylle samhandlingsbehovet, men åpner for at den kan berikes med nyanskaffede tekniske komponenter til definerte formål. Det vil etableres en stegvis transformasjon mot en helhetlig plattform, der eksisterende løsninger dekomponeres for å etablere felleskomponenter som er tilgjengelige på tvers av applikasjoner.
   - B. Å etterspørre markedet om løsningsalternativer for helhetlig samhandlingsplattform. I alternativ B er kravene til å bruke dagens e-helseløsninger myket opp. Her forplikter vi oss til å legge fram god dokumentasjon på dagens løsninger, slik at leverandører kan gi tilbud der dagens e-helseløsninger eventuelt kombineres med nye tekniske løsninger eller byttes ut. I løpet av anskaffelsesperioden kreves det at vi her har en god prosess slik at vi får gjort en god vurdering av helheten i samhandlingsløsningen for å få en endringsvennlig, robust og vedlikeholdbar samhandlingsløsning som står seg i mange år.
 
-![Icon representing a document or report.](e7b7fdcb4e4430a6cb3b2af3d91f73ea_img.jpg)
+![Icon representing a document or report.](images/Bilag G2 Helhetlig samhandling/e7b7fdcb4e4430a6cb3b2af3d91f73ea_img.jpg)
 
 Icon representing a document or report.
 
@@ -4995,7 +4995,7 @@ I tillegg har vi to sammhandlingsformer som håndteres direkte i løsningene:
 - Direkte tilgang – Portal til samhandlingsløsning eller journalløsning i en annen virksomhet
 - Samhandling internt i journalløsning
 
-![Diagram showing interaction models in interaction solutions. A central green circle labeled 'Behov for nye samhandlingsformer' is connected to four numbered circles (1-4) below it. Circle 1 is 'Meldings-utveksling' (envelope icon). Circle 2 is 'Dokument-utveksling' (document and people icon). Circle 3 is 'Dokument-delning' (folder icon). Circle 4 is 'Datadeling' (data and people icon). Above the central circle are two smaller circles: 'Helsepersonell' (person with stethoscope) and 'Innbygger' (person with heart).](3abb87a27232fe2f2806b67f2e5e1390_img.jpg)
+![Diagram showing interaction models in interaction solutions. A central green circle labeled 'Behov for nye samhandlingsformer' is connected to four numbered circles (1-4) below it. Circle 1 is 'Meldings-utveksling' (envelope icon). Circle 2 is 'Dokument-utveksling' (document and people icon). Circle 3 is 'Dokument-delning' (folder icon). Circle 4 is 'Datadeling' (data and people icon). Above the central circle are two smaller circles: 'Helsepersonell' (person with stethoscope) and 'Innbygger' (person with heart).](images/Bilag G2 Helhetlig samhandling/3abb87a27232fe2f2806b67f2e5e1390_img.jpg)
 
 ```
 graph TD; A((Behov for nye samhandlingsformer)) --- B1((1  
@@ -5013,7 +5013,7 @@ Diagram showing interaction models in interaction solutions. A central green cir
 
 Samhandlingsløsningen vil ha integrasjoner med flere ulike løsninger, og Figur 24 beskriver de ulike byggeklossene som samhandlingsløsningen vil ha integrasjoner med. Byggeklossene i selve samhandlingsløsningen er beskrevet i neste delkapittel.
 
-![Diagram showing the integration of various health and care services and actors into a common solution. The diagram is structured with three main vertical sections. The left section, 'Kommunale helse- og omsorgstjenesten', includes icons for EPJ/PAS, VFT, Helseforetakene, MTU, and File-nytt. The middle section, 'Fellesløsninger', features a central figure and icons for Kjernejournal, Helsenorge.no, E-resept, and Nye samhandlingsløsninger. The right section, 'Spesialisthelsetjenesten', includes icons for EPJ/PAS, Kjerne Med, RIB PACS, MTU, and LAB. Below these sections is a grey box for 'Andre aktører' and a blue box for 'Helseforvaltningen'. At the bottom is a large blue bar labeled 'Grunnmur' containing icons for Kodeverk og terminologi, Felles grunndata, Felles-komponenter, Felles krav og retningslinjer, and Felles infrastruktur.](dc075f714892571abc5f74f1a76b80dc_img.jpg)
+![Diagram showing the integration of various health and care services and actors into a common solution. The diagram is structured with three main vertical sections. The left section, 'Kommunale helse- og omsorgstjenesten', includes icons for EPJ/PAS, VFT, Helseforetakene, MTU, and File-nytt. The middle section, 'Fellesløsninger', features a central figure and icons for Kjernejournal, Helsenorge.no, E-resept, and Nye samhandlingsløsninger. The right section, 'Spesialisthelsetjenesten', includes icons for EPJ/PAS, Kjerne Med, RIB PACS, MTU, and LAB. Below these sections is a grey box for 'Andre aktører' and a blue box for 'Helseforvaltningen'. At the bottom is a large blue bar labeled 'Grunnmur' containing icons for Kodeverk og terminologi, Felles grunndata, Felles-komponenter, Felles krav og retningslinjer, and Felles infrastruktur.](images/Bilag G2 Helhetlig samhandling/dc075f714892571abc5f74f1a76b80dc_img.jpg)
 
 Diagram showing the integration of various health and care services and actors into a common solution. The diagram is structured with three main vertical sections. The left section, 'Kommunale helse- og omsorgstjenesten', includes icons for EPJ/PAS, VFT, Helseforetakene, MTU, and File-nytt. The middle section, 'Fellesløsninger', features a central figure and icons for Kjernejournal, Helsenorge.no, E-resept, and Nye samhandlingsløsninger. The right section, 'Spesialisthelsetjenesten', includes icons for EPJ/PAS, Kjerne Med, RIB PACS, MTU, and LAB. Below these sections is a grey box for 'Andre aktører' and a blue box for 'Helseforvaltningen'. At the bottom is a large blue bar labeled 'Grunnmur' containing icons for Kodeverk og terminologi, Felles grunndata, Felles-komponenter, Felles krav og retningslinjer, and Felles infrastruktur.
 
@@ -5041,7 +5041,7 @@ samhandlingsløsningen, men de må integrere seg mot samhandlingsløsningene via
 
 Noen aktuelle byggeklosser som kan inngå i de fremtidige samhandlingsløsningene er vist i figuren samt beskrevet under.
 
-![Diagram of Samhandlingsløsning/plattform architecture](18b87e4ce7ef441f5620b8d6539a2939_img.jpg)
+![Diagram of Samhandlingsløsning/plattform architecture](images/Bilag G2 Helhetlig samhandling/18b87e4ce7ef441f5620b8d6539a2939_img.jpg)
 
 The diagram illustrates the architecture of the Samhandlingsløsning/plattform. It is organized into several functional blocks:
 
@@ -5130,7 +5130,7 @@ I Norge har vi over lang tid arbeidet med å etablere felles nasjonale løsninge
 
 Gjennom de siste ti årene er det etablert nasjonale løsninger for å understøtte digital samhandling mellom helsepersonell og innbygger (helsenorge.no), mellom helsepersonell (kjernejournal) og for å håndtere resepter (e-resept). Figur 26 gir en oversikt over dagens eksisterende nasjonale e-helseløsninger for samhandling. Innholdet i figuren er forklart nærmere i den etterfølgende teksten.
 
-![Diagram showing the architecture of national e-health solutions for interoperability, including Helsenorge, Kjernejournal, and E-resept, along with their data exchange mechanisms and common infrastructure.](27c9c38b326b85de631d54a9ff1e2bd4_img.jpg)
+![Diagram showing the architecture of national e-health solutions for interoperability, including Helsenorge, Kjernejournal, and E-resept, along with their data exchange mechanisms and common infrastructure.](images/Bilag G2 Helhetlig samhandling/27c9c38b326b85de631d54a9ff1e2bd4_img.jpg)
 
 The diagram illustrates the architecture of national e-health solutions for interoperability, organized into three main vertical sections: Helsenorge, Kjernejournal, and E-resept. Each section is divided into three horizontal layers: 'Informasjons-tjenester' (Information Services), 'Tjeneste og dataintegrasjon' (Service and Data Integration), and 'Sentrale informasjonslager' (Central Information Repositories).
 
@@ -5221,7 +5221,7 @@ I tillegg har Direktoratet for e-helse utviklet en forskrivningsmodul for rekvir
 
 Felles grunnmur har som formål å legge til rette for effektiv og sikker elektronisk samhandling mellom aktører, og økt gjenbruk og sambruk på tvers av de nasjonale aktørene. Grunnmuren består av et sett med byggeklosser som kan gjenbrukes på tvers av nasjonale e-helseløsninger. Byggekloss er et samlebegrep for forskjellige typer elementer som er tilgjengelige for sektoren gjennom Felles grunnmur. De grupperes etter kodeverk og terminologi, felles grunndata, felleskomponenter, felles krav og retningslinjer og felles infrastruktur (se Figur 27), blant annet for data- og dokumentdeling. Disse kan inngå som byggeklosser i samhandlingsplattformen.
 
-![Icon: Code symbol Icon: Folder Icon: Chip Icon: Scales Icon: Network](0d9149a10167a487a93c349f5d848b7d_img.jpg)
+![Icon: Code symbol Icon: Folder Icon: Chip Icon: Scales Icon: Network](images/Bilag G2 Helhetlig samhandling/0d9149a10167a487a93c349f5d848b7d_img.jpg)
 
 | <br>Kodeverk og terminologi                                                                                                                                                                                                                                                                                                             | <br>Felles grunndata                                                                                                                    | <br>Felles-komponenter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | <br>Felles krav og retningslinjer                                                                                                                                                                                                                                                                  | <br>Felles infrastruktur                                                                                                                                                                                                                                                                                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -5269,7 +5269,7 @@ Direktoratet for e-helse vil gjennom arkitekturstyring og forvaltning av styring
 
 Det er lagt opp til en stegvis realisering av målbildet for samhandling fordelt på 2 hovedfaser. Kravene skal være varslet i god tid før kravet gjøres gjeldende. Det er beskrevet hvilke krav som bør stilles for å realisere målbildet for samhandling, samt hvilke krav som bør stilles i fase 1 og fase 2. Det er også beskrevet krav som bør stilles for å oppnå helhetlig samhandling i sektoren, som går ut over løsninger som er del av steg 1 i realisering av målbildet for samhandling i Akson.
 
-![Diagram showing the two-phase realization of the target image for handling. Phase 1 (2020-2024) focuses on using established solutions and defining requirements. Phase 2 (2030) focuses on implementing new services and defining requirements for the target image.](23781f394f3709bc3a1e68044179b0d4_img.jpg)
+![Diagram showing the two-phase realization of the target image for handling. Phase 1 (2020-2024) focuses on using established solutions and defining requirements. Phase 2 (2030) focuses on implementing new services and defining requirements for the target image.](images/Bilag G2 Helhetlig samhandling/23781f394f3709bc3a1e68044179b0d4_img.jpg)
 
 | Fase 1: 2020 - 2024                                                                                          | Fase2: Realisering av målbildet (2030)                                                              |                                                          |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------------|
@@ -5396,7 +5396,7 @@ Prosjektet har i samarbeid med en intern arbeidsgruppe i Direktoratet for e-hels
 
 Arbeidet i denne arbeidsgruppen konkluderte med at ambisjonene for samhandling og behovet for gjenbruk av informasjonstjenester på tvers av innbygger, helsepersonell og andre kommunale og statlige aktører ikke kan løses godt nok gjennom å videreføre dagens produktorienterte løsningsstrategi. Dette alternativet gir tekniske utfordringer innenfor både skalering og utvikling av disse løsningene som gir usikkerhet om det vil kunne møte forventningene, og vi kan derfor ikke anbefale dette alternativet (se også kapittel 7.7). Det er behov for å vurdere en mer helhetlig plattformtilnærming i tråd med anbefalingene fra ekstern kvalitetssikrer av Konseptvalgtutredningen. Prosjektet har sammen med sentrale arkitekter for de nasjonale e-helseløsningene utarbeidet et mål bilde for hvordan en slik helhetlig samhandlingsplattform kan se ut.
 
-![A complex architectural diagram titled 'Referansearkitektur for helhetlig samhandlingsplattform'. It is divided into several sections: 'Applikasjoner' at the top, 'Sikkerhet og risiko' on the left, 'Informasjonstjenester' in the center, and 'Forvaltning' on the right. Below these is a section for 'Tjeneste og dataintegrasjon' and 'Sentrale informasjonslager'. At the bottom, five pillars represent 'Kodeverk og terminologi', 'Felles grunndata', 'Felleskomponenter', 'Felles krav og retningslinjer', and 'Felles infrastruktur'. The diagram uses various icons and boxes to represent different components and their interactions.](061f273b184fe5ef7286f149580f3587_img.jpg)
+![A complex architectural diagram titled 'Referansearkitektur for helhetlig samhandlingsplattform'. It is divided into several sections: 'Applikasjoner' at the top, 'Sikkerhet og risiko' on the left, 'Informasjonstjenester' in the center, and 'Forvaltning' on the right. Below these is a section for 'Tjeneste og dataintegrasjon' and 'Sentrale informasjonslager'. At the bottom, five pillars represent 'Kodeverk og terminologi', 'Felles grunndata', 'Felleskomponenter', 'Felles krav og retningslinjer', and 'Felles infrastruktur'. The diagram uses various icons and boxes to represent different components and their interactions.](images/Bilag G2 Helhetlig samhandling/061f273b184fe5ef7286f149580f3587_img.jpg)
 
 **Applikasjoner**
 
@@ -5581,7 +5581,7 @@ Mange av de tekniske kapabilitetene som det er behov for i den helhetlige samhan
 
 Figur 29 gir en vurdering av hvilke kapabiliteter som eksisterer (grønn), må videreutvikles (gul), og etableres (rød) for å realisere målbildet for samhandling.
 
-![A complex diagram titled 'Applikasjoner' at the top, showing various digital platforms like Helsenorge.no, Kjernejournal-Portal, and Felles journalløsning. Below this is a large matrix with columns for 'Sikkerhet og risiko', 'Informasjonstjenester', and 'Forvaltning'. The matrix is divided into sections: 'Tjeneste og dataintegrasjon' and 'Sentrale informasjonslager'. It uses color-coding: green for existing capabilities, yellow for to be developed, and red for to be established. The bottom section shows five pillars: 'Kodeverk og terminologi', 'Felles grunddata', 'Felleskomponenter', 'Felles krav og retningslinjer', and 'Felles infrastruktur'.](9de1e2f286f8fee526dc87eafad60401_img.jpg)
+![A complex diagram titled 'Applikasjoner' at the top, showing various digital platforms like Helsenorge.no, Kjernejournal-Portal, and Felles journalløsning. Below this is a large matrix with columns for 'Sikkerhet og risiko', 'Informasjonstjenester', and 'Forvaltning'. The matrix is divided into sections: 'Tjeneste og dataintegrasjon' and 'Sentrale informasjonslager'. It uses color-coding: green for existing capabilities, yellow for to be developed, and red for to be established. The bottom section shows five pillars: 'Kodeverk og terminologi', 'Felles grunddata', 'Felleskomponenter', 'Felles krav og retningslinjer', and 'Felles infrastruktur'.](images/Bilag G2 Helhetlig samhandling/9de1e2f286f8fee526dc87eafad60401_img.jpg)
 
 The diagram 'Figur 29' provides a comprehensive assessment of capabilities for digital health and care services. At the top, it lists 'Applikasjoner' (Applications) including Helsenorge.no, Kjernejournal-Portal, Felles journalløsning for kommunal helse- og omsorgstjeneste, Journalløsninger i spesialisthelse-tjenesten, Sentral forskrivnings-modul (SFM), 3de parts applikasjoner, Journalløsninger i kommunal helse- og omsorgstjeneste, and Andre statlige og kommunale tjenester. The main body is a matrix with three primary columns: 'Sikkerhet og risiko' (Security and Risk), 'Informasjonstjenester' (Information Services), and 'Forvaltning' (Administration). This matrix is further divided into 'Tjeneste og dataintegrasjon' (Service and Data Integration) and 'Sentrale informasjonslager' (Central Information Repositories). Capabilities are assessed in three categories: existing (green), to be developed (yellow), and to be established (red). The bottom section outlines five foundational pillars: 'Kodeverk og terminologi' (Codebase and Terminology), 'Felles grunddata' (Common Basic Data), 'Felleskomponenter' (Common Components), 'Felles krav og retningslinjer' (Common Requirements and Guidelines), and 'Felles infrastruktur' (Common Infrastructure).
 
@@ -5599,7 +5599,7 @@ Så langt i kapittel 6 bygger arkitekturen på behovsbeskrivelse og brukerhistor
 
 For å presentere integreringen av velferdsteknologi er det laget en overordnet skisse i notasjonen ArchiMate. ArchiMate er et standard modelleringsspråk for å beskrive arkitektur og visualisere denne. De mest brukte symbolene i nedenstående modell er:
 
-![Diagram showing four ArchiMate symbols: Tjeneste (Service), Rolle (Role), Objekt (Object), and Produkt (Product).](e1570156ae4b4ddeb6913fc793678c94_img.jpg)
+![Diagram showing four ArchiMate symbols: Tjeneste (Service), Rolle (Role), Objekt (Object), and Produkt (Product).](images/Bilag G2 Helhetlig samhandling/e1570156ae4b4ddeb6913fc793678c94_img.jpg)
 
 The diagram displays four ArchiMate symbols arranged in a 2x2 grid. Each symbol is a yellow rectangle with a title and a small icon to its right. The symbols are: 'Tjeneste' (Service) with a circle icon, 'Rolle' (Role) with a person icon, 'Objekt' (Object) with a rectangle icon, and 'Produkt' (Product) with a rectangle icon.
 
@@ -5607,7 +5607,7 @@ Diagram showing four ArchiMate symbols: Tjeneste (Service), Rolle (Role), Objekt
 
 *Tjeneste* er i denne sammenheng et større leveranseområde som også kan støttes av flere tjenester. *Objekt* er et datalager. *Rolle* er de ulike aktørene som blir berørt av den visualiserte modellen nedenfor. *Produkt* er de ulike komponenter som er hjemme hos pasienten.
 
-![Figure 30: Prosessene for velferdsteknologi inkludert medisinsk avstandsoppfølging. The diagram is divided into three main areas: 'Hjemme hos pasient' (Home with patient), 'Leverandør velferdsteknologi tjeneste' (Velfare technology provider service), and 'Nasjonal samhandlingsløsning' (National care solution). In the 'Hjemme hos pasient' area, a 'Pasient' (Patient) uses a 'Teknologi-komponent' (Technology component) which logs data to a 'Lokalt lager temporært' (Local temporary storage). A 'Hjemmesykepleie' (Home nursing) can be alerted ('Kan varsle') and a 'Pårørende' (Relative) can be notified ('Kan varsle'). In the 'Leverandør velferdsteknologi tjeneste' area, 'Mottak fra pasient' (Reception from patient) feeds into 'API management' and 'Data transformasjon' (Data transformation), which both feed into 'Velferdssystem' (Welfare system). The 'Velferdssystem' updates the journal ('Oppdater journal') and sends 'Journaldata' (Journal data) to 'Respondenter' (Respondents). 'Respondenter' can also send 'Varsel/alarm' (Alert/alarm) to 'Administrativt' (Administrative) and 'Medisinsk' (Medical) components. In the 'Nasjonal samhandlingsløsning' area, 'Mottak strukturerte data' (Reception of structured data) feeds into 'Pasientens personlige helsearkiv' (Patient's personal health record), which is updated ('Oppdater') by 'Samhandlingsløsning' (Care solution). 'Samhandlingsløsning' also feeds into 'Ruting' (Routing), which 'Består av' (Consists of) 'Felles kommunal journal' (Common municipal journal), 'Andre journaler' (Other journals), and 'Spesialist journal' (Specialist journal). 'Ruting' also 'Les og skriv journaldata' (Reads and writes journal data) and 'Leverer data' (Delivers data) to these journals.](46b6ae100e671c34c024598495e56c99_img.jpg)
+![Figure 30: Prosessene for velferdsteknologi inkludert medisinsk avstandsoppfølging. The diagram is divided into three main areas: 'Hjemme hos pasient' (Home with patient), 'Leverandør velferdsteknologi tjeneste' (Velfare technology provider service), and 'Nasjonal samhandlingsløsning' (National care solution). In the 'Hjemme hos pasient' area, a 'Pasient' (Patient) uses a 'Teknologi-komponent' (Technology component) which logs data to a 'Lokalt lager temporært' (Local temporary storage). A 'Hjemmesykepleie' (Home nursing) can be alerted ('Kan varsle') and a 'Pårørende' (Relative) can be notified ('Kan varsle'). In the 'Leverandør velferdsteknologi tjeneste' area, 'Mottak fra pasient' (Reception from patient) feeds into 'API management' and 'Data transformasjon' (Data transformation), which both feed into 'Velferdssystem' (Welfare system). The 'Velferdssystem' updates the journal ('Oppdater journal') and sends 'Journaldata' (Journal data) to 'Respondenter' (Respondents). 'Respondenter' can also send 'Varsel/alarm' (Alert/alarm) to 'Administrativt' (Administrative) and 'Medisinsk' (Medical) components. In the 'Nasjonal samhandlingsløsning' area, 'Mottak strukturerte data' (Reception of structured data) feeds into 'Pasientens personlige helsearkiv' (Patient's personal health record), which is updated ('Oppdater') by 'Samhandlingsløsning' (Care solution). 'Samhandlingsløsning' also feeds into 'Ruting' (Routing), which 'Består av' (Consists of) 'Felles kommunal journal' (Common municipal journal), 'Andre journaler' (Other journals), and 'Spesialist journal' (Specialist journal). 'Ruting' also 'Les og skriv journaldata' (Reads and writes journal data) and 'Leverer data' (Delivers data) to these journals.](images/Bilag G2 Helhetlig samhandling/46b6ae100e671c34c024598495e56c99_img.jpg)
 
 Figure 30: Prosessene for velferdsteknologi inkludert medisinsk avstandsoppfølging. The diagram is divided into three main areas: 'Hjemme hos pasient' (Home with patient), 'Leverandør velferdsteknologi tjeneste' (Velfare technology provider service), and 'Nasjonal samhandlingsløsning' (National care solution). In the 'Hjemme hos pasient' area, a 'Pasient' (Patient) uses a 'Teknologi-komponent' (Technology component) which logs data to a 'Lokalt lager temporært' (Local temporary storage). A 'Hjemmesykepleie' (Home nursing) can be alerted ('Kan varsle') and a 'Pårørende' (Relative) can be notified ('Kan varsle'). In the 'Leverandør velferdsteknologi tjeneste' area, 'Mottak fra pasient' (Reception from patient) feeds into 'API management' and 'Data transformasjon' (Data transformation), which both feed into 'Velferdssystem' (Welfare system). The 'Velferdssystem' updates the journal ('Oppdater journal') and sends 'Journaldata' (Journal data) to 'Respondenter' (Respondents). 'Respondenter' can also send 'Varsel/alarm' (Alert/alarm) to 'Administrativt' (Administrative) and 'Medisinsk' (Medical) components. In the 'Nasjonal samhandlingsløsning' area, 'Mottak strukturerte data' (Reception of structured data) feeds into 'Pasientens personlige helsearkiv' (Patient's personal health record), which is updated ('Oppdater') by 'Samhandlingsløsning' (Care solution). 'Samhandlingsløsning' also feeds into 'Ruting' (Routing), which 'Består av' (Consists of) 'Felles kommunal journal' (Common municipal journal), 'Andre journaler' (Other journals), and 'Spesialist journal' (Specialist journal). 'Ruting' also 'Les og skriv journaldata' (Reads and writes journal data) and 'Leverer data' (Delivers data) to these journals.
 
@@ -5635,7 +5635,7 @@ All informasjon som skal sendes mellom utstyr og felles kommunal journalløsning
 
 Responssenteret dokumenterer hvordan de håndterer varsler, alarmer og målinger i dag i egen løsning og i mange tilfeller er det viktig at dette også fremkommer i pasientens journal. I dagens praksis må informasjonen som oftest dobbeltføres eller kopieres, da det er få kommuner som har responssenterløsning og journalløsning integrert. En viktig kontaktpart for responssenteret er pårørende, og disse vil i mange tilfeller være den første som blir kontaktet. Figur 31 (se under) viser hvordan overføring av informasjon kan gjøres elektronisk ved bruk av de fremtidige samhandlingsløsningene, slik at dobbelføring av dokumentasjon i både responssenterløsning og felles kommunal journalløsning unngås.
 
-![Diagram illustrating the integration of welfare technology (VFT) with a central HUB, data transformation, API management, and a future handling solution, all connected to a central HUB and a shared municipal journal solution.](42d94bb6cf8d257623490abe9b2c0188_img.jpg)
+![Diagram illustrating the integration of welfare technology (VFT) with a central HUB, data transformation, API management, and a future handling solution, all connected to a central HUB and a shared municipal journal solution.](images/Bilag G2 Helhetlig samhandling/42d94bb6cf8d257623490abe9b2c0188_img.jpg)
 
 The diagram illustrates the architecture of a welfare technology (VFT) system integrated with a central HUB and a shared municipal journal solution. Key components include:
 
@@ -5755,7 +5755,7 @@ For å kunne oppfylle de beskrevne use casene må en rekke kapabiliteter finnes.
 
 Dokumentet tar utgangspunkt i arkitekturmodellen Federal Identity, Credentials and Access Management (FICAM) fra ID Management som er utviklet av den amerikanske regjeringen. En detaljert gjennomgang av modellen finnes på ID Management's nettsider (30).
 
-![Diagram of the FICAM model for identity and access management. It shows five interconnected components: Identitetsstyring (I), Legitimering (C), Tilgangsstyring (A), Styring, and Federering. Each component has a description of its function and a list of sub-functions.](c8df4cc8ced2cb1ac1c5938ddf482ca4_img.jpg)
+![Diagram of the FICAM model for identity and access management. It shows five interconnected components: Identitetsstyring (I), Legitimering (C), Tilgangsstyring (A), Styring, and Federering. Each component has a description of its function and a list of sub-functions.](images/Bilag G2 Helhetlig samhandling/c8df4cc8ced2cb1ac1c5938ddf482ca4_img.jpg)
 
 **I Identitetsstyring**  
 ...lar en virksomhet etablere en klart digital identitet basert på informasjon om individet.
@@ -6109,7 +6109,7 @@ Løsningene er vurdert opp mot kategoriene etter hvilken grad de er i stand til 
 
 ## 7.7.1 Alternativ 1: Separat identitets- og tilgangsstyring
 
-![Diagram illustrating the architecture for 'Målbilde for samhandling - alternativ 1'. The central component is the 'Identitetsstyringsløsning (IGA)'. On the left, three types of service providers ('Tjeneste-leverandør', 'Tilknyttet virksomhet', 'Tilknyttet virksomhet') connect to the IGA via 'Portal' or 'Grense-snitt' interfaces. On the right, various actors ('Helsepersonell i felles journal', 'Helse-virksomheter utenfor Akson', 'Andre kommunale aktører', 'Andre helse-aktører') connect to the IGA via an 'Autentiseringskomponent'. The IGA also connects to 'Grunndata' and a 'Personvernkomponent'.](cb53dba6052b59d69ecc7e8017b70def_img.jpg)
+![Diagram illustrating the architecture for 'Målbilde for samhandling - alternativ 1'. The central component is the 'Identitetsstyringsløsning (IGA)'. On the left, three types of service providers ('Tjeneste-leverandør', 'Tilknyttet virksomhet', 'Tilknyttet virksomhet') connect to the IGA via 'Portal' or 'Grense-snitt' interfaces. On the right, various actors ('Helsepersonell i felles journal', 'Helse-virksomheter utenfor Akson', 'Andre kommunale aktører', 'Andre helse-aktører') connect to the IGA via an 'Autentiseringskomponent'. The IGA also connects to 'Grunndata' and a 'Personvernkomponent'.](images/Bilag G2 Helhetlig samhandling/cb53dba6052b59d69ecc7e8017b70def_img.jpg)
 
 Diagram illustrating the architecture for 'Målbilde for samhandling - alternativ 1'. The central component is the 'Identitetsstyringsløsning (IGA)'. On the left, three types of service providers ('Tjeneste-leverandør', 'Tilknyttet virksomhet', 'Tilknyttet virksomhet') connect to the IGA via 'Portal' or 'Grense-snitt' interfaces. On the right, various actors ('Helsepersonell i felles journal', 'Helse-virksomheter utenfor Akson', 'Andre kommunale aktører', 'Andre helse-aktører') connect to the IGA via an 'Autentiseringskomponent'. The IGA also connects to 'Grunndata' and a 'Personvernkomponent'.
 
@@ -6134,7 +6134,7 @@ Kostnadsdriveren for identitets- og tilgangsstyring vil i stor grad være basert
 
 ## 7.7.2 Alternativ 2: Fødereringsløsning med tillitsanker
 
-![Diagram showing the architecture for samhandling - alternative 2. A central 'Tillitsanker' (Trust Anchor) connects to four horizontal layers. Each layer represents a different actor: 'Kommunale virksomheter utenfor felles journalløsning', 'Andre helse- og sosialtjeneste-aktører', 'Andre kommunale virksomheter', and 'Helsepersonell som benytter felles journalløsning'. Each layer contains boxes for 'Eget IAM', 'Lokalt journalsystem' or 'Eget fagsystem', and 'Felles journal i Akson'. Arrows indicate data flow from these systems to the 'Tillitsanker' and then to the 'Målbildet for samhandling'. At the bottom, 'Personvernkomponent' and 'Grunndata' are shown as inputs to the 'Tillitsanker'.](2cf1f70c3a387c43e15192a30d212546_img.jpg)
+![Diagram showing the architecture for samhandling - alternative 2. A central 'Tillitsanker' (Trust Anchor) connects to four horizontal layers. Each layer represents a different actor: 'Kommunale virksomheter utenfor felles journalløsning', 'Andre helse- og sosialtjeneste-aktører', 'Andre kommunale virksomheter', and 'Helsepersonell som benytter felles journalløsning'. Each layer contains boxes for 'Eget IAM', 'Lokalt journalsystem' or 'Eget fagsystem', and 'Felles journal i Akson'. Arrows indicate data flow from these systems to the 'Tillitsanker' and then to the 'Målbildet for samhandling'. At the bottom, 'Personvernkomponent' and 'Grunndata' are shown as inputs to the 'Tillitsanker'.](images/Bilag G2 Helhetlig samhandling/2cf1f70c3a387c43e15192a30d212546_img.jpg)
 
 Diagram showing the architecture for samhandling - alternative 2. A central 'Tillitsanker' (Trust Anchor) connects to four horizontal layers. Each layer represents a different actor: 'Kommunale virksomheter utenfor felles journalløsning', 'Andre helse- og sosialtjeneste-aktører', 'Andre kommunale virksomheter', and 'Helsepersonell som benytter felles journalløsning'. Each layer contains boxes for 'Eget IAM', 'Lokalt journalsystem' or 'Eget fagsystem', and 'Felles journal i Akson'. Arrows indicate data flow from these systems to the 'Tillitsanker' and then to the 'Målbildet for samhandling'. At the bottom, 'Personvernkomponent' and 'Grunndata' are shown as inputs to the 'Tillitsanker'.
 
@@ -6184,7 +6184,7 @@ Skalerbarhet vil være krevende i begge veivalg, men tillitsmodellen understøtt
 
 Følgende bilde gir en oversikt over løsningsarkitekturen, med en presisering av ulike elementer som understøtter målbildet.
 
-![Diagram showing the solution architecture for identity and access management in the goal image for integrated care. It includes components like 'Tilknyttede virksomheter', 'Målbilde for samhandling', 'Tjenesteleverandør', 'Tillitsanker', 'HelseID', and 'Felleskomponenter i helse- og omsorgstjenesten'.](63e5fe58c604c0b282b186ee78b760ae_img.jpg)
+![Diagram showing the solution architecture for identity and access management in the goal image for integrated care. It includes components like 'Tilknyttede virksomheter', 'Målbilde for samhandling', 'Tjenesteleverandør', 'Tillitsanker', 'HelseID', and 'Felleskomponenter i helse- og omsorgstjenesten'.](images/Bilag G2 Helhetlig samhandling/63e5fe58c604c0b282b186ee78b760ae_img.jpg)
 
 The diagram illustrates the solution architecture for identity and access management. It features several interconnected components:
 
@@ -6266,7 +6266,7 @@ Helsenorge.no er allerede i dag innbyggerens etablerte kanal for kommunikasjon m
 
 Sperring må håndteres på ulike nivåer i tjenesten, som vist i Figur 37.
 
-![Diagram showing three levels of access control: Toppnivå, Nasjonale komponenter, and Lokale fagsystemer.](d1fa6480bafddc3a0a24deda68faa206_img.jpg)
+![Diagram showing three levels of access control: Toppnivå, Nasjonale komponenter, and Lokale fagsystemer.](images/Bilag G2 Helhetlig samhandling/d1fa6480bafddc3a0a24deda68faa206_img.jpg)
 
 The diagram illustrates three levels of access control, represented by three stacked rounded rectangles. Each rectangle contains an icon on the left and a label on the right. The top rectangle features a shield icon and is labeled 'Toppnivå'. The middle rectangle features a person icon and is labeled 'Nasjonale komponenter'. The bottom rectangle features a location pin icon and is labeled 'Lokale fagsystemer'.
 
@@ -6278,7 +6278,7 @@ Nasjonal personvernkomponent må kunne håndtere sperring på alle nivåer. Sper
 
 ### Toppnivå
 
-![Figur 38: Konseptuell skisse for sperring i nasjonal personvernkomponent.Diagrammet viser en nasjonal personvernkomponent (en blå sylinder) som er koblet til to andre komponenter. En pil peker mot 'Nasjonale komponenter' (en oransj boks) som inneholder fire underkomponenter: E-resept, Kjernejournal, Velferdsteknologisk knutepunkt og Nasjonal labsvar-database. En annen pil peker mot 'Lokale fag- og journalsystemer' (en grønn boks) som inneholder fire underkomponenter: DIPS, Helse-plattformen, Felles kommunal journalløsning og Andre lokale systemer.](c3ba400c25c28fedce1c7d29414198de_img.jpg)
+![Figur 38: Konseptuell skisse for sperring i nasjonal personvernkomponent.Diagrammet viser en nasjonal personvernkomponent (en blå sylinder) som er koblet til to andre komponenter. En pil peker mot 'Nasjonale komponenter' (en oransj boks) som inneholder fire underkomponenter: E-resept, Kjernejournal, Velferdsteknologisk knutepunkt og Nasjonal labsvar-database. En annen pil peker mot 'Lokale fag- og journalsystemer' (en grønn boks) som inneholder fire underkomponenter: DIPS, Helse-plattformen, Felles kommunal journalløsning og Andre lokale systemer.](images/Bilag G2 Helhetlig samhandling/c3ba400c25c28fedce1c7d29414198de_img.jpg)
 
 Figur 38: Konseptuell skisse for sperring i nasjonal personvernkomponent.Diagrammet viser en nasjonal personvernkomponent (en blå sylinder) som er koblet til to andre komponenter. En pil peker mot 'Nasjonale komponenter' (en oransj boks) som inneholder fire underkomponenter: E-resept, Kjernejournal, Velferdsteknologisk knutepunkt og Nasjonal labsvar-database. En annen pil peker mot 'Lokale fag- og journalsystemer' (en grønn boks) som inneholder fire underkomponenter: DIPS, Helse-plattformen, Felles kommunal journalløsning og Andre lokale systemer.
 
@@ -6289,7 +6289,7 @@ Konsekvenser av løsningsvalget på dette nivået er:
 - Kan ikke sperre enkeltelementer
 - Alle nivåer under må ivareta sperring som settes på dette nivået
 
-![Figur 39: Logisk løsningsskisse over toppnivåsperring med Kjernejournal (nasjonal komponent) og felles kommunal journalløsning (lokalt fagsystem) som eksempel.Diagrammet viser to hovedkomponenter: 'Nasjonal personvernkomponent' (en blå boks) og 'Kjernejournal' (en oransj boks). Nasjonal personvernkomponent inneholder tre underkomponenter: Sperring personell, Sperring personell-grupper og Sperring virksomhet. Kjernejournal inneholder 'Lokal caching' og 'Tilgangsregler' (to gear). En pil fra Nasjonal personvernkomponent til Kjernejournal er merket 'Gi sperring'. En annen pil fra Nasjonal personvernkomponent til 'Felles kommunal journalløsning' (en grønn boks) er også merket 'Gi sperring'. Felles kommunal journalløsning inneholder 'Lokal caching' og 'Tilgangsregler' (to gear).](985993c4c703e395a4fa0ea5d7603c41_img.jpg)
+![Figur 39: Logisk løsningsskisse over toppnivåsperring med Kjernejournal (nasjonal komponent) og felles kommunal journalløsning (lokalt fagsystem) som eksempel.Diagrammet viser to hovedkomponenter: 'Nasjonal personvernkomponent' (en blå boks) og 'Kjernejournal' (en oransj boks). Nasjonal personvernkomponent inneholder tre underkomponenter: Sperring personell, Sperring personell-grupper og Sperring virksomhet. Kjernejournal inneholder 'Lokal caching' og 'Tilgangsregler' (to gear). En pil fra Nasjonal personvernkomponent til Kjernejournal er merket 'Gi sperring'. En annen pil fra Nasjonal personvernkomponent til 'Felles kommunal journalløsning' (en grønn boks) er også merket 'Gi sperring'. Felles kommunal journalløsning inneholder 'Lokal caching' og 'Tilgangsregler' (to gear).](images/Bilag G2 Helhetlig samhandling/985993c4c703e395a4fa0ea5d7603c41_img.jpg)
 
 Figur 39: Logisk løsningsskisse over toppnivåsperring med Kjernejournal (nasjonal komponent) og felles kommunal journalløsning (lokalt fagsystem) som eksempel.Diagrammet viser to hovedkomponenter: 'Nasjonal personvernkomponent' (en blå boks) og 'Kjernejournal' (en oransj boks). Nasjonal personvernkomponent inneholder tre underkomponenter: Sperring personell, Sperring personell-grupper og Sperring virksomhet. Kjernejournal inneholder 'Lokal caching' og 'Tilgangsregler' (to gear). En pil fra Nasjonal personvernkomponent til Kjernejournal er merket 'Gi sperring'. En annen pil fra Nasjonal personvernkomponent til 'Felles kommunal journalløsning' (en grønn boks) er også merket 'Gi sperring'. Felles kommunal journalløsning inneholder 'Lokal caching' og 'Tilgangsregler' (to gear).
 
@@ -6301,7 +6301,7 @@ Toppnivå-sperring tilgjengeliggjøres gjennom integrasjonsmekanismer (for eksem
 
 ### Nasjonale komponenter
 
-![Figur 40: Konseptuell skisse for sperring i nasjonale komponenter. En blå sylinder representerer 'Nasjonal personvern-komponent'. En pil peker fra denne sylinderen mot en oransje boks representerende 'Nasjonale komponenter'. Denne boksen inneholder fire mindre oransje bokser: 'E-resept', 'Kjernejournal', 'Velferds-teknologisk knutepunkt' og 'Nasjonal labsvar-database'.](dc4445e7038adbf6eaf3c8c1ce6ea347_img.jpg)
+![Figur 40: Konseptuell skisse for sperring i nasjonale komponenter. En blå sylinder representerer 'Nasjonal personvern-komponent'. En pil peker fra denne sylinderen mot en oransje boks representerende 'Nasjonale komponenter'. Denne boksen inneholder fire mindre oransje bokser: 'E-resept', 'Kjernejournal', 'Velferds-teknologisk knutepunkt' og 'Nasjonal labsvar-database'.](images/Bilag G2 Helhetlig samhandling/dc4445e7038adbf6eaf3c8c1ce6ea347_img.jpg)
 
 Figur 40: Konseptuell skisse for sperring i nasjonale komponenter. En blå sylinder representerer 'Nasjonal personvern-komponent'. En pil peker fra denne sylinderen mot en oransje boks representerende 'Nasjonale komponenter'. Denne boksen inneholder fire mindre oransje bokser: 'E-resept', 'Kjernejournal', 'Velferds-teknologisk knutepunkt' og 'Nasjonal labsvar-database'.
 
@@ -6312,7 +6312,7 @@ Konsekvenser av løsningsvalget på dette nivået er:
 - Mulighet for å sperre på enkeltelementer
 - Må lage en informasjonsmodell for sperring som ser helhetlig på nasjonale løsninger
 
-![Figur 41: Logisk løsningskisse over sperring i nasjonale e-helseløsninger med Kjernejournal og e-resept som eksempel. Den venstre delen viser 'Nasjonal personvernkomponent' som inneholder tre sylinderer: 'Sperring personell', 'Sperring personell-grupper' og 'Sperring virksomhet'. Under disse er en bred sylinder for 'Nasjonale e-helseløsninger Informasjons-elementer'. Den høyre delen viser to oransje boks: 'Kjernejournal' og 'E-resept'. Hvert av disse inneholder en sylinder for 'Lokal caching' og ikoner for 'Tilgangsregler'. Piler viser interaksjoner: 'Gi sperring' fra nasjonal komponent til både Kjernejournal og E-resept.返 'Gi informasjonselementer' fra både Kjernejournal og E-resept tilbake til nasjonal komponenten.](e86d625d503436075806fd06df985443_img.jpg)
+![Figur 41: Logisk løsningskisse over sperring i nasjonale e-helseløsninger med Kjernejournal og e-resept som eksempel. Den venstre delen viser 'Nasjonal personvernkomponent' som inneholder tre sylinderer: 'Sperring personell', 'Sperring personell-grupper' og 'Sperring virksomhet'. Under disse er en bred sylinder for 'Nasjonale e-helseløsninger Informasjons-elementer'. Den høyre delen viser to oransje boks: 'Kjernejournal' og 'E-resept'. Hvert av disse inneholder en sylinder for 'Lokal caching' og ikoner for 'Tilgangsregler'. Piler viser interaksjoner: 'Gi sperring' fra nasjonal komponent til både Kjernejournal og E-resept.返 'Gi informasjonselementer' fra både Kjernejournal og E-resept tilbake til nasjonal komponenten.](images/Bilag G2 Helhetlig samhandling/e86d625d503436075806fd06df985443_img.jpg)
 
 Figur 41: Logisk løsningskisse over sperring i nasjonale e-helseløsninger med Kjernejournal og e-resept som eksempel. Den venstre delen viser 'Nasjonal personvernkomponent' som inneholder tre sylinderer: 'Sperring personell', 'Sperring personell-grupper' og 'Sperring virksomhet'. Under disse er en bred sylinder for 'Nasjonale e-helseløsninger Informasjons-elementer'. Den høyre delen viser to oransje boks: 'Kjernejournal' og 'E-resept'. Hvert av disse inneholder en sylinder for 'Lokal caching' og ikoner for 'Tilgangsregler'. Piler viser interaksjoner: 'Gi sperring' fra nasjonal komponent til både Kjernejournal og E-resept.返 'Gi informasjonselementer' fra både Kjernejournal og E-resept tilbake til nasjonal komponenten.
 
@@ -6358,7 +6358,7 @@ Målet er å etablere et samarbeid om identitets- og tilgangsstyring som muliggj
 
 Det er en målsetning å etablere et felles tillitsrammeverk i helse- og omsorgssektoren som kan videreutvikles over tid og besluttes. Figur 42 viser en tenkt slik modell.
 
-![Diagram of the organization of trust services in health and care services.](6e30434e24bb6d94869199fec410fea4_img.jpg)
+![Diagram of the organization of trust services in health and care services.](images/Bilag G2 Helhetlig samhandling/6e30434e24bb6d94869199fec410fea4_img.jpg)
 
 The diagram illustrates the organizational structure of trust services. At the top is a box labeled 'Styringsgruppe' with the function 'Stille krav og gi føringer'. Below it, a central box 'Tillitsanker' is connected to 'Bruker-organisasjon' on the left and 'Tjenestetilbyder' on the right. 'Bruker-organisasjon' has an icon of a person at a desk and arrows pointing to 'System-leverandør' and 'Identitets-tilbyder'. 'Tjenestetilbyder' is shown as a stack of boxes. Below 'Tillitsanker' is the text 'Forvalter og håndhever krav'. At the bottom is a box 'Tillitstjenester' containing four sub-boxes: 'HelselD', 'Tjeneste-katalog', 'AvtaleHUB', and 'Selvbetjenings-løsning'. To the right of this box is the text 'Utvikler og drifter'.
 
@@ -6393,7 +6393,7 @@ Arbeidsgruppen i Direktoratet for e-helse har vurdert to hovedstrategier for rea
 
 I alternativ A tar tjenesteleverandøren selv et helhetsansvar for arkitektur, integrasjoner og forvaltning av samhandlingsplattformen, og manglende delkomponenter anskaffes. Nye tjenester i Steg 1 innebærer behov for å innføre kapabiliteter for datadeling, samt å utvikle flere tjenester der data blir mastret på samhandlingsplattformen. Det finnes flere delkomponenter i markedet som muliggjør dette, bl.a produkter for API-management.
 
-![Architectural diagram showing three main components: Helsenorge.no, Kjernejournal-Portal, and Sentral forskrivingsmodul. It details internal data flows, external service integrations (eBXML/HL7, AMPIQ), and central information layers (Innbyggerprofi, Dokumentregister, etc.). A legend at the bottom explains color coding for new and existing technologies.](028803093e6d1195c9c470b0abd490c6_img.jpg)
+![Architectural diagram showing three main components: Helsenorge.no, Kjernejournal-Portal, and Sentral forskrivingsmodul. It details internal data flows, external service integrations (eBXML/HL7, AMPIQ), and central information layers (Innbyggerprofi, Dokumentregister, etc.). A legend at the bottom explains color coding for new and existing technologies.](images/Bilag G2 Helhetlig samhandling/028803093e6d1195c9c470b0abd490c6_img.jpg)
 
 The diagram illustrates the architectural components and data flows for the Akson project, divided into three main vertical sections:
 
@@ -6433,7 +6433,7 @@ Gjennom analysen i anskaffelsesfasen ser vi det som sannsynlig at samhandlingsl�
 
 Følgende figur viser hvilke kapabiliteter som bør inngå i anskaffelsen (rød), hvilke som bør være en opsjon (gul) og hvilke som skal være utenfor (grønn).
 
-![Diagram showing the architecture of the Akson platform, including applications, services, and central data layers, with a legend for new capabilities, options, and excluded items.](d5439b040187c5a1e89ad438ef535141_img.jpg)
+![Diagram showing the architecture of the Akson platform, including applications, services, and central data layers, with a legend for new capabilities, options, and excluded items.](images/Bilag G2 Helhetlig samhandling/d5439b040187c5a1e89ad438ef535141_img.jpg)
 
 The diagram illustrates the architecture of the Akson platform, organized into several layers:
 
@@ -6551,7 +6551,7 @@ Videre følger beskrivelse av de ulike innbygger scenariene
 
 ### 10.1.1 Scenario 1a: Eldre med helse- og omsorgstjenester i hjemmet
 
-![Diagram showing the process of Scenario 1a: Eldre med helse- og omsorgstjenester i hjemmet. It starts with a photo of an elderly woman, Magda, sitting on a bench. This is followed by three chevron-shaped boxes connected by arrows: 'Innbygger søker kommunen om helsetjenester', 'Kommunen foretar hjemmebesøk', and 'Innbygger får hjelp til å ta medisin'.](8c407177cdd331f61e4207ce184ff568_img.jpg)
+![Diagram showing the process of Scenario 1a: Eldre med helse- og omsorgstjenester i hjemmet. It starts with a photo of an elderly woman, Magda, sitting on a bench. This is followed by three chevron-shaped boxes connected by arrows: 'Innbygger søker kommunen om helsetjenester', 'Kommunen foretar hjemmebesøk', and 'Innbygger får hjelp til å ta medisin'.](images/Bilag G2 Helhetlig samhandling/8c407177cdd331f61e4207ce184ff568_img.jpg)
 
 ```
 
@@ -6630,7 +6630,7 @@ Diagram showing the process of Scenario 1a: Eldre med helse- og omsorgstjenester
 
 ## 10.1.2 Scenario 1b: Eldre med helse- og omsorgstjenester på øyeblikkelig hjelp døgnopphold (ØHD)
 
-![A photograph of an elderly woman with short white hair, wearing a patterned top, sitting on a bench outdoors in a park-like setting with trees in the background.](5ba48a118536e9300bb948afab634719_img.jpg)
+![A photograph of an elderly woman with short white hair, wearing a patterned top, sitting on a bench outdoors in a park-like setting with trees in the background.](images/Bilag G2 Helhetlig samhandling/5ba48a118536e9300bb948afab634719_img.jpg)
 
 A photograph of an elderly woman with short white hair, wearing a patterned top, sitting on a bench outdoors in a park-like setting with trees in the background.
 
@@ -6674,7 +6674,7 @@ behandles på
 
 ### 10.1.3 Scenario 1c: Eldre med helse- og omsorgstjenester på sykehjem
 
-![Diagram showing a scenario flow: Innbygger søker om sykehjem -> Innbygger legges inn på sykehjem -> Innbygger faller på sykehjemmet. Includes a photo of an elderly woman.](c9bfcc4c4ef694696c292b03de45d2bb_img.jpg)
+![Diagram showing a scenario flow: Innbygger søker om sykehjem -> Innbygger legges inn på sykehjem -> Innbygger faller på sykehjemmet. Includes a photo of an elderly woman.](images/Bilag G2 Helhetlig samhandling/c9bfcc4c4ef694696c292b03de45d2bb_img.jpg)
 
 ```
 
@@ -6724,7 +6724,7 @@ Diagram showing a scenario flow: Innbygger søker om sykehjem -> Innbygger legge
 
 ## 10.1.4 Scenario 1d: Eldre med tvungen somatisk helsehjelp (jf. Pasientrettighetsloven § 4A)
 
-![Diagram showing a process flow: Helsepersonell ved sykehjem varsler behov -> Lege, pasient og pårørende vurderer behovet -> Helsepersonell ved sykehjem fatter vedtak. An image of an elderly woman is shown next to the first step.](94563c795d36d598e53b9e5b4c95934c_img.jpg)
+![Diagram showing a process flow: Helsepersonell ved sykehjem varsler behov -> Lege, pasient og pårørende vurderer behovet -> Helsepersonell ved sykehjem fatter vedtak. An image of an elderly woman is shown next to the first step.](images/Bilag G2 Helhetlig samhandling/94563c795d36d598e53b9e5b4c95934c_img.jpg)
 
 ```
 
@@ -6752,7 +6752,7 @@ Diagram showing a process flow: Helsepersonell ved sykehjem varsler behov -> Leg
 | 4. Helsepersonell fatter vedtak om tvungen somatisk helsehjelp | Ansvestig for helsehjelpen fatter vedtak om tvungen tilbakeholdelse på institusjon etter gjeldende regelverk (Pasientrettighetsloven § 4A). Helsehjelpen innebærer et alvorlig inngrep Magdas liv og ansvestig for helsehjelpen søker samråd med annet kvalifisert helsepersonell. Informasjonen som trengs flettes inn og det utarbeides vedtak som viderefordles til fylkesmannen. Når vedtaket er skrevet, går det automatisk varsel til Magda og hennes datter om at vedtak er fattet og de informeres om klagerett. Personalet informerer Magda om vedtaket. Øverste ansvarlige for helsehjelpen i kommunen/helseinstitusjonen varsles også om at det er fattet tvangsvedtak. |
 | 5. Fylkesmannen mottar vedtak om tvungen helsehjelp            | Fylkesmannen mottar vedtak som elektronisk melding og kan opprette elektronisk informasjonsutveksling.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
-![Diagram showing a process flow for a child with developmental delays. It starts with a photo of a child in a red hat and blue jacket, followed by a series of six chevron-shaped steps: 'Første konsultasjon hos fastlege', 'Konsultasjon på helsestasjon', 'Andre konsultasjon hos fastlege', 'Elektronisk konsultasjon med fastlege', 'Oppfølging i ansvarsgruppe', and 'Søknad om helgeavlastning'.](f7a1b96924f2d36f5643700fbb7cc2ea_img.jpg)
+![Diagram showing a process flow for a child with developmental delays. It starts with a photo of a child in a red hat and blue jacket, followed by a series of six chevron-shaped steps: 'Første konsultasjon hos fastlege', 'Konsultasjon på helsestasjon', 'Andre konsultasjon hos fastlege', 'Elektronisk konsultasjon med fastlege', 'Oppfølging i ansvarsgruppe', and 'Søknad om helgeavlastning'.](images/Bilag G2 Helhetlig samhandling/f7a1b96924f2d36f5643700fbb7cc2ea_img.jpg)
 
 Diagram showing a process flow for a child with developmental delays. It starts with a photo of a child in a red hat and blue jacket, followed by a series of six chevron-shaped steps: 'Første konsultasjon hos fastlege', 'Konsultasjon på helsestasjon', 'Andre konsultasjon hos fastlege', 'Elektronisk konsultasjon med fastlege', 'Oppfølging i ansvarsgruppe', and 'Søknad om helgeavlastning'.
 
@@ -6829,7 +6829,7 @@ Diagram showing a process flow for a child with developmental delays. It starts 
 
 ### 10.1.6 Scenario 3: Innbygger med psykisk lidelse og rusavhengighet
 
-![Diagram showing a patient's journey through four stages: 1. Pasient tar kontakt med helsetjenesten (with an image of a person), 2. Offentlige tjenester setter opp tiltak, 3. Pasient får LAR-behandling, 4. Pasient gjennomfører kognitiv trening.](4e191c69ad9a8ccefa7beb93c5e36591_img.jpg)
+![Diagram showing a patient's journey through four stages: 1. Pasient tar kontakt med helsetjenesten (with an image of a person), 2. Offentlige tjenester setter opp tiltak, 3. Pasient får LAR-behandling, 4. Pasient gjennomfører kognitiv trening.](images/Bilag G2 Helhetlig samhandling/4e191c69ad9a8ccefa7beb93c5e36591_img.jpg)
 
 ```
 
@@ -6880,7 +6880,7 @@ Diagram showing a patient's journey through four stages: 1. Pasient tar kontakt 
 
 ## 10.1.7 Scenario 4: Innbygger med behov for hjelpemidler
 
-![Diagram showing a process flow for Scenario 4. It starts with a photo of a woman (Hanne) and a sequence of four chevron-shaped boxes: 1. Innbygger søker om kommunal tjeneste, 2. Innbygger mottar varsel om hjemmebesøk, 3. Helsepersonell drar på Hjemmebesøk, 4. Helsepersonell hjelper innbygger med søknad til NAV.](9144d599bb5bf98cd607202d768a4956_img.jpg)
+![Diagram showing a process flow for Scenario 4. It starts with a photo of a woman (Hanne) and a sequence of four chevron-shaped boxes: 1. Innbygger søker om kommunal tjeneste, 2. Innbygger mottar varsel om hjemmebesøk, 3. Helsepersonell drar på Hjemmebesøk, 4. Helsepersonell hjelper innbygger med søknad til NAV.](images/Bilag G2 Helhetlig samhandling/9144d599bb5bf98cd607202d768a4956_img.jpg)
 
 ```
 
@@ -6915,11 +6915,11 @@ Diagram showing a process flow for Scenario 4. It starts with a photo of a woman
 |  | Hanne har innsyn i prosessen rundt behandling av søknaden. Eks. hvem er saksbehandler, om den er vurdert, generell oversikt, når vedtak foreligger, når hjelpemiddelet blir levert <sup>13</sup> . |
 |--|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-![A small portrait of a young man with a beard and a blue hoodie, looking directly at the camera.](4a91c8250b663685af72923ce82fd4e6_img.jpg)
+![A small portrait of a young man with a beard and a blue hoodie, looking directly at the camera.](images/Bilag G2 Helhetlig samhandling/4a91c8250b663685af72923ce82fd4e6_img.jpg)
 
 A small portrait of a young man with a beard and a blue hoodie, looking directly at the camera.
 
-![A horizontal process flow diagram with four chevron-shaped steps. The first step is 'Innbygger kontakter helse- og omsorgstjenesten' (blue text). The second is 'Fastlege vurderer helsetilstand' (blue text). The third is 'Innbygger motsetter seg behandling' (blue text). The fourth is 'Pasient får tvangsbehandling' (blue text).](b6f6f51bf96aef85ffe1dcd9d57f398b_img.jpg)
+![A horizontal process flow diagram with four chevron-shaped steps. The first step is 'Innbygger kontakter helse- og omsorgstjenesten' (blue text). The second is 'Fastlege vurderer helsetilstand' (blue text). The third is 'Innbygger motsetter seg behandling' (blue text). The fourth is 'Pasient får tvangsbehandling' (blue text).](images/Bilag G2 Helhetlig samhandling/b6f6f51bf96aef85ffe1dcd9d57f398b_img.jpg)
 
 A horizontal process flow diagram with four chevron-shaped steps. The first step is 'Innbygger kontakter helse- og omsorgstjenesten' (blue text). The second is 'Fastlege vurderer helsetilstand' (blue text). The third is 'Innbygger motsetter seg behandling' (blue text). The fourth is 'Pasient får tvangsbehandling' (blue text).
 
@@ -6976,7 +6976,7 @@ A horizontal process flow diagram with four chevron-shaped steps. The first step
 
 ## 10.1.9 Scenario 6: Innbygger med kreft
 
-![Diagram showing the process flow for Scenario 6: Innbygger med kreft. It starts with a photo of a man, followed by five steps in a chevron process: 1. Fastlege vurderer pasienten og henviser til behandling på sykehus. 2. Sykehus utreder og behandler sykdommen. 3. Kommune forbereder rehabilitering og utskrivning. 4. Kommune gir palliativ behandling. 5. Pasient dør på sykehjem.](675d8979e8be8b43c33598a654386dcd_img.jpg)
+![Diagram showing the process flow for Scenario 6: Innbygger med kreft. It starts with a photo of a man, followed by five steps in a chevron process: 1. Fastlege vurderer pasienten og henviser til behandling på sykehus. 2. Sykehus utreder og behandler sykdommen. 3. Kommune forbereder rehabilitering og utskrivning. 4. Kommune gir palliativ behandling. 5. Pasient dør på sykehjem.](images/Bilag G2 Helhetlig samhandling/675d8979e8be8b43c33598a654386dcd_img.jpg)
 
 ```
 
@@ -7074,7 +7074,7 @@ Diagram showing the process flow for Scenario 6: Innbygger med kreft. It starts 
 
 ## 10.1.10 Scenario 7: Innbygger med kronisk sykdom og akutt forverring
 
-![Diagram showing a patient journey flow. It starts with a photo of a man, followed by four chevron-shaped boxes: 'Pasient får utredet kronisk tilstand', 'Fastlege og akutteam vurderer forverret helsestilstand', 'Pasient legges inn på ØHD', and 'Pasient fraktes til sykehus'.](de1324b584dbd2fb53fcdde6e28b2182_img.jpg)
+![Diagram showing a patient journey flow. It starts with a photo of a man, followed by four chevron-shaped boxes: 'Pasient får utredet kronisk tilstand', 'Fastlege og akutteam vurderer forverret helsestilstand', 'Pasient legges inn på ØHD', and 'Pasient fraktes til sykehus'.](images/Bilag G2 Helhetlig samhandling/de1324b584dbd2fb53fcdde6e28b2182_img.jpg)
 
 ```
 
@@ -7141,7 +7141,7 @@ Diagram showing a patient journey flow. It starts with a photo of a man, followe
 
 ### 10.1.11 Scenario 8: Barn med senfølger etter trafikkulykke
 
-![Diagram showing the flow of a patient from hospital to rehabilitation and then to specialist health services.](ee9ec9df0528b0bc5018e4d2d640207f_img.jpg)
+![Diagram showing the flow of a patient from hospital to rehabilitation and then to specialist health services.](images/Bilag G2 Helhetlig samhandling/ee9ec9df0528b0bc5018e4d2d640207f_img.jpg)
 
 ```
 
@@ -7200,7 +7200,7 @@ Diagram showing the flow of a patient from hospital to rehabilitation and then t
 
 ### 10.1.12 Scenario 9a: Frisk gravid som følges opp gjennom svangerskap og fødsel
 
-![Diagram showing the progression of pregnancy stages: Første trimester, Andre trimester, Tredje trimester, and Fødsel.](3c65409bf428d5233f0443c2437c5b40_img.jpg)
+![Diagram showing the progression of pregnancy stages: Første trimester, Andre trimester, Tredje trimester, and Fødsel.](images/Bilag G2 Helhetlig samhandling/3c65409bf428d5233f0443c2437c5b40_img.jpg)
 
 The diagram illustrates the stages of pregnancy in a horizontal flow. It starts with a photo of a pregnant woman on the left. To the right, four chevron-shaped boxes are connected by arrows, representing the stages: 1. Første trimester: Innbygger og fastlege overvåker. 2. Andre trimester: Jordmor oppdager sykdom hos foster. 3. Tredje trimester: Fastlege og fysioterapeut følger opp. 4. Fødsel: Innbygger føder på sykehuset.
 
@@ -7236,7 +7236,7 @@ Diagram showing the progression of pregnancy stages: Første trimester, Andre tr
 
 ### 10.1.13 Scenario 9b: Friskt barn som følges opp av helsestasjon og skolehelsetjeneste
 
-![Diagram showing the follow-up of a healthy child from birth to 18 years old. It includes a photo of a young child and three chevron-shaped boxes representing the stages of care: Helsestasjon følger opp barnet fra 0 til 5 år, Skolehelse-tjeneste følger opp barnet fra 6 til 16 år, and Helsestasjon for ungdom følger opp fra 16-18 år.](cd2b491634dadbccc5b38620840d01f9_img.jpg)
+![Diagram showing the follow-up of a healthy child from birth to 18 years old. It includes a photo of a young child and three chevron-shaped boxes representing the stages of care: Helsestasjon følger opp barnet fra 0 til 5 år, Skolehelse-tjeneste følger opp barnet fra 6 til 16 år, and Helsestasjon for ungdom følger opp fra 16-18 år.](images/Bilag G2 Helhetlig samhandling/cd2b491634dadbccc5b38620840d01f9_img.jpg)
 
 ```
 
@@ -7301,7 +7301,7 @@ Diagram showing the follow-up of a healthy child from birth to 18 years old. It 
 
 ### 10.1.14 Scenario 10: Innbygger med uklare bryst smerter
 
-![Diagram showing a patient journey: A photo of an elderly woman is followed by three chevron-shaped boxes containing the text: 'Pasient oppsøker legevakt', 'Pasient går til hjertespesialist', and 'Pasient får nye symptomer og legges inn på sykehus'.](1dd32fc202575cb394770f965b887f6e_img.jpg)
+![Diagram showing a patient journey: A photo of an elderly woman is followed by three chevron-shaped boxes containing the text: 'Pasient oppsøker legevakt', 'Pasient går til hjertespesialist', and 'Pasient får nye symptomer og legges inn på sykehus'.](images/Bilag G2 Helhetlig samhandling/1dd32fc202575cb394770f965b887f6e_img.jpg)
 
 Diagram showing a patient journey: A photo of an elderly woman is followed by three chevron-shaped boxes containing the text: 'Pasient oppsøker legevakt', 'Pasient går til hjertespesialist', and 'Pasient får nye symptomer og legges inn på sykehus'.
 
@@ -7341,11 +7341,11 @@ Diagram showing a patient journey: A photo of an elderly woman is followed by th
 
 ### 10.1.15 Scenario 11: Multifunksjonshemmet barn
 
-![A small photograph showing a young girl, Julie, sitting in a room with other people, possibly in a hospital or clinical setting.](50ffa923c5eca109833c77ce5ec39b81_img.jpg)
+![A small photograph showing a young girl, Julie, sitting in a room with other people, possibly in a hospital or clinical setting.](images/Bilag G2 Helhetlig samhandling/50ffa923c5eca109833c77ce5ec39b81_img.jpg)
 
 A small photograph showing a young girl, Julie, sitting in a room with other people, possibly in a hospital or clinical setting.
 
-![A horizontal flowchart illustrating the life course of a child with a multifunctional disability. The flowchart consists of seven blue chevron-shaped boxes connected by arrows, representing a timeline from birth to adulthood.](e6c9ee930fbb7ffbb4c3f75b5ff6a663_img.jpg)
+![A horizontal flowchart illustrating the life course of a child with a multifunctional disability. The flowchart consists of seven blue chevron-shaped boxes connected by arrows, representing a timeline from birth to adulthood.](images/Bilag G2 Helhetlig samhandling/e6c9ee930fbb7ffbb4c3f75b5ff6a663_img.jpg)
 
 ```
 
@@ -7506,7 +7506,7 @@ Alle deltakerne i omfangsteamet har tilgang til å lese og endre data Zoho Creat
 
 De viktigste tabellene rettet mot samhandling er organisert i Zoho som vist på figuren under. Strekene angir mange-til-mange forhold. Hierarki-ikonet (→) angir at dataene i tabellen er organisert i et hierarki (se kap. 11.2.7).
 
-![Diagram of a simplified data structure in Zoho. It shows a flow from 'Use-case' and 'Innbyggertjeneste' (with a hierarchy icon) to 'Brukerhistorie'. 'Brukerhistorie' and 'Rådata' both connect to 'Informasjonsbehov' (with a hierarchy icon). 'Informasjonsbehov' connects to 'Informasjons-tjeneste' and 'Aktør, tjeneste eller system' (with a hierarchy icon). Finally, 'Informasjons-tjeneste' and 'Aktør, tjeneste eller system' both connect to 'Standard' (with a hierarchy icon).](8dfd23207a3b646abeccad10d2a3b883_img.jpg)
+![Diagram of a simplified data structure in Zoho. It shows a flow from 'Use-case' and 'Innbyggertjeneste' (with a hierarchy icon) to 'Brukerhistorie'. 'Brukerhistorie' and 'Rådata' both connect to 'Informasjonsbehov' (with a hierarchy icon). 'Informasjonsbehov' connects to 'Informasjons-tjeneste' and 'Aktør, tjeneste eller system' (with a hierarchy icon). Finally, 'Informasjons-tjeneste' and 'Aktør, tjeneste eller system' both connect to 'Standard' (with a hierarchy icon).](images/Bilag G2 Helhetlig samhandling/8dfd23207a3b646abeccad10d2a3b883_img.jpg)
 
 ```
 
@@ -7588,7 +7588,7 @@ Administrasjon av søknader til kommunale helse- og omsorgstjenester er den innb
 
 Følgende fargeskala er brukt:
 
-![Følgende fargeskala er brukt: Tre fargede rektangler med beskrivelse av graden av overlapp mellom målbildet til helsenorge og innbyggertjenester.](fe7c59a61c1172ddea644b9635b8dacf_img.jpg)
+![Følgende fargeskala er brukt: Tre fargede rektangler med beskrivelse av graden av overlapp mellom målbildet til helsenorge og innbyggertjenester.](images/Bilag G2 Helhetlig samhandling/fe7c59a61c1172ddea644b9635b8dacf_img.jpg)
 
 Diagrammet viser tre fargede rektangler som representerer graden av overlapp mellom målbildet til helsenorge og innbyggertjenester:
 
@@ -8054,3 +8054,39 @@ Arbeidspakke 11 handler om å forbedre eksisterende mekanismer innen rapporterin
 
 Informasjonstjenestene i denne arbeidspakken er mest aktuelle for aktører i helse- og omsorgstjenesten.
 
+![6871cdb41273084e9955465285ecae6a_img.jpg](images/Bilag G2 Helhetlig samhandling/6871cdb41273084e9955465285ecae6a_img.jpg)
+![3f7d79390e4438e4d37ed2dfcf3e9861_img.jpg](images/Bilag G2 Helhetlig samhandling/3f7d79390e4438e4d37ed2dfcf3e9861_img.jpg)
+![c241c11fef6e24549575d96b7f326fb1_img.jpg](images/Bilag G2 Helhetlig samhandling/c241c11fef6e24549575d96b7f326fb1_img.jpg)
+![dd2215b08052b052a211b5b959ec1599_img.jpg](images/Bilag G2 Helhetlig samhandling/dd2215b08052b052a211b5b959ec1599_img.jpg)
+![e8263e7ea469563d66568ed12b7d215a_img.jpg](images/Bilag G2 Helhetlig samhandling/e8263e7ea469563d66568ed12b7d215a_img.jpg)
+![a73cbba56eda80cb231a13d6b8c52c19_img.jpg](images/Bilag G2 Helhetlig samhandling/a73cbba56eda80cb231a13d6b8c52c19_img.jpg)
+![771f0d94a487dc5c51e8862d2dcce17b_img.jpg](images/Bilag G2 Helhetlig samhandling/771f0d94a487dc5c51e8862d2dcce17b_img.jpg)
+![291f65a089ba9e011bc026958449fa13_img.jpg](images/Bilag G2 Helhetlig samhandling/291f65a089ba9e011bc026958449fa13_img.jpg)
+![6cd72edf71e9c95a4f3d7fec339b44b6_img.jpg](images/Bilag G2 Helhetlig samhandling/6cd72edf71e9c95a4f3d7fec339b44b6_img.jpg)
+![fc5e9f5b7328d547db20df7f239fd08c_img.jpg](images/Bilag G2 Helhetlig samhandling/fc5e9f5b7328d547db20df7f239fd08c_img.jpg)
+![96448973cab200e0205fcd1651f128d3_img.jpg](images/Bilag G2 Helhetlig samhandling/96448973cab200e0205fcd1651f128d3_img.jpg)
+![bb803bb270dfe2c50c28d9fece232906_img.jpg](images/Bilag G2 Helhetlig samhandling/bb803bb270dfe2c50c28d9fece232906_img.jpg)
+![2bb91a7076fd39256e3adb77fab3db6f_img.jpg](images/Bilag G2 Helhetlig samhandling/2bb91a7076fd39256e3adb77fab3db6f_img.jpg)
+![b5ac638d35177b4cdfb48a96e88f89bf_img.jpg](images/Bilag G2 Helhetlig samhandling/b5ac638d35177b4cdfb48a96e88f89bf_img.jpg)
+![b634bac20f68c67751782194e8bb93d7_img.jpg](images/Bilag G2 Helhetlig samhandling/b634bac20f68c67751782194e8bb93d7_img.jpg)
+![76575c266a058ca9fb9ca7e7d978e36a_img.jpg](images/Bilag G2 Helhetlig samhandling/76575c266a058ca9fb9ca7e7d978e36a_img.jpg)
+![5c3e3f0ded9852e43bdac6fb5e4251d5_img.jpg](images/Bilag G2 Helhetlig samhandling/5c3e3f0ded9852e43bdac6fb5e4251d5_img.jpg)
+![fa9541f651859138cf13906a9da6157f_img.jpg](images/Bilag G2 Helhetlig samhandling/fa9541f651859138cf13906a9da6157f_img.jpg)
+![b891e03480ba914e1e72b62883c6b0a8_img.jpg](images/Bilag G2 Helhetlig samhandling/b891e03480ba914e1e72b62883c6b0a8_img.jpg)
+![d4e5e798915ad06af277032cfb67afde_img.jpg](images/Bilag G2 Helhetlig samhandling/d4e5e798915ad06af277032cfb67afde_img.jpg)
+![606c5f4c09570fe727f943c993823810_img.jpg](images/Bilag G2 Helhetlig samhandling/606c5f4c09570fe727f943c993823810_img.jpg)
+![4307c42ed32d9cad87397e4dfe3d088d_img.jpg](images/Bilag G2 Helhetlig samhandling/4307c42ed32d9cad87397e4dfe3d088d_img.jpg)
+![2da08c823a84f655dc4addf7839b1dbd_img.jpg](images/Bilag G2 Helhetlig samhandling/2da08c823a84f655dc4addf7839b1dbd_img.jpg)
+![add904da7c133adf4dc466ccaa658f05_img.jpg](images/Bilag G2 Helhetlig samhandling/add904da7c133adf4dc466ccaa658f05_img.jpg)
+![9ed459a3947fcc533076a29249ddf916_img.jpg](images/Bilag G2 Helhetlig samhandling/9ed459a3947fcc533076a29249ddf916_img.jpg)
+![2e83e00b8710f4d7033c1aa5261ca140_img.jpg](images/Bilag G2 Helhetlig samhandling/2e83e00b8710f4d7033c1aa5261ca140_img.jpg)
+![8abf4d42862c7cde39b5a6d50777b7b9_img.jpg](images/Bilag G2 Helhetlig samhandling/8abf4d42862c7cde39b5a6d50777b7b9_img.jpg)
+![19c40ec1d006d18f8e195a220314f416_img.jpg](images/Bilag G2 Helhetlig samhandling/19c40ec1d006d18f8e195a220314f416_img.jpg)
+![fa96fd17617e76c695797c77f4974517_img.jpg](images/Bilag G2 Helhetlig samhandling/fa96fd17617e76c695797c77f4974517_img.jpg)
+![003989b1a7fffcf6f35f79a3d00e0b77_img.jpg](images/Bilag G2 Helhetlig samhandling/003989b1a7fffcf6f35f79a3d00e0b77_img.jpg)
+![39b60ea7e63c9e6ea56ccba2b9836e6d_img.jpg](images/Bilag G2 Helhetlig samhandling/39b60ea7e63c9e6ea56ccba2b9836e6d_img.jpg)
+![72fccb1ed5fa79279df0587b92fd4bbd_img.jpg](images/Bilag G2 Helhetlig samhandling/72fccb1ed5fa79279df0587b92fd4bbd_img.jpg)
+![1e762c470ed0e59320bbdbebad0cfa63_img.jpg](images/Bilag G2 Helhetlig samhandling/1e762c470ed0e59320bbdbebad0cfa63_img.jpg)
+![e775d91a36b4aea6fd82be28e9d5d33f_img.jpg](images/Bilag G2 Helhetlig samhandling/e775d91a36b4aea6fd82be28e9d5d33f_img.jpg)
+![e4476841028df1b57872fa8d64207493_img.jpg](images/Bilag G2 Helhetlig samhandling/e4476841028df1b57872fa8d64207493_img.jpg)
+![1d8d9026e531fcfbc66bc1b8d22ea53c_img.jpg](images/Bilag G2 Helhetlig samhandling/1d8d9026e531fcfbc66bc1b8d22ea53c_img.jpg)

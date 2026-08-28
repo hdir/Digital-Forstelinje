@@ -339,7 +339,7 @@ Effektmålene for prosjektet er knyttet til økt kvalitet på tjenestene fra hel
 
 Figur 1 viser et logisk målbilde for hvordan applikasjonstjenestene felles kommunal journalløsning og Samhandlingsplattform understøtter ulike deler av helse- og omsorgstjenesten.
 
-![Architectural diagram showing the relationship between various service providers, digital services, and platform components for a shared municipal journal solution and integrated care.](ff7ce44f3fdd51bae7b231f34df07c6a_img.jpg)
+![Architectural diagram showing the relationship between various service providers, digital services, and platform components for a shared municipal journal solution and integrated care.](images/Vedlegg G Løsningsomfang og arkitektur/ff7ce44f3fdd51bae7b231f34df07c6a_img.jpg)
 
 The diagram illustrates the architecture of a shared municipal journal solution and integrated care. At the top, five yellow boxes represent service providers: 'Kommunal helse- og omsorgstjeneste', 'Innbyggere (pasienter, brukere, pårørende)', 'Spesialisthelse-tjenesten', 'Andre aktører i helse- og omsorgstjenesten med spesiell behov', and 'Andre kommunale og statlige tjenester (NAV, PPT, Skole, mm)'. Below these are six yellow boxes representing digital services: 'Journal i kommunal helse- og omsorgstjeneste', 'Innbyggerens digitale tjenester', 'Helseforetakenes journaler', 'Helseplattformen i Midt-Norge', 'Journaler for avtale-spesialister', 'Journaler og fagsystemer', and 'Journaler og fagsystemer'. The central part of the diagram features two large blue boxes. The left box, 'Felles kommunal journalløsning', contains components like 'Identitets-styring (IGA)', 'Kjerne-funksjonalitet', 'Tilleggs-funksjonalitet', and 'Tilgangsstyring' (with 'Journaldata'). The right box, 'Plattform for helhetlig samhandling', contains components like 'Helsenorge.no', 'Kjernejournal', 'E-resept (inkludert SFM)', 'Datadeling for velferdsteknologi', 'Datadeling for annen informasjon', 'Dokumentregister', 'Dokumentlagre', 'Personlig helsearkiv', 'Kritisk informasjon', 'Reseptoversikt', 'Legemidler i bruk', and 'Andre lagrings-komponenter'. Below these are three more blue boxes: 'Felles grunnmur for digitale tjenester' (with 'Kodeverk og terminologi', 'Felles grunndata', 'Felles krav og retningslinjer', 'Felleskomponenter' including 'HelseID', 'Personvern', 'Meldings-utveksling', 'Innbygger STS', 'Datadeling', 'Dokumentdeling', and 'Felles infrastruktur'), 'Nasjonale felleskomponenter' (with 'ID-porten', 'Altinn', 'Felles datakatalog', 'Digital postkasse til innbyggere', and 'Kontakt- og reservations-registeret'), and 'KS-FIKS' (with 'FIKS IO' and 'Svar ut / Svar Inn').
 
@@ -368,7 +368,7 @@ For å realisere helhetlig samhandling i et økosystem med mange virksomheter, s
 
 Her følger en beskrivelse av de overordnede prinsippene som felles kommunal journalløsning må forholde seg til for å understøtte helhetlig samhandling i kommunal helse- og omsorgstjeneste og med aktører utenfor helsesektoren.
 
-![Icon representing a hand holding a plant, symbolizing growth and development.](6551284cc15a2ba106451485aaac265a_img.jpg)
+![Icon representing a hand holding a plant, symbolizing growth and development.](images/Vedlegg G Løsningsomfang og arkitektur/6551284cc15a2ba106451485aaac265a_img.jpg)
 
 Icon representing a hand holding a plant, symbolizing growth and development.
 
@@ -376,7 +376,7 @@ Icon representing a hand holding a plant, symbolizing growth and development.
 
 Det er viktig å sikre at felles kommunal journalløsning og samhandlingsplattformen spiller godt sammen, og passer inn i et arkitekturlandskap for e-helse som er i løpende utvikling. Arkitekturforståelsen som legges til grunn for gjennomføring av tiltaket er basert på et økosystem hvor samhandling er navet som binder de ulike aktørene i helsesektoren sammen. De viktigste egenskaper ved samhandlingsplattformen er åpenhet og endringsevne.
 
-![Icon representing a network node, symbolizing connectivity and integration.](0adfe2c1a73ed4d130777d83dd16321d_img.jpg)
+![Icon representing a network node, symbolizing connectivity and integration.](images/Vedlegg G Løsningsomfang og arkitektur/0adfe2c1a73ed4d130777d83dd16321d_img.jpg)
 
 Icon representing a network node, symbolizing connectivity and integration.
 
@@ -384,7 +384,7 @@ Icon representing a network node, symbolizing connectivity and integration.
 
 Helhetlig samhandling vil stille krav og legge føringer for hvordan de ulike journalløsningene skal snakke sammen gjennom samhandlingsplattformen. Det må utformes og stilles tydelige myndighetskrav som alle journalløsninger må forholde seg til. Det er også viktig å rigge et tydelig eierskap til, og forvaltning av, semantiske ressurser slik som informasjonsmodeller, begreper og definisjoner av grensesnitt. Samhandlingsplattformen må være dynamisk slik at den legger til rette for en behovsdrevet helsefaglig tjenesteutvikling.
 
-![Icon representing a platform or foundation, showing three interconnected circles.](33e70787e71eebc7a200bc7fe352dadc_img.jpg)
+![Icon representing a platform or foundation, showing three interconnected circles.](images/Vedlegg G Løsningsomfang og arkitektur/33e70787e71eebc7a200bc7fe352dadc_img.jpg)
 
 Icon representing a platform or foundation, showing three interconnected circles.
 
@@ -398,7 +398,7 @@ Det legges til grunn en plattformbasert arkitekturtilnærming som gir rammer for
 
 Følgende arkitekturprinsipper ligger til grunn for anskaffelse, etablering, forvaltning, drift, vedlikehold og utvikling av felles kommunal journalløsning som en plattform.
 
-![Icon representing a core or center, showing a stylized atom or network structure.](1fd4fda95d22e337df091dfa8fa80f90_img.jpg)
+![Icon representing a core or center, showing a stylized atom or network structure.](images/Vedlegg G Løsningsomfang og arkitektur/1fd4fda95d22e337df091dfa8fa80f90_img.jpg)
 
 Icon representing a core or center, showing a stylized atom or network structure.
 
@@ -408,7 +408,7 @@ Felles kommunal journalløsning skal fra dag én inneholde funksjonalitet i kjer
 
 Felles kommunal journalløsning skal i sin kjerne inneholde et datalager som understøtter informasjonsbehovet for kommunal helse- og omsorgstjeneste. Innbyggerens helseopplysninger, informasjon om virksomheten, ressurser og helsepersonell som er nødvendig for å yte helse- og omsorgshjelp, forvaltes helhetlig i kjernen. Informasjon fra grunndataløsningene i helse- og omsorgstjenesten gjenbrukes i felles journalløsning der det er nødvendig.
 
-![Icon representing people or users, showing three stylized human figures.](a251a846ffb8c1750262be87b489eeec_img.jpg)
+![Icon representing people or users, showing three stylized human figures.](images/Vedlegg G Løsningsomfang og arkitektur/a251a846ffb8c1750262be87b489eeec_img.jpg)
 
 Icon representing people or users, showing three stylized human figures.
 
@@ -424,7 +424,7 @@ Hovedstrategien er å videreføre dagens strategi med Helsenorge.no som innbygge
 
 Det forventes at felles kommunal journalløsning som en del av kjernen tilgjengeliggjør data fra kjerneløsningen gjennom APIer, for å understøtte utvikling av tilleggsfunksjonalitet og integrasjon med andre løsninger (innenfor rammen av regler for taushetsplikt), herunder med helsenorge.no og kommunenes egne innbyggerportaler.
 
-![Icon representing security and access control, showing a padlock inside a circle.](b038de46b62ad59f030ec5a0501673e1_img.jpg)
+![Icon representing security and access control, showing a padlock inside a circle.](images/Vedlegg G Løsningsomfang og arkitektur/b038de46b62ad59f030ec5a0501673e1_img.jpg)
 
 ---
 
@@ -434,7 +434,7 @@ Icon representing security and access control, showing a padlock inside a circle
 
 Felles kommunal journalløsning skal fra dag en inneholde funksjonalitet for ivareta identitets- og tilgangsstyring som understøtter sikkerhetsprinsippene. Dette vedlegget oppsummerer hvordan identitets- og tilgangsstyring anbefales løst..
 
-![Icon representing flexibility and integration, showing puzzle pieces inside a circle.](8c88a2b2e156c28098d47bdd093e67e0_img.jpg)
+![Icon representing flexibility and integration, showing puzzle pieces inside a circle.](images/Vedlegg G Løsningsomfang og arkitektur/8c88a2b2e156c28098d47bdd093e67e0_img.jpg)
 
 ---
 
@@ -448,7 +448,7 @@ Gitt kjernefunksjonalitet som dekker helsepersonells funksjonelle behov til å y
 
 Hvorvidt kommunene velger å ta i bruk denne fleksibiliteten er et større spørsmål enn om løsningen har denne evnen. Utnyttelse av fleksibiliteten vil kunne påvirke innføringstiden, løsningsens kompleksitet og i den ytterste konsekvens kostnadene for programmet.
 
-![Icon representing flexibility, showing three stylized human figures with raised arms.](55d74563d1b88865295879cdaffce3ff_img.jpg)
+![Icon representing flexibility, showing three stylized human figures with raised arms.](images/Vedlegg G Løsningsomfang og arkitektur/55d74563d1b88865295879cdaffce3ff_img.jpg)
 
 Icon representing flexibility, showing three stylized human figures with raised arms.
 
@@ -456,7 +456,7 @@ Icon representing flexibility, showing three stylized human figures with raised 
 
 Mye av den tilgjengelige sluttbrukerfunksjonaliteten i felles journalløsning vil være relevant på tvers av helsepersonell i de ulike tjenestene. Hvilken funksjonalitet som er mest brukt og hvilke prosesser som følges, vil imidlertid variere. For å kunne realisere nytte av felles kommunal journalløsning må usikkerheten knyttet til å dekke det funksjonelle behovet for alle helsepersonellgrupper og tjenester som omfattes av tiltaket gjennom én felles journalløsning håndteres ved at løsningen har mulighet og verktøy for å kunne tilpasse arbeidsflaten. Dette håndteres initielt ved at programmet håndterer konfigurering, men optimalt må det være mulig for hvert helsepersonell å gjøre egne tilpasninger.
 
-![Icon representing openness, showing a database cylinder.](5f748e9d8e77de7b6a98e6039de7d0fd_img.jpg)
+![Icon representing openness, showing a database cylinder.](images/Vedlegg G Løsningsomfang og arkitektur/5f748e9d8e77de7b6a98e6039de7d0fd_img.jpg)
 
 Icon representing openness, showing a database cylinder.
 
@@ -466,7 +466,7 @@ Informasjonsblokkering representerer en stor utfordring for utviklingen av helse
 
 For å motvirke informasjonsblokkering er det nødvendig å utfordre leverandørmarkedet på at det etableres et tydeligere skille mellom data og applikasjoner/funksjonalitet. "Akson journal AS" må forvalte dataene og styrer bruken av disse, dvs bestemme reglene for å gi tilgang til å lese og oppdatere dataene. I dette ligger å sikre at dataene enkelt kan hentes ut av løsningen, for eksempel for å sikre tilgjengeliggjøring av data til forskning, styring og helseovervåkning og ved fremtidig behov for overgang til en annen journalløsning.
 
-![Icon representing integration, showing three circular arrows in a cycle.](23123e54830bfc61c844e8ec3a6b67ab_img.jpg)
+![Icon representing integration, showing three circular arrows in a cycle.](images/Vedlegg G Løsningsomfang og arkitektur/23123e54830bfc61c844e8ec3a6b67ab_img.jpg)
 
 Icon representing integration, showing three circular arrows in a cycle.
 
@@ -474,7 +474,7 @@ Icon representing integration, showing three circular arrows in a cycle.
 
 For å understøtte utvikling av tilleggsfunksjonalitet og integrasjon med andre løsninger (innenfor rammen av regler for taushetsplikt), herunder med administrative systemer i kommunene, er det nødvendig å tilgjengeliggjøre data fra kjerneløsningen gjennom åpne APIer. Grensesnittene beskrives i henhold til Direktoratet for e-helses veileder for åpne API, for å sikre tilstrekkelig åpenhet. Det skal være fokus gjennom anskaffelse og etableringen av felles kommunal journalløsning på hvilke data og funksjoner i kjernen som skal tilbys gjennom åpne grensesnitt i den videre prosessen.
 
-![Icon representing openness, showing a hand pouring water into a container.](f756d8e1fde6bc6ebdf4a5d7f1b2a57a_img.jpg)
+![Icon representing openness, showing a hand pouring water into a container.](images/Vedlegg G Løsningsomfang og arkitektur/f756d8e1fde6bc6ebdf4a5d7f1b2a57a_img.jpg)
 
 Icon representing openness, showing a hand pouring water into a container.
 
@@ -498,7 +498,7 @@ Hovedtiltaket for å adressere denne usikkerheten er å etablere en arkitektur s
 
 Figur 2 beskriver et logisk målbilde for realisering av felles kommunal journalløsning.
 
-![Diagram showing the architecture of a shared municipal journal solution. At the top is a yellow box 'Kommunal helse- og omsorgstjeneste' containing several service types. Below it is a box 'Journal i kommunal helse- og omsorgstjeneste' with 'Tjeneste-/Rolle-spesifikke journaler' and 'Felles kommunal journal'. This connects to a large cyan box 'Felles kommunal journalløsning' which contains 'Brukertilpassede arbeidsflater' (with service-specific interfaces), 'Intern tilleggsfunksjonalitet' (with identity management, advanced decision support, etc.), 'Kjernefunksjonalitet' (with documentation, patient management, etc.), 'Apne grensesnitt' (open interfaces), and 'Tilgangsstyring' (access control). An external box 'Ekstern tilleggs-funksjonalitet' (with advanced decision support, service-specific applications, etc.) is also connected to the main solution box.](73b5cce955ba9415a98791db7b0080ad_img.jpg)
+![Diagram showing the architecture of a shared municipal journal solution. At the top is a yellow box 'Kommunal helse- og omsorgstjeneste' containing several service types. Below it is a box 'Journal i kommunal helse- og omsorgstjeneste' with 'Tjeneste-/Rolle-spesifikke journaler' and 'Felles kommunal journal'. This connects to a large cyan box 'Felles kommunal journalløsning' which contains 'Brukertilpassede arbeidsflater' (with service-specific interfaces), 'Intern tilleggsfunksjonalitet' (with identity management, advanced decision support, etc.), 'Kjernefunksjonalitet' (with documentation, patient management, etc.), 'Apne grensesnitt' (open interfaces), and 'Tilgangsstyring' (access control). An external box 'Ekstern tilleggs-funksjonalitet' (with advanced decision support, service-specific applications, etc.) is also connected to the main solution box.](images/Vedlegg G Løsningsomfang og arkitektur/73b5cce955ba9415a98791db7b0080ad_img.jpg)
 
 Diagram showing the architecture of a shared municipal journal solution. At the top is a yellow box 'Kommunal helse- og omsorgstjeneste' containing several service types. Below it is a box 'Journal i kommunal helse- og omsorgstjeneste' with 'Tjeneste-/Rolle-spesifikke journaler' and 'Felles kommunal journal'. This connects to a large cyan box 'Felles kommunal journalløsning' which contains 'Brukertilpassede arbeidsflater' (with service-specific interfaces), 'Intern tilleggsfunksjonalitet' (with identity management, advanced decision support, etc.), 'Kjernefunksjonalitet' (with documentation, patient management, etc.), 'Apne grensesnitt' (open interfaces), and 'Tilgangsstyring' (access control). An external box 'Ekstern tilleggs-funksjonalitet' (with advanced decision support, service-specific applications, etc.) is also connected to the main solution box.
 
@@ -547,7 +547,7 @@ I den videre beskrivelsen av arkitekturprinsippene som skal ligge til grunn for 
 
 Følgende arkitekturprinsipper ligger til grunn for anskaffelse, etablering, forvaltning, drift, vedlikehold og utvikling av plattform for helhetlig samhandling. Disse bygger videre på Digitaliseringsdirektoratets arkitekturprinsipper for samhandling.
 
-![Icon representing users or people, used for the first principle.](23ccc57a4e09b138c310d1d174c5f316_img.jpg)
+![Icon representing users or people, used for the first principle.](images/Vedlegg G Løsningsomfang og arkitektur/23ccc57a4e09b138c310d1d174c5f316_img.jpg)
 
 ---
 
@@ -557,7 +557,7 @@ Icon representing users or people, used for the first principle.
 
 Informasjonstjenestene er definert med utgangspunkt i brukerbehov. Aktuelle brukergrupper må være med i standardisering og tilpasning av tjenestene, både på semantisk og organisatorisk nivå.
 
-![Icon representing a pyramid or structure, used for the second principle.](eaa5fbc353eb95b90302cfbe7c299576_img.jpg)
+![Icon representing a pyramid or structure, used for the second principle.](images/Vedlegg G Løsningsomfang og arkitektur/eaa5fbc353eb95b90302cfbe7c299576_img.jpg)
 
 ---
 
@@ -567,7 +567,7 @@ Icon representing a pyramid or structure, used for the second principle.
 
 Det må lages et rammeverk for hvordan arkitekturvalg gjøres, som også omfatter eksisterende samhandlingsløsninger.
 
-![Icon representing scales of justice, used for the third principle.](b4c0ec392f8cb5c04b3a5393ce6a695e_img.jpg)
+![Icon representing scales of justice, used for the third principle.](images/Vedlegg G Løsningsomfang og arkitektur/b4c0ec392f8cb5c04b3a5393ce6a695e_img.jpg)
 
 ---
 
@@ -579,7 +579,7 @@ Det vil vurderes om det er behov for endringer i lovgivningen for å tilby de pl
 
 Det vil vurderes behov for å innføre pålegg til virksomheter i helse- og omsorgstjenesten til å koble seg til plattform og ta i bruk ny samhandlingsfunksjonalitet innenfor gitte tidsfrister.
 
-![Icon representing data sharing and reuse, showing a cloud and a computer monitor with arrows.](8de18f629e5d8ab818f3eff277a9c08b_img.jpg)
+![Icon representing data sharing and reuse, showing a cloud and a computer monitor with arrows.](images/Vedlegg G Løsningsomfang og arkitektur/8de18f629e5d8ab818f3eff277a9c08b_img.jpg)
 
 Icon representing data sharing and reuse, showing a cloud and a computer monitor with arrows.
 
@@ -589,7 +589,7 @@ Data som tilbys via informasjonstjenestene skal kunne deles og gjenbrukes for ul
 
 For å understøtte utvikling av tilleggsfunksjonalitet og integrasjon med andre løsninger (innenfor rammen av regler for taushetsplikt) er det nødvendig å tilgjengeliggjøre data fra plattformen gjennom åpne APIer. Grensesnittene beskrives i henhold til Direktoratet for e-helses veileder for åpne API, for å sikre tilstrekkelig åpenhet. Det skal være fokus gjennom etableringen av plattform for helhetlig samhandling på hvilke data og funksjoner som skal tilbys gjennom åpne grensesnitt i den videre prosessen.
 
-![Icon representing solution sharing and reuse, showing a cloud and a computer monitor with arrows.](e5c6de7d8ff5b0d75d5602d200b899f0_img.jpg)
+![Icon representing solution sharing and reuse, showing a cloud and a computer monitor with arrows.](images/Vedlegg G Løsningsomfang og arkitektur/e5c6de7d8ff5b0d75d5602d200b899f0_img.jpg)
 
 Icon representing solution sharing and reuse, showing a cloud and a computer monitor with arrows.
 
@@ -597,7 +597,7 @@ Icon representing solution sharing and reuse, showing a cloud and a computer mon
 
 Løsningskomponenter og arkitekturbyggeblokker skal kunne deles og gjenbrukes. Dette innebærer at det vurderes ved videreutvikling av de nasjonale e-helseløsningene hvilke løsningskomponenter som skal være en del av plattformen.
 
-![Icon representing digital solutions, showing a database cylinder.](1695df64fe320e3f81049cfe402c8155_img.jpg)
+![Icon representing digital solutions, showing a database cylinder.](images/Vedlegg G Løsningsomfang og arkitektur/1695df64fe320e3f81049cfe402c8155_img.jpg)
 
 Icon representing digital solutions, showing a database cylinder.
 
@@ -605,7 +605,7 @@ Icon representing digital solutions, showing a database cylinder.
 
 Det legges opp til å dele mer informasjon, gå mot mer synkrone tjenester og mer strukturert informasjon, slik at løsningene kan samhandle effektivt.
 
-![Icon representing security and access, showing a padlock.](70cae92d31b314bfb9688ed378706e86_img.jpg)
+![Icon representing security and access, showing a padlock.](images/Vedlegg G Løsningsomfang og arkitektur/70cae92d31b314bfb9688ed378706e86_img.jpg)
 
 Icon representing security and access, showing a padlock.
 
@@ -630,7 +630,7 @@ Analysene viser at informasjonstjenester i stor grad bør gjenbrukes på tvers a
 
 Figur 3 beskriver et logisk mål bilde for realisering av plattform for helhetlig samhandling.
 
-![Diagram of the logical target image for the platform for integrated care, showing the relationships between various actors, services, and technical components.](705ee99c3c44fd2a1ea6a3348ce8878f_img.jpg)
+![Diagram of the logical target image for the platform for integrated care, showing the relationships between various actors, services, and technical components.](images/Vedlegg G Løsningsomfang og arkitektur/705ee99c3c44fd2a1ea6a3348ce8878f_img.jpg)
 
 The diagram illustrates the logical target image for the platform for integrated care, structured as follows:
 
@@ -709,7 +709,7 @@ Applikasjonstjenesten **KS-FIKS** er felles kommunal arkitektur som blant annet 
 
 Følgende arkitekturprinsipper ligger til grunn for anskaffelse, etablering, forvaltning, drift, vedlikehold og utvikling av løsning for identitets- og tilgangsstyring. Disse bygger videre på Digitaliseringsdirektoratets arkitekturprinsipper (6) samt den danske referansearkitekturen for tilgangsstyring i offentlig sektor. (7)
 
-![Icon showing a network of people nodes.](b99bfa6a26ede115d00d81059ee4ce6b_img.jpg)
+![Icon showing a network of people nodes.](images/Vedlegg G Løsningsomfang og arkitektur/b99bfa6a26ede115d00d81059ee4ce6b_img.jpg)
 
 ---
 
@@ -719,7 +719,7 @@ Icon showing a network of people nodes.
 
 Helsepersonell i kommunal helse- og omsorgstjeneste vil i deres hverdag jobbe mot flere sett av løsninger, både kommunale og nasjonale. Oppsettet for identitets- og tilgangsstyring skal legge til rette for at dette kan oppleves så sømløst som mulig uavhengig av antall systemer og tjenester.
 
-![Icon showing a group of people nodes.](6d725ca4169920a6fb14e9c251a09102_img.jpg)
+![Icon showing a group of people nodes.](images/Vedlegg G Løsningsomfang og arkitektur/6d725ca4169920a6fb14e9c251a09102_img.jpg)
 
 ---
 
@@ -729,7 +729,7 @@ Icon showing a group of people nodes.
 
 Brukere som benytter ulike former for identiteter skal kunne gjenbruke disse uten konsekvens for tilgangen, gitt at eventuelle sikkerhetskrav er ivaretatt. Brukere som arbeider i flere roller i ulike virksomheter omfattet av tiltaket, skal enkelt kunne velge sin kontekst.
 
-![Icon showing a central node connected to several other nodes.](c80dd550f724de455f5efebaed25198d_img.jpg)
+![Icon showing a central node connected to several other nodes.](images/Vedlegg G Løsningsomfang og arkitektur/c80dd550f724de455f5efebaed25198d_img.jpg)
 
 ---
 
@@ -739,7 +739,7 @@ Icon showing a central node connected to several other nodes.
 
 Felleskomponenter, sikkerhetskrav og standarder til løsning bestemmes og styres sentralt. Det betyr at tjenesteleverandøren er premissgiver for hvilke sikkerhetskrav som skal stilles til de virksomhetene som tilknytter seg eller ønsker å integrere med løsningen. Ansvaret for komponentene i løsningene vil være underlagt tjenesteleverandør.
 
-![Icon showing a central node connected to several other nodes.](8e52eef4066f63843e1eb7b312120b4e_img.jpg)
+![Icon showing a central node connected to several other nodes.](images/Vedlegg G Løsningsomfang og arkitektur/8e52eef4066f63843e1eb7b312120b4e_img.jpg)
 
 ---
 
@@ -749,7 +749,7 @@ Icon showing a central node connected to several other nodes.
 
 Vedlikehold av identiteter, attributter og legitimasjon skal så langt det lar seg gjøre delegeres til den person eller virksomhet som er nærmest identitetene. Virksomheter administrerer sine egne identiteter, som sine ansatte, sine "ting" (IoT, medisinsk-teknisk utstyr o.l.), og sine klienter/tjenester.
 
-![Icon showing two horizontal arrows pointing in opposite directions.](59be2fe5dea231a8f3cea5fab2936a4b_img.jpg)
+![Icon showing two horizontal arrows pointing in opposite directions.](images/Vedlegg G Løsningsomfang og arkitektur/59be2fe5dea231a8f3cea5fab2936a4b_img.jpg)
 
 ---
 
@@ -759,7 +759,7 @@ Icon showing two horizontal arrows pointing in opposite directions.
 
 Det skal etterstrebes interoperabilitet på juridisk, organisatorisk og semantisk nivå slik at virksomheter kan føderere identitetsbilletter fra inn til felles journalløsning og samhandlingsløsningene.
 
-![Icon showing two interlocking gears.](2e8db9844a19f26ba509fc3a29941950_img.jpg)
+![Icon showing two interlocking gears.](images/Vedlegg G Løsningsomfang og arkitektur/2e8db9844a19f26ba509fc3a29941950_img.jpg)
 
 ---
 
@@ -769,7 +769,7 @@ Icon showing two interlocking gears.
 
 Der det er hensiktsmessig skal løsningen implementeres stegvis gjennom en modularisert tilnærming.
 
-![Icon representing identity management, showing a wrench and a screwdriver crossed inside a circle.](c65ad236792ad44010344a71df2b4947_img.jpg)
+![Icon representing identity management, showing a wrench and a screwdriver crossed inside a circle.](images/Vedlegg G Løsningsomfang og arkitektur/c65ad236792ad44010344a71df2b4947_img.jpg)
 
 Icon representing identity management, showing a wrench and a screwdriver crossed inside a circle.
 
@@ -777,7 +777,7 @@ Icon representing identity management, showing a wrench and a screwdriver crosse
 
 Fagsystemene bør ikke håndtere identiteter selv. Dette grunnet at det da er vanskeligere å gjenbruke identiteter på tvers av tjenester.
 
-![Icon representing authorization, showing a hierarchical tree structure inside a circle.](5bd2e409e2ed67e06109635cc3a56e25_img.jpg)
+![Icon representing authorization, showing a hierarchical tree structure inside a circle.](images/Vedlegg G Løsningsomfang og arkitektur/5bd2e409e2ed67e06109635cc3a56e25_img.jpg)
 
 Icon representing authorization, showing a hierarchical tree structure inside a circle.
 
@@ -793,7 +793,7 @@ Identitets- og tilgangsstyring i felles kommunal journalløsning vil realiseres 
 
 Figur 4 beskriver et logisk målbilde for realisering av identitets- og tilgangsstyring i felles kommunal journal.
 
-![Diagram showing the architecture of a shared municipal journal solution for identity and access management. It includes external actors like 'Virksomhet i kommunal helse- og omsorgstjeneste', 'Tilgangsansvarlig i virksomhet / enhet', 'Administratorer / privilegerte brukere', 'Kommunalt helse- og omsorgs-personell', and 'eID-tilbyder'. These interact with internal components like 'Lokale AD / brukerkataloger', 'Identitetsstyring (IGA)', 'Privilegert tilgangsstyring', 'Lokalt IAM', and 'Felles kommunal journalløsning'. The 'Grunndata' layer is at the bottom.](d9843ac5dfc4bbe9e4d21b8898723b5e_img.jpg)
+![Diagram showing the architecture of a shared municipal journal solution for identity and access management. It includes external actors like 'Virksomhet i kommunal helse- og omsorgstjeneste', 'Tilgangsansvarlig i virksomhet / enhet', 'Administratorer / privilegerte brukere', 'Kommunalt helse- og omsorgs-personell', and 'eID-tilbyder'. These interact with internal components like 'Lokale AD / brukerkataloger', 'Identitetsstyring (IGA)', 'Privilegert tilgangsstyring', 'Lokalt IAM', and 'Felles kommunal journalløsning'. The 'Grunndata' layer is at the bottom.](images/Vedlegg G Løsningsomfang og arkitektur/d9843ac5dfc4bbe9e4d21b8898723b5e_img.jpg)
 
 The diagram illustrates the architecture of a shared municipal journal solution for identity and access management. It shows the interactions between various external actors and internal system components.
 
@@ -912,7 +912,7 @@ De identifiserte behovene er gruppert i hovedområder og tjenester basert på li
 
 Figur 5 gir en oversikt over alle innbyggertjenestene.
 
-![](315bdbeafb39026e19b77c26b19d9d1f_img.jpg)
+![](images/Vedlegg G Løsningsomfang og arkitektur/315bdbeafb39026e19b77c26b19d9d1f_img.jpg)
 
 | IN.01 Innbyggerrettigheter                           | IN.02 Administrere helsehjelp                                  | IN.03 Planlegge og koordinere med helsejenesten   | IN.04 Kommunikasjon                            |
 |------------------------------------------------------|----------------------------------------------------------------|---------------------------------------------------|------------------------------------------------|
@@ -1015,7 +1015,7 @@ Kommunene har stor frihet til å organisere tjenestene ut fra lokale forhold og 
 
 Figur 6 gir en oversikt over kommunale helse- og omsorgstjenester og felles funksjoner som skal støttes av felles journalløsning. Figuren er illustrerende, men er ikke fult uttømmende. For å oppfylle ansvaret etter § 3-1 i helse- og omsorgstjenesteloven skal kommunen ha lege, sykepleier, fysioterapeut, jordmor, helsesykepleier, ergoterapeut og psykolog knyttet til seg. Lovkrav om at kommunene skal ha psykologkompetanse trådte i kraft fra 2020.
 
-![Diagram showing the relationship between municipal health and care services, common functions, and competency requirements. The diagram is organized into three columns: 'Kommunale helse- og omsorgstjenester', 'Felles funksjoner', and 'Kompetansekrav'. Each column contains icons representing different roles or services.](34b047489058d6400b412cd0ae2334ba_img.jpg)
+![Diagram showing the relationship between municipal health and care services, common functions, and competency requirements. The diagram is organized into three columns: 'Kommunale helse- og omsorgstjenester', 'Felles funksjoner', and 'Kompetansekrav'. Each column contains icons representing different roles or services.](images/Vedlegg G Løsningsomfang og arkitektur/34b047489058d6400b412cd0ae2334ba_img.jpg)
 
 | Kommunale helse- og omsorgstjenester | Felles funksjoner | Kompetansekrav  |
 |--------------------------------------|-------------------|-----------------|
@@ -1059,7 +1059,7 @@ I kapabilitetsmodellen er virksomhetskapabilitetene i den kommunale helse- og om
 
 Figur 7 gir en oversikt over hvilke virksomhetskapabiliteter i kommunal helse- og omsorgstjeneste som forventes å understøttes av funksjonalitet i felles journalløsning, hvilke som skal understøttes med samhandling og integrasjon med nasjonale løsninger og hvilke som i liten grad forventes å understøttes av funksjonalitet eller samhandling og integrasjon.
 
-![Diagram showing the structure of business capabilities for municipal health and care services, categorized into four main areas: SH (Yte helse- og omsorgshjelp), SHS (Gi støtte til ytelse av helse- og omsorgshjelp), AS (Administrere kommunale helse- og omsorgstjenester), and SR (Planlegge, utvikle og følge opp helse- og omsorgstjenester). Each area contains specific sub-capabilities. A legend at the bottom explains the color coding: green for central functions, blue for integrated functions, light blue for partially integrated functions, and red for functions outside the scope.](82fbb97c1145cac89ac72dd080fad17a_img.jpg)
+![Diagram showing the structure of business capabilities for municipal health and care services, categorized into four main areas: SH (Yte helse- og omsorgshjelp), SHS (Gi støtte til ytelse av helse- og omsorgshjelp), AS (Administrere kommunale helse- og omsorgstjenester), and SR (Planlegge, utvikle og følge opp helse- og omsorgstjenester). Each area contains specific sub-capabilities. A legend at the bottom explains the color coding: green for central functions, blue for integrated functions, light blue for partially integrated functions, and red for functions outside the scope.](images/Vedlegg G Løsningsomfang og arkitektur/82fbb97c1145cac89ac72dd080fad17a_img.jpg)
 
 **SH. Yte helse- og omsorgshjelp**
 
@@ -1132,7 +1132,7 @@ Felles journalløsning må også gi tilgang til uttrekk av informasjon til styri
 
 Figur 8 gir en oversikt over de funksjonelle områdene det er vurdert som nødvendig at felles journalløsning må inneholde.
 
-![Diagram showing functional areas for a shared journal solution, categorized into Documentation, Patient-oriented planning, Administrative support, Development and maintenance, and Reporting.](32ff77da4286b58c4778033acaa10836_img.jpg)
+![Diagram showing functional areas for a shared journal solution, categorized into Documentation, Patient-oriented planning, Administrative support, Development and maintenance, and Reporting.](images/Vedlegg G Løsningsomfang og arkitektur/32ff77da4286b58c4778033acaa10836_img.jpg)
 
 **Dokumentasjon av forløp og tilstand**
 
@@ -1189,7 +1189,7 @@ Figur 8 Oversikt over funksjonelle områder som er vurdert som nødvendig at fel
 
 Figur 9 gir en oversikt over de funksjonelle områdene som prosjektet anbefaler at bør avklares gjennom leverandørdialogen i anskaffelsesfasen. Dette er tilleggfunksjonalitet som er identifisert per dags dato. Helse- og omsorgstjenesten er i stor endring. I tillegg åpner ny teknologi for nye måter å levere helse- og omsorgstjenester på. Det kan derfor med sikkerhet forventes at det vil oppstå nye behov for å anskaffe eller utvikle tilleggfunksjonalitet som vi i dag ikke har identifisert.
 
-![Diagram showing recommended functional areas for a shared journal solution, categorized into Documentation, Administrative support, Support for analysis, Knowledge and decision-making support, and Third-party applications.](a5184899f915014fa38608754efcc9c7_img.jpg)
+![Diagram showing recommended functional areas for a shared journal solution, categorized into Documentation, Administrative support, Support for analysis, Knowledge and decision-making support, and Third-party applications.](images/Vedlegg G Løsningsomfang og arkitektur/a5184899f915014fa38608754efcc9c7_img.jpg)
 
 **Dokumentasjon av forløp og tilstand**
 
@@ -1407,7 +1407,7 @@ kan organisere helsepersonell, ressurser og oppgaver, samt kunne administrere og
 
 Figur 10 gir en oversikt over de kapabilitetene som har behov for integrasjon mellom felles journalløsning og kommunale administrative systemer.
 
-![Diagram showing the integration needs between the common journal solution and municipal administrative systems. It is divided into three main sections: SR (Styring, planlegging, utvikling og følge opp helse- og omsorgstjenester), SHS (Støtte til ytelser av helse og omsorgshjelp), and AS (Administrere kommunale helse- og omsorgstjenester). Each section contains specific tasks or sub-tasks. A legend explains that blue boxes represent solutions primarily integrated with municipal administrative systems, while green boxes represent solutions that support the common journal solution's capabilities, with the rest being integrated through the common journal solution's administrative systems.](8d66c9c295023a1380f9986d3663bb1e_img.jpg)
+![Diagram showing the integration needs between the common journal solution and municipal administrative systems. It is divided into three main sections: SR (Styring, planlegging, utvikling og følge opp helse- og omsorgstjenester), SHS (Støtte til ytelser av helse og omsorgshjelp), and AS (Administrere kommunale helse- og omsorgstjenester). Each section contains specific tasks or sub-tasks. A legend explains that blue boxes represent solutions primarily integrated with municipal administrative systems, while green boxes represent solutions that support the common journal solution's capabilities, with the rest being integrated through the common journal solution's administrative systems.](images/Vedlegg G Løsningsomfang og arkitektur/8d66c9c295023a1380f9986d3663bb1e_img.jpg)
 
 **SR. Planlegge, utvikle og følge opp helse- og omsorgstjenester**
 
@@ -1469,7 +1469,7 @@ De journalløsningene som blir erstattet inneholder en stor mengde helseopplysni
 
 Figur 11 gir en oversikt over hvilken informasjon fra de systemer som skal erstattes som minimum må overføres til felles journalløsning.
 
-![Diagram showing the scope of information to be converted/migrated to a common journal solution, categorized into patient-related, staff-related, business-related, and basic data.](3d6f5edac3d5e7113d960c2202f1b0fa_img.jpg)
+![Diagram showing the scope of information to be converted/migrated to a common journal solution, categorized into patient-related, staff-related, business-related, and basic data.](images/Vedlegg G Løsningsomfang og arkitektur/3d6f5edac3d5e7113d960c2202f1b0fa_img.jpg)
 
 **Omfang av informasjon som bør konverteres/migreres til felles journalløsning**
 
@@ -1601,7 +1601,7 @@ Forprosjektet for Akson har som oppgave å vurdere omfang og løsningsstrategi f
 
 Målbildet er å etablere en helhetlig samhandlingsplattform som sikrer samhandling på tvers av ulike aktører. Figur 12 viser det overordnede målbilde for helhetlig samhandling.
 
-![Diagram showing the overall goal for integrated care (Figur 12). The central hub is 'Samhandlingsløsning(er)' connected to various stakeholders: Innbygger, Kommunal helse- og omsorgstjeneste (inkl. fastleger), Felles kommunal journalløsning, Andre kommunale løsninger, Kommunale som ennå ikke har tatt i bruk felles journalløsning, Avtaleparter som velger å ikke ta i bruk felles journalløsning, Spesialisthelsetjeneste og andre aktører i helse- og omsorgstjeneste, and Andre kommunale og statlige tjenester.](0997dbaa9dfecedd60029d70b53327b8_img.jpg)
+![Diagram showing the overall goal for integrated care (Figur 12). The central hub is 'Samhandlingsløsning(er)' connected to various stakeholders: Innbygger, Kommunal helse- og omsorgstjeneste (inkl. fastleger), Felles kommunal journalløsning, Andre kommunale løsninger, Kommunale som ennå ikke har tatt i bruk felles journalløsning, Avtaleparter som velger å ikke ta i bruk felles journalløsning, Spesialisthelsetjeneste og andre aktører i helse- og omsorgstjeneste, and Andre kommunale og statlige tjenester.](images/Vedlegg G Løsningsomfang og arkitektur/0997dbaa9dfecedd60029d70b53327b8_img.jpg)
 
 The diagram illustrates the 'Overordnet målbilde for helhetlig samhandling' (Overall goal for integrated care). At the center is a blue box labeled 'Samhandlingsløsning(er)' containing a screenshot of a digital interface. This central hub is connected by double-headed arrows to several surrounding elements:
 
@@ -1661,7 +1661,7 @@ I Norge har vi over lang tid arbeidet med å etablere felles nasjonale løsninge
 
 Gjennom de siste ti årene er det etablert nasjonale løsninger for å understøtte digital samhandling mellom helsepersonell og innbygger (Helsenorge), mellom helsepersonell (kjernejournal) og for å håndtere resepter (e-resept). Figur 13 gir en konseptuell beskrivelse av disse samhandlingsløsningene.
 
-![A complex diagram showing the architecture of national e-health solutions for Helsenorge, Kjernejournal, and Sentral forskrivingsmodul. It details internal processes, data exchange via gateways, and central information layers.](3337af75dfee8af7687b4f49914d6c93_img.jpg)
+![A complex diagram showing the architecture of national e-health solutions for Helsenorge, Kjernejournal, and Sentral forskrivingsmodul. It details internal processes, data exchange via gateways, and central information layers.](images/Vedlegg G Løsningsomfang og arkitektur/3337af75dfee8af7687b4f49914d6c93_img.jpg)
 
 The diagram is organized into three main vertical sections representing different systems: **Helsenorge**, **Kjernejournal**, and **Sentral forskrivingsmodul** (which includes **E-resept**). These are grouped under the heading **Informasjons-tjenester**.
 
@@ -1764,7 +1764,7 @@ Statusen beskrives ut fra om informasjonstjenesten eller informasjonsbehovet er 
 
 Figur 14 gir en samlet oversikt over status for de ulike informasjonstjenestene:
 
-![Figur 14: Oversikt over vurdert modenhet på informasjonstjenestene. Diagrammet viser ulike funksjonelle kategorier av informasjonstjenester, organisert i fargede boksgrupper. Fargene indikerer modenhetsnivå: grønn for 'Lite behov for utvidelse', gul for 'Middels til stort behov for utvidelse', og rød for 'Nye tjenester'.](ad555483986d7170a46ce72d164b5bc8_img.jpg)
+![Figur 14: Oversikt over vurdert modenhet på informasjonstjenestene. Diagrammet viser ulike funksjonelle kategorier av informasjonstjenester, organisert i fargede boksgrupper. Fargene indikerer modenhetsnivå: grønn for 'Lite behov for utvidelse', gul for 'Middels til stort behov for utvidelse', og rød for 'Nye tjenester'.](images/Vedlegg G Løsningsomfang og arkitektur/ad555483986d7170a46ce72d164b5bc8_img.jpg)
 
 **Informasjonstjenester**
 
@@ -1863,7 +1863,7 @@ Vi har tatt utgangspunkt i samhandlingsformene definert av Direktoratet for e-he
 
 Figur 15 gir en oversikt over alle informasjonstjenester som er identifisert på tvers av alle aktørene beskrevet i kapittel 5.1.2 og som må understøttes av helhetlig samhandlingsplattform.
 
-![Diagram showing an overview of information services (Informasjonstjenester) categorized by their purpose and type. The diagram is divided into several horizontal sections, each with a title and a list of services. A legend on the right side explains the color coding: grey for 'Sende og motta', light blue for 'Slå opp og tilgjengeliggjøre', and dark blue for 'Endre og dele'.](1f1614411edea7edfc86c839a608e1fc_img.jpg)
+![Diagram showing an overview of information services (Informasjonstjenester) categorized by their purpose and type. The diagram is divided into several horizontal sections, each with a title and a list of services. A legend on the right side explains the color coding: grey for 'Sende og motta', light blue for 'Slå opp og tilgjengeliggjøre', and dark blue for 'Endre og dele'.](images/Vedlegg G Løsningsomfang og arkitektur/1f1614411edea7edfc86c839a608e1fc_img.jpg)
 
 **Informasjonstjenester**
 
@@ -2007,7 +2007,7 @@ I dette kapitlet beskriver vi de faktorer som gjør det krevende å definere et 
 
 disse faktorene anbefaler vi at veien videre innen samhandlingsområdet defineres som en utviklingsretning, der omfanget deles inn i flere steg. Innholdet i steg 1 er definert, se kapittel 5.4.3. Det anbefales videre at innholdet i steg 2 og videre mot målbilde defineres nærmere i arbeidet med steg 1. Summen av alle stegene skal føre til oppfyllelse av målbildet for samhandling.
 
-![Diagram showing the development of integrated care. At the top, a bar represents 'Felles kommunal journalløsning' divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. Below this, a staircase of blue boxes labeled 'Utviklingsretning for helhetlig samhandling' ascends from 'steg 1' to 'steg 4' and finally to 'steg n'. A large blue circle on the right is labeled 'Akson'. Lines connect the staircase to the 'Akson' circle, and a line also connects the journal solution phases to the circle.](27788c2a26d9641e68232a4eff1299b9_img.jpg)
+![Diagram showing the development of integrated care. At the top, a bar represents 'Felles kommunal journalløsning' divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. Below this, a staircase of blue boxes labeled 'Utviklingsretning for helhetlig samhandling' ascends from 'steg 1' to 'steg 4' and finally to 'steg n'. A large blue circle on the right is labeled 'Akson'. Lines connect the staircase to the 'Akson' circle, and a line also connects the journal solution phases to the circle.](images/Vedlegg G Løsningsomfang og arkitektur/27788c2a26d9641e68232a4eff1299b9_img.jpg)
 
 Diagram showing the development of integrated care. At the top, a bar represents 'Felles kommunal journalløsning' divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. Below this, a staircase of blue boxes labeled 'Utviklingsretning for helhetlig samhandling' ascends from 'steg 1' to 'steg 4' and finally to 'steg n'. A large blue circle on the right is labeled 'Akson'. Lines connect the staircase to the 'Akson' circle, and a line also connects the journal solution phases to the circle.
 
@@ -2017,7 +2017,7 @@ Figur 16 Illustrasjon av tilnærming for å realisere konsseptet
 
 Figur 17 gir en overordnet oversikt over hovedelementene som utgjør bakgrunn for valg av den stegvise utviklingsretningen for samhandling. Noen av elementene handler om usikkerhet knyttet til dagens situasjon, noe handler om usikkerhet knyttet til resultater fra pågående prosjekter og noe handler om at målbildet er ambisiøst og krevende. Samlet sett utgjør disse usikkerhetene bakgrunnen for den valgte realiseringsstrategien, hvor en stegvis tilnærming til samhandling er den anbefalte realiseringsstrategien.
 
-![](6031b46d356ee24f96bfe37ee2cb7616_img.jpg)
+![](images/Vedlegg G Løsningsomfang og arkitektur/6031b46d356ee24f96bfe37ee2cb7616_img.jpg)
 
 | Bakgrunn for valgt realiseringsstrategi                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                      |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2039,7 +2039,7 @@ Sett i sammenheng med innføring av felles kommunal journalløsning er en gjenno
 
 Analysen av informasjonsbehovene som er kartlagt viser at det er sammenfallende behov for samhandling på tvers av disse dimensjonene, og Figur 18 gir en oppsummering av denne analysen.
 
-![Diagramm som viser ulike informasjonstjenester kategorisert etter behovsdimensjoner. Diagrammet er organisert i seks hovedkategorier, hver med flere underkategorier. Fargen på boksene indikerer antall dimensjoner som er berørt: grønn for tre eller flere dimensjoner, gul for to dimensjoner, og rød for en dimensjon.](4260aa4a7ece77c411597094c9d197bd_img.jpg)
+![Diagramm som viser ulike informasjonstjenester kategorisert etter behovsdimensjoner. Diagrammet er organisert i seks hovedkategorier, hver med flere underkategorier. Fargen på boksene indikerer antall dimensjoner som er berørt: grønn for tre eller flere dimensjoner, gul for to dimensjoner, og rød for en dimensjon.](images/Vedlegg G Løsningsomfang og arkitektur/4260aa4a7ece77c411597094c9d197bd_img.jpg)
 
 **Informasjonstjenester**
 
@@ -2122,7 +2122,7 @@ Prosjektet har i samarbeid med en intern arbeidsgruppe i Direktoratet for e-hels
 
 Arbeidet i denne arbeidsgruppen konkluderte med at ambisjonene for samhandling og behovet for gjenbruk av informasjonstjenester på tvers av innbygger, helsepersonell og andre kommunale og statlige aktører ikke kan løses godt nok gjennom å videreføre dagens produktorienterte løsningsstrategi. Dette alternativet gir tekniske utfordringer innenfor både skalering og utvikling av disse løsningene som gir usikkerhet om det vil kunne møte forventningene, og vi kan derfor ikke anbefale dette alternativet. Det er behov for å vurdere en mer helhetlig plattformtilnærming i tråd med anbefalingene fra ekstern kvalitetssikrer av Konseptvalgtutredningen. Prosjektet har sammen med sentrale arkitekter for de nasjonale løsningene utarbeidet et mål bilde for hvordan en slik helhetlig samhandlingsplattform kan se ut.
 
-![A complex architectural diagram titled 'Referansearkitektur for helhetlig samhandlingsplattform'. It is divided into several sections: 'Applikasjoner' at the top, 'Sikkerhet og risiko' on the left, 'Informasjonstjenester' in the center, and 'Forvaltning' on the right. Below these is a 'Tjeneste og dataintegrasjon' section and a 'Sentrale informasjonslager' section. At the bottom, five pillars represent 'Kodeverk og terminologi', 'Felles grunndata', 'Felleskom-ponenter', 'Felles krav og retningslinjer', and 'Felles infrastruktur'. The diagram uses various boxes and icons to represent different components and their relationships.](c3254408eadbf152632a8faf16310722_img.jpg)
+![A complex architectural diagram titled 'Referansearkitektur for helhetlig samhandlingsplattform'. It is divided into several sections: 'Applikasjoner' at the top, 'Sikkerhet og risiko' on the left, 'Informasjonstjenester' in the center, and 'Forvaltning' on the right. Below these is a 'Tjeneste og dataintegrasjon' section and a 'Sentrale informasjonslager' section. At the bottom, five pillars represent 'Kodeverk og terminologi', 'Felles grunndata', 'Felleskom-ponenter', 'Felles krav og retningslinjer', and 'Felles infrastruktur'. The diagram uses various boxes and icons to represent different components and their relationships.](images/Vedlegg G Løsningsomfang og arkitektur/c3254408eadbf152632a8faf16310722_img.jpg)
 
 The diagram illustrates the reference architecture for a holistic care platform, organized into several functional areas:
 
@@ -2187,7 +2187,7 @@ Mange av de tekniske kapabilitetene som det er behov for i den helhetlige samhan
 
 Figur 20 gir en vurdering av hvilke kapabiliteter som eksisterer (grønn), må videreutvikles (gul), og etableres (rød) for å realisere målbildet for samhandling.
 
-![A complex diagram titled 'Applikasjoner' at the top, showing various digital platforms like Helsenorge.no, Kjernejournal-Portal, and Journal solutions. Below this, it is divided into sections: 'Sikkerhet og risiko' (left), 'Informasjonstjenester' (center), and 'Forvaltning' (right). The center section further breaks down into 'Tjeneste og dataintegrasjon' and 'Sentrale informasjonslager'. The bottom part of the diagram shows five pillars: 'Kodeverk og terminologi', 'Felles grunddata', 'Felleskomponenter', 'Felles krav og retningslinjer', and 'Felles infrastruktur'. Each pillar contains specific components or standards.](4801e73fa692059f2ca78196e6e907be_img.jpg)
+![A complex diagram titled 'Applikasjoner' at the top, showing various digital platforms like Helsenorge.no, Kjernejournal-Portal, and Journal solutions. Below this, it is divided into sections: 'Sikkerhet og risiko' (left), 'Informasjonstjenester' (center), and 'Forvaltning' (right). The center section further breaks down into 'Tjeneste og dataintegrasjon' and 'Sentrale informasjonslager'. The bottom part of the diagram shows five pillars: 'Kodeverk og terminologi', 'Felles grunddata', 'Felleskomponenter', 'Felles krav og retningslinjer', and 'Felles infrastruktur'. Each pillar contains specific components or standards.](images/Vedlegg G Løsningsomfang og arkitektur/4801e73fa692059f2ca78196e6e907be_img.jpg)
 
 **Applikasjoner**
 
@@ -2382,7 +2382,7 @@ Gjennom forprosjektet er tre løsningskonsepter vurdert for håndtering av ident
 
 Figur 21 gir en oversikt over mål bilde for identitets- og tilgangsstyring for virksomheter som skal bruke felles journalløsning.
 
-![Diagram showing the overall goal image for identity and access management for entities using the common municipal journal solution.](ddcf2f580e914bff1e7756ed288874e1_img.jpg)
+![Diagram showing the overall goal image for identity and access management for entities using the common municipal journal solution.](images/Vedlegg G Løsningsomfang og arkitektur/ddcf2f580e914bff1e7756ed288874e1_img.jpg)
 
 The diagram illustrates the overall goal image for identity and access management for entities using the common municipal journal solution. It is structured as follows:
 
@@ -2428,7 +2428,7 @@ Gjennom forprosjektet er to løsningskonsepter vurdert for håndtering av identi
 
 Figur 22 gir en oversikt over målbildet for identitets- og tilgangsstyring for virksomheter som skal bruke helhetlig samhandling.
 
-![Diagram illustrating the goal image for identity and access management in the goal image for coordination. It shows the interaction between a business entity (Virksomhet), a person (Personell i virksomhet), a system (Fagsystem), a service (Tillitsanker), and a goal image (Målbilde for samhandling).](dbfe5a97dc7e71fd9ae813d4bb865e29_img.jpg)
+![Diagram illustrating the goal image for identity and access management in the goal image for coordination. It shows the interaction between a business entity (Virksomhet), a person (Personell i virksomhet), a system (Fagsystem), a service (Tillitsanker), and a goal image (Målbilde for samhandling).](images/Vedlegg G Løsningsomfang og arkitektur/dbfe5a97dc7e71fd9ae813d4bb865e29_img.jpg)
 
 The diagram illustrates the goal image for identity and access management in the goal image for coordination. It shows the interaction between a business entity (Virksomhet), a person (Personell i virksomhet), a system (Fagsystem), a service (Tillitsanker), and a goal image (Målbilde for samhandling).
 
@@ -2500,7 +2500,7 @@ I etablerings- og tilpasningsfasen skal løsningen konfigureres og utvikles. Det
 
 Figur 23 gir en oversikt over noen oppgaver og prosesser hvor informasjon i størst mulig grad må være tilgjengelig på tvers av helsepersonellgrupper.
 
-![Icon of a pregnant woman Icon of a young boy Icon of a child in a wheelchair Icon of a woman with a headscarf Icon of a man with glasses Icon of a woman with a headscarf Icon of a woman with a headscarf Icon of a man with a headscarf Icon of an elderly woman Icon of an elderly woman](b71ad9fc874230de9ba4480e12a216f7_img.jpg)
+![Icon of a pregnant woman Icon of a young boy Icon of a child in a wheelchair Icon of a woman with a headscarf Icon of a man with glasses Icon of a woman with a headscarf Icon of a woman with a headscarf Icon of a man with a headscarf Icon of an elderly woman Icon of an elderly woman](images/Vedlegg G Løsningsomfang og arkitektur/b71ad9fc874230de9ba4480e12a216f7_img.jpg)
 
 | Innbyggerscenarier                                                                                                                                                                       | Felles oppgaver og prosesser |                                                 |                                      |                     |                                                              |                   |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------------|--------------------------------------|---------------------|--------------------------------------------------------------|-------------------|
@@ -2527,7 +2527,7 @@ Med utgangspunkt i innbygger scenariene som er beskrevet i Bilag G2 – Helhetli
 
 I tillegg til at helsepersonell skal kunne koordinere ytelse av helse- og omsorgshjelp for innbyggere med sammensatte behov, må funksjonaliteten i felles journalløsning konfigureres slik at den understøtter hver enkelt helsepersonellgruppe. Figur 24 gir en oversikt over alle kommunale helse- og omsorgstjenesteområder der de ulike helsepersonellgruppene arbeider med de oppgaver og prosesser som skal understøttes.
 
-![Diagram showing the scope of configuration for each health personnel group. It is divided into two main sections: 'Tjenester, felles funksjoner og helsepersonellgrupper' on the left and 'Oppgaver og prosesser' on the right. The left section lists various service areas like 'Legvakt-sentral', 'Hjemsju', 'Sykehus', 'Frisikv-sentral', 'Offentlig helsehjelp', 'Tidligere-kontor', 'Sykepleier', 'Fysioterapeut', and 'Tannlege'. The right section is divided into 'Yte helse- og omsorgstjenester' (top) and 'Støtte til ytelse av helse og omsorgshjelp' (bottom), each containing specific tasks and processes for different personnel groups.](64323b705244afc70bf77babdacb6ce5_img.jpg)
+![Diagram showing the scope of configuration for each health personnel group. It is divided into two main sections: 'Tjenester, felles funksjoner og helsepersonellgrupper' on the left and 'Oppgaver og prosesser' on the right. The left section lists various service areas like 'Legvakt-sentral', 'Hjemsju', 'Sykehus', 'Frisikv-sentral', 'Offentlig helsehjelp', 'Tidligere-kontor', 'Sykepleier', 'Fysioterapeut', and 'Tannlege'. The right section is divided into 'Yte helse- og omsorgstjenester' (top) and 'Støtte til ytelse av helse og omsorgshjelp' (bottom), each containing specific tasks and processes for different personnel groups.](images/Vedlegg G Løsningsomfang og arkitektur/64323b705244afc70bf77babdacb6ce5_img.jpg)
 
 Diagram showing the scope of configuration for each health personnel group. It is divided into two main sections: 'Tjenester, felles funksjoner og helsepersonellgrupper' on the left and 'Oppgaver og prosesser' on the right. The left section lists various service areas like 'Legvakt-sentral', 'Hjemsju', 'Sykehus', 'Frisikv-sentral', 'Offentlig helsehjelp', 'Tidligere-kontor', 'Sykepleier', 'Fysioterapeut', and 'Tannlege'. The right section is divided into 'Yte helse- og omsorgstjenester' (top) and 'Støtte til ytelse av helse og omsorgshjelp' (bottom), each containing specific tasks and processes for different personnel groups.
 
@@ -2601,3 +2601,23 @@ Felles kommunal journalløsning vil benytte Felles språk og internasjonale stan
 
 17. —. Normen. [Internett] <https://ehelse.no/normen/>.
 
+![a105234ed1806a90bf96e710be7ccca4_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/a105234ed1806a90bf96e710be7ccca4_img.jpg)
+![ec60b22c9054112cfc673fd05254e7fb_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/ec60b22c9054112cfc673fd05254e7fb_img.jpg)
+![7ebc2e9778e77f1d9df0856f176f8ce2_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/7ebc2e9778e77f1d9df0856f176f8ce2_img.jpg)
+![b5abb5df4c92f08100b59d10f1ac2222_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/b5abb5df4c92f08100b59d10f1ac2222_img.jpg)
+![c05d74373a7d28e02cd776499db551bd_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/c05d74373a7d28e02cd776499db551bd_img.jpg)
+![89af88fdaa0f5b6fa8c9154fff7cf96f_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/89af88fdaa0f5b6fa8c9154fff7cf96f_img.jpg)
+![870b33190fd75784ab116e7d85a13f47_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/870b33190fd75784ab116e7d85a13f47_img.jpg)
+![08c99487963a1c1abce6b76be1633351_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/08c99487963a1c1abce6b76be1633351_img.jpg)
+![a78606221b1a2510e9d90453f0bddf42_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/a78606221b1a2510e9d90453f0bddf42_img.jpg)
+![abdb43072426dae1b428d86d8e6bcbb8_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/abdb43072426dae1b428d86d8e6bcbb8_img.jpg)
+![31d7e42a29a1cf866f214a9ed55b13d2_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/31d7e42a29a1cf866f214a9ed55b13d2_img.jpg)
+![c65476aa055e220d4566900a781ea070_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/c65476aa055e220d4566900a781ea070_img.jpg)
+![2ca62351c3131ba3adc8a16310663d7b_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/2ca62351c3131ba3adc8a16310663d7b_img.jpg)
+![b706b195e7c51532f08abe07b6189be3_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/b706b195e7c51532f08abe07b6189be3_img.jpg)
+![f87f30eeb14fe8c356ebbdb48a7e288c_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/f87f30eeb14fe8c356ebbdb48a7e288c_img.jpg)
+![b55c703528c9974f34277949d3a77794_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/b55c703528c9974f34277949d3a77794_img.jpg)
+![d02a0d58da65ab4d3e222f6b825373fa_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/d02a0d58da65ab4d3e222f6b825373fa_img.jpg)
+![1263c60895ec86d327b0babf3f49105e_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/1263c60895ec86d327b0babf3f49105e_img.jpg)
+![bbad3f307d31e91f85d4935cdb7e51c2_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/bbad3f307d31e91f85d4935cdb7e51c2_img.jpg)
+![c7d8fd8a6d354bcbbdce039f8dfe6d79_img.jpg](images/Vedlegg G Løsningsomfang og arkitektur/c7d8fd8a6d354bcbbdce039f8dfe6d79_img.jpg)

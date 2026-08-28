@@ -1,6 +1,6 @@
 
 
-![Logo of the Norwegian Health Data Authority (DHI) consisting of a grid of white dots of varying sizes on a blue background.](2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
+![Logo of the Norwegian Health Data Authority (DHI) consisting of a grid of white dots of varying sizes on a blue background.](images/Vedlegg E Kontraktstrategi/2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
 
 Logo of the Norwegian Health Data Authority (DHI) consisting of a grid of white dots of varying sizes on a blue background.
 
@@ -219,7 +219,7 @@ Det er valgt to ulike tilnærminger for å realisere henholdsvis felles kommunal
 1. Realisering av felles kommunal journalløsning vil gjennomføres som ett tiltak med stegvis utvikling og innføring
 2. Målbildet for helhetlig samhandling realiseres gjennom en stegvis tilnærming med flere tiltak
 
-![Diagram illustrating the implementation of the concept through two parallel tracks: 'Felles kommunal journalløsning' and 'Utviklingsretning for helhetlig samhandling'. The 'Felles kommunal journalløsning' track is shown as a single horizontal bar divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. The 'Utviklingsretning for helhetlig samhandling' track is shown as a series of five blue rectangular boxes labeled 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n', arranged in a descending staircase pattern from left to right. Both tracks converge into a large dark blue circle on the right labeled 'Akson'.](daa4a6fa7e2ba1954258f86b4928eb32_img.jpg)
+![Diagram illustrating the implementation of the concept through two parallel tracks: 'Felles kommunal journalløsning' and 'Utviklingsretning for helhetlig samhandling'. The 'Felles kommunal journalløsning' track is shown as a single horizontal bar divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. The 'Utviklingsretning for helhetlig samhandling' track is shown as a series of five blue rectangular boxes labeled 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n', arranged in a descending staircase pattern from left to right. Both tracks converge into a large dark blue circle on the right labeled 'Akson'.](images/Vedlegg E Kontraktstrategi/daa4a6fa7e2ba1954258f86b4928eb32_img.jpg)
 
 Diagram illustrating the implementation of the concept through two parallel tracks: 'Felles kommunal journalløsning' and 'Utviklingsretning for helhetlig samhandling'. The 'Felles kommunal journalløsning' track is shown as a single horizontal bar divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. The 'Utviklingsretning for helhetlig samhandling' track is shown as a series of five blue rectangular boxes labeled 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n', arranged in a descending staircase pattern from left to right. Both tracks converge into a large dark blue circle on the right labeled 'Akson'.
 
@@ -249,7 +249,7 @@ Programmet Akson journal og Programmet Akson samhandling har også avhengigheter
 
 I tillegg til koordineringsmekanismene beskrevet ovenfor, legges det til grunn at både Programmet Akson journal og Programmet Akson samhandling vil melde inn sine tiltak i den nasjonale porteføljestyringsprosessen som skal koordinere, prioritere og følge opp tiltak av nasjonal betydning.
 
-![Organigram for helhetlig styring som viser relasjonene mellom Helse- og omsorgsdepartementet, Akson journal AS, Direktoratet for e-helse, og de ulike programmenne og prosjektene.](8e14350b4b669119a3bdfca7869110ca_img.jpg)
+![Organigram for helhetlig styring som viser relasjonene mellom Helse- og omsorgsdepartementet, Akson journal AS, Direktoratet for e-helse, og de ulike programmenne og prosjektene.](images/Vedlegg E Kontraktstrategi/8e14350b4b669119a3bdfca7869110ca_img.jpg)
 
 ```
 
@@ -349,7 +349,7 @@ En av fordelene med å etablere en felles journalløsning, er å kunne bruke st�
 
 Figur 3 angir overordnet de anskaffelsesområder som må vurderes med hensyn til kontraktstrategien for felles kommunal journalløsning.
 
-![Diagram showing the scope of procurement for a shared municipal journal solution, divided into two main categories: 'Anskaffelsesområder vurdert i alternative anskaffelsestrategier' and 'Anskaffelsesområder med separate anskaffelser i alle strategialternativene'.](c85ded401105f62f2d6ff26b3b5eb4af_img.jpg)
+![Diagram showing the scope of procurement for a shared municipal journal solution, divided into two main categories: 'Anskaffelsesområder vurdert i alternative anskaffelsestrategier' and 'Anskaffelsesområder med separate anskaffelser i alle strategialternativene'.](images/Vedlegg E Kontraktstrategi/c85ded401105f62f2d6ff26b3b5eb4af_img.jpg)
 
 The diagram illustrates the scope of procurement for a shared municipal journal solution, organized into two main categories:
 
@@ -387,7 +387,7 @@ Hovedtiltaket for å adressere denne usikkerheten er å etablere en arkitektur s
 
 Figur 4 beskriver et logisk mål bilde for realisering av felles kommunal journalløsning.
 
-![Diagram illustrating the logical target image for the implementation of a shared municipal journal solution. The diagram shows a hierarchy of components: 'Kommunal helse- og omsorgstjeneste' at the top, leading to 'Journal i kommunal helse- og omsorgstjeneste', which then branches into 'Ekstern tilleggs-funksjonalitet' and 'Felles kommunal journalløsning'. The 'Felles kommunal journalløsning' box is further detailed with 'Brukertilpassede arbeidsflater' and 'Tilgangsstyring'.](dfe556fea00682b09a59427aaf72051c_img.jpg)
+![Diagram illustrating the logical target image for the implementation of a shared municipal journal solution. The diagram shows a hierarchy of components: 'Kommunal helse- og omsorgstjeneste' at the top, leading to 'Journal i kommunal helse- og omsorgstjeneste', which then branches into 'Ekstern tilleggs-funksjonalitet' and 'Felles kommunal journalløsning'. The 'Felles kommunal journalløsning' box is further detailed with 'Brukertilpassede arbeidsflater' and 'Tilgangsstyring'.](images/Vedlegg E Kontraktstrategi/dfe556fea00682b09a59427aaf72051c_img.jpg)
 
 The diagram illustrates the logical target image for the implementation of a shared municipal journal solution. It is structured as follows:
 
@@ -433,7 +433,7 @@ Figur 5 gir en oversikt over kommunale helse- og omsorgstjenester og felles funk
 
 Offentlig tannhelsetjeneste er en fylkeskommunal helsetjeneste. Det er vedtatt lovhjemmel om overføring til den kommunale helse- og omsorgstjenesten, men det er usikkert når dette kommer til å bli iverksatt (5). Hvorvidt felles journalløsning skal støtte offentlig tannhelsetjeneste vil avgjøres senere som del av anskaffelsesprosessen.
 
-![Diagram showing the overview of municipal health and care services and common functions to be supported by the common municipal journal solution. The diagram is organized into three columns: 'Kommunale helse- og omsorgstjenester', 'Felles funksjoner', and 'Kompetansekrav'. Each column contains icons and text representing different services and roles.](523ab7b925beb555f88b2e1e1336974f_img.jpg)
+![Diagram showing the overview of municipal health and care services and common functions to be supported by the common municipal journal solution. The diagram is organized into three columns: 'Kommunale helse- og omsorgstjenester', 'Felles funksjoner', and 'Kompetansekrav'. Each column contains icons and text representing different services and roles.](images/Vedlegg E Kontraktstrategi/523ab7b925beb555f88b2e1e1336974f_img.jpg)
 
 | Kommunale helse- og omsorgstjenester |                                  |                                |                            | Felles funksjoner |                 | Kompetansekrav |  |
 |--------------------------------------|----------------------------------|--------------------------------|----------------------------|-------------------|-----------------|----------------|--|
@@ -465,7 +465,7 @@ I kapabilitetsmodellen er virksomhetskapabilitetene i den kommunale helse- og om
 
 Figur 6 gir en oversikt over hvilke virksomhetskapabiliteter i kommunal helse- og omsorgstjeneste som forventes å understøttes av funksjonalitet i felles journalløsning, hvilke som skal understøttes med samhandling og integrasjon med nasjonale løsninger og hvilke som i liten grad forventes å understøttes av funksjonalitet eller samhandling og integrasjon.
 
-![Diagram showing the mapping of business capabilities to functional areas and integration levels. It is divided into four main boxes: SH (Yte helse- og omsorgshjelp), AS (Administrere kommunale helse- og omsorgstjenester), SHS (Gi støtte til ytelse av helse- og omsorgshjelp), and SR (Planlegge, utvikle og følge opp helse- og omsorgstjenester). Each box contains sub-capabilities color-coded by integration level: green for central, blue for integration, light blue for partial, and red for outside scope.](a3472689858b068ef469213682965325_img.jpg)
+![Diagram showing the mapping of business capabilities to functional areas and integration levels. It is divided into four main boxes: SH (Yte helse- og omsorgshjelp), AS (Administrere kommunale helse- og omsorgstjenester), SHS (Gi støtte til ytelse av helse- og omsorgshjelp), and SR (Planlegge, utvikle og følge opp helse- og omsorgstjenester). Each box contains sub-capabilities color-coded by integration level: green for central, blue for integration, light blue for partial, and red for outside scope.](images/Vedlegg E Kontraktstrategi/a3472689858b068ef469213682965325_img.jpg)
 
 **SH. Yte helse- og omsorgshjelp**
 
@@ -540,7 +540,7 @@ Felles journalløsning må også gi tilgang til uttrekk av informasjon til styri
 
 Figur 7 gir en oversikt over de funksjonelle områdene det er vurdert som nødvendig at journalplattformen må inneholde (kjernefunksjonalitet).
 
-![Figur 7: Oversikt over funksjonelle områder som er vurdert som nødvendig at journalplattformen inneholder. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Pasientrettet planlegging, saksbehandling og koordinering, Administrativ støtte, and Utvikle og forvalte journalløsning. Hvert område inneholder flere spesifikke funksjonaliteter, presentert i boks- og hierarkiske diagrammer.](365b54f616aff249b4e6c0edafdcb9b3_img.jpg)
+![Figur 7: Oversikt over funksjonelle områder som er vurdert som nødvendig at journalplattformen inneholder. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Pasientrettet planlegging, saksbehandling og koordinering, Administrativ støtte, and Utvikle og forvalte journalløsning. Hvert område inneholder flere spesifikke funksjonaliteter, presentert i boks- og hierarkiske diagrammer.](images/Vedlegg E Kontraktstrategi/365b54f616aff249b4e6c0edafdcb9b3_img.jpg)
 
 Figur 7: Oversikt over funksjonelle områder som er vurdert som nødvendig at journalplattformen inneholder. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Pasientrettet planlegging, saksbehandling og koordinering, Administrativ støtte, and Utvikle og forvalte journalløsning. Hvert område inneholder flere spesifikke funksjonaliteter, presentert i boks- og hierarkiske diagrammer.
 
@@ -548,7 +548,7 @@ Figur 7: Oversikt over funksjonelle områder som er vurdert som nødvendig at jo
 
 Figur 8 gir en oversikt over de funksjonelle områdene som prosjektet anbefaler at bør avklares gjennom leverandørdialogen i anskaffelsesfasen (tilleggsfunksjonalitet). Dette er tilleggfunksjonalitet som er identifisert per dags dato. Helse- og omsorgstjenesten er i stor endring. I tillegg åpner ny teknologi for nye måter å levere helse- og omsorgstjenester på. Det kan derfor med sikkerhet forventes at det vil oppstå nye behov for å anskaffe eller utvikle tilleggfunksjonalitet som vi i dag ikke har identifisert.
 
-![Figur 8: Oversikt over funksjonelle områder som det anbefales avklares som en del av anskaffelsen. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Administrativ støtte, Støtte til analyse, Kunnskaps- og beslutningsstøtte, and Tredjeparts-applikasjoner. Hvert område inneholder flere funksjonaliteter, presentert i boks- og hierarkiske diagrammer.](844077b3034f0030b404207db0ad76b4_img.jpg)
+![Figur 8: Oversikt over funksjonelle områder som det anbefales avklares som en del av anskaffelsen. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Administrativ støtte, Støtte til analyse, Kunnskaps- og beslutningsstøtte, and Tredjeparts-applikasjoner. Hvert område inneholder flere funksjonaliteter, presentert i boks- og hierarkiske diagrammer.](images/Vedlegg E Kontraktstrategi/844077b3034f0030b404207db0ad76b4_img.jpg)
 
 Figur 8: Oversikt over funksjonelle områder som det anbefales avklares som en del av anskaffelsen. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Administrativ støtte, Støtte til analyse, Kunnskaps- og beslutningsstøtte, and Tredjeparts-applikasjoner. Hvert område inneholder flere funksjonaliteter, presentert i boks- og hierarkiske diagrammer.
 
@@ -592,7 +592,7 @@ Dette er applikasjoner og funksjonalitet som vil kunne utvikles eller anskaffes 
 
 Mange virksomheter har i dag egne løsninger for å styre tilganger på tvers av løsninger. Andre virksomheter, for eksempel mindre fastlegekontorer, gjør dette direkte i journalløsningen de benytter. Virksomhetene som er tilknyttet Helsenetet er avtalemessig forpliktet til å følge Normen (7), men legger i dag til grunn ulike fortolkninger av denne, med det resultatet at det er variasjon i hvordan tilganger styres. Ved etableringen av en felles journalløsning vil det være behov for at forvaltningen av tilganger og rettigheter harmoniseres. Det er derfor behov for å anskaffe et system med funksjonalitet for å administrere identiteter/brukere og rettigheter for alle brukere som skal bruke felles journalløsning.
 
-![Diagram showing the architecture for identity and access management. It includes three input boxes on the left: 'Sentral koordinator for innrullering av virksomheter', 'Virksomheter uten egen løsning for identitets- og tilgangsstyring', and 'Virksomheter med egen løsning for identitets- og tilgangsstyring'. These point to a central 'Identitetsstyring' box containing modules like 'Portal for administrering', 'Identitet (sertifikat)', 'Brukerinformasjon', 'Virksomhets-informasjon', 'Autentisering', 'Provisjonering bruker->rettigheter', and 'Identitets-føderering (fra lokale IAM)'. This central box points to a 'Felles journalløsning' box on the right with modules like 'Autorisering', 'Roller og rettigheter', 'Tilgangs-føderering (til nasjonale løsninger)', and 'Policy for tilgangsstyring'. Below the central box is a 'Grunndata' box with 'Helse-personell-register', 'Person-register', and 'Virksomhets-register'. A legend indicates that green boxes are included in procurement and yellow boxes are optional.](a74294f34a0c736b7ee0f5f0cdca7e28_img.jpg)
+![Diagram showing the architecture for identity and access management. It includes three input boxes on the left: 'Sentral koordinator for innrullering av virksomheter', 'Virksomheter uten egen løsning for identitets- og tilgangsstyring', and 'Virksomheter med egen løsning for identitets- og tilgangsstyring'. These point to a central 'Identitetsstyring' box containing modules like 'Portal for administrering', 'Identitet (sertifikat)', 'Brukerinformasjon', 'Virksomhets-informasjon', 'Autentisering', 'Provisjonering bruker->rettigheter', and 'Identitets-føderering (fra lokale IAM)'. This central box points to a 'Felles journalløsning' box on the right with modules like 'Autorisering', 'Roller og rettigheter', 'Tilgangs-føderering (til nasjonale løsninger)', and 'Policy for tilgangsstyring'. Below the central box is a 'Grunndata' box with 'Helse-personell-register', 'Person-register', and 'Virksomhets-register'. A legend indicates that green boxes are included in procurement and yellow boxes are optional.](images/Vedlegg E Kontraktstrategi/a74294f34a0c736b7ee0f5f0cdca7e28_img.jpg)
 
 Diagram showing the architecture for identity and access management. It includes three input boxes on the left: 'Sentral koordinator for innrullering av virksomheter', 'Virksomheter uten egen løsning for identitets- og tilgangsstyring', and 'Virksomheter med egen løsning for identitets- og tilgangsstyring'. These point to a central 'Identitetsstyring' box containing modules like 'Portal for administrering', 'Identitet (sertifikat)', 'Brukerinformasjon', 'Virksomhets-informasjon', 'Autentisering', 'Provisjonering bruker->rettigheter', and 'Identitets-føderering (fra lokale IAM)'. This central box points to a 'Felles journalløsning' box on the right with modules like 'Autorisering', 'Roller og rettigheter', 'Tilgangs-føderering (til nasjonale løsninger)', and 'Policy for tilgangsstyring'. Below the central box is a 'Grunndata' box with 'Helse-personell-register', 'Person-register', and 'Virksomhets-register'. A legend indicates that green boxes are included in procurement and yellow boxes are optional.
 
@@ -620,7 +620,7 @@ Dette omfatter oppgaver og prosesser knyttet til å etablere og drifte datasentr
 
 Gjennom programmet og senere i drift- og forvaltning er det en rekke prosesser som må etableres på kundesiden for å bygge «Akson journal AS» som en robust organisasjon og for å ha evnen til å håndtere helheten i tiltaket. Figur 10 beskriver de prosessene som må etableres i «Akson journal AS». Kompetansen og kapasiteten som er nødvendig vil bygges opp gjennom programmets levetid.
 
-![Diagram showing processes for Akson journal AS, categorized into four main areas: Ledelse og administrasjon, Helsefaglig og teknisk utvikling og harmonisering, Forvaltning av applikasjoner, and Brukerstøtte / Help Desk. A vertical double-headed arrow on the left indicates these are processes to be established on the customer side.](e821c3d8a87ee2a9ff6b8644ffe6bdae_img.jpg)
+![Diagram showing processes for Akson journal AS, categorized into four main areas: Ledelse og administrasjon, Helsefaglig og teknisk utvikling og harmonisering, Forvaltning av applikasjoner, and Brukerstøtte / Help Desk. A vertical double-headed arrow on the left indicates these are processes to be established on the customer side.](images/Vedlegg E Kontraktstrategi/e821c3d8a87ee2a9ff6b8644ffe6bdae_img.jpg)
 
 Prosesser som må etableres på kundesiden
 
@@ -664,7 +664,7 @@ Det er på nåværende tidspunkt ikke mulig å fastsette hvilken tilleggsfunksjo
 
 Det er særlig to hensyn som må adresseres gjennom kontraktstrategien.
 
-![Icon showing two hands shaking, representing competition or market security.](e5c6de7d8ff5b0d75d5602d200b899f0_img.jpg)
+![Icon showing two hands shaking, representing competition or market security.](images/Vedlegg E Kontraktstrategi/e5c6de7d8ff5b0d75d5602d200b899f0_img.jpg)
 
 Icon showing two hands shaking, representing competition or market security.
 
@@ -674,7 +674,7 @@ Det er gitt føringer til forprosjektet om at det skal legges til rette for samf
 
 Beskrivelsen av funksjonelt løsningsomfang beskriver det som helsepersonell i hele den kommunale helse- og omsorgstjenesten mener skal være kjernefunksjonalitet i løsningen. Dette er omfattende og utfordrer dagens leverandørmarked.
 
-![Icon showing three overlapping circles, representing comprehensive or wholeheit.](a3f81dedbdc5b702f397d07ef476d53e_img.jpg)
+![Icon showing three overlapping circles, representing comprehensive or wholeheit.](images/Vedlegg E Kontraktstrategi/a3f81dedbdc5b702f397d07ef476d53e_img.jpg)
 
 Icon showing three overlapping circles, representing comprehensive or wholeheit.
 
@@ -785,7 +785,7 @@ Leverandørmarkedet for grensesnitt og integrasjoner er modent med flere potensi
 
 Leverandørmarkedet for driftstjenester er modent med flere potensielle leverandører. Markedet er under endring fra modeller der kundene enten bygger egne driftssentre eller kjøper dedikerte driftstjenester, til at flere tar i bruk skytjenester. Denne endringen forventes å skje gradvis, hvilket fremgår av tall fra IDC knyttet til utviklingen av infrastruktur og drift i de nordiske markedene. (15)
 
-![Stacked bar chart titled 'Markedet for infrastruktur og drift i Norden (Millioner Euro)' showing spending from 2017 to 2023. The chart is divided into three categories: Tradisjonell IT (blue), Private skytjenester (teal), and Offentlige skytjenester (grey). The total spending increases from approximately 2,800 million Euro in 2017 to over 5,000 million Euro in 2023.](f1df41f68d1ddd39987bd08da7aeadc6_img.jpg)
+![Stacked bar chart titled 'Markedet for infrastruktur og drift i Norden (Millioner Euro)' showing spending from 2017 to 2023. The chart is divided into three categories: Tradisjonell IT (blue), Private skytjenester (teal), and Offentlige skytjenester (grey). The total spending increases from approximately 2,800 million Euro in 2017 to over 5,000 million Euro in 2023.](images/Vedlegg E Kontraktstrategi/f1df41f68d1ddd39987bd08da7aeadc6_img.jpg)
 
 | År   | Tradisjonell IT | Private skytjenester | Offentlige skytjenester | Totalt |
 |------|-----------------|----------------------|-------------------------|--------|
@@ -829,7 +829,7 @@ Analysen av leverandørmarkedet viser at det er et fåtall leverandører som har
 - b. **Gjennom å stille moderate krav til at behovene løses gjennom et enhetlig og helintegrert system.** Dette vil gjøre det enklere for flere tilbydere å gå sammen om å tilby det samlede omfanget av funksjonalitet som inngår i anskaffelsene, da det vil bli enklere for tilbyderne å utvikle tilstrekkelige gode integrasjoner mellom tilbydernes delløsninger.
 - c. **Gjennom å stille moderate krav i anskaffelsen til at tilbyderne kan demonstrere systemer som er ferdig utviklet og i bruk hos andre kunder.** Dette innebærer at det åpnes for at tilbyderne kan tilby systemer som omfatter deler av den funksjonaliteten som etterspørres, og at disse suppleres med nyutviklet funksjonalitet.
 
-![Diagram illustrating two strategies for software procurement. The left side shows a 'Løsningsstrategi basert på helhetlig journalløsning og lav grad av nyutvikling' with a 'Journalplattform' containing six modules (A-F). Modules A, B, C, D, and E are light blue (Hovedleverandør), while F is dark blue (Underleverandør C). The right side shows a 'Løsningsstrategi basert på flere leverandører og funksjonalitet som krever nyutvikling' with a 'Journalplattform' containing six modules (A-F). Modules A, B, and C are dark blue (Underleverandør A), while D, E, and F are teal (Nytutvikling). A red double-headed arrow connects the two strategies.](a4b963a07cc368283154762c4b156fe7_img.jpg)
+![Diagram illustrating two strategies for software procurement. The left side shows a 'Løsningsstrategi basert på helhetlig journalløsning og lav grad av nyutvikling' with a 'Journalplattform' containing six modules (A-F). Modules A, B, C, D, and E are light blue (Hovedleverandør), while F is dark blue (Underleverandør C). The right side shows a 'Løsningsstrategi basert på flere leverandører og funksjonalitet som krever nyutvikling' with a 'Journalplattform' containing six modules (A-F). Modules A, B, and C are dark blue (Underleverandør A), while D, E, and F are teal (Nytutvikling). A red double-headed arrow connects the two strategies.](images/Vedlegg E Kontraktstrategi/a4b963a07cc368283154762c4b156fe7_img.jpg)
 
 **Løsningsstrategi basert på helhetlig journalløsning og lav grad av nyutvikling**
 
@@ -867,7 +867,7 @@ Ved å åpne opp for svært alternative løsningsforslag, der noen leverandører
 
 Følgende figur oppsummerer hvilken kompetanse Programmet Akson journal og "Akson journal AS" må etablere for å kunne utøve nødvendig styring og kontroll, først i anskaffelsesfasen og dernest gjennom etablerings- og FDVU-fasen.
 
-![Diagram showing the competence areas for the Akson journal program, organized into four horizontal layers: Ledelse og administrasjon, Helsefaglig og teknisk utvikling og harmonisering, Forvaltning av applikasjoner, and Brukerstøtte / Help Desk.](a5b9392ecb96e6b5e0b4ee0664210f72_img.jpg)
+![Diagram showing the competence areas for the Akson journal program, organized into four horizontal layers: Ledelse og administrasjon, Helsefaglig og teknisk utvikling og harmonisering, Forvaltning av applikasjoner, and Brukerstøtte / Help Desk.](images/Vedlegg E Kontraktstrategi/a5b9392ecb96e6b5e0b4ee0664210f72_img.jpg)
 
 The diagram, titled "Administrasjon og forvaltning av applikasjoner", is structured into four horizontal sections, each containing specific competence areas:
 
@@ -901,7 +901,7 @@ Dette kompetanseområdet omfatter kompetanse og kapasitet til å bistå brukere 
 
 Figur 14 viser det estimerte årlige behovet for årsverk med utgangspunkt i kostnadsestimatenes grunnkalkyle. Bemanningen henger sammen med gjennomføringsstrategien og milepælsplanen. I 2021 og 2022 forberedes og gjennomføres anskaffelse, og bemanningen skal ivareta disse aktivitetene. I 2023 – 2026 arbeides det med etablering og tilpasning av felles journalløsning, parallelt med at innføring starter opp i de første kommunene fra 2025. Bemanningen i årene 2027-2030 er årsverk i programmet som jobber med innføringsaktiviteter på sentralt hold for å understøtte innføringen av journalløsningen i resten av kommunene, i parallell med å håndtere og styre forvaltning, drift, vedlikehold og utvikling.
 
-![Bar chart titled 'Oversikt over antall årsverk i "Akson journal AS"' showing estimated staffing levels from 2021 to 2030. The y-axis represents the number of full-time equivalent positions (FTEs) from 0 to 300. The x-axis lists the years from 2021 to 2030. The data points are: 2021: 59, 2022: 89, 2023: 255, 2024: 262, 2025: 222, 2026: 175, 2027: 115, 2028: 138, 2029: 161, 2030: 182.](7275fd1dcf74a5eb83ac081f11e0ab7c_img.jpg)
+![Bar chart titled 'Oversikt over antall årsverk i "Akson journal AS"' showing estimated staffing levels from 2021 to 2030. The y-axis represents the number of full-time equivalent positions (FTEs) from 0 to 300. The x-axis lists the years from 2021 to 2030. The data points are: 2021: 59, 2022: 89, 2023: 255, 2024: 262, 2025: 222, 2026: 175, 2027: 115, 2028: 138, 2029: 161, 2030: 182.](images/Vedlegg E Kontraktstrategi/7275fd1dcf74a5eb83ac081f11e0ab7c_img.jpg)
 
 | År   | Antall årsverk |
 |------|----------------|
@@ -999,7 +999,7 @@ Kontraktstrategien som velges bør både være egnet til å ivareta målene og b
 
 Forprosjektet har lagt til grunn antall anskaffelser og grad av utvikling/integrasjoner som de viktigste parameterne for å definere overordnede alternative kontraktstrategier.
 
-![Diagram illustrating three alternative contract strategies for a joint journal solution based on two parameters: 'Sikre tilstrekkelig konkurranse' (Secure sufficient competition) on the x-axis and 'Sikre helhet i løsningen' (Secure wholeness of the solution) on the y-axis.](107da2e3495b2f24352c9e3b26ec4841_img.jpg)
+![Diagram illustrating three alternative contract strategies for a joint journal solution based on two parameters: 'Sikre tilstrekkelig konkurranse' (Secure sufficient competition) on the x-axis and 'Sikre helhet i løsningen' (Secure wholeness of the solution) on the y-axis.](images/Vedlegg E Kontraktstrategi/107da2e3495b2f24352c9e3b26ec4841_img.jpg)
 
 The diagram is a 2x2 matrix with the following axes:
 
@@ -1024,7 +1024,7 @@ De tre strategialternativene for felles journalløsning (inkludert identitets- o
 
 #### A. En anskaffelse for hele omfanget
 
-![Diagram A: Anskaffelsesområder vurdert i alternative anskaffelsesstrategier. Viser en hierarkisk struktur med Journalplattform, funksjonelle områder (A-F), Forvaltning av identiteter og rettigheter (IGA), Grensesnitt og integrasjoner, Applikasjonsdrift og forvaltning, og Driftplattform. Legende: Leverandør A (lyseblå), Underleverandør (mørkblå), Opsjon (grå).](c99bf3a0530a3e58f5f2d2790ba7441b_img.jpg)
+![Diagram A: Anskaffelsesområder vurdert i alternative anskaffelsesstrategier. Viser en hierarkisk struktur med Journalplattform, funksjonelle områder (A-F), Forvaltning av identiteter og rettigheter (IGA), Grensesnitt og integrasjoner, Applikasjonsdrift og forvaltning, og Driftplattform. Legende: Leverandør A (lyseblå), Underleverandør (mørkblå), Opsjon (grå).](images/Vedlegg E Kontraktstrategi/c99bf3a0530a3e58f5f2d2790ba7441b_img.jpg)
 
 Diagram A illustrerer en anskaffelsesstrategi for hele omfanget. Den består av flere lag:
 
@@ -1044,7 +1044,7 @@ IT Drift inngår som opsjon i anskaffelsen, for å gjøre det mulig for flere ti
 
 #### B. Tre anskaffelser
 
-![Diagram B: Anskaffelsesområder vurdert i alternative anskaffelsesstrategier. Viser en hierarkisk struktur med Journalplattform, funksjonelle områder (A-F), Forvaltning av identiteter og rettigheter (IGA), Grensesnitt og integrasjoner, Applikasjonsdrift og forvaltning, og Driftplattform. Legende: Leverandør A (lyseblå), Underleverandør (mørkblå), Underleverandør (lyseblå), Nyutvikling (grønn), Leverandør B (magenta), Leverandør C (grå).](52e112d1ba42a3c660bf62a0fea927d3_img.jpg)
+![Diagram B: Anskaffelsesområder vurdert i alternative anskaffelsesstrategier. Viser en hierarkisk struktur med Journalplattform, funksjonelle områder (A-F), Forvaltning av identiteter og rettigheter (IGA), Grensesnitt og integrasjoner, Applikasjonsdrift og forvaltning, og Driftplattform. Legende: Leverandør A (lyseblå), Underleverandør (mørkblå), Underleverandør (lyseblå), Nyutvikling (grønn), Leverandør B (magenta), Leverandør C (grå).](images/Vedlegg E Kontraktstrategi/52e112d1ba42a3c660bf62a0fea927d3_img.jpg)
 
 Diagram B illustrerer en anskaffelsesstrategi for tre separate anskaffelser. Den består av flere lag:
 
@@ -1063,7 +1063,7 @@ Det funksjonelle behovet fordeles på tre anskaffelser: (1) Forvaltning av ident
 
 #### C. En anskaffelse for hvert anskaffelsesområde
 
-![Diagram showing the structure of an procurement area for a journal platform. It is divided into four main functional areas: 'Journalplattform' (top left), 'Forvaltning av identiteter og rettigheter (IGA)' (top right), 'Applikasjonsdrift og forvaltning Felles journalløsning' (bottom left), and 'Applikasjonsdrift og forvaltning Grensesnitt og integrasjoner' (bottom right). Each area is further subdivided into specific functional blocks. A legend below the diagram identifies the color-coded blocks: Leverandør A (pink), Leverandør B (light blue), Leverandør C (light green), Leverandør D (grey), Underleverandør A (dark blue), Underleverandør B (dark green), Underleverandør C (dark red), and Nyutvikling (orange).](1ab49904e6a60be337d5b75cb7cc8ab7_img.jpg)
+![Diagram showing the structure of an procurement area for a journal platform. It is divided into four main functional areas: 'Journalplattform' (top left), 'Forvaltning av identiteter og rettigheter (IGA)' (top right), 'Applikasjonsdrift og forvaltning Felles journalløsning' (bottom left), and 'Applikasjonsdrift og forvaltning Grensesnitt og integrasjoner' (bottom right). Each area is further subdivided into specific functional blocks. A legend below the diagram identifies the color-coded blocks: Leverandør A (pink), Leverandør B (light blue), Leverandør C (light green), Leverandør D (grey), Underleverandør A (dark blue), Underleverandør B (dark green), Underleverandør C (dark red), and Nyutvikling (orange).](images/Vedlegg E Kontraktstrategi/1ab49904e6a60be337d5b75cb7cc8ab7_img.jpg)
 
 The diagram illustrates the structure of an procurement area for a journal platform, organized into four main functional areas:
 
@@ -1093,7 +1093,7 @@ I de følgende kapitlene følger en mer detaljert beskrivelse av hvert alternati
 
 Dette alternativet innebærer at man legger alle anskaffelsesområdene (funksjonalitetsområdene) ut i markedet til én leverandør, som tar ansvaret for å levere alt. Hovedleverandøren kan gå i partnerskap med spesialistleverandører og underleverandører på utvalgte områder for å sikre nødvendig funksjonalitet, kompetanse og kapasitet. Det antas imidlertid at hovedleverandøren vil søke å begrense antallet underleverandører, for å begrense egen risiko knyttet til leveransen. Drift inngår som opsjon i anskaffelsen, for å åpne for flere tilbydere og for å gi kunden handlingsrom til å kunne velge den journal- og tilgangsstyringsløsningen som har best funksjonalitet.
 
-![Diagram showing procurement areas evaluated in alternative procurement strategies. It includes a 'Journalplattform' with sub-components A-F, 'Forvaltning av identiteter og rettigheter (IGA)', 'Grensesnitt og integrasjoner', 'Applikasjonsdrift og forvaltning', and 'Driftsplattform'. A legend at the bottom identifies 'Leverandør A' (light blue), 'Underleverandør' (dark blue), and 'Opsjon' (grey).](bb4d2112ed07e2031c92fbff3494af9f_img.jpg)
+![Diagram showing procurement areas evaluated in alternative procurement strategies. It includes a 'Journalplattform' with sub-components A-F, 'Forvaltning av identiteter og rettigheter (IGA)', 'Grensesnitt og integrasjoner', 'Applikasjonsdrift og forvaltning', and 'Driftsplattform'. A legend at the bottom identifies 'Leverandør A' (light blue), 'Underleverandør' (dark blue), and 'Opsjon' (grey).](images/Vedlegg E Kontraktstrategi/bb4d2112ed07e2031c92fbff3494af9f_img.jpg)
 
 **Anskaffelsesområder vurdert i alternative anskaffelsestrategier**
 
@@ -1120,7 +1120,7 @@ Det funksjonelle behovet fordeles på tre anskaffelser som legges ut i markedet 
 
 antas at hovedleverandørene på de tre anskaffelsesområdene vil søke å begrense antallet underleverandører, for å begrense egen risiko knyttet til leveransen. Det er lagt til grunn at drift anskaffes separat, i form av en helhetlig plattformtjeneste (PaaS), fra en leverandør som kan levere en høy grad av informasjonssikkerhet.
 
-![Diagram showing procurement areas evaluated in alternative procurement strategies. It includes Journalplattform, Forvaltning av identiteter og rettigheter (IGA), Grensesnitt og integrasjoner, Applikasjonsdrift og forvaltning Felles journalløsning, and Applikasjonsdrift og forvaltning løsning for forvaltning av identiteter og tilganger, all resting on a Driftsplattform base. A legend identifies the color coding for suppliers and development.](60ffbad6c0fb7371a57fe8f267d2d141_img.jpg)
+![Diagram showing procurement areas evaluated in alternative procurement strategies. It includes Journalplattform, Forvaltning av identiteter og rettigheter (IGA), Grensesnitt og integrasjoner, Applikasjonsdrift og forvaltning Felles journalløsning, and Applikasjonsdrift og forvaltning løsning for forvaltning av identiteter og tilganger, all resting on a Driftsplattform base. A legend identifies the color coding for suppliers and development.](images/Vedlegg E Kontraktstrategi/60ffbad6c0fb7371a57fe8f267d2d141_img.jpg)
 
 **Anskaffelsesområder vurdert i alternative anskaffelsestrategier**
 
@@ -1164,7 +1164,7 @@ I dette alternativet åpnes det eksplisitt for at tilbydere av journalfunksjonal
 
 Det inngås kontrakt med én leverandør for hver anskaffelsesområde/ funksjonalitetsområde, men hvor hver leverandør kan vinne flere kontrakter. Tilbydere av funksjonalitet for helsepersonell kan velge å gå i partnerskap med spesialistleverandører for å sikre tilstrekkelig funksjonalitet, kompetanse og kapasitet, men må ta ansvaret for at journalløsningen totalt sett leverer den funksjonaliteten som det er behov for. Inndelingen av det funksjonelle behovet i flere avgrensede anskaffelser og mer moderate krav til helhet vil imidlertid kunne gjøre det mer aktuelt for leverandører å tilby løsninger basert på delkomponenter fra underleverandører, se nedenfor.
 
-![Diagram showing procurement areas evaluated in alternative procurement strategies. It includes a Journalplattform with six sub-functionalities (A-F), three main modules (Forvaltning av identiteter og rettigheter (IGA), Grensesnitt og integrasjoner, and Felles journalløsning), and a Driftsplattform. A legend identifies the suppliers for each component.](b9c0d46c1148cf65cb79f27fac420981_img.jpg)
+![Diagram showing procurement areas evaluated in alternative procurement strategies. It includes a Journalplattform with six sub-functionalities (A-F), three main modules (Forvaltning av identiteter og rettigheter (IGA), Grensesnitt og integrasjoner, and Felles journalløsning), and a Driftsplattform. A legend identifies the suppliers for each component.](images/Vedlegg E Kontraktstrategi/b9c0d46c1148cf65cb79f27fac420981_img.jpg)
 
 **Anskaffelsesområder vurdert i alternative anskaffelsestrategier**
 
@@ -1558,7 +1558,7 @@ For å realisere helhetlig samhandling i et økosystem med mange virksomheter so
 
 Her følger en beskrivelse av de overordnede prinsippene som tiltaket må forholde seg til for å understøtte målbilde for helhetlig samhandling i kommunal helse- og omsorgstjeneste og med aktører utenfor helsesektoren. Disse kommer i tillegg til overordnede arkitekturprinsipper for samhandling fra Digitaliseringsdirektoratet.
 
-![Icon showing a hand holding a plant, symbolizing growth and collaboration.](15a375faa866c421e6405b597d12fe64_img.jpg)
+![Icon showing a hand holding a plant, symbolizing growth and collaboration.](images/Vedlegg E Kontraktstrategi/15a375faa866c421e6405b597d12fe64_img.jpg)
 
 ---
 
@@ -1568,7 +1568,7 @@ Icon showing a hand holding a plant, symbolizing growth and collaboration.
 
 Det er viktig å sikre at felles kommunal journalløsning og samhandlingsplattformen spiller godt sammen, og passer inn i et arkitekturlandskap for e-helse som er i løpende utvikling. Arkitekturforståelsen som legges til grunn for gjennomføringen av tiltaket er basert på et økosystem hvor Helhetlig samhandling er navet som binder de ulike aktørene i helsesektoren sammen. De viktigste egenskapene ved samhandlingsplattformen er åpenhet og endringsevne.
 
-![Icon showing a network of nodes, symbolizing connectivity and integration.](8c87fc8e30ed17fce444e09279bb1da3_img.jpg)
+![Icon showing a network of nodes, symbolizing connectivity and integration.](images/Vedlegg E Kontraktstrategi/8c87fc8e30ed17fce444e09279bb1da3_img.jpg)
 
 ---
 
@@ -1580,7 +1580,7 @@ Målbildet for helhetlig samhandling vil medføre krav og føringer for hvordan 
 
 etablere et tydelig eierskap til og god forvaltning av semantiske ressurser, slik som informasjonsmodeller, begreper og definisjoner av grensesnitt. Samhandlingsplattformen må være dynamisk slik at den legger til rette for en behovsdrevet helsefaglig tjenesteutvikling.
 
-![Icon representing a platform or network, showing three interconnected circles.](91adc884c2a1e14b3258c20f3bd85c3c_img.jpg)
+![Icon representing a platform or network, showing three interconnected circles.](images/Vedlegg E Kontraktstrategi/91adc884c2a1e14b3258c20f3bd85c3c_img.jpg)
 
 Icon representing a platform or network, showing three interconnected circles.
 
@@ -1603,7 +1603,7 @@ Analysene viser at informasjonstjenester i stor grad bør gjenbrukes på tvers a
 
 Figur 19 beskriver et logisk mål bilde for realiseringen av Plattform for helhetlig samhandling.
 
-![Diagram showing the logical target image for the 'Plattform for helhetlig samhandling' architecture.](fef7e3f08b408e4ab937a75f5c8b6bfc_img.jpg)
+![Diagram showing the logical target image for the 'Plattform for helhetlig samhandling' architecture.](images/Vedlegg E Kontraktstrategi/fef7e3f08b408e4ab937a75f5c8b6bfc_img.jpg)
 
 The diagram illustrates the logical target image for the 'Plattform for helhetlig samhandling' architecture. At the top, five external entities are shown: 'Kommunal helse- og omsorgstjeneste', 'Innbyggere (pasienter, brukere, pårørende)', 'Spesialisthelse-tjenesten', 'Andre aktører i helse- og omsorgstjenesten med tilsyns behov', and 'Andre kommunale og statlige tjenester (NAV, PPT, Skole, mm)'. These entities interact with the platform through various interfaces: 'Journal i kommunal helse- og omsorgstjeneste', 'Innbyggernes digitale tjenester', 'Helseplattformen i Midt-Norge', 'Helseforetakenes journaler', 'Journaler for avtale-spesialister', 'Journaler og fagsystemer', and 'Fagsystemer'. The central 'Plattform for helhetlig samhandling' is divided into several functional blocks: 'Nasjonale e-helseløsninger' (including Helsenorge.no, Kjernejournal, and E-resept), 'Informasjonstjenester' (including services like 'Anmode om eller bestille tjenester', 'Skaffe seg oversikt', 'Gjøre oppslag i tidligere journalopplysninger', 'Innhente innbyggers opplysninger', 'Slå opp i generelle informasjonskilder', 'Rapportere egen aktivitet', and 'Arrangere egen konsultasjon'), 'Fellesfunksjonalitet' (including 'Konvertering', 'Adressering', and 'Orkestrering'), 'Tekniske samhandlingsformer' (including 'Datadeling for velferdsteknologi', 'Datadeling for annen informasjon', 'Dokumentregister', and 'Dokumentlager'), and 'Sentrale informasjonslager' (including 'Personlig helsearkiv', 'Kritisk informasjon', 'Reseptoversikt', 'Legemidler i bruk', and 'Andre lagringskomponenter'). Below the main platform, three additional blocks are shown: 'Felles grunnmur for digitaltjenester' (including 'Kodeverk og terminologi', 'Felles grunndata', 'Felles krav og retningslinjer', 'Felleskomponenter' like 'HelseID', 'Personvern', 'Meldingsutveksling', 'Innbygger STS', 'Datadeling', and 'Dokumentdeling', and 'Felles infrastruktur'), 'Nasjonale felleskomponenter' (including 'ID-porten', 'Altinn', 'Felles datakatalog', 'Digital postkasse til innbyggere', and 'Kontakt- og reservationsregisteret'), and 'KS-FIKS' (including 'FIKS ID' and 'Svar ut / Svar Inn').
 
@@ -1630,7 +1630,7 @@ Applikasjonstjenesten **KS-FIKS** er felles kommunal arkitektur, som blant annet
 
 I motsetning til felles kommunal journalløsning, som gjennomføres som ett tiltak, vil målbilde for helhetlig samhandling realiseres gjennom en stegvis tilnærming med flere tiltak.
 
-![Diagram illustrating the step-by-step approach for realizing the concept of a comprehensive care model. It shows a timeline for 'Felles kommunal journalløsning' with four phases: 1. Mobilisering og anskaffelse, 2. Etablering, tilpasning og utvikling, 3. Innføring, and 4. Forvaltning, drift, vedlikehold og utvikling. Below this, a staircase-like progression shows 'Utviklingsretning for helhetlig samhandling' with steps labeled 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n', all pointing towards a large blue circle labeled 'Akson'.](3e20f0289a1945c7c3894f51383d8e37_img.jpg)
+![Diagram illustrating the step-by-step approach for realizing the concept of a comprehensive care model. It shows a timeline for 'Felles kommunal journalløsning' with four phases: 1. Mobilisering og anskaffelse, 2. Etablering, tilpasning og utvikling, 3. Innføring, and 4. Forvaltning, drift, vedlikehold og utvikling. Below this, a staircase-like progression shows 'Utviklingsretning for helhetlig samhandling' with steps labeled 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n', all pointing towards a large blue circle labeled 'Akson'.](images/Vedlegg E Kontraktstrategi/3e20f0289a1945c7c3894f51383d8e37_img.jpg)
 
 Diagram illustrating the step-by-step approach for realizing the concept of a comprehensive care model. It shows a timeline for 'Felles kommunal journalløsning' with four phases: 1. Mobilisering og anskaffelse, 2. Etablering, tilpasning og utvikling, 3. Innføring, and 4. Forvaltning, drift, vedlikehold og utvikling. Below this, a staircase-like progression shows 'Utviklingsretning for helhetlig samhandling' with steps labeled 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n', all pointing towards a large blue circle labeled 'Akson'.
 
@@ -1666,7 +1666,7 @@ Tabell 22 beskriver arbeidsomfanget i steg 1. Programmet Akson samhandling vil s
 
 Figuren nedenfor angir overordnet omfanget som må dekkes av kontraktstrategien for steg 1 i utviklingsretningen for helhetlig samhandling.
 
-![Diagram showing functional areas for the contract strategy for step 1 in the development direction for integrated care. The diagram is titled 'Felles grunnmur for digitale tjenester' and is divided into four main sections: 'Felleskomponenter (Tillistjenester)', 'Felles grunndata', 'Nasjonal informasjonstjeneste for laboratorie- og radiologisvar', and 'Forprosjekt for steg 2 i utviklingsretningen for samhandling'. A legend at the bottom indicates that pink boxes represent 'Ny kapabilitet basert på eksisterende teknologi' and yellow boxes represent 'Endring i eksisterende funksjonalitet'.](331afcb1534110b4c4f6ddf553a0f7e0_img.jpg)
+![Diagram showing functional areas for the contract strategy for step 1 in the development direction for integrated care. The diagram is titled 'Felles grunnmur for digitale tjenester' and is divided into four main sections: 'Felleskomponenter (Tillistjenester)', 'Felles grunndata', 'Nasjonal informasjonstjeneste for laboratorie- og radiologisvar', and 'Forprosjekt for steg 2 i utviklingsretningen for samhandling'. A legend at the bottom indicates that pink boxes represent 'Ny kapabilitet basert på eksisterende teknologi' and yellow boxes represent 'Endring i eksisterende funksjonalitet'.](images/Vedlegg E Kontraktstrategi/331afcb1534110b4c4f6ddf553a0f7e0_img.jpg)
 
 **Felles grunnmur for digitale tjenester**
 
@@ -1746,7 +1746,7 @@ Forprosjektet må som en del av arbeidet utarbeide en kontraktstrategi for reali
 
 Steg 1 i utviklingsretningen har et begrenset omfang sammenlignet med omfanget for felles kommunal journalløsning og med målbilde for helhetlig samhandling. Det er særlig to hensyn som må adresseres gjennom kontraktstrategien for steg 1.
 
-![Icon showing two puzzle pieces fitting together, symbolizing integration or assembly.](5c137ee7450b7d4b153fdd65dc6fc146_img.jpg)
+![Icon showing two puzzle pieces fitting together, symbolizing integration or assembly.](images/Vedlegg E Kontraktstrategi/5c137ee7450b7d4b153fdd65dc6fc146_img.jpg)
 
 Icon showing two puzzle pieces fitting together, symbolizing integration or assembly.
 
@@ -1762,7 +1762,7 @@ Komponenten nasjonal informasjonstjeneste for lab- og radiologisvar vil i stor g
 
 I parallell med at de nye komponentene etableres vil det gjennomføres et forprosjekt for hvordan steg 2 i utviklingsretningen av helhetlig samhandling skal gjennomføres. I dette forprosjektet vil det også vurderes hvordan etablere en helhetlig samhandlingsplattform. Det er avgjørende at de nye komponentene i størst mulig grad kan og vil inngå som en del av dette målbildet.
 
-![Icon showing two puzzle pieces fitting together, symbolizing integration or assembly.](d892e79d540ae6841e9b70c59a3931e2_img.jpg)
+![Icon showing two puzzle pieces fitting together, symbolizing integration or assembly.](images/Vedlegg E Kontraktstrategi/d892e79d540ae6841e9b70c59a3931e2_img.jpg)
 
 Icon showing two puzzle pieces fitting together, symbolizing integration or assembly.
 
@@ -1813,7 +1813,7 @@ Direktoratet for e-helse og Norsk Helsenet SF valgte å inngå kontrakt med 30 l
 
 Forprosjektet har lagt til grunn behovet for å sikre helhet i komponentene og behov for å sikre nødvendig omfang i kompetanse og kapasitet som de viktigste parameterne for å definere overordnede alternative kontraktstrategier.
 
-![A 2x2 matrix diagram illustrating two strategic alternatives for shared journal solutions. The vertical axis is labeled 'Sikre helhet i komponentene' with 'Leverandøren tar større ansvar for helhet' at the top and 'Kunden tar større ansvar for helhet' at the bottom. The horizontal axis is labeled 'Omfanget av kapasitet og kompetanse' with 'Ekspertressurser' on the left and 'Team' on the right. Alternative A, 'Leie ressurser til interne utviklingsprosjekter', is located in the bottom-left quadrant (Customer responsibility, Expert resources). Alternative B, 'Inngå avtaler med en leverandør for hvert anskaffelsesområde', is located in the top-right quadrant (Supplier responsibility, Team).](c98721cd60df9be3ed129ce2345d763d_img.jpg)
+![A 2x2 matrix diagram illustrating two strategic alternatives for shared journal solutions. The vertical axis is labeled 'Sikre helhet i komponentene' with 'Leverandøren tar større ansvar for helhet' at the top and 'Kunden tar større ansvar for helhet' at the bottom. The horizontal axis is labeled 'Omfanget av kapasitet og kompetanse' with 'Ekspertressurser' on the left and 'Team' on the right. Alternative A, 'Leie ressurser til interne utviklingsprosjekter', is located in the bottom-left quadrant (Customer responsibility, Expert resources). Alternative B, 'Inngå avtaler med en leverandør for hvert anskaffelsesområde', is located in the top-right quadrant (Supplier responsibility, Team).](images/Vedlegg E Kontraktstrategi/c98721cd60df9be3ed129ce2345d763d_img.jpg)
 
 A 2x2 matrix diagram illustrating two strategic alternatives for shared journal solutions. The vertical axis is labeled 'Sikre helhet i komponentene' with 'Leverandøren tar større ansvar for helhet' at the top and 'Kunden tar større ansvar for helhet' at the bottom. The horizontal axis is labeled 'Omfanget av kapasitet og kompetanse' with 'Ekspertressurser' on the left and 'Team' on the right. Alternative A, 'Leie ressurser til interne utviklingsprosjekter', is located in the bottom-left quadrant (Customer responsibility, Expert resources). Alternative B, 'Inngå avtaler med en leverandør for hvert anskaffelsesområde', is located in the top-right quadrant (Supplier responsibility, Team).
 
@@ -2168,7 +2168,7 @@ I henhold til Finansdepartementets rundskriv R-108/19, skal det utredes minst to
 
 **23. Kommunal- og moderniseringsdepartementet.** *Meld. St. 27 (2015–2016) Digital Agenda for Norge - IKT for en enklere hverdag og økt produktivitet.* Oslo : Kommunal- og moderniseringsdepartementet, 2016.
 
-![Directorate for e-health logo](2649438a5c8121dc876c1b1a17af9d23_img.jpg) Direktoratet for e-helse
+![Directorate for e-health logo](images/Vedlegg E Kontraktstrategi/2649438a5c8121dc876c1b1a17af9d23_img.jpg) Direktoratet for e-helse
 
 ## **Besøksadresse**
 

@@ -1,6 +1,6 @@
 
 
-![Logo for the Norwegian Health Data Authority (Helsenorge.no) consisting of a grid of white dots of varying sizes on a blue background.](2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
+![Logo for the Norwegian Health Data Authority (Helsenorge.no) consisting of a grid of white dots of varying sizes on a blue background.](images/Bilag G1 Felles kommunal journalløsning/2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
 
 Logo for the Norwegian Health Data Authority (Helsenorge.no) consisting of a grid of white dots of varying sizes on a blue background.
 
@@ -185,7 +185,7 @@ De to bilagene beskriver inngående de funksjonelle og tekniske løsningsbeskriv
 
 Med utgangspunkt i de to bilagene er det utarbeidet et vedlegg til det sentrale styringsdokumentet. Dette vedlegget heter Vedlegg G - Løsningsomfang og -arkitektur.
 
-![Hierarchical diagram showing the relationship between SSD, Vedlegg G, and Bilag G1/G2.](9791722d75115ddcc599b07d7bc35d73_img.jpg)
+![Hierarchical diagram showing the relationship between SSD, Vedlegg G, and Bilag G1/G2.](images/Bilag G1 Felles kommunal journalløsning/9791722d75115ddcc599b07d7bc35d73_img.jpg)
 
 ```
 graph TD; SSD["SSD  
@@ -239,7 +239,7 @@ Som illustrert i Figur 2 er veikart for realisering av målbildet "Én innbygger
 2. Videreutvikling av de øvrige regionale helseforetakenes journalsystemer
 3. Akson - etablering av løsning(er) for helhetlig samhandling og felles kommunal journalløsning.
 
-![Figur 2: Veikart for realisering av målbildet i Meld.St 9 Én innbygger – én journal. Diagrammet viser en hierarkisk struktur for Akson. På toppen er fire regioner: Midt-Norge, Nord, Vest og Sør-Øst. Under Midt-Norge er en blå boks for 'Helseplattformen'. Under Nord, Vest og Sør-Øst er røde boks. I midten er en stor blå boks for 'Akson Løsninger for helhetlig samhandling'. Under dette er en annen blå boks for 'Akson Felles journalløsning'. På venstre side er to kategorier: 'Spesialist-helsetjenesten' og 'Kommunale helse- og omsorgstjenester'.](f4fdd410cdb84df81274da55721e56fb_img.jpg)
+![Figur 2: Veikart for realisering av målbildet i Meld.St 9 Én innbygger – én journal. Diagrammet viser en hierarkisk struktur for Akson. På toppen er fire regioner: Midt-Norge, Nord, Vest og Sør-Øst. Under Midt-Norge er en blå boks for 'Helseplattformen'. Under Nord, Vest og Sør-Øst er røde boks. I midten er en stor blå boks for 'Akson Løsninger for helhetlig samhandling'. Under dette er en annen blå boks for 'Akson Felles journalløsning'. På venstre side er to kategorier: 'Spesialist-helsetjenesten' og 'Kommunale helse- og omsorgstjenester'.](images/Bilag G1 Felles kommunal journalløsning/f4fdd410cdb84df81274da55721e56fb_img.jpg)
 
 Figur 2: Veikart for realisering av målbildet i Meld.St 9 Én innbygger – én journal. Diagrammet viser en hierarkisk struktur for Akson. På toppen er fire regioner: Midt-Norge, Nord, Vest og Sør-Øst. Under Midt-Norge er en blå boks for 'Helseplattformen'. Under Nord, Vest og Sør-Øst er røde boks. I midten er en stor blå boks for 'Akson Løsninger for helhetlig samhandling'. Under dette er en annen blå boks for 'Akson Felles journalløsning'. På venstre side er to kategorier: 'Spesialist-helsetjenesten' og 'Kommunale helse- og omsorgstjenester'.
 
@@ -247,7 +247,7 @@ Figur 2 Veikart for realisering av målbildet i Meld.St 9 Én innbygger – én 
 
 Aksons omfang vises i Figur 3:
 
-![Figur 3: Omfang for Akson: felles kommunal journalløsning og helhetlig samhandling. Diagrammet viser en sentral 'Samhandlingsløsning(er)' boks som er koblet til flere ulike sektorer. På toppen er 'Innbygger'. På venstre side er 'Kommunal helse- og omsorgstjeneste inkl. fastlegger', 'Felles kommunal journalløsning', 'Andre kommunale løsninger' (med underkategorier som Velferdsteknologi, Lærn, Personell, Administrasjon, Filialstyring) og 'Kommuner som ennå ikke har tatt i bruk felles journalløsning'. På høyre side er 'Spesialisthelsetjeneste og andre aktører i helse- og omsorgstjeneste' (med underkategorier som Apotek, Helse, Private lege/psykiater, Private lab/red) og 'Andre kommunale og statlige tjenester tjenesteområder utenfor helse- og omsorgssektoren' (med underkategorier som Skole/ barnehage, PPT, NAV, Andre). På bunnen er 'Avtaleparter som velger å ikke ta i bruk felles journalløsning'.](daa4a6fa7e2ba1954258f86b4928eb32_img.jpg)
+![Figur 3: Omfang for Akson: felles kommunal journalløsning og helhetlig samhandling. Diagrammet viser en sentral 'Samhandlingsløsning(er)' boks som er koblet til flere ulike sektorer. På toppen er 'Innbygger'. På venstre side er 'Kommunal helse- og omsorgstjeneste inkl. fastlegger', 'Felles kommunal journalløsning', 'Andre kommunale løsninger' (med underkategorier som Velferdsteknologi, Lærn, Personell, Administrasjon, Filialstyring) og 'Kommuner som ennå ikke har tatt i bruk felles journalløsning'. På høyre side er 'Spesialisthelsetjeneste og andre aktører i helse- og omsorgstjeneste' (med underkategorier som Apotek, Helse, Private lege/psykiater, Private lab/red) og 'Andre kommunale og statlige tjenester tjenesteområder utenfor helse- og omsorgssektoren' (med underkategorier som Skole/ barnehage, PPT, NAV, Andre). På bunnen er 'Avtaleparter som velger å ikke ta i bruk felles journalløsning'.](images/Bilag G1 Felles kommunal journalløsning/daa4a6fa7e2ba1954258f86b4928eb32_img.jpg)
 
 Figur 3: Omfang for Akson: felles kommunal journalløsning og helhetlig samhandling. Diagrammet viser en sentral 'Samhandlingsløsning(er)' boks som er koblet til flere ulike sektorer. På toppen er 'Innbygger'. På venstre side er 'Kommunal helse- og omsorgstjeneste inkl. fastlegger', 'Felles kommunal journalløsning', 'Andre kommunale løsninger' (med underkategorier som Velferdsteknologi, Lærn, Personell, Administrasjon, Filialstyring) og 'Kommuner som ennå ikke har tatt i bruk felles journalløsning'. På høyre side er 'Spesialisthelsetjeneste og andre aktører i helse- og omsorgstjeneste' (med underkategorier som Apotek, Helse, Private lege/psykiater, Private lab/red) og 'Andre kommunale og statlige tjenester tjenesteområder utenfor helse- og omsorgssektoren' (med underkategorier som Skole/ barnehage, PPT, NAV, Andre). På bunnen er 'Avtaleparter som velger å ikke ta i bruk felles journalløsning'.
 
@@ -289,7 +289,7 @@ Helse- og omsorgsdepartementet har igangsatt et lovarbeid for å sikre rettsgrun
 
 Figur 4 oppsummerer metode/ hovedtilnærmingen for kartlegging av funksjonelle behov for felles journalløsning.
 
-![Diagram showing the four-step process for mapping functional requirements for a shared journal solution.](1439cb942d9e363bbb3161b5540dd8c6_img.jpg)
+![Diagram showing the four-step process for mapping functional requirements for a shared journal solution.](images/Bilag G1 Felles kommunal journalløsning/1439cb942d9e363bbb3161b5540dd8c6_img.jpg)
 
 The diagram illustrates a four-step process for mapping functional requirements for a shared journal solution, labeled A through D. Each step is represented by a box containing a grid of icons or diagrams, with arrows indicating the flow from A to D. Below steps C and D are additional boxes with supporting information.
 
@@ -326,7 +326,7 @@ Steg to i analysen for å kartlegge behov var å beskrive virksomhetskapabilitet
 
 I steg tre ble virksomhetskapabilitetene delt inn i én eller flere underkapabiliteter. For temaet administrative funksjoner i kommunal helse- og omsorgstjeneste ble det utarbeidet en rekke use-cases (bruksmønstre). Figur 5 viser et eksempel på et use-case.
 
-![Flowchart of use-case 'A51.1.1 Beregne brukerbetaling for langtidsopphold på institusjon'.](eefe19c5e14dc4d6c316b7f7fbb7d7d7_img.jpg)
+![Flowchart of use-case 'A51.1.1 Beregne brukerbetaling for langtidsopphold på institusjon'.](images/Bilag G1 Felles kommunal journalløsning/eefe19c5e14dc4d6c316b7f7fbb7d7d7_img.jpg)
 
 The diagram illustrates the use-case 'A51.1.1 Beregne brukerbetaling for langtidsopphold på institusjon'. It shows the interaction between three external actors: 'INNBYGGER/PÅRØRENDE' (top), 'SKATTEETATEN' (bottom left), and 'FAKTURASYSTEM' (bottom right). The process starts with 'Behov for å beregne brukerbetaling' leading to 'Innhente informasjon om inntekt'. From there, it checks 'Mottatt krav om dekning av levekostnader'. If 'JA', it proceeds to 'Behandle krav om å dekning av levekostnader' and then to 'Beregne brukerbetaling'. If 'NEI', it goes directly to 'Beregne brukerbetaling'. The next step is 'Fatte beslutning om brukerbetaling'. A decision follows: 'Er endringene gjeldende for allerede fakturerte beløp?'. If 'JA', it goes to 'Beregne beløp som skal tilbakebetales/faktureres' and then to 'Brukerbetaling for langtidsopphold er oppdatert'. If 'NEI', it loops back to 'Innhente informasjon om inntekt'. The 'FAKTURASYSTEM' receives 'Grunnlag for faktura' and provides 'Informasjon om inntekt' to 'SKATTEETATEN'.
 
@@ -352,7 +352,7 @@ Kartleggingen av funksjonelle behov har identifisert hvilken funksjonalitet fell
 
 Figur 6 viser hvordan de funksjonelle behovene er brukt for å etablere løsningsarkitektur for felles journalløsning. Overordnet løsningsarkitektur beskrives i kapittel 7.
 
-![Diagram showing the process of developing solution architecture for shared journal solution, from functional requirements to architecture design.](bd671b21db63e6fdb2196e9b18502aac_img.jpg)
+![Diagram showing the process of developing solution architecture for shared journal solution, from functional requirements to architecture design.](images/Bilag G1 Felles kommunal journalløsning/bd671b21db63e6fdb2196e9b18502aac_img.jpg)
 
 The diagram illustrates the process of developing solution architecture for a shared journal solution, organized into three main vertical columns connected by arrows.
 
@@ -409,7 +409,7 @@ Forkortelser som SH, SHS, AS og SR på kapabilitetene i modellen kommer fra den 
 
 Figur 7 gir en oversikt over grupperingen av virksomhetskapabilitetene, som utgjør Kapabilitetsmodellen.
 
-![Kapabilitetsmodell for kommunale helse- og omsorgstjenester. Diagrammet viser fire hovedgrupper: SH (Yte helse- og omsorgshjelp), SHS (Gi støtte til ytelse av helse- og omsorgshjelp), AS (Administrere kommunale helse- og omsorgstjenester) og SR (Planlegge, utvikle og følge opp helse- og omsorgstjenester).](0f985b39edc1d52ba3600c438bc8f0a5_img.jpg)
+![Kapabilitetsmodell for kommunale helse- og omsorgstjenester. Diagrammet viser fire hovedgrupper: SH (Yte helse- og omsorgshjelp), SHS (Gi støtte til ytelse av helse- og omsorgshjelp), AS (Administrere kommunale helse- og omsorgstjenester) og SR (Planlegge, utvikle og følge opp helse- og omsorgstjenester).](images/Bilag G1 Felles kommunal journalløsning/0f985b39edc1d52ba3600c438bc8f0a5_img.jpg)
 
 **SH. Yte helse- og omsorgshjelp**
 
@@ -541,7 +541,7 @@ Gartner definerer en rekke kjerneegenskaper som skal dekkes av et moderne EPJ/PA
 
 Gartner reviderte generasjonsmodellen i 2016 (8), og den består nå av generasjon 1-3 og "en ny klinisk plattform".
 
-![Gartners generasjonsmodell for EHR. A graph showing the evolution of EHR systems from 1993 to 2018, plotting 'Tilgjengelighet av systemer' (Availability of systems) on the x-axis and 'Funksjonalitet' (Functionality) on the y-axis. The y-axis ranges from 'Minimum' to 'Komplett'. The x-axis shows years: 1993, 1998, 2005, 2018, and 20?? (2016). Four generations are shown as colored boxes: 'Generasjon 1: The Collector' (blue, 1993-1998), 'Generasjon 2: The Documenter' (green, 1998-2005), 'Generasjon 3: The Helper' (orange, 2005-2018), and 'Ny klinisk plattform' (purple, starting 2018). Each generation has a list of characteristics: Gen 1 (Søknadsbasert medisin, Brukervennlighet, Søknadsbasert medisin), Gen 2 (Søknadsbasert medisin, Brukervennlighet, Søknadsbasert medisin), Gen 3 (Beslutningsstøtte basert på aktiv innsikt, Teamorientert, Prediktiv analyse, Presisjonsmedisin), and Gen 4 (Ny klinisk plattform).](ebce355620876e10f907f8b71926c112_img.jpg)
+![Gartners generasjonsmodell for EHR. A graph showing the evolution of EHR systems from 1993 to 2018, plotting 'Tilgjengelighet av systemer' (Availability of systems) on the x-axis and 'Funksjonalitet' (Functionality) on the y-axis. The y-axis ranges from 'Minimum' to 'Komplett'. The x-axis shows years: 1993, 1998, 2005, 2018, and 20?? (2016). Four generations are shown as colored boxes: 'Generasjon 1: The Collector' (blue, 1993-1998), 'Generasjon 2: The Documenter' (green, 1998-2005), 'Generasjon 3: The Helper' (orange, 2005-2018), and 'Ny klinisk plattform' (purple, starting 2018). Each generation has a list of characteristics: Gen 1 (Søknadsbasert medisin, Brukervennlighet, Søknadsbasert medisin), Gen 2 (Søknadsbasert medisin, Brukervennlighet, Søknadsbasert medisin), Gen 3 (Beslutningsstøtte basert på aktiv innsikt, Teamorientert, Prediktiv analyse, Presisjonsmedisin), and Gen 4 (Ny klinisk plattform).](images/Bilag G1 Felles kommunal journalløsning/ebce355620876e10f907f8b71926c112_img.jpg)
 
 Gartners generasjonsmodell for EHR. A graph showing the evolution of EHR systems from 1993 to 2018, plotting 'Tilgjengelighet av systemer' (Availability of systems) on the x-axis and 'Funksjonalitet' (Functionality) on the y-axis. The y-axis ranges from 'Minimum' to 'Komplett'. The x-axis shows years: 1993, 1998, 2005, 2018, and 20?? (2016). Four generations are shown as colored boxes: 'Generasjon 1: The Collector' (blue, 1993-1998), 'Generasjon 2: The Documenter' (green, 1998-2005), 'Generasjon 3: The Helper' (orange, 2005-2018), and 'Ny klinisk plattform' (purple, starting 2018). Each generation has a list of characteristics: Gen 1 (Søknadsbasert medisin, Brukervennlighet, Søknadsbasert medisin), Gen 2 (Søknadsbasert medisin, Brukervennlighet, Søknadsbasert medisin), Gen 3 (Beslutningsstøtte basert på aktiv innsikt, Teamorientert, Prediktiv analyse, Presisjonsmedisin), and Gen 4 (Ny klinisk plattform).
 
@@ -586,7 +586,7 @@ HL7 EHR funksjonalitetsmodell er utviklet over 15 år, i følgende steg:
 
 Funksjonalitetene er inndelt i følgende seksjoner:
 
-![Diagram of the HL7 EHR Functional Model (R2) showing seven layers of functionality.](73b5cce955ba9415a98791db7b0080ad_img.jpg)
+![Diagram of the HL7 EHR Functional Model (R2) showing seven layers of functionality.](images/Bilag G1 Felles kommunal journalløsning/73b5cce955ba9415a98791db7b0080ad_img.jpg)
 
 The diagram illustrates the HL7 EHR Functional Model (R2) as a stack of seven horizontal layers, each representing a different functional area. From top to bottom, the layers are:
 
@@ -622,7 +622,7 @@ Kommunene har stor frihet til å organisere helse- og omsorgstjenestene ut fra l
 
 Figur 10 gir en oversikt over kommunale helse- og omsorgstjenester og felles funksjoner som skal støttes av felles journalløsning. Figuren er illustrerende, men er ikke fullt ut uttømmende. For å oppfylle ansvaret etter § 3-1 i helse- og omsorgstjenesteloven skal kommunen ha lege, sykepleier, fysioterapeut, jordmor, helsesykepleier, ergoterapeut og psykolog knyttet til seg. Lovkrav om at kommunene skal ha psykologkompetanse trådte i kraft fra 2020.
 
-![Diagram showing the relationship between municipal health and care services, common functions, and competency requirements. The diagram is organized into three columns: 'Kommunale helse- og omsorgstjenester', 'Felles funksjoner', and 'Kompetansekrav'. Each column contains boxes with icons and labels for various services and roles. Phone icon Person icon House icon Bed icon Person icon Person icon Person icon Cross icon Bed icon Person icon Hand icon Person icon Hand icon Person icon Person icon House icon House icon House icon Person icon Hand icon Person icon Person icon Person icon Person icon](0c08e48c08f96934cd6bc6911f3069dc_img.jpg)
+![Diagram showing the relationship between municipal health and care services, common functions, and competency requirements. The diagram is organized into three columns: 'Kommunale helse- og omsorgstjenester', 'Felles funksjoner', and 'Kompetansekrav'. Each column contains boxes with icons and labels for various services and roles. Phone icon Person icon House icon Bed icon Person icon Person icon Person icon Cross icon Bed icon Person icon Hand icon Person icon Hand icon Person icon Person icon House icon House icon House icon Person icon Hand icon Person icon Person icon Person icon Person icon](images/Bilag G1 Felles kommunal journalløsning/0c08e48c08f96934cd6bc6911f3069dc_img.jpg)
 
 | Kommunale helse- og omsorgstjenester |                                    |                                |                             |                   | Felles funksjoner | Kompetansekrav |  |
 |--------------------------------------|------------------------------------|--------------------------------|-----------------------------|-------------------|-------------------|----------------|--|
@@ -639,7 +639,7 @@ I tillegg til de ovennevnte tjenestene er det flere funksjoner en kommune må ha
 
 I de følgende avsnittene beskrives de enkelte tjenestene mer detaljert.
 
-![Icon of a doctor in a white coat, labeled 'Fastlege'.](23ccc57a4e09b138c310d1d174c5f316_img.jpg)
+![Icon of a doctor in a white coat, labeled 'Fastlege'.](images/Bilag G1 Felles kommunal journalløsning/23ccc57a4e09b138c310d1d174c5f316_img.jpg)
 
 Icon of a doctor in a white coat, labeled 'Fastlege'.
 
@@ -651,15 +651,15 @@ Fastlegen skal prioritere personene på sin liste foran andre, med unntak av lov
 
 Allmennlegeoppgaver som ivaretas i helsestasjons- og skolehelsetjenesten, ved sykehjem, fengsler og andre kommunale institusjoner med en organisert legetjeneste inngår ikke i listeansvaret.
 
-![Icon of a telephone handset inside a blue rounded rectangle, with the text 'Legevakt-sentral' to its right.](8de18f629e5d8ab818f3eff277a9c08b_img.jpg)
+![Icon of a telephone handset inside a blue rounded rectangle, with the text 'Legevakt-sentral' to its right.](images/Bilag G1 Felles kommunal journalløsning/8de18f629e5d8ab818f3eff277a9c08b_img.jpg)
 
 Icon of a telephone handset inside a blue rounded rectangle, with the text 'Legevakt-sentral' to its right.
 
-![Icon of a white plus sign inside a blue rounded rectangle, with the text 'Legevakt' to its right.](39cfe42bf47ba1f871d52952bfbdfab1_img.jpg)
+![Icon of a white plus sign inside a blue rounded rectangle, with the text 'Legevakt' to its right.](images/Bilag G1 Felles kommunal journalløsning/39cfe42bf47ba1f871d52952bfbdfab1_img.jpg)
 
 Icon of a white plus sign inside a blue rounded rectangle, with the text 'Legevakt' to its right.
 
-![Icon of a hospital bed inside a blue rounded rectangle, with the text 'Heldøgns medisinsk akutt-beredskap' to its right.](8f931bb1d65d0ee4ccafab751ee61282_img.jpg)
+![Icon of a hospital bed inside a blue rounded rectangle, with the text 'Heldøgns medisinsk akutt-beredskap' to its right.](images/Bilag G1 Felles kommunal journalløsning/8f931bb1d65d0ee4ccafab751ee61282_img.jpg)
 
 Icon of a hospital bed inside a blue rounded rectangle, with the text 'Heldøgns medisinsk akutt-beredskap' to its right.
 
@@ -673,7 +673,7 @@ Legevaktsentralene skal motta og håndtere henvendelser om øyeblikkelig hjelp i
 
 Kommunen skal sørge for tilbud om døgnopphold for helse- og omsorgstjenester til pasienter og brukere med behov for øyeblikkelig hjelp. Plikten gjelder både pasienter med somatisk sykdom, pasienter med psykiske helseproblemer og pasienter med rusmiddelproblemer som kommunen har mulighet til å utrede, behandle eller yte omsorg til, jf. helse- og omsorgstjenesteloven § 3-5 tredje ledd.
 
-![Icon for Helsestasjon/skolehelsetjeneste showing a person with a stethoscope.](b8e33e88baf855d3881d2f32fb17b60a_img.jpg)
+![Icon for Helsestasjon/skolehelsetjeneste showing a person with a stethoscope.](images/Bilag G1 Felles kommunal journalløsning/b8e33e88baf855d3881d2f32fb17b60a_img.jpg)
 
 The image is a teal square icon. On the left side, there is a white silhouette of a person wearing a stethoscope. To the right of the silhouette, the text "Helsestasjon/ skole helsetjeneste" is written in white, stacked in three lines.
 
@@ -689,7 +689,7 @@ Skolehelsetjenesten bidrar i undervisning, gjennomfører konsultasjoner med elev
 
 Det følger av helse- og omsorgstjenesteloven § 3-2 nr. 2 at kommunen skal tilby svangerskaps- og barselomsorgstjenester. Tjenestene tilbys delvis av helsestasjonstjenesten og delvis av fastlegetjenesten. Innholdet er nærmere beskrevet i forskrift om kommunens helsefremmende og forebyggende arbeid i helsestasjons- og skolehelsetjenesten § 5, samt i Nasjonal faglig retningslinje for svangerskapsomsorgen og Nasjonal faglig retningslinje for barselomsorgen – Nytt liv og trygg barseltid for familien.
 
-![Icon for Hjemmetjenester: a white house icon on a teal background.](e84dd53f6912e1d1da8c934533cc599f_img.jpg)
+![Icon for Hjemmetjenester: a white house icon on a teal background.](images/Bilag G1 Felles kommunal journalløsning/e84dd53f6912e1d1da8c934533cc599f_img.jpg)
 
 Icon for Hjemmetjenester: a white house icon on a teal background.
 
@@ -702,7 +702,7 @@ Helsetjenester i hjemmet vil i første rekke omfatte sykepleie (hjemmesykepleie)
 
 I tillegg kan f.eks. ergoterapi, fysioterapi og fototerapi være aktuelle tjenester som kan gis som helsetjenester i hjemmet.
 
-![Icon for Sykehjem/ annen institusjon: a white bed icon on a teal background.](673220bbadf74792a6e4782af9d200cb_img.jpg)
+![Icon for Sykehjem/ annen institusjon: a white bed icon on a teal background.](images/Bilag G1 Felles kommunal journalløsning/673220bbadf74792a6e4782af9d200cb_img.jpg)
 
 Icon for Sykehjem/ annen institusjon: a white bed icon on a teal background.
 
@@ -718,7 +718,7 @@ Opphold i institusjon kan tilbys som opphold i ubegrenset tid (langtidsopphold),
 
 I henhold til forskrift for sykehjem og boform for heldøgns omsorg og pleie skal det i tilknytning til oppholdet være bl.a. organisert legetjeneste, fysioterapitjeneste og sykepleiertjeneste.
 
-![Icon for Habilitering og rehabilitering, showing a person with a star above their head.](b99bfa6a26ede115d00d81059ee4ce6b_img.jpg)
+![Icon for Habilitering og rehabilitering, showing a person with a star above their head.](images/Bilag G1 Felles kommunal journalløsning/b99bfa6a26ede115d00d81059ee4ce6b_img.jpg)
 
 **Habilitering og  
 rehabilitering**
@@ -731,7 +731,7 @@ Kommunen skal planlegge sin habiliterings- og rehabiliteringsvirksomhet og ha en
 
 Det skal finnes en koordinerende enhet for habiliterings- og rehabiliteringsvirksomhet i kommunen, jf. helse- og omsorgstjenesteloven § 7-3. Den koordinerende enheten skal bidra til å sikre helhetlig tilbud til pasienter og brukere med behov for sosial, psykososial eller medisinsk habilitering og rehabilitering. Koordinerende enhet skal ha overordnet ansvar for arbeidet med individuell plan og for oppnevning, opplæring og veiledning av koordinator.
 
-![Icon for Frisklivssentral showing a house and a person.](c65ad236792ad44010344a71df2b4947_img.jpg)
+![Icon for Frisklivssentral showing a house and a person.](images/Bilag G1 Felles kommunal journalløsning/c65ad236792ad44010344a71df2b4947_img.jpg)
 
 Frisklivs-  
 sentral
@@ -748,7 +748,7 @@ Alt personell som jobber på en frisklivssentral og yter helsehjelp, har dokumen
 
 Frisklivssentralen er en tverrfaglig tjeneste og de ansatte har ulik faglig bakgrunn, som for eksempel fysioterapi, ernæring, pedagogikk, ergoterapi, sykepleie, folkehelsevitenskap og psykologi.
 
-![Icon for Migrasjons-helse-tjeneste showing a house and a person.](8a919c7e46849292573775081d1b3d66_img.jpg)
+![Icon for Migrasjons-helse-tjeneste showing a house and a person.](images/Bilag G1 Felles kommunal journalløsning/8a919c7e46849292573775081d1b3d66_img.jpg)
 
 Migrasjons-  
 helse-  
@@ -760,7 +760,7 @@ Migrasjonshelse er et fagfelt som omfatter utdanning, forskning og praksis som f
 
 Fagfeltet er utpreget tverrfaglig med utøvere fra en rekke helse- og samfunnsfagsdisipliner, og Helsedirektoratet anbefaler i veileder IS-1022 at kommuner etablerer tverrfaglige helseteam for likeverdige helsetjenester til asylsøkere, flyktninger og familieegjenforente. Tjenestene er pålagt å bruke kvalifisert tolk ved behov.
 
-![Icon for Fysioterapi-tjeneste: a white hand silhouette on a teal background.](a5781e6cd2b5189286866604dfad6f5d_img.jpg)
+![Icon for Fysioterapi-tjeneste: a white hand silhouette on a teal background.](images/Bilag G1 Felles kommunal journalløsning/a5781e6cd2b5189286866604dfad6f5d_img.jpg)
 
 ---
 
@@ -773,7 +773,7 @@ Fysioterapitjenesten består av forebyggende virksomhet og av behandling, habili
 
 Kommunen kan organisere fysioterapitjenesten ved enten å ansette fysioterapeuter i kommunale stillinger eller ved å inngå avtaler om driftstilskudd (driftsavtale) med fysioterapeuter som driver privat virksomhet.
 
-![Icon for Fengsels-helse-tjeneste: a white building silhouette on a teal background.](2859466e7f590e4cce19e55ded6fd014_img.jpg)
+![Icon for Fengsels-helse-tjeneste: a white building silhouette on a teal background.](images/Bilag G1 Felles kommunal journalløsning/2859466e7f590e4cce19e55ded6fd014_img.jpg)
 
 ---
 
@@ -787,7 +787,7 @@ I de kommunene hvor det ligger fengsler i kriminalomsorgen skal kommunen ha tilb
 
 ---
 
-![Icon representing public dental service (Offentlig tannhelse-tjeneste) showing a person sitting in a dental chair.](40647355b8fe9eeaadd5a58444dfe51d_img.jpg)
+![Icon representing public dental service (Offentlig tannhelse-tjeneste) showing a person sitting in a dental chair.](images/Bilag G1 Felles kommunal journalløsning/40647355b8fe9eeaadd5a58444dfe51d_img.jpg)
 
 Icon representing public dental service (Offentlig tannhelse-tjeneste) showing a person sitting in a dental chair.
 
@@ -801,7 +801,7 @@ Regionreformen i tannhelsetjenesten trådte i kraft 1.1.2020. Etter dette vil de
 
 Selv om det per i dag ikke er kommunen som har ansvar for den offentlige tannhelsetjenesten, er tannhelse tatt med på grunn av mulig overføring av ansvaret for tannhelsetjenesten til kommunene (9), samt behov for tett samhandling mellom tannhelsetjenesten og kommunale helse- og omsorgstjenester. Hvorvidt dette vil bety at tannleger som yter offentlige tannhelsetjenester vil ha funksjonell støtte i felles journalløsning vil avgjøres gjennom anskaffelsesprosessen
 
-![Icon for 'Personlig assistanse' showing a person silhouette and the text 'Personlig assistanse'.](307998a4f76d5fa18ce3713f51d0692f_img.jpg)
+![Icon for 'Personlig assistanse' showing a person silhouette and the text 'Personlig assistanse'.](images/Bilag G1 Felles kommunal journalløsning/307998a4f76d5fa18ce3713f51d0692f_img.jpg)
 
 Icon for 'Personlig assistanse' showing a person silhouette and the text 'Personlig assistanse'.
 
@@ -829,7 +829,7 @@ Tildeling av omsorgsstønad innebærer at kommunen engasjerer pårørende eller 
 
 I tillegg til de ovennevnte tjenestene er det flere funksjoner en kommune må ha i tilknytning til helse- og omsorgstjenesten. Disse vil også ha behov for funksjonell støtte i felles journalløsning det kan for eksempel være aktivitetstilbud for eldre.
 
-![Icon representing a Tildelingskontor (Allocation Office) with a person icon and the text 'Tildelings-kontor'.](ddc875f881bafee11e4fb5973c8a7918_img.jpg)
+![Icon representing a Tildelingskontor (Allocation Office) with a person icon and the text 'Tildelings-kontor'.](images/Bilag G1 Felles kommunal journalløsning/ddc875f881bafee11e4fb5973c8a7918_img.jpg)
 
 Icon representing a Tildelingskontor (Allocation Office) with a person icon and the text 'Tildelings-kontor'.
 
@@ -839,7 +839,7 @@ De fleste kommuner har et tildelingskontor (også kalt bestillerkontor, søknads
 
 ---
 
-![Icon of a person wearing a white coat and a stethoscope, representing a municipal doctor. To the right of the icon, the text 'Kommune- lege' is written in white on a teal background.](d9ee0884d7e7238559f08b359fd1ae62_img.jpg)
+![Icon of a person wearing a white coat and a stethoscope, representing a municipal doctor. To the right of the icon, the text 'Kommune- lege' is written in white on a teal background.](images/Bilag G1 Felles kommunal journalløsning/d9ee0884d7e7238559f08b359fd1ae62_img.jpg)
 
 Icon of a person wearing a white coat and a stethoscope, representing a municipal doctor. To the right of the icon, the text 'Kommune- lege' is written in white on a teal background.
 
@@ -1002,7 +1002,7 @@ Følgende innbygger scenario viser en situasjon hvor et friskt barn blir fulgt o
 
 Figur 11 gir en forenklet beskrivelse av use-caset knyttet til en situasjon der et barn blir fulgt opp på helsestasjon. For mer utfyllende beskrivelse henvises til Bilag G2 – Helhetlig samhandling.
 
-![Flowchart titled 'Helsestasjon følger opp barnet fra 0 til 5 år' showing the process from birth to 5 years old. The process involves multiple actors: Innbygger, Fastlege, Helsestasjon, Skolehelse-tjeneste, and spesialisthelsetjenesten. It details steps like 'Opprette journal', 'Fordeler oppgaver mellom jordmor og helsepleiere', 'Avtale undersøkelse', 'Gjennomføre undersøkelser', 'Gjennomføre vaksinasjoner', and 'Helsestasjonslege registrerer allergi og bivirkning', ending with 'SLUTT'.](ddee3e67e0dfc22e25188fa635a19558_img.jpg)
+![Flowchart titled 'Helsestasjon følger opp barnet fra 0 til 5 år' showing the process from birth to 5 years old. The process involves multiple actors: Innbygger, Fastlege, Helsestasjon, Skolehelse-tjeneste, and spesialisthelsetjenesten. It details steps like 'Opprette journal', 'Fordeler oppgaver mellom jordmor og helsepleiere', 'Avtale undersøkelse', 'Gjennomføre undersøkelser', 'Gjennomføre vaksinasjoner', and 'Helsestasjonslege registrerer allergi og bivirkning', ending with 'SLUTT'.](images/Bilag G1 Felles kommunal journalløsning/ddee3e67e0dfc22e25188fa635a19558_img.jpg)
 
 The diagram is a swimlane flowchart titled "Helsestasjon følger opp barnet fra 0 til 5 år". It tracks the journey of a child from birth to 5 years old across several service lanes:
 
@@ -1117,7 +1117,7 @@ Data fra kommunalt pasient- og brukerregister (KPR) viser at det i 2018 var 901.
 
 Figur 12 gir en oversikt over use-caset knyttet til situasjon når innbygger tar kontakt med legevakt i sin kommune.
 
-![Flowchart of the use-case 'Legevaktsbesøk ved episode med hjerteفلmmer' (Doctor's visit for an episode of heart attack). The diagram shows interactions between the citizen (Innbygger), the fixed doctor (Fastlege), the on-call doctor (Legevakt), and the shared electronic journal (Informasjon i felles journal).](01e00200a536673d6cd0e6d8705047a0_img.jpg)
+![Flowchart of the use-case 'Legevaktsbesøk ved episode med hjerteفلmmer' (Doctor's visit for an episode of heart attack). The diagram shows interactions between the citizen (Innbygger), the fixed doctor (Fastlege), the on-call doctor (Legevakt), and the shared electronic journal (Informasjon i felles journal).](images/Bilag G1 Felles kommunal journalløsning/01e00200a536673d6cd0e6d8705047a0_img.jpg)
 
 ```
 
@@ -1188,7 +1188,7 @@ Følgende informasjon fra nasjonale samhandlingsløsninger er nødvendig og rele
 | Pasient-<br>demografi  | <p>Pasientdemografi vil inneholde utfyllende informasjon om pasienten demografiske opplysninger både det som finnes i personregisteret og det som innbygger vedlikeholder selv.</p> <ul style="list-style-type: none"> <li>• Identitet inkludert fødselsnummer, D-nummer og hjelpenumre</li> <li>• Pårørende og ansvar for barn</li> <li>• Adresse og oppholdssted</li> <li>• Kontaktopplysninger inkl. epost og mobiltlf.</li> <li>• Sosialt nettverk (kontaktpunkter)</li> <li>• Samtykkekompetanse og evt. vergemål</li> </ul> | <p><u>Personregisteret – Norsk Helsenet:</u></p> <p>Personregisteret er et program-til-programgrensesnitt (API) som gir tilgang til søk og oppslag i data fra folkeregisteret, samt opplysninger om felles hjelpenummer.</p> <p>Tjenesten gir tilgang til søk og oppslag i data fra folkeregisteret, og er tilgjengelig for alle medlemmer av helsenettet, sykehus, kommuner, fastleger, tannleger, apotek og øvrige helseaktører.</p> |
 | Kritisk<br>informasjon | <p>Dette er informasjon av særlig betydning for innbyggerens utredning og behandling. Dette er typisk informasjon som tilsier at det skal gjøres unntak fra regulær behandling eller utredning.</p>                                                                                                                                                                                                                                                                                                                               | <p><u>Kjernejournal</u></p> <p>Kjernejournal inneholder informasjon om kritisk informasjon. Vi henviser til definisjon og informasjonsmodell for Kritisk informasjon utarbeidet i Kjernejournal, se Informasjonsmodell for kritisk info i Kjernejournal (14)</p>                                                                                                                                                                       |
 
-![Legemidler og vaksiner logo](b87b52c04ccb835fa90fd2c6926f224d_img.jpg)
+![Legemidler og vaksiner logo](images/Bilag G1 Felles kommunal journalløsning/b87b52c04ccb835fa90fd2c6926f224d_img.jpg)
 
 Legemidler og vaksiner logo
 
@@ -1253,7 +1253,7 @@ Dette innbygger scenariet omhandler situasjonen der en innbygger har hatt tidlig
 
 Følgende use-case er en vesentlig forenklet utgave av innbygger scenariet, der Knut har flere konsultasjoner med fastlegen sin.
 
-![Flowchart of a medical consultation use-case involving a citizen, a general practitioner, a primary care team, a public health team, a shared journal, national solutions, and a specialist service.](fc02903382cebe6fc11e4c0d74b5313f_img.jpg)
+![Flowchart of a medical consultation use-case involving a citizen, a general practitioner, a primary care team, a public health team, a shared journal, national solutions, and a specialist service.](images/Bilag G1 Felles kommunal journalløsning/fc02903382cebe6fc11e4c0d74b5313f_img.jpg)
 
 ```
 
@@ -1328,7 +1328,7 @@ Use-caset reflekterer en vanlig situasjon der innbygger har kontakt med fastlege
 
 ##### Fastlege benytter primærhelseteam og innbygger får undervisning av sykepleier
 
-![Flowchart of a clinical consultation use-case. It shows the interaction between a citizen, a general practitioner, a primary care team, and a shared journal. The process starts with the citizen having a need for follow-up, leading to a consultation, diagnosis (KOLS), medication, and home visits, ending with the citizen's tasks and the process ending.](640d28a694bbdbaf9b11a3bfdcc800fc_img.jpg)
+![Flowchart of a clinical consultation use-case. It shows the interaction between a citizen, a general practitioner, a primary care team, and a shared journal. The process starts with the citizen having a need for follow-up, leading to a consultation, diagnosis (KOLS), medication, and home visits, ending with the citizen's tasks and the process ending.](images/Bilag G1 Felles kommunal journalløsning/640d28a694bbdbaf9b11a3bfdcc800fc_img.jpg)
 
 **Fastlege oppretter primærhelseteam og innbygger får undervisning av sykepleier**
 
@@ -1439,7 +1439,7 @@ Fra 1.1.2016 fikk kommunene plikt til å ha et døgntilbud for øyeblikkelig hje
 
 I 2018 ble det registrert 14.824 opphold på øyeblikkelig hjelp døgntilbud (ØHD). Følgende use-case gir et forenklet bilde over arbeidsflyten når fastlegen velger innleggelse av pasient til ØHD.
 
-![Flowchart of a use-case for a doctor admitting a patient to ØHD. The process starts with an 'Innbygger' (Citizen) who books a video consultation. The 'Fastlege' (General Practitioner) then performs a video consultation, conducts a home visit, diagnoses the patient, and admits them to ØHD. The process ends with 'Hels персонаll på ØHD' (Health personnel at ØHD) who receive the patient and provide treatment. The flowchart includes swimlanes for the citizen, doctor, primary health team, ØHD, and the journal system, showing the flow of information and actions.](8a9f4764511ce90622893ec65c065eeb_img.jpg)
+![Flowchart of a use-case for a doctor admitting a patient to ØHD. The process starts with an 'Innbygger' (Citizen) who books a video consultation. The 'Fastlege' (General Practitioner) then performs a video consultation, conducts a home visit, diagnoses the patient, and admits them to ØHD. The process ends with 'Hels персонаll på ØHD' (Health personnel at ØHD) who receive the patient and provide treatment. The flowchart includes swimlanes for the citizen, doctor, primary health team, ØHD, and the journal system, showing the flow of information and actions.](images/Bilag G1 Felles kommunal journalløsning/8a9f4764511ce90622893ec65c065eeb_img.jpg)
 
 The diagram is a swimlane flowchart titled 'Fastlege legger pasienten inn på ØHD' (Doctor admits patient to ØHD). It shows the process from citizen contact to treatment admission.
 
@@ -1524,7 +1524,7 @@ Uttrekk fra Kommunalt pasient- og brukerregister (KPR) viser at 364.489 innbygge
 
 ##### Brukere fordelt i funksjonsnivå
 
-![Pie chart showing the distribution of users by functional level: 36% for 'Lite/avgrenset bistandsbehov', 31% for 'Middels til stort bistandsbehov', 23% for 'Omfattende bistandsbehov', and 10% for 'Ikke grunnlag for å beregne samlemål'.](5000e9028ee2990f6242b2c0a952010d_img.jpg)
+![Pie chart showing the distribution of users by functional level: 36% for 'Lite/avgrenset bistandsbehov', 31% for 'Middels til stort bistandsbehov', 23% for 'Omfattende bistandsbehov', and 10% for 'Ikke grunnlag for å beregne samlemål'.](images/Bilag G1 Felles kommunal journalløsning/5000e9028ee2990f6242b2c0a952010d_img.jpg)
 
 | Funksjonsnivå                        | Prosent |
 |--------------------------------------|---------|
@@ -1537,7 +1537,7 @@ Pie chart showing the distribution of users by functional level: 36% for 'Lite/a
 
 ##### Brukere fordelt på boende
 
-![Pie chart showing the distribution of users by housing status: 66% for 'Tjenester til hjemmebodende', 23% for 'Institusjon', and 11% for 'Kommunal bolig'.](da0d310d0e9ecc6bfd61fe15aad963aa_img.jpg)
+![Pie chart showing the distribution of users by housing status: 66% for 'Tjenester til hjemmebodende', 23% for 'Institusjon', and 11% for 'Kommunal bolig'.](images/Bilag G1 Felles kommunal journalløsning/da0d310d0e9ecc6bfd61fe15aad963aa_img.jpg)
 
 | Boende                      | Prosent |
 |-----------------------------|---------|
@@ -1571,7 +1571,7 @@ I søknaden gir Magda kommunens helsepersonell samtykke til å innhente nødvend
 
 Figur 16 gir en forenklet oversikt over use-caset.
 
-![Flowchart titled 'Innbygger søker om helse- og omsorgstjenester fra kommunen'. It shows a process flow from 'Innbygger' to 'Tidningskontor' to 'Fagsage' to 'Informasjon i felles journal' to 'Informasjon i nasjonale lønninger'. The process starts with 'Behov for å søke kommunen om tjenester' and ends with 'SLUTT'. Key steps include: 'Innbygger vurderer hvilke tjenester som er tilgjengelig', 'Innbygger registrerer søknad om tjenester', 'Innbygger gir kommunen samtykke til å hente inn helseoppgifter', and 'Innbygger signerer søknad'. Information points include: 'Oversikt over tilgjengelige tjenester og tilbud', 'Klinisk oppsummering', 'Problemdiagnose og behov', 'Personvern', and 'Anmodning om tjeneste, med svar'. National data points include: 'Pasientdemografi' and 'Legemidler og vaksiner'.](feae5a5b6e128162dbced0860fd97b9b_img.jpg)
+![Flowchart titled 'Innbygger søker om helse- og omsorgstjenester fra kommunen'. It shows a process flow from 'Innbygger' to 'Tidningskontor' to 'Fagsage' to 'Informasjon i felles journal' to 'Informasjon i nasjonale lønninger'. The process starts with 'Behov for å søke kommunen om tjenester' and ends with 'SLUTT'. Key steps include: 'Innbygger vurderer hvilke tjenester som er tilgjengelig', 'Innbygger registrerer søknad om tjenester', 'Innbygger gir kommunen samtykke til å hente inn helseoppgifter', and 'Innbygger signerer søknad'. Information points include: 'Oversikt over tilgjengelige tjenester og tilbud', 'Klinisk oppsummering', 'Problemdiagnose og behov', 'Personvern', and 'Anmodning om tjeneste, med svar'. National data points include: 'Pasientdemografi' and 'Legemidler og vaksiner'.](images/Bilag G1 Felles kommunal journalløsning/feae5a5b6e128162dbced0860fd97b9b_img.jpg)
 
 ```
 
@@ -1630,7 +1630,7 @@ og dokumenteres. Magda skal ha vedtaket skriftlig tilgjengelig og skal inneholde
 
 Figur 17 gir en forenklet oversikt over use-caset.
 
-![Flowchart of the use-case 'Kommunen behandler og vurderer søknad om tjenester'. The process starts with 'Søknad om tjenester i kommunen er mottatt' and proceeds through several steps: 'Motta søknad om helse- og omsorgstjenester', 'Innsende relevante opplysninger', 'Utrede hjelpbehov', 'Vurdere om rettigheter er oppfylt', 'Utforme tjenester', 'Generere enkelvedtak om helse- og omsorgstjeneste', and 'Installere trygghetsalarm', ending at 'SLUTT'. The diagram is organized into swimlanes: 'Innbygger', 'Tidligere kontor', 'Responsenter', 'Faglige', 'Informasjon i felles journal', and 'Informasjon i nasjonale løsnings'. Documents like 'Anmodning om tjeneste, med svar', 'Personvern', 'Klinisk oppsummering', 'Problem/ diagnose og behov', 'Oversikt over tilgjengelige tjenester og tilbud', 'Tjenester, ytelser og hjelpemidler', and 'Plan' are linked to specific steps.](61a7f401eb46fe99a71f27bc37493f04_img.jpg)
+![Flowchart of the use-case 'Kommunen behandler og vurderer søknad om tjenester'. The process starts with 'Søknad om tjenester i kommunen er mottatt' and proceeds through several steps: 'Motta søknad om helse- og omsorgstjenester', 'Innsende relevante opplysninger', 'Utrede hjelpbehov', 'Vurdere om rettigheter er oppfylt', 'Utforme tjenester', 'Generere enkelvedtak om helse- og omsorgstjeneste', and 'Installere trygghetsalarm', ending at 'SLUTT'. The diagram is organized into swimlanes: 'Innbygger', 'Tidligere kontor', 'Responsenter', 'Faglige', 'Informasjon i felles journal', and 'Informasjon i nasjonale løsnings'. Documents like 'Anmodning om tjeneste, med svar', 'Personvern', 'Klinisk oppsummering', 'Problem/ diagnose og behov', 'Oversikt over tilgjengelige tjenester og tilbud', 'Tjenester, ytelser og hjelpemidler', and 'Plan' are linked to specific steps.](images/Bilag G1 Felles kommunal journalløsning/61a7f401eb46fe99a71f27bc37493f04_img.jpg)
 
 ```
 
@@ -1738,7 +1738,7 @@ hjemmet. Magda og datter får varsel om at hun får tildelt flere tjenester og i
 
 Figur 18 gir en forenklet oversikt over use-caset.
 
-![Flowchart of the use-case for cognitive function mapping in Akson. The diagram is organized into swimlanes: Innbygger, Tildelingskontor, Hukommelses-team, Fastlege, Hjemme-tjenesten, Informasjon i felles journal, and Spesialisthelse-tjenesten. The process starts with 'Behov for supplerende informasjon' in the Tildelingskontor, leading to 'Be om en kartlegging av kognitive funksjon'. This triggers 'Gjennomføre kartlegging' in the Hukommelses-team, which involves 'Undersøkelser, målinger og funn' (documented in the journal). The results are passed to 'Gjennomføre kartlegging og undersøkelse' and then 'Gjennomføre oppfølging av innbygger' in the Fastlege. This leads to 'Vurdere om rettigheter er oppfylt', then 'Utforme tjenester', and finally 'Generere enkeltvedtak om helse- og omsorgstjeneste' in the Tildelingskontor, ending at 'SLUTT'. The Fastlege also performs 'Utføre tjenester' which feeds back into the 'Generere enkeltvedtak' step. The 'Utføre tjenester' step involves 'Tjenester, ytelser og hjelpemidler' (documented in the journal). The 'Gjennomføre oppfølging av innbygger' step involves 'Klinisk oppsummering' and 'Problem/ diagnose' (documented in the journal). The 'Undersøkelser, målinger og funn' step involves 'Bestilling og svar (sk)' and 'Henvisinger, opplysninger, m.m.' (documented in the journal).](db39acbd11df5eb7e79ab84562fb8f74_img.jpg)
+![Flowchart of the use-case for cognitive function mapping in Akson. The diagram is organized into swimlanes: Innbygger, Tildelingskontor, Hukommelses-team, Fastlege, Hjemme-tjenesten, Informasjon i felles journal, and Spesialisthelse-tjenesten. The process starts with 'Behov for supplerende informasjon' in the Tildelingskontor, leading to 'Be om en kartlegging av kognitive funksjon'. This triggers 'Gjennomføre kartlegging' in the Hukommelses-team, which involves 'Undersøkelser, målinger og funn' (documented in the journal). The results are passed to 'Gjennomføre kartlegging og undersøkelse' and then 'Gjennomføre oppfølging av innbygger' in the Fastlege. This leads to 'Vurdere om rettigheter er oppfylt', then 'Utforme tjenester', and finally 'Generere enkeltvedtak om helse- og omsorgstjeneste' in the Tildelingskontor, ending at 'SLUTT'. The Fastlege also performs 'Utføre tjenester' which feeds back into the 'Generere enkeltvedtak' step. The 'Utføre tjenester' step involves 'Tjenester, ytelser og hjelpemidler' (documented in the journal). The 'Gjennomføre oppfølging av innbygger' step involves 'Klinisk oppsummering' and 'Problem/ diagnose' (documented in the journal). The 'Undersøkelser, målinger og funn' step involves 'Bestilling og svar (sk)' and 'Henvisinger, opplysninger, m.m.' (documented in the journal).](images/Bilag G1 Felles kommunal journalløsning/db39acbd11df5eb7e79ab84562fb8f74_img.jpg)
 
 Flowchart of the use-case for cognitive function mapping in Akson. The diagram is organized into swimlanes: Innbygger, Tildelingskontor, Hukommelses-team, Fastlege, Hjemme-tjenesten, Informasjon i felles journal, and Spesialisthelse-tjenesten. The process starts with 'Behov for supplerende informasjon' in the Tildelingskontor, leading to 'Be om en kartlegging av kognitive funksjon'. This triggers 'Gjennomføre kartlegging' in the Hukommelses-team, which involves 'Undersøkelser, målinger og funn' (documented in the journal). The results are passed to 'Gjennomføre kartlegging og undersøkelse' and then 'Gjennomføre oppfølging av innbygger' in the Fastlege. This leads to 'Vurdere om rettigheter er oppfylt', then 'Utforme tjenester', and finally 'Generere enkeltvedtak om helse- og omsorgstjeneste' in the Tildelingskontor, ending at 'SLUTT'. The Fastlege also performs 'Utføre tjenester' which feeds back into the 'Generere enkeltvedtak' step. The 'Utføre tjenester' step involves 'Tjenester, ytelser og hjelpemidler' (documented in the journal). The 'Gjennomføre oppfølging av innbygger' step involves 'Klinisk oppsummering' and 'Problem/ diagnose' (documented in the journal). The 'Undersøkelser, målinger og funn' step involves 'Bestilling og svar (sk)' and 'Henvisinger, opplysninger, m.m.' (documented in the journal).
 
@@ -1770,7 +1770,7 @@ Figur 19 gir et eksempel på hvordan informasjon vil kunne organiseres i felles 
 
 Informasjon som det er enighet om at skal deles vil organiseres slik at helsepersonell med tjenstlig behov vil kunne ha tilgang til den, hvis det er relevant og nødvendig for å yte helse- og omsorgshjelp. Dette illustreres ved at informasjonen er organisert i «grønn sone». Informasjon som ikke er godkjent for deling (organisert i «rød sone») vil være skjernet for annet helsepersonell.
 
-![Diagram illustrating information sharing in a shared journal solution. It shows two main sections: 'Tilgangsstyring for tilgang til felles informasjon' (left) and 'Tilgangsstyring for tilgang til skjernet informasjon' (right). The left section is divided into 'Identiteter', 'Roller', and 'Rettigheter'. The 'Identiteter' box contains 'bruker/pasientrelatert informasjon' (Klinisk oppsummering, Legemidler og vaksiner, Problem/diagnose og behov, Kritisk informasjon, Pågående og gjennomførte prosedyrer og behandlinger, Kliniske bakgrunnsopplysninger, Undersøkelser, målinger og funn, Plan, Bestilling og svar (lab), Anmodning om tjeneste, Tjenester, ytelser og hjelpemidler, Journal-dokumenter, Henvisning epikrise, m.m., Saks-behandling) and 'Helsepersonell relatert informasjon' (Plan, Kalender, Team- og møte-administrasjon). The 'Roller' box contains 'Virksomhetsrelatert informasjon' (Medisinsk, Utstyr, Koding og avstemning). The 'Rettigheter' box contains 'Grunndata' (Pasient-demografi, Personell, Virksomheter, Ressurser, Oversikt over tilgjengelige tjenester og tilbud). The right section, 'Tilgangsstyring for tilgang til skjernet informasjon', contains 'Informasjon som ikke er godkjent for deling' (Journal-dokumenter, Problem/diagnose og behov, Undersøkelser, målinger og funn, Kliniske bakgrunnsopplysninger, Andre...).](a9159a006d67a834a7b1a771c18191cc_img.jpg)
+![Diagram illustrating information sharing in a shared journal solution. It shows two main sections: 'Tilgangsstyring for tilgang til felles informasjon' (left) and 'Tilgangsstyring for tilgang til skjernet informasjon' (right). The left section is divided into 'Identiteter', 'Roller', and 'Rettigheter'. The 'Identiteter' box contains 'bruker/pasientrelatert informasjon' (Klinisk oppsummering, Legemidler og vaksiner, Problem/diagnose og behov, Kritisk informasjon, Pågående og gjennomførte prosedyrer og behandlinger, Kliniske bakgrunnsopplysninger, Undersøkelser, målinger og funn, Plan, Bestilling og svar (lab), Anmodning om tjeneste, Tjenester, ytelser og hjelpemidler, Journal-dokumenter, Henvisning epikrise, m.m., Saks-behandling) and 'Helsepersonell relatert informasjon' (Plan, Kalender, Team- og møte-administrasjon). The 'Roller' box contains 'Virksomhetsrelatert informasjon' (Medisinsk, Utstyr, Koding og avstemning). The 'Rettigheter' box contains 'Grunndata' (Pasient-demografi, Personell, Virksomheter, Ressurser, Oversikt over tilgjengelige tjenester og tilbud). The right section, 'Tilgangsstyring for tilgang til skjernet informasjon', contains 'Informasjon som ikke er godkjent for deling' (Journal-dokumenter, Problem/diagnose og behov, Undersøkelser, målinger og funn, Kliniske bakgrunnsopplysninger, Andre...).](images/Bilag G1 Felles kommunal journalløsning/a9159a006d67a834a7b1a771c18191cc_img.jpg)
 
 **Deling av informasjon i felles journalløsning**
 
@@ -1818,7 +1818,7 @@ Hovedområdet SH Yte helse- og omsorgshjelp, beskrevet i kapabilitetsmodellen i 
 
 Figur 20 gir en oversikt over de virksomhetskapabiliteter som er beskrevet i dette avsnittet (blå bokser).
 
-![](38a51baf4d5b8857d162e5d9a0645269_img.jpg)
+![](images/Bilag G1 Felles kommunal journalløsning/38a51baf4d5b8857d162e5d9a0645269_img.jpg)
 
 **SH. Yte helse- og omsorgshjelp**
 
@@ -1850,7 +1850,7 @@ Dette er en virksomhets evne til å utvikle kunnskap, ferdigheter, forpliktelser
 
 Figur 21 gir en oversikt over de tre underkapabilitetene i SH1 Planlegge og utføre helsefremmende arbeid og forebygging. Pilene i figuren indikerer at kapabilitetene er del av en sekvens som til sammen fører til et resultat.
 
-![Diagram showing the sequence of activities for SH1. Planlegge og utføre helsefremmende arbeid og forebygging. The process is divided into three main stages: SH1.1, SH1.2, and SH1.3. SH1.1 involves identifying and prioritizing factors and gathering information. SH1.2 involves planning and implementing population-level measures. SH1.3 involves preventing and limiting disease in individuals. Arrows show the flow from SH1.1 to SH1.2 to SH1.3, and within each stage, from top to bottom. A final arrow points from SH1.3 to a circle representing the outcome: 'Vurdere, diagnostisere, behandle og pleie pasient'.](347010b7ac06d3ae97927fde0f784d7c_img.jpg)
+![Diagram showing the sequence of activities for SH1. Planlegge og utføre helsefremmende arbeid og forebygging. The process is divided into three main stages: SH1.1, SH1.2, and SH1.3. SH1.1 involves identifying and prioritizing factors and gathering information. SH1.2 involves planning and implementing population-level measures. SH1.3 involves preventing and limiting disease in individuals. Arrows show the flow from SH1.1 to SH1.2 to SH1.3, and within each stage, from top to bottom. A final arrow points from SH1.3 to a circle representing the outcome: 'Vurdere, diagnostisere, behandle og pleie pasient'.](images/Bilag G1 Felles kommunal journalløsning/347010b7ac06d3ae97927fde0f784d7c_img.jpg)
 
 **SH1. Planlegge og utføre helsefremmende arbeid og forebygging**
 
@@ -1921,7 +1921,7 @@ Figur 22 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the structure of the 'Planlegge og utføre helsefremmende arbeid og forebygging' process, divided into three main sections: SH1.1, SH1.2, and SH1.3.](c98721cd60df9be3ed129ce2345d763d_img.jpg)
+![Diagram showing the structure of the 'Planlegge og utføre helsefremmende arbeid og forebygging' process, divided into three main sections: SH1.1, SH1.2, and SH1.3.](images/Bilag G1 Felles kommunal journalløsning/c98721cd60df9be3ed129ce2345d763d_img.jpg)
 
 The diagram is titled 'SH1. Planlegge og utføre helsefremmende arbeid og forebygging'. It is divided into three main boxes:
 
@@ -1957,7 +1957,7 @@ Det er behov for en journalløsning med funksjonalitet som kan støtte kapabilit
 
 Figur 23 gir en oversikt over funksjonalitet som er nødvendig for å forhindre og kontrollere sykdom i en gruppe av mennesker. Den inkluderer også funksjonalitet for å avgi informasjon til systemer innenfor medisinsk forskning, fremme av befolkningshelse og kvalitetsforbedringer for ulike pasientgrupper.
 
-![Diagram showing functional requirements for SH1: Planlegge og utføre helsefremmende arbeid og forebygging. It is divided into three main sections: SH1.1, SH1.2, and SH1.3, each with specific sub-tasks.](350dece6293a0ac3d4c9e4bf41eefa5d_img.jpg)
+![Diagram showing functional requirements for SH1: Planlegge og utføre helsefremmende arbeid og forebygging. It is divided into three main sections: SH1.1, SH1.2, and SH1.3, each with specific sub-tasks.](images/Bilag G1 Felles kommunal journalløsning/350dece6293a0ac3d4c9e4bf41eefa5d_img.jpg)
 
 **SH1. Planlegge og utføre helsefremmende arbeid og forebygging**
 
@@ -2015,7 +2015,7 @@ Kapabiliteten beskriver en kommunes plikt til å sørge for å tilby innbyggerne
 
 Figur 24 gir en oversikt over de to underkapabilitetene innen SH2 Håndtere ulykker og andre akutte hendelser.
 
-![Diagram showing the two sub-capabilities of SH2: SH2.1 (Establish and drive the emergency response center) and SH2.2 (Establish and drive the response for accidents and other acute incidents). Each sub-capability has a specific use-case (SH2.1.1 and SH2.2.1) leading to a specific action (SH2.1.2 and SH2.2.2) via a central evaluation step (SH4.1).](b63f41ca262d8ce9ef8affb62607f32b_img.jpg)
+![Diagram showing the two sub-capabilities of SH2: SH2.1 (Establish and drive the emergency response center) and SH2.2 (Establish and drive the response for accidents and other acute incidents). Each sub-capability has a specific use-case (SH2.1.1 and SH2.2.1) leading to a specific action (SH2.1.2 and SH2.2.2) via a central evaluation step (SH4.1).](images/Bilag G1 Felles kommunal journalløsning/b63f41ca262d8ce9ef8affb62607f32b_img.jpg)
 
 **SH2. Håndtere ulykker og andre akutte hendelser**
 
@@ -2069,7 +2069,7 @@ Figur 25 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the actors involved in handling accidents and other acute incidents, divided into 'Utførende' (Executing) and 'Støttende' (Supporting) roles.](bb3063a33c89b248574f64b6d8dfc404_img.jpg)
+![Diagram showing the actors involved in handling accidents and other acute incidents, divided into 'Utførende' (Executing) and 'Støttende' (Supporting) roles.](images/Bilag G1 Felles kommunal journalløsning/bb3063a33c89b248574f64b6d8dfc404_img.jpg)
 
 **SH2. Håndtere ulykker og andre akutte hendelser**
 
@@ -2101,7 +2101,7 @@ Det er behov for at alle nødvendig og relevante helseopplysninger er tilgjengel
 
 Både legevaktsentralen, legevakt og vakthavende helsepersonell har behov for å ha tilgang til relativt mye funksjonalitet og ikke minst de mest nødvendige helseopplysningene for den pasienten de er i kontakt med. Figur 26 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum. Funksjonalitet som er nødvendig for å vurdere, diagnostisere, behandle og pleie pasient i akutte situasjoner blir ikke beskrevet i denne oversikten, men står beskrevet i avsnitt 4.4.3.
 
-![Diagram showing functional requirements for SH2. Håndtere ulykker og andre akutte hendelser, divided into SH2.1 and SH2.2.](bd50d56ae2c12a92466ba2aea1a78040_img.jpg)
+![Diagram showing functional requirements for SH2. Håndtere ulykker og andre akutte hendelser, divided into SH2.1 and SH2.2.](images/Bilag G1 Felles kommunal journalløsning/bd50d56ae2c12a92466ba2aea1a78040_img.jpg)
 
 **SH2. Håndtere ulykker og andre akutte hendelser**
 
@@ -2177,7 +2177,7 @@ Denne kapabiliteten beskriver kommunenes evne til å tilby de helse- og omsorgst
 
 Figur 27 gir en oversikt over de fem underkapabilitetene innen SH4 Vurdere, diagnostisere, behandle og pleie pasient.
 
-![Flowchart titled 'SH4. Vurdere, diagnostisere, behandle og pleie pasient' showing the process flow for patient assessment, diagnosis, treatment, and follow-up.](dbfe5a97dc7e71fd9ae813d4bb865e29_img.jpg)
+![Flowchart titled 'SH4. Vurdere, diagnostisere, behandle og pleie pasient' showing the process flow for patient assessment, diagnosis, treatment, and follow-up.](images/Bilag G1 Felles kommunal journalløsning/dbfe5a97dc7e71fd9ae813d4bb865e29_img.jpg)
 
 ```
 
@@ -2300,7 +2300,7 @@ Figur 28 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - **Utførende:** den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - **Støttende** – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the distribution of actors for the capability 'SH4. Vurdere, diagnostisere, behandle og pleie pasient' across five sub-capabilities (SH4.1 to SH4.5). Actors are categorized into 'Utførende' (執行者) and 'Støttende' (支持者).](5509e6ec160899dd306e462bb6a3643b_img.jpg)
+![Diagram showing the distribution of actors for the capability 'SH4. Vurdere, diagnostisere, behandle og pleie pasient' across five sub-capabilities (SH4.1 to SH4.5). Actors are categorized into 'Utførende' (執行者) and 'Støttende' (支持者).](images/Bilag G1 Felles kommunal journalløsning/5509e6ec160899dd306e462bb6a3643b_img.jpg)
 
 **SH4. Vurdere, diagnostisere, behandle og pleie pasient**
 
@@ -2403,7 +2403,7 @@ Figur 29 gir en oversikt over de funksjonelle områdene som det er behov for i e
 - Nivå 1 (formålsområdet), f.eks. *Dokumentasjon av forløp og tilstand*, er ment å beskrive formålet med funksjonaliteten.
 - Nivå 2 (funksjonelt område), f.eks. *Håndtere pasientsummering og historikk*, er ment å beskrive funksjonelle områder som er nødvendige for å dekke formålet.
 
-![](bbddeb46a8bee133d49003273fcfc8dd_img.jpg)
+![](images/Bilag G1 Felles kommunal journalløsning/bbddeb46a8bee133d49003273fcfc8dd_img.jpg)
 
 SH4. Vurdere, diagnostisere, behandle og pleie pasient
 
@@ -2477,7 +2477,7 @@ Hovedområdet SHS Gi støtte til ytelse av helse- og omsorgshjelp, beskrevet i k
 
 Figur 30 gir en oversikt over de virksomhetskapabiliteter som er beskrevet i dette avsnittet.
 
-![Diagram showing the structure of SHS (Samordnet Helse- og Omsorgstjeneste) with five main columns: SHS1. Administrere helsehjelp, SHS2. Understøtte samhandling, SHS3. Håndtere utstyr og hjelpemidler, SHS4. Håndtere smittevern, biologisk avfall og engangsutstyr, and SHS5. Gjennomføre velferdstiltak. Each column contains specific use-cases. A legend at the bottom indicates that blue boxes are described in Bilag 1, grey boxes in Bilag 2 - Helhetlig samhandling, and red boxes are not for the action.](6f46eccb86e008f8bc7af8ea3ab806a7_img.jpg)
+![Diagram showing the structure of SHS (Samordnet Helse- og Omsorgstjeneste) with five main columns: SHS1. Administrere helsehjelp, SHS2. Understøtte samhandling, SHS3. Håndtere utstyr og hjelpemidler, SHS4. Håndtere smittevern, biologisk avfall og engangsutstyr, and SHS5. Gjennomføre velferdstiltak. Each column contains specific use-cases. A legend at the bottom indicates that blue boxes are described in Bilag 1, grey boxes in Bilag 2 - Helhetlig samhandling, and red boxes are not for the action.](images/Bilag G1 Felles kommunal journalløsning/6f46eccb86e008f8bc7af8ea3ab806a7_img.jpg)
 
 | SHS. Gi støtte til ytelse av helse og omsorgshjelp     |                                                                 |                                                                     |                                                                   |                                                              |
 |--------------------------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------|
@@ -2517,7 +2517,7 @@ I de følgende kapittel beskrives use-cases for hver underkapabilitet knyttet ti
 
 Denne kapabiliteten beskriver en virksomhets evne til å håndtere den administrative delen av å tilby helse- og omsorgstjenester. Dette inkluderer all form for kontakthåndtering, prioritering og planlegging av aktiviteter og ressurser knyttet til diagnostisering og behandling, samt koordinering av all transport.
 
-![Diagram showing the structure of SHS1. Administrere helse- og omsorgshjelp, divided into eight main sub-capabilities, each with specific use-cases.](7dfe05137c554aca6bed20d67e52d739_img.jpg)
+![Diagram showing the structure of SHS1. Administrere helse- og omsorgshjelp, divided into eight main sub-capabilities, each with specific use-cases.](images/Bilag G1 Felles kommunal journalløsning/7dfe05137c554aca6bed20d67e52d739_img.jpg)
 
 The diagram illustrates the structure of SHS1. Administrere helse- og omsorgshjelp, organized into eight main sub-capabilities, each with specific use-cases:
 
@@ -2594,7 +2594,7 @@ Figur 32 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the actors involved in the capability SHS1.1: Opprette og forvalte team. The diagram is divided into two main sections: 'Utførende' (Executing) and 'Støttende' (Supporting). The 'Utførende' section includes: Fastlege, Hjemme-tjenester, Helsestasjon/ skolehelse-tjeneste, Habilitering/ rehabilitering, Fysioterapi-tjeneste, Tildelings-kontor, Sykehjem/ annen institusjon, Heldøgns medisinsk akutt-beredskap, Kommune-lege, and Fengsels-helse-tjeneste. The 'Støttende' section includes: Legevakt, Personlig assistanse, Offentlig tannhelse-tjeneste, and Frisklivs-sentral.](d197b6ded14ea918198a280ff07122b8_img.jpg)
+![Diagram showing the actors involved in the capability SHS1.1: Opprette og forvalte team. The diagram is divided into two main sections: 'Utførende' (Executing) and 'Støttende' (Supporting). The 'Utførende' section includes: Fastlege, Hjemme-tjenester, Helsestasjon/ skolehelse-tjeneste, Habilitering/ rehabilitering, Fysioterapi-tjeneste, Tildelings-kontor, Sykehjem/ annen institusjon, Heldøgns medisinsk akutt-beredskap, Kommune-lege, and Fengsels-helse-tjeneste. The 'Støttende' section includes: Legevakt, Personlig assistanse, Offentlig tannhelse-tjeneste, and Frisklivs-sentral.](images/Bilag G1 Felles kommunal journalløsning/d197b6ded14ea918198a280ff07122b8_img.jpg)
 
 **SHS1.1. Opprette og forvalte team**
 
@@ -2632,7 +2632,7 @@ Det er et absolutt krav at fremtidens felles journalløsning må kunne understø
 
 Figur 33 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabiliteten SHS1.1 Opprette og forvalte team.
 
-![Diagram showing the functional requirements for creating and managing a team. The main box is titled 'SHS1.1. Opprette og forvalte team'. Inside, there is a box for 'Dokumentasjon av forløp og tilstand' and three sub-boxes: 'Håndtere informasjon om helsetjenestetilbydere', 'Håndtere pasientdemografi, lokasjon og synkronisering', and 'Håndtere ressurstilgjengelighet'.](7c3ecd751b69a0fc7b08633a84822f42_img.jpg)
+![Diagram showing the functional requirements for creating and managing a team. The main box is titled 'SHS1.1. Opprette og forvalte team'. Inside, there is a box for 'Dokumentasjon av forløp og tilstand' and three sub-boxes: 'Håndtere informasjon om helsetjenestetilbydere', 'Håndtere pasientdemografi, lokasjon og synkronisering', and 'Håndtere ressurstilgjengelighet'.](images/Bilag G1 Felles kommunal journalløsning/7c3ecd751b69a0fc7b08633a84822f42_img.jpg)
 
 ```
 
@@ -2684,7 +2684,7 @@ Figur 34 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing two panels of actors for different capabilities. Panel SHS1.2 'Prioritere og planlegge oppgaver og aktiviteter' lists 12 actors in a 3x4 grid. Panel SHS1.3 'Støtte oppgave- og ansvarsoverføring' lists 11 actors in a 3x4 grid. Both panels have 'Utførende' and 'Støttende' labels at the bottom.](51167ecef86d85cdc6dde05a3afb74b8_img.jpg)
+![Diagram showing two panels of actors for different capabilities. Panel SHS1.2 'Prioritere og planlegge oppgaver og aktiviteter' lists 12 actors in a 3x4 grid. Panel SHS1.3 'Støtte oppgave- og ansvarsoverføring' lists 11 actors in a 3x4 grid. Both panels have 'Utførende' and 'Støttende' labels at the bottom.](images/Bilag G1 Felles kommunal journalløsning/51167ecef86d85cdc6dde05a3afb74b8_img.jpg)
 
 **SHS1.2 Prioritere og planlegge oppgaver og aktiviteter**
 
@@ -2736,7 +2736,7 @@ Gjennom at helsepersonell i kommunal helse- og omsorgstjeneste bruker felles jou
 
 Figur 35 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabilitetene.
 
-![Diagram showing functional needs for prioritizing and planning tasks (SHS1.2) and supporting task and responsibility transfer (SHS1.3). Both sections include a 'Dokumentasjon av forløp og tilstand' box and several sub-tasks related to information handling, patient demographics, resource availability, and clinical workflow.](5a01395925fc88802da68fb5ac0f31ff_img.jpg)
+![Diagram showing functional needs for prioritizing and planning tasks (SHS1.2) and supporting task and responsibility transfer (SHS1.3). Both sections include a 'Dokumentasjon av forløp og tilstand' box and several sub-tasks related to information handling, patient demographics, resource availability, and clinical workflow.](images/Bilag G1 Felles kommunal journalløsning/5a01395925fc88802da68fb5ac0f31ff_img.jpg)
 
 The diagram consists of two side-by-side boxes, each representing a functional need for a common journal solution.
 
@@ -2787,7 +2787,7 @@ Figur 36 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the actors involved in the 'Støtte koding og avstemming' (Support coding and agreement) process. The diagram is titled 'SHS 1.4 Støtte koding og avstemming'. It features a grid of 12 icons representing different actors, arranged in three columns. The first column contains: Legevakt-sentral, Hjemmetjenester, Sykehus/ annen institusjon, Offentlig tannhelse-tjeneste, and Tildelings-kontor. The second column contains: Legevakt, Helsestasjon/ skolehelse, Helse- medisinsk akutt-beredskap, and Fengsels-helse-tjeneste. The third column contains: Fastlege, Habilitering/ rehabilitering, Fysioterapi-tjeneste, and Kommune-lege. Below the grid are two buttons: 'Utførende' ( green ) and 'Støttende' ( yellow ).](74fd2e41231630ea45706acca03e46f7_img.jpg)
+![Diagram showing the actors involved in the 'Støtte koding og avstemming' (Support coding and agreement) process. The diagram is titled 'SHS 1.4 Støtte koding og avstemming'. It features a grid of 12 icons representing different actors, arranged in three columns. The first column contains: Legevakt-sentral, Hjemmetjenester, Sykehus/ annen institusjon, Offentlig tannhelse-tjeneste, and Tildelings-kontor. The second column contains: Legevakt, Helsestasjon/ skolehelse, Helse- medisinsk akutt-beredskap, and Fengsels-helse-tjeneste. The third column contains: Fastlege, Habilitering/ rehabilitering, Fysioterapi-tjeneste, and Kommune-lege. Below the grid are two buttons: 'Utførende' ( green ) and 'Støttende' ( yellow ).](images/Bilag G1 Felles kommunal journalløsning/74fd2e41231630ea45706acca03e46f7_img.jpg)
 
 Diagram showing the actors involved in the 'Støtte koding og avstemming' (Support coding and agreement) process. The diagram is titled 'SHS 1.4 Støtte koding og avstemming'. It features a grid of 12 icons representing different actors, arranged in three columns. The first column contains: Legevakt-sentral, Hjemmetjenester, Sykehus/ annen institusjon, Offentlig tannhelse-tjeneste, and Tildelings-kontor. The second column contains: Legevakt, Helsestasjon/ skolehelse, Helse- medisinsk akutt-beredskap, and Fengsels-helse-tjeneste. The third column contains: Fastlege, Habilitering/ rehabilitering, Fysioterapi-tjeneste, and Kommune-lege. Below the grid are two buttons: 'Utførende' ( green ) and 'Støttende' ( yellow ).
 
@@ -2805,7 +2805,7 @@ Felles journalløsning skal understøtte effektiv koding basert på dokumentasjo
 
 Figur 37 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabiliteten.
 
-![Diagram showing the functional needs for SHS 1.4 Support coding and synchronization. The main box is labeled 'SHS 1.4 Støtte koding og avstemming'. Inside, there are two sub-boxes: 'Støtte koding og avstemming' and 'Støtte håndtering av kontakt eller omsorgsperiode'.](48b17e34bf39cb8a801a634c791250c0_img.jpg)
+![Diagram showing the functional needs for SHS 1.4 Support coding and synchronization. The main box is labeled 'SHS 1.4 Støtte koding og avstemming'. Inside, there are two sub-boxes: 'Støtte koding og avstemming' and 'Støtte håndtering av kontakt eller omsorgsperiode'.](images/Bilag G1 Felles kommunal journalløsning/48b17e34bf39cb8a801a634c791250c0_img.jpg)
 
 ```
 
@@ -2847,7 +2847,7 @@ for helse- og omsorgstjenesten i Norge. Vi har derfor valgt å beskrive use-case
 
 Figur 38 gir en oversikt tilhørende use-cases innen underkapabiliteten.
 
-![Diagram showing use-cases for SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester.](7c1ccebd0e8661557a8ffc00cfae58a0_img.jpg)
+![Diagram showing use-cases for SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester.](images/Bilag G1 Felles kommunal journalløsning/7c1ccebd0e8661557a8ffc00cfae58a0_img.jpg)
 
 ```
 graph TD; SHS15[SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester] --> SHS151[SHS1.5.1 Motta søknad og vurdere behovet for tjenester]; SHS15 --> SHS154[SHS1.5.4 Vurdere omgjøring av vedtak/ tjenestetilbud]; SHS15 --> SHS152[SHS1.5.2 Tildele og iverksette tjenester]; SHS15 --> SHS155[SHS1.5.5 Håndtere beslutninger knyttet til ufrivillig behandling]; SHS15 --> SHS153[SHS1.5.3 Motta og behandle klage på vedtak/beslutning];
@@ -2873,7 +2873,7 @@ De fleste kommuner har egne søknadsskjemaer. Kommunen kan imidlertid ikke kreve
 
 opplysningene de blir kjent med, i den utstrekning den foreliggende informasjonen gir grunnlag for dette.
 
-![Flowchart of Use-case 39: Motta søknad og vurdere behovet for tjenester. The diagram shows interactions between 'INNBYGGER/PÅRØRENDE' (top), 'SHS1.5.1 Motta søknad og vurdere behovet for tjenester' (middle), and 'FOLKeregister' (bottom). The process starts with the user requesting help, followed by optional help request and guidance. The main flow is: Motta søknad om helse- og omsorgstjenester -> Innhente relevante opplysninger -> Utrede hjelpebehov -> Gi tilgang til sakens dokumenter -> SHS1.5.2 Tildel og iverksatte tjenester. Data flows include søknad, veiledning, and saksdokumenter.](81a0abf9a79b27cf9d765553216b173c_img.jpg)
+![Flowchart of Use-case 39: Motta søknad og vurdere behovet for tjenester. The diagram shows interactions between 'INNBYGGER/PÅRØRENDE' (top), 'SHS1.5.1 Motta søknad og vurdere behovet for tjenester' (middle), and 'FOLKeregister' (bottom). The process starts with the user requesting help, followed by optional help request and guidance. The main flow is: Motta søknad om helse- og omsorgstjenester -> Innhente relevante opplysninger -> Utrede hjelpebehov -> Gi tilgang til sakens dokumenter -> SHS1.5.2 Tildel og iverksatte tjenester. Data flows include søknad, veiledning, and saksdokumenter.](images/Bilag G1 Felles kommunal journalløsning/81a0abf9a79b27cf9d765553216b173c_img.jpg)
 
 ```
 
@@ -2947,7 +2947,7 @@ Det skal også fremgå av vedtaket at det er klageadgang, hva klagefristen er, h
 
 Tjenestene skal iverksettes fra det tidspunktet pasient/brukers behov tilsier det, altså innen forsvarlig tid, jf. pasient- og brukerrettighetsloven § 2-1 a og helse- og omsorgstjenesteloven § 4-1. Hva som er forsvarlig, vil bero på et helse- og sosialfaglig skjønn, og skal fremgå av vedtaket.
 
-![BPMN 2.0 process diagram for SHS1.5.2 Tildele og iverksette tjenester. The process starts with an event 'SHS1.5.1 Motta søknad og vurdere behovet for tjenester'. It flows to a task 'Vurdere om rettigheter er oppfylt', then to a decision 'Rettighet oppfylt?'. If 'NEI', it goes to 'Generere avslag på søknad' and then to 'SLUTT'. If 'JA', it goes to 'Utforme tjenester', then to 'Vurdere kapasitet for å iverksette tjenester', then to 'Generere enkeltvedtak om helse- og omsorgstjeneste', and finally to 'SLUTT'. There are intermediate tasks for 'Klage er godkjent' and 'Klage på vedtak/beslutninger'. The process is bounded by swimlanes for 'INNBRYGER/PÅRØRENDE' and 'SAKSARKIV'. Data objects like 'Avslag', 'saksdokumenter', and 'vedtak' are shown as inputs/outputs.](98d9a07b2cfa04ebea4e5a4b556d184a_img.jpg)
+![BPMN 2.0 process diagram for SHS1.5.2 Tildele og iverksette tjenester. The process starts with an event 'SHS1.5.1 Motta søknad og vurdere behovet for tjenester'. It flows to a task 'Vurdere om rettigheter er oppfylt', then to a decision 'Rettighet oppfylt?'. If 'NEI', it goes to 'Generere avslag på søknad' and then to 'SLUTT'. If 'JA', it goes to 'Utforme tjenester', then to 'Vurdere kapasitet for å iverksette tjenester', then to 'Generere enkeltvedtak om helse- og omsorgstjeneste', and finally to 'SLUTT'. There are intermediate tasks for 'Klage er godkjent' and 'Klage på vedtak/beslutninger'. The process is bounded by swimlanes for 'INNBRYGER/PÅRØRENDE' and 'SAKSARKIV'. Data objects like 'Avslag', 'saksdokumenter', and 'vedtak' are shown as inputs/outputs.](images/Bilag G1 Felles kommunal journalløsning/98d9a07b2cfa04ebea4e5a4b556d184a_img.jpg)
 
 ```
 
@@ -3002,7 +3002,7 @@ Fylkesmannen skal ved prøving av kommunale vedtak om helsetjenester legge vekt 
 
 Blir et vedtak endret til gunst for klageren, har klageren krav på å få dekket kostnader som har vært nødvendige for å få endret vedtaket, jf. forvaltningsloven § 36. f.eks. utgifter til advokat.
 
-![Flowchart of the use-case for receiving and processing complaints. The process starts with a 'Søknad om tjenester er avsluttet' (Service request completed) event. The 'KLAGEINSTANS' (Complaint Instance) receives a 'Klage' (Complaint) and 'Klagefrist utløpt' (Complaint deadline expired). The 'KLAGEINSTANS' then 'Motta og behandle klage på vedtak/beslutning' (Receive and process complaint on decision/conclusion). The 'KLAGEINSTANS' then 'Innhente nye opplysninger' (Obtain new information). The 'KLAGEINSTANS' then 'Vurdere på nytt om søknad er oppfylt' (Evaluate again if the request is fulfilled). The 'KLAGEINSTANS' then 'Forberede klagesaksbehandling' (Prepare complaint processing). The 'KLAGEINSTANS' then 'Registrere klagesaken' (Register the complaint case). The 'KLAGEINSTANS' then 'Overføre sak til klageinstans' (Transfer case to complaint instance). The 'KLAGEINSTANS' then 'Motta og vurdere vedtak fra klageinstans' (Receive and evaluate decision from complaint instance). The 'KLAGEINSTANS' then 'Registrere avslag' (Register rejection). The process ends with a 'SLUTT' (End) event.](06b83e9b87612260a1221a69827ba169_img.jpg)
+![Flowchart of the use-case for receiving and processing complaints. The process starts with a 'Søknad om tjenester er avsluttet' (Service request completed) event. The 'KLAGEINSTANS' (Complaint Instance) receives a 'Klage' (Complaint) and 'Klagefrist utløpt' (Complaint deadline expired). The 'KLAGEINSTANS' then 'Motta og behandle klage på vedtak/beslutning' (Receive and process complaint on decision/conclusion). The 'KLAGEINSTANS' then 'Innhente nye opplysninger' (Obtain new information). The 'KLAGEINSTANS' then 'Vurdere på nytt om søknad er oppfylt' (Evaluate again if the request is fulfilled). The 'KLAGEINSTANS' then 'Forberede klagesaksbehandling' (Prepare complaint processing). The 'KLAGEINSTANS' then 'Registrere klagesaken' (Register the complaint case). The 'KLAGEINSTANS' then 'Overføre sak til klageinstans' (Transfer case to complaint instance). The 'KLAGEINSTANS' then 'Motta og vurdere vedtak fra klageinstans' (Receive and evaluate decision from complaint instance). The 'KLAGEINSTANS' then 'Registrere avslag' (Register rejection). The process ends with a 'SLUTT' (End) event.](images/Bilag G1 Felles kommunal journalløsning/06b83e9b87612260a1221a69827ba169_img.jpg)
 
 Flowchart of the use-case for receiving and processing complaints. The process starts with a 'Søknad om tjenester er avsluttet' (Service request completed) event. The 'KLAGEINSTANS' (Complaint Instance) receives a 'Klage' (Complaint) and 'Klagefrist utløpt' (Complaint deadline expired). The 'KLAGEINSTANS' then 'Motta og behandle klage på vedtak/beslutning' (Receive and process complaint on decision/conclusion). The 'KLAGEINSTANS' then 'Innhente nye opplysninger' (Obtain new information). The 'KLAGEINSTANS' then 'Vurdere på nytt om søknad er oppfylt' (Evaluate again if the request is fulfilled). The 'KLAGEINSTANS' then 'Forberede klagesaksbehandling' (Prepare complaint processing). The 'KLAGEINSTANS' then 'Registrere klagesaken' (Register the complaint case). The 'KLAGEINSTANS' then 'Overføre sak til klageinstans' (Transfer case to complaint instance). The 'KLAGEINSTANS' then 'Motta og vurdere vedtak fra klageinstans' (Receive and evaluate decision from complaint instance). The 'KLAGEINSTANS' then 'Registrere avslag' (Register rejection). The process ends with a 'SLUTT' (End) event.
 
@@ -3033,7 +3033,7 @@ Kommunen kan når som helst endre et vedtak til gunst for parten, jf. forvaltnin
 
 Endringer av tjenestetilbudet til ugunst for pasient/bruker kan bare skje der vedtaket er ugyldig, eller endringsadgangen følger av loven, vedtaket selv eller alminnelig forvaltningsrettslige prinsipper.
 
-![Flowchart for use-case SHS1.5.4 Vurdere omgjøring av vedtak/tjenestetilbud. The process starts with 'INNBYGGER/PÅRØRENDE' providing input. The main flow is: 'Vurdere om det er behov for et omgjøningsvedtak' (with inputs from 'Det har fremkommet Opplysninger om feil i et enkeltvedtak', 'Det har skjedd endringer i pasientens/brukerens behov eller situasjon', and 'Det har skjedd endringer i organiseringen av tjenestetilbudet') -> Decision 'Behov for Omgjøringsvedtak' (JA/NEI). If JA, it goes to 'Utforme tjenester' -> 'Vurdere kapasitet for å iverksette tjenester' -> Decision 'Ønsker brukeren å bytte tjenesteinnhold' (NEI). If NEI, it goes to 'Generere omgjøningsvedtak' -> 'SLUTT'. If NEI from the first decision, it goes to 'SLUTT'. Data objects include 'Vedtak' and 'Saksdokumenter'.](633fb609c4b7e841224c558b9db215bf_img.jpg)
+![Flowchart for use-case SHS1.5.4 Vurdere omgjøring av vedtak/tjenestetilbud. The process starts with 'INNBYGGER/PÅRØRENDE' providing input. The main flow is: 'Vurdere om det er behov for et omgjøningsvedtak' (with inputs from 'Det har fremkommet Opplysninger om feil i et enkeltvedtak', 'Det har skjedd endringer i pasientens/brukerens behov eller situasjon', and 'Det har skjedd endringer i organiseringen av tjenestetilbudet') -> Decision 'Behov for Omgjøringsvedtak' (JA/NEI). If JA, it goes to 'Utforme tjenester' -> 'Vurdere kapasitet for å iverksette tjenester' -> Decision 'Ønsker brukeren å bytte tjenesteinnhold' (NEI). If NEI, it goes to 'Generere omgjøningsvedtak' -> 'SLUTT'. If NEI from the first decision, it goes to 'SLUTT'. Data objects include 'Vedtak' and 'Saksdokumenter'.](images/Bilag G1 Felles kommunal journalløsning/633fb609c4b7e841224c558b9db215bf_img.jpg)
 
 ```
 
@@ -3077,7 +3077,7 @@ Figur 43 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - **Utførende:** den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - **Støttende** – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram titled 'SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester'. It shows a grid of 15 service categories divided into 'Utførende' (Executing) and 'Støttende' (Supporting) roles. The 'Utførende' row includes: Tildelings-kontor, Hjemme-tjenester, Legevaktsentral, Legevaktsentral, Fastlege, Helsestasjon/skolehelse-tjeneste, Habilitering/rehabilitering, Fysioterapi-tjeneste, Sykehjem/annen institusjon, Hovedgns med sinnsk akutt-beredskap, Fængsels-helse-tjeneste, Kommune-lege, Kommune-psykolog, and Friskilve-sentral. The 'Støttende' row is empty.](eabcb2f8b9acedb194571d5bc734b463_img.jpg)
+![Diagram titled 'SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester'. It shows a grid of 15 service categories divided into 'Utførende' (Executing) and 'Støttende' (Supporting) roles. The 'Utførende' row includes: Tildelings-kontor, Hjemme-tjenester, Legevaktsentral, Legevaktsentral, Fastlege, Helsestasjon/skolehelse-tjeneste, Habilitering/rehabilitering, Fysioterapi-tjeneste, Sykehjem/annen institusjon, Hovedgns med sinnsk akutt-beredskap, Fængsels-helse-tjeneste, Kommune-lege, Kommune-psykolog, and Friskilve-sentral. The 'Støttende' row is empty.](images/Bilag G1 Felles kommunal journalløsning/eabcb2f8b9acedb194571d5bc734b463_img.jpg)
 
 | SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester |  |  |                                     |  |                  |                         |           |  |  |  |  |  |  |  |
 |-------------------------------------------------------------------|--|--|-------------------------------------|--|------------------|-------------------------|-----------|--|--|--|--|--|--|--|
@@ -3122,7 +3122,7 @@ Dagens journalløsninger som brukes i kommunene er utviklet for å støtte saksb
 
 Figur 44 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabilitetene.
 
-![Diagram showing functional requirements for a common journal solution for SHS1.5 Handover distribution of municipal health and care services. The diagram is a large rounded rectangle containing a header box 'SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester', a central box 'Dokumentasjon av forløp og tilstand', and three bottom boxes: 'Håndtere tildeling av kommunale helse- og omsorgstjenester', 'Preferanser, direktiver, samtykker og autorisasjoner', and 'Håndtere ressurs-tilgjengelighet'.](427095219f3706148e8c03f1013eaec8_img.jpg)
+![Diagram showing functional requirements for a common journal solution for SHS1.5 Handover distribution of municipal health and care services. The diagram is a large rounded rectangle containing a header box 'SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester', a central box 'Dokumentasjon av forløp og tilstand', and three bottom boxes: 'Håndtere tildeling av kommunale helse- og omsorgstjenester', 'Preferanser, direktiver, samtykker og autorisasjoner', and 'Håndtere ressurs-tilgjengelighet'.](images/Bilag G1 Felles kommunal journalløsning/427095219f3706148e8c03f1013eaec8_img.jpg)
 
 ```
 
@@ -3156,7 +3156,7 @@ Det er identifisert behov for å samhandle digitalt med innbygger. Disse behoven
 
 Figur 45 gir en forenklet oversikt over informasjonsbehovene ved samhandling med innbygger knyttet til område SHS1.5 Håndtere tildeling av kommunal helse- og omsorgstjeneste.
 
-![Diagram showing the information needs for the process 'SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester (Samhandling med innbygger)'. The diagram is divided into three sections: 'Saksbehandling' (top), 'Informasjonselementer' (middle), and 'Innbygger' (bottom).](0b2ee589f5c7802f3d332f421340cae1_img.jpg)
+![Diagram showing the information needs for the process 'SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester (Samhandling med innbygger)'. The diagram is divided into three sections: 'Saksbehandling' (top), 'Informasjonselementer' (middle), and 'Innbygger' (bottom).](images/Bilag G1 Felles kommunal journalløsning/0b2ee589f5c7802f3d332f421340cae1_img.jpg)
 
 **SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester (Samhandling med innbygger)**
 
@@ -3206,7 +3206,7 @@ Det er identifisert behov for å samhandle med andre statlige og kommunale tjene
 
 Figur 46 gir en forenklet oversikt over informasjonsbehovene ved samhandling med klageinstans og folkeregisteret for å håndtere tildeling av kommunale helse og omsorgstjenester.
 
-![Diagram SHS1.5 showing the process of handling service allocation with external agencies. It includes a 'Saksbehandling' section with steps: 'Motta søknad og vurdere behovet for tjenester' -> 'Tildile og iverksette tjenester' -> 'Vurdere omgjøring av vedtak/tjenestetilbud' -> 'Motta og behandle klage på vedtak/beslutning' -> 'Håndtere beslutninger knyttet til ufrivillig behandling'. Below this is an 'Informasjonselementer' section with 'Personopplysninger' (connected to 'Folkeregister'), 'Informasjon om saksgang inkl. utfall', and 'Klage' (connected to 'Klage instans'). Data flows include 'Motta opplysninger', 'Send opplysninger', 'Vedtak/beslutning', 'Motta vedtak/beslutning', 'Vidreformløse klage', and 'Motta klage'.](708e7ef81dbf726e558047afe57d6ff7_img.jpg)
+![Diagram SHS1.5 showing the process of handling service allocation with external agencies. It includes a 'Saksbehandling' section with steps: 'Motta søknad og vurdere behovet for tjenester' -> 'Tildile og iverksette tjenester' -> 'Vurdere omgjøring av vedtak/tjenestetilbud' -> 'Motta og behandle klage på vedtak/beslutning' -> 'Håndtere beslutninger knyttet til ufrivillig behandling'. Below this is an 'Informasjonselementer' section with 'Personopplysninger' (connected to 'Folkeregister'), 'Informasjon om saksgang inkl. utfall', and 'Klage' (connected to 'Klage instans'). Data flows include 'Motta opplysninger', 'Send opplysninger', 'Vedtak/beslutning', 'Motta vedtak/beslutning', 'Vidreformløse klage', and 'Motta klage'.](images/Bilag G1 Felles kommunal journalløsning/708e7ef81dbf726e558047afe57d6ff7_img.jpg)
 
 **SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester (Samhandling med andre statlige og kommunale tjenester)**
 
@@ -3218,7 +3218,7 @@ Diagram SHS1.5 showing the process of handling service allocation with external 
 
 Arkivering av dokumentasjon knyttet til kommunens saksbehandling ifm. tildeling av kommunale helse- og omsorgstjenester skal følge Veileder for håndtering av dokumentasjon i pleie- og omsorgstjenesten (20) og arkivlova (21). Figur 47. gir en forenklet oversikt over informasjonsbehov med kommunale administrative systemer
 
-![Diagram SHS1.5 showing integration with the case archive. The 'Saksbehandling' section is similar to Figure 46. Below it, the 'Informasjonselementer' section contains 'Informasjon om saksgang inkl. utfall', which connects to a 'Sakarkiv' element. Data flows include 'Oppdater dokumentasjon' from the service steps to the information element, and 'Send til arkivering' from the information element to the archive.](67a1dd734d3de6e31754caf85d6fe77f_img.jpg)
+![Diagram SHS1.5 showing integration with the case archive. The 'Saksbehandling' section is similar to Figure 46. Below it, the 'Informasjonselementer' section contains 'Informasjon om saksgang inkl. utfall', which connects to a 'Sakarkiv' element. Data flows include 'Oppdater dokumentasjon' from the service steps to the information element, and 'Send til arkivering' from the information element to the archive.](images/Bilag G1 Felles kommunal journalløsning/67a1dd734d3de6e31754caf85d6fe77f_img.jpg)
 
 **SHS1.5 Håndtere tildeling av kommunale helse- og omsorgstjenester (Integrasjon med saksarkiv)**
 
@@ -3248,7 +3248,7 @@ Saksbehandler/helsepersonell trenger funksjonalitet som støtter dem i arbeidspr
 
 Figur 47 gir en oversikt tilhørende use-cases innen underkapabiliteten.
 
-![Diagram showing use-cases for SHS1.6 Administrere plasser og sengeplasser.](32d2783121efa86871886ed9d7678637_img.jpg)
+![Diagram showing use-cases for SHS1.6 Administrere plasser og sengeplasser.](images/Bilag G1 Felles kommunal journalløsning/32d2783121efa86871886ed9d7678637_img.jpg)
 
 The diagram illustrates the use-cases for the capability SHS1.6 Administrere plasser og sengeplasser. It consists of a large outer box containing three smaller boxes representing specific use-cases: SHS1.6.1 Håndtere tildeling av plass/seng, SHS1.6.2 Frigjøre seng/plass, and SHS1.6.3 Flytte pasient.
 
@@ -3264,7 +3264,7 @@ Figur 47. Oversikt over use-cases for å administrere plasser og sengeplasser
 
 Området håndtere tildeling av kommunale helse- og omsorgstjenester omfatter også prosessen med å vurdere hvor det er ledig kapasitet. Prosessen administrere plass/sengeplasser inntreffer etter at tjenesten er tildelt, eller det er besluttet at innbygger skal innlegges på institusjon. Som virksomhet er det viktig å ha god oversikt over ledig kapasitet, og bruk av plasser på institusjon. Kommunene har ulik organisering for tildeling av plass/seng og felles journalløsning må støtte ulik organisering av roller og ansvar i tildelingsprosessen.
 
-![Flowchart for SHS 1.6.1 Håndtere tildeling av plass/seng. The process starts with 'Det er besluttet at innbygger får tilbud om plass' leading to 'SHS1.5.2 Tildel og iverksette tjenester (U27)'. A decision 'Er det registrert særskilt ønske om plass?' branches into 'JA' (leading to 'Vurdere om det er ledig plass på ønsket institusjon') and 'NEI' (leading to 'Vurdere hvor det er ledig plass'). Both lead to 'Er det ledig plass på ønsket institusjon?'. If 'JA', it goes to 'Tildel plass og varsle bruker'. If 'NEI', it goes to 'Vurdere hvor det er ledig plass' and then to 'Tildel plass og varsle bruker'. Both lead to 'Iverksette tjenesten', then to 'Innbygger får plass/seng på institusjon'. Data flows include 'Informasjon om tildelt plass' and 'Takker ja til tildelt plass'.](c05763eff20551449de1eac378fed769_img.jpg)
+![Flowchart for SHS 1.6.1 Håndtere tildeling av plass/seng. The process starts with 'Det er besluttet at innbygger får tilbud om plass' leading to 'SHS1.5.2 Tildel og iverksette tjenester (U27)'. A decision 'Er det registrert særskilt ønske om plass?' branches into 'JA' (leading to 'Vurdere om det er ledig plass på ønsket institusjon') and 'NEI' (leading to 'Vurdere hvor det er ledig plass'). Both lead to 'Er det ledig plass på ønsket institusjon?'. If 'JA', it goes to 'Tildel plass og varsle bruker'. If 'NEI', it goes to 'Vurdere hvor det er ledig plass' and then to 'Tildel plass og varsle bruker'. Both lead to 'Iverksette tjenesten', then to 'Innbygger får plass/seng på institusjon'. Data flows include 'Informasjon om tildelt plass' and 'Takker ja til tildelt plass'.](images/Bilag G1 Felles kommunal journalløsning/c05763eff20551449de1eac378fed769_img.jpg)
 
 ```
 
@@ -3310,7 +3310,7 @@ Figur 48. Use-case for å håndtere tildeling av av plass/seng
 
 Helsepersonell trenger funksjonalitet som støtter dem i arbeidsprosesser ved inn- og utskrivning, uavhengig av om det er planlagt eller ikke. For eksempel ved forverring av tilstand, og pasient på korttidsophold må innlegges på sykehus, trenger helsepersonell funksjonalitet for å frigjøre plassen. Pasienten kan også velge å reise hjem før tiden og helsepersonell på avdelingen kan da frigjøre plassen. Etter dødsfall er det også behov for å frigjøre plassen. Helsepersonell kan også ha behov for å melde endring om at tidligere meldt ledig plass ikke lenger er ledig som følge av oppstått endring knyttet til pasient.
 
-![Flowchart for SHS1.6.2 Frigjøre plass/sengeplass. The process starts with 'planlagt utskrivelse' leading to a decision diamond. If 'JA', it goes to 'Frigjør plass/seng'. If 'NEI', it goes to 'Dødsfall', then to another decision diamond. From this second diamond, 'JA' leads to 'SHS1.1.7 Registrere dødsfall og arkivere journal U144', and 'NEI' leads to 'Legger inn pasient elektivt fra institusjon U015'. Both 'Frigjør plass/seng' and the process from 'SHS1.1.7' lead to 'SHS1.5.2 Tildele og iverksette tjenester (U27)'. From 'SHS1.5.2', it leads to the final state 'Innbygger får plass/seng på institusjon'.](c5424b117a719524c619938e97c4cb1f_img.jpg)
+![Flowchart for SHS1.6.2 Frigjøre plass/sengeplass. The process starts with 'planlagt utskrivelse' leading to a decision diamond. If 'JA', it goes to 'Frigjør plass/seng'. If 'NEI', it goes to 'Dødsfall', then to another decision diamond. From this second diamond, 'JA' leads to 'SHS1.1.7 Registrere dødsfall og arkivere journal U144', and 'NEI' leads to 'Legger inn pasient elektivt fra institusjon U015'. Both 'Frigjør plass/seng' and the process from 'SHS1.1.7' lead to 'SHS1.5.2 Tildele og iverksette tjenester (U27)'. From 'SHS1.5.2', it leads to the final state 'Innbygger får plass/seng på institusjon'.](images/Bilag G1 Felles kommunal journalløsning/c5424b117a719524c619938e97c4cb1f_img.jpg)
 
 ```
 
@@ -3345,7 +3345,7 @@ Figur 49. Use-case for frigjøring av plass
 
 For å kunne ivareta behovet for å flytte på innbyggere/pasienter som er tildelt en plass må løsningen ha funksjonalitet som understøtter helsepersonell/saksbehandler i arbeidsprosessen. Helsepersonell på avdelingen må ha god oversikt over alle senger/plasser for å kunne gjøre endringer, eksempelvis flytte pasient fra en plass til en annen, enten internt på avdeling eller mellom avdelinger. Det kan for eksempel være behov for å flytte pasient om det har oppstått smitte på et dobbeltrom.
 
-![Flowchart for SHS1.6.3 Flytte pasient. The process starts with 'Behov for å flytte pasient' leading to 'Oversikt over senger/plasser'. A decision point 'Ledig plass/seng' branches into 'JA' (Yes) leading to 'Flytte pasient til ledig plass/seng', and 'NEI' (No) leading to 'Ikke mulig å flytte pasient'. The 'JA' path continues to 'Frigjør Plass/seng', then to 'SHS1.5.2 Tildele og iverksette tjenester (U27)', and finally to 'Innbygger får plass/seng på institusjon'. The 'NEI' path leads to a final state 'Pasient blir liggende til det er mulig å flytte'.](f1ba1e68228ebd4c3109371574a723e6_img.jpg)
+![Flowchart for SHS1.6.3 Flytte pasient. The process starts with 'Behov for å flytte pasient' leading to 'Oversikt over senger/plasser'. A decision point 'Ledig plass/seng' branches into 'JA' (Yes) leading to 'Flytte pasient til ledig plass/seng', and 'NEI' (No) leading to 'Ikke mulig å flytte pasient'. The 'JA' path continues to 'Frigjør Plass/seng', then to 'SHS1.5.2 Tildele og iverksette tjenester (U27)', and finally to 'Innbygger får plass/seng på institusjon'. The 'NEI' path leads to a final state 'Pasient blir liggende til det er mulig å flytte'.](images/Bilag G1 Felles kommunal journalløsning/f1ba1e68228ebd4c3109371574a723e6_img.jpg)
 
 ```
 
@@ -3381,7 +3381,7 @@ Figur 51 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - **Utførende:** den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - **Støttende** – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the actors involved in the 'SHS1.6 Administrere plasser og sengeplasser' capability. The diagram is a rounded rectangle with a title 'SHS1.6 Administrere plasser og sengeplasser' at the top. Inside, there is a row of three icons: 'Tildelings-kontor' (with a person icon), 'Sykehjem/ annen institusjon' (with a bed icon), and 'Heldøgns medisk akutt-beredskap' (with a medical cross icon). Below this row is a large empty yellow rectangular area. At the bottom of the diagram are two green rounded rectangles: 'Utførende' on the left and 'Støttende' on the right.](72d448a65347c51989171748789c7d4b_img.jpg)
+![Diagram showing the actors involved in the 'SHS1.6 Administrere plasser og sengeplasser' capability. The diagram is a rounded rectangle with a title 'SHS1.6 Administrere plasser og sengeplasser' at the top. Inside, there is a row of three icons: 'Tildelings-kontor' (with a person icon), 'Sykehjem/ annen institusjon' (with a bed icon), and 'Heldøgns medisk akutt-beredskap' (with a medical cross icon). Below this row is a large empty yellow rectangular area. At the bottom of the diagram are two green rounded rectangles: 'Utførende' on the left and 'Støttende' on the right.](images/Bilag G1 Felles kommunal journalløsning/72d448a65347c51989171748789c7d4b_img.jpg)
 
 Diagram showing the actors involved in the 'SHS1.6 Administrere plasser og sengeplasser' capability. The diagram is a rounded rectangle with a title 'SHS1.6 Administrere plasser og sengeplasser' at the top. Inside, there is a row of three icons: 'Tildelings-kontor' (with a person icon), 'Sykehjem/ annen institusjon' (with a bed icon), and 'Heldøgns medisk akutt-beredskap' (with a medical cross icon). Below this row is a large empty yellow rectangular area. At the bottom of the diagram are two green rounded rectangles: 'Utførende' on the left and 'Støttende' on the right.
 
@@ -3409,7 +3409,7 @@ Enkelte kommuner kjøper institusjonsplasser fra andre kommuner. I Oslo kjøper 
 
 Figur 52 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabilitetene.
 
-![Diagram showing functional requirements for SHS1.6 Administrere plasser og sengeplasser. It includes a main box with 'Dokumentasjon av forløp og tilstand' and three sub-boxes: 'Håndtere tildeling av kommunale helse- og omsorgstjenester', 'Preferanser, direktiver, samtykker og autorisasjoner', and 'Administrasjon av sengeplasser'.](02d5078b2b1c8b2c1e8374d5dc17aa86_img.jpg)
+![Diagram showing functional requirements for SHS1.6 Administrere plasser og sengeplasser. It includes a main box with 'Dokumentasjon av forløp og tilstand' and three sub-boxes: 'Håndtere tildeling av kommunale helse- og omsorgstjenester', 'Preferanser, direktiver, samtykker og autorisasjoner', and 'Administrasjon av sengeplasser'.](images/Bilag G1 Felles kommunal journalløsning/02d5078b2b1c8b2c1e8374d5dc17aa86_img.jpg)
 
 The diagram is titled 'SHS1.6 Administrere plasser og sengeplasser'. It features a large outer rectangle containing a smaller rectangle at the top labeled 'Dokumentasjon av forløp og tilstand'. Below this, there are three light blue rounded rectangular boxes arranged horizontally: 'Håndtere tildeling av kommunale helse- og omsorgstjenester', 'Preferanser, direktiver, samtykker og autorisasjoner', and 'Administrasjon av sengeplasser'.
 
@@ -3438,7 +3438,7 @@ Lover og forskrifter som gir rammebetingelser for arbeidet
 
 ##### Hvilken rolle ulike tjenester innehar i utførelse av kapabiliteten
 
-![Diagram showing the use-case structure for SHS1.7 Administrere fødsel, dødsfall og donasjon av legeme. The main title is at the top. Below it are four sub-tasks in boxes: SHS1.7.1 Registrere fødsel og opprette journal, SHS1.7.3 Registrere ønske om donasjon, SHS1.7.2 Registrere dødsfall og arkivere journal, and SHS1.7.4 Håndtere donasjon av legeme ved dødsfall.](b13465efdac63129aef9b6f1787d0d00_img.jpg)
+![Diagram showing the use-case structure for SHS1.7 Administrere fødsel, dødsfall og donasjon av legeme. The main title is at the top. Below it are four sub-tasks in boxes: SHS1.7.1 Registrere fødsel og opprette journal, SHS1.7.3 Registrere ønske om donasjon, SHS1.7.2 Registrere dødsfall og arkivere journal, and SHS1.7.4 Håndtere donasjon av legeme ved dødsfall.](images/Bilag G1 Felles kommunal journalløsning/b13465efdac63129aef9b6f1787d0d00_img.jpg)
 
 ```
 graph TD; SHS1.7[SHS1.7 Administrere fødsel, dødsfall og donasjon av legeme] --> SHS1.7.1[SHS1.7.1 Registrere fødsel og opprette journal]; SHS1.7 --> SHS1.7.2[SHS1.7.2 Registrere dødsfall og arkivere journal]; SHS1.7 --> SHS1.7.3[SHS1.7.3 Registrere ønske om donasjon]; SHS1.7 --> SHS1.7.4[SHS1.7.4 Håndtere donasjon av legeme ved dødsfall]
@@ -3462,7 +3462,7 @@ Helsestasjonen er et tilbud for familier med små barn, gravide og ungdom. Tilbu
 
 De fleste kvinner som får barn er pasienter på listen til en fastlege. Det nyfødte barnet føres opp på den samme listen som moren.
 
-![UML Use Case Diagram for 'SHS1.7.1 Registrere fødsel og opprette journal'. The diagram shows the interaction between 'INNBYGGER/PÅRØRENDE', 'SHS1.7.1 Registrere fødsel og opprette journal', 'FOLKeregister', and 'SPESIALISTHELS-TJENESTEN'. The process starts with 'Avventer melding om fødsel' (start event), followed by 'Motta og vurdere fødselsmelding' (activity), then 'Opprette journal' (activity), and finally 'SLUTT' (end event). Data flows include 'Fødselsmelding Informasjon om nyfødt' from Folkeregister to the activity, and 'Epikrise' from the service to the end event. Access to the journal is granted to the user.](a890c88f5a03b77a0de8feaac5313821_img.jpg)
+![UML Use Case Diagram for 'SHS1.7.1 Registrere fødsel og opprette journal'. The diagram shows the interaction between 'INNBYGGER/PÅRØRENDE', 'SHS1.7.1 Registrere fødsel og opprette journal', 'FOLKeregister', and 'SPESIALISTHELS-TJENESTEN'. The process starts with 'Avventer melding om fødsel' (start event), followed by 'Motta og vurdere fødselsmelding' (activity), then 'Opprette journal' (activity), and finally 'SLUTT' (end event). Data flows include 'Fødselsmelding Informasjon om nyfødt' from Folkeregister to the activity, and 'Epikrise' from the service to the end event. Access to the journal is granted to the user.](images/Bilag G1 Felles kommunal journalløsning/a890c88f5a03b77a0de8feaac5313821_img.jpg)
 
 ```
 
@@ -3506,7 +3506,7 @@ Figur 54. Use-case for å administrere fødsel
 
 I forbindelse med dødsfall i hjemmet eller på institusjon skal det fylles ut en Legeerklæring om dødsfall/melding om dødsfall. Melding om dødsfall er hjemlet i helsepersonelloven § 36. For de fleste virksomheter i dag meldes dødsfall og dødsårsak gjennom utfylling av et papirskjema eller en PDF. Prosessen inkluderer mange manuelle steg. Registrering av samme informasjon gjentas i flere sektorer, og feil og avvik oppstår som følge av manuelle overleveringer. Det tar lang tid, i snitt 1-2 uker, før samfunnet har informasjonen tilgjengelig. En ny, elektronisk løsning forenkler prosessene på tvers av sektorer, sørger for betydelig kortere saksbehandlingstid og bedre personvern. Nasjonal innføring av elektronisk melding om dødsfall og dødsårsak starter i 2020. Fra 1. januar 2022 er det lovpålagt å melde dødsfall og dødsårsak elektronisk (22).
 
-![UML Use Case Diagram for 'Administrere dødsfall' (Administering death).](36f34fd6230a53db267c1df3089ebbe2_img.jpg)
+![UML Use Case Diagram for 'Administrere dødsfall' (Administering death).](images/Bilag G1 Felles kommunal journalløsning/36f34fd6230a53db267c1df3089ebbe2_img.jpg)
 
 The diagram illustrates the use case for administering a death. It features three external actors: 'INNBYGGER/PÅRØRENDE' (top), 'SHS1.7.2 Registrere dødsfall og arkivere journal' (middle), and 'Dødsårsaksregister' (bottom). The central process is contained within a boundary labeled 'SHS1.7.2 Registrere dødsfall og arkivere journal'. The process flow starts with the event 'Dødsfall har inntruffet' (Death has occurred), followed by the function 'Registrere dødsfall og dødsårsak' (Register death and cause of death), then 'Avslutte journal' (Close journal), and finally ends at the 'SLUTT' (End) state. The 'INNBYGGER/PÅRØRENDE' actor is linked to the registration function via a message 'Informere om dødsfall' (Inform about death). The 'Dødsårsaksregister' actor is linked to the registration function via a message 'Legeerklæring om dødsfall' (Medical certificate of death).
 
@@ -3528,7 +3528,7 @@ Figur 55. Use-case for å administrere dødsfall
 
 I dette dokumentet beskrives donasjon av legeme til forskning. Donasjon av legeme må ikke forveksles med organdonasjon, som går ut på å donere friske kroppsdeler etter at man er erklært klinisk død. Donasjon av legeme til forskning beskrives også i bilag 2 Helhetlig samhandling, use case U056, siden prosessen også innebærer samhandling med aktører som ikke benytter felles kommunal journalløsning.
 
-![UML Use Case Diagram for 'Donasjon av legeme' (Use Case 56). The diagram shows two main use cases: 'SHS1.7.3 Registrere inngått avtale om donasjon av legeme' and 'SHS1.7.4 Håndtere donasjon av legeme ved dødsfall'. The first use case involves an actor 'INNBYGGER/PÅRØRENDE' who sends a 'Samtykke/avtale om donasjon av legeme' message to the system. The system then receives a message 'Innbygger ønsker å donere legeme etter død' and sends a 'Mottar informasjon om at innbygger har inngått avtale om donasjon av legeme (SHS1.7.3.1 og 1.7.3.2)' message to the 'Universitetssykehus/institutt' actor. The second use case involves the system sending a 'Vurdere om det er gitt samtykke til donasjon av legeme (SHS1.7.3.2)' message to the 'Universitetssykehus/institutt' actor, which then sends an 'Informere relevant universitetssykehus/institutt(BUSO)' message back to the system. The system then sends an 'Informere om dødsfall' message to the 'Universitetssykehus/institutt' actor. Both use cases have a 'SLUTT' end node.](8768e42bf1062f1af11f259fc52a92e9_img.jpg)
+![UML Use Case Diagram for 'Donasjon av legeme' (Use Case 56). The diagram shows two main use cases: 'SHS1.7.3 Registrere inngått avtale om donasjon av legeme' and 'SHS1.7.4 Håndtere donasjon av legeme ved dødsfall'. The first use case involves an actor 'INNBYGGER/PÅRØRENDE' who sends a 'Samtykke/avtale om donasjon av legeme' message to the system. The system then receives a message 'Innbygger ønsker å donere legeme etter død' and sends a 'Mottar informasjon om at innbygger har inngått avtale om donasjon av legeme (SHS1.7.3.1 og 1.7.3.2)' message to the 'Universitetssykehus/institutt' actor. The second use case involves the system sending a 'Vurdere om det er gitt samtykke til donasjon av legeme (SHS1.7.3.2)' message to the 'Universitetssykehus/institutt' actor, which then sends an 'Informere relevant universitetssykehus/institutt(BUSO)' message back to the system. The system then sends an 'Informere om dødsfall' message to the 'Universitetssykehus/institutt' actor. Both use cases have a 'SLUTT' end node.](images/Bilag G1 Felles kommunal journalløsning/8768e42bf1062f1af11f259fc52a92e9_img.jpg)
 
 ```
 
@@ -3565,7 +3565,7 @@ Figur 57 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the actors involved in the administration of birth, death, and organ donation. It is divided into three main sections: SHS1.7.1 Administrere fødsel, SHS1.7.2 Administrere dødsfall, and SHS1.7.3 Administrere donasjon av legeme. Each section lists specific roles and services, categorized as 'Utførende' (実行者) or 'Støttende' (支援者).](55d0ecdde4d2ccdeedbd144ac0fecd2d_img.jpg)
+![Diagram showing the actors involved in the administration of birth, death, and organ donation. It is divided into three main sections: SHS1.7.1 Administrere fødsel, SHS1.7.2 Administrere dødsfall, and SHS1.7.3 Administrere donasjon av legeme. Each section lists specific roles and services, categorized as 'Utførende' (実行者) or 'Støttende' (支援者).](images/Bilag G1 Felles kommunal journalløsning/55d0ecdde4d2ccdeedbd144ac0fecd2d_img.jpg)
 
 The diagram, titled 'SHS1.7 Administrere fødsel, dødsfall og donasjon av legeme', illustrates the actors involved in three sub-processes:
 
@@ -3599,7 +3599,7 @@ Det er behov for en løsning der det er mulig å innhente oppdatert opplysning f
 
 ##### Funksjonalitet i felles journalløsning
 
-![Diagram showing functional requirements for SH51.7: Administrere fødsel, dødsfall og donasjon av legeme. It is divided into three main sections: SH51.7 Administrere fødsel, SH51.7 Administrere dødsfall, and SH51.7 Administrere donasjon av legeme. Each section contains a box with specific tasks.](493539f7472fd8510b2c6dcb59339ad5_img.jpg)
+![Diagram showing functional requirements for SH51.7: Administrere fødsel, dødsfall og donasjon av legeme. It is divided into three main sections: SH51.7 Administrere fødsel, SH51.7 Administrere dødsfall, and SH51.7 Administrere donasjon av legeme. Each section contains a box with specific tasks.](images/Bilag G1 Felles kommunal journalløsning/493539f7472fd8510b2c6dcb59339ad5_img.jpg)
 
 The diagram illustrates the functional requirements for SH51.7: Administrere fødsel, dødsfall og donasjon av legeme. It is structured into three main functional areas, each represented by a large rounded rectangle:
 
@@ -3626,7 +3626,7 @@ I tillegg til funksjonalitet i felles kommunal journalløsning for å understøt
 
 Det er identifisert behov for å samhandle digitalt med innbygger. Disse behovene blir behandlet i Bilag 2 – Helhetlig samhandling. Figur 59 gir en oversikt over informasjonsbehovene ved samhandling med innbygger.
 
-![Diagram showing the interaction between 'Saksbehandling' and 'Informasjonselementer' for managing birth, death, and organ donation. It includes processes like 'Registere fødsel', 'Registere dødsfall', 'Motta samtykke', and 'Håndtere donasjon', connected to an 'Innbyggerportal'.](efcb78ce7df315911219258bc2132f8c_img.jpg)
+![Diagram showing the interaction between 'Saksbehandling' and 'Informasjonselementer' for managing birth, death, and organ donation. It includes processes like 'Registere fødsel', 'Registere dødsfall', 'Motta samtykke', and 'Håndtere donasjon', connected to an 'Innbyggerportal'.](images/Bilag G1 Felles kommunal journalløsning/efcb78ce7df315911219258bc2132f8c_img.jpg)
 
 SHS1.7 Administrere fødsel, dødsfall og donasjon av legeme (Samhandling med innbygger)
 
@@ -3666,7 +3666,7 @@ Det er identifisert behov for å samhandle med andre statlige og kommunale tjene
 
 Figur 60 gir en oversikt over informasjonsbehovene ved samhandling med Medisinsk fødselsregister, Dødsårsaksregisteret og Folkeregisteret.
 
-![Diagram showing the information flow for SHS1.7. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom). In 'Saksbehandling', there are four yellow ovals: 'Registrere fødsel og opprette journal', 'Registrere dødsfall og arkivere journal', 'Motta samtykke om donasjon av legeme', and 'Håndtere donasjon av legeme ved dødsfall'. In 'Informasjonselementer', there are three yellow rectangles: 'Fødselsmelding', 'Elektronisk dødsmelding', and 'Medisinsk fødselsregister' (with a database icon). Below these are 'Folkeregister' and 'Dødsårsaksregisteret (DAR)' (both with database icons). Arrows show the flow: 'Motta melding' from 'Fødselsmelding' to 'Registrere fødsel...'; 'Sende melding' from 'Registrere dødsfall...' to 'Elektronisk dødsmelding'; 'Sende melding' from 'Fødselsmelding' to 'Medisinsk fødselsregister'; 'Motta melding' from 'Elektronisk dødsmelding' to 'Folkeregister'; and 'Motta melding' from 'Elektronisk dødsmelding' to 'Dødsårsaksregisteret (DAR)'.](67cbb5a621a69ab58534bb3376bbb724_img.jpg)
+![Diagram showing the information flow for SHS1.7. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom). In 'Saksbehandling', there are four yellow ovals: 'Registrere fødsel og opprette journal', 'Registrere dødsfall og arkivere journal', 'Motta samtykke om donasjon av legeme', and 'Håndtere donasjon av legeme ved dødsfall'. In 'Informasjonselementer', there are three yellow rectangles: 'Fødselsmelding', 'Elektronisk dødsmelding', and 'Medisinsk fødselsregister' (with a database icon). Below these are 'Folkeregister' and 'Dødsårsaksregisteret (DAR)' (both with database icons). Arrows show the flow: 'Motta melding' from 'Fødselsmelding' to 'Registrere fødsel...'; 'Sende melding' from 'Registrere dødsfall...' to 'Elektronisk dødsmelding'; 'Sende melding' from 'Fødselsmelding' to 'Medisinsk fødselsregister'; 'Motta melding' from 'Elektronisk dødsmelding' to 'Folkeregister'; and 'Motta melding' from 'Elektronisk dødsmelding' to 'Dødsårsaksregisteret (DAR)'.](images/Bilag G1 Felles kommunal journalløsning/67cbb5a621a69ab58534bb3376bbb724_img.jpg)
 
 **SHS1.7 Administrere fødsel, dødsfall og donasjon av legeme (Samhandling med andre kommunale og statlige tjenester)**
 
@@ -3698,7 +3698,7 @@ kan benytte annen kollektivtransport. Det er fylkeskommunen som er ansvarlig for
 
 Figur 61 gir en oversikt over use-cases som inngår i underkapabiliteten.
 
-![Diagram showing the use-cases for SHS1.8 Koordinere transport. The diagram is a large rounded rectangle containing three smaller rounded rectangles stacked vertically. The top rectangle is labeled 'SHS1.8.1 Håndtere søknad om transporttjenester'. The middle rectangle is labeled 'SHS1.8.2 Håndtere klage på avslått søknad om transporttjenester'. The bottom rectangle is labeled 'SHS1.8.3 Bestille transport'.](ca9fd3bd2fe73a46244dd1d017ffa3b5_img.jpg)
+![Diagram showing the use-cases for SHS1.8 Koordinere transport. The diagram is a large rounded rectangle containing three smaller rounded rectangles stacked vertically. The top rectangle is labeled 'SHS1.8.1 Håndtere søknad om transporttjenester'. The middle rectangle is labeled 'SHS1.8.2 Håndtere klage på avslått søknad om transporttjenester'. The bottom rectangle is labeled 'SHS1.8.3 Bestille transport'.](images/Bilag G1 Felles kommunal journalløsning/ca9fd3bd2fe73a46244dd1d017ffa3b5_img.jpg)
 
 ```
 
@@ -3723,7 +3723,7 @@ I kapabiliteten Koordinere transport presenteres en beskrivelse av hver underkap
 
 Inngangen til use-caset er at innbygger har foretatt nødvendige forberedelser, herunder innhentet legeerklæring der dette er nødvendig.
 
-![Flowchart for SHSL 3.1 Håndtere søknad om transporttjenester. The process starts with 'Behov for transporttjenester er identifisert' and proceeds through several steps: 'Motta søknad om transporttjenester', 'Vurdere om vilkår er oppfylt', 'Generere avslag på søknad', 'Generere vedtak om transporttjeneste', and 'Generer bestilling til transportør'. It includes decision points for 'Kriterie oppfylt?' and 'Arbeidsreise'. Data flows are indicated by dashed lines with icons for 'Søknad', 'Avslag', 'Vedtak', 'TT-kort', and 'Ledsaegerbevis'. The process ends with 'SLUTT'.](cb9e3603e260c7b07aca73128586df80_img.jpg)
+![Flowchart for SHSL 3.1 Håndtere søknad om transporttjenester. The process starts with 'Behov for transporttjenester er identifisert' and proceeds through several steps: 'Motta søknad om transporttjenester', 'Vurdere om vilkår er oppfylt', 'Generere avslag på søknad', 'Generere vedtak om transporttjeneste', and 'Generer bestilling til transportør'. It includes decision points for 'Kriterie oppfylt?' and 'Arbeidsreise'. Data flows are indicated by dashed lines with icons for 'Søknad', 'Avslag', 'Vedtak', 'TT-kort', and 'Ledsaegerbevis'. The process ends with 'SLUTT'.](images/Bilag G1 Felles kommunal journalløsning/cb9e3603e260c7b07aca73128586df80_img.jpg)
 
 ```
 
@@ -3777,7 +3777,7 @@ IE-1056 136
 
 Inngangen til use-caset er at innbygger har fått avslag på søknad om transporttjenester, og ønsker å klage på vedtaket.
 
-![Flowchart for SHS1.8.2 Håndtere klage på avslått søknad om transporttjenester. The process starts with an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) who 'Klage' (Complains). The 'KLAGEINSTANS' (Complaint Authority) then 'Kopi av klagesak sendt til klagenemnda' (Copies complaint to the complaint committee). The 'SAKSARKIV' (Case Archive) is involved in archiving documents. The main process flow is: 'Søknaden er avslått' (Application rejected) -> 'Klagefrist har gått ut' (Complaint deadline passed) -> 'Vurdere på nytt om vilkår er oppfylt' (Re-evaluate if conditions are met) -> 'Klager får medhold?' (Does the complainant have merit?) -> 'Forberede klagesaks-behandling' (Prepare complaint processing) -> 'Registrere klagesaken' (Register the complaint case) -> 'Oversende sak til klageinstans' (Forward case to complaint authority) -> 'Motta og vurdere vedtak fra klageinstans' (Receive and evaluate decision from complaint authority) -> 'Klager får medhold?' (Does the complainant have merit?) -> 'Registrere avslag' (Register rejection) -> 'SLUTT' (End). There are also paths for 'Klage er godkjent (SHS1.5.1 Håndtere søknad...)' (Complaint accepted) leading to 'Klagefrist utløpt' (Complaint deadline expired) and 'Dokumenterer at klagefrist er gått ut' (Document that complaint deadline has passed).](90321ffa3cade82e4a57d6250d046c88_img.jpg)
+![Flowchart for SHS1.8.2 Håndtere klage på avslått søknad om transporttjenester. The process starts with an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) who 'Klage' (Complains). The 'KLAGEINSTANS' (Complaint Authority) then 'Kopi av klagesak sendt til klagenemnda' (Copies complaint to the complaint committee). The 'SAKSARKIV' (Case Archive) is involved in archiving documents. The main process flow is: 'Søknaden er avslått' (Application rejected) -> 'Klagefrist har gått ut' (Complaint deadline passed) -> 'Vurdere på nytt om vilkår er oppfylt' (Re-evaluate if conditions are met) -> 'Klager får medhold?' (Does the complainant have merit?) -> 'Forberede klagesaks-behandling' (Prepare complaint processing) -> 'Registrere klagesaken' (Register the complaint case) -> 'Oversende sak til klageinstans' (Forward case to complaint authority) -> 'Motta og vurdere vedtak fra klageinstans' (Receive and evaluate decision from complaint authority) -> 'Klager får medhold?' (Does the complainant have merit?) -> 'Registrere avslag' (Register rejection) -> 'SLUTT' (End). There are also paths for 'Klage er godkjent (SHS1.5.1 Håndtere søknad...)' (Complaint accepted) leading to 'Klagefrist utløpt' (Complaint deadline expired) and 'Dokumenterer at klagefrist er gått ut' (Document that complaint deadline has passed).](images/Bilag G1 Felles kommunal journalløsning/90321ffa3cade82e4a57d6250d046c88_img.jpg)
 
 Flowchart for SHS1.8.2 Håndtere klage på avslått søknad om transporttjenester. The process starts with an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) who 'Klage' (Complains). The 'KLAGEINSTANS' (Complaint Authority) then 'Kopi av klagesak sendt til klagenemnda' (Copies complaint to the complaint committee). The 'SAKSARKIV' (Case Archive) is involved in archiving documents. The main process flow is: 'Søknaden er avslått' (Application rejected) -> 'Klagefrist har gått ut' (Complaint deadline passed) -> 'Vurdere på nytt om vilkår er oppfylt' (Re-evaluate if conditions are met) -> 'Klager får medhold?' (Does the complainant have merit?) -> 'Forberede klagesaks-behandling' (Prepare complaint processing) -> 'Registrere klagesaken' (Register the complaint case) -> 'Oversende sak til klageinstans' (Forward case to complaint authority) -> 'Motta og vurdere vedtak fra klageinstans' (Receive and evaluate decision from complaint authority) -> 'Klager får medhold?' (Does the complainant have merit?) -> 'Registrere avslag' (Register rejection) -> 'SLUTT' (End). There are also paths for 'Klage er godkjent (SHS1.5.1 Håndtere søknad...)' (Complaint accepted) leading to 'Klagefrist utløpt' (Complaint deadline expired) and 'Dokumenterer at klagefrist er gått ut' (Document that complaint deadline has passed).
 
@@ -3802,7 +3802,7 @@ Figur 63. Use-case for å Håndtere klage på avslått søknad om transporttjene
 
 Inngangen til use-caset er at innbygger har behov for transport og kan håndtere bestilling for å komme seg til tjenestested.
 
-![UML Use Case Diagram for SHS1.8.3 Bestille transport. The diagram shows the interaction between an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) and the 'Bestille transport' use case. The process starts with the user having a 'Behov for Transport' (Need for Transport). The use case then 'Vurdere behov for transport' (Evaluate need for transport). A decision point 'Er dette en pasientreise?' (Is this a patient journey?) follows. If 'JA' (Yes), the use case 'Bestille pasientreise (U29)' (Order patient journey). If 'NEI' (No), it checks 'Det foreligger vedtak om transport-tjeneste' (There is a decision on transport service). If 'JA', it proceeds to 'Bestille transport' (Order transport). If 'NEI', it leads to 'SLUTT' (End). The use case also handles 'Innbygger håndterer bestilling, eventuelt med støtte fra noen' (Inhabitant handles order, possibly with support from others). The diagram includes external entities 'PASIENTREISE' and 'TRANSPORT' with their respective data flows like 'Bestilling av transport', 'Pasientinformasjon', and 'Adresser'.](a612e74e004b3bc8e33ead4a5e857ed9_img.jpg)
+![UML Use Case Diagram for SHS1.8.3 Bestille transport. The diagram shows the interaction between an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) and the 'Bestille transport' use case. The process starts with the user having a 'Behov for Transport' (Need for Transport). The use case then 'Vurdere behov for transport' (Evaluate need for transport). A decision point 'Er dette en pasientreise?' (Is this a patient journey?) follows. If 'JA' (Yes), the use case 'Bestille pasientreise (U29)' (Order patient journey). If 'NEI' (No), it checks 'Det foreligger vedtak om transport-tjeneste' (There is a decision on transport service). If 'JA', it proceeds to 'Bestille transport' (Order transport). If 'NEI', it leads to 'SLUTT' (End). The use case also handles 'Innbygger håndterer bestilling, eventuelt med støtte fra noen' (Inhabitant handles order, possibly with support from others). The diagram includes external entities 'PASIENTREISE' and 'TRANSPORT' with their respective data flows like 'Bestilling av transport', 'Pasientinformasjon', and 'Adresser'.](images/Bilag G1 Felles kommunal journalløsning/a612e74e004b3bc8e33ead4a5e857ed9_img.jpg)
 
 ```
 
@@ -3873,7 +3873,7 @@ Figur 65 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing actors involved in transport coordination, categorized into 'Utførende' (実行者) and 'Støttende' (支援者).](c2e2b17d61aecbead88a6278e4ba3605_img.jpg)
+![Diagram showing actors involved in transport coordination, categorized into 'Utførende' (実行者) and 'Støttende' (支援者).](images/Bilag G1 Felles kommunal journalløsning/c2e2b17d61aecbead88a6278e4ba3605_img.jpg)
 
 The diagram, titled 'SHS1.8 Koordinere transport', illustrates the actors involved in transport coordination. It is divided into two main categories: 'Utførende' (実行者) and 'Støttende' (支援者).
 
@@ -3906,7 +3906,7 @@ Formålet med og forventningene til administrasjon av helse- og omsorgstjenester
 
 Figur 66 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabiliteten.
 
-![Diagram showing functional requirements for SH51.8 Koordinere transport.](4d45c2b40c053dd2b36d2c1f9271728e_img.jpg)
+![Diagram showing functional requirements for SH51.8 Koordinere transport.](images/Bilag G1 Felles kommunal journalløsning/4d45c2b40c053dd2b36d2c1f9271728e_img.jpg)
 
 The diagram illustrates the functional requirements for the 'SH51.8 Koordinere transport' process. It features a large light-gray rounded rectangle containing three smaller light-blue boxes arranged horizontally at the top. Each box contains text describing a specific functional need.
 
@@ -3934,7 +3934,7 @@ Det er identifisert behov for å samhandle digitalt med innbygger. Disse behoven
 
 Figur 67 gir en oversikt over informasjonsbehovene ved samhandling med innbygger.
 
-![Diagram showing information needs for SHS1.8 Koordinere transport (Samhandling med innbygger). It illustrates the flow of information between 'Saksbehandling' (case processing) and 'Informasjonselementer' (information elements) involving the 'Innbyggerportal'.](ed9e9cfe88b6c35a40b4c56d185bc2e8_img.jpg)
+![Diagram showing information needs for SHS1.8 Koordinere transport (Samhandling med innbygger). It illustrates the flow of information between 'Saksbehandling' (case processing) and 'Informasjonselementer' (information elements) involving the 'Innbyggerportal'.](images/Bilag G1 Felles kommunal journalløsning/ed9e9cfe88b6c35a40b4c56d185bc2e8_img.jpg)
 
 **SHS1.8 Koordinere transport (Samhandling med innbygger)**
 
@@ -3975,7 +3975,7 @@ Det er identifisert behov for å samhandle med andre statlige og kommunale tjene
 
 Figur 68 gir en oversikt over informasjonsbehovene ved samhandling med klageinstans og folkeregisteret.
 
-![Diagram showing information needs for SHS1.8 Koordinere transport (Samhandling med andre statlige og kommunale tjenester). It illustrates the flow of information between 'Saksbehandling' (case processing) and 'Informasjonselementer' (information elements) involving 'Folkeregister' and 'Klageinstans'.](7fb56e3e9f8a134112eee90463cc9962_img.jpg)
+![Diagram showing information needs for SHS1.8 Koordinere transport (Samhandling med andre statlige og kommunale tjenester). It illustrates the flow of information between 'Saksbehandling' (case processing) and 'Informasjonselementer' (information elements) involving 'Folkeregister' and 'Klageinstans'.](images/Bilag G1 Felles kommunal journalløsning/7fb56e3e9f8a134112eee90463cc9962_img.jpg)
 
 **SHS1.8 Koordinere transport (Samhandling med andre statlige og kommunale tjenester)**
 
@@ -4013,7 +4013,7 @@ Figur 68 Informasjonsbehov i samhandling med andre statlige og kommunale tjenest
 
 Arkivering av dokumentasjon knyttet til kommunens saksbehandling ifm. tildeling av kommunale helse- og omsorgstjenester skal følge Veileder for håndtering av dokumentasjon i pleie- og omsorgstjenesten (20).
 
-![Diagram showing the integration of transport coordination with administrative functions. It illustrates the flow from 'Saksbehandling' (Case Processing) to 'Informasjonselementer' (Information Elements) and finally to 'Sakarkiv' (Case Archive).](ecae674475cecdd0962200a5d1e2591e_img.jpg)
+![Diagram showing the integration of transport coordination with administrative functions. It illustrates the flow from 'Saksbehandling' (Case Processing) to 'Informasjonselementer' (Information Elements) and finally to 'Sakarkiv' (Case Archive).](images/Bilag G1 Felles kommunal journalløsning/ecae674475cecdd0962200a5d1e2591e_img.jpg)
 
 **SHS1.8 Koordinere transport (Integrasjon med administrative funksjoner i kommunen)**
 
@@ -4090,7 +4090,7 @@ Det enkelte legekontor og andre privatpraktiserende avtaleparter har et selvsten
 
 Figur 69 gir en oversikt over de use-cases som omfattes av kapabiliteten.
 
-![Diagram showing the use-cases for SHS3. Håndtere utstyr og hjelpemidler, divided into three main categories: SHS3.1, SHS3.2, and SHS3.3.](ceb6fe29e2d57711907569c31182b3c2_img.jpg)
+![Diagram showing the use-cases for SHS3. Håndtere utstyr og hjelpemidler, divided into three main categories: SHS3.1, SHS3.2, and SHS3.3.](images/Bilag G1 Felles kommunal journalløsning/ceb6fe29e2d57711907569c31182b3c2_img.jpg)
 
 The diagram is titled "SHS3. Håndtere utstyr og hjelpemidler" and is structured into three main vertical sections, each representing a use-case category:
 
@@ -4118,7 +4118,7 @@ I følgende use-cases beskrives behovene for å understøtte en mer strukturert 
 
 Hver aktør i den kommunale helse- og omsorgstjenesten har et selvstendig behov for å identifisere behov for å anskaffe nytt utstyr som er nødvendig for å yte helsehjelp, enten dette er utstyr/hjelpemidler som skal brukes direkte av innbygger eller om det skal være en del av kjerneprosessene. Som grunnlag for denne vurderingen er det behov for å innhente en oversikt over alt utstyr/hjelpemidler som er i bruk av innbyggere i kommunen. Figur 70 viser use-case som inngår i underkapabiliteten.
 
-![UML Use Case Diagram for SHS3.1.1 Utarbeide prognose for utstyr og hjelpemidler. The diagram shows a process starting with a start node (circle) leading to a use case box labeled 'Generere oversikt over utstyr og hjelpemidler i bruk'. From this use case, an arrow points to an end node (bullseye) labeled 'Oversikt over utstyr og hjelpemidler i bruk tatt med i prognose'. Below the use case box, there are two data objects: 'Oversikt over utstyr i bruk og hjelpemidler i bruk av pasienter' and 'Forespørsel om oversikt over utstyr og hjelpemidler i bruk'. A dashed line connects the use case box to the second data object. At the bottom, a component box labeled 'Utstyrssystem' has dashed lines connecting it to both data objects.](1cd38e4f2ffcae2871964fa6313a9a27_img.jpg)
+![UML Use Case Diagram for SHS3.1.1 Utarbeide prognose for utstyr og hjelpemidler. The diagram shows a process starting with a start node (circle) leading to a use case box labeled 'Generere oversikt over utstyr og hjelpemidler i bruk'. From this use case, an arrow points to an end node (bullseye) labeled 'Oversikt over utstyr og hjelpemidler i bruk tatt med i prognose'. Below the use case box, there are two data objects: 'Oversikt over utstyr i bruk og hjelpemidler i bruk av pasienter' and 'Forespørsel om oversikt over utstyr og hjelpemidler i bruk'. A dashed line connects the use case box to the second data object. At the bottom, a component box labeled 'Utstyrssystem' has dashed lines connecting it to both data objects.](images/Bilag G1 Felles kommunal journalløsning/1cd38e4f2ffcae2871964fa6313a9a27_img.jpg)
 
 UML Use Case Diagram for SHS3.1.1 Utarbeide prognose for utstyr og hjelpemidler. The diagram shows a process starting with a start node (circle) leading to a use case box labeled 'Generere oversikt over utstyr og hjelpemidler i bruk'. From this use case, an arrow points to an end node (bullseye) labeled 'Oversikt over utstyr og hjelpemidler i bruk tatt med i prognose'. Below the use case box, there are two data objects: 'Oversikt over utstyr i bruk og hjelpemidler i bruk av pasienter' and 'Forespørsel om oversikt over utstyr og hjelpemidler i bruk'. A dashed line connects the use case box to the second data object. At the bottom, a component box labeled 'Utstyrssystem' has dashed lines connecting it to both data objects.
 
@@ -4133,7 +4133,7 @@ Figur 70. Use-case for å Utarbeide prognose for utstyr og hjelpemidler
 
 Dette use-caset beskriver støtte for å håndtere leveranse av utstyr og hjelpemidler til innbygger. En forutsetning er at det er fattet vedtak om dette (se SHS3.2.1 Identifisere behov for utstyr og hjelpemidler). Figur 71 viser use-case som inngår i underkapabiliteten.
 
-![UML Use Case Diagram for SHS3.1.2 Sikre logistikk av utstyr og hjelpemidler. The diagram shows interactions between 'INNBYGGER/PÅRØRENDE', 'SHS3.1.2 Sikre logistikk av utstyr og hjelpemidler', 'Utstyrssystem', and 'NAV'. Key steps include: 1. 'Behov for hjelpemidler eller utstyr er identifisert og skal leveres til innbygger' (Start). 2. 'Innhente preferanser om leveranse' (Innbygger sends 'Forespørsel om preferanse', System sends 'Oppdater preferanser'). 3. 'Type utstyr' (Decision). 4. 'Trygghetsskapende tiltak og velferdsteknologi eller medisinsk utstyr' (System). 5. 'Hjelpemidler fra NAV' (NAV sends). 6. 'Velg passende utstyr' (System). 7. 'Be om bekreftelse på leveranse' (System sends 'Forespørsel om leveranse', NAV sends 'Bekreftelse på tilgjengelighet'). 8. 'Registrer utstyr på bruker og bekreft leveranse' (System sends 'Forespørsel om leveranse', NAV sends 'Bekreftelse på tilgjengelighet'). 9. 'Utskyldelse eller hjelpemiddel er utlevert til innbygger' (End).](9ee1d5bfebea866ee79cccb39ad313de_img.jpg)
+![UML Use Case Diagram for SHS3.1.2 Sikre logistikk av utstyr og hjelpemidler. The diagram shows interactions between 'INNBYGGER/PÅRØRENDE', 'SHS3.1.2 Sikre logistikk av utstyr og hjelpemidler', 'Utstyrssystem', and 'NAV'. Key steps include: 1. 'Behov for hjelpemidler eller utstyr er identifisert og skal leveres til innbygger' (Start). 2. 'Innhente preferanser om leveranse' (Innbygger sends 'Forespørsel om preferanse', System sends 'Oppdater preferanser'). 3. 'Type utstyr' (Decision). 4. 'Trygghetsskapende tiltak og velferdsteknologi eller medisinsk utstyr' (System). 5. 'Hjelpemidler fra NAV' (NAV sends). 6. 'Velg passende utstyr' (System). 7. 'Be om bekreftelse på leveranse' (System sends 'Forespørsel om leveranse', NAV sends 'Bekreftelse på tilgjengelighet'). 8. 'Registrer utstyr på bruker og bekreft leveranse' (System sends 'Forespørsel om leveranse', NAV sends 'Bekreftelse på tilgjengelighet'). 9. 'Utskyldelse eller hjelpemiddel er utlevert til innbygger' (End).](images/Bilag G1 Felles kommunal journalløsning/9ee1d5bfebea866ee79cccb39ad313de_img.jpg)
 
 UML Use Case Diagram for SHS3.1.2 Sikre logistikk av utstyr og hjelpemidler. The diagram shows interactions between 'INNBYGGER/PÅRØRENDE', 'SHS3.1.2 Sikre logistikk av utstyr og hjelpemidler', 'Utstyrssystem', and 'NAV'. Key steps include: 1. 'Behov for hjelpemidler eller utstyr er identifisert og skal leveres til innbygger' (Start). 2. 'Innhente preferanser om leveranse' (Innbygger sends 'Forespørsel om preferanse', System sends 'Oppdater preferanser'). 3. 'Type utstyr' (Decision). 4. 'Trygghetsskapende tiltak og velferdsteknologi eller medisinsk utstyr' (System). 5. 'Hjelpemidler fra NAV' (NAV sends). 6. 'Velg passende utstyr' (System). 7. 'Be om bekreftelse på leveranse' (System sends 'Forespørsel om leveranse', NAV sends 'Bekreftelse på tilgjengelighet'). 8. 'Registrer utstyr på bruker og bekreft leveranse' (System sends 'Forespørsel om leveranse', NAV sends 'Bekreftelse på tilgjengelighet'). 9. 'Utskyldelse eller hjelpemiddel er utlevert til innbygger' (End).
 
@@ -4152,7 +4152,7 @@ Figur 71. Use-case for å Sikre logistikk av utstyr og hjelpemidler
 
 I henhold til forskrift om håndtering av medisinsk utstyr: «Vedlikehold av medisinsk utstyr skal være planlagt, systematisert og basert på utstyrets anvisninger og en vurdering av risiko, slik at utstyret til enhver tid er sikkert og kan brukes uten fare.» Hver virksomhet skal ha en oversikt over det utstyr som faller inn under forskriften. Den komplette oversikten over utstyr og hjelpemidler som skal inngå i plan om drift og vedlikehold blir oppbevart i «Utstyrssystemet» til hver virksomhet. Vedlikeholdsprosessen av utstyr og hjelpemidler vil administreres gjennom utstyrssystemet. Figur 72 viser use-case som inngår i underkapabiliteten.
 
-![UML Use Case Diagram for SHS3.1.3 Drift og vedlikehold av utstyr og hjelpemidler. The diagram shows the interaction between 'INNBYGGER/PÅRØRENDE' (Actor) and 'Utstyrssystem' (System). The process starts with a 'Behov for prognose av utstyr og hjelpemiddel' (Start). The actor sends a message 'Motta henvisning om at utstyr/hjelpemiddel trenger vedlikehold' to the system. The system then sends 'Arbeidsordre om vedlikehold av utstyr/hjelpemidler' back to the actor. Next, the actor sends 'Registrere behov om vedlikehold' to the system. The system sends 'Bekreftelse på planlagt vedlikehold' back to the actor. Then, the actor sends 'Motta bekreftelse på planlagt/gjennomført vedlikehold' to the system. A decision point 'Utstyr/hjelpemiddel trenger å byttes?' follows. If 'JA' (Yes), the actor sends 'Registrere bytte av utstyr/hjelpemiddel' to the system, which then sends 'Endringsordre ifm bytte av utstyr' back to the actor. If 'NEI' (No), the process ends with 'Vedlikehold er gjennomført' (End).](b0384c8e0ff826a8116ab2ff67dadc43_img.jpg)
+![UML Use Case Diagram for SHS3.1.3 Drift og vedlikehold av utstyr og hjelpemidler. The diagram shows the interaction between 'INNBYGGER/PÅRØRENDE' (Actor) and 'Utstyrssystem' (System). The process starts with a 'Behov for prognose av utstyr og hjelpemiddel' (Start). The actor sends a message 'Motta henvisning om at utstyr/hjelpemiddel trenger vedlikehold' to the system. The system then sends 'Arbeidsordre om vedlikehold av utstyr/hjelpemidler' back to the actor. Next, the actor sends 'Registrere behov om vedlikehold' to the system. The system sends 'Bekreftelse på planlagt vedlikehold' back to the actor. Then, the actor sends 'Motta bekreftelse på planlagt/gjennomført vedlikehold' to the system. A decision point 'Utstyr/hjelpemiddel trenger å byttes?' follows. If 'JA' (Yes), the actor sends 'Registrere bytte av utstyr/hjelpemiddel' to the system, which then sends 'Endringsordre ifm bytte av utstyr' back to the actor. If 'NEI' (No), the process ends with 'Vedlikehold er gjennomført' (End).](images/Bilag G1 Felles kommunal journalløsning/b0384c8e0ff826a8116ab2ff67dadc43_img.jpg)
 
 ```
 
@@ -4205,7 +4205,7 @@ Figur 72. Use-case for Drift og vedlikehold av utstyr og hjelpemidler
 
 ##### SHS3.2.1 Identifisere behov for utstyr og hjelpemidler
 
-![UML Use Case Diagram for SHS3.2.1 Identifisere behov for utstyr og hjelpemidler. The diagram shows the interaction between an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) and a 'NAV' (Municipality) system. The process starts with the inhabitant requesting a needs assessment. The NAV then performs a 'Kartlegge behov' (Map needs) and 'Møte: Kartlegge behov' (Meeting: Map needs). The NAV then performs a 'Vurdere utstyr/hjelpemiddel som kan møte behov' (Evaluate equipment/aid that can meet needs) and 'Møte: Utpøving' (Meeting: Testing). The NAV then performs a 'Vurdere om kommunen kan dekke utstyr/hjelpemiddel' (Evaluate if the municipality can cover equipment/aid). If the municipality can cover the equipment/aid, the NAV then performs a 'Søke om stønad om hjelpemiddel' (Apply for aid for equipment/aid). If the municipality cannot cover the equipment/aid, the NAV then performs a 'Gå til ukre logistikk av utstyr og hjelpemidler (SHS3.1.2)' (Go to unklare logistics of equipment and aid (SHS3.1.2)). The NAV then performs an 'Informere innbygger om vurdering av behov' (Inform inhabitant of needs assessment). The process ends with the NAV performing a 'Behov for utstyr og hjelpemidler er vurdert' (Needs for equipment and aid are assessed). The diagram also shows the 'Utstyrssystem' (Equipment system) involved in the process.](3d590ad29ecfe728f07432e6fcb59064_img.jpg)
+![UML Use Case Diagram for SHS3.2.1 Identifisere behov for utstyr og hjelpemidler. The diagram shows the interaction between an 'INNBYGGER/PÅRØRENDE' (Inhabitant/Requester) and a 'NAV' (Municipality) system. The process starts with the inhabitant requesting a needs assessment. The NAV then performs a 'Kartlegge behov' (Map needs) and 'Møte: Kartlegge behov' (Meeting: Map needs). The NAV then performs a 'Vurdere utstyr/hjelpemiddel som kan møte behov' (Evaluate equipment/aid that can meet needs) and 'Møte: Utpøving' (Meeting: Testing). The NAV then performs a 'Vurdere om kommunen kan dekke utstyr/hjelpemiddel' (Evaluate if the municipality can cover equipment/aid). If the municipality can cover the equipment/aid, the NAV then performs a 'Søke om stønad om hjelpemiddel' (Apply for aid for equipment/aid). If the municipality cannot cover the equipment/aid, the NAV then performs a 'Gå til ukre logistikk av utstyr og hjelpemidler (SHS3.1.2)' (Go to unklare logistics of equipment and aid (SHS3.1.2)). The NAV then performs an 'Informere innbygger om vurdering av behov' (Inform inhabitant of needs assessment). The process ends with the NAV performing a 'Behov for utstyr og hjelpemidler er vurdert' (Needs for equipment and aid are assessed). The diagram also shows the 'Utstyrssystem' (Equipment system) involved in the process.](images/Bilag G1 Felles kommunal journalløsning/3d590ad29ecfe728f07432e6fcb59064_img.jpg)
 
 ```
 
@@ -4259,7 +4259,7 @@ Figur 73. Use-case for å Identifisere behov for utstyr og hjelpemidler
 
 ##### **SHS3.2.2 Sikre riktig bruk av utstyr og hjelpemidler**
 
-![UML Use Case Diagram for SHS3.2.2 Sikre riktig bruk av utstyr og hjelpemidler. The diagram shows a process starting with 'Behov for veiledning i bruk av utstyr/hjelpemidler' (actor: Innbygger/Pårørende) leading to 'Innhente veileder i bruk av utstyr og hjelpemidler' (actor: Utstyrssystem). From there, it goes to 'Bistå i bruk av utstyr og hjelpemidler' (actor: Utstyrssystem), which then leads to 'Veiledning i bruk av utstyr/hjelpemidler er gitt'. There are also messages: 'Møte: Opp-læring' from the actor to the system, and 'Forespørsel over veileder' and 'Veileder for bruk av utstyr/hjelpemidler' from the system to the actor.](0757c1ca2d4a19ca824d92246e610fc7_img.jpg)
+![UML Use Case Diagram for SHS3.2.2 Sikre riktig bruk av utstyr og hjelpemidler. The diagram shows a process starting with 'Behov for veiledning i bruk av utstyr/hjelpemidler' (actor: Innbygger/Pårørende) leading to 'Innhente veileder i bruk av utstyr og hjelpemidler' (actor: Utstyrssystem). From there, it goes to 'Bistå i bruk av utstyr og hjelpemidler' (actor: Utstyrssystem), which then leads to 'Veiledning i bruk av utstyr/hjelpemidler er gitt'. There are also messages: 'Møte: Opp-læring' from the actor to the system, and 'Forespørsel over veileder' and 'Veileder for bruk av utstyr/hjelpemidler' from the system to the actor.](images/Bilag G1 Felles kommunal journalløsning/0757c1ca2d4a19ca824d92246e610fc7_img.jpg)
 
 ```
 
@@ -4318,7 +4318,7 @@ Figur 75 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram SHS3. Håndtere utstyr og hjelpemidler. The diagram is divided into three main sections: SHS3.1 Sikre tilgang til utstyr og hjelpemidler for virksomhetene, SHS3.2 Møte behov for utstyr og hjelpemidler for innbygger, and SHS3.3 Tilpasning av boliger. Each section contains icons representing different types of services and support. At the bottom, there are two boxes labeled 'Utførende' and 'Støttende'.](66829132ebdbaebe4455fb6162ef7180_img.jpg)
+![Diagram SHS3. Håndtere utstyr og hjelpemidler. The diagram is divided into three main sections: SHS3.1 Sikre tilgang til utstyr og hjelpemidler for virksomhetene, SHS3.2 Møte behov for utstyr og hjelpemidler for innbygger, and SHS3.3 Tilpasning av boliger. Each section contains icons representing different types of services and support. At the bottom, there are two boxes labeled 'Utførende' and 'Støttende'.](images/Bilag G1 Felles kommunal journalløsning/66829132ebdbaebe4455fb6162ef7180_img.jpg)
 
 The diagram 'SHS3. Håndtere utstyr og hjelpemidler' is structured as follows:
 
@@ -4356,7 +4356,7 @@ For kommunene skal felles journalløsning gi funksjonalitet for lokalisering, fl
 
 Figur 76 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabiliteten.
 
-![Diagram showing functional requirements for SHS3. It is divided into three main sections: SHS3.1, SHS3.2, and SHS3.3. SHS3.1 and SHS3.2 have sub-sections with specific requirements.](73c1c618c62f3c02bf5e24165816ba96_img.jpg)
+![Diagram showing functional requirements for SHS3. It is divided into three main sections: SHS3.1, SHS3.2, and SHS3.3. SHS3.1 and SHS3.2 have sub-sections with specific requirements.](images/Bilag G1 Felles kommunal journalløsning/73c1c618c62f3c02bf5e24165816ba96_img.jpg)
 
 **SHS3. Håndtere utstyr og hjelpemidler**
 
@@ -4386,7 +4386,7 @@ Det er identifisert behov for å samhandle med andre statlige og kommunale tjene
 
 Figur 77 gir en forenklet oversikt over informasjonsbehovene ved samhandling med Arbeids- og velferdsetaten.
 
-![Diagram SHS3 showing the interaction between 'Saksbehandling' and 'Informasjonselementer' for handling equipment and aids. It includes processes like 'Motta hjelpemiddelmelding', 'Motta tilgjengelige hjelpemidler', and 'Motta vedtak' from 'Arbeids- og velferdsetaten'.](61474739fd197587cfea52af9b6a3885_img.jpg)
+![Diagram SHS3 showing the interaction between 'Saksbehandling' and 'Informasjonselementer' for handling equipment and aids. It includes processes like 'Motta hjelpemiddelmelding', 'Motta tilgjengelige hjelpemidler', and 'Motta vedtak' from 'Arbeids- og velferdsetaten'.](images/Bilag G1 Felles kommunal journalløsning/61474739fd197587cfea52af9b6a3885_img.jpg)
 
 **SHS3. Håndtere utstyr og hjelpemidler (Samhandling med andre kommunale og statlige tjenester)**
 
@@ -4424,7 +4424,7 @@ Diagram SHS3 showing the interaction between 'Saksbehandling' and 'Informasjonse
 
 Kartlegging av de organisatoriske behovene tilsier en tettere integrasjon mellom felles journalløsning og kommunenes utstyrssystem i de tilfeller de eksisterer. Forprosjektet for Akson har ved nåværende tidspunkt ikke kartlagt hvilke utstyrssystem som brukes av kommunene, og kan derfor ikke beskrive hvorvidt det eksisterer standarder for å kunne utveksle denne type informasjon. Figur 78 gir en forenklet oversikt over informasjonsbehov i integrasjon med administrative løsninger i kommunen for å håndtere utstyr og hjelpemidler
 
-![Diagram showing the integration of equipment and aids management with administrative systems. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom).](819708f96460bb2b90e965ace616f179_img.jpg)
+![Diagram showing the integration of equipment and aids management with administrative systems. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom).](images/Bilag G1 Felles kommunal journalløsning/819708f96460bb2b90e965ace616f179_img.jpg)
 
 **SHS3. Håndtere utstyr og hjelpemidler (Integrasjon med administrative systemer i kommunen)**
 
@@ -4480,7 +4480,7 @@ Kapabiliteten beskriver en virksomhets evne til å:
 
 Figur 79 gir en oversikt over de tre underkapabilitetene innen Håndtere smittevern, biologisk avfall og engangsutstyr.
 
-![Diagram showing the structure of SHS4. Håndtere smittevern, biologisk avfall og engangsutstyr. It is divided into three main boxes: SHS4.1 Sikre effektivt smittevern, SHS4.2 Håndtere risikoavfall inkludert smittefarlig avfall, and SHS4.3 Støtte håndtering av engangsutstyr. Each box contains sub-boxes for specific tasks.](5e022ae60ba810b1e6de0645671b9dd3_img.jpg)
+![Diagram showing the structure of SHS4. Håndtere smittevern, biologisk avfall og engangsutstyr. It is divided into three main boxes: SHS4.1 Sikre effektivt smittevern, SHS4.2 Håndtere risikoavfall inkludert smittefarlig avfall, and SHS4.3 Støtte håndtering av engangsutstyr. Each box contains sub-boxes for specific tasks.](images/Bilag G1 Felles kommunal journalløsning/5e022ae60ba810b1e6de0645671b9dd3_img.jpg)
 
 SHS4. Håndtere smittevern, biologisk avfall og engangsutstyr
 
@@ -4550,7 +4550,7 @@ Figur 80 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the distribution of responsibilities for SHS4.1, SHS4.2, and SHS4.3 across 'Utførende' and 'Støttende' actors.](cdcbafff3cef7d54a001e3d0a4d9841e_img.jpg)
+![Diagram showing the distribution of responsibilities for SHS4.1, SHS4.2, and SHS4.3 across 'Utførende' and 'Støttende' actors.](images/Bilag G1 Felles kommunal journalløsning/cdcbafff3cef7d54a001e3d0a4d9841e_img.jpg)
 
 The diagram, titled 'SHS4 Håndtere smittevern, biologisk avfall og konsumerbare produkter', is divided into three main sections: SHS4.1 Sikre effektivt smittevern, SHS4.2 Håndtere risikoavfall inkludert smittefarlig avfall, and SHS4.3 Støtte håndtering av engangsutstyr. Each section lists various service providers and roles, categorized into 'Utførende' (実行者 - Executing) and 'Støttende' (支援者 - Supporting) actors.
 
@@ -4617,7 +4617,7 @@ Mange av de kommunale helse og omsorgstjenestene har behov for å ha tilgang til
 
 gjennomføre analyser blir ikke beskrevet i denne oversikten, men står beskrevet i avsnittene 4.4.3 og 4.4.1.
 
-![Diagram showing the functional needs for SHS4 Handtere smittevern, biologisk avfall og konsumerbare produkter, divided into three sub-areas: SHS4.1, SHS4.2, and SHS4.3.](c916a9fb4d2c440522379dedf3f76119_img.jpg)
+![Diagram showing the functional needs for SHS4 Handtere smittevern, biologisk avfall og konsumerbare produkter, divided into three sub-areas: SHS4.1, SHS4.2, and SHS4.3.](images/Bilag G1 Felles kommunal journalløsning/c916a9fb4d2c440522379dedf3f76119_img.jpg)
 
 The diagram is titled "SHS4 Håndtere smittevern, biologisk avfall og konsumerbare produkter". It is divided into three main sections, each in a rounded rectangle:
 
@@ -4652,7 +4652,7 @@ For tildeling av tjenester i hjemmet gjelder de ordinære reglene om tjenestetil
 
 Figur 82 gir en oversikt over de to underkapabilitetene innen Gjennomføre velferdstiltak.
 
-![Diagram showing the structure of SHS5. Gjennomføre velferdstiltak, divided into two main categories: SHS5.1 Sørge for matforsyning and SHS5.2 Sørge for vask og renhold, each with specific use-cases.](5525e7460947727851585808324e1f98_img.jpg)
+![Diagram showing the structure of SHS5. Gjennomføre velferdstiltak, divided into two main categories: SHS5.1 Sørge for matforsyning and SHS5.2 Sørge for vask og renhold, each with specific use-cases.](images/Bilag G1 Felles kommunal journalløsning/5525e7460947727851585808324e1f98_img.jpg)
 
 ```
 
@@ -4684,7 +4684,7 @@ Mange sykehjem legger til rette for at pasienten selv velger ønsket middag/dess
 
 ##### SHS5.1.1 Generere oversikt over behov for matforsyning
 
-![Business process diagram for SHS5.1.1 Generere oversikt over behov for matforsyning, showing the flow from a trigger to an end event, including data exchange with the kitchen.](c6fc08ce07316bd8f129f84e57fd1107_img.jpg)
+![Business process diagram for SHS5.1.1 Generere oversikt over behov for matforsyning, showing the flow from a trigger to an end event, including data exchange with the kitchen.](images/Bilag G1 Felles kommunal journalløsning/c6fc08ce07316bd8f129f84e57fd1107_img.jpg)
 
 ```
 
@@ -4711,7 +4711,7 @@ Business process diagram for SHS5.1.1 Generere oversikt over behov for matforsyn
 
 ##### **SHS5.1.2 Administrere status på matforsyning**
 
-![Flowchart for SHS5.1.2 Administrere status på matforsyning. The process starts with 'Endret behov er identifisert' (Start event), leading to 'Diskutere ernæringsplan med pasient' (Activity). From there, a decision 'Type endring?' (Decision) leads to three possible activities: 'Registrer at pasienten trenger hjelp til matlagning', 'Registrere at pasienten ikke spiser', and 'Registrer endring i ernæringsplan'. All three activities lead to the 'SLUTT' (End event). The diagram also shows a dashed line from 'INNBYGGER/PÅRØRENDE' (Actor) to the 'Diskutere ernæringsplan med pasient' activity.](437a88375397eec8390174b5426e99b0_img.jpg)
+![Flowchart for SHS5.1.2 Administrere status på matforsyning. The process starts with 'Endret behov er identifisert' (Start event), leading to 'Diskutere ernæringsplan med pasient' (Activity). From there, a decision 'Type endring?' (Decision) leads to three possible activities: 'Registrer at pasienten trenger hjelp til matlagning', 'Registrere at pasienten ikke spiser', and 'Registrer endring i ernæringsplan'. All three activities lead to the 'SLUTT' (End event). The diagram also shows a dashed line from 'INNBYGGER/PÅRØRENDE' (Actor) to the 'Diskutere ernæringsplan med pasient' activity.](images/Bilag G1 Felles kommunal journalløsning/437a88375397eec8390174b5426e99b0_img.jpg)
 
 ```
 
@@ -4752,7 +4752,7 @@ Flowchart for SHS5.1.2 Administrere status på matforsyning. The process starts 
 
 ##### **SHS5.2.1 Generere oversikt over rom som det skal utføres renhold på**
 
-![UML Use Case Diagram for SHS5.2.1. The diagram shows a process starting with an actor 'Behov for å styre renhold' (represented by a circle) interacting with the use case 'Generere oversikt over smitterom'. This use case then interacts with 'Generere oversikt over inn og utskrivelser', which finally leads to the 'SLUTT' (end) state (represented by a bullseye). Dashed lines with arrows point from each use case to a 'RENHOLD' boundary object at the bottom. message icons indicate that 'Oversikt over smitterom' and 'Oversikt over inn/utskrivninger' are sent to the boundary.](f54b2e4444e410765295be668123f27a_img.jpg)
+![UML Use Case Diagram for SHS5.2.1. The diagram shows a process starting with an actor 'Behov for å styre renhold' (represented by a circle) interacting with the use case 'Generere oversikt over smitterom'. This use case then interacts with 'Generere oversikt over inn og utskrivelser', which finally leads to the 'SLUTT' (end) state (represented by a bullseye). Dashed lines with arrows point from each use case to a 'RENHOLD' boundary object at the bottom. message icons indicate that 'Oversikt over smitterom' and 'Oversikt over inn/utskrivninger' are sent to the boundary.](images/Bilag G1 Felles kommunal journalløsning/f54b2e4444e410765295be668123f27a_img.jpg)
 
 **SHS5.2.1 Generere oversikt over rom som det skal utføres renhold på**
 
@@ -4782,7 +4782,7 @@ Figur 85. Use-case for å Generere oversikt over rom som det skal utføres renho
 
 ##### SHS5.2.2 Registrere gjennomført renhold i hjemmet
 
-![UML Use Case Diagram for SHS5.2.2. The diagram shows an actor 'Renhold er utført i hjemmet' (represented by a circle) interacting with the use case 'Registrere at renhold er gjennomført i hjemmet', which leads to the 'SLUTT' (end) state (represented by a bullseye). A dashed line with an arrow points from the use case to a 'RENHOLD' boundary object at the bottom. message icon indicates that 'Renhold er gjennomført' is sent to the boundary.](d579d14979ebeaa676740df2e3dbe024_img.jpg)
+![UML Use Case Diagram for SHS5.2.2. The diagram shows an actor 'Renhold er utført i hjemmet' (represented by a circle) interacting with the use case 'Registrere at renhold er gjennomført i hjemmet', which leads to the 'SLUTT' (end) state (represented by a bullseye). A dashed line with an arrow points from the use case to a 'RENHOLD' boundary object at the bottom. message icon indicates that 'Renhold er gjennomført' is sent to the boundary.](images/Bilag G1 Felles kommunal journalløsning/d579d14979ebeaa676740df2e3dbe024_img.jpg)
 
 **SHS5.2.2 Registrere gjennomført renhold i hjemmet**
 
@@ -4810,7 +4810,7 @@ Figur 86 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the actors involved in SHS5.1 and SHS5.2. SHS5.1 (Sørge for matforsyning) and SHS5.2 (Sørge for vask og renhold) both involve 'Utførende' (実行者) and 'Støttende' (支援者) actors. The 'Utførende' actors include Hjemme-tjenester, Habilitering/ rehabilitering, Sykepleje/ annen助い, and Personlig assistanse. The 'Støttende' actors include Tilsetnings-kontor and Funksjonell/ fysisk-terapeut. The diagram is structured as a large box containing two smaller boxes, each with a green header and a yellow body. The green header contains icons for the 'Utførende' actors, and the yellow body contains icons for the 'Støttende' actors. A legend at the bottom indicates that green represents 'Utførende' and yellow represents 'Støttende'.](3adb4bad764bde2c7c001c4e7fed57ad_img.jpg)
+![Diagram showing the actors involved in SHS5.1 and SHS5.2. SHS5.1 (Sørge for matforsyning) and SHS5.2 (Sørge for vask og renhold) both involve 'Utførende' (実行者) and 'Støttende' (支援者) actors. The 'Utførende' actors include Hjemme-tjenester, Habilitering/ rehabilitering, Sykepleje/ annen助い, and Personlig assistanse. The 'Støttende' actors include Tilsetnings-kontor and Funksjonell/ fysisk-terapeut. The diagram is structured as a large box containing two smaller boxes, each with a green header and a yellow body. The green header contains icons for the 'Utførende' actors, and the yellow body contains icons for the 'Støttende' actors. A legend at the bottom indicates that green represents 'Utførende' and yellow represents 'Støttende'.](images/Bilag G1 Felles kommunal journalløsning/3adb4bad764bde2c7c001c4e7fed57ad_img.jpg)
 
 Diagram showing the actors involved in SHS5.1 and SHS5.2. SHS5.1 (Sørge for matforsyning) and SHS5.2 (Sørge for vask og renhold) both involve 'Utførende' (実行者) and 'Støttende' (支援者) actors. The 'Utførende' actors include Hjemme-tjenester, Habilitering/ rehabilitering, Sykepleje/ annen助い, and Personlig assistanse. The 'Støttende' actors include Tilsetnings-kontor and Funksjonell/ fysisk-terapeut. The diagram is structured as a large box containing two smaller boxes, each with a green header and a yellow body. The green header contains icons for the 'Utførende' actors, and the yellow body contains icons for the 'Støttende' actors. A legend at the bottom indicates that green represents 'Utførende' and yellow represents 'Støttende'.
 
@@ -4838,7 +4838,7 @@ Det forventes at felles journalløsning vil gi prosesstøtte for bestilling av m
 
 Figur 87 gir en forenklet oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabiliteten.
 
-![Diagram showing the functional areas for SH55. Gjennomføre velferdstiltak, divided into two main sections: SH55.1 Sørge for matforsyning and SH55.2 Sørge for vask og renhold. Each section contains a box labeled 'Håndtere bestillinger av velferdsstøtte'.](7f950d8071cc74c5c726756baed72584_img.jpg)
+![Diagram showing the functional areas for SH55. Gjennomføre velferdstiltak, divided into two main sections: SH55.1 Sørge for matforsyning and SH55.2 Sørge for vask og renhold. Each section contains a box labeled 'Håndtere bestillinger av velferdsstøtte'.](images/Bilag G1 Felles kommunal journalløsning/7f950d8071cc74c5c726756baed72584_img.jpg)
 
 The diagram illustrates the functional areas for SH55. Gjennomføre velferdstiltak. It is divided into two main sections:
 
@@ -4859,7 +4859,7 @@ I tillegg til funksjonalitet i felles journalløsning for å understøtte kapabi
 
 Figur 88 gir en forenklet oversikt over de grensesnitt som er identifisert for å understøtte gjennomføring av velferdstiltak.
 
-![Diagram showing the integration of administrative systems for welfare measures. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom).](c2dbaf7c88ad38cb8620f6d731935ed8_img.jpg)
+![Diagram showing the integration of administrative systems for welfare measures. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom).](images/Bilag G1 Felles kommunal journalløsning/c2dbaf7c88ad38cb8620f6d731935ed8_img.jpg)
 
 SH55. Gjennomføre velferdstiltak (Integrasjon med administrative systemer i kommunen)
 
@@ -4900,7 +4900,7 @@ Området beskriver oppgaver og prosesser som er nødvendige for å administrere 
 
 Figur 89 gir en oversikt over de virksomhetskapabiliteter som er beskrevet i dette avsnittet.
 
-![](274c9f072648ced2fb71212d6e30fea9_img.jpg)
+![](images/Bilag G1 Felles kommunal journalløsning/274c9f072648ced2fb71212d6e30fea9_img.jpg)
 
 | AS. Administrere kommunale helse- og omsorgstjenester                                                                                                    |                                                                                                                                                                                                    |                                                                                                                                                                                                   |                                                                                                                                                                |                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4942,7 +4942,7 @@ Den kommunale helse- og omsorgstjenesten er hovedsakelig finansiert av myndighet
 
 Figur 90 gir en oversikt over de tre underkapabilitetene innen Håndtere økonomi og finans.
 
-![Diagram showing the structure of AS1. Håndtere økonomi og finans, divided into three main sub-capabilities: AS1.1, AS1.2, and AS1.3, each with specific use-cases.](7655cfc9896999dced4a2a082c96ff8b_img.jpg)
+![Diagram showing the structure of AS1. Håndtere økonomi og finans, divided into three main sub-capabilities: AS1.1, AS1.2, and AS1.3, each with specific use-cases.](images/Bilag G1 Felles kommunal journalløsning/7655cfc9896999dced4a2a082c96ff8b_img.jpg)
 
 The diagram, titled 'AS1. Håndtere økonomi og finans', is organized into three main vertical sections, each representing a sub-capability:
 
@@ -5032,7 +5032,7 @@ Grunnlaget for fakturaen må opprettes og sendes til det finansielle systemet fo
 
 ###### **AS1.1.1 Beregne brukerbetaling for langtidsopphold på institusjon**
 
-![Flowchart for 'Beregne brukerbetaling for langtidsopphold på institusjon'. The process starts with 'Behov for å beregne brukerbetaling' leading to 'Innhente informasjon om inntekt'. This step receives information from 'INNBYGGER/PÅRØRENDE' (including information on home-dwelling, dependent children, children over 18, and income changes) and 'SKATTEETATEN' (information on income). From 'Innhente informasjon om inntekt', the flow goes to 'Mottatt krav om dekning av levekostnader'. If 'JA', it goes to 'Behandle krav om å dekning av levekostnader' and then to 'Beregne brukerbetaling'. If 'NEI', it goes directly to 'Beregne brukerbetaling'. 'Beregne brukerbetaling' leads to 'Fatte beslutning om brukerbetaling', which receives input from 'FAKTURASYSTEM' (regarding existing facturing for other factured amounts). From 'Fatte beslutning om brukerbetaling', if 'JA', it goes to 'Beregne beløp som skal tilbakebetales/faktureres', which also receives input from 'FAKTURASYSTEM' (regarding basis for invoice and credit note). If 'NEI', it goes to 'Brukerbetaling for langtidsopphold er oppdatert'. The final step 'Brukerbetaling for langtidsopphold er oppdatert' sends a 'Svar på krav' back to 'Behandle krav om å dekning av levekostnader' and an 'Informasjon om beslutning' back to 'Innhente informasjon om inntekt'.](061f273b184fe5ef7286f149580f3587_img.jpg)
+![Flowchart for 'Beregne brukerbetaling for langtidsopphold på institusjon'. The process starts with 'Behov for å beregne brukerbetaling' leading to 'Innhente informasjon om inntekt'. This step receives information from 'INNBYGGER/PÅRØRENDE' (including information on home-dwelling, dependent children, children over 18, and income changes) and 'SKATTEETATEN' (information on income). From 'Innhente informasjon om inntekt', the flow goes to 'Mottatt krav om dekning av levekostnader'. If 'JA', it goes to 'Behandle krav om å dekning av levekostnader' and then to 'Beregne brukerbetaling'. If 'NEI', it goes directly to 'Beregne brukerbetaling'. 'Beregne brukerbetaling' leads to 'Fatte beslutning om brukerbetaling', which receives input from 'FAKTURASYSTEM' (regarding existing facturing for other factured amounts). From 'Fatte beslutning om brukerbetaling', if 'JA', it goes to 'Beregne beløp som skal tilbakebetales/faktureres', which also receives input from 'FAKTURASYSTEM' (regarding basis for invoice and credit note). If 'NEI', it goes to 'Brukerbetaling for langtidsopphold er oppdatert'. The final step 'Brukerbetaling for langtidsopphold er oppdatert' sends a 'Svar på krav' back to 'Behandle krav om å dekning av levekostnader' and an 'Informasjon om beslutning' back to 'Innhente informasjon om inntekt'.](images/Bilag G1 Felles kommunal journalløsning/061f273b184fe5ef7286f149580f3587_img.jpg)
 
 Flowchart for 'Beregne brukerbetaling for langtidsopphold på institusjon'. The process starts with 'Behov for å beregne brukerbetaling' leading to 'Innhente informasjon om inntekt'. This step receives information from 'INNBYGGER/PÅRØRENDE' (including information on home-dwelling, dependent children, children over 18, and income changes) and 'SKATTEETATEN' (information on income). From 'Innhente informasjon om inntekt', the flow goes to 'Mottatt krav om dekning av levekostnader'. If 'JA', it goes to 'Behandle krav om å dekning av levekostnader' and then to 'Beregne brukerbetaling'. If 'NEI', it goes directly to 'Beregne brukerbetaling'. 'Beregne brukerbetaling' leads to 'Fatte beslutning om brukerbetaling', which receives input from 'FAKTURASYSTEM' (regarding existing facturing for other factured amounts). From 'Fatte beslutning om brukerbetaling', if 'JA', it goes to 'Beregne beløp som skal tilbakebetales/faktureres', which also receives input from 'FAKTURASYSTEM' (regarding basis for invoice and credit note). If 'NEI', it goes to 'Brukerbetaling for langtidsopphold er oppdatert'. The final step 'Brukerbetaling for langtidsopphold er oppdatert' sends a 'Svar på krav' back to 'Behandle krav om å dekning av levekostnader' and an 'Informasjon om beslutning' back to 'Innhente informasjon om inntekt'.
 
@@ -5066,7 +5066,7 @@ Use-caset initieres:
 
 ###### AS1.1.2 Beregne brukerbetaling for hjemmetjenester
 
-![UML Use Case Diagram for 'Beregne brukerbetaling for hjemmetjenester'.](dbe8bef1723acb3e03e8616be4faf939_img.jpg)
+![UML Use Case Diagram for 'Beregne brukerbetaling for hjemmetjenester'.](images/Bilag G1 Felles kommunal journalløsning/dbe8bef1723acb3e03e8616be4faf939_img.jpg)
 
 The diagram illustrates the 'Beregne brukerbetaling for hjemmetjenester' use case. It features three external actors: 'INNBYGGER/PÅRØRENDE' (top), 'SKATTEETATEN' (bottom left), and 'NAV' (bottom center). The use case boundary contains the following elements:
 
@@ -5109,7 +5109,7 @@ Use-caset initieres:
 
 ###### AS1.2.1 Generere grunnlag for, og motta egenbetaling (inkl. egenandel) hos fastleger
 
-![UML Use Case Diagram for AS1.2.1 Generere grunnlag for, og motta egenbetaling (inkl. egenandel) hos fastleger. The diagram shows the process starting with 'Grunnlag for oppgjør er generert med utgangspunkt i journalføringen'. It then goes to 'Vurdere om pasienten er fritatt fra betaling'. If 'Pasienten skal ikke betale', it ends at 'SLUTT'. If 'Pasienten skal betale', it goes to 'Beregne brukerbetaling'. Then 'Skal bruker betale?'. If 'NEI', it ends at 'SLUTT'. If 'Ja', it goes to 'Forespør betalingsmetode'. Then 'Motta betaling med kort' or 'Motta betaling med faktura'. Both lead to 'SLUTT'. external systems involved are NAV (for vedtak om yrkesskade), HELFO (for kortinformasjon), BETALINGSLØSNING (for betalingsinformasjon, bekrivelse av betaling), and FAKTURASYSTEM (for fakturagrunnlag, bekrivelse av betaling).](f79cb254efa2e37d7facb055cf90086e_img.jpg)
+![UML Use Case Diagram for AS1.2.1 Generere grunnlag for, og motta egenbetaling (inkl. egenandel) hos fastleger. The diagram shows the process starting with 'Grunnlag for oppgjør er generert med utgangspunkt i journalføringen'. It then goes to 'Vurdere om pasienten er fritatt fra betaling'. If 'Pasienten skal ikke betale', it ends at 'SLUTT'. If 'Pasienten skal betale', it goes to 'Beregne brukerbetaling'. Then 'Skal bruker betale?'. If 'NEI', it ends at 'SLUTT'. If 'Ja', it goes to 'Forespør betalingsmetode'. Then 'Motta betaling med kort' or 'Motta betaling med faktura'. Both lead to 'SLUTT'. external systems involved are NAV (for vedtak om yrkesskade), HELFO (for kortinformasjon), BETALINGSLØSNING (for betalingsinformasjon, bekrivelse av betaling), and FAKTURASYSTEM (for fakturagrunnlag, bekrivelse av betaling).](images/Bilag G1 Felles kommunal journalløsning/f79cb254efa2e37d7facb055cf90086e_img.jpg)
 
 **AS1.2.1 Generere grunnlag for og motta brukerbetaling hos fastleger**
 
@@ -5180,7 +5180,7 @@ Informasjon som registreres under pasientens konsultasjon brukes til å skape gr
 
 ###### AS1.2.2 Håndtere betaling for kommunale helse- og omsorgstjenester
 
-![UML Use Case Diagram for 'Håndtere betaling for kommunale helse- og omsorgstjenester'. The diagram shows a process starting with 'Initiere periodisk betaling for en enkelt bruker' leading to 'Innhente bruker-informasjon fra individuelle beslutninger'. A decision diamond 'Langtidsopphold på institusjon?' branches into 'JA' (Yes) and 'NEI' (No). The 'JA' path leads to 'Generere betalingsgrunnlag', which then connects to 'Faktura grunnlag for perioden er utarbeidet'. The 'NEI' path leads to 'Innhente informasjon om tjenester som leveres', then 'Beregne pris basert på tjenesten som er levert', and finally 'Generere grunnlag for faktura', which also connects to 'Faktura grunnlag for perioden er utarbeidet'. The 'Faktura grunnlag for perioden er utarbeidet' node connects to an external system boundary. Below the boundary, there are two external entities: 'NAV' and 'FAKTURASYSTEM'. 'NAV' is connected to 'Generere betalingsgrunnlag' via a dashed line labeled 'Reduksjon fra pensjon'. 'FAKTURASYSTEM' is connected to 'Generere grunnlag for faktura' via a dashed line labeled 'Faktura grunnlag'.](d884367c84ba50f250499f79c4b4b950_img.jpg)
+![UML Use Case Diagram for 'Håndtere betaling for kommunale helse- og omsorgstjenester'. The diagram shows a process starting with 'Initiere periodisk betaling for en enkelt bruker' leading to 'Innhente bruker-informasjon fra individuelle beslutninger'. A decision diamond 'Langtidsopphold på institusjon?' branches into 'JA' (Yes) and 'NEI' (No). The 'JA' path leads to 'Generere betalingsgrunnlag', which then connects to 'Faktura grunnlag for perioden er utarbeidet'. The 'NEI' path leads to 'Innhente informasjon om tjenester som leveres', then 'Beregne pris basert på tjenesten som er levert', and finally 'Generere grunnlag for faktura', which also connects to 'Faktura grunnlag for perioden er utarbeidet'. The 'Faktura grunnlag for perioden er utarbeidet' node connects to an external system boundary. Below the boundary, there are two external entities: 'NAV' and 'FAKTURASYSTEM'. 'NAV' is connected to 'Generere betalingsgrunnlag' via a dashed line labeled 'Reduksjon fra pensjon'. 'FAKTURASYSTEM' is connected to 'Generere grunnlag for faktura' via a dashed line labeled 'Faktura grunnlag'.](images/Bilag G1 Felles kommunal journalløsning/d884367c84ba50f250499f79c4b4b950_img.jpg)
 
 AS1.2.2 Håndtere betaling for kommunale helse- og omsorgstjenester
 
@@ -5228,7 +5228,7 @@ Use-caset initieres periodisk (vanligvis månedlig) for alle innbyggere / alle t
 
 ###### AS1.2.3 Generere betaling fra andre aktører med og uten avtale
 
-![Flowchart for use-case AS1.2.3: Generere betaling fra andre aktører med og uten avtale. The process starts with a decision 'Fastlege kontaktes for å avgi attest eller erklæring uten at det medfører brukerbetaling?'. If 'JA', it proceeds to 'Generere grunnlag for faktura'. If 'NEI', it proceeds to 'Gjør avtale med bestiller av attest/erklæring om honorar og betalingsmåte'. Both paths lead to 'Samtykke fra pasient foreligger fra bestiller av oppdrag', then 'Beregne pris basert på tjenesten som skal leveres', and finally 'Generere betalingsgrunnlag basert på avtale'. The final step is 'Betaling utført'. The diagram also shows external entities: 'Eks. forsikringsselskap, advokat, kommune' and 'Fakturasystem'.](313826501fcb4294a5d337702ea35f2d_img.jpg)
+![Flowchart for use-case AS1.2.3: Generere betaling fra andre aktører med og uten avtale. The process starts with a decision 'Fastlege kontaktes for å avgi attest eller erklæring uten at det medfører brukerbetaling?'. If 'JA', it proceeds to 'Generere grunnlag for faktura'. If 'NEI', it proceeds to 'Gjør avtale med bestiller av attest/erklæring om honorar og betalingsmåte'. Both paths lead to 'Samtykke fra pasient foreligger fra bestiller av oppdrag', then 'Beregne pris basert på tjenesten som skal leveres', and finally 'Generere betalingsgrunnlag basert på avtale'. The final step is 'Betaling utført'. The diagram also shows external entities: 'Eks. forsikringsselskap, advokat, kommune' and 'Fakturasystem'.](images/Bilag G1 Felles kommunal journalløsning/313826501fcb4294a5d337702ea35f2d_img.jpg)
 
 AS1.2.3 Generere betaling fra andre aktører med og uten avtale
 
@@ -5275,7 +5275,7 @@ Use-caset initieres når en fastlege kontaktes for å avgi attest eller erklæri
 
 ###### AS1.3.1 Rapportere brukerbetaling/eigenbetaling og refusjon fra Helfo
 
-![UML Use Case Diagram for AS1.3.1. The diagram shows a process starting with 'Initiere rapportering til Helfo' leading to 'Generere grunnlag for rapportering'. This step interacts with the 'ØKONOMISYSTEM' (receiving 'foreslagsgrunnlag' and sending 'Behandlingskravmelding'). The next step is 'Motta resultat fra HELFO', which interacts with 'HELFO' (receiving 'Resultat fra kravvurdering'). A decision diamond 'Er der krav som er avvist?' follows. If 'JA', it goes to 'Korrigerer den administrative koding' and then to 'Brukerbetaling og refusjon fra Helfo er rapportert'. If 'NEI', it loops back to 'Motta resultat fra HELFO'.](8e2b6b0d92809964fe902cdb1272fb39_img.jpg)
+![UML Use Case Diagram for AS1.3.1. The diagram shows a process starting with 'Initiere rapportering til Helfo' leading to 'Generere grunnlag for rapportering'. This step interacts with the 'ØKONOMISYSTEM' (receiving 'foreslagsgrunnlag' and sending 'Behandlingskravmelding'). The next step is 'Motta resultat fra HELFO', which interacts with 'HELFO' (receiving 'Resultat fra kravvurdering'). A decision diamond 'Er der krav som er avvist?' follows. If 'JA', it goes to 'Korrigerer den administrative koding' and then to 'Brukerbetaling og refusjon fra Helfo er rapportert'. If 'NEI', it loops back to 'Motta resultat fra HELFO'.](images/Bilag G1 Felles kommunal journalløsning/8e2b6b0d92809964fe902cdb1272fb39_img.jpg)
 
 AS1.3.1 Rapportere brukerbetaling og refusjon fra Helfo
 
@@ -5322,7 +5322,7 @@ Use-caset initieres periodisk. Fristen for å få behandlet krav om godtgjørels
 
 ###### AS1.3.2 Gjennomføre oppgjør hos fastleger
 
-![Flowchart for use-case AS1.3.2 Gjennomføre oppgjør hos fastleger. The process starts with 'Initiere oppgjør' leading to a decision 'Dagoppgjør'. If 'JA', it goes to 'Generere dagsoppgjør'. If 'NEI', it goes to 'Avskrive krav til bruker'. From 'Generere dagsoppgjør', it goes to another decision 'Behov for å avskrive brukerbetaling'. If 'JA', it goes to 'Avskrive krav til bruker'. If 'NEI', it goes to 'Generere årsoppgjør'. Both 'Avskrive krav til bruker' and 'Generere årsoppgjør' lead to the final state 'Oppgjør er gjennomført'. Data flows include 'Avskrivingsinformasjon' to 'FAKTURASYSTEM' and 'Grunnlag for årsoppgjør' to 'REGNSKAPSFØRER'.](b1123ddbaa09fda65dcdf91d8caaa0f2_img.jpg)
+![Flowchart for use-case AS1.3.2 Gjennomføre oppgjør hos fastleger. The process starts with 'Initiere oppgjør' leading to a decision 'Dagoppgjør'. If 'JA', it goes to 'Generere dagsoppgjør'. If 'NEI', it goes to 'Avskrive krav til bruker'. From 'Generere dagsoppgjør', it goes to another decision 'Behov for å avskrive brukerbetaling'. If 'JA', it goes to 'Avskrive krav til bruker'. If 'NEI', it goes to 'Generere årsoppgjør'. Both 'Avskrive krav til bruker' and 'Generere årsoppgjør' lead to the final state 'Oppgjør er gjennomført'. Data flows include 'Avskrivingsinformasjon' to 'FAKTURASYSTEM' and 'Grunnlag for årsoppgjør' to 'REGNSKAPSFØRER'.](images/Bilag G1 Felles kommunal journalløsning/b1123ddbaa09fda65dcdf91d8caaa0f2_img.jpg)
 
 ```
 
@@ -5357,7 +5357,7 @@ Figur 97. Use-case for å Gjennomføre oppgjør hos fastleger
 
 ###### AS1.3.3 Gjennomføre årsoppgjør hos kommuner
 
-![UML Use Case Diagram for 'AS1.3.3 Gjennomføre årsoppgjør hos kommuner'. The diagram shows the process of performing an annual accounting for municipalities. It involves three main actors: 'INNBYGGER/PÅRØDENDE' (Inhabitant/Requester), 'SKATTEETATEN' (Tax Authority), and 'FAKTURASYSTEM' (Billing System). The process starts with the taxpayer requesting an annual accounting. The Tax Authority then performs the accounting, which involves determining the tax amount and comparing it with payments. If there is a difference, the taxpayer is billed for the remaining amount. The Billing System is used to calculate the amount to be billed and to issue the invoice.](d33f50868e9cfda1b1206833c4061e12_img.jpg)
+![UML Use Case Diagram for 'AS1.3.3 Gjennomføre årsoppgjør hos kommuner'. The diagram shows the process of performing an annual accounting for municipalities. It involves three main actors: 'INNBYGGER/PÅRØDENDE' (Inhabitant/Requester), 'SKATTEETATEN' (Tax Authority), and 'FAKTURASYSTEM' (Billing System). The process starts with the taxpayer requesting an annual accounting. The Tax Authority then performs the accounting, which involves determining the tax amount and comparing it with payments. If there is a difference, the taxpayer is billed for the remaining amount. The Billing System is used to calculate the amount to be billed and to issue the invoice.](images/Bilag G1 Felles kommunal journalløsning/d33f50868e9cfda1b1206833c4061e12_img.jpg)
 
 ```
 
@@ -5409,7 +5409,7 @@ Figur 99 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse 
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the roles of actors in the process of handling economy and finance, divided into three main steps: AS1.1, AS1.2, and AS1.3. Each step shows a set of actors (Kommune, Tjenesteyter med ansvar, Hjemmehjelp, Tilbudsområder) and their roles (Utførende or Støttende).](864e6cb4a0166a5b21a5d19f694e1606_img.jpg)
+![Diagram showing the roles of actors in the process of handling economy and finance, divided into three main steps: AS1.1, AS1.2, and AS1.3. Each step shows a set of actors (Kommune, Tjenesteyter med ansvar, Hjemmehjelp, Tilbudsområder) and their roles (Utførende or Støttende).](images/Bilag G1 Felles kommunal journalløsning/864e6cb4a0166a5b21a5d19f694e1606_img.jpg)
 
 **AS1. Håndtere økonomi og finans**
 
@@ -5445,7 +5445,7 @@ Felles journalløsning må ha funksjonalitet til å håndtere gebyrberegninger, 
 
 Figur 100 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabiliteten.
 
-![](a181a763ac312b27a54a7a52c6bb62e7_img.jpg)
+![](images/Bilag G1 Felles kommunal journalløsning/a181a763ac312b27a54a7a52c6bb62e7_img.jpg)
 
 **AS1. Håndtere økonomi og finans**
 
@@ -5469,7 +5469,7 @@ Det er identifisert behov for å samhandle med andre statlige og kommunale tjene
 
 Figur 101 gir en oversikt over informasjonsbehovene ved samhandling med Arbeids- og velferdsdirektoratet, Skatteetaten og Helsedirektoratet/HELFO.
 
-![Diagram A51 showing information exchange between 'Saksbehandling' and 'Informasjonselementer' for three external entities: 'Arbeids- og velferdsdirektoratet', 'Skatteetaten', and 'Helsedirektoratet/HELFO'. The diagram maps flows of data like 'Motta inntekt', 'Send vedtak', 'Motta melding om yrkesskade', etc., between internal processes and external partners.](c40637b9f0bcae2d6e1268f104168127_img.jpg)
+![Diagram A51 showing information exchange between 'Saksbehandling' and 'Informasjonselementer' for three external entities: 'Arbeids- og velferdsdirektoratet', 'Skatteetaten', and 'Helsedirektoratet/HELFO'. The diagram maps flows of data like 'Motta inntekt', 'Send vedtak', 'Motta melding om yrkesskade', etc., between internal processes and external partners.](images/Bilag G1 Felles kommunal journalløsning/c40637b9f0bcae2d6e1268f104168127_img.jpg)
 
 **A51. Håndtere økonomi og finans (Samhandling med andre kommunale og statlige tjenester)**
 
@@ -5523,7 +5523,7 @@ Figur 101 Informasjonsbehov i samhandling med andre kommunale og statlige tjenes
 
 Figur 102 gir en oversikt over de grensesnitt som er identifisert for å understøtte håndtering av Økonomi og finans.
 
-![Diagram showing the integration of economic and financial processes with administrative systems. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom). In 'Saksbehandling', there are three main processes: 'Utarbeide grunnlag for betaling', 'Håndtere brukerbetaling/ egenbetaling/ refusjoner', and 'Rapportere og gjennomføre oppgjør'. In 'Informasjonselementer', there are corresponding data elements: 'Fakturagrunnlag langtidsopphold', 'Egenandel/pasientbetaling', and 'Avstemning'. Arrows show data flow: 'Send fakturagrunnlag' from process to element, 'Motta fakturagrunnlag' from element to 'Betalingssystem', 'Sende og motta Egenandel/pasientbetaling' between process and element, 'Motta egenandel/pasientbetaling' from element to 'Betalingssystem', 'Sende avstemning' from process to element, and 'Motta avstemning' from element to 'Økonomi og fakturasytem'.](16c8aea7b68120358abcb5ef6ef3ae0b_img.jpg)
+![Diagram showing the integration of economic and financial processes with administrative systems. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom). In 'Saksbehandling', there are three main processes: 'Utarbeide grunnlag for betaling', 'Håndtere brukerbetaling/ egenbetaling/ refusjoner', and 'Rapportere og gjennomføre oppgjør'. In 'Informasjonselementer', there are corresponding data elements: 'Fakturagrunnlag langtidsopphold', 'Egenandel/pasientbetaling', and 'Avstemning'. Arrows show data flow: 'Send fakturagrunnlag' from process to element, 'Motta fakturagrunnlag' from element to 'Betalingssystem', 'Sende og motta Egenandel/pasientbetaling' between process and element, 'Motta egenandel/pasientbetaling' from element to 'Betalingssystem', 'Sende avstemning' from process to element, and 'Motta avstemning' from element to 'Økonomi og fakturasytem'.](images/Bilag G1 Felles kommunal journalløsning/16c8aea7b68120358abcb5ef6ef3ae0b_img.jpg)
 
 **AS1. Håndtere økonomi og finans (Integrasjon med administrative systemer i kommunen)**
 
@@ -5571,7 +5571,7 @@ Ingen spesielle regler gjelder for denne kapabiliteten.
 
 Figur 103 gir en oversikt over de tre underkapabilitetene innen Håndtere og lede personal.
 
-![Oversikt over kapabiliteter og Use-cases for å Håndtere og lede personal. Diagrammet viser tre hovedkategorier: AS2.1 Rekruttere og styre kompetanse, AS2.2 Planlegge arbeidstid, og AS2.3 Håndtere lønn og godtgjørelse. Under AS2.1 finnes underkategorien AS2.1.1 Registrere ansatt og vedlikeholde kompetanseprofil. Under AS2.2 finnes underkategorien AS2.2.1 Knytte oppsatt grunnturnus til vedtak om tjenester, AS2.2.2 Utarbeide periodisk plan med fordeling av oppgaver, og AS2.2.3 Håndtere endringer i tilgjengelighet og behov. Under AS2.3 finnes underkategorien AS2.3.1 Generere grunnlag for utbetaling av lønn.](ee9591f2ed4d59907d52978bb341a903_img.jpg)
+![Oversikt over kapabiliteter og Use-cases for å Håndtere og lede personal. Diagrammet viser tre hovedkategorier: AS2.1 Rekruttere og styre kompetanse, AS2.2 Planlegge arbeidstid, og AS2.3 Håndtere lønn og godtgjørelse. Under AS2.1 finnes underkategorien AS2.1.1 Registrere ansatt og vedlikeholde kompetanseprofil. Under AS2.2 finnes underkategorien AS2.2.1 Knytte oppsatt grunnturnus til vedtak om tjenester, AS2.2.2 Utarbeide periodisk plan med fordeling av oppgaver, og AS2.2.3 Håndtere endringer i tilgjengelighet og behov. Under AS2.3 finnes underkategorien AS2.3.1 Generere grunnlag for utbetaling av lønn.](images/Bilag G1 Felles kommunal journalløsning/ee9591f2ed4d59907d52978bb341a903_img.jpg)
 
 Oversikt over kapabiliteter og Use-cases for å Håndtere og lede personal. Diagrammet viser tre hovedkategorier: AS2.1 Rekruttere og styre kompetanse, AS2.2 Planlegge arbeidstid, og AS2.3 Håndtere lønn og godtgjørelse. Under AS2.1 finnes underkategorien AS2.1.1 Registrere ansatt og vedlikeholde kompetanseprofil. Under AS2.2 finnes underkategorien AS2.2.1 Knytte oppsatt grunnturnus til vedtak om tjenester, AS2.2.2 Utarbeide periodisk plan med fordeling av oppgaver, og AS2.2.3 Håndtere endringer i tilgjengelighet og behov. Under AS2.3 finnes underkategorien AS2.3.1 Generere grunnlag for utbetaling av lønn.
 
@@ -5581,7 +5581,7 @@ Figur 103. Oversikt over kapabiliteter og Use-cases for å Håndtere og lede per
 
 ##### AS2.1.1 Registrere ansatt og vedlikeholde kompetanseprofil
 
-![Use-case diagram for AS2.1.1 Registrere ansatt og vedlikeholde kompetanseprofil. Prosessen starter med 'Endring er gjennomført i personalsystemet'. Dette fører til 'Motta endringer fra personalsystemet'. En beslutningspunkt 'Hva innebærer endringen?' fører til to veier: 'Oppsigelse' fører til 'Fjerne helsepersonell fra journalløsningen' og deretter 'SLUTT'; 'Nysansatt' fører til 'Opprette nytt helsepersonell i journalløsningen' og deretter 'Opprette/Endre kompetanseprofil for helsepersonell' og deretter 'SLUTT'. En annen vei 'Endring i kompetanseprofil' fører også til 'Opprette/Endre kompetanseprofil for helsepersonell' og deretter 'SLUTT'. Dataobjektet 'Personalinformasjon / Kompetanseprofil' er knyttet til prosessen. Systemgrensen er 'Personalsystem/ turnussystem'.](a1bac98ed4f92e54da4a77c223cc4729_img.jpg)
+![Use-case diagram for AS2.1.1 Registrere ansatt og vedlikeholde kompetanseprofil. Prosessen starter med 'Endring er gjennomført i personalsystemet'. Dette fører til 'Motta endringer fra personalsystemet'. En beslutningspunkt 'Hva innebærer endringen?' fører til to veier: 'Oppsigelse' fører til 'Fjerne helsepersonell fra journalløsningen' og deretter 'SLUTT'; 'Nysansatt' fører til 'Opprette nytt helsepersonell i journalløsningen' og deretter 'Opprette/Endre kompetanseprofil for helsepersonell' og deretter 'SLUTT'. En annen vei 'Endring i kompetanseprofil' fører også til 'Opprette/Endre kompetanseprofil for helsepersonell' og deretter 'SLUTT'. Dataobjektet 'Personalinformasjon / Kompetanseprofil' er knyttet til prosessen. Systemgrensen er 'Personalsystem/ turnussystem'.](images/Bilag G1 Felles kommunal journalløsning/a1bac98ed4f92e54da4a77c223cc4729_img.jpg)
 
 Use-case diagram for AS2.1.1 Registrere ansatt og vedlikeholde kompetanseprofil. Prosessen starter med 'Endring er gjennomført i personalsystemet'. Dette fører til 'Motta endringer fra personalsystemet'. En beslutningspunkt 'Hva innebærer endringen?' fører til to veier: 'Oppsigelse' fører til 'Fjerne helsepersonell fra journalløsningen' og deretter 'SLUTT'; 'Nysansatt' fører til 'Opprette nytt helsepersonell i journalløsningen' og deretter 'Opprette/Endre kompetanseprofil for helsepersonell' og deretter 'SLUTT'. En annen vei 'Endring i kompetanseprofil' fører også til 'Opprette/Endre kompetanseprofil for helsepersonell' og deretter 'SLUTT'. Dataobjektet 'Personalinformasjon / Kompetanseprofil' er knyttet til prosessen. Systemgrensen er 'Personalsystem/ turnussystem'.
 
@@ -5602,7 +5602,7 @@ Figur 104. Use-case for å Registrere ansatt og vedlikeholde kompetanseprofil
 
 ###### AS2.2.1 Knytte oppsatt grunnturnus til vedtak om tjenester
 
-![UML Use Case Diagram for AS2.2.1 Knytte oppsatt grunnturnus til vedtak om tjenester. The diagram shows a process flow: 'Behov for turnusplan' (actor) -> 'Generer oversikt over innbyggere som skal dekkes' (use case) -> 'Motta grunnturnus' (use case) -> 'Gjøre tilgjengelig oppdatert turnus for leder og de ansatte' (use case) -> 'SLUTT' (end). Below the use cases, two data objects are shown: 'Innbyggere Tjenester' and 'Grunnturnus'. A 'TURNUSSYSTEM' component is shown at the bottom, connected to the data objects.](ce58a77ff34d610cd0634eacffbd3eaf_img.jpg)
+![UML Use Case Diagram for AS2.2.1 Knytte oppsatt grunnturnus til vedtak om tjenester. The diagram shows a process flow: 'Behov for turnusplan' (actor) -> 'Generer oversikt over innbyggere som skal dekkes' (use case) -> 'Motta grunnturnus' (use case) -> 'Gjøre tilgjengelig oppdatert turnus for leder og de ansatte' (use case) -> 'SLUTT' (end). Below the use cases, two data objects are shown: 'Innbyggere Tjenester' and 'Grunnturnus'. A 'TURNUSSYSTEM' component is shown at the bottom, connected to the data objects.](images/Bilag G1 Felles kommunal journalløsning/ce58a77ff34d610cd0634eacffbd3eaf_img.jpg)
 
 AS2.2.1 Utarbeide og vedlikeholde grunnturnus
 
@@ -5641,7 +5641,7 @@ Figur 105. Use-case for å Knytte oppsatt grunnturnus til vedtak om tjenester
 
 ###### AS2.2.2 Utarbeide periodisk plan med fordeling av oppgaver
 
-![Flowchart of the process for creating a periodic plan with task distribution. The process starts with 'Behov for periodisk plan' and proceeds through several steps: 'Generere oversikt over innbyggere som det skal lages plan for', 'Innhente oversikt over tilgjengelige helsepersonell', 'Utarbeide plan knyttet til oppgaver for enkeltbrukere', 'Utarbeide optimal kjørерute for hjemmetjenester', 'Motta oppdatert optimal kjørerute', and finally 'Gjøre tilgjengelig oppdatert plan for leder og de ansatte', ending at 'SLUTT'. A dashed line labeled 'RUTEOPTIMALISERING' connects the two 'optimal route' steps.](1750e325061d2206b5af0af175793d79_img.jpg)
+![Flowchart of the process for creating a periodic plan with task distribution. The process starts with 'Behov for periodisk plan' and proceeds through several steps: 'Generere oversikt over innbyggere som det skal lages plan for', 'Innhente oversikt over tilgjengelige helsepersonell', 'Utarbeide plan knyttet til oppgaver for enkeltbrukere', 'Utarbeide optimal kjørерute for hjemmetjenester', 'Motta oppdatert optimal kjørerute', and finally 'Gjøre tilgjengelig oppdatert plan for leder og de ansatte', ending at 'SLUTT'. A dashed line labeled 'RUTEOPTIMALISERING' connects the two 'optimal route' steps.](images/Bilag G1 Felles kommunal journalløsning/1750e325061d2206b5af0af175793d79_img.jpg)
 
 **AS2.2.2 Utarbeide periodisk plan med fordeling av oppgaver**
 
@@ -5675,7 +5675,7 @@ Figur 106. Use-case for å Utarbeide periodisk plan med fordeling av oppgaver
 
 ##### AS2.2.3 Håndtere endringer i tilgjengelighet og behov
 
-![Flowchart for use-case AS2.2.3: Håndtere endringer i tilgjengelighet og behov. The process starts with 'Identifisere behov for endringer i turnus og plan', followed by 'Motta varsel om endringer i tilgjengelighet eller behov', 'Generere oversikt over innbyggere som blir berørt', 'Vurdere behov for endring i vaktplan', 'Motta endringer i vaktplan', 'Utarbeide plan knyttet til oppgaver for enkeltbrukere', and finally 'Gjøre tilgjengelig oppdatert plan for leder og de ansatte', ending at 'SLUTT'. Data objects are shown below the flowchart: 'Endringer i vaktplan' (under 'Motta varsel...'), 'Forespørsel om økt kapasitet' (under 'Vurdere behov...'), and 'Oppdatert turnusplan' (under 'Motta endringer...'). A 'TURNUSSYSTEM' component is shown at the bottom, connected to the first three steps.](700878b16fd63222d10e4764b81675a6_img.jpg)
+![Flowchart for use-case AS2.2.3: Håndtere endringer i tilgjengelighet og behov. The process starts with 'Identifisere behov for endringer i turnus og plan', followed by 'Motta varsel om endringer i tilgjengelighet eller behov', 'Generere oversikt over innbyggere som blir berørt', 'Vurdere behov for endring i vaktplan', 'Motta endringer i vaktplan', 'Utarbeide plan knyttet til oppgaver for enkeltbrukere', and finally 'Gjøre tilgjengelig oppdatert plan for leder og de ansatte', ending at 'SLUTT'. Data objects are shown below the flowchart: 'Endringer i vaktplan' (under 'Motta varsel...'), 'Forespørsel om økt kapasitet' (under 'Vurdere behov...'), and 'Oppdatert turnusplan' (under 'Motta endringer...'). A 'TURNUSSYSTEM' component is shown at the bottom, connected to the first three steps.](images/Bilag G1 Felles kommunal journalløsning/700878b16fd63222d10e4764b81675a6_img.jpg)
 
 **AS2.2.3 Håndtere endringer i tilgjengelighet og behov**
 
@@ -5718,7 +5718,7 @@ Flowchart for use-case AS2.2.3: Håndtere endringer i tilgjengelighet og behov. 
 
 ###### AS2.3.1 Generere grunnlag for utbetaling av lønn
 
-![UML Use Case Diagram for 'AS2.3.1 Generere grunnlag for utbetaling av lønn'.](cfb616f789aa01c087849ad7701e64d7_img.jpg)
+![UML Use Case Diagram for 'AS2.3.1 Generere grunnlag for utbetaling av lønn'.](images/Bilag G1 Felles kommunal journalløsning/cfb616f789aa01c087849ad7701e64d7_img.jpg)
 
 The diagram shows a use case titled "AS2.3.1 Generere grunnlag for utbetaling av lønn". It features a start event (a small circle) labeled "Behov for å generere grunnlag for lønns-utbetaling" pointing to a use case box labeled "Generere grunnlag for utbetaling av lønn". This use case box then points to an end event (a bullseye) labeled "SLUTT". A dashed line with an open square icon connects the use case box to an external system boundary labeled "LØNNSSYSTEM". The dashed line is labeled "Grunnlag for utbetaling av lønn" and "Gjennomførte vakter".
 
@@ -5736,7 +5736,7 @@ Figur 109 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the structure of the 'Håndtere og lede personal' competence area, divided into three main sections: AS2.1, AS2.2, and AS2.3.](b8f24aebb1b19be6a5213df0899239a6_img.jpg)
+![Diagram showing the structure of the 'Håndtere og lede personal' competence area, divided into three main sections: AS2.1, AS2.2, and AS2.3.](images/Bilag G1 Felles kommunal journalløsning/b8f24aebb1b19be6a5213df0899239a6_img.jpg)
 
 The diagram, titled 'AS2. Håndtere og lede personal', is organized into three main boxes:
 
@@ -5808,7 +5808,7 @@ journalløsning kan også i noen tilfeller være grunnlag for lønnsutbetalinger
 
 Figur 110 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabiliteten.
 
-![Diagram showing functional areas for AS2. Håndtere og lede personal, divided into three sub-areas: AS2.1 Rekruttere og styre kompetanse, AS2.2 Planlegge arbeidstid, and AS2.3 Håndtere lønn og godtgjørelse.](21df39ef27b27dec52a36c0bedc53e6b_img.jpg)
+![Diagram showing functional areas for AS2. Håndtere og lede personal, divided into three sub-areas: AS2.1 Rekruttere og styre kompetanse, AS2.2 Planlegge arbeidstid, and AS2.3 Håndtere lønn og godtgjørelse.](images/Bilag G1 Felles kommunal journalløsning/21df39ef27b27dec52a36c0bedc53e6b_img.jpg)
 
 The diagram is titled "AS2. Håndtere og lede personal" and is divided into three main functional areas:
 
@@ -5833,7 +5833,7 @@ I tillegg til funksjonalitet i felles journalløsning for å understøtte kapabi
 
 Figur 111 gir en forenklet oversikt over de grensesnitt som er identifisert for å understøtte Håndtere og lede personal.
 
-![Diagram showing the integration of administrative systems for handling and leading personnel. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom).](476b627f69146cf2c394a1f1f697b24e_img.jpg)
+![Diagram showing the integration of administrative systems for handling and leading personnel. It is divided into 'Saksbehandling' (top) and 'Informasjonselementer' (bottom).](images/Bilag G1 Felles kommunal journalløsning/476b627f69146cf2c394a1f1f697b24e_img.jpg)
 
 AS2. Håndtere og lede personal (Integrasjon med administrative systemer i kommunen)
 
@@ -5884,7 +5884,7 @@ Felles journalløsning må også kunne understøtte interoperabilitet basert på
 
 Figur 112 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum for å understøtte kapabiliteten.
 
-![Diagram showing functional areas for AS3 Utvikle og forvalte informasjonsteknologi. The diagram is a large light blue box containing seven smaller light blue boxes with rounded corners. The top box is titled 'AS3 Utvikle og forvalte informasjonsteknologi'. The seven functional areas are: 'Håndtere livssyklus for journaloppføring', 'Forvalte regler for tilgangskontroll', 'Standardterminologi og terminologitjenester', 'Håndtere tilgang til journaloppføring', 'Håndtere innebygd personvern', 'Håndtere standarder for inter-operabilitet', 'Håndtere regler for prosess- og beslutningsstøtte', and 'Tilpasning av arbeidsflate og arbeidsflyt'.](29178b001cb4c04e0c5ab60662ce5d80_img.jpg)
+![Diagram showing functional areas for AS3 Utvikle og forvalte informasjonsteknologi. The diagram is a large light blue box containing seven smaller light blue boxes with rounded corners. The top box is titled 'AS3 Utvikle og forvalte informasjonsteknologi'. The seven functional areas are: 'Håndtere livssyklus for journaloppføring', 'Forvalte regler for tilgangskontroll', 'Standardterminologi og terminologitjenester', 'Håndtere tilgang til journaloppføring', 'Håndtere innebygd personvern', 'Håndtere standarder for inter-operabilitet', 'Håndtere regler for prosess- og beslutningsstøtte', and 'Tilpasning av arbeidsflate og arbeidsflyt'.](images/Bilag G1 Felles kommunal journalløsning/29178b001cb4c04e0c5ab60662ce5d80_img.jpg)
 
 Diagram showing functional areas for AS3 Utvikle og forvalte informasjonsteknologi. The diagram is a large light blue box containing seven smaller light blue boxes with rounded corners. The top box is titled 'AS3 Utvikle og forvalte informasjonsteknologi'. The seven functional areas are: 'Håndtere livssyklus for journaloppføring', 'Forvalte regler for tilgangskontroll', 'Standardterminologi og terminologitjenester', 'Håndtere tilgang til journaloppføring', 'Håndtere innebygd personvern', 'Håndtere standarder for inter-operabilitet', 'Håndtere regler for prosess- og beslutningsstøtte', and 'Tilpasning av arbeidsflate og arbeidsflyt'.
 
@@ -5923,7 +5923,7 @@ Hovedområdet SR Planlegge, utvikle og følge opp helse- og omsorgstjenester inn
 
 Figur 113 gir en oversikt over de kapabilitetene som potensielt vil trenge støtte gjennom ny journalløsning eller som må ha en integrasjon mellom journalløsningen og administrative systemer i kommunene.
 
-![Diagram showing the overview of capabilities and use-cases for planning, developing, and following up health and care services. The diagram is structured into six main columns (SR1 to SR6), each representing a capability. Each column contains specific use-cases. A legend at the bottom indicates that blue boxes represent capabilities described in the document (Bilag 1) and red boxes represent use-cases outside the scope.](38f40809bd67962bd0ab172bff2239fd_img.jpg)
+![Diagram showing the overview of capabilities and use-cases for planning, developing, and following up health and care services. The diagram is structured into six main columns (SR1 to SR6), each representing a capability. Each column contains specific use-cases. A legend at the bottom indicates that blue boxes represent capabilities described in the document (Bilag 1) and red boxes represent use-cases outside the scope.](images/Bilag G1 Felles kommunal journalløsning/38f40809bd67962bd0ab172bff2239fd_img.jpg)
 
 SR. Planlegge, utvikle og følge opp helse- og omsorgstjenester
 
@@ -5986,7 +5986,7 @@ Lovbestemt taushetsplikt er ikke til hinder for at opplysningene meldes inn til 
 
 Figur 114 gir en overskrift over de opplysninger som skal rapporteres til KPR. Den registrerte kan motsette seg registrering av helseopplysninger jf. § 2-2 rett til å motsette seg behandling av helseopplysninger (7).
 
-![PK icon PK icon PK icon PK icon](3054e46608784063609e8c7a253fcd24_img.jpg)
+![PK icon PK icon PK icon PK icon](images/Bilag G1 Felles kommunal journalløsning/3054e46608784063609e8c7a253fcd24_img.jpg)
 
 **SR2. Styre helse- og omsorgstjenester**
 
@@ -6002,7 +6002,7 @@ Figur 114. Oversikt over innhold i rapportering til kommunalt pasientregister (K
 
 Figur 115 gir en oversikt over use-case for å rapportere resultater til ulike registre.
 
-![UML Use Case Diagram for SR2.1.1. The diagram shows a process starting with an actor 'Behov for å kartlegge og analysere kvalitetsgap' which interacts with the 'Gjøre tilgjengelige data til analyse og kvalitetsregister' use case. This use case leads to a 'SLUTT' boundary. A data flow 'Helseanalysedata' is shown as a dashed line with open circles at both ends, connecting the use case to four data store components: 'Kvalitetsregistre og registre for virksomhetsanalyse', 'Personalsystem', 'Økonomisystem', and 'KOSTRA'.](3e0674a68142b10eac3384d2acd6c136_img.jpg)
+![UML Use Case Diagram for SR2.1.1. The diagram shows a process starting with an actor 'Behov for å kartlegge og analysere kvalitetsgap' which interacts with the 'Gjøre tilgjengelige data til analyse og kvalitetsregister' use case. This use case leads to a 'SLUTT' boundary. A data flow 'Helseanalysedata' is shown as a dashed line with open circles at both ends, connecting the use case to four data store components: 'Kvalitetsregistre og registre for virksomhetsanalyse', 'Personalsystem', 'Økonomisystem', and 'KOSTRA'.](images/Bilag G1 Felles kommunal journalløsning/3e0674a68142b10eac3384d2acd6c136_img.jpg)
 
 **SR2.1.1 Rapportere resultater fra tjenestene**
 
@@ -6023,7 +6023,7 @@ Figur 116 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse
 - **Utførende:** den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - **Støttende** – gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the structure of 'SR2. Styre helse- og omsorgstjenester'. It is divided into 'Utførende' (Executing) and 'Støttende' (Supporting) roles. The 'Utførende' section includes: Kommun, Tjenesteyter med avtale, Legevaktsentral, Legevakttjeneste, Funksjon, Hjemmehjelpstjeneste, Helsestasjonsskolehelse-tjeneste, Habilitasjon, Sykehusinn- og utvidelse, Helsehjelpstjeneste, Fysioterapitjeneste, Funksjonssentral, Migrasjons-helse-tjeneste, Funksjonssentral, Offentlig tannhelse-tjeneste, Personlig assistanse, Tidligere-kontor, Kommunelære, and Kommunepsykolog. The 'Støttende' section includes: Kommunelære and Kommunepsykolog.](3d7e383e73d9a8af59dcfbc25ae02bf2_img.jpg)
+![Diagram showing the structure of 'SR2. Styre helse- og omsorgstjenester'. It is divided into 'Utførende' (Executing) and 'Støttende' (Supporting) roles. The 'Utførende' section includes: Kommun, Tjenesteyter med avtale, Legevaktsentral, Legevakttjeneste, Funksjon, Hjemmehjelpstjeneste, Helsestasjonsskolehelse-tjeneste, Habilitasjon, Sykehusinn- og utvidelse, Helsehjelpstjeneste, Fysioterapitjeneste, Funksjonssentral, Migrasjons-helse-tjeneste, Funksjonssentral, Offentlig tannhelse-tjeneste, Personlig assistanse, Tidligere-kontor, Kommunelære, and Kommunepsykolog. The 'Støttende' section includes: Kommunelære and Kommunepsykolog.](images/Bilag G1 Felles kommunal journalløsning/3d7e383e73d9a8af59dcfbc25ae02bf2_img.jpg)
 
 Diagram showing the structure of 'SR2. Styre helse- og omsorgstjenester'. It is divided into 'Utførende' (Executing) and 'Støttende' (Supporting) roles. The 'Utførende' section includes: Kommun, Tjenesteyter med avtale, Legevaktsentral, Legevakttjeneste, Funksjon, Hjemmehjelpstjeneste, Helsestasjonsskolehelse-tjeneste, Habilitasjon, Sykehusinn- og utvidelse, Helsehjelpstjeneste, Fysioterapitjeneste, Funksjonssentral, Migrasjons-helse-tjeneste, Funksjonssentral, Offentlig tannhelse-tjeneste, Personlig assistanse, Tidligere-kontor, Kommunelære, and Kommunepsykolog. The 'Støttende' section includes: Kommunelære and Kommunepsykolog.
 
@@ -6047,7 +6047,7 @@ Kommuner trenger informasjon for å analysere både tidligere, nåværende og fr
 
 Figur 117 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum.
 
-![Diagram showing functional requirements for 'SR2. Styre helse- og omsorgstjenester'. It includes two sub-boxes: 'Innhente informasjon til helsetjenester-rapportering' and 'Håndtere kommunikasjon med registre'.](a0bf1e4e2765bf05e8009f39007df772_img.jpg)
+![Diagram showing functional requirements for 'SR2. Styre helse- og omsorgstjenester'. It includes two sub-boxes: 'Innhente informasjon til helsetjenester-rapportering' and 'Håndtere kommunikasjon med registre'.](images/Bilag G1 Felles kommunal journalløsning/a0bf1e4e2765bf05e8009f39007df772_img.jpg)
 
 ```
 
@@ -6085,7 +6085,7 @@ Denne kapabiliteten beskriver en virksomhets evne til å sikre et mer innbygger/
 
 Figur 118 gir en oversikt over de fire underkapabilitetene og tilhørende use-cases innen kapabiliteten.
 
-![Diagram showing the structure of SR3: Forbedre kvalitet og pasientsikkerhet. It is divided into four main areas: SR3.1 Styre etterlevelse av retningslinjer, SR3.2 Drive med kontinuerlig kvalitetsforbedring, SR3.3 Håndtere avvik i pasientbehandlingen, and SR3.4 Håndtere andre avvik. Each area contains specific use-cases. Arrows indicate the flow of information and actions between these use-cases, leading to the identification of an error (Avvik er identifisert).](d1fa6480bafddc3a0a24deda68faa206_img.jpg)
+![Diagram showing the structure of SR3: Forbedre kvalitet og pasientsikkerhet. It is divided into four main areas: SR3.1 Styre etterlevelse av retningslinjer, SR3.2 Drive med kontinuerlig kvalitetsforbedring, SR3.3 Håndtere avvik i pasientbehandlingen, and SR3.4 Håndtere andre avvik. Each area contains specific use-cases. Arrows indicate the flow of information and actions between these use-cases, leading to the identification of an error (Avvik er identifisert).](images/Bilag G1 Felles kommunal journalløsning/d1fa6480bafddc3a0a24deda68faa206_img.jpg)
 
 ```
 
@@ -6150,7 +6150,7 @@ Alle avvik, også de pasientrettede avvikene vil registreres i kommunens avvikss
 
 Dette området beskriver evnen til prosessledelse, organisasjonsutvikling og tjenesteutvikling i virksomheten og med samarbeidspartnere. Dette inkluderer evnen til å drive gjentakende evaluering og forbedring av behandlingsforløp, prosesser og prosedyrer, samt benchmarking mot andre tilsvarende organisasjoner eller beste praksis med formål om forbedring.
 
-![Flowchart for SR3.2.1 Kartlegge og analysere kvalitetsgap. The process starts with a start node 'Behov for å kartlegge og analysere kvalitetsgap'. An arrow points to 'Innhente underlag til sammenligning av kvalitet'. A dashed arrow from 'Kvalitetsindikatorer' points to this step. From there, an arrow points to 'Analysere kvalitet opp mot kvalitetsmål'. A decision diamond 'Behov for tiltak?' follows. If 'NEI', the flow goes to 'SLUTT'. If 'JA', it goes to 'Beskriv tiltak som skal gjennomføres', which then points to a final node 'Tiltak er identifisert (Gå videre til SR3.3.2)'.](dc4445e7038adbf6eaf3c8c1ce6ea347_img.jpg)
+![Flowchart for SR3.2.1 Kartlegge og analysere kvalitetsgap. The process starts with a start node 'Behov for å kartlegge og analysere kvalitetsgap'. An arrow points to 'Innhente underlag til sammenligning av kvalitet'. A dashed arrow from 'Kvalitetsindikatorer' points to this step. From there, an arrow points to 'Analysere kvalitet opp mot kvalitetsmål'. A decision diamond 'Behov for tiltak?' follows. If 'NEI', the flow goes to 'SLUTT'. If 'JA', it goes to 'Beskriv tiltak som skal gjennomføres', which then points to a final node 'Tiltak er identifisert (Gå videre til SR3.3.2)'.](images/Bilag G1 Felles kommunal journalløsning/dc4445e7038adbf6eaf3c8c1ce6ea347_img.jpg)
 
 **SR3.2.1 Kartlegge og analysere kvalitetsgap**
 
@@ -6195,7 +6195,7 @@ Avvik i pasientbehandlingen omfatter to use-cases som må sees i sammenheng:
 
 ##### SR3.3.1 Registrere og vurdere avvik
 
-![Flowchart for Use-case SR3.3.1: Registrere og vurdere avvik. The diagram shows the process involving 'Personalleider' and 'Helse-personell'. It starts with 'Avvik blir oppdaget' and branches based on 'Pasientrettet avvik?'. If 'JA', it goes to 'Registrere avvik'. If 'NEI', it goes to 'Gå til SR3.4.1'. From 'Registrere avvik', it goes to 'Motta varsel og vurdere avvik'. From there, it branches based on 'Er dette et avvik som det skal gjøres noe med?'. If 'JA', it goes to 'Kategoriser avviket og beskriv tiltak som skal gjennomføres'. If 'NEI', it goes to 'Lukke avvik med ikke behov for tiltak'. From 'Kategoriser avviket...', it goes to 'Avvik kategorisert og tiltak identifisert (Gå videre til SR3.3.2)'. From 'Lukke avvik...', it goes to 'Motta varsel om lukket avvik'. Both lead to 'SLUTT'. External messages include 'Melding om avvik og tiltak som skal iverksettes', 'Melding til kvalitetssystem om at avviket er identifisert', and 'Melding til kvalitetssystem om at avviket lukkes'.](c0ef0292328b1602e278f6a0b2ee07e0_img.jpg)
+![Flowchart for Use-case SR3.3.1: Registrere og vurdere avvik. The diagram shows the process involving 'Personalleider' and 'Helse-personell'. It starts with 'Avvik blir oppdaget' and branches based on 'Pasientrettet avvik?'. If 'JA', it goes to 'Registrere avvik'. If 'NEI', it goes to 'Gå til SR3.4.1'. From 'Registrere avvik', it goes to 'Motta varsel og vurdere avvik'. From there, it branches based on 'Er dette et avvik som det skal gjøres noe med?'. If 'JA', it goes to 'Kategoriser avviket og beskriv tiltak som skal gjennomføres'. If 'NEI', it goes to 'Lukke avvik med ikke behov for tiltak'. From 'Kategoriser avviket...', it goes to 'Avvik kategorisert og tiltak identifisert (Gå videre til SR3.3.2)'. From 'Lukke avvik...', it goes to 'Motta varsel om lukket avvik'. Both lead to 'SLUTT'. External messages include 'Melding om avvik og tiltak som skal iverksettes', 'Melding til kvalitetssystem om at avviket er identifisert', and 'Melding til kvalitetssystem om at avviket lukkes'.](images/Bilag G1 Felles kommunal journalløsning/c0ef0292328b1602e278f6a0b2ee07e0_img.jpg)
 
 ```
 
@@ -6260,7 +6260,7 @@ Figur 120. Use-case for å Registrere og vurdere avvik
 
 ##### SR.3.3.2 Gjennomføre, håndtere og avslutte tiltak
 
-![UML Use Case Diagram for 'SR3.3.2 Gjennomføre tiltak for å håndtere avvik'. The diagram shows the interaction between 'INNBYGGER/PÅRØRENDE' (Actor), 'Personalleder' (Role), and 'Helsepersonell' (Role). The process starts with 'Avvik blir oppdaget' (Event), leading to 'Avvik kategorisert og tiltak identifisert (fra SR3.2.1 og SR3.3.1)' (Event). 'Personalleder' then performs 'Igangsett tiltak som skal utføres'. 'Helsepersonell' receives a 'Motta varsel med informasjon om tiltak som skal utføres' and then 'Iverksetter tiltak og registrere hvilke tiltak som er utført'. A decision point 'Skal avviket lukkes?' follows. If 'JA', 'Personalleder' performs 'Lukker avviket', and 'Helsepersonell' receives 'Motta varsel om at avviket lukkes', leading to 'SLUTT' (End). If 'NEI', 'Helsepersonell' performs 'Mottar varsel om at tiltak er utført', which leads back to the decision point. external messages include 'Melding om avvik lukkes og hvilke tiltak som er gjennomført' from 'INNBYGGER/PÅRØRENDE' and 'Melding til kvalitetssystem om at avviket lukkes' from 'KVALITETSSYSTEM'.](c24f22afc8106a8f9b76c759a1db6891_img.jpg)
+![UML Use Case Diagram for 'SR3.3.2 Gjennomføre tiltak for å håndtere avvik'. The diagram shows the interaction between 'INNBYGGER/PÅRØRENDE' (Actor), 'Personalleder' (Role), and 'Helsepersonell' (Role). The process starts with 'Avvik blir oppdaget' (Event), leading to 'Avvik kategorisert og tiltak identifisert (fra SR3.2.1 og SR3.3.1)' (Event). 'Personalleder' then performs 'Igangsett tiltak som skal utføres'. 'Helsepersonell' receives a 'Motta varsel med informasjon om tiltak som skal utføres' and then 'Iverksetter tiltak og registrere hvilke tiltak som er utført'. A decision point 'Skal avviket lukkes?' follows. If 'JA', 'Personalleder' performs 'Lukker avviket', and 'Helsepersonell' receives 'Motta varsel om at avviket lukkes', leading to 'SLUTT' (End). If 'NEI', 'Helsepersonell' performs 'Mottar varsel om at tiltak er utført', which leads back to the decision point. external messages include 'Melding om avvik lukkes og hvilke tiltak som er gjennomført' from 'INNBYGGER/PÅRØRENDE' and 'Melding til kvalitetssystem om at avviket lukkes' from 'KVALITETSSYSTEM'.](images/Bilag G1 Felles kommunal journalløsning/c24f22afc8106a8f9b76c759a1db6891_img.jpg)
 
 ```
 
@@ -6307,7 +6307,7 @@ Figur 122 gir en oversikt over hvilke aktører som utfører kapabiliteten. Disse
 - Utførende: den som inngår i hovedprosessen og har ansvar for gjennomføringen
 - Støttende: gir bidrag til hovedprosessen, men har ikke et direkte ansvar for gjennomføringen
 
-![Diagram showing the roles of actors in the SR3 process. It is divided into three main sections: SR3.1 (Styre etterlevelse av retningslinjer), SR3.2 (Drive med kontinuerlig kvalitetsforbedring), and SR3.3 (Håndtere avvik i pasientbehandlingen). Each section lists various actors involved, categorized into 'Utførende' (実行者) and 'Støttende' (支援者).](7383c616236f02cd74e001b6d4145882_img.jpg)
+![Diagram showing the roles of actors in the SR3 process. It is divided into three main sections: SR3.1 (Styre etterlevelse av retningslinjer), SR3.2 (Drive med kontinuerlig kvalitetsforbedring), and SR3.3 (Håndtere avvik i pasientbehandlingen). Each section lists various actors involved, categorized into 'Utførende' (実行者) and 'Støttende' (支援者).](images/Bilag G1 Felles kommunal journalløsning/7383c616236f02cd74e001b6d4145882_img.jpg)
 
 **SR3. Forbedre kvalitet og pasientsikkerhet**
 
@@ -6344,7 +6344,7 @@ Det er behov for en løsning som skal bidra til høyere behandlingskvalitet og p
 
 Figur 123 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum.
 
-![Diagram showing functional requirements for 'Forbedre kvalitet og pasientsikkerhet' (Improve quality and patient safety). It is divided into three main sections: SR3.1, SR3.2, and SR3.3.](3e8b6c66edbfbca22863e12c1062afac_img.jpg)
+![Diagram showing functional requirements for 'Forbedre kvalitet og pasientsikkerhet' (Improve quality and patient safety). It is divided into three main sections: SR3.1, SR3.2, and SR3.3.](images/Bilag G1 Felles kommunal journalløsning/3e8b6c66edbfbca22863e12c1062afac_img.jpg)
 
 The diagram is titled 'SR3. Forbedre kvalitet og pasientsikkerhet' and is divided into three main functional areas:
 
@@ -6371,7 +6371,7 @@ I tillegg til funksjonalitet i felles journalløsning for å understøtte kapabi
 
 Figur 124 gir en forenklet oversikt over de grensesnitt som er identifisert for å understøtte håndtering av pasientrettede avvik.
 
-![Diagram showing the integration of administrative systems for quality and patient safety. It is divided into two main sections: 'Saksbehandling' (Case processing) and 'Informasjonselementer' (Information elements). In 'Saksbehandling', there are three ovals: 'Styre etterlevelse av retningslinjer', 'Drive med kontinuerlig kvalitetsforbedring', and 'Håndtere avvik i pasientbehandling'. In 'Informasjonselementer', there are two rectangles: 'Pasientrettet avvik' and 'Pasientrettet avvik status'. Below these is a rectangle for 'Avvikssystem'. Arrows show the flow of information: 'Send avvik' from 'Drive med kontinuerlig kvalitetsforbedring' to 'Pasientrettet avvik', 'Send avvik status' from 'Håndtere avvik i pasientbehandling' to 'Pasientrettet avvik status', 'Motta avvik' from 'Pasientrettet avvik' to 'Avvikssystem', and 'Motta avvik Status' from 'Pasientrettet avvik status' to 'Avvikssystem'.](4a70ffcf0c8f841b46b9bb6997a248fe_img.jpg)
+![Diagram showing the integration of administrative systems for quality and patient safety. It is divided into two main sections: 'Saksbehandling' (Case processing) and 'Informasjonselementer' (Information elements). In 'Saksbehandling', there are three ovals: 'Styre etterlevelse av retningslinjer', 'Drive med kontinuerlig kvalitetsforbedring', and 'Håndtere avvik i pasientbehandling'. In 'Informasjonselementer', there are two rectangles: 'Pasientrettet avvik' and 'Pasientrettet avvik status'. Below these is a rectangle for 'Avvikssystem'. Arrows show the flow of information: 'Send avvik' from 'Drive med kontinuerlig kvalitetsforbedring' to 'Pasientrettet avvik', 'Send avvik status' from 'Håndtere avvik i pasientbehandling' to 'Pasientrettet avvik status', 'Motta avvik' from 'Pasientrettet avvik' to 'Avvikssystem', and 'Motta avvik Status' from 'Pasientrettet avvik status' to 'Avvikssystem'.](images/Bilag G1 Felles kommunal journalløsning/4a70ffcf0c8f841b46b9bb6997a248fe_img.jpg)
 
 **SR3. Forbedre kvalitet og pasientsikkerhet (Integrasjon med administrative systemer i kommunen)**
 
@@ -6425,7 +6425,7 @@ Kommunen skal medvirke til og tilrettelegge for forskning for den kommunale hels
 
 Figur 125 gir en oversikt over de fire underkapabilitetene og tilhørende use-cases innen kapabiliteten.
 
-![Diagram showing the structure of SR4. Utvikle og forvalte kunnskap, divided into four main areas: SR4.1, SR4.2, SR4.3, and SR4.4, each with specific use-cases.](023599a4fac1a9e3fd8cced09d3e75a6_img.jpg)
+![Diagram showing the structure of SR4. Utvikle og forvalte kunnskap, divided into four main areas: SR4.1, SR4.2, SR4.3, and SR4.4, each with specific use-cases.](images/Bilag G1 Felles kommunal journalløsning/023599a4fac1a9e3fd8cced09d3e75a6_img.jpg)
 
 The diagram illustrates the structure of SR4. Utvikle og forvalte kunnskap, organized into four main columns, each representing a sub-capability:
 
@@ -6511,7 +6511,7 @@ Det er behov for en felles journalløsning som gjør at kommunens arbeid med utv
 
 Figur 126 gir en oversikt over de funksjonelle områdene som må være tilgjengelig som et minimum.
 
-![Diagram showing the functional needs for 'Utvikle og forvalte kunnskap' (Develop and manage knowledge) in a shared journal solution. It is divided into three main sections: SR4.1, SR4.3, and SR4.4, each with a specific focus and a list of requirements.](37a08ac6635f6eb5cfce460317d68335_img.jpg)
+![Diagram showing the functional needs for 'Utvikle og forvalte kunnskap' (Develop and manage knowledge) in a shared journal solution. It is divided into three main sections: SR4.1, SR4.3, and SR4.4, each with a specific focus and a list of requirements.](images/Bilag G1 Felles kommunal journalløsning/37a08ac6635f6eb5cfce460317d68335_img.jpg)
 
 **SR4. Utvikle og forvalte kunnskap**
 
@@ -6610,7 +6610,7 @@ Normen forvaltes av styringsgruppen for Norm for informasjonssikkerhet. Styrings
 
 ### 5.1.4 Tilnærming for utarbeiding av omfang for identitets- og tilgangsstyring
 
-![Diagram showing the four-step approach for developing the scope of identity and access management. Step A: 'Kapabiliteter for identitets- og tilgangsstyring' shows a grid of capabilities. Step B: 'Funksjonelle behov' shows a grid of functional requirements. Step C: 'Bruksmønster og use case' shows a diagram of use cases. Step D: 'Løsningsarkitektur' shows a diagram of solution architecture. The steps are connected by blue double-headed arrows.](b6bb85a3062dcabdd98c757aec4413b2_img.jpg)
+![Diagram showing the four-step approach for developing the scope of identity and access management. Step A: 'Kapabiliteter for identitets- og tilgangsstyring' shows a grid of capabilities. Step B: 'Funksjonelle behov' shows a grid of functional requirements. Step C: 'Bruksmønster og use case' shows a diagram of use cases. Step D: 'Løsningsarkitektur' shows a diagram of solution architecture. The steps are connected by blue double-headed arrows.](images/Bilag G1 Felles kommunal journalløsning/b6bb85a3062dcabdd98c757aec4413b2_img.jpg)
 
 Diagram showing the four-step approach for developing the scope of identity and access management. Step A: 'Kapabiliteter for identitets- og tilgangsstyring' shows a grid of capabilities. Step B: 'Funksjonelle behov' shows a grid of functional requirements. Step C: 'Bruksmønster og use case' shows a diagram of use cases. Step D: 'Løsningsarkitektur' shows a diagram of solution architecture. The steps are connected by blue double-headed arrows.
 
@@ -6642,7 +6642,7 @@ For å kunne oppfylle de beskrevne use cases i kapittel 5.3, må en rekke kapabi
 
 Dokumentet tar utgangspunkt i arkitekturmodellen Federal Identity, Credentials and Access Management (FICAM) fra ID Management som er utviklet av den amerikanske regjeringen. En detaljert gjennomgang av modellen finnes på ID Managements nettsider (27).
 
-![Diagram of the FICAM model for identity and access management, showing five main capabilities: Identitetsstyring, Legitimering, Tilgangsstyring, Styring, and Federering, each with sub-functions.](0c41d844d5dd4e93eee658146d622081_img.jpg)
+![Diagram of the FICAM model for identity and access management, showing five main capabilities: Identitetsstyring, Legitimering, Tilgangsstyring, Styring, and Federering, each with sub-functions.](images/Bilag G1 Felles kommunal journalløsning/0c41d844d5dd4e93eee658146d622081_img.jpg)
 
 The diagram illustrates the FICAM model for identity and access management, centered around five main capabilities:
 
@@ -6700,7 +6700,7 @@ Arbeidsflyten for godkjenning vil måtte være dokumenterbar og sikker slik at v
 
 Virksomheten må selv ha ansvar for å forvalte organisasjonsstrukturen. Dette behovet oppstår spesielt for større virksomheter med stadig endrende organisasjon og arbeidsstokk, da det vil være svært krevende for en sentral koordinator å sørge for at virksomhetens informasjon til enhver tid er oppdatert. Etter at den første lokale tilgangsansvarlig-brukeren er opprettet vil denne brukeren ha mulighet til å legge inn flere organisasjonsenheter hvor det utpekes flere tilgangsansvarlige som får delegert ansvar for den enkelte enhet.
 
-![Exclamation mark icon inside a blue circle, indicating a note or warning.](607918115cbac988956827193fcfdeda_img.jpg)
+![Exclamation mark icon inside a blue circle, indicating a note or warning.](images/Bilag G1 Felles kommunal journalløsning/607918115cbac988956827193fcfdeda_img.jpg)
 
 Exclamation mark icon inside a blue circle, indicating a note or warning.
 
@@ -6816,7 +6816,7 @@ I forbindelse med bruk av innbyggertjenester må en person kunne hente ut inform
 
 ### 5.3.4.1 Innrullere virksomhet
 
-![BPMN diagram for the process 'Innrullere virksomhet' (Register business). The diagram shows a flow starting with a 'Forespørsel om tilknytning til løsning' (Request for connection to solution) from 'Kommunal helse og omsorgstjeneste' to 'Verifiser virksomhet' (Verify business) in 'Aksen Journal AS'. A decision 'Virksomhet godkjent?' (Business approved?) follows. If 'Nei' (No), it goes to 'Send resultat' (Send result) and then to 'Virksomhet ikke godkjent' (Business not approved). If 'Ja' (Yes), it goes to 'Samle informasjon om virksomheten' (Collect information about the business), then to 'Registerne og opprette virksomhet' (Register and create business), then to 'Opprette bruker til tilgangsansvarlig' (Create user for access responsibility), and finally to 'Virksomhet innrullert' (Business enrolled). Data objects include 'Autoritative kilder' (Authoritative sources) and 'IGA for journal' (Journal access responsibility).](728a02fe4a04e7f91835147194997cd4_img.jpg)
+![BPMN diagram for the process 'Innrullere virksomhet' (Register business). The diagram shows a flow starting with a 'Forespørsel om tilknytning til løsning' (Request for connection to solution) from 'Kommunal helse og omsorgstjeneste' to 'Verifiser virksomhet' (Verify business) in 'Aksen Journal AS'. A decision 'Virksomhet godkjent?' (Business approved?) follows. If 'Nei' (No), it goes to 'Send resultat' (Send result) and then to 'Virksomhet ikke godkjent' (Business not approved). If 'Ja' (Yes), it goes to 'Samle informasjon om virksomheten' (Collect information about the business), then to 'Registerne og opprette virksomhet' (Register and create business), then to 'Opprette bruker til tilgangsansvarlig' (Create user for access responsibility), and finally to 'Virksomhet innrullert' (Business enrolled). Data objects include 'Autoritative kilder' (Authoritative sources) and 'IGA for journal' (Journal access responsibility).](images/Bilag G1 Felles kommunal journalløsning/728a02fe4a04e7f91835147194997cd4_img.jpg)
 
 ```
 
@@ -6869,7 +6869,7 @@ Figur 129 Prosess for innrullering av virksomhet i felles journalløsning
 
 ### 5.3.4.2 Delegere tilgangsansvarlige
 
-![BPMN diagram for delegating access responsibility. The process starts with a start event 'Behov for å delegere ansvar' in the 'Tilgangsansvarlig' pool. It flows to 'Logge inn i portal på IGA-løsning', then to 'Oppretter en ny tilgangsansvarlig i egen virksomhet'. A dashed line connects this task to a data store 'IGA for journal'. The process then moves to 'Test tilganger' in the 'Virksomhet tilgangsansvarlig' pool, ending at 'Har tilgang på portal'. Below the diagram, a 'PUT delegert tilgangsansvarlig' message is shown being sent to the 'IGA for journal' data store.](f7a1b96924f2d36f5643700fbb7cc2ea_img.jpg)
+![BPMN diagram for delegating access responsibility. The process starts with a start event 'Behov for å delegere ansvar' in the 'Tilgangsansvarlig' pool. It flows to 'Logge inn i portal på IGA-løsning', then to 'Oppretter en ny tilgangsansvarlig i egen virksomhet'. A dashed line connects this task to a data store 'IGA for journal'. The process then moves to 'Test tilganger' in the 'Virksomhet tilgangsansvarlig' pool, ending at 'Har tilgang på portal'. Below the diagram, a 'PUT delegert tilgangsansvarlig' message is shown being sent to the 'IGA for journal' data store.](images/Bilag G1 Felles kommunal journalløsning/f7a1b96924f2d36f5643700fbb7cc2ea_img.jpg)
 
 BPMN diagram for delegating access responsibility. The process starts with a start event 'Behov for å delegere ansvar' in the 'Tilgangsansvarlig' pool. It flows to 'Logge inn i portal på IGA-løsning', then to 'Oppretter en ny tilgangsansvarlig i egen virksomhet'. A dashed line connects this task to a data store 'IGA for journal'. The process then moves to 'Test tilganger' in the 'Virksomhet tilgangsansvarlig' pool, ending at 'Har tilgang på portal'. Below the diagram, a 'PUT delegert tilgangsansvarlig' message is shown being sent to the 'IGA for journal' data store.
 
@@ -6887,7 +6887,7 @@ Figur 130 Prosess for delegering av tilgangsansvarlige
 
 ### 5.3.4.3 Opprette brukere
 
-![BPMN diagram for creating users. The process starts in the 'Virksomhet tilgangsansvarlig' pool with 'Behov for tilgang til andre journaler'. It flows to 'Kontroll av bruker', then to 'Samler informasjon om bruker'. A decision task 'Liten' branches to 'Opprette bruker i IGA gjennom portal' (which calls 'GET informasjon' from 'Autentiske letter' data store) or 'Opprette bruker i IGA gjennom integrasjon' (which calls 'PUT ny bruker' to 'IGA for journal' data store). Another branch goes to 'Opprette bruker i egen UML løsning' (which calls 'PUT ny bruker' to 'Lokal IDM' data store). All paths converge at 'Provisjonering'. A decision task 'Falt i attributter' branches to 'Test tilganger' (which calls 'Falt i opprettet tilgang' event) or 'Har tilgang til andre journal' (which calls 'Falt i tilgangsmessig' event and 'Send melding').](66cde929ec84df37c45dbdea2aa9ae87_img.jpg)
+![BPMN diagram for creating users. The process starts in the 'Virksomhet tilgangsansvarlig' pool with 'Behov for tilgang til andre journaler'. It flows to 'Kontroll av bruker', then to 'Samler informasjon om bruker'. A decision task 'Liten' branches to 'Opprette bruker i IGA gjennom portal' (which calls 'GET informasjon' from 'Autentiske letter' data store) or 'Opprette bruker i IGA gjennom integrasjon' (which calls 'PUT ny bruker' to 'IGA for journal' data store). Another branch goes to 'Opprette bruker i egen UML løsning' (which calls 'PUT ny bruker' to 'Lokal IDM' data store). All paths converge at 'Provisjonering'. A decision task 'Falt i attributter' branches to 'Test tilganger' (which calls 'Falt i opprettet tilgang' event) or 'Har tilgang til andre journal' (which calls 'Falt i tilgangsmessig' event and 'Send melding').](images/Bilag G1 Felles kommunal journalløsning/66cde929ec84df37c45dbdea2aa9ae87_img.jpg)
 
 BPMN diagram for creating users. The process starts in the 'Virksomhet tilgangsansvarlig' pool with 'Behov for tilgang til andre journaler'. It flows to 'Kontroll av bruker', then to 'Samler informasjon om bruker'. A decision task 'Liten' branches to 'Opprette bruker i IGA gjennom portal' (which calls 'GET informasjon' from 'Autentiske letter' data store) or 'Opprette bruker i IGA gjennom integrasjon' (which calls 'PUT ny bruker' to 'IGA for journal' data store). Another branch goes to 'Opprette bruker i egen UML løsning' (which calls 'PUT ny bruker' to 'Lokal IDM' data store). All paths converge at 'Provisjonering'. A decision task 'Falt i attributter' branches to 'Test tilganger' (which calls 'Falt i opprettet tilgang' event) or 'Har tilgang til andre journal' (which calls 'Falt i tilgangsmessig' event and 'Send melding').
 
@@ -6912,7 +6912,7 @@ Figur 131 Prosess for oppretting av brukere
 
 ### 5.3.4.4 Autentisering av bruker
 
-![BPMN diagram showing the authentication process for a user. The diagram is divided into three swimlanes: 'Tilgang til ressurs', 'IAM-løsning i virksomhet', and 'Akson Journal AS'. The process starts in the 'Tilgang til ressurs' lane with 'Apne felles journalløsning' and 'Forespørre tilgang'. It then moves to the 'IAM-løsning i virksomhet' lane for 'Ekstern autentisering'. The 'Akson Journal AS' lane contains the main logic: 'Start innlogging', 'Omdirigerer til autentiserings-tjeneste', a decision 'Intern eller ekstern autentisering?', 'Send omdirigering', 'Tilgangsbeslutning', and a final decision 'Tilgang ok?'. The process ends with 'Opprett sikkerhetsbillett' or 'Send feilmeldinger'.](537370c7a708dfe4aa0c89e075f215e4_img.jpg)
+![BPMN diagram showing the authentication process for a user. The diagram is divided into three swimlanes: 'Tilgang til ressurs', 'IAM-løsning i virksomhet', and 'Akson Journal AS'. The process starts in the 'Tilgang til ressurs' lane with 'Apne felles journalløsning' and 'Forespørre tilgang'. It then moves to the 'IAM-løsning i virksomhet' lane for 'Ekstern autentisering'. The 'Akson Journal AS' lane contains the main logic: 'Start innlogging', 'Omdirigerer til autentiserings-tjeneste', a decision 'Intern eller ekstern autentisering?', 'Send omdirigering', 'Tilgangsbeslutning', and a final decision 'Tilgang ok?'. The process ends with 'Opprett sikkerhetsbillett' or 'Send feilmeldinger'.](images/Bilag G1 Felles kommunal journalløsning/537370c7a708dfe4aa0c89e075f215e4_img.jpg)
 
 ```
 
@@ -6966,7 +6966,7 @@ BPMN diagram showing the authentication process for a user. The diagram is divid
 
 ### 5.3.4.5 Tilgangsbeslutning
 
-![Flowchart of the access decision process (Figur 133). The process starts with 'Sjekk type tilgangsbeslutning'. If 'Type tilgang?' is 'Intern', it proceeds to 'Sjekk autentiseringsnivå'. If 'Sjekk autentiseringsnivå' is 'Er identitet på tilfredsstillende sikkerhetsnivå?', it proceeds to 'Sjekk tilgang til ressurser'. If 'Sjekk tilgang til ressurser' is 'Gir rettighetene tilgang til ressurser?', it proceeds to 'Sjekk sperrer'. If 'Sjekk sperrer' is 'Finnes relevante sperrer?', it proceeds to 'Utsende sikkerhetsbilde'. If 'Utsende sikkerhetsbilde' is 'Tilgang ok', it ends. If 'Type tilgang?' is 'Ekstern', it proceeds to 'Motta billett'. If 'Motta billett' is '3 minutter', it proceeds to 'Timelimit'. If 'Timelimit' is 'Timelimit', it ends. If 'Sjekk autentiseringsnivå' is 'Ikke tilfredsstillende sikkerhetsnivå', it ends. If 'Sjekk tilgang til ressurser' is 'Ikke tilfredsstillende sikkerhetsnivå', it ends. If 'Sjekk sperrer' is 'Ikke tilgang', it ends.](8c05782074bb11421b43f2d5d6799b62_img.jpg)
+![Flowchart of the access decision process (Figur 133). The process starts with 'Sjekk type tilgangsbeslutning'. If 'Type tilgang?' is 'Intern', it proceeds to 'Sjekk autentiseringsnivå'. If 'Sjekk autentiseringsnivå' is 'Er identitet på tilfredsstillende sikkerhetsnivå?', it proceeds to 'Sjekk tilgang til ressurser'. If 'Sjekk tilgang til ressurser' is 'Gir rettighetene tilgang til ressurser?', it proceeds to 'Sjekk sperrer'. If 'Sjekk sperrer' is 'Finnes relevante sperrer?', it proceeds to 'Utsende sikkerhetsbilde'. If 'Utsende sikkerhetsbilde' is 'Tilgang ok', it ends. If 'Type tilgang?' is 'Ekstern', it proceeds to 'Motta billett'. If 'Motta billett' is '3 minutter', it proceeds to 'Timelimit'. If 'Timelimit' is 'Timelimit', it ends. If 'Sjekk autentiseringsnivå' is 'Ikke tilfredsstillende sikkerhetsnivå', it ends. If 'Sjekk tilgang til ressurser' is 'Ikke tilfredsstillende sikkerhetsnivå', it ends. If 'Sjekk sperrer' is 'Ikke tilgang', it ends.](images/Bilag G1 Felles kommunal journalløsning/8c05782074bb11421b43f2d5d6799b62_img.jpg)
 
 ```
 
@@ -7008,7 +7008,7 @@ Figur 133 Prosess for tilgangsbeslutning
 
 ### 5.3.4.6 Innrullering av administrative funksjoner
 
-![UML activity diagram for the process of integrating administrative functions. The diagram shows a sequence of steps within the 'Akson Journal AS'泳域: 'Motta forespørsel' (start), 'Innhent informasjon om virksomhet' (with incoming data from 'Virksomhet' and 'Forespørre informasjon'), 'Selvbetjening stiltjenester' (with outgoing data 'Gi informasjon' to 'Virksomhet' and incoming data 'Gi tilgang til konsument på API' from 'Tiltakker'), and 'Gi informasjon til virksomhet' (with outgoing data 'Gi beskjed om å konfigurere OAuth2 klient' to 'Virksomhet'). The process ends with 'Tilgang gitt til andre statlige og kommunale tjenester'.](0f4dfcf85c881a0574c955f34ef40f02_img.jpg)
+![UML activity diagram for the process of integrating administrative functions. The diagram shows a sequence of steps within the 'Akson Journal AS'泳域: 'Motta forespørsel' (start), 'Innhent informasjon om virksomhet' (with incoming data from 'Virksomhet' and 'Forespørre informasjon'), 'Selvbetjening stiltjenester' (with outgoing data 'Gi informasjon' to 'Virksomhet' and incoming data 'Gi tilgang til konsument på API' from 'Tiltakker'), and 'Gi informasjon til virksomhet' (with outgoing data 'Gi beskjed om å konfigurere OAuth2 klient' to 'Virksomhet'). The process ends with 'Tilgang gitt til andre statlige og kommunale tjenester'.](images/Bilag G1 Felles kommunal journalløsning/0f4dfcf85c881a0574c955f34ef40f02_img.jpg)
 
 ```
 
@@ -7339,7 +7339,7 @@ Konsekvenser: Funksjoner for tilgangskontroll skal bygges i sammenheng med fagap
 
 Valg av målarkitektur er en viktig forutsetning for å kunne si noe konkret om omfanget av løsningen. Figur 136 illustrerer overordnet bilde av identitets- og tilgangsstyring i felles kommunal journalløsning. En løsning for identitets- og tilgangsstyring kan bygges på mange ulike måter, men det vil være naturlig å legge til grunn noen overordnede rammer for hvordan den skal se ut. Dette kapittelet vil gjøre rede for tre ulike målarkitekturer og vurdere disse opp mot Digitaliseringsdirektoratets (Digdir) overordnede arkitekturprinsipper. Målarkitekturene vil også måles opp mot i hvilken grad de kan understøtte de behovene som er definert.
 
-![Diagram illustrating the relationship between 'Journalløsningens samhandlingsevne' and 'Identitetsstyringsløsningens grensesnitt'. The top circle, 'Journalløsningens samhandlingsevne', contains 'Journalløsning' and a list of components: 'Tilgangsbeslutning', 'Rettigheter', 'Roller og attributter', and 'Autorisering'. The bottom circle, 'Identitetsstyringsløsningens grensesnitt', contains 'Identitetsstyringsløsning' and a list of components: 'Administrasjon av brukere og virksomheter', 'Brukerkatalog', 'Autentisering', and 'Provisjonering'. An arrow points from the top circle to the bottom circle. To the left of the circles is an illustration of people interacting with a system, labeled 'Styring av brukere på tvers av virksomheter i samme løsning'.](1b50f9f141d3d1a1de52e959f85f8fc2_img.jpg)
+![Diagram illustrating the relationship between 'Journalløsningens samhandlingsevne' and 'Identitetsstyringsløsningens grensesnitt'. The top circle, 'Journalløsningens samhandlingsevne', contains 'Journalløsning' and a list of components: 'Tilgangsbeslutning', 'Rettigheter', 'Roller og attributter', and 'Autorisering'. The bottom circle, 'Identitetsstyringsløsningens grensesnitt', contains 'Identitetsstyringsløsning' and a list of components: 'Administrasjon av brukere og virksomheter', 'Brukerkatalog', 'Autentisering', and 'Provisjonering'. An arrow points from the top circle to the bottom circle. To the left of the circles is an illustration of people interacting with a system, labeled 'Styring av brukere på tvers av virksomheter i samme løsning'.](images/Bilag G1 Felles kommunal journalløsning/1b50f9f141d3d1a1de52e959f85f8fc2_img.jpg)
 
 Diagram illustrating the relationship between 'Journalløsningens samhandlingsevne' and 'Identitetsstyringsløsningens grensesnitt'. The top circle, 'Journalløsningens samhandlingsevne', contains 'Journalløsning' and a list of components: 'Tilgangsbeslutning', 'Rettigheter', 'Roller og attributter', and 'Autorisering'. The bottom circle, 'Identitetsstyringsløsningens grensesnitt', contains 'Identitetsstyringsløsning' and a list of components: 'Administrasjon av brukere og virksomheter', 'Brukerkatalog', 'Autentisering', and 'Provisjonering'. An arrow points from the top circle to the bottom circle. To the left of the circles is an illustration of people interacting with a system, labeled 'Styring av brukere på tvers av virksomheter i samme løsning'.
 
@@ -7361,7 +7361,7 @@ Brukere vil, gjennom bruk av forhåndsbestemte autentiseringsmekanismer, kunne i
 
 ### 5.7.2.1 Alternativ 1: Helhetlig identitets- og tilgangsstyringsløsning
 
-![Diagram illustrating the architecture for a central Akson IAM solution (Alternative 1). It shows three types of Akson entities: 'Sentral Akson IAM-koordinator', 'Akson-virksomhet uten IAM system', and 'Akson-virksomhet med IAM system'. The 'Sentral Akson IAM-koordinator' interacts with the 'IAM solution' via 'Innrullering av virksomheter'. The 'Akson-virksomhet uten IAM system' interacts via 'Manuell administrering av brukere'. The 'Akson-virksomhet med IAM system' interacts via 'Integrasjon'. The 'IAM solution' (Identitets- og tilgangsstyringsløsning) is connected to 'Grunndata' and 'Personvernkomponent'. A 'Helsepersonell i Akson' user interacts with the solution via 'Autentisering' through an 'Autentiseringskomponent', which also connects to the 'IAM solution'. The 'IAM solution' also connects to 'Felles journalløsning'.](c7973a89da29a4a59561e36561984333_img.jpg)
+![Diagram illustrating the architecture for a central Akson IAM solution (Alternative 1). It shows three types of Akson entities: 'Sentral Akson IAM-koordinator', 'Akson-virksomhet uten IAM system', and 'Akson-virksomhet med IAM system'. The 'Sentral Akson IAM-koordinator' interacts with the 'IAM solution' via 'Innrullering av virksomheter'. The 'Akson-virksomhet uten IAM system' interacts via 'Manuell administrering av brukere'. The 'Akson-virksomhet med IAM system' interacts via 'Integrasjon'. The 'IAM solution' (Identitets- og tilgangsstyringsløsning) is connected to 'Grunndata' and 'Personvernkomponent'. A 'Helsepersonell i Akson' user interacts with the solution via 'Autentisering' through an 'Autentiseringskomponent', which also connects to the 'IAM solution'. The 'IAM solution' also connects to 'Felles journalløsning'.](images/Bilag G1 Felles kommunal journalløsning/c7973a89da29a4a59561e36561984333_img.jpg)
 
 Diagram illustrating the architecture for a central Akson IAM solution (Alternative 1). It shows three types of Akson entities: 'Sentral Akson IAM-koordinator', 'Akson-virksomhet uten IAM system', and 'Akson-virksomhet med IAM system'. The 'Sentral Akson IAM-koordinator' interacts with the 'IAM solution' via 'Innrullering av virksomheter'. The 'Akson-virksomhet uten IAM system' interacts via 'Manuell administrering av brukere'. The 'Akson-virksomhet med IAM system' interacts via 'Integrasjon'. The 'IAM solution' (Identitets- og tilgangsstyringsløsning) is connected to 'Grunndata' and 'Personvernkomponent'. A 'Helsepersonell i Akson' user interacts with the solution via 'Autentisering' through an 'Autentiseringskomponent', which also connects to the 'IAM solution'. The 'IAM solution' also connects to 'Felles journalløsning'.
 
@@ -7398,7 +7398,7 @@ I denne referansearkitekturen, Figur 137 Arkitekturvalg felles journalløsning -
 
 ### 5.7.2.2 Alternativ 2: Identity Governance and Administration (IGA)
 
-![Diagram of the Identity Governance and Administration (IGA) architecture. It shows three main components on the left: 'Sentral Akson IAM-koordinator' (with an icon of a person), 'Akson-virksomhet uten IAM system' (with an icon of a person), and 'Akson-virksomhet med IAM system' (with an icon of a building). These connect to a central 'Identitetsstyringsløsning (IGA)' block. The connections are labeled 'Innrullering av virksomheter', 'Manuell administrering av brukere', and 'Integrasjon'. To the right, 'Helsepersonell i Akson' (with an icon of a person at a computer) connects to an 'Autentisering' block, which then connects to an 'Autentiseringskomponent' block. This component connects to a 'Felles journalløsning' block. The 'IGA' block also connects to the 'Felles journalløsning' block. Both the 'IGA' and 'Felles journalløsning' blocks connect to a 'Grunndata' block at the bottom. The 'Felles journalløsning' block also connects to a 'Personvernkomponent' block at the bottom.](4325ad0fb1a0bcc317492c16a5467f71_img.jpg)
+![Diagram of the Identity Governance and Administration (IGA) architecture. It shows three main components on the left: 'Sentral Akson IAM-koordinator' (with an icon of a person), 'Akson-virksomhet uten IAM system' (with an icon of a person), and 'Akson-virksomhet med IAM system' (with an icon of a building). These connect to a central 'Identitetsstyringsløsning (IGA)' block. The connections are labeled 'Innrullering av virksomheter', 'Manuell administrering av brukere', and 'Integrasjon'. To the right, 'Helsepersonell i Akson' (with an icon of a person at a computer) connects to an 'Autentisering' block, which then connects to an 'Autentiseringskomponent' block. This component connects to a 'Felles journalløsning' block. The 'IGA' block also connects to the 'Felles journalløsning' block. Both the 'IGA' and 'Felles journalløsning' blocks connect to a 'Grunndata' block at the bottom. The 'Felles journalløsning' block also connects to a 'Personvernkomponent' block at the bottom.](images/Bilag G1 Felles kommunal journalløsning/4325ad0fb1a0bcc317492c16a5467f71_img.jpg)
 
 Diagram of the Identity Governance and Administration (IGA) architecture. It shows three main components on the left: 'Sentral Akson IAM-koordinator' (with an icon of a person), 'Akson-virksomhet uten IAM system' (with an icon of a person), and 'Akson-virksomhet med IAM system' (with an icon of a building). These connect to a central 'Identitetsstyringsløsning (IGA)' block. The connections are labeled 'Innrullering av virksomheter', 'Manuell administrering av brukere', and 'Integrasjon'. To the right, 'Helsepersonell i Akson' (with an icon of a person at a computer) connects to an 'Autentisering' block, which then connects to an 'Autentiseringskomponent' block. This component connects to a 'Felles journalløsning' block. The 'IGA' block also connects to the 'Felles journalløsning' block. Both the 'IGA' and 'Felles journalløsning' blocks connect to a 'Grunndata' block at the bottom. The 'Felles journalløsning' block also connects to a 'Personvernkomponent' block at the bottom.
 
@@ -7433,7 +7433,7 @@ Fordeling av IAM-kapabiliteter pr. system i referansearkitekturen:
 
 ### 5.7.2.3 Alternativ 3: Uten separat identitets- og tilgangsstyringsløsning
 
-![Diagram of the architecture for a shared journal solution without a separate IAM system (Alternative 3).](4706a500dbc72fdedc9bee99d7c78df5_img.jpg)
+![Diagram of the architecture for a shared journal solution without a separate IAM system (Alternative 3).](images/Bilag G1 Felles kommunal journalløsning/4706a500dbc72fdedc9bee99d7c78df5_img.jpg)
 
 The diagram illustrates the architecture for a shared journal solution without a separate IAM system. On the left, three entities are shown: 'Sentral Akson IAM-koordinator' (with an icon of a person with a laptop), 'Akson-virksomhet uten IAM system' (with an icon of a person), and 'Akson-virksomhet med IAM system' (with an icon of a building). Arrows from these entities point to a central dark blue box labeled 'Felles journalløsning'. The arrows are labeled 'Innrullering av virksomheter', 'Manuell administrering av brukere', and 'Integrasjon' respectively. The 'Felles journalløsning' box has two 'Portal' labels on its left side and a 'Grensesnitt' label at the bottom left. Below the central box are two smaller boxes: 'Grunndata' and 'Personvernkomponent'. To the right of the central box is a vertical light blue bar labeled 'Autentiseringskomponent'. To the right of this bar is a box labeled 'Helsepersonell i Akson' with an icon of a person at a computer. An arrow labeled 'Autentisering' points from the 'Autentiseringskomponent' bar to the 'Helsepersonell i Akson' box.
 
@@ -7522,7 +7522,7 @@ I etablerings- og tilpasningsfasen skal løsningen konfigureres og utvikles. Det
 
 Figur 140 gir en oversikt over noen oppgaver og prosesser hvor informasjon i størst mulig grad må være tilgjengelig på tvers av helsepersonellgrupper.
 
-![Innbygger scenario 1: Frisk gravid som følges opp gjennom svangerskap og fødsel Innbygger scenario 2: Friskt barn som følges opp av helsestasjon og skolehelsearbeider Innbygger scenario 3: Barn med forsinket utvikling og multifunksjonshemmet barn Innbygger scenario 4: Innbygger med psykiske helseproblemer Innbygger scenario 5: Innbygger med psykisk lidelse og rusavhengighet Innbygger scenario 6: Innbygger med kronisk sykdom og akutt forverring Innbygger scenario 7: Kvinne med uklare bryst smerter Innbygger scenario 8: Innbygger med behov for hjelpemidler Innbygger scenario 9: Innbygger med kreft Innbygger scenario 10: Eldre med helse- og omsorgstjenester i hjemmet Innbygger scenario 11: Eldre med helse- og omsorgstjenester på øyeblikkelig hjelp døgnoophold (ØHD) Innbygger scenario 12: Eldre med helse- og omsorgstjenester på sykehjem](95fbe0333fb0073b8592644b2437cca5_img.jpg)
+![Innbygger scenario 1: Frisk gravid som følges opp gjennom svangerskap og fødsel Innbygger scenario 2: Friskt barn som følges opp av helsestasjon og skolehelsearbeider Innbygger scenario 3: Barn med forsinket utvikling og multifunksjonshemmet barn Innbygger scenario 4: Innbygger med psykiske helseproblemer Innbygger scenario 5: Innbygger med psykisk lidelse og rusavhengighet Innbygger scenario 6: Innbygger med kronisk sykdom og akutt forverring Innbygger scenario 7: Kvinne med uklare bryst smerter Innbygger scenario 8: Innbygger med behov for hjelpemidler Innbygger scenario 9: Innbygger med kreft Innbygger scenario 10: Eldre med helse- og omsorgstjenester i hjemmet Innbygger scenario 11: Eldre med helse- og omsorgstjenester på øyeblikkelig hjelp døgnoophold (ØHD) Innbygger scenario 12: Eldre med helse- og omsorgstjenester på sykehjem](images/Bilag G1 Felles kommunal journalløsning/95fbe0333fb0073b8592644b2437cca5_img.jpg)
 
 | Innbygger scenarier                                                                                                            | Felles oppgaver og prosesser |                                                 |                                      |                     |                                                               |                   |
 |--------------------------------------------------------------------------------------------------------------------------------|------------------------------|-------------------------------------------------|--------------------------------------|---------------------|---------------------------------------------------------------|-------------------|
@@ -7551,7 +7551,7 @@ Med utgangspunkt i innbygger scenariene som er beskrevet i Bilag G2 – Helhetli
 
 I tillegg til at helsepersonell skal kunne koordinere ytelse av helse- og omsorgshjelp for innbyggere med sammensatte behov, må funksjonaliteten i felles journalløsning konfigureres slik at den understøtter hver enkelt helsepersonellgruppe. Figur 141 gir en oversikt over alle kommunale helse- og omsorgstjenesteområder der de ulike helsepersonellgruppene arbeider med de oppgaver og prosesser som skal understøttes.
 
-![Diagram showing the scope and configuration for each health personnel group. On the left, a grid of icons represents various services and roles like 'Legvakt-senter', 'Legvakt', 'Fattige', 'Hjemmetjenester', 'Helsestasjon skolehelse-tjeneste', 'Habilitering/rehabilitering', 'Sykehusmellom-institusjon', 'Helsegrunnleggende sykepleie', 'Fysioterapeut', 'Fremstis-senter', 'Migrasjons-helse', 'Fengsels-helse', 'Personlig assistanse', 'Tidnings-kontor', 'Kommune-lage', 'Sykepleier', 'Psykiolog', 'Jordmor', 'Fysioterapeut', 'Ergoterapeut', 'Helse-syspleier', 'Tannlege', and 'Lage'. An arrow points from this grid to a larger box on the right titled 'Oppgaver og prosesser'. This box is divided into two main sections: 'Yte helse- og omsorgstjenester' and 'Støtte til ytelse av helse og omsorgshjelp'. Each section contains several sub-boxes detailing specific tasks and processes for different roles.](02f2974e845bd05123a7827b742b69cf_img.jpg)
+![Diagram showing the scope and configuration for each health personnel group. On the left, a grid of icons represents various services and roles like 'Legvakt-senter', 'Legvakt', 'Fattige', 'Hjemmetjenester', 'Helsestasjon skolehelse-tjeneste', 'Habilitering/rehabilitering', 'Sykehusmellom-institusjon', 'Helsegrunnleggende sykepleie', 'Fysioterapeut', 'Fremstis-senter', 'Migrasjons-helse', 'Fengsels-helse', 'Personlig assistanse', 'Tidnings-kontor', 'Kommune-lage', 'Sykepleier', 'Psykiolog', 'Jordmor', 'Fysioterapeut', 'Ergoterapeut', 'Helse-syspleier', 'Tannlege', and 'Lage'. An arrow points from this grid to a larger box on the right titled 'Oppgaver og prosesser'. This box is divided into two main sections: 'Yte helse- og omsorgstjenester' and 'Støtte til ytelse av helse og omsorgshjelp'. Each section contains several sub-boxes detailing specific tasks and processes for different roles.](images/Bilag G1 Felles kommunal journalløsning/02f2974e845bd05123a7827b742b69cf_img.jpg)
 
 Diagram showing the scope and configuration for each health personnel group. On the left, a grid of icons represents various services and roles like 'Legvakt-senter', 'Legvakt', 'Fattige', 'Hjemmetjenester', 'Helsestasjon skolehelse-tjeneste', 'Habilitering/rehabilitering', 'Sykehusmellom-institusjon', 'Helsegrunnleggende sykepleie', 'Fysioterapeut', 'Fremstis-senter', 'Migrasjons-helse', 'Fengsels-helse', 'Personlig assistanse', 'Tidnings-kontor', 'Kommune-lage', 'Sykepleier', 'Psykiolog', 'Jordmor', 'Fysioterapeut', 'Ergoterapeut', 'Helse-syspleier', 'Tannlege', and 'Lage'. An arrow points from this grid to a larger box on the right titled 'Oppgaver og prosesser'. This box is divided into two main sections: 'Yte helse- og omsorgstjenester' and 'Støtte til ytelse av helse og omsorgshjelp'. Each section contains several sub-boxes detailing specific tasks and processes for different roles.
 
@@ -7638,7 +7638,7 @@ Omfanget består av følgende komponenter:
 4. Identitets og tilgangsstyring
 5. Felleskomponenter i felles grunnmur
 
-![A complex architectural diagram showing the solution architecture for a shared municipal journal system. It includes a grid of health personnel groups at the top, administrative functions on the left, a central 'Felles journalløsning' block, and various supporting components like 'Innbyggere', 'Nasjonal helhetlig samhandling', and 'Forvaltning av identiteter og tilganger'.](f5c1f26b30897f5eb2b21636ec491ed0_img.jpg)
+![A complex architectural diagram showing the solution architecture for a shared municipal journal system. It includes a grid of health personnel groups at the top, administrative functions on the left, a central 'Felles journalløsning' block, and various supporting components like 'Innbyggere', 'Nasjonal helhetlig samhandling', and 'Forvaltning av identiteter og tilganger'.](images/Bilag G1 Felles kommunal journalløsning/f5c1f26b30897f5eb2b21636ec491ed0_img.jpg)
 
 **Helsepersonellgrupper**
 
@@ -7781,7 +7781,7 @@ Dette er løsningskomponenter som beskrives i detalj i kapittel 7.4.1.
 
 Følgende arkitekturprinsipper ligger til grunn for anskaffelse, etablering, forvaltning, drift, vedlikehold og utvikling av felles kommunal journalløsning som en plattform.
 
-![Icon representing a core or central element, featuring a stylized atom or network symbol inside a circle.](025c2b57682f6988a85d6193daf1a8e5_img.jpg)
+![Icon representing a core or central element, featuring a stylized atom or network symbol inside a circle.](images/Bilag G1 Felles kommunal journalløsning/025c2b57682f6988a85d6193daf1a8e5_img.jpg)
 
 Icon representing a core or central element, featuring a stylized atom or network symbol inside a circle.
 
@@ -7793,7 +7793,7 @@ Felles kommunal journalløsning skal i sin kjerne inneholde et datalager som und
 
 helseopplysninger, informasjon om virksomheten, ressurser og helsepersonell som er nødvendig for å yte helse- og omsorgshjelp, forvaltes helhetlig i kjernen. Informasjon fra grunndataløsningene i helse- og omsorgstjenesten gjenbrukes i felles journalløsning der det er nødvendig.
 
-![Icon showing three stylized people figures inside a blue circle.](273f351a4ca2a32f1f6622df007ef074_img.jpg)
+![Icon showing three stylized people figures inside a blue circle.](images/Bilag G1 Felles kommunal journalløsning/273f351a4ca2a32f1f6622df007ef074_img.jpg)
 
 Icon showing three stylized people figures inside a blue circle.
 
@@ -7809,7 +7809,7 @@ Hovedstrategien er å videreføre dagens strategi med Helsenorge.no som innbygge
 
 Det forventes at felles kommunal journalløsning som en del av kjernen tilgjengeliggjør data fra kjerneløsningen gjennom APIer, for å understøtte utvikling av tilleggsfunksjonalitet og integrasjon med andre løsninger (innenfor rammen av regler for taushetsplikt), herunder med helsenorge.no og kommunenes egne innbyggerportaler.
 
-![Icon showing a white padlock inside a blue circle.](bc8153478e21c7d4995194cd81802911_img.jpg)
+![Icon showing a white padlock inside a blue circle.](images/Bilag G1 Felles kommunal journalløsning/bc8153478e21c7d4995194cd81802911_img.jpg)
 
 Icon showing a white padlock inside a blue circle.
 
@@ -7817,7 +7817,7 @@ Icon showing a white padlock inside a blue circle.
 
 Felles kommunal journalløsning skal fra dag en inneholde funksjonalitet for ivareta identitets- og tilgangsstyring som understøtter sikkerhetsprinsippene. Dette vedlegget oppsummerer hvordan identitets- og tilgangsstyring anbefales løst..
 
-![Icon representing flexibility, showing three interlocking puzzle pieces.](c368d296d95a6bf5768ef5f05dbf4aee_img.jpg)
+![Icon representing flexibility, showing three interlocking puzzle pieces.](images/Bilag G1 Felles kommunal journalløsning/c368d296d95a6bf5768ef5f05dbf4aee_img.jpg)
 
 Icon representing flexibility, showing three interlocking puzzle pieces.
 
@@ -7829,7 +7829,7 @@ Gitt kjernefunksjonalitet som dekker helsepersonells funksjonelle behov til å y
 
 Hvorvidt kommunene velger å ta i bruk denne fleksibiliteten er et større spørsmål enn om løsningen har denne evnen. Utnyttelse av fleksibiliteten vil kunne påvirke innføringstiden, løsningens kompleksitet og i den ytterste konsekvens kostnadene for programmet.
 
-![Icon representing flexibility, showing three stylized human figures.](daea0e19b30e3f34ec3de11e2d1e8f2a_img.jpg)
+![Icon representing flexibility, showing three stylized human figures.](images/Bilag G1 Felles kommunal journalløsning/daea0e19b30e3f34ec3de11e2d1e8f2a_img.jpg)
 
 Icon representing flexibility, showing three stylized human figures.
 
@@ -7837,7 +7837,7 @@ Icon representing flexibility, showing three stylized human figures.
 
 Mye av den tilgjengelige sluttbrukerfunksjonaliteten i felles journalløsning vil være relevant på tvers av helsepersonell i de ulike tjenestene. Hvilken funksjonalitet som er mest brukt og hvilke prosesser som følges, vil imidlertid variere. For å kunne realisere nytte av felles kommunal journalløsning må usikkerheten knyttet til å dekke det funksjonelle behovet for alle helsepersonellgrupper og tjenester som omfattes av tiltaket gjennom én felles journalløsning håndteres ved at løsningen har mulighet og verktøy for å kunne tilpasse arbeidsflaten. Dette håndteres initialt ved at programmet håndterer konfigurering, men optimalt må det være mulig for hvert helsepersonell å gjøre egne tilpasninger.
 
-![Icon representing data storage, showing a database cylinder.](25b51f10a41f04441586f7090dcdd4f1_img.jpg)
+![Icon representing data storage, showing a database cylinder.](images/Bilag G1 Felles kommunal journalløsning/25b51f10a41f04441586f7090dcdd4f1_img.jpg)
 
 Icon representing data storage, showing a database cylinder.
 
@@ -7849,7 +7849,7 @@ For å motvirke informasjonsblokkering er det nødvendig å utfordre leverandør
 
 av løsningen, for eksempel for å sikre tilgjengeliggjøring av data til forskning, styring og helseovervåkning og ved fremtidig behov for overgang til en annen journalløsning.
 
-![Icon showing three arrows in a circular flow, representing data exchange or integration.](af74034b609364ffe9684bb2e53a2120_img.jpg)
+![Icon showing three arrows in a circular flow, representing data exchange or integration.](images/Bilag G1 Felles kommunal journalløsning/af74034b609364ffe9684bb2e53a2120_img.jpg)
 
 Icon showing three arrows in a circular flow, representing data exchange or integration.
 
@@ -7857,7 +7857,7 @@ Icon showing three arrows in a circular flow, representing data exchange or inte
 
 For å understøtte utvikling av tilleggsfunksjonalitet og integrasjon med andre løsninger (innenfor rammen av regler for taushetsplikt), herunder med administrative systemer i kommunene, er det nødvendig å tilgjengeliggjøre data fra kjerneløsningen gjennom åpne APIer. Grensesnittene beskrives i henhold til Direktoratet for e-helses veileder for åpne API, for å sikre tilstrekkelig åpenhet. Det skal være fokus gjennom anskaffelse og etableringen av felles kommunal journalløsning på hvilke data og funksjoner i kjernen som skal tilbys gjennom åpne grensesnitt i den videre prosessen.
 
-![Icon showing a hand pouring water into a container, representing support or provision of services.](0d29715dcdf78c67ed5cf26bb60570a3_img.jpg)
+![Icon showing a hand pouring water into a container, representing support or provision of services.](images/Bilag G1 Felles kommunal journalløsning/0d29715dcdf78c67ed5cf26bb60570a3_img.jpg)
 
 Icon showing a hand pouring water into a container, representing support or provision of services.
 
@@ -7883,7 +7883,7 @@ Hovedtiltak for å adressere denne usikkerheten er å etablere en arkitektur som
 
 Figur 143 beskriver et logisk mål bilde for realisering av felles kommunal journalløsning.
 
-![Diagram showing the logical target image for the implementation of a common municipal journal solution. It illustrates the relationship between 'Kommunal helse- og omsorgstjeneste' (municipal health and care services) and 'Felles kommunal journalløsning' (common municipal journal solution).](5a99cc7c397334003093859d30b58a0f_img.jpg)
+![Diagram showing the logical target image for the implementation of a common municipal journal solution. It illustrates the relationship between 'Kommunal helse- og omsorgstjeneste' (municipal health and care services) and 'Felles kommunal journalløsning' (common municipal journal solution).](images/Bilag G1 Felles kommunal journalløsning/5a99cc7c397334003093859d30b58a0f_img.jpg)
 
 The diagram illustrates the logical target image for the implementation of a common municipal journal solution. It is structured as follows:
 
@@ -7946,7 +7946,7 @@ I kapittel 4 analyseres hvilken funksjonalitet som trengs i felles kommunal jour
 
 Figur 144 gir en oversikt over hvilke virksomhetskapabiliteter i kommunal helse- og omsorgstjeneste som forventes å understøttes av funksjonalitet i felles journalløsning, hvilke som skal understøttes med samhandling og integrasjon med nasjonale løsninger og hvilke som i liten grad forventes å understøttes av funksjonalitet eller samhandling og integrasjon.
 
-![Diagram showing functional requirements for health and care services, categorized into four main areas: SH (Yte helse- og omsorgshjelp), AS (Administrere kommunale helse- og omsorgstjenester), SHS (Gi støtte til ytelse av helse- og omsorgshjelp), and SR (Planlegge, utvikle og følge opp helse- og omsorgstjenester). Each area contains specific tasks (SH1-SH5, AS1-AS5, SHS1-SHS5, SR1-SR6) color-coded by their integration level.](b723a64dd970a1cb5a08ce1e88ac7921_img.jpg)
+![Diagram showing functional requirements for health and care services, categorized into four main areas: SH (Yte helse- og omsorgshjelp), AS (Administrere kommunale helse- og omsorgstjenester), SHS (Gi støtte til ytelse av helse- og omsorgshjelp), and SR (Planlegge, utvikle og følge opp helse- og omsorgstjenester). Each area contains specific tasks (SH1-SH5, AS1-AS5, SHS1-SHS5, SR1-SR6) color-coded by their integration level.](images/Bilag G1 Felles kommunal journalløsning/b723a64dd970a1cb5a08ce1e88ac7921_img.jpg)
 
 **SH. Yte helse- og omsorgshjelp**
 
@@ -8019,7 +8019,7 @@ Felles journalløsning må også gi tilgang til uttrekk av informasjon til styri
 
 Figur 145 gir en oversikt over de funksjonelle områdene som er vurdert som nødvendig at felles journalløsning må inneholde.
 
-![Figur 145: Oversikt over funksjonelle områder som er vurdert som nødvendig at felles journalløsning inneholder. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Pasientrettet planlegging, saksbehandling og koordinering, Administrativ støtte, and Utvikle og forvalte journalløsning. Under 'Rapportering og kvalitetsutvikling' er det også en egen sektion.](9e47aa7528e713ae12a7739999286108_img.jpg)
+![Figur 145: Oversikt over funksjonelle områder som er vurdert som nødvendig at felles journalløsning inneholder. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Pasientrettet planlegging, saksbehandling og koordinering, Administrativ støtte, and Utvikle og forvalte journalløsning. Under 'Rapportering og kvalitetsutvikling' er det også en egen sektion.](images/Bilag G1 Felles kommunal journalløsning/9e47aa7528e713ae12a7739999286108_img.jpg)
 
 Figur 145: Oversikt over funksjonelle områder som er vurdert som nødvendig at felles journalløsning inneholder. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Pasientrettet planlegging, saksbehandling og koordinering, Administrativ støtte, and Utvikle og forvalte journalløsning. Under 'Rapportering og kvalitetsutvikling' er det også en egen sektion.
 
@@ -8027,7 +8027,7 @@ Figur 145 Oversikt over funksjonelle områder som er vurdert som nødvendig at f
 
 Figur 146 gir en oversikt over funksjonelle områder som det anbefales vil avklares gjennom leverandørdialogen i anskaffelsesfasen. Dette er tilleggfunksjonalitet som er identifisert per dags dato. Helse- og omsorgstjenesten er i stor endring. I tillegg åpner ny teknologi for nye måter å levere helse- og omsorgstjenester på. Det kan derfor med sikkerhet forventes at det vil oppstå nye behov for å anskaffe eller utvikle tilleggfunksjonalitet som vi i dag ikke har identifisert.
 
-![Figur 146: Oversikt over funksjonelle områder som det anbefales avklares som en del av anskaffelsen. Diagrammet er organisert i seks hovedkategorier: Dokumentasjon av forløp og tilstand, Administrativ støtte, Støtte til analyse, Kunnskaps- og beslutningsstøtte, 3de parts applikasjoner, and Innhentelse av eksterne data.](d1122fd2ee313c4dc8e3c046e294fe59_img.jpg)
+![Figur 146: Oversikt over funksjonelle områder som det anbefales avklares som en del av anskaffelsen. Diagrammet er organisert i seks hovedkategorier: Dokumentasjon av forløp og tilstand, Administrativ støtte, Støtte til analyse, Kunnskaps- og beslutningsstøtte, 3de parts applikasjoner, and Innhentelse av eksterne data.](images/Bilag G1 Felles kommunal journalløsning/d1122fd2ee313c4dc8e3c046e294fe59_img.jpg)
 
 Figur 146: Oversikt over funksjonelle områder som det anbefales avklares som en del av anskaffelsen. Diagrammet er organisert i seks hovedkategorier: Dokumentasjon av forløp og tilstand, Administrativ støtte, Støtte til analyse, Kunnskaps- og beslutningsstøtte, 3de parts applikasjoner, and Innhentelse av eksterne data.
 
@@ -8087,7 +8087,7 @@ De journalløsningene som blir erstattet inneholder en stor mengde helseopplysni
 
 Figur 147 gir en oversikt over hvilken informasjon fra de systemer som skal erstattes som minimum må overføres til felles journalløsning.
 
-![Diagram showing the scope of information to be converted/migrated to a common journal solution, categorized into patient-related, staff-related, business-related, and basic data.](1fa646088a731bde9ff4c9af87f93d3c_img.jpg)
+![Diagram showing the scope of information to be converted/migrated to a common journal solution, categorized into patient-related, staff-related, business-related, and basic data.](images/Bilag G1 Felles kommunal journalløsning/1fa646088a731bde9ff4c9af87f93d3c_img.jpg)
 
 ### Omfang av informasjon som bør konverteres/migreres til felles journalløsning
 
@@ -8171,7 +8171,7 @@ Felles journalløsning vil primært støtte ytelse av helse- og omsorgshjelp, me
 
 Figur 148 gir en oversikt over de kapabilitetene som har behov for integrasjon mellom felles journalløsning og kommunale administrative systemer.
 
-![Diagram showing the integration of municipal health and care services with a common journal solution. It is divided into three main sections: SR (Styringstjenester), SHS (Støtte til ytelser av helse og omsorgshjelp), and AS (Administrasjon av kommunale helse- og omsorgstjenester). Each section contains specific tasks (SR2, SR3, SHS1.5, SHS3, SHS5, AS1, AS2, AS3) with color-coded boxes indicating the level of integration required. A legend explains the color coding: blue for primarily solved with integration, and green/blue for partially solved with integration.](62c855224c9ca68e4f6998b9575e607d_img.jpg)
+![Diagram showing the integration of municipal health and care services with a common journal solution. It is divided into three main sections: SR (Styringstjenester), SHS (Støtte til ytelser av helse og omsorgshjelp), and AS (Administrasjon av kommunale helse- og omsorgstjenester). Each section contains specific tasks (SR2, SR3, SHS1.5, SHS3, SHS5, AS1, AS2, AS3) with color-coded boxes indicating the level of integration required. A legend explains the color coding: blue for primarily solved with integration, and green/blue for partially solved with integration.](images/Bilag G1 Felles kommunal journalløsning/62c855224c9ca68e4f6998b9575e607d_img.jpg)
 
 **SR. Planlegge, utvikle og følge opp helse- og omsorgstjenester**
 
@@ -8256,7 +8256,7 @@ Dette kapitlet beskriver komponentene og grensesnitt i identitets- og tilgangsst
 
 ### 7.4.1 Komponenter i identitets- og tilgangsstyring
 
-![Diagram of the logical solution architecture for identity and access management. It shows various external entities (Tjenesteleverandør, Tilknyttet virksomhet, Personell, Administrasjon, Aktører, Innbyggere) interacting with a central 'Felles kommunal journalløsning' through various interfaces like 'Portel', 'Identitetsstyrings-løsning (IGA)', 'Autentiserings-løsning', 'Tillitsjeneste', and 'Samhandlings-løsninger'. It also shows internal components like 'Grunndata', 'Personvernkomponent', and 'Privilegert tilgangsstyringsløsning (PAM)'.](a48ecbf3100ebf31b5d615267fa263c3_img.jpg)
+![Diagram of the logical solution architecture for identity and access management. It shows various external entities (Tjenesteleverandør, Tilknyttet virksomhet, Personell, Administrasjon, Aktører, Innbyggere) interacting with a central 'Felles kommunal journalløsning' through various interfaces like 'Portel', 'Identitetsstyrings-løsning (IGA)', 'Autentiserings-løsning', 'Tillitsjeneste', and 'Samhandlings-løsninger'. It also shows internal components like 'Grunndata', 'Personvernkomponent', and 'Privilegert tilgangsstyringsløsning (PAM)'.](images/Bilag G1 Felles kommunal journalløsning/a48ecbf3100ebf31b5d615267fa263c3_img.jpg)
 
 The diagram illustrates the logical solution architecture for identity and access management. It features several external entities on the left and top, interacting with a central 'Felles kommunal journalløsning' through various interfaces. On the left, 'Tjenesteleverandør' (Service provider) interacts via 'Innføring av virksomheter' (Introduction of businesses) and 'Manuell administrering av brukere' (Manual administration of users) with a 'Portel' (Portal). Below this, 'Tilknyttet virksomhet' (Connected business) interacts via 'Integrasjon' (Integration) with a 'Grensesnitt' (Interface). On the top, 'Personell som benytter felles journal' (Personnel using the common journal) and 'Administrasjon av felles journal' (Administration of the common journal) interact with 'Autentiserings-løsning' (Authentication solution) and 'Tillitsjeneste' (Trust service). On the right, 'Aktører med egen journalløsning' (Actors with their own journal solution) and 'Innbyggere' (Citizens) interact with 'Tillitsjeneste' and 'Helsenorge.no'. The central 'Felles kommunal journalløsning' is connected to 'Identitetsstyrings-løsning (IGA)' (Identity management solution (IGA)), which is linked to 'Portel' and 'Grensesnitt'. Below the central solution are 'Grunndata' (Basic data), 'Personvernkomponent' (Privacy component), and 'Privilegert tilgangsstyringsløsning (PAM)' (Privileged access management solution (PAM)). A 'Samhandlings-løsninger' (Collaboration solutions) block is also connected to the central solution and 'Tillitsjeneste'.
 
@@ -8274,7 +8274,7 @@ Nedenfor vil det beskrives i større detaljer de byggeklosser som inngår i løs
 
 Figur 150 beskriver de ulike løsningsbyggeklossene i identitets- og tilgangsstyringen. Disse vil videre utdypes i de underliggende kapitlene.
 
-![Figur 150 Byggeklosser i identitets- og tilgangsstyring i felles kommunal journalløsning. This diagram shows the architectural components of the Akson system. It is divided into four main vertical sections: 1. 'Autoritative kilder' (Authoritative sources) containing 'Grunndata' and 'Lokale autoritative kilder i kommunene'. 2. 'Identitetsstyringsløsning' (Identity management solution) containing 'Identitetslager', 'Arbeidsflyts-verktøy (portal)', 'Provisjonerings-verktøy', and 'Rollestyring'. Below this are 'Akkreditivshåndtering' (with 'Akkreditivlager' and 'Akkreditivstyrings-verktøy') and 'Legitimerings-myndighet' (with 'Sertifikatlager'). At the bottom is 'Governance' (with 'Rapportering og analyse', 'Revisjonsverktøy', 'Autorisasjons-register', and 'Logging'). 3. 'Tilgangsstyringsløsning' (Access management solution) containing 'Tilgangsbeslutning', 'Federert tilgangsstyring', 'Rettigheter', 'Regelstyrings-verktøy', and 'Regel-database'. 4. 'Endepunkter' (End points) containing 'Felles kommunal journalløsning' and 'Nasjonale e-helseløsninger for samhandling'. Lines indicate data flow and integration between these components.](ed0efcbe18c231dc77677b24288a5148_img.jpg)
+![Figur 150 Byggeklosser i identitets- og tilgangsstyring i felles kommunal journalløsning. This diagram shows the architectural components of the Akson system. It is divided into four main vertical sections: 1. 'Autoritative kilder' (Authoritative sources) containing 'Grunndata' and 'Lokale autoritative kilder i kommunene'. 2. 'Identitetsstyringsløsning' (Identity management solution) containing 'Identitetslager', 'Arbeidsflyts-verktøy (portal)', 'Provisjonerings-verktøy', and 'Rollestyring'. Below this are 'Akkreditivshåndtering' (with 'Akkreditivlager' and 'Akkreditivstyrings-verktøy') and 'Legitimerings-myndighet' (with 'Sertifikatlager'). At the bottom is 'Governance' (with 'Rapportering og analyse', 'Revisjonsverktøy', 'Autorisasjons-register', and 'Logging'). 3. 'Tilgangsstyringsløsning' (Access management solution) containing 'Tilgangsbeslutning', 'Federert tilgangsstyring', 'Rettigheter', 'Regelstyrings-verktøy', and 'Regel-database'. 4. 'Endepunkter' (End points) containing 'Felles kommunal journalløsning' and 'Nasjonale e-helseløsninger for samhandling'. Lines indicate data flow and integration between these components.](images/Bilag G1 Felles kommunal journalløsning/ed0efcbe18c231dc77677b24288a5148_img.jpg)
 
 Figur 150 Byggeklosser i identitets- og tilgangsstyring i felles kommunal journalløsning. This diagram shows the architectural components of the Akson system. It is divided into four main vertical sections: 1. 'Autoritative kilder' (Authoritative sources) containing 'Grunndata' and 'Lokale autoritative kilder i kommunene'. 2. 'Identitetsstyringsløsning' (Identity management solution) containing 'Identitetslager', 'Arbeidsflyts-verktøy (portal)', 'Provisjonerings-verktøy', and 'Rollestyring'. Below this are 'Akkreditivshåndtering' (with 'Akkreditivlager' and 'Akkreditivstyrings-verktøy') and 'Legitimerings-myndighet' (with 'Sertifikatlager'). At the bottom is 'Governance' (with 'Rapportering og analyse', 'Revisjonsverktøy', 'Autorisasjons-register', and 'Logging'). 3. 'Tilgangsstyringsløsning' (Access management solution) containing 'Tilgangsbeslutning', 'Federert tilgangsstyring', 'Rettigheter', 'Regelstyrings-verktøy', and 'Regel-database'. 4. 'Endepunkter' (End points) containing 'Felles kommunal journalløsning' and 'Nasjonale e-helseløsninger for samhandling'. Lines indicate data flow and integration between these components.
 
@@ -8282,7 +8282,7 @@ Figur 150 Byggeklosser i identitets- og tilgangsstyring i felles kommunal journa
 
 ### 7.4.1.1 Autorative kilder
 
-![Figur 151 Byggekloss - autoritative kilder. This diagram illustrates the data sources for the system, split into two main categories: 1. 'Grunndataplattformen' (Base data platform) which includes 'Person', 'Personell', and 'Virksomhet' as core data, separated by a 'Grensesnitt' (Interface). Below this is an 'Informasjonslager' (Information layer) containing various registers: 'Person-registret', 'Bedrifts-registret', 'Adresse-registret', 'RESH', 'Helsepersonell-registret', 'Fastlegeregistret', 'Legestilings-registret', and '+RESH for kommune'. 2. 'Lokale systemer i kommunen' (Local systems in the municipality) which includes 'Forretningslogikk' (with 'Provisjonerings' and 'Autentisering'), 'Administrasjon' (with 'Rolle-/attributt-styring'), and a 'Grensesnitt' (Interface) leading to 'HR-system', 'AD / brukerkatalog', and 'IAM-system'. Below these are another 'Informasjonslager' containing 'Identitetslager', 'Sertifikater', and 'Rolle-/attributter'.](5ed4b462d00895ef72d1bb5dfb5ab8a5_img.jpg)
+![Figur 151 Byggekloss - autoritative kilder. This diagram illustrates the data sources for the system, split into two main categories: 1. 'Grunndataplattformen' (Base data platform) which includes 'Person', 'Personell', and 'Virksomhet' as core data, separated by a 'Grensesnitt' (Interface). Below this is an 'Informasjonslager' (Information layer) containing various registers: 'Person-registret', 'Bedrifts-registret', 'Adresse-registret', 'RESH', 'Helsepersonell-registret', 'Fastlegeregistret', 'Legestilings-registret', and '+RESH for kommune'. 2. 'Lokale systemer i kommunen' (Local systems in the municipality) which includes 'Forretningslogikk' (with 'Provisjonerings' and 'Autentisering'), 'Administrasjon' (with 'Rolle-/attributt-styring'), and a 'Grensesnitt' (Interface) leading to 'HR-system', 'AD / brukerkatalog', and 'IAM-system'. Below these are another 'Informasjonslager' containing 'Identitetslager', 'Sertifikater', and 'Rolle-/attributter'.](images/Bilag G1 Felles kommunal journalløsning/5ed4b462d00895ef72d1bb5dfb5ab8a5_img.jpg)
 
 Figur 151 Byggekloss - autoritative kilder. This diagram illustrates the data sources for the system, split into two main categories: 1. 'Grunndataplattformen' (Base data platform) which includes 'Person', 'Personell', and 'Virksomhet' as core data, separated by a 'Grensesnitt' (Interface). Below this is an 'Informasjonslager' (Information layer) containing various registers: 'Person-registret', 'Bedrifts-registret', 'Adresse-registret', 'RESH', 'Helsepersonell-registret', 'Fastlegeregistret', 'Legestilings-registret', and '+RESH for kommune'. 2. 'Lokale systemer i kommunen' (Local systems in the municipality) which includes 'Forretningslogikk' (with 'Provisjonerings' and 'Autentisering'), 'Administrasjon' (with 'Rolle-/attributt-styring'), and a 'Grensesnitt' (Interface) leading to 'HR-system', 'AD / brukerkatalog', and 'IAM-system'. Below these are another 'Informasjonslager' containing 'Identitetslager', 'Sertifikater', and 'Rolle-/attributter'.
 
@@ -8308,7 +8308,7 @@ I noen tilfeller er det det lokale systemet i kommunen som håndterer hele ident
 
 ### 7.4.1.2 Identitetsstyringsløsning
 
-![Diagram of the Identity Governance solution architecture (IGA).](c981496dcf94656533f6f8ed68816d76_img.jpg)
+![Diagram of the Identity Governance solution architecture (IGA).](images/Bilag G1 Felles kommunal journalløsning/c981496dcf94656533f6f8ed68816d76_img.jpg)
 
 The diagram illustrates the Identity Governance solution architecture (IGA) within a light blue rounded rectangle. At the top center, the title 'Identitetsstyringsløsningen (IGA)' is displayed. The architecture is organized into three main horizontal sections:
 
@@ -8328,7 +8328,7 @@ Autorisasjonsregisteret er et krav i henhold til Normen og vil kunne understøtt
 
 ### 7.4.1.3 Legitimasjonsstyring og sertifiseringsmyndighet (Certificate Authority)
 
-![Diagram showing the architecture of the solution for authentication and certificates, divided into two main sections: Legitimasjons- / akkreditivstyring and Sertifiseringsmyndighet (Certificate Authority / CA).](df14c8e64e99befef2f568b5e8697a72_img.jpg)
+![Diagram showing the architecture of the solution for authentication and certificates, divided into two main sections: Legitimasjons- / akkreditivstyring and Sertifiseringsmyndighet (Certificate Authority / CA).](images/Bilag G1 Felles kommunal journalløsning/df14c8e64e99befef2f568b5e8697a72_img.jpg)
 
 The diagram illustrates the system architecture for authentication and certificates, divided into two main functional areas:
 
@@ -8357,7 +8357,7 @@ Det vil være en kontinuerlig synkronisering opp mot sertifiseringsmyndigheten f
 
 ### 7.4.1.4 Tilgangsstyringsløsning
 
-![Diagram of the Byggekloss solution for access control (Tilgangsstyring (journalsystem)).](261ab32a0136dadf40be56af50d36876_img.jpg)
+![Diagram of the Byggekloss solution for access control (Tilgangsstyring (journalsystem)).](images/Bilag G1 Felles kommunal journalløsning/261ab32a0136dadf40be56af50d36876_img.jpg)
 
 The diagram illustrates the 'Byggekloss - løsning for tilgangsstyring' architecture. It is structured as follows:
 
@@ -8426,7 +8426,7 @@ Det ligger noen prinsipper til grunn for utvikling av personverikomponentene:
 
 Sperring må håndteres på ulike nivåer i tjenesten, som vist i Figur 155.
 
-![Diagram showing three levels of locking: Toppnivå, Nasjonale komponenter, and Lokale fagsystemer.](86b71199ea90e3154efbe9e425ac6f7e_img.jpg)
+![Diagram showing three levels of locking: Toppnivå, Nasjonale komponenter, and Lokale fagsystemer.](images/Bilag G1 Felles kommunal journalløsning/86b71199ea90e3154efbe9e425ac6f7e_img.jpg)
 
 The diagram illustrates three levels of locking (Toppnivå, Nasjonale komponenter, and Lokale fagsystemer) represented by icons and text boxes. Toppnivå is represented by a shield icon. Nasjonale komponenter is represented by a person icon. Lokale fagsystemer is represented by a location pin icon.
 
@@ -8438,7 +8438,7 @@ Nasjonal personverikomponent må kunne håndtere sperring på alle nivåer, som 
 
 ### Toppnivå
 
-![Conceptual diagram for locking in the national personverikomponent.](ed55ea590508456b9975c4567b4bf829_img.jpg)
+![Conceptual diagram for locking in the national personverikomponent.](images/Bilag G1 Felles kommunal journalløsning/ed55ea590508456b9975c4567b4bf829_img.jpg)
 
 The diagram shows the 'Nasjonal personverikomponent' (National personverikomponent) as a central blue cylinder. It has arrows pointing to 'Nasjonale komponenter' (National components) and 'Lokale fag- og journalsystemer' (Local professional and journal systems). 'Nasjonale komponenter' includes 'E-resept', 'Kjernejournal', 'Velferdsteknologisk knutepunkt', and 'Nasjonal labsvar-database'. 'Lokale fag- og journalsystemer' includes 'DIPS', 'Felles kommunal journalløsning', 'Helse-plattformen', and 'Andre lokale systemer'.
 
@@ -8451,7 +8451,7 @@ Konsekvenser av løsningsvalget på dette nivået er:
 - Kan ikke sperre enkeltelementer
 - Alle nivåer under må ivareta sperring som settes på dette nivået
 
-![Diagram showing the logical relationship between national person register components, core journal, and shared municipal journal solution.](e13d2ed373946df26f71416c7386045d_img.jpg)
+![Diagram showing the logical relationship between national person register components, core journal, and shared municipal journal solution.](images/Bilag G1 Felles kommunal journalløsning/e13d2ed373946df26f71416c7386045d_img.jpg)
 
 The diagram illustrates the logical relationship between three components:
 
@@ -8473,7 +8473,7 @@ Sperring på nasjonale komponenter er ikke en del av målbildet for felles journ
 
 ### Lokale fagsystemer
 
-![Conceptual diagram showing the relationship between local person register component and local professional systems.](85f3f2b78291e8b2e6fc4c5267e26a29_img.jpg)
+![Conceptual diagram showing the relationship between local person register component and local professional systems.](images/Bilag G1 Felles kommunal journalløsning/85f3f2b78291e8b2e6fc4c5267e26a29_img.jpg)
 
 The diagram illustrates the conceptual relationship between local systems:
 
@@ -8489,7 +8489,7 @@ Konsekvenser av løsningsvalget på dette nivået er
 - Journalløsninger og andre fagsystemer må implementere egne sperremekanismer
 - Mulig å sperre på enkeltelementer
 
-![Diagram illustrating the logical solution for access control in a shared municipal journal solution. On the left, a blue box labeled '«Akson» personvernkomponent' contains three cylinders: 'Sperring personell', 'Sperring personell-grupper', and 'Sperring virksomhet'. Below these is a cylinder labeled 'Felles kommunal journalløsning informasjonslementer'. On the right, a green box labeled 'Felles kommunal journalløsning' contains a cylinder labeled 'Lokal caching' and two gears labeled 'Tilgangsregler'. A blue arrow labeled 'Gi sperring' points from the blue box to the green box. A blue arrow labeled 'Gi informasjonsmodell' points from the green box to the blue box.](9e626c772ef6bcdded6420f70c0d0c01_img.jpg)
+![Diagram illustrating the logical solution for access control in a shared municipal journal solution. On the left, a blue box labeled '«Akson» personvernkomponent' contains three cylinders: 'Sperring personell', 'Sperring personell-grupper', and 'Sperring virksomhet'. Below these is a cylinder labeled 'Felles kommunal journalløsning informasjonslementer'. On the right, a green box labeled 'Felles kommunal journalløsning' contains a cylinder labeled 'Lokal caching' and two gears labeled 'Tilgangsregler'. A blue arrow labeled 'Gi sperring' points from the blue box to the green box. A blue arrow labeled 'Gi informasjonsmodell' points from the green box to the blue box.](images/Bilag G1 Felles kommunal journalløsning/9e626c772ef6bcdded6420f70c0d0c01_img.jpg)
 
 Diagram illustrating the logical solution for access control in a shared municipal journal solution. On the left, a blue box labeled '«Akson» personvernkomponent' contains three cylinders: 'Sperring personell', 'Sperring personell-grupper', and 'Sperring virksomhet'. Below these is a cylinder labeled 'Felles kommunal journalløsning informasjonslementer'. On the right, a green box labeled 'Felles kommunal journalløsning' contains a cylinder labeled 'Lokal caching' and two gears labeled 'Tilgangsregler'. A blue arrow labeled 'Gi sperring' points from the blue box to the green box. A blue arrow labeled 'Gi informasjonsmodell' points from the green box to the blue box.
 
@@ -8525,7 +8525,7 @@ Direktoratet for e-helse har en normerende rolle innen IKT-standarder. Referanse
 
 Figur 160 gir en oversikt over de informasjonstjenester som minimum må understøttes ved første leveranse av felles kommunal journalløsning.
 
-![Diagram showing planned and existing interface boundaries for the first delivery of the common municipal journal solution. The diagram is structured into several horizontal layers of boxes representing different functional areas.](3afc450f57bb02851ab66705657a9b74_img.jpg)
+![Diagram showing planned and existing interface boundaries for the first delivery of the common municipal journal solution. The diagram is structured into several horizontal layers of boxes representing different functional areas.](images/Bilag G1 Felles kommunal journalløsning/3afc450f57bb02851ab66705657a9b74_img.jpg)
 
 **Planlagte og eksisterende grensesnitt før første leveranse av journalløsningen**
 
@@ -8651,7 +8651,7 @@ I tillegg legges det opp til støtte for ulike oppslag i grunndata, f.eks. perso
 
 
 
-![Logo of the Directorate for e-health, consisting of a grid of dots.](d602c7f42313da645120222ee1393e54_img.jpg) Direktoratet for e-helse
+![Logo of the Directorate for e-health, consisting of a grid of dots.](images/Bilag G1 Felles kommunal journalløsning/d602c7f42313da645120222ee1393e54_img.jpg) Direktoratet for e-helse
 
 **Besøksadresse**
 

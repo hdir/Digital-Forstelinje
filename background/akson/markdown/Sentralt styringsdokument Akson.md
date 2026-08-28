@@ -1,6 +1,6 @@
 
 
-![Logo of the Directorate for e-health, consisting of a grid of white dots of varying sizes.](2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
+![Logo of the Directorate for e-health, consisting of a grid of white dots of varying sizes.](images/Sentralt styringsdokument Akson/2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)
 
 Logo of the Directorate for e-health, consisting of a grid of white dots of varying sizes.
 
@@ -14,7 +14,7 @@ kommunal journalløsning
 
 Hovedrapport
 
-![A photograph showing a female healthcare professional assisting a young child in a clinical setting. The child is leaning over a desk where a male doctor in a white coat and stethoscope is looking at a laptop. The background shows a bright room with shelves containing binders.](390120de4fe440c42fea8154fcaad334_img.jpg)
+![A photograph showing a female healthcare professional assisting a young child in a clinical setting. The child is leaning over a desk where a male doctor in a white coat and stethoscope is looking at a laptop. The background shows a bright room with shelves containing binders.](images/Sentralt styringsdokument Akson/390120de4fe440c42fea8154fcaad334_img.jpg)
 
 A photograph showing a female healthcare professional assisting a young child in a clinical setting. The child is leaning over a desk where a male doctor in a white coat and stethoscope is looking at a laptop. The background shows a bright room with shelves containing binders.
 
@@ -54,7 +54,7 @@ Publikasjonen kan lastes ned på:
 
 ## Forord
 
-![A person holding a tablet displaying a network diagram with nodes and connections, symbolizing digital health and data sharing.](7e2f2d03a5dda38b038fd4884629a2b4_img.jpg)
+![A person holding a tablet displaying a network diagram with nodes and connections, symbolizing digital health and data sharing.](images/Sentralt styringsdokument Akson/7e2f2d03a5dda38b038fd4884629a2b4_img.jpg)
 
 A person's hands are shown holding a tablet computer. The screen of the tablet displays a digital network diagram with several white nodes connected by lines, set against a dark blue background. The person is wearing a white lab coat. The background is a light, neutral color.
 
@@ -273,7 +273,7 @@ utformes basert på kost-/nyttevurderinger og risiko ved gjennomføring, samt in
 
 Den overordnede gjennomføringen av Akson er illustrert i Figur 1. Tidshorisonten og lengden på fasene og stegene er illustrative.
 
-![Figure 1: Overordnet gjennomføring av Akson. A timeline diagram showing the implementation of Akson from 2021 to 2030. The top section, 'Felles kommunal journalløsning', shows four phases: Fase 1 (2021-2023), Fase 2 (2023-2026), Fase 3 (2026-2028), and Fase 4 (2028-2030). The bottom section, 'Utviklingsretning på samhandling', shows corresponding steps: steg 1 (2021-2023), steg 2 (2023-2026), steg 3 (2026-2028), and steg n (2028-2030). Each step includes a 'Forprosjekt' component.](e6df2733626a85205c1db682e6259c46_img.jpg)
+![Figure 1: Overordnet gjennomføring av Akson. A timeline diagram showing the implementation of Akson from 2021 to 2030. The top section, 'Felles kommunal journalløsning', shows four phases: Fase 1 (2021-2023), Fase 2 (2023-2026), Fase 3 (2026-2028), and Fase 4 (2028-2030). The bottom section, 'Utviklingsretning på samhandling', shows corresponding steps: steg 1 (2021-2023), steg 2 (2023-2026), steg 3 (2026-2028), and steg n (2028-2030). Each step includes a 'Forprosjekt' component.](images/Sentralt styringsdokument Akson/e6df2733626a85205c1db682e6259c46_img.jpg)
 
 |                                  | 2021                                         | 2022 | 2023                                         | 2024 | 2025 | 2026                                         | 2027 | 2028                                                 | 2029 | 2030 |
 |----------------------------------|----------------------------------------------|------|----------------------------------------------|------|------|----------------------------------------------|------|------------------------------------------------------|------|------|
@@ -402,7 +402,7 @@ I tillegg til kravene avledet av samfunns- og effektmålene ovenfor stilles det 
 
 Akson skal realisere målbildet for helhetlig samhandling og en felles journalløsning for kommunal helse- og omsorgstjeneste. Målet er at journalløsningen skal brukes av alle kommuner, fastleger og andre avtaleparter utenfor Midt-Norge. Konseptet har høye ambisjoner for samhandlingen i helse- og omsorgstjenesten. Figur 2 illustrerer konseptet.
 
-![Diagram illustrating the Akson concept, showing the integration of municipal health and care services, residents, and specialist health services into a central 'Felles kommunal journal' and 'Helhetlig samhandling' platform.](5cab96b2d23174c25919840ecd50aa48_img.jpg)
+![Diagram illustrating the Akson concept, showing the integration of municipal health and care services, residents, and specialist health services into a central 'Felles kommunal journal' and 'Helhetlig samhandling' platform.](images/Sentralt styringsdokument Akson/5cab96b2d23174c25919840ecd50aa48_img.jpg)
 
 The diagram illustrates the Akson concept, showing the integration of municipal health and care services, residents, and specialist health services into a central 'Felles kommunal journal' and 'Helhetlig samhandling' platform.
 
@@ -470,7 +470,7 @@ Det er valgt to ulike tilnærminger for å realisere henholdsvis felles kommunal
 1. Realisering av felles kommunal journalløsning vil gjennomføres som ett tiltak som er phasedelt med flere kontroll- og stoppunkter og med stegvis utvikling og innføring.
 2. Målbildet for helhetlig samhandling realiseres gjennom en stegvis tilnærming med flere tiltak.
 
-![Diagram illustrating the implementation of the Akson concept. It shows two parallel paths: 'Felles kommunal journalløsning' and 'Utviklingsretning for helhetlig samhandling'. The 'Felles kommunal journalløsning' path is divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. The 'Utviklingsretning for helhetlig samhandling' path shows a sequence of steps: 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n'. Both paths converge into a large blue circle labeled 'Akson'.](77464a47f104d0d647b2414591137b64_img.jpg)
+![Diagram illustrating the implementation of the Akson concept. It shows two parallel paths: 'Felles kommunal journalløsning' and 'Utviklingsretning for helhetlig samhandling'. The 'Felles kommunal journalløsning' path is divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. The 'Utviklingsretning for helhetlig samhandling' path shows a sequence of steps: 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n'. Both paths converge into a large blue circle labeled 'Akson'.](images/Sentralt styringsdokument Akson/77464a47f104d0d647b2414591137b64_img.jpg)
 
 The diagram illustrates the implementation of the Akson concept through two parallel paths. The top path, 'Felles kommunal journalløsning', is divided into four phases: 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling', 'Fase 3: Innføring', and 'Fase 4: Forvaltning, drift, vedlikehold og utvikling'. The bottom path, 'Utviklingsretning for helhetlig samhandling', shows a sequence of steps: 'steg 1', 'steg 2', 'steg 3', 'steg 4', and 'steg n'. Both paths converge into a large blue circle labeled 'Akson'.
 
@@ -486,7 +486,7 @@ Omfanget av hvert steg bør utformes basert på kost-/nyttevurderinger og risiko
 
 Figur 4 viser overordnet gjennomføring av konseptet. Tidshorisonten og lengden på de ulike stegene er illustrativ. Gjennom leverandørdialogen i fase 1 kan tidslinjen for etterfølgende faser bli endret. Så langt mulig legges det opp til en smidig gjennomføring, der funksjonalitet kan testes ut og piloteres tidlig, også før 2025. Kapittel 2.2 inneholder en nærmere beskrivelse av de ulike fasene for felles kommunal journalløsning. Som følge av den stegvise tilnærmingen for helhetlig samhandling inneholder dette sentrale styringsdokumentet kun beskrivelse av steg 1 i utviklingsretningen, i tillegg til felles kommunal journalløsning, heretter omtalt som tiltaket.
 
-![Diagram showing the implementation timeline for Akson from 2021 to 2030. It includes phases for mobilization, establishment, implementation, and maintenance, along with specific steps for data sharing and development.](10781f43062bf3e9601a1e086710556c_img.jpg)
+![Diagram showing the implementation timeline for Akson from 2021 to 2030. It includes phases for mobilization, establishment, implementation, and maintenance, along with specific steps for data sharing and development.](images/Sentralt styringsdokument Akson/10781f43062bf3e9601a1e086710556c_img.jpg)
 
 The diagram illustrates the implementation timeline for Akson from 2021 to 2030. It is divided into four main phases:
 
@@ -524,7 +524,7 @@ Modernisering og videreutvikling av grunndata og tillitstjenester er nødvendig 
 
 Det er lagt til grunn at steg 1 omfatter:
 
-![Icon representing modernization and development, showing two hands shaking inside a circle.](33e70787e71eebc7a200bc7fe352dadc_img.jpg)
+![Icon representing modernization and development, showing two hands shaking inside a circle.](images/Sentralt styringsdokument Akson/33e70787e71eebc7a200bc7fe352dadc_img.jpg)
 
 Icon representing modernization and development, showing two hands shaking inside a circle.
 
@@ -534,7 +534,7 @@ Det skal utvikles nye og moderne grunndata-tjenester for Personell og Virksomhet
 
 Felles grunndata består av opplysninger om helsepersonell, organisasjoner, tjenester, behandlingssteder, adresser m.m. HelselD fungerer som et tillitsanker for hele helsetjenesten ved at man stoler på pålogging gjennomført via HelselD fra en annen virksomhet, og legger til rette for at helsepersonell kan få engangspålogging med én elektronisk ID (e-ID) i hele helse- og omsorgstjenesten.
 
-![Icon representing national information service, showing a DNA double helix inside a circle.](6c87dea9e65426eedb6b2a6838b12274_img.jpg)
+![Icon representing national information service, showing a DNA double helix inside a circle.](images/Sentralt styringsdokument Akson/6c87dea9e65426eedb6b2a6838b12274_img.jpg)
 
 Icon representing national information service, showing a DNA double helix inside a circle.
 
@@ -542,7 +542,7 @@ Icon representing national information service, showing a DNA double helix insid
 
 Dette inkluderer nødvendige tilpasninger for å sikre at laboratorie- og radiologivirksomheter automatisk sender en kopi av svarrapporter til den nasjonale informasjonstjenesten. Helsepersonell kan få tilgang til svarene gjennom kjernejournal portal. Det tilrettelegges for at journalløsninger kan integreres direkte mot den nasjonale informasjonstjenesten.
 
-![Icon representing the Forprosjekt for steg 2, showing puzzle pieces inside a circle.](d634064028e40596aebaa55b4f9700cc_img.jpg)
+![Icon representing the Forprosjekt for steg 2, showing puzzle pieces inside a circle.](images/Sentralt styringsdokument Akson/d634064028e40596aebaa55b4f9700cc_img.jpg)
 
 Icon representing the Forprosjekt for steg 2, showing puzzle pieces inside a circle.
 
@@ -580,7 +580,7 @@ Programmet Akson journal og Programmet Akson samhandling har også avhengigheter
 
 I tillegg til koordineringsmekanismene beskrevet ovenfor legges det til grunn at både Programmet Akson journal og Programmet Akson samhandling vil melde inn sine tiltak i den nasjonale porteføljestyringsprosessen som skal koordinere, prioritere og følge opp tiltak av nasjonal betydning.
 
-![Organigram for helhetlig styring. Det viser to hovedveier: Akson journal AS og Programmet Akson samhandling. Akson journal AS har tilknytning til Kommuner og Helse- og omsorgs-departementet. Programmet Akson samhandling har tilknytning til Helse- og omsorgs-departementet. De to programmenyene er knyttet sammen via Samarbeidsavtale, Representasjon i programstyrene og Koordinering mellom prosjekter. Begge programmenyene har fire Prosjekt under seg.](e180f2b5fcbe8001554a7c0677cd3f82_img.jpg)
+![Organigram for helhetlig styring. Det viser to hovedveier: Akson journal AS og Programmet Akson samhandling. Akson journal AS har tilknytning til Kommuner og Helse- og omsorgs-departementet. Programmet Akson samhandling har tilknytning til Helse- og omsorgs-departementet. De to programmenyene er knyttet sammen via Samarbeidsavtale, Representasjon i programstyrene og Koordinering mellom prosjekter. Begge programmenyene har fire Prosjekt under seg.](images/Sentralt styringsdokument Akson/e180f2b5fcbe8001554a7c0677cd3f82_img.jpg)
 
 ```
 
@@ -620,7 +620,7 @@ sektoren juridisk. Manglende gjennomføring av nødvendige investeringer og utvi
 
 For at målbildet for samhandling skal realiseres, og at det fortløpende realiseres gevinster er det nødvendig at utviklingen i de ulike stegene koordineres med andre pågående prosjekter og tiltak. For å sikre dette er det nødvendig at de sentrale interessentene forplikter seg til de ulike stegene i utviklingsretningen gjennom bindende beslutninger knyttet til blant annet finansiering, ressursbidrag og investeringer og utvikling av egne løsninger. Behovet for koordinering og forpliktelser er illustrert i Figur 6.
 
-![Diagram illustrating the need for coordination and commitments (Figur 6). A central box labeled 'Koordinering og forpliktelser' and 'Program Akson samhandling' is surrounded by eight other boxes, each representing a different entity or project. Arrows point from each of these eight boxes towards the central box, indicating their contribution to or commitment for the central program. The entities are: norskhelsenett (Samhandlingsløsninger), Akson Journal AS (Felles journalløsning for kommunale helse- og omsorgstjenester (utenfor Midt-Norge)), HELSE SØR-ØST (EPJ/PAS/curve for Helse Sør-Øst), HELSE NORD (EPJ/PAS/curve for Helse Nord), HELSE VEST (EPJ/PAS/curve for Helse Vest), Helseplattformen (Journaløsning for Helse Midt og kommunale helse- og omsorgstjenester i Midt-Norge), Dagens journalløsninger i kommunale helse- og omsorgstjenester, and Direktoratet for e-helse (Programmer, Programmet Akson samhandling).](eb03559a4d92ea9ebd63ea9be663c50a_img.jpg)
+![Diagram illustrating the need for coordination and commitments (Figur 6). A central box labeled 'Koordinering og forpliktelser' and 'Program Akson samhandling' is surrounded by eight other boxes, each representing a different entity or project. Arrows point from each of these eight boxes towards the central box, indicating their contribution to or commitment for the central program. The entities are: norskhelsenett (Samhandlingsløsninger), Akson Journal AS (Felles journalløsning for kommunale helse- og omsorgstjenester (utenfor Midt-Norge)), HELSE SØR-ØST (EPJ/PAS/curve for Helse Sør-Øst), HELSE NORD (EPJ/PAS/curve for Helse Nord), HELSE VEST (EPJ/PAS/curve for Helse Vest), Helseplattformen (Journaløsning for Helse Midt og kommunale helse- og omsorgstjenester i Midt-Norge), Dagens journalløsninger i kommunale helse- og omsorgstjenester, and Direktoratet for e-helse (Programmer, Programmet Akson samhandling).](images/Sentralt styringsdokument Akson/eb03559a4d92ea9ebd63ea9be663c50a_img.jpg)
 
 Diagram illustrating the need for coordination and commitments (Figur 6). A central box labeled 'Koordinering og forpliktelser' and 'Program Akson samhandling' is surrounded by eight other boxes, each representing a different entity or project. Arrows point from each of these eight boxes towards the central box, indicating their contribution to or commitment for the central program. The entities are: norskhelsenett (Samhandlingsløsninger), Akson Journal AS (Felles journalløsning for kommunale helse- og omsorgstjenester (utenfor Midt-Norge)), HELSE SØR-ØST (EPJ/PAS/curve for Helse Sør-Øst), HELSE NORD (EPJ/PAS/curve for Helse Nord), HELSE VEST (EPJ/PAS/curve for Helse Vest), Helseplattformen (Journaløsning for Helse Midt og kommunale helse- og omsorgstjenester i Midt-Norge), Dagens journalløsninger i kommunale helse- og omsorgstjenester, and Direktoratet for e-helse (Programmer, Programmet Akson samhandling).
 
@@ -659,7 +659,7 @@ Hovedtiltakene for å adressere denne usikkerheten er å gå fra dagens produkto
 
 Figur 7 viser et logisk mål bilde for hvordan applikasjons tjenestene felles kommunal journalløsning og en fremtidig samhandlingsplattform kan understøtte ulike deler av helse- og omsorgstjenesten.
 
-![Diagram showing the logical target image for a shared municipal journal solution and a future integrated platform. It maps various stakeholders and services to core components like 'Felles kommunal journalløsning' and 'Plattform for helhetlig samhandling'.](26d664119ad25250780f554633444e54_img.jpg)
+![Diagram showing the logical target image for a shared municipal journal solution and a future integrated platform. It maps various stakeholders and services to core components like 'Felles kommunal journalløsning' and 'Plattform for helhetlig samhandling'.](images/Sentralt styringsdokument Akson/26d664119ad25250780f554633444e54_img.jpg)
 
 The diagram illustrates the logical target image for a shared municipal journal solution and a future integrated platform. It maps various stakeholders and services to core components.
 
@@ -701,7 +701,7 @@ For å realisere helhetlig samhandling i et økosystem med mange virksomheter, s
 
 Her følger en beskrivelse av de overordnede prinsippene som felles kommunal journalløsning må forholde seg til for å understøtte helhetlig samhandling i kommunal helse- og omsorgstjeneste og med aktører utenfor helsesektoren. Disse kommer i tillegg til overordnede arkitekturprinsipper fra Digitaliseringsdirektoratet for samhandling.
 
-![Icon showing a hand holding a small plant with two leaves, symbolizing growth and development.](f2f0092624aaf8ad2bcb99a821409714_img.jpg)
+![Icon showing a hand holding a small plant with two leaves, symbolizing growth and development.](images/Sentralt styringsdokument Akson/f2f0092624aaf8ad2bcb99a821409714_img.jpg)
 
 Icon showing a hand holding a small plant with two leaves, symbolizing growth and development.
 
@@ -709,7 +709,7 @@ Icon showing a hand holding a small plant with two leaves, symbolizing growth an
 
 Det er viktig å sikre at felles kommunal journalløsning og samhandlingsplattformen spiller godt sammen, og passer inn i et arkitekturlandskap for e-helse som er i løpende utvikling. Arkitekturforståelsen som legges til grunn for gjennomføring av tiltaket er basert på et økosystem hvor samhandling er navet som binder de ulike aktørene i helsesektoren sammen. De viktigste egenskaper ved samhandlingsplattformen er åpenhet og endringsevne.
 
-![Icon showing a network of six nodes connected by lines, symbolizing connectivity and collaboration.](daff947a443eb2a4735e3a81b6f756d9_img.jpg)
+![Icon showing a network of six nodes connected by lines, symbolizing connectivity and collaboration.](images/Sentralt styringsdokument Akson/daff947a443eb2a4735e3a81b6f756d9_img.jpg)
 
 Icon showing a network of six nodes connected by lines, symbolizing connectivity and collaboration.
 
@@ -717,7 +717,7 @@ Icon showing a network of six nodes connected by lines, symbolizing connectivity
 
 Helhetlig samhandling vil stille krav og legge føringer for hvordan de ulike journalløsningene skal snakke sammen gjennom samhandlingsplattformen. Det må utformes og stilles tydelige myndighetskrav som alle journalløsninger må forholde seg til. Det er også viktig å rigge et tydelig eierskap til, og forvaltning av, semantiske ressurser slik som informasjonsmodeller, begreper og definisjoner av grensesnitt. Samhandlingsplattformen må være dynamisk slik at den legger til rette for en behovsdrevet helsefaglig tjenesteutvikling.
 
-![Icon showing three overlapping circles, symbolizing integration and synergy.](513b2f88e0edcd2ffb6b7cf54f465d06_img.jpg)
+![Icon showing three overlapping circles, symbolizing integration and synergy.](images/Sentralt styringsdokument Akson/513b2f88e0edcd2ffb6b7cf54f465d06_img.jpg)
 
 Icon showing three overlapping circles, symbolizing integration and synergy.
 
@@ -748,7 +748,7 @@ Analysene viser at informasjonstjenester i stor grad bør gjenbrukes på tvers a
 
 Figur 8 beskriver et logisk mål bilde for realisering av plattform for helhetlig samhandling.
 
-![Diagram showing the architecture of the 'Plattform for helhetlig samhandling' (Platform for Holistic Handling). The diagram is structured as follows: At the top, six external entities are listed: 'Kommunal helse- og omsorgstjeneste', 'Innbyggere (pæssenter, brukere, pårørende)', 'Spesialisthelse-tjenesten', 'Andre aktører i helse- og omsorgstjenesten med tjenlig behov', 'Andre kommunale og statlige tjenester (NAV, PPT, Skole, mm)', and 'Fagsystemer'. These connect to a central 'Plattform for helhetlig samhandling' box. Inside this box, the top section is 'Nasjonale e-helseløsninger' containing 'Helsenorge.no', 'Kjernejournal', and 'E-resept (inkludert SFM)'. Below this is 'Informasjonstjenester' with tasks like 'Anmode om eller bestille tjenester eller ytelser', 'Skaffe seg oversikt over innbyggers tilstand og behov for helsehjelp', 'Gjøre oppslag i tidligere journalopplysninger', 'Innhente innbyggers opplysninger', 'Slå opp i generelle informasjonskilder (grunddata)', and 'Rapportere egen aktivitet'. The next section is 'Fellesfunksjonalitet' (Konvertering, Adressering, Orkestrering) and 'Tekniske samhandlingsformer' (Datadeling for velferdsteknologi, Datadeling for annen informasjon, Dokumentregister, Dokumentlager). Below these are 'Sentrale informasjonslager' (Personlig helsearkiv, Kritisk informasjon, Reseptoversikt, Legemidler i bruk, Andre lagringskomponenter). The bottom section is divided into three boxes: 'Felles grunnmur for digitale tjenester' (Kodeverk og terminologi, Felles grunddata, Felles krav og retningslinjer, Felleskomponenter like HelseID, Innbygger STS, Personvern, Datadeling, Meldingsutvikling, Dokumentdeling, and Felles infrastruktur), 'Nasjonale felleskomponenter' (ID-porten, Altinn, Felles datakatalog, Digital postkasse til innbyggere, and Kontakt- og reservasjonsregisteret), and 'KS-FIKS' (FIKS ID and Svar ut / Svar Inn).](d17aa1fcc3b86503ad1dd0717a6c34c2_img.jpg)
+![Diagram showing the architecture of the 'Plattform for helhetlig samhandling' (Platform for Holistic Handling). The diagram is structured as follows: At the top, six external entities are listed: 'Kommunal helse- og omsorgstjeneste', 'Innbyggere (pæssenter, brukere, pårørende)', 'Spesialisthelse-tjenesten', 'Andre aktører i helse- og omsorgstjenesten med tjenlig behov', 'Andre kommunale og statlige tjenester (NAV, PPT, Skole, mm)', and 'Fagsystemer'. These connect to a central 'Plattform for helhetlig samhandling' box. Inside this box, the top section is 'Nasjonale e-helseløsninger' containing 'Helsenorge.no', 'Kjernejournal', and 'E-resept (inkludert SFM)'. Below this is 'Informasjonstjenester' with tasks like 'Anmode om eller bestille tjenester eller ytelser', 'Skaffe seg oversikt over innbyggers tilstand og behov for helsehjelp', 'Gjøre oppslag i tidligere journalopplysninger', 'Innhente innbyggers opplysninger', 'Slå opp i generelle informasjonskilder (grunddata)', and 'Rapportere egen aktivitet'. The next section is 'Fellesfunksjonalitet' (Konvertering, Adressering, Orkestrering) and 'Tekniske samhandlingsformer' (Datadeling for velferdsteknologi, Datadeling for annen informasjon, Dokumentregister, Dokumentlager). Below these are 'Sentrale informasjonslager' (Personlig helsearkiv, Kritisk informasjon, Reseptoversikt, Legemidler i bruk, Andre lagringskomponenter). The bottom section is divided into three boxes: 'Felles grunnmur for digitale tjenester' (Kodeverk og terminologi, Felles grunddata, Felles krav og retningslinjer, Felleskomponenter like HelseID, Innbygger STS, Personvern, Datadeling, Meldingsutvikling, Dokumentdeling, and Felles infrastruktur), 'Nasjonale felleskomponenter' (ID-porten, Altinn, Felles datakatalog, Digital postkasse til innbyggere, and Kontakt- og reservasjonsregisteret), and 'KS-FIKS' (FIKS ID and Svar ut / Svar Inn).](images/Sentralt styringsdokument Akson/d17aa1fcc3b86503ad1dd0717a6c34c2_img.jpg)
 
 Diagram showing the architecture of the 'Plattform for helhetlig samhandling' (Platform for Holistic Handling). The diagram is structured as follows: At the top, six external entities are listed: 'Kommunal helse- og omsorgstjeneste', 'Innbyggere (pæssenter, brukere, pårørende)', 'Spesialisthelse-tjenesten', 'Andre aktører i helse- og omsorgstjenesten med tjenlig behov', 'Andre kommunale og statlige tjenester (NAV, PPT, Skole, mm)', and 'Fagsystemer'. These connect to a central 'Plattform for helhetlig samhandling' box. Inside this box, the top section is 'Nasjonale e-helseløsninger' containing 'Helsenorge.no', 'Kjernejournal', and 'E-resept (inkludert SFM)'. Below this is 'Informasjonstjenester' with tasks like 'Anmode om eller bestille tjenester eller ytelser', 'Skaffe seg oversikt over innbyggers tilstand og behov for helsehjelp', 'Gjøre oppslag i tidligere journalopplysninger', 'Innhente innbyggers opplysninger', 'Slå opp i generelle informasjonskilder (grunddata)', and 'Rapportere egen aktivitet'. The next section is 'Fellesfunksjonalitet' (Konvertering, Adressering, Orkestrering) and 'Tekniske samhandlingsformer' (Datadeling for velferdsteknologi, Datadeling for annen informasjon, Dokumentregister, Dokumentlager). Below these are 'Sentrale informasjonslager' (Personlig helsearkiv, Kritisk informasjon, Reseptoversikt, Legemidler i bruk, Andre lagringskomponenter). The bottom section is divided into three boxes: 'Felles grunnmur for digitale tjenester' (Kodeverk og terminologi, Felles grunddata, Felles krav og retningslinjer, Felleskomponenter like HelseID, Innbygger STS, Personvern, Datadeling, Meldingsutvikling, Dokumentdeling, and Felles infrastruktur), 'Nasjonale felleskomponenter' (ID-porten, Altinn, Felles datakatalog, Digital postkasse til innbyggere, and Kontakt- og reservasjonsregisteret), and 'KS-FIKS' (FIKS ID and Svar ut / Svar Inn).
 
@@ -772,7 +772,7 @@ Applikasjonstjenesten **KS-FIKS** er felles kommunal arkitektur som blant annet 
 
 Følgende arkitekturprinsipper ligger til grunn for anskaffelse, etablering, forvaltning, drift, vedlikehold og utvikling av plattform for helhetlig samhandling. Disse bygger videre på Digitaliseringsdirektoratets arkitekturprinsipper for samhandling.
 
-![Icon representing users or people, showing three stylized figures.](673220bbadf74792a6e4782af9d200cb_img.jpg)
+![Icon representing users or people, showing three stylized figures.](images/Sentralt styringsdokument Akson/673220bbadf74792a6e4782af9d200cb_img.jpg)
 
 Icon representing users or people, showing three stylized figures.
 
@@ -780,7 +780,7 @@ Icon representing users or people, showing three stylized figures.
 
 Informasjonstjenestene er definert med utgangspunkt i brukerbehov. Aktuelle brukergrupper må være med i standardisering og tilpasning av tjenestene, både på semantisk og organisatorisk nivå.
 
-![Icon representing a pyramid or hierarchy, showing three levels.](b800561cd10527de6f3f41b23b562990_img.jpg)
+![Icon representing a pyramid or hierarchy, showing three levels.](images/Sentralt styringsdokument Akson/b800561cd10527de6f3f41b23b562990_img.jpg)
 
 Icon representing a pyramid or hierarchy, showing three levels.
 
@@ -788,7 +788,7 @@ Icon representing a pyramid or hierarchy, showing three levels.
 
 Det må lages et rammeverk for hvordan arkitekturvalg gjøres, som også omfatter eksisterende nasjonale e-helseløsninger.
 
-![Icon representing scales of justice, symbolizing rules or regulations.](5a63f30b7969cd8cc545dbfcdcacfc5c_img.jpg)
+![Icon representing scales of justice, symbolizing rules or regulations.](images/Sentralt styringsdokument Akson/5a63f30b7969cd8cc545dbfcdcacfc5c_img.jpg)
 
 Icon representing scales of justice, symbolizing rules or regulations.
 
@@ -798,7 +798,7 @@ Det vil vurderes om det er behov for endringer i lovgivningen for å tilby de pl
 
 Det vil vurderes behov for å innføre pålegg til virksomheter i helse- og omsorgstjenesten til å koble seg til plattform og ta i bruk ny samhandlingsfunksjonalitet innenfor gitte tidsfrister.
 
-![Icon representing data exchange, showing a cloud and a computer monitor with arrows.](b99bfa6a26ede115d00d81059ee4ce6b_img.jpg)
+![Icon representing data exchange, showing a cloud and a computer monitor with arrows.](images/Sentralt styringsdokument Akson/b99bfa6a26ede115d00d81059ee4ce6b_img.jpg)
 
 Icon representing data exchange, showing a cloud and a computer monitor with arrows.
 
@@ -808,7 +808,7 @@ Data som tilbys via informasjonstjenestene skal kunne deles og gjenbrukes for ul
 
 For å understøtte utvikling av tilleggsfunksjonalitet og integrasjon med andre løsninger (innenfor rammen av regler for taushetsplikt) er det nødvendig å tilgjengeliggjøre data fra plattformen gjennom åpne APIer. Grensesnittene beskrives i henhold til Direktoratet for e-helse veileder for åpne API, for å sikre tilstrekkelig åpenhet. Det skal være fokus gjennom etableringen av plattform for helhetlig samhandling på hvilke data og funksjoner som skal tilbys gjennom åpne grensesnitt i den videre prosessen.
 
-![Icon representing solution exchange, showing a cloud and a computer monitor with arrows.](64dd8715ba708fbd49f72819aed326d6_img.jpg)
+![Icon representing solution exchange, showing a cloud and a computer monitor with arrows.](images/Sentralt styringsdokument Akson/64dd8715ba708fbd49f72819aed326d6_img.jpg)
 
 Icon representing solution exchange, showing a cloud and a computer monitor with arrows.
 
@@ -816,7 +816,7 @@ Icon representing solution exchange, showing a cloud and a computer monitor with
 
 Løsningskomponenter og arkitekturbyggeblokker skal kunne deles og gjenbrukes. Dette innebærer at det vurderes ved videreutvikling av de nasjonale e-helseløsningene hvilke løsningskomponenter som skal være en del av plattformen.
 
-![Icon representing digital solutions, showing a database cylinder.](c2c3abb173421fc58a8c014e41562eb3_img.jpg)
+![Icon representing digital solutions, showing a database cylinder.](images/Sentralt styringsdokument Akson/c2c3abb173421fc58a8c014e41562eb3_img.jpg)
 
 Icon representing digital solutions, showing a database cylinder.
 
@@ -824,7 +824,7 @@ Icon representing digital solutions, showing a database cylinder.
 
 Det legges opp til å dele mer informasjon, gå mot mer synkroner tjenester og mer strukturert informasjon, slik at løsningene kan samhandle effektivt.
 
-![Icon representing security, showing a heart inside a lock.](471f9b2068e4a12e087905ae2aa1292a_img.jpg)
+![Icon representing security, showing a heart inside a lock.](images/Sentralt styringsdokument Akson/471f9b2068e4a12e087905ae2aa1292a_img.jpg)
 
 Icon representing security, showing a heart inside a lock.
 
@@ -854,7 +854,7 @@ Det er anbefalt å legge til grunn følgende prinsipper for realisering av digit
 
 Dette kapitlet beskriver konseptets og tiltakets målhierarki, illustrert i Figur 9. Samfunnsmål og effektmål gjelder for konseptet beskrevet i kapittel 1.1.5.1. Delmål og resultatmål gjelder for tiltaket (felles kommunal journalløsning og steg 1).
 
-![Diagram illustrating the hierarchy of goals (Målhierarki) for a project. It shows a pyramid structure with four levels: Samfunnsmål (top), Effektmål, Tiltaket (middle), and Resultatmål (bottom). Each level contains specific goals, and each level is accompanied by a descriptive question and answer.](fc0735d325f0ebd9214171975c68a888_img.jpg)
+![Diagram illustrating the hierarchy of goals (Målhierarki) for a project. It shows a pyramid structure with four levels: Samfunnsmål (top), Effektmål, Tiltaket (middle), and Resultatmål (bottom). Each level contains specific goals, and each level is accompanied by a descriptive question and answer.](images/Sentralt styringsdokument Akson/fc0735d325f0ebd9214171975c68a888_img.jpg)
 
 **Samfunnsmål**
 
@@ -982,7 +982,7 @@ Begrunnelsen for å prioritere tid foran omfang for steg 1 handler om tidskritik
 - Grunndatatjenester og tillitstjenester for å understøtte identitets- og tilgangsstyring i henholdsvis felles journalløsning og nasjonale e-helseløsninger er utviklet innen utgangen av 2024.
 - Nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar er ferdigstilt med muligheter for oppslag gjennom Kjernejournal innen utgangen av 2024.
 
-![A hierarchical diagram showing the goals and structure of the Akson project. It is organized into four levels: Samfunnsmål (top), Effektmål, Delmål, and Resultatmål (bottom). On the left, a vertical arrow points upwards, and on the right, a vertical arrow points downwards, both labeled 'Konseptet'. The 'Tiltak' section at the bottom is associated with a vertical arrow pointing downwards. The diagram details the project's objectives, including improved health and care through technology, and the specific programs 'Akson journal' and 'Akson samhandling' with their respective budgets and features.](339be989b91d5b1e73e5ecdc8401ca75_img.jpg)
+![A hierarchical diagram showing the goals and structure of the Akson project. It is organized into four levels: Samfunnsmål (top), Effektmål, Delmål, and Resultatmål (bottom). On the left, a vertical arrow points upwards, and on the right, a vertical arrow points downwards, both labeled 'Konseptet'. The 'Tiltak' section at the bottom is associated with a vertical arrow pointing downwards. The diagram details the project's objectives, including improved health and care through technology, and the specific programs 'Akson journal' and 'Akson samhandling' with their respective budgets and features.](images/Sentralt styringsdokument Akson/339be989b91d5b1e73e5ecdc8401ca75_img.jpg)
 
 **Akson ønsker å bidra til**
 
@@ -1295,7 +1295,7 @@ Ved oppstart av felles kommunal journalløsning og steg 1 vil det være flere pr
 
 Figur 11 viser veikartet for et relevant utvalg av nasjonal e-helseportefølge på et overordnet nivå.
 
-![Figur 11: Veikart for nasjonal e-helseportefølje. A timeline from 2020 to 2030 showing the development of various digital health services. Key phases include mobilization, establishment, and implementation. Services shown include Akson's journal solutions, national health services like SFM, PLL, and Kjernejournal, and regional/local projects.](734487b0336ba703328f4484af34e77d_img.jpg)
+![Figur 11: Veikart for nasjonal e-helseportefølje. A timeline from 2020 to 2030 showing the development of various digital health services. Key phases include mobilization, establishment, and implementation. Services shown include Akson's journal solutions, national health services like SFM, PLL, and Kjernejournal, and regional/local projects.](images/Sentralt styringsdokument Akson/734487b0336ba703328f4484af34e77d_img.jpg)
 
 **Figur 11 Veikart for nasjonal e-helseportefølje**
 
@@ -1324,7 +1324,7 @@ Figuren viser konseptet Akson lagt ut i tid. De fremtidige stegene i utviklingsr
 
 Figur 12 gir en nærmere beskrivelse av forventet fremdrift og forutsetninger i utvalget av øvrig e-helseportefølje.
 
-![Figur 12: Nærmere beskrivelse av forventet fremdrift og forutsetninger i utvalget av øvrig e-helseportefølje. A detailed timeline from 2020 to 2025 for various digital health services, including Akson's journal solutions, helsenorge.no, Kjernejournal, SFM, and PLL. It includes milestones for implementation and assumptions for integration and funding.](8dc6b1642256d8e8b326aa11d2ecc9b5_img.jpg)
+![Figur 12: Nærmere beskrivelse av forventet fremdrift og forutsetninger i utvalget av øvrig e-helseportefølje. A detailed timeline from 2020 to 2025 for various digital health services, including Akson's journal solutions, helsenorge.no, Kjernejournal, SFM, and PLL. It includes milestones for implementation and assumptions for integration and funding.](images/Sentralt styringsdokument Akson/8dc6b1642256d8e8b326aa11d2ecc9b5_img.jpg)
 
 **Figur 12 Nærmere beskrivelse av forventet fremdrift og forutsetninger i utvalget av øvrig e-helseportefølje**
 
@@ -1547,7 +1547,7 @@ Kompleksiteten i tiltaket og behovet for fokus på endringsledelse og gevinstrea
 
 Gjennomføring av felles kommunal journalløsning er omfattet av mange forhold som bidrar til usikkerhet. Disse forholdene beskrives nedenfor, og prosjektstrategien beskriver hvordan felles kommunal journalløsning skal gjennomføres for å håndtere og redusere usikkerheten.
 
-![Icon representing security and sensitivity, showing a heart inside a padlock.](d234e81f459ce27e15f406fe36e7421d_img.jpg)
+![Icon representing security and sensitivity, showing a heart inside a padlock.](images/Sentralt styringsdokument Akson/d234e81f459ce27e15f406fe36e7421d_img.jpg)
 
 Icon representing security and sensitivity, showing a heart inside a padlock.
 
@@ -1557,7 +1557,7 @@ Det er krav om at felles kommunal journalløsning skal sikre at innbyggeres pers
 
 I kapittel 2.2 beskrives strategien for å håndtere sikkerhet i løsningen.
 
-![Icon representing health and safety, showing a medical cross on a screen.](bbb32d9fa28b019f23c2b706424ed78e_img.jpg)
+![Icon representing health and safety, showing a medical cross on a screen.](images/Sentralt styringsdokument Akson/bbb32d9fa28b019f23c2b706424ed78e_img.jpg)
 
 Icon representing health and safety, showing a medical cross on a screen.
 
@@ -1567,7 +1567,7 @@ Det er krav om at løsningen skal gi personell i kommunale helse- og omsorgstjen
 
 Hovedtiltak for å adressere denne usikkerheten er å etablere en arkitektur som er basert på en plattformtilnærming, der åpenhet og endringsevne står sentralt. Arkitekturen og arkitekturprinsippene (løsningsstrategien) står nærmere beskrevet i kapittel 2.4.3.4
 
-![Icon representing flexibility and adaptation, showing two interlocking gears.](55bf86bbde5ab864d57e5c64b3836926_img.jpg)
+![Icon representing flexibility and adaptation, showing two interlocking gears.](images/Sentralt styringsdokument Akson/55bf86bbde5ab864d57e5c64b3836926_img.jpg)
 
 Icon representing flexibility and adaptation, showing two interlocking gears.
 
@@ -1577,7 +1577,7 @@ Det er krav om at løsningen skal legge til rette for innovasjon og tjenesteutvi
 
 Hovedtiltak for å adressere denne usikkerheten er å etablere en arkitektur som er basert på en plattformtilnærming, der åpenhet og endringsevne står sentralt. Arkitekturen og arkitekturprinsippene (løsningsstrategien) står nærmere beskrevet i kapittel 2.4.3.4.
 
-![Icon representing procurement and suppliers, showing two hands shaking.](3b2a6be75356b8afabc10278dbabb301_img.jpg)
+![Icon representing procurement and suppliers, showing two hands shaking.](images/Sentralt styringsdokument Akson/3b2a6be75356b8afabc10278dbabb301_img.jpg)
 
 Icon representing procurement and suppliers, showing two hands shaking.
 
@@ -1589,7 +1589,7 @@ Beskrivelsen av funksjonelt løsningsomfang beskriver det som helsepersonell i d
 
 Denne usikkerheten adresseres både gjennom arkitekturprinsippene, som er beskrevet i kapittel 2.4.3.4, og gjennom den anbefalte kontraktstrategien beskrevet i kapittel 2.6.
 
-![Icon representing security and risk management, showing three interlocking circles.](38e2f36189a1eef7ecbdd4c44bdeea2e_img.jpg)
+![Icon representing security and risk management, showing three interlocking circles.](images/Sentralt styringsdokument Akson/38e2f36189a1eef7ecbdd4c44bdeea2e_img.jpg)
 
 Icon representing security and risk management, showing three interlocking circles.
 
@@ -1603,7 +1603,7 @@ Hovedtiltaket er å redusere antallet leverandører det inngås kontrakt med. De
 
 Usikkerheten adresseres gjennom kontraktstrategien, beskrevet i kapittel 2.6.
 
-![Icon representing health and safety, showing a heart with a pulse line.](eab6583038859f2515b19552ce6d9d84_img.jpg)
+![Icon representing health and safety, showing a heart with a pulse line.](images/Sentralt styringsdokument Akson/eab6583038859f2515b19552ce6d9d84_img.jpg)
 
 Icon representing health and safety, showing a heart with a pulse line.
 
@@ -1613,7 +1613,7 @@ Det er en føring at det er virksomhetene som har ansvar for realisering av gevi
 
 Gjennomføringsstrategien i kapittel 2.2. beskriver hvordan fokus på gevinster og nyttestyring må være en sentral del av gjennomføringen og innføringsarbeidet. Kapittel 2.3 beskriver sentrale prinsipper for arbeidet med endring og gevinstrealisering i programmet. Beskrivelsen av organisering og ansvarsdeling i kapittel 2.11 viser hvilket ansvar Programmet Akson journal har for å understøtte og tilrettelegge for gevinstrealisering, hvilket ansvar virksomhetene selv har, og hvordan kommunene skal involveres og gis innflytelse for å sikre at de lykkes med overgangen til felles kommunal journalløsning og realisering av gevinster.
 
-![Icon representing conflict and resolution, showing a cross with an arrow pointing right.](4afb75e09978531297632665edd9544f_img.jpg)
+![Icon representing conflict and resolution, showing a cross with an arrow pointing right.](images/Sentralt styringsdokument Akson/4afb75e09978531297632665edd9544f_img.jpg)
 
 Icon representing conflict and resolution, showing a cross with an arrow pointing right.
 
@@ -1623,7 +1623,7 @@ Felles kommunal journalløsning er et tiltak med mange interessenter og berørte
 
 Kapittel 2.10 beskriver hvordan programmet skal jobbe for å håndtere og minimere usikkerheten rundt mulige interessemotsetninger. I tillegg beskriver kapittel 2.11 hvordan programmet skal styres og hvordan ulike interessenter skal involveres og representeres i styringen. Kapittel 2.8 beskriver hvordan innbyggerperspektivet skal ivaretas og kapittel 2.9 beskriver beslutningsstrukturen der ulike helsefaglige problemstillinger vurderes og besluttes.
 
-![Icon representing a puzzle piece, symbolizing a component or phase of a project.](e559cb8d15d95b7f4c5761d295051cc0_img.jpg)
+![Icon representing a puzzle piece, symbolizing a component or phase of a project.](images/Sentralt styringsdokument Akson/e559cb8d15d95b7f4c5761d295051cc0_img.jpg)
 
 Icon representing a puzzle piece, symbolizing a component or phase of a project.
 
@@ -1635,7 +1635,7 @@ Usikkerhet knyttet til deltagelse i innledende faser gir usikkerhet rundt finans
 
 Finansieringsmodell for felles kommunal journalløsning beskrives i kapittel 3.4.3. En del spørsmål knyttet til finansieringsmodell og fordeling av kostnader mellom kommuner som går i front og kommuner som forplikter seg til å ta i bruk løsningen på et senere tidspunkt, må avklares som del av detaljene rundt selskapsetableringen av "Akson journal AS". Gjennomføringsstrategien i kapittel 2.2 peker på kontroll- og stoppunkter som mekanisme for å sikre at tiltaket ikke går videre uten tilstrekkelig forpliktelse for deltagelse og finansiering. Organisering og ansvar i kapittel 2.11 peker på hvordan kommuner som går i front og går inn på eiersiden i "Akson journal AS" sikres innflytelse samtidig som det også legges til rette for involvering av kommuner som tar i bruk journalløsningen på et senere tidspunkt eller som ikke har forpliktet seg.
 
-![Icon representing a puzzle piece, symbolizing a component or phase of a project.](714e9fd4751252fd2a667bd05a96ba5c_img.jpg)
+![Icon representing a puzzle piece, symbolizing a component or phase of a project.](images/Sentralt styringsdokument Akson/714e9fd4751252fd2a667bd05a96ba5c_img.jpg)
 
 Icon representing a puzzle piece, symbolizing a component or phase of a project.
 
@@ -1647,7 +1647,7 @@ Den viktigste driveren til usikkerhet knyttet til nytte og gevinster er relatert
 
 ---
 
-![Icon showing a group of people, including a person in a wheelchair, representing community or social services.](26e59f6e6ab842a448d8270473d5c8a8_img.jpg)
+![Icon showing a group of people, including a person in a wheelchair, representing community or social services.](images/Sentralt styringsdokument Akson/26e59f6e6ab842a448d8270473d5c8a8_img.jpg)
 
 Icon showing a group of people, including a person in a wheelchair, representing community or social services.
 
@@ -1657,7 +1657,7 @@ Det er krav om at løsningen skal gi innbyggere mulighet til å være aktiv i pr
 
 Strategi for innbygger i kapittel 2.8 beskriver hvordan programmet skal jobbe med involvering av innbyggere for å ivareta innbyggerperspektivet i løsningen.
 
-![Icon showing a stethoscope, representing health professional services.](e5c058c87fd296be8e9b84a1ea6e463f_img.jpg)
+![Icon showing a stethoscope, representing health professional services.](images/Sentralt styringsdokument Akson/e5c058c87fd296be8e9b84a1ea6e463f_img.jpg)
 
 Icon showing a stethoscope, representing health professional services.
 
@@ -1667,7 +1667,7 @@ For å realisere målene med felles kommunal journalløsning må helsepersonell 
 
 Å komme til enighet om standardisering vil på flere områder kunne bli krevende, og representerer en usikkerhet. Strategi for helsefaglige beslutninger i kapittel 2.9 beskriver hvordan programmet skal jobbe med dette. Organisering og ansvarsdeling i kapittel 2.11 viser hvordan helsepersonell skal være involvert i sentrale roller i både prosjektene og programorganisasjonen.
 
-![Icon showing a network of nodes, representing interconnected systems or programs.](ca6278f97fabceafa65a476a2c9bf9c7_img.jpg)
+![Icon showing a network of nodes, representing interconnected systems or programs.](images/Sentralt styringsdokument Akson/ca6278f97fabceafa65a476a2c9bf9c7_img.jpg)
 
 Icon showing a network of nodes, representing interconnected systems or programs.
 
@@ -1697,7 +1697,7 @@ Det er viktig at programmet evner å tilpasse planer til endrede forutsetninger 
 
 I tillegg til stoppunktene legges det inn kontrollpunkter i forbindelse med kritiske delleveranser. Omfang, hyppighet og innholdet i kontrollpunktene vil detaljeres ved oppstart av de respektive underfasene.
 
-![Figur 13 Fasene i Programmet Akson journal med stopp- og kontrollpunkter. A timeline diagram showing the phases of the Akson journal program from 2021 to 2030. The timeline is divided into two main periods: 'Planlegge endring og gevinstrealisering' (2021-2025) and 'Gjennomføre endring og realisere gevinster' (2025-2030). Phase 1 (Mobilisering og anskaffelse) spans 2021-2022, with sub-phases 1a (Mobilisere og forberede anskaffelse) and 1b (Leverandørdialog). Phase 2 (Etablering, tilpasning og utvikling) spans 2022-2025, with sub-phases 2a (Utvikling og sentral etablering og tilpasning) and 2b (Innføringsprosjekt 1, Forberedelser, Implementering). Phase 3 (Innføring) spans 2025-2026. Phase 4 (Forvaltning, drift, vedlikehold og utvikling) spans 2026-2030. Key milestones are marked with red diamonds: Stopp-punkt 1 (2021), Stopp-punkt 2 (2022), Stopp-punkt 3 (2023), Kontrollpunkt (2024), Stopp-punkt 4 (2025), and Kontrollpunkt før implementering (2026).](2cc973099f02f2cc67558feea3b18cde_img.jpg)
+![Figur 13 Fasene i Programmet Akson journal med stopp- og kontrollpunkter. A timeline diagram showing the phases of the Akson journal program from 2021 to 2030. The timeline is divided into two main periods: 'Planlegge endring og gevinstrealisering' (2021-2025) and 'Gjennomføre endring og realisere gevinster' (2025-2030). Phase 1 (Mobilisering og anskaffelse) spans 2021-2022, with sub-phases 1a (Mobilisere og forberede anskaffelse) and 1b (Leverandørdialog). Phase 2 (Etablering, tilpasning og utvikling) spans 2022-2025, with sub-phases 2a (Utvikling og sentral etablering og tilpasning) and 2b (Innføringsprosjekt 1, Forberedelser, Implementering). Phase 3 (Innføring) spans 2025-2026. Phase 4 (Forvaltning, drift, vedlikehold og utvikling) spans 2026-2030. Key milestones are marked with red diamonds: Stopp-punkt 1 (2021), Stopp-punkt 2 (2022), Stopp-punkt 3 (2023), Kontrollpunkt (2024), Stopp-punkt 4 (2025), and Kontrollpunkt før implementering (2026).](images/Sentralt styringsdokument Akson/2cc973099f02f2cc67558feea3b18cde_img.jpg)
 
 Figur 13 Fasene i Programmet Akson journal med stopp- og kontrollpunkter. A timeline diagram showing the phases of the Akson journal program from 2021 to 2030. The timeline is divided into two main periods: 'Planlegge endring og gevinstrealisering' (2021-2025) and 'Gjennomføre endring og realisere gevinster' (2025-2030). Phase 1 (Mobilisering og anskaffelse) spans 2021-2022, with sub-phases 1a (Mobilisere og forberede anskaffelse) and 1b (Leverandørdialog). Phase 2 (Etablering, tilpasning og utvikling) spans 2022-2025, with sub-phases 2a (Utvikling og sentral etablering og tilpasning) and 2b (Innføringsprosjekt 1, Forberedelser, Implementering). Phase 3 (Innføring) spans 2025-2026. Phase 4 (Forvaltning, drift, vedlikehold og utvikling) spans 2026-2030. Key milestones are marked with red diamonds: Stopp-punkt 1 (2021), Stopp-punkt 2 (2022), Stopp-punkt 3 (2023), Kontrollpunkt (2024), Stopp-punkt 4 (2025), and Kontrollpunkt før implementering (2026).
 
@@ -1833,7 +1833,7 @@ Det er frivillig for kommuner og selvstendig næringsdrivende å ta i bruk felle
 
 Tidspunktet for de nødvendige beslutningene fra kommuner og selvstendig næringsdrivende er illustrert i Figur 14.
 
-![Figure 14: Decision points for municipalities. A timeline from 2021 to 2030 showing phases of implementation and key milestones.](0f6e3cdce0f01d6ccceabcced508bb5b_img.jpg)
+![Figure 14: Decision points for municipalities. A timeline from 2021 to 2030 showing phases of implementation and key milestones.](images/Sentralt styringsdokument Akson/0f6e3cdce0f01d6ccceabcced508bb5b_img.jpg)
 
 The diagram illustrates a project timeline from 2021 to 2030, divided into four main phases:
 
@@ -1966,7 +1966,7 @@ I dette kapittelet oppsummeres vurderinger fra den overordnede risiko- og sårba
 
 Risiko- og sårbarhetsanalysen fra konseptvalgutredningen har blitt revurdert og oppdatert med fokus på det valgte konseptet og de løsningene som ligger i konseptet. ROS-analysen legger grunnlag for videre risikovurderinger og sikkerhetsarbeid i Programmet Akson journal. Figur 15 plasserer de identifiserte uønskede hendelsene i en risikomatrise, kategorisert etter hendelsestypene konfidensialitet, integritet og tilgjengelighet.
 
-![Figur 15 Risikobilde for felles kommunal journalløsning. A risk matrix showing identified undesirable events categorized by probability and consequence, with color-coded icons for confidentiality, integrity, and availability.](b7f1e1aad74d2a9938884ae6cfc30171_img.jpg)
+![Figur 15 Risikobilde for felles kommunal journalløsning. A risk matrix showing identified undesirable events categorized by probability and consequence, with color-coded icons for confidentiality, integrity, and availability.](images/Sentralt styringsdokument Akson/b7f1e1aad74d2a9938884ae6cfc30171_img.jpg)
 
 | Sannsynlighet | 4 Svært høy |       |           |       |             |     |     |     |     |     |     |
 |---------------|-------------|-------|-----------|-------|-------------|-----|-----|-----|-----|-----|-----|
@@ -2056,7 +2056,7 @@ De overordnede prinsippene for sikkerhet (se vedlegg L Sikkerhetsarkitektur) gir
 
 Sikkerhetsprinsippene er et uttrykk for dimensjonering av sikkerhet og beredskap i tråd med kritikalitetsvurderingene og påfølgende risikovurdering og personvernkonsekvensvurdering. Prinsippene vil være førende for sikkerhetsstyring, operativ sikkerhet og sikkerhetsarkitektur.
 
-![Icon representing a gear or settings, used in a callout box.](bafee83a7eadee0dab23f856ae7228c1_img.jpg)
+![Icon representing a gear or settings, used in a callout box.](images/Sentralt styringsdokument Akson/bafee83a7eadee0dab23f856ae7228c1_img.jpg)
 
 Icon representing a gear or settings, used in a callout box.
 
@@ -2066,7 +2066,7 @@ I sin bok «Managing the expected» definerte Karl E. Weick og Kathleen M. Sutcl
 
 kunne oppnå "feilfri drift" i helsesektoren behøves det gode beslutninger på komplekse problemstillinger som fører til høy kvalitet og pålitelighet på helsetjenester til befolkningen. Dette fordrer at helsepersonell som bruker felles kommunal journalløsning får tilstrekkelig opplæring i hvordan man raskt og enkelt skal løse hendelser som kan true informasjonssikkerheten til innbyggernes helseopplysninger. Det legges opp til at man skal lære av tidligere feil, forventer at virksomhetene har et beredskapsperspektiv der de forbereder seg på det verste, eksempelvis bortfall av felles kommunal journal i lengre tid, og at man ruster seg for å håndtere dette på alle nivåer i virksomheten.
 
-![Icon representing 'zero-trust' security, showing a heart shape inside a circle with a padlock.](aeafb7fee8a863fa53be9d470a3f4051_img.jpg)
+![Icon representing 'zero-trust' security, showing a heart shape inside a circle with a padlock.](images/Sentralt styringsdokument Akson/aeafb7fee8a863fa53be9d470a3f4051_img.jpg)
 
 Icon representing 'zero-trust' security, showing a heart shape inside a circle with a padlock.
 
@@ -2076,7 +2076,7 @@ Felles kommunal journal vil inngå i et økosystem av journalløsninger, andre f
 
 «Zero Trust» er et rammeverk for informasjonssikkerhet som først ble lansert av John Kindervag i 2010 (Forrester). I henhold til dette rammeverket må man ta utgangspunkt i at en virksomhet ikke kan opprette sikre soner, men heller må etablere sikkerhetskontroller der man ikke stoler på noen brukere, terminaler eller applikasjoner når man skal gi tilgang til informasjon.
 
-![Icon representing patient and user focus, showing three stylized figures.](15850698f2103fb2390a539a6ccd86ea_img.jpg)
+![Icon representing patient and user focus, showing three stylized figures.](images/Sentralt styringsdokument Akson/15850698f2103fb2390a539a6ccd86ea_img.jpg)
 
 Icon representing patient and user focus, showing three stylized figures.
 
@@ -2090,7 +2090,7 @@ Aktive pasienter som utøver sine rettigheter og har god informasjon om felles j
 
 som kan gi muligheter som går utover det som er beskrevet som et minimumskrav, så fremt dette er i tråd med pasientsikkerhet og kvalitet i ytelse av helsehjelpen.
 
-![Icon showing two people in medical uniforms, representing healthcare personnel.](b33759a36fd647e71f29f152739006d4_img.jpg)
+![Icon showing two people in medical uniforms, representing healthcare personnel.](images/Sentralt styringsdokument Akson/b33759a36fd647e71f29f152739006d4_img.jpg)
 
 Icon showing two people in medical uniforms, representing healthcare personnel.
 
@@ -2098,7 +2098,7 @@ Icon showing two people in medical uniforms, representing healthcare personnel.
 
 Felles kommunal journalløsning må både ha høy grad av sikkerhet, for å ivareta helseopplysningenes konfidensialitet, samtidig som funksjonalitet må være intuitiv nok til å unngå at helsepersonells opplevelse av tilgjengelighet forringes. Felles kommunal journal vil brukes av mange kommuner og virksomheter som i dag har egne prosesser og verktøy for å tildele brukere unike identiteter med forskjellige tilgangsrettigheter. For å ivareta den økte kompleksiteten i antall brukere med behov for ulike tilgangsrettigheter vil det være nødvendig å fokusere på en sterk identitets- og tilgangsstyring. Dette betyr å investere i ledende identitetsstyringsteknologi, stille krav til at journalløsningen har innebygd personvern og tilgangsstyring som begrenser tilganger innenfor definisjon av «tjenstlig behov», samt at man etablerer prosesser for å tilbaketrekke rettigheter fortløpende.
 
-![Icon showing three buildings, representing municipalities and organizations.](8c35706a827da3f8b8cbe8c62597bf22_img.jpg)
+![Icon showing three buildings, representing municipalities and organizations.](images/Sentralt styringsdokument Akson/8c35706a827da3f8b8cbe8c62597bf22_img.jpg)
 
 Icon showing three buildings, representing municipalities and organizations.
 
@@ -2108,7 +2108,7 @@ Kommunene og virksomhetene som skal bruke felles kommunal journal vil være av u
 
 Det styringssystemet for informasjonssikkerhet og personvern som etableres må i størst mulig grad understøtte virksomheter av ulik størrelse og modenhet.
 
-![Icon showing a person at a computer with code symbols, representing software development and security.](281d0f0cac01dbb86c38df46a1230a93_img.jpg)
+![Icon showing a person at a computer with code symbols, representing software development and security.](images/Sentralt styringsdokument Akson/281d0f0cac01dbb86c38df46a1230a93_img.jpg)
 
 Icon showing a person at a computer with code symbols, representing software development and security.
 
@@ -2120,7 +2120,7 @@ Felles kommunal journalløsning vil ha en lang levetid, der helse- og omsorgstje
 
 "Akson journal AS" må etablere en programutviklingsprosess der sikkerhet er innebygd. Det finnes ulike rammeverk for sikker utviklingssyklus, for eksempel Datatilsynets veileder for programutvikling og OWASP. Hvilket rammeverk som velges vil være avhengig av hvilke leverandør(er) av felles kommunal journalløsning som velges.
 
-![Icon representing a server or database, symbolizing IT infrastructure and security.](8df4b47ea3ab99d6b9dfb79edad57eb1_img.jpg)
+![Icon representing a server or database, symbolizing IT infrastructure and security.](images/Sentralt styringsdokument Akson/8df4b47ea3ab99d6b9dfb79edad57eb1_img.jpg)
 
 Icon representing a server or database, symbolizing IT infrastructure and security.
 
@@ -2146,7 +2146,7 @@ Det foreslås å etablere et styringsråd for informasjonssikkerhet og personver
 
 Figur 16 beskriver en overordnet plan for de ulike sikkerhetsaktivitetene for kommende faser.
 
-![Figure 16: Overordnet plan for de ulike sikkerhetsaktivitetene for kommende faser. The diagram shows a timeline from 2021 to 2030 with four phases: Fase 1 (Mobilisering og anskaffelse), Fase 2 (Etablering, tilpasning og utvikling), Fase 3 (Innføring), and Fase 4 (Forvaltning, drift, vedlikehold og utvikling). It details activities for 'Felles kommunal journalløsning' including role clarification, risk assessments, DPIA, and documentation.](e9f6a9e6beb9ae97b392bf38b93ad748_img.jpg)
+![Figure 16: Overordnet plan for de ulike sikkerhetsaktivitetene for kommende faser. The diagram shows a timeline from 2021 to 2030 with four phases: Fase 1 (Mobilisering og anskaffelse), Fase 2 (Etablering, tilpasning og utvikling), Fase 3 (Innføring), and Fase 4 (Forvaltning, drift, vedlikehold og utvikling). It details activities for 'Felles kommunal journalløsning' including role clarification, risk assessments, DPIA, and documentation.](images/Sentralt styringsdokument Akson/e9f6a9e6beb9ae97b392bf38b93ad748_img.jpg)
 
 |                                | 2021                                       | 2022 | 2023                                               | 2024 | 2025 | 2026                                                        | 2027 | 2028 | 2029 | 2030 |
 |--------------------------------|--------------------------------------------|------|----------------------------------------------------|------|------|-------------------------------------------------------------|------|------|------|------|
@@ -2206,7 +2206,7 @@ Hovedtiltaket for å adressere denne usikkerheten er å etablere en arkitektur s
 
 Figur 17 beskriver et logisk mål bilde for realisering av felles kommunal journalløsning.
 
-![Diagram showing the logical target image for the implementation of a common municipal journal solution. It illustrates the flow from 'Kommunal helse- og omsorgstjeneste' through 'Journal i kommunal helse- og omsorgstjeneste' to 'Felles kommunal journalløsning', including external and internal components.](d510bddda14c44163bbeee33b491a105_img.jpg)
+![Diagram showing the logical target image for the implementation of a common municipal journal solution. It illustrates the flow from 'Kommunal helse- og omsorgstjeneste' through 'Journal i kommunal helse- og omsorgstjeneste' to 'Felles kommunal journalløsning', including external and internal components.](images/Sentralt styringsdokument Akson/d510bddda14c44163bbeee33b491a105_img.jpg)
 
 The diagram illustrates the logical target image for the implementation of a common municipal journal solution. It is structured as follows:
 
@@ -2258,7 +2258,7 @@ Plattformens åpenhet diskuteres i tre dimensjoner. (1) Hvilken styringsmodell s
 
 Digitaliseringsdirektoratets arkitekturprinsipper er lagt til grunn for å beskrive følgende arkitekturprinsipper for anskaffelse, etablering, forvaltning, drift, vedlikehold og utvikling av felles kommunal journalløsning som en plattform.
 
-![Icon representing a core principle: a stylized atom symbol inside a circle.](618566097ac9154c24885369668bf34e_img.jpg)
+![Icon representing a core principle: a stylized atom symbol inside a circle.](images/Sentralt styringsdokument Akson/618566097ac9154c24885369668bf34e_img.jpg)
 
 Icon representing a core principle: a stylized atom symbol inside a circle.
 
@@ -2268,7 +2268,7 @@ Felles kommunal journalløsning skal fra dag én inneholde funksjonalitet i kjer
 
 Felles kommunal journalløsning skal i sin kjerne inneholde et datalager som understøtter informasjonsbehovet for kommunal helse- og omsorgstjeneste. Innbyggerens helseopplysninger, informasjon om virksomheten, ressurser og helsepersonell som er nødvendig for å yte helse- og omsorgshjelp, forvaltes helhetlig i kjernen. Informasjon fra grunndataløsningene i helse- og omsorgstjenesten gjenbrukes i felles journalløsning der det er nødvendig.
 
-![Icon representing a core principle: three stylized people figures inside a circle.](e981052f2b5a93572f95eb46571df62f_img.jpg)
+![Icon representing a core principle: three stylized people figures inside a circle.](images/Sentralt styringsdokument Akson/e981052f2b5a93572f95eb46571df62f_img.jpg)
 
 Icon representing a core principle: three stylized people figures inside a circle.
 
@@ -2284,7 +2284,7 @@ Hovedstrategien er å videreføre dagens strategi med Helsenorge.no som innbygge
 
 Det forventes at felles kommunal journalløsning som en del av kjernen tilgjengeliggjør data fra kjerneløsningen gjennom APIer, for å understøtte utvikling av tilleggsfunksjonalitet og integrasjon med andre løsninger (innenfor rammen av regler for taushetsplikt), herunder med helsenorge.no og kommunenes egne innbyggerportaler.
 
-![Icon representing security and privacy, showing a heart inside a padlock.](70628cbe0bbe6a056a712cc8c55ce34e_img.jpg)
+![Icon representing security and privacy, showing a heart inside a padlock.](images/Sentralt styringsdokument Akson/70628cbe0bbe6a056a712cc8c55ce34e_img.jpg)
 
 Icon representing security and privacy, showing a heart inside a padlock.
 
@@ -2292,7 +2292,7 @@ Icon representing security and privacy, showing a heart inside a padlock.
 
 Felles kommunal journalløsning skal fra dag en inneholde funksjonalitet for ivareta identitets- og tilgangsstyring som understøtter sikkerhetsprinsippene. Vedlegg G Løsningsomfang og -arkitektur oppsummerer hvordan identitets- og tilgangsstyring anbefales løst.
 
-![Icon representing flexibility and adaptability, showing puzzle pieces fitting together.](b4be6b3b531eb35946c497a6ddcd4880_img.jpg)
+![Icon representing flexibility and adaptability, showing puzzle pieces fitting together.](images/Sentralt styringsdokument Akson/b4be6b3b531eb35946c497a6ddcd4880_img.jpg)
 
 Icon representing flexibility and adaptability, showing puzzle pieces fitting together.
 
@@ -2304,7 +2304,7 @@ Gitt kjernefunksjonalitet som dekker helsepersonells funksjonelle behov, må det
 
 Hvorvidt kommunene velger å ta i bruk denne fleksibiliteten er et større spørsmål enn om løsningen har denne evnen. Utnyttelse av fleksibiliteten vil kunne påvirke innføringstiden, løsningsens kompleksitet og i den ytterste konsekvens kostnadene for programmet.
 
-![Icon representing flexibility and adaptability, showing three stylized human figures.](1408d9b0e0d57c651b8908dd122aed00_img.jpg)
+![Icon representing flexibility and adaptability, showing three stylized human figures.](images/Sentralt styringsdokument Akson/1408d9b0e0d57c651b8908dd122aed00_img.jpg)
 
 Icon representing flexibility and adaptability, showing three stylized human figures.
 
@@ -2312,7 +2312,7 @@ Icon representing flexibility and adaptability, showing three stylized human fig
 
 Mye av den tilgjengelige sluttbrukerfunksjonaliteten i felles journalløsning vil være relevant på tvers av helsepersonell i de ulike tjenestene. Hvilken funksjonalitet som er mest brukt og hvilke prosesser som følges, vil imidlertid variere. For å kunne realisere nytte av felles kommunal journalløsning må usikkerheten knyttet til å dekke det funksjonelle behovet for alle helsepersonellgrupper og tjenester som omfattes av tiltaket gjennom en felles journalløsning håndteres ved at løsningen har mulighet og verktøy for å kunne tilpasse arbeidsflaten. Dette håndteres initielt ved at programmet håndterer konfigurering, men optimalt må det være mulig for hvert helsepersonell å gjøre egne tilpasninger.
 
-![Icon representing data storage or database.](e31ef79318666dd5f4f0da841835c954_img.jpg)
+![Icon representing data storage or database.](images/Sentralt styringsdokument Akson/e31ef79318666dd5f4f0da841835c954_img.jpg)
 
 Icon representing data storage or database.
 
@@ -2322,7 +2322,7 @@ Informasjonsblokkering representerer en stor utfordring for utviklingen av helse
 
 For å motvirke informasjonsblokkering er det nødvendig å utfordre leverandørmarkedet på at det etableres et tydeligere skille mellom data og applikasjoner/funksjonalitet. "Akson journal AS" må forvalte dataene og styrer bruken av disse, dvs. bestemme reglene for å gi tilgang til, lese og oppdatere dataene. Dette omfatter å sikre at dataene enkelt kan hentes ut av løsningen, for eksempel for å sikre tilgjengeliggjøring av data til forskning, styring og helseovervåkning og ved fremtidig behov for overgang til en annen journalløsning.
 
-![Icon representing data flow or integration.](342f544d0c4400d536041d2654b53fe0_img.jpg)
+![Icon representing data flow or integration.](images/Sentralt styringsdokument Akson/342f544d0c4400d536041d2654b53fe0_img.jpg)
 
 Icon representing data flow or integration.
 
@@ -2330,7 +2330,7 @@ Icon representing data flow or integration.
 
 For å understøtte utvikling av tilleggsfunksjonalitet og integrasjon med andre løsninger (innenfor rammen av regler for taushetsplikt), herunder med administrative systemer i kommunene, er det nødvendig å tilgjengeliggjøre data fra kjerneløsningen gjennom åpne APIer. Grensesnittene beskrives i henhold til Direktoratet for e-helses veileder for åpne API, for å sikre tilstrekkelig åpenhet. Det skal være fokus gjennom anskaffelse og etableringen av felles kommunal journalløsning på hvilke data og funksjoner i kjernen som skal tilbys gjennom åpne grensesnitt i den videre prosessen.
 
-![Icon representing third-party integration or delivery.](6681e49c1b36ca2bb390b1c5a62c1bba_img.jpg)
+![Icon representing third-party integration or delivery.](images/Sentralt styringsdokument Akson/6681e49c1b36ca2bb390b1c5a62c1bba_img.jpg)
 
 Icon representing third-party integration or delivery.
 
@@ -2352,7 +2352,7 @@ For å tilrettelegge for konkurranse og for stegvis gjennomføring av tiltaket, 
 
 Figur 18 angir overordnet de anskaffelsesområder som inngår i kontraktstrategien for felles kommunal journalløsning.
 
-![Diagram showing the scope of procurement for the joint municipal journal solution, divided into two main categories: 'Anskaffelsesområder vurdert i alternative anskaffelsestrategier' and 'Anskaffelsesområder med separate anskaffelser i alle strategialternativene'.](dcf83796ccf494110638fbd4677b931d_img.jpg)
+![Diagram showing the scope of procurement for the joint municipal journal solution, divided into two main categories: 'Anskaffelsesområder vurdert i alternative anskaffelsestrategier' and 'Anskaffelsesområder med separate anskaffelser i alle strategialternativene'.](images/Sentralt styringsdokument Akson/dcf83796ccf494110638fbd4677b931d_img.jpg)
 
 The diagram illustrates the scope of procurement for the joint municipal journal solution, organized into two main sections:
 
@@ -2412,7 +2412,7 @@ Dette omfatter oppgaver og prosesser knyttet til å etablere og drifte datasentr
 
 I programmet, og senere i drift- og forvaltningsfasen, er det en rekke prosesser som må etableres for at «Akson journal AS» skal ha evnen til å håndtere kunderollen og ansvaret for helheten i tiltaket. Figur 19 beskriver de prosessene som må etableres i «Akson journal AS».
 
-![Diagram showing processes for handling implementation in Akson journal AS, categorized into four groups: Leadership and Administration, Clinical and Technical Development and Harmonization, Application Management, and User Support / Help Desk.](3750b0149a6380885998ab3ca6a8787c_img.jpg)
+![Diagram showing processes for handling implementation in Akson journal AS, categorized into four groups: Leadership and Administration, Clinical and Technical Development and Harmonization, Application Management, and User Support / Help Desk.](images/Sentralt styringsdokument Akson/3750b0149a6380885998ab3ca6a8787c_img.jpg)
 
 The diagram, titled 'Prosesser for å håndtere gjennomføringen', is organized into four horizontal sections, each with a header and containing several process boxes:
 
@@ -2551,7 +2551,7 @@ De tre strategialternativene for felles kommunal journalløsning (inkludert iden
 
 #### A. En anskaffelse for hele omfanget
 
-![Diagram showing the scope of procurement for alternative procurement strategies. It includes a 'Journalplattform' box with sub-boxes for 'Funksjon-Set A' through 'Funksjon-Set F', a 'Forvaltning av identiteter og rettigheter (IGA)' box, and a 'Grensesnitt og integrasjoner' box. Below these is a 'Driftsplattform' box. A legend at the bottom indicates 'Leverandør A' (light blue), 'Underleverandør' (dark blue), and 'Opsjon' (grey).](69733eeb3ef32197543f66f22a431771_img.jpg)
+![Diagram showing the scope of procurement for alternative procurement strategies. It includes a 'Journalplattform' box with sub-boxes for 'Funksjon-Set A' through 'Funksjon-Set F', a 'Forvaltning av identiteter og rettigheter (IGA)' box, and a 'Grensesnitt og integrasjoner' box. Below these is a 'Driftsplattform' box. A legend at the bottom indicates 'Leverandør A' (light blue), 'Underleverandør' (dark blue), and 'Opsjon' (grey).](images/Sentralt styringsdokument Akson/69733eeb3ef32197543f66f22a431771_img.jpg)
 
 The diagram illustrates the scope of procurement for alternative procurement strategies. It shows a 'Journalplattform' box containing sub-boxes for 'Funksjon-Set A' through 'Funksjon-Set F'. To the right of this box are 'Forvaltning av identiteter og rettigheter (IGA)' and 'Grensesnitt og integrasjoner'. Below these is a 'Driftsplattform' box. A legend at the bottom indicates 'Leverandør A' (light blue), 'Underleverandør' (dark blue), and 'Opsjon' (grey).
 
@@ -2565,7 +2565,7 @@ IT Drift inngår i anskaffelsen, men som opsjon, for å gjøre det mulig for fle
 
 #### B. Tre anskaffelser
 
-![Diagram showing three procurement areas: Journalplattform, Driftsplattform, and Grensesnitt og integrasjoner. The Journalplattform area is divided into three sub-areas: Funkcija-område A, Funkcija-område B, and Funkcija-område C. The Driftsplattform area is divided into two sub-areas: Applikasjonsdrift og forvaltning Felles Journalløsning, and Applikasjonsdrift og forvaltning Løsning for forvaltning av identiteter og tilganger. The Grensesnitt og integrasjoner area is a single block. A legend below the diagram identifies the colors for the sub-areas: Leverandør A (light blue), Underleverandør (dark blue), Underleverandør (medium blue), Nyutvikling (teal), Leverandør B (pink), and Leverandør C (grey).](7dfe05137c554aca6bed20d67e52d739_img.jpg)
+![Diagram showing three procurement areas: Journalplattform, Driftsplattform, and Grensesnitt og integrasjoner. The Journalplattform area is divided into three sub-areas: Funkcija-område A, Funkcija-område B, and Funkcija-område C. The Driftsplattform area is divided into two sub-areas: Applikasjonsdrift og forvaltning Felles Journalløsning, and Applikasjonsdrift og forvaltning Løsning for forvaltning av identiteter og tilganger. The Grensesnitt og integrasjoner area is a single block. A legend below the diagram identifies the colors for the sub-areas: Leverandør A (light blue), Underleverandør (dark blue), Underleverandør (medium blue), Nyutvikling (teal), Leverandør B (pink), and Leverandør C (grey).](images/Sentralt styringsdokument Akson/7dfe05137c554aca6bed20d67e52d739_img.jpg)
 
 Diagram showing three procurement areas: Journalplattform, Driftsplattform, and Grensesnitt og integrasjoner. The Journalplattform area is divided into three sub-areas: Funkcija-område A, Funkcija-område B, and Funkcija-område C. The Driftsplattform area is divided into two sub-areas: Applikasjonsdrift og forvaltning Felles Journalløsning, and Applikasjonsdrift og forvaltning Løsning for forvaltning av identiteter og tilganger. The Grensesnitt og integrasjoner area is a single block. A legend below the diagram identifies the colors for the sub-areas: Leverandør A (light blue), Underleverandør (dark blue), Underleverandør (medium blue), Nyutvikling (teal), Leverandør B (pink), and Leverandør C (grey).
 
@@ -2573,7 +2573,7 @@ Det funksjonelle behovet fordeles på tre anskaffelser som legges ut i markedet 
 
 #### C. En anskaffelse for hvert anskaffelsesområde
 
-![Diagram showing four procurement areas: Journalplattform, Driftsplattform, Grensesnitt og integrasjoner, and Applikasjonsdrift og forvaltning. The Journalplattform area is divided into three sub-areas: Funkcija-område A, Funkcija-område B, and Funkcija-område C. The Driftsplattform area is divided into two sub-areas: Applikasjonsdrift og forvaltning Felles Journalløsning, and Applikasjonsdrift og forvaltning Løsning for forvaltning av identiteter og tilganger. The Grensesnitt og integrasjoner area is a single block. The Applikasjonsdrift og forvaltning area is a single block. A legend below the diagram identifies the colors for the sub-areas: Leverandør A (light blue), Leverandør B (pink), Leverandør C (grey), Leverandør D (dark blue), Underleverandør A (dark blue), Underleverandør B (dark blue), Underleverandør C (dark blue), and Nyutvikling (teal).](49806c5ac206335a657bc126f17d37e8_img.jpg)
+![Diagram showing four procurement areas: Journalplattform, Driftsplattform, Grensesnitt og integrasjoner, and Applikasjonsdrift og forvaltning. The Journalplattform area is divided into three sub-areas: Funkcija-område A, Funkcija-område B, and Funkcija-område C. The Driftsplattform area is divided into two sub-areas: Applikasjonsdrift og forvaltning Felles Journalløsning, and Applikasjonsdrift og forvaltning Løsning for forvaltning av identiteter og tilganger. The Grensesnitt og integrasjoner area is a single block. The Applikasjonsdrift og forvaltning area is a single block. A legend below the diagram identifies the colors for the sub-areas: Leverandør A (light blue), Leverandør B (pink), Leverandør C (grey), Leverandør D (dark blue), Underleverandør A (dark blue), Underleverandør B (dark blue), Underleverandør C (dark blue), and Nyutvikling (teal).](images/Sentralt styringsdokument Akson/49806c5ac206335a657bc126f17d37e8_img.jpg)
 
 Diagram showing four procurement areas: Journalplattform, Driftsplattform, Grensesnitt og integrasjoner, and Applikasjonsdrift og forvaltning. The Journalplattform area is divided into three sub-areas: Funkcija-område A, Funkcija-område B, and Funkcija-område C. The Driftsplattform area is divided into two sub-areas: Applikasjonsdrift og forvaltning Felles Journalløsning, and Applikasjonsdrift og forvaltning Løsning for forvaltning av identiteter og tilganger. The Grensesnitt og integrasjoner area is a single block. The Applikasjonsdrift og forvaltning area is a single block. A legend below the diagram identifies the colors for the sub-areas: Leverandør A (light blue), Leverandør B (pink), Leverandør C (grey), Leverandør D (dark blue), Underleverandør A (dark blue), Underleverandør B (dark blue), Underleverandør C (dark blue), and Nyutvikling (teal).
 
@@ -2767,7 +2767,7 @@ innføring. Tilsvarende vil også gjelde for selvstendig næringsdrivende som ve
 
 Den overordnede styringsstrukturen med programorganisasjon og organisering av kommunene er illustrert i Figur 20. Som det blir beskrevet i kapittel 6 gjenstår det fortsatt arbeid og behov avklaringer knyttet til etableringen av "Akson journal AS". I forbindelse med dette arbeidet må det vurderes behov for justeringer i modellen beskrevet nedenfor.
 
-![Organiseringen av Programmet Akson journal. Diagrammet viser en hierarkisk struktur. På toppen står «Akson journal AS» med «Styret i «Akson journal AS»» nedenfor. Til venstre er «Styresråd» (med punkter: Informasjonssikkerhet og personvern, Helsefag, Økonomi/IKT) og «Programsikring». Til høyre er «Eiermøte». Midt i diagrammet er «Programmeier» (teknisk farge) over «Programstyre» (grå). «Programstyre» har to underavdelinger: «Programleder» (med «Programkontor» og «Fagansvarlige» som punkter: Innbygger, Helsefag, IKT/arkitektur, Personvern og informasjonssikkerhet) og «Endringsansvarlig» (med «Innbyggerpanel»). Til høyre for «Programstyre» er «Endringsseiere» og «Modell for organisering av kommunene». På bunnen er fem teknisk fargede boks: «Prosjekt journal», «Prosjekt identitet og tilgangsstyring», «Prosjekt integrasjoner», «Prosjekt drift og forvaltning» og «Prosjekt innføring».](5ec3284657e4df0df3653dd61d0ecd13_img.jpg)
+![Organiseringen av Programmet Akson journal. Diagrammet viser en hierarkisk struktur. På toppen står «Akson journal AS» med «Styret i «Akson journal AS»» nedenfor. Til venstre er «Styresråd» (med punkter: Informasjonssikkerhet og personvern, Helsefag, Økonomi/IKT) og «Programsikring». Til høyre er «Eiermøte». Midt i diagrammet er «Programmeier» (teknisk farge) over «Programstyre» (grå). «Programstyre» har to underavdelinger: «Programleder» (med «Programkontor» og «Fagansvarlige» som punkter: Innbygger, Helsefag, IKT/arkitektur, Personvern og informasjonssikkerhet) og «Endringsansvarlig» (med «Innbyggerpanel»). Til høyre for «Programstyre» er «Endringsseiere» og «Modell for organisering av kommunene». På bunnen er fem teknisk fargede boks: «Prosjekt journal», «Prosjekt identitet og tilgangsstyring», «Prosjekt integrasjoner», «Prosjekt drift og forvaltning» og «Prosjekt innføring».](images/Sentralt styringsdokument Akson/5ec3284657e4df0df3653dd61d0ecd13_img.jpg)
 
 Organiseringen av Programmet Akson journal. Diagrammet viser en hierarkisk struktur. På toppen står «Akson journal AS» med «Styret i «Akson journal AS»» nedenfor. Til venstre er «Styresråd» (med punkter: Informasjonssikkerhet og personvern, Helsefag, Økonomi/IKT) og «Programsikring». Til høyre er «Eiermøte». Midt i diagrammet er «Programmeier» (teknisk farge) over «Programstyre» (grå). «Programstyre» har to underavdelinger: «Programleder» (med «Programkontor» og «Fagansvarlige» som punkter: Innbygger, Helsefag, IKT/arkitektur, Personvern og informasjonssikkerhet) og «Endringsansvarlig» (med «Innbyggerpanel»). Til høyre for «Programstyre» er «Endringsseiere» og «Modell for organisering av kommunene». På bunnen er fem teknisk fargede boks: «Prosjekt journal», «Prosjekt identitet og tilgangsstyring», «Prosjekt integrasjoner», «Prosjekt drift og forvaltning» og «Prosjekt innføring».
 
@@ -2998,7 +2998,7 @@ Modellen som beskrives her tar utgangspunkt i at kommunal representasjon i progr
 
 Det eksisterer i dag flere regionale nettverk og flere er under etablering. Utviklingen er drevet frem av kommunene selv, med støtte fra KS. Videreutvikling av denne type regionale nettverk ligger til grunn for den modellen som presenteres i Figur 21.
 
-![Diagram showing the organizational model for municipalities. On the left, a hierarchical structure shows 'Akson Journal AS' at the top, followed by 'Styret i Akson Journal AS', 'Programleier', 'Programstyre', 'Endringseiere', 'Programleder', and 'Endringsansvarlig'. Below these are five functional areas: 'Journal', 'Identitet og tilgangsstyring', 'Integrasjon', 'Drift og forvaltning', and 'Innfering'. On the right, a 'Regionalt nettverk' box contains a 'Regional Styringsgruppe' (representatives from municipalities) and 'Regional programmering' (regional strategy and coordination). Below this is 'Regional programleder' and 'Sekretariatfunksjon'. At the bottom, 'Kommunal organisering' is shown, consisting of five 'Kommune-samarbeid' blocks, each with a 'Felles mottaksprosjekt' and a 'Kommune' block. Arrows indicate representation from the 'Endringseiere' and 'Programleder' levels to the 'Regional Styringsgruppe', and from the 'Felles mottaksprosjekt' levels to the 'Kommunal organisering' block.](050e982c5a050f0d6bc92975d0ba27ab_img.jpg)
+![Diagram showing the organizational model for municipalities. On the left, a hierarchical structure shows 'Akson Journal AS' at the top, followed by 'Styret i Akson Journal AS', 'Programleier', 'Programstyre', 'Endringseiere', 'Programleder', and 'Endringsansvarlig'. Below these are five functional areas: 'Journal', 'Identitet og tilgangsstyring', 'Integrasjon', 'Drift og forvaltning', and 'Innfering'. On the right, a 'Regionalt nettverk' box contains a 'Regional Styringsgruppe' (representatives from municipalities) and 'Regional programmering' (regional strategy and coordination). Below this is 'Regional programleder' and 'Sekretariatfunksjon'. At the bottom, 'Kommunal organisering' is shown, consisting of five 'Kommune-samarbeid' blocks, each with a 'Felles mottaksprosjekt' and a 'Kommune' block. Arrows indicate representation from the 'Endringseiere' and 'Programleder' levels to the 'Regional Styringsgruppe', and from the 'Felles mottaksprosjekt' levels to the 'Kommunal organisering' block.](images/Sentralt styringsdokument Akson/050e982c5a050f0d6bc92975d0ba27ab_img.jpg)
 
 Diagram showing the organizational model for municipalities. On the left, a hierarchical structure shows 'Akson Journal AS' at the top, followed by 'Styret i Akson Journal AS', 'Programleier', 'Programstyre', 'Endringseiere', 'Programleder', and 'Endringsansvarlig'. Below these are five functional areas: 'Journal', 'Identitet og tilgangsstyring', 'Integrasjon', 'Drift og forvaltning', and 'Innfering'. On the right, a 'Regionalt nettverk' box contains a 'Regional Styringsgruppe' (representatives from municipalities) and 'Regional programmering' (regional strategy and coordination). Below this is 'Regional programleder' and 'Sekretariatfunksjon'. At the bottom, 'Kommunal organisering' is shown, consisting of five 'Kommune-samarbeid' blocks, each with a 'Felles mottaksprosjekt' and a 'Kommune' block. Arrows indicate representation from the 'Endringseiere' and 'Programleder' levels to the 'Regional Styringsgruppe', and from the 'Felles mottaksprosjekt' levels to the 'Kommunal organisering' block.
 
@@ -3152,7 +3152,7 @@ Dette er applikasjoner og funksjonalitet som vil kunne utvikles eller anskaffes 
 
 Figur 22 og Figur 23 gir en oversikt over funksjonalitet i journalløsningen gruppert innenfor de funksjonelle områdene. Figur 22 gir en oversikt over funksjonalitet som er vurdert som nødvendig for felles journalløsning. Figur 23 viser funksjonalitet som bør avklares gjennom leverandørdialogen i anskaffelsen.
 
-![Figur 22: Oversikt over funksjonelle områder som er vurdert som nødvendig for felles journalløsning. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Pasientrettet planlegging, saksbehandling og koordinering, Administrativ støtte, and Utvikle og forvalte journalløsning. Under 'Rapportering og kvalitetsutvikling' er det også en egen underkategori.](f59dafee4c3bbc563111e5b1b6048c3d_img.jpg)
+![Figur 22: Oversikt over funksjonelle områder som er vurdert som nødvendig for felles journalløsning. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Pasientrettet planlegging, saksbehandling og koordinering, Administrativ støtte, and Utvikle og forvalte journalløsning. Under 'Rapportering og kvalitetsutvikling' er det også en egen underkategori.](images/Sentralt styringsdokument Akson/f59dafee4c3bbc563111e5b1b6048c3d_img.jpg)
 
 **Dokumentasjon av forløp og tilstand**
 
@@ -3214,7 +3214,7 @@ Figur 22: Oversikt over funksjonelle områder som er vurdert som nødvendig for 
 
 Figur 22 Oversikt over journalløsningens obligatoriske funksjonelle områder
 
-![Figur 23: Oversikt over funksjonelle områder som skal avklares under anskaffelsen. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Administrativ støtte, Støtte til analyse, Kunnskaps- og beslutningsstøtte, and Tredjepartsapplikasjoner.](97bac2cf7c2b7516804ea0ce39211258_img.jpg)
+![Figur 23: Oversikt over funksjonelle områder som skal avklares under anskaffelsen. Diagrammet er organisert i fem hovedkategorier: Dokumentasjon av forløp og tilstand, Administrativ støtte, Støtte til analyse, Kunnskaps- og beslutningsstøtte, and Tredjepartsapplikasjoner.](images/Sentralt styringsdokument Akson/97bac2cf7c2b7516804ea0ce39211258_img.jpg)
 
 **Dokumentasjon av forløp og tilstand**
 
@@ -3464,7 +3464,7 @@ Den største risikoen i innføringsfasen er vurdert å være at styringsmodellen
 
 Matrisen i Figur 26 oppsummerer risikovurderingen for etablering- og tilpasningsfasen. Tabell 27 beskriver risikoelementene og mulige tiltak for å redusere risikoen.
 
-![Matrisen i Figur 26 oppsummerer risikovurderingen for etablering- og tilpasningsfasen. Tabell 27 beskriver risikoelementene og mulige tiltak for å redusere risikoen.](552a33cc92a45c25fab3e1c980d379f7_img.jpg)
+![Matrisen i Figur 26 oppsummerer risikovurderingen for etablering- og tilpasningsfasen. Tabell 27 beskriver risikoelementene og mulige tiltak for å redusere risikoen.](images/Sentralt styringsdokument Akson/552a33cc92a45c25fab3e1c980d379f7_img.jpg)
 
 |               |             |            |     |                     |                     |                |
 |---------------|-------------|------------|-----|---------------------|---------------------|----------------|
@@ -3539,7 +3539,7 @@ Prosjektnedbrytningsstrukturen for felles kommunal journalløsning er delt opp i
 
 I hovedelement 1 ligger kostnadene knyttet til innføring av felles journalløsning som påløper, og som kan styres og påvirkes av Programmet Akson journal. Kostnader til innføring av felles journalløsning som påløper i lokale mottaksprosjekter når den enkelte kommuner velger å ta i bruk den nye journalløsningen ligger i hovedelement 2. Se Figur 28 under for oversikt over arbeidspakkene som ligger under de to hoveddelene. Disse arbeidspakkene utgjør grunnlaget for kostnadsestimatene.
 
-![](11bbed8294a393058c901641b8f50b5c_img.jpg)
+![](images/Sentralt styringsdokument Akson/11bbed8294a393058c901641b8f50b5c_img.jpg)
 
 | Felles kommunal journalløsning                                 |                                |                                     |
 |----------------------------------------------------------------|--------------------------------|-------------------------------------|
@@ -3832,7 +3832,7 @@ Gjennomføringen av steg 1 skal følge beste praksis innenfor både program- og 
 
 Gjennomføring av steg 1 er omfattet av mange forhold som bidrar til betydelig usikkerhet. Resten av prosjektstrategien beskriver hvordan steg 1 skal gjennomføres for å håndtere usikkerheten.
 
-![Icon representing a network or connection, consisting of a central dot with six lines radiating outwards to other dots.](776f14b7f2ce99373fc5e74d78be8c10_img.jpg)
+![Icon representing a network or connection, consisting of a central dot with six lines radiating outwards to other dots.](images/Sentralt styringsdokument Akson/776f14b7f2ce99373fc5e74d78be8c10_img.jpg)
 
 Icon representing a network or connection, consisting of a central dot with six lines radiating outwards to other dots.
 
@@ -3842,7 +3842,7 @@ Parallelt med gjennomføringen av Programmet Akson journal og Programmet Akson s
 
 Kapittel 1.1.5.3 beskriver overordnet organisering og ansvarsdeling for felles kommunal journalløsning og steg 1. Kapittel 1.6 beskriver hvordan avhengigheter mellom pågående programmer og prosjekter og hvordan sentrale grensesnitt skal følges opp.
 
-![Icon representing a target with an arrow, symbolizing focus and goals.](4b6cb2e4fd8b0ec7c6f877f175da1d39_img.jpg)
+![Icon representing a target with an arrow, symbolizing focus and goals.](images/Sentralt styringsdokument Akson/4b6cb2e4fd8b0ec7c6f877f175da1d39_img.jpg)
 
 Icon representing a target with an arrow, symbolizing focus and goals.
 
@@ -3854,7 +3854,7 @@ Helsefaglig ansvarlig har et særlig ansvar for å sikre at valg og beslutninger
 
 Behovet for en forpliktende styringsmodell for å realiseres målbildet for samhandling er beskrevet i kapittel 1.1.5.4. Kapittel 4.5 beskriver styringsmodellen for steg 1 og helsefaglig ansvarlig er beskrevet i kapittel 4.5.5.
 
-![Icon representing a plant growing, symbolizing growth and development.](b92081ab68631a5857b1af7004b8d704_img.jpg)
+![Icon representing a plant growing, symbolizing growth and development.](images/Sentralt styringsdokument Akson/b92081ab68631a5857b1af7004b8d704_img.jpg)
 
 Icon representing a plant growing, symbolizing growth and development.
 
@@ -3876,7 +3876,7 @@ Gjennomføringen av steg 1 vil organiseres i et program, heretter omtalt som Pro
 
 Figur 29 illustrerer gjennomføringsplanen for steg 1 med underliggende prosjekter, og hvordan leveranser fra steg 1 skal integreres med felles journalløsning og bidra til samhandlingskapabiliteter i journalløsningen. Innretningen av steg 1 må være gjenstand for løpende vurdering og prioritering for å sikre koordinering med tilgrensende programmer og prosjekter. Innholdet i prosjektene er nærmere beskrevet i kapittel 1.1.5.4. og i vedlegg G Løsningsomfang og -arkitektur.
 
-![Diagram showing the implementation plan for step 1 from 2020 to 2027. It includes a timeline for 'steg 1 - samhandling' with sub-tasks like 'Grunndata- og tillitstjenester', 'Nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar', and 'Forprosjekt steg 2'. Below this, a phase diagram for 'Felles kommunal journalløsning' shows 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling' (with 'Innføringsprosjekt 1' and 'Forberedelser' / 'Implementering'), and 'Fase 3: Innføring'.](92c9263daf7fbd044894e2b273ae21af_img.jpg)
+![Diagram showing the implementation plan for step 1 from 2020 to 2027. It includes a timeline for 'steg 1 - samhandling' with sub-tasks like 'Grunndata- og tillitstjenester', 'Nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar', and 'Forprosjekt steg 2'. Below this, a phase diagram for 'Felles kommunal journalløsning' shows 'Fase 1: Mobilisering og anskaffelse', 'Fase 2: Etablering, tilpasning og utvikling' (with 'Innføringsprosjekt 1' and 'Forberedelser' / 'Implementering'), and 'Fase 3: Innføring'.](images/Sentralt styringsdokument Akson/92c9263daf7fbd044894e2b273ae21af_img.jpg)
 
 The diagram illustrates the implementation plan for 'steg 1 - samhandling' over a period from 2020 to 2027. The top section shows a timeline with three main horizontal bars representing the tasks of step 1: 'Grunndata- og tillitstjenester' (starting in 2020), 'Nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar' (starting in 2021), and 'Forprosjekt steg 2' (starting in 2022). A vertical line connects the end of the first two bars to the start of the 'Fase 2' bar in the section below. The bottom section, titled 'Felles kommunal journalløsning', is divided into three phases: 'Fase 1: Mobilisering og anskaffelse' (2020-2022), 'Fase 2: Etablering, tilpasning og utvikling' (2022-2026), and 'Fase 3: Innføring' (starting in 2026). Phase 2 includes 'Innføringsprosjekt 1' and a transition from 'Forberedelser' to 'Implementering'. A dashed line indicates 'Fase 4: FDVU' starting at the end of Phase 2.
 
@@ -3926,7 +3926,7 @@ Steg 1 er første trinn i realiseringen av målbildet for samhandling. Stegvis t
 
 Det legges til grunn tre overordnede kontroll- og beslutningspunkter knyttet til steg 1 som skal gjennomføres i perioden 2021-2023. I tillegg vil det være løpende kontroll og rapportering både på prosjekt- og programnivå som illustrert i Figur 30.
 
-![Diagram showing the timeline of the Akson Samhandling program from 2020 to 2027. It highlights 'steg 1 - samhandling' and various control points (Kontrollpunkt 0, 1, 2) and project phases like 'Grunndata- og tillitstjenester', 'Nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar', and 'Forprosjekt steg 2'. A running report line is shown at the bottom.](ffe2d3e622dd30bea4caf15951c60e42_img.jpg)
+![Diagram showing the timeline of the Akson Samhandling program from 2020 to 2027. It highlights 'steg 1 - samhandling' and various control points (Kontrollpunkt 0, 1, 2) and project phases like 'Grunndata- og tillitstjenester', 'Nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar', and 'Forprosjekt steg 2'. A running report line is shown at the bottom.](images/Sentralt styringsdokument Akson/ffe2d3e622dd30bea4caf15951c60e42_img.jpg)
 
 The diagram illustrates the timeline of the Akson Samhandling program from 2020 to 2027. A horizontal timeline bar at the top marks the years. Below it, a grey arrow labeled 'steg 1 - samhandling' spans from 2020 to 2024. Underneath this, three horizontal bars represent project phases: 'Grunndata- og tillitstjenester' (2020-2024), 'Nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar' (2021-2024), and 'Forprosjekt steg 2' (2020-2022). Red diamonds mark control points: 'Kontrollpunkt 0: I forkant av oppstart av Programmet Akson samhandling' at the start of 2020; 'Kontrollpunkt 1: I forkant av å kvalitetssikre forprosjekt steg 2' at the end of 2022; and 'Kontrollpunkt 2: I forkant av at samhandlings-funksjonaliteten integreres med felles journalløsning' at the end of 2023. A series of small red diamonds along the bottom timeline indicates 'Løpende løypemelding om fremdrift til programstyret' (ongoing progress reports to the program management).
 
@@ -4006,7 +4006,7 @@ Direktoratet for e-helse vil være ansvarlig for eventuelle anskaffelser vedrør
 
 Figur 31 angir overordnet omfanget av kontraktstrategien for steg 1 i utviklingsretningen for samhandling. For en nærmere beskrivelse av innholdet vises det til kapittel 1.1.5.2.
 
-![Diagram showing the scope of the contract strategy for step 1, organized into four main areas under the heading 'Felles grunnmur for digitale tjenester'.](c7e196e0c468cc7b9a84c12c951209a0_img.jpg)
+![Diagram showing the scope of the contract strategy for step 1, organized into four main areas under the heading 'Felles grunnmur for digitale tjenester'.](images/Sentralt styringsdokument Akson/c7e196e0c468cc7b9a84c12c951209a0_img.jpg)
 
 The diagram, titled 'Felles grunnmur for digitale tjenester', is enclosed in a dashed box and divided into four quadrants:
 
@@ -4087,7 +4087,7 @@ Direktoratet for e-helse vil få ansvaret for å realisere steg 1, og vil være 
 
 Den overordnede styringsstrukturen og programorganiseringen er illustrert i Figur 32.
 
-![Organizational chart for Akson - helhetlig samhandling og felles kommunal journalløsning. The chart shows a hierarchy starting from 'Helse- og omsorgsdepartementet' at the top, followed by 'Direktoratet for e-helse', then 'Programmeier'. Below 'Programmeier' is 'Programstyre', which includes 'Programleder' and 'Endringseiere'. 'Programstyre' is connected to 'Programkontor' and 'Fagansvarlige' (Helsefag, IKT/arkitektur). 'Programstyre' also connects to four project boxes: 'Prosjekt nasjonal informasjonsjeneste for oppslag av laboratorie- og radiologisvar', 'Prosjekt grunndata og tillitsjenester (inkludert API Management)', 'Forprosjekt steg 2', and 'Evt andre initiativer av betydning for nasjonal samhandling (som vurderes hensiktsmessig å samstyre med programmet)'. On the right, there is a box containing logos for 'Akson Journal AS', 'norsk helsenett', 'HELSE MIDT-NØRGE', 'HELSE SØR-ØST', 'HELSE VEST', 'HELSE NORD', and 'HELSEPLATTFORMEN'.](42d1ffab6bbf720e8421aeace0808924_img.jpg)
+![Organizational chart for Akson - helhetlig samhandling og felles kommunal journalløsning. The chart shows a hierarchy starting from 'Helse- og omsorgsdepartementet' at the top, followed by 'Direktoratet for e-helse', then 'Programmeier'. Below 'Programmeier' is 'Programstyre', which includes 'Programleder' and 'Endringseiere'. 'Programstyre' is connected to 'Programkontor' and 'Fagansvarlige' (Helsefag, IKT/arkitektur). 'Programstyre' also connects to four project boxes: 'Prosjekt nasjonal informasjonsjeneste for oppslag av laboratorie- og radiologisvar', 'Prosjekt grunndata og tillitsjenester (inkludert API Management)', 'Forprosjekt steg 2', and 'Evt andre initiativer av betydning for nasjonal samhandling (som vurderes hensiktsmessig å samstyre med programmet)'. On the right, there is a box containing logos for 'Akson Journal AS', 'norsk helsenett', 'HELSE MIDT-NØRGE', 'HELSE SØR-ØST', 'HELSE VEST', 'HELSE NORD', and 'HELSEPLATTFORMEN'.](images/Sentralt styringsdokument Akson/42d1ffab6bbf720e8421aeace0808924_img.jpg)
 
 ```
 
@@ -4436,7 +4436,7 @@ Steg 1 har noen egenskaper ved seg som er drivere til risiko. Programmet skal ko
 
 Matrisen i Figur 33 nedenfor oppsummerer risikovurderingen for etablering- og tilpasningsfasen. Tabell 40 under matrisen beskriver risikoelementene og mulige tiltak for å redusere risikoen.
 
-![Matrisen i Figur 33 viser risikovurderingen for etablering- og tilpasningsfasen. Den er en 5x6 matrise der 'Sannsynlighet' (fra 'Svært stor' til 'Meget liten') er på den vertikale aksen og 'Konsekvens' (fra 'Ubetydelig' til 'Svært alvorlig') er på den horisontale aksen. Fargene i cellene indikerer graden av risiko: grønn for lav risiko, gul for moderat risiko, og rød for høy risiko. Høyrisiko cellene (røde) inneholder sirkler med bokstaver som representerer risikoelementene: F2 i (Stor, Moderat), A1, B3, C3 i (Stor, Alvorlig), og A2, B1, B2, C1, C2, D1, F1 i (Moderat, Alvorlig).](67645b3ace2573ba21e96ebeac94195a_img.jpg)
+![Matrisen i Figur 33 viser risikovurderingen for etablering- og tilpasningsfasen. Den er en 5x6 matrise der 'Sannsynlighet' (fra 'Svært stor' til 'Meget liten') er på den vertikale aksen og 'Konsekvens' (fra 'Ubetydelig' til 'Svært alvorlig') er på den horisontale aksen. Fargene i cellene indikerer graden av risiko: grønn for lav risiko, gul for moderat risiko, og rød for høy risiko. Høyrisiko cellene (røde) inneholder sirkler med bokstaver som representerer risikoelementene: F2 i (Stor, Moderat), A1, B3, C3 i (Stor, Alvorlig), og A2, B1, B2, C1, C2, D1, F1 i (Moderat, Alvorlig).](images/Sentralt styringsdokument Akson/67645b3ace2573ba21e96ebeac94195a_img.jpg)
 
 | Sannsynlighet | Svært stor  |            |     |         |                |                |       |
 |---------------|-------------|------------|-----|---------|----------------|----------------|-------|
@@ -4477,7 +4477,7 @@ Prosjektnedbrytningsstrukturen for steg 1 består kun av dette hovedelementet, o
 
 Kostnadene knyttet til steg 1 består av både prosjektledelse, forprosjekt for steg 2 og investeringer i tekniske komponenter som er nødvendige for å realisere datadeling og tilgangsstyring på tvers av virksomheter i helse- og omsorgssektoren. Det er også lagt til grunn at det skal opprettes en nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar, samt at det skal gjøres mindre oppdateringer i kjernejournal og personvernkomponenten. Hver av komponentene er nærmere beskrevet i kapittel 5.1.1.
 
-![Diagram of the project structure for step 1, showing a hierarchy of components.](f79cb254efa2e37d7facb055cf90086e_img.jpg)
+![Diagram of the project structure for step 1, showing a hierarchy of components.](images/Sentralt styringsdokument Akson/f79cb254efa2e37d7facb055cf90086e_img.jpg)
 
 ```
 graph TD; A[Steg 1 i utviklingsretningen for samhandling] --> B[Programledelse]; A --> C[Forprosjekt for steg 2]; A --> D[Grunndata og tillitstjenester, inkludert API-management]; A --> E[Nytt API i kjernejournal]; A --> F[Nasjonal informasjonstjeneste for oppslag av laboratorie- og radiologisvar];
@@ -4647,7 +4647,7 @@ Programmet må legge til rette for at eksterne kvalitetssikrere effektivt får t
 
 Den oppdaterte samfunnsøkonomiske analysen viser at tiltaket felles kommunal journalløsning og steg 1 i utviklingsretning for samhandling er samfunnsøkonomisk lønnsomt, med en netto nåverdi på 2,9 milliarder kroner. Etter usikkerhetsanalyse får tiltaket et nyttepåslag på 0,9 milliarder kroner som gir en netto nåverdi på 3,8 milliarder kroner. I tillegg har tiltaket en rekke ikke-prissatte virkninger. Flere av disse er vurdert til å ha stor verdi for samfunnet og vil bidra til å styrke tiltakets samfunnsøkonomiske lønnsomhet.
 
-![Bar chart showing the economic impact of the project in billion kroner. The chart shows a positive impact of 13.7 billion kroner from the initial assessment, followed by a series of adjustments (3.7, 0.6, 6.6, -10.9, -5.9, -5.3, 0.4) leading to a net present value of 2.9 billion kroner. A final adjustment of 0.9 billion kroner leads to a total net present value of 3.8 billion kroner.](aa75bb3aaab7d58772b885504627945a_img.jpg)
+![Bar chart showing the economic impact of the project in billion kroner. The chart shows a positive impact of 13.7 billion kroner from the initial assessment, followed by a series of adjustments (3.7, 0.6, 6.6, -10.9, -5.9, -5.3, 0.4) leading to a net present value of 2.9 billion kroner. A final adjustment of 0.9 billion kroner leads to a total net present value of 3.8 billion kroner.](images/Sentralt styringsdokument Akson/aa75bb3aaab7d58772b885504627945a_img.jpg)
 
 | Virkning                            | Navn                                                                                                                              | Verdi (Milliarder 2019-kroner) |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
@@ -4692,7 +4692,7 @@ For samtlige endringer beskrevet over er konsept 7 samfunnsøkonomisk mest lønn
 
 <sup>13</sup> Endringene gjort i den oppdaterte samfunnsøkonomiske analysen er basert på felles kommunal journalløsning og steg 1 i utviklingsretning for samhandling. De er ikke fullstendig overførbare til konsept 4 eller konsept 7 i sin helhet, men tilstrekkelig realistiske til å kunne skape en sammenlikning mellom konseptene.
 
-![Bar chart comparing net value in billions of kroner for three concepts (Konsept 7, 4, 1) under two scenarios: KS1 and KS1 with changed assumptions.](937bf97e8f99a22c1b1503abfc3f489d_img.jpg)
+![Bar chart comparing net value in billions of kroner for three concepts (Konsept 7, 4, 1) under two scenarios: KS1 and KS1 with changed assumptions.](images/Sentralt styringsdokument Akson/937bf97e8f99a22c1b1503abfc3f489d_img.jpg)
 
 The chart displays the net value in billions of kroner for three different concepts across two scenarios. The y-axis ranges from -5 to 15. The x-axis is divided into two sections: 'KS1' and 'KS1 med endrede forutsetninger'. Each section contains three bars representing Konsept 7 (dark blue), Konsept 4 (teal), and Konsept 1 (light blue). The values for each bar are labeled on top or bottom.
 
@@ -4709,7 +4709,7 @@ Bar chart comparing net value in billions of kroner for three concepts (Konsept 
 
 Gjennomføringen av tiltaket felles kommunal journalløsning og steg 1 i utviklingsretningen for samhandling har planlagt oppstart i 2021, se gjennomføringsstrategi i henholdsvis kapittel 2.2 og 4.3. Frem til oppstart vil det imidlertid pågå flere prosesser og aktiviteter med relevans for tiltaket som er illustrert i Figur 37.
 
-![Gantt chart showing the timeline of activities for the 'Felles kommunal journalløsning' project from March 2020 to December 2021. The chart includes milestones for 'Oversendelse av SSD', 'Tilstrekkelig antall kommuner', 'Investeringstilslutning', and 'Akson journal AS' establishment. Activities include external quality assurance, communication, data responsibility, ICT security, market dialogue, and preparation for the project's start in 2021.](909e1cd5419742a8ea8a95a16a40d849_img.jpg)
+![Gantt chart showing the timeline of activities for the 'Felles kommunal journalløsning' project from March 2020 to December 2021. The chart includes milestones for 'Oversendelse av SSD', 'Tilstrekkelig antall kommuner', 'Investeringstilslutning', and 'Akson journal AS' establishment. Activities include external quality assurance, communication, data responsibility, ICT security, market dialogue, and preparation for the project's start in 2021.](images/Sentralt styringsdokument Akson/909e1cd5419742a8ea8a95a16a40d849_img.jpg)
 
 The diagram is a Gantt chart illustrating the timeline of activities for the 'Felles kommunal journalløsning' project. The horizontal axis represents time from March 2020 to December 2021. Key milestones are marked at the top: 'Oversendelse av SSD til ekstern kvalitetssikring' (March 2020), 'Tilstrekkelig antall kommuner har inngått intensjonserklæringer' (June 2020), 'Investeringstilslutning i Stortinget' (November 2020), and '«Akson journal AS» er etablert' (December 2021). The activities are represented by horizontal bars of varying lengths and colors (teal and light blue). The bars are grouped into several sections: 1. External quality assurance and communication (March to June 2020), including 'Kommunikasjon og forankring', 'Saksunderlag til kommunene', and 'Inngåelse av intensjonserklæringer'. 2. Preparation for the establishment of 'Akson journal AS' (June 2020 to December 2021), including 'Forberedelser til etablering av «Akson journal AS»', 'Vurderinger av finansierungsmodell', and 'Nærmere avklaring av dataansvar for felles kommunal journalløsning'. 3. ICT security and e-health (March to June 2020), including 'Avklaringer knyttet til IKT og informasjonssikkerhet' and 'Veikart for nasjonal e-helseportefølje'. 4. Market dialogue and preparation for the project's start (March to December 2021), including 'Markedsdialog', 'Lovarbeid', and 'Forberede oppstart av tiltaket'. A final arrow indicates the 'Gjennomføring Akson journal Akson samhandling' starting in December 2021.
 
@@ -4784,7 +4784,7 @@ Gjennomføringen av tiltaket har forventet oppstart i begynnelsen av 2021, hvor 
 38. **Finansdepartementet.** *Veileder - Digitaliseringsprosjekter i Statens prosjektmodell.* 2020.
 39. **Gartner.** *Gartner's Update to the Enterprise EHR Generation model.* s.l. : Gartner, 2016.
 
-![Directorate for e-health logo](8bb2ea2c00da452047a65937b2c4f7fe_img.jpg) Direktoratet for e-helse
+![Directorate for e-health logo](images/Sentralt styringsdokument Akson/8bb2ea2c00da452047a65937b2c4f7fe_img.jpg) Direktoratet for e-helse
 
 **Besøksadresse**
 
