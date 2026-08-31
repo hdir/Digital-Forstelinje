@@ -205,7 +205,11 @@ def main():
         if not args.input_dir:
             return
 
-    files = [f for f in input_dir.iterdir() if f.suffix.lower() in SUPPORTED_EXTENSIONS]
+    files = [
+        f
+        for f in input_dir.iterdir()
+        if f.suffix.lower() in SUPPORTED_EXTENSIONS and not f.name.startswith("~$")
+    ]
     print(f"Found {len(files)} files to convert\n")
 
     success = 0
