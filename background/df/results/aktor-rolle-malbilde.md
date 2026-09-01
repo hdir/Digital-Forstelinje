@@ -1,5 +1,18 @@
 # Aktører og roller i målbildet
 
+Oppsummering av identifiserte roller og aktører beskrevet i målbildet for et sammenhengende økosystem av digitale selvhjelps og behandlingsapper.
+
+## Oppsummering av aktører og roller
+
+- `Innbygger` er rollen som bruker, egenmestrer eller mottaker av støtte.
+- `Helsepersonell` kan fylle roller som behandler og oppfølger, anbefaler og tildeler, og faglig bidragsyter.
+- `Helsevirksomhet` kan fylle roller som tjenesteyter, intern produsent, utprøver og faglig bidragsyter.
+- `Myndighet` kan fylle roller som premissgiver, innkjøper, tilsyns- og godkjenningsaktør.
+- `Næringslivsaktør` kan fylle roller som produsent, leverandør, driftsansvarlig og videreutvikler.
+- `Uavklart` bør brukes der målbildet beskriver en nødvendig funksjon, men ikke har tatt stilling til hvilken aktør som skal fylle den.  
+
+## Aktører og roller
+
 Tabellen skiller mellom ArchiMate-elementene **Business Actor** og **Business Role**. En aktør er den fysiske eller organisatoriske enheten som kan utføre atferd. En rolle er et ansvar eller en funksjon som en eller flere aktører kan fylle.
 
 | Business Actor | Business Role | Kort definisjon av rollen |
@@ -32,12 +45,3 @@ Tabellen skiller mellom ArchiMate-elementene **Business Actor** og **Business Ro
 - `Bruker av digitale verktøy`, `Produsent`, `Innkjøper` og de øvrige oppgavene i tabellen er **Business Roles**.
 - Én Business Actor kan fylle flere Business Roles, og én Business Role kan fylles av flere Business Actors.
 - `Uavklart` er brukt som en foreløpig plassholder der målbildet beskriver en nødvendig rolle, men ikke angir hvilken aktør som skal fylle den. Det bør erstattes av en navngitt Business Actor når ansvarsfordelingen er besluttet.
-
-## Oppsummering av aktører og roller
-
-- `Innbygger` er rollen som bruker, egenmestrer eller mottaker av støtte.
-- `Helsepersonell` kan fylle roller som behandler og oppfølger, anbefaler og tildeler, og faglig bidragsyter.
-- `Helsevirksomhet` kan fylle roller som tjenesteyter, intern produsent, utprøver og faglig bidragsyter.
-- `Myndighet` kan fylle roller som premissgiver, innkjøper, tilsyns- og godkjenningsaktør.
-- `Næringslivsaktør` kan fylle roller som produsent, leverandør, driftsansvarlig og videreutvikler.
-- `Uavklart` bør brukes der målbildet beskriver en nødvendig funksjon, men ikke har tatt stilling til hvilken aktør som skal fylle den.  
