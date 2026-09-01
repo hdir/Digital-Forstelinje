@@ -7,6 +7,8 @@ Tabellen skiller mellom ArchiMate-elementene **Business Actor** og **Business Ro
 | Innbygger | Bruker av digitale verktøy | Finner, velger og tar i bruk kvalitetssikrede selvhjelps- og behandlingsverktøy. |
 | Innbygger | Egenmestrer | Ivaretar egen helse gjennom forebygging, mestring, behandling og oppfølging. |
 | Helsepersonell | Behandler og oppfølger | Anbefaler, tildeler og følger opp digitale verktøy som del av helsehjelp. |
+| Helsepersonell | Anbefaler og tildeler | Vurderer relevante, kvalitetssikrede verktøy og anbefaler eller tildeler dem som del av pasientens forløp. |
+| Helsepersonell | Faglig bidragsyter | Bidrar med behov, klinisk innsikt, utprøving og strukturerte tilbakemeldinger for forbedring av verktøy og praksis. |
 | Helsevirksomhet | Tjenesteyter | Integrerer digitale verktøy i sammenhengende helse- og omsorgstjenester. |
 | Helsevirksomhet | Intern produsent | Utvikler egne løsninger som kan tilgjengeliggjøres for andre gjennom nasjonale flater. |
 | Helsevirksomhet | Faglig bidragsyter | Bidrar med behov, klinisk innsikt, utprøving og tilbakemeldinger for forbedring. |
@@ -34,6 +36,7 @@ Tabellen skiller mellom ArchiMate-elementene **Business Actor** og **Business Ro
 ## Oppsummering av aktører og roller
 
 - `Innbygger` er rollen som bruker, egenmestrer eller mottaker av støtte.
+- `Helsepersonell` kan fylle roller som behandler og oppfølger, anbefaler og tildeler, og faglig bidragsyter.
 - `Helsevirksomhet` kan fylle roller som tjenesteyter, intern produsent, utprøver og faglig bidragsyter.
 - `Myndighet` kan fylle roller som premissgiver, innkjøper, tilsyns- og godkjenningsaktør.
 - `Næringslivsaktør` kan fylle roller som produsent, leverandør, driftsansvarlig og videreutvikler.
