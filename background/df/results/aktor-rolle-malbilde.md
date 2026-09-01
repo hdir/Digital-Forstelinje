@@ -4,7 +4,7 @@ Oppsummering av identifiserte roller og aktører beskrevet i målbildet for et s
 
 ## Oppsummering av aktører og roller
 
-- `Innbygger` er rollen som bruker, egenmestrer eller mottaker av støtte.
+- `Innbygger` er rollen som pasient, bruker, egenmestrer eller mottaker av støtte.
 - `Helsepersonell` kan fylle roller som behandler og oppfølger, anbefaler og tildeler, og faglig bidragsyter.
 - `Helsevirksomhet` kan fylle roller som tjenesteyter, intern produsent, utprøver og faglig bidragsyter.
 - `Myndighet` kan fylle roller som premissgiver, innkjøper, tilsyns- og godkjenningsaktør.
