@@ -17,6 +17,7 @@ Tabellen skiller mellom ArchiMate-elementene **Business Actor** og **Business Ro
 
 | Business Actor | Business Role | Kort definisjon av rollen |
 | --- | --- | --- |
+| Innbygger | Pasient | Om en person som anmoder om, tilbys eller mottar helsehjelp |
 | Innbygger | Bruker av digitale verktøy | Finner, velger og tar i bruk kvalitetssikrede selvhjelps- og behandlingsverktøy. |
 | Innbygger | Egenmestrer | Ivaretar egen helse gjennom forebygging, mestring, behandling og oppfølging. |
 | Helsepersonell | Behandler og oppfølger | Anbefaler, tildeler og følger opp digitale verktøy som del av helsehjelp. |
