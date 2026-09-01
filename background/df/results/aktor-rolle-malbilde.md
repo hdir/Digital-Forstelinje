@@ -7,7 +7,7 @@ Oppsummering av identifiserte roller og aktører beskrevet i målbildet for et s
 - `Innbygger` er rollen som pasient, bruker, egenmestrer, pårørende eller mottaker av støtte.
 - `Helsepersonell` kan fylle roller som behandler og oppfølger, anbefaler og tildeler, og faglig bidragsyter.
 - `Helsevirksomhet` kan fylle roller som tjenesteyter, intern produsent, utprøver og faglig bidragsyter.
-- `Myndighet` kan fylle roller som premissgiver og innkjøper.
+- `Myndighet` kan fylle roller som premissgiver, innkjøper og plattformleverandør.
 - `Næringslivsaktør` kan fylle roller som produsent, leverandør, driftsansvarlig og videreutvikler.
 
 ## Aktører og roller
@@ -30,6 +30,7 @@ Tabellen skiller mellom ArchiMate-elementene **Business Actor** og **Business Ro
 | Næringslivsaktør | Leverandør | Tilbyr, drifter og følger opp verktøy i markedet og overfor helse- og omsorgstjenesten. |
 | Myndighet | Premissgiver | Setter krav, standarder, retningslinjer og rammer for kvalitet, sikkerhet og personvern. |
 | Myndighet | Innkjøper | Anskaffer eller organiserer anskaffelse av kvalitetssikrede digitale verktøy. |
+| Myndighet | Plattformleverandør | Leverer grunnleggende tjenester og en felles plattform som økosystemet bygger på. |
 
 ## Oppsummering
 
