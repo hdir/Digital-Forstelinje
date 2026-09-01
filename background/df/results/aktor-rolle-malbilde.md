@@ -30,7 +30,7 @@ Tabellen skiller mellom ArchiMate-elementene **Business Actor** og **Business Ro
 | Næringslivsaktør | Leverandør | Tilbyr, drifter og følger opp verktøy i markedet og overfor helse- og omsorgstjenesten. |
 | Myndighet | Premissgiver | Setter krav, standarder, retningslinjer og rammer for kvalitet, sikkerhet og personvern. |
 | Myndighet | Innkjøper | Anskaffer eller organiserer anskaffelse av kvalitetssikrede digitale verktøy. |
-| Myndighet | Plattformleverandør | Leverer grunnleggende tjenester og en felles plattform som økosystemet bygger på. |
+| Myndighet | Plattformleverandør | Leverer grunnleggende tjenester og en felles plattform som økosystemet bygger på som distribusjonsplattform, nasjonal inngang, tilgjengeliggjører og informasjonskanal. |
 
 ## Oppsummering
 
