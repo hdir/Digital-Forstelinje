@@ -189,6 +189,7 @@ def main():
     parser = argparse.ArgumentParser(description="Convert documents to Markdown using the Datalab REST API")
     parser.add_argument("input_dir", nargs="?", type=Path, help="Directory containing source documents")
     parser.add_argument("output_dir", nargs="?", type=Path, help="Directory for generated Markdown files")
+    parser.add_argument("--file", type=Path, help="Convert one source document")
     parser.add_argument("--overwrite", action="store_true", help="Reconvert files whose Markdown output already exists")
     parser.add_argument("--rewrite-links", action="store_true", help="URL-encode local image links in existing Markdown files")
     args = parser.parse_args()
@@ -205,11 +206,18 @@ def main():
         if not args.input_dir:
             return
 
-    files = [
-        f
-        for f in input_dir.iterdir()
-        if f.suffix.lower() in SUPPORTED_EXTENSIONS and not f.name.startswith("~$")
-    ]
+    if args.file:
+        if not args.file.is_file():
+            parser.error(f"Source file not found: {args.file}")
+        if args.file.suffix.lower() not in SUPPORTED_EXTENSIONS:
+            parser.error(f"Unsupported source file: {args.file.name}")
+        files = [args.file]
+    else:
+        files = [
+            f
+            for f in input_dir.iterdir()
+            if f.suffix.lower() in SUPPORTED_EXTENSIONS and not f.name.startswith("~$")
+        ]
     print(f"Found {len(files)} files to convert\n")
 
     success = 0
