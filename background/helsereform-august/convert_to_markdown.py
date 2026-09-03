@@ -97,13 +97,13 @@ def add_image_references(markdown: str, images: list[tuple[str, bytes]], output_
     if not images:
         return markdown
 
-    image_dir = output_dir / "images" / document_stem
+    image_dir = output_dir / document_stem
     image_dir.mkdir(parents=True, exist_ok=True)
     image_paths = {}
     for filename, image_data in images:
         image_path = image_dir / filename
         image_path.write_bytes(image_data)
-        image_paths[filename] = quote(f"images/{document_stem}/{filename}", safe="/")
+        image_paths[filename] = quote(f"{document_stem}/{filename}", safe="/")
 
     referenced = set()
 
@@ -131,7 +131,7 @@ def rewrite_existing_links(markdown_file: Path) -> bool:
 
     def replace_link(match):
         target = match.group(2)
-        if not target.startswith("images/"):
+        if not target or target.startswith(("http://", "https://", "data:", "#", "/")):
             return match.group(0)
         return f"{match.group(1)}{quote(target, safe='/%')}" + match.group(3)
 
