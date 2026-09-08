@@ -1,5 +1,3 @@
-
-
 # Videre oppfølging av TB2026-17 om Digital førstelinje deloppdrag 2 og 3
 
 ## Foreslåtte tiltak og mulige gevinster
