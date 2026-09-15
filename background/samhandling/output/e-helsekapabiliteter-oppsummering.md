@@ -27,7 +27,7 @@ Dokumentet beskriver helse- og omsorgstjenesten som et verdiverksted: problemer 
 | Tverrgående muliggjørere | Sikre at hele syklusen er trygg og anvendbar. | 7 Personverntjenester; 8 Brukervennlig IKT | Samtykke, tilgangsstyring og logg; enkelhet i bruk, tilgjengelighet og tilpasning til rolle og arbeidsprosess. |
 
 ```plantuml
-@startuml
+@startuml e_helsekapabiliteter_verdiskaping
 !include <archimate/Archimate>
 
 skinparam backgroundColor white
@@ -35,31 +35,31 @@ skinparam defaultFontColor #333333
 left to right direction
 
 ' Business actors and roles
-Business_Actor(innbygger, "Innbygger") #ffff99
-Business_Role(pasient, "Pasient") #ffff99
-Business_Role(egenmestrer, "Egenmestrer") #ffff99
-Business_Role(parorende, "Pårørende") #ffff99
+Business_Actor(innbygger, "Innbygger")
+Business_Role(pasient, "Pasient")
+Business_Role(egenmestrer, "Egenmestrer")
+Business_Role(parorende, "Pårørende")
 
-Business_Actor(helsepersonell, "Helsepersonell") #ffff99
-Business_Role(behandler, "Behandler og oppfølger") #ffff99
-Business_Role(anbefaler, "Anbefaler og tildeler") #ffff99
+Business_Actor(helsepersonell, "Helsepersonell")
+Business_Role(behandler, "Behandler og oppfølger")
+Business_Role(anbefaler, "Anbefaler og tildeler")
 
 ' Value-creation mechanisms
-Business_Process(problemdefinisjon, "Problemdefinisjon") #ffff99
-Business_Process(problemlosning, "Problemløsning") #ffff99
-Business_Process(valg, "Valg av løsning") #ffff99
-Business_Process(gjennomforing, "Gjennomføring") #ffff99
-Business_Process(evaluering, "Evaluering") #ffff99
+Business_Process(problemdefinisjon, "Problemdefinisjon")
+Business_Process(problemlosning, "Problemløsning")
+Business_Process(valg, "Valg av løsning")
+Business_Process(gjennomforing, "Gjennomføring")
+Business_Process(evaluering, "Evaluering")
 
 ' E-health capabilities
-Strategy_Capability(c1, "1 Dokumentasjon") #F5DEAA
-Strategy_Capability(c2, "2 Pasient-, tjeneste- og\nressursadministrasjon") #F5DEAA
-Strategy_Capability(c3, "3 Plan og\noppgaveadministrasjon") #F5DEAA
-Strategy_Capability(c4, "4 Kunnskaps- og\nbeslutningsstøtte") #F5DEAA
-Strategy_Capability(c5, "5 Kvalitetsforbedring\nog analyse") #F5DEAA
-Strategy_Capability(c6, "6 Innbyggertjenester") #F5DEAA
-Strategy_Capability(c7, "7 Personverntjenester") #F5DEAA
-Strategy_Capability(c8, "8 Brukervennlig IKT") #F5DEAA
+Strategy_Capability(c1, "1 Dokumentasjon")
+Strategy_Capability(c2, "2 Pasient-, tjeneste- og\nressursadministrasjon")
+Strategy_Capability(c3, "3 Plan og\noppgaveadministrasjon")
+Strategy_Capability(c4, "4 Kunnskaps- og\nbeslutningsstøtte")
+Strategy_Capability(c5, "5 Kvalitetsforbedring\nog analyse")
+Strategy_Capability(c6, "6 Innbyggertjenester")
+Strategy_Capability(c7, "7 Personverntjenester")
+Strategy_Capability(c8, "8 Brukervennlig IKT")
 
 ' Assignment of actors to roles
 innbygger --> pasient

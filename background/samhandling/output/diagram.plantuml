@@ -1,0 +1,63 @@
+@startuml e_helsekapabiliteter_verdiskaping
+!include <archimate/Archimate>
+
+skinparam backgroundColor white
+skinparam defaultFontColor #333333
+left to right direction
+
+' Business actors and roles
+Business_Actor(innbygger, "Innbygger")
+Business_Role(pasient, "Pasient")
+Business_Role(egenmestrer, "Egenmestrer")
+Business_Role(parorende, "Pårørende")
+
+Business_Actor(helsepersonell, "Helsepersonell")
+Business_Role(behandler, "Behandler og oppfølger")
+Business_Role(anbefaler, "Anbefaler og tildeler")
+
+' Value-creation mechanisms
+Business_Process(problemdefinisjon, "Problemdefinisjon")
+Business_Process(problemlosning, "Problemløsning")
+Business_Process(valg, "Valg av løsning")
+Business_Process(gjennomforing, "Gjennomføring")
+Business_Process(evaluering, "Evaluering")
+
+' E-health capabilities
+Strategy_Capability(c1, "1 Dokumentasjon")
+Strategy_Capability(c2, "2 Pasient-, tjeneste- og\nressursadministrasjon")
+Strategy_Capability(c3, "3 Plan og\noppgaveadministrasjon")
+Strategy_Capability(c4, "4 Kunnskaps- og\nbeslutningsstøtte")
+Strategy_Capability(c5, "5 Kvalitetsforbedring\nog analyse")
+Strategy_Capability(c6, "6 Innbyggertjenester")
+Strategy_Capability(c7, "7 Personverntjenester")
+Strategy_Capability(c8, "8 Brukervennlig IKT")
+
+' Assignment of actors to roles
+innbygger --> pasient
+innbygger --> egenmestrer
+innbygger --> parorende
+helsepersonell --> behandler
+helsepersonell --> anbefaler
+
+' Capability support for value-creation mechanisms
+c1 --> problemdefinisjon
+c4 --> problemdefinisjon
+c6 --> problemdefinisjon
+c3 --> problemlosning
+c4 --> problemlosning
+c6 --> problemlosning
+c2 --> valg
+c4 --> valg
+c6 --> valg
+c1 --> gjennomforing
+c2 --> gjennomforing
+c3 --> gjennomforing
+c6 --> gjennomforing
+c1 --> evaluering
+c5 --> evaluering
+c6 --> evaluering
+c7 ..> problemdefinisjon : sikrer
+c7 ..> gjennomforing : sikrer
+c8 ..> problemdefinisjon : muliggjør
+c8 ..> gjennomforing : muliggjør
+@enduml
