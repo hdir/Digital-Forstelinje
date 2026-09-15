@@ -26,27 +26,70 @@ Dokumentet beskriver helse- og omsorgstjenesten som et verdiverksted: problemer 
 | Evaluering | Måle effekt og vurdere om ønsket effekt er oppnådd. | 1 Dokumentasjon av forløp og tilstand; 5 Kvalitetsforbedring, ledelse, helseanalyse, forskning og beredskap; 6 Innbyggertjenester | Registrerte utfall og målinger; datakvalitet og analyse; tilbakemeldinger, egenregistrering og innbyggerens erfaringer. |
 | Tverrgående muliggjørere | Sikre at hele syklusen er trygg og anvendbar. | 7 Personverntjenester; 8 Brukervennlig IKT | Samtykke, tilgangsstyring og logg; enkelhet i bruk, tilgjengelighet og tilpasning til rolle og arbeidsprosess. |
 
-```mermaid
-flowchart LR
-    PD[Problemdefinisjon] --> PL[Problemløsning]
-    PL --> VL[Valg av løsning]
-    VL --> GF[Gjennomføring]
-    GF --> EV[Evaluering]
-    EV -. læring .-> PD
+```plantuml
+@startuml
+!include <archimate/Archimate>
 
-    C1[1 Dokumentasjon] --> PD
-    C4[4 Kunnskaps- og beslutningsstøtte] --> PL
-    C2[2 Pasient-, tjeneste- og ressursadministrasjon] --> VL
-    C3[3 Plan og oppgaveadministrasjon] --> GF
-    C5[5 Kvalitetsforbedring og analyse] --> EV
-    C6[6 Innbyggertjenester] <--> PD
-    C6 <--> VL
-    C6 <--> GF
-    C6 <--> EV
-    C7[7 Personverntjenester] -. sikrer .-> PD
-    C7 -. sikrer .-> GF
-    C8[8 Brukervennlig IKT] -. muliggjør .-> PD
-    C8 -. muliggjør .-> GF
+skinparam backgroundColor white
+skinparam defaultFontColor #333333
+left to right direction
+
+' Business actors and roles
+Business_Actor(innbygger, "Innbygger") #ffff99
+Business_Role(pasient, "Pasient") #ffff99
+Business_Role(egenmestrer, "Egenmestrer") #ffff99
+Business_Role(parorende, "Pårørende") #ffff99
+
+Business_Actor(helsepersonell, "Helsepersonell") #ffff99
+Business_Role(behandler, "Behandler og oppfølger") #ffff99
+Business_Role(anbefaler, "Anbefaler og tildeler") #ffff99
+
+' Value-creation mechanisms
+Business_Process(problemdefinisjon, "Problemdefinisjon") #ffff99
+Business_Process(problemlosning, "Problemløsning") #ffff99
+Business_Process(valg, "Valg av løsning") #ffff99
+Business_Process(gjennomforing, "Gjennomføring") #ffff99
+Business_Process(evaluering, "Evaluering") #ffff99
+
+' E-health capabilities
+Strategy_Capability(c1, "1 Dokumentasjon") #F5DEAA
+Strategy_Capability(c2, "2 Pasient-, tjeneste- og\nressursadministrasjon") #F5DEAA
+Strategy_Capability(c3, "3 Plan og\noppgaveadministrasjon") #F5DEAA
+Strategy_Capability(c4, "4 Kunnskaps- og\nbeslutningsstøtte") #F5DEAA
+Strategy_Capability(c5, "5 Kvalitetsforbedring\nog analyse") #F5DEAA
+Strategy_Capability(c6, "6 Innbyggertjenester") #F5DEAA
+Strategy_Capability(c7, "7 Personverntjenester") #F5DEAA
+Strategy_Capability(c8, "8 Brukervennlig IKT") #F5DEAA
+
+' Assignment of actors to roles
+innbygger --> pasient
+innbygger --> egenmestrer
+innbygger --> parorende
+helsepersonell --> behandler
+helsepersonell --> anbefaler
+
+' Capability support for value-creation mechanisms
+c1 --> problemdefinisjon
+c4 --> problemdefinisjon
+c6 --> problemdefinisjon
+c3 --> problemlosning
+c4 --> problemlosning
+c6 --> problemlosning
+c2 --> valg
+c4 --> valg
+c6 --> valg
+c1 --> gjennomforing
+c2 --> gjennomforing
+c3 --> gjennomforing
+c6 --> gjennomforing
+c1 --> evaluering
+c5 --> evaluering
+c6 --> evaluering
+c7 ..> problemdefinisjon : sikrer
+c7 ..> gjennomforing : sikrer
+c8 ..> problemdefinisjon : muliggjør
+c8 ..> gjennomforing : muliggjør
+@enduml
 ```
 
 ## Sammenheng mellom kapabilitetsgruppene
