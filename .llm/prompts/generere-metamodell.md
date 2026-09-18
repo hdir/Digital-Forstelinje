@@ -13,6 +13,7 @@ Each file contains unstructured documents containing different kind of data. Thi
 ## Special metadata requirements
 
 * We need to categorize what kind of information the document includes
+* Date of publication
 * We want some information about the person or organization responsible for the document
 * We also want information about wether the document is a published web document or if it have some kind of access restriction (web publish, open, restricted, secret)
 * Optional information about the source where the document can be found

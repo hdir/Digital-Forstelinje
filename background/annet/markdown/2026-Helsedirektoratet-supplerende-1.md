@@ -1,3 +1,31 @@
+---
+id: ANNET-004
+title: "Supplerende tildelingsbrev nr. 1 for 2026"
+document_type: directive_or_assignment
+information_categories:
+	- decision_or_mandate
+	- economic_or_financial
+	- organizational_or_governance
+creator:
+	- name: "Helse- og omsorgsdepartementet"
+		party_type: public_body
+		role: issuer
+publisher:
+	name: "Helse- og omsorgsdepartementet"
+	party_type: public_body
+publication_date: 2026-02-27
+language: nb
+access_level: open
+web_published: false
+original_document:
+	local_path: "annet/input/2026-Helsedirektoratet-supplerende-1.pdf"
+	format: pdf
+	online_status: not_checked
+normative_level: formal_decision
+status: current
+metadata_confidence: high
+---
+
 ![](_page_0_Picture_0.jpeg)
 
 # **Supplerende tildelingsbrev nr. 1 for 2026**

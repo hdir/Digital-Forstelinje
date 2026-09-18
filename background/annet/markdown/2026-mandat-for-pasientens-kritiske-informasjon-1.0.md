@@ -1,3 +1,33 @@
+---
+id: ANNET-012
+title: "Mandat for tiltaket pasientens kritiske informasjon"
+document_type: directive_or_assignment
+information_categories:
+	- decision_or_mandate
+	- goal_or_outcome
+	- organizational_or_governance
+	- implementation_or_operations
+creator:
+	- name: "Helse- og omsorgsdepartementet"
+		party_type: public_body
+		role: issuer
+publisher:
+	name: "Helse- og omsorgsdepartementet"
+	party_type: public_body
+publication_date: 2026-01-19
+language: nb
+access_level: open
+web_published: false
+original_document:
+	local_path: "annet/input/2026-mandat-for-pasientens-kritiske-informasjon-1.0.pdf"
+	format: pdf
+	online_status: not_checked
+normative_level: formal_decision
+status: current
+version: "1.0"
+metadata_confidence: high
+---
+
 
 
 # Mandat for tiltaket *pasientens kritiske informasjon*

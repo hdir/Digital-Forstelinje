@@ -1,3 +1,32 @@
+---
+id: ANNET-003
+title: "Sammen om rask og riktig psykisk helsehjelp"
+document_type: report
+information_categories:
+  - empirical_evidence
+  - problem_or_challenge
+  - stakeholder_view
+  - recommendation
+creator:
+  - name: "Helsefellesskap Oslo"
+    party_type: organization
+summary: "Innsiktsrapport om rask og riktig psykisk helsehjelp."
+topics:
+  - psykisk helse
+  - helsefellesskap
+language: nb
+access_level: open
+web_published: false
+original_document:
+  local_path: "annet/input/20251209_Innsiktsrapport_Sammen-om-rask-og-riktig-psykisk-helsehjelp_Helsefellesskap-Oslo-2.pdf"
+  format: pdf
+  online_status: not_checked
+normative_level: none
+status: current
+publication_date: 2025-12-09
+metadata_confidence: medium
+---
+
 
 
 # Sammen om rask og riktig psykisk helsehjelp barn og unge

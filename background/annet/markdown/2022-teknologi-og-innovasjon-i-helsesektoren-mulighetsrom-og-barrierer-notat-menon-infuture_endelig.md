@@ -1,3 +1,34 @@
+---
+id: ANNET-002
+title: "Teknologi og innovasjon i helsesektoren - mulighetsrom og barrierer"
+document_type: analysis_or_evaluation
+information_categories:
+	- problem_or_challenge
+	- empirical_evidence
+	- proposal_or_measure
+	- research_or_method
+creator:
+	- name: "Menon Economics / inFuture"
+		party_type: company
+summary: "Notat om mulighetsrom og barrierer for teknologi og innovasjon i helsesektoren."
+topics:
+	- teknologi
+	- innovasjon
+	- helsesektoren
+language: nb
+access_level: open
+web_published: false
+original_document:
+	local_path: "annet/input/2022-teknologi-og-innovasjon-i-helsesektoren-mulighetsrom-og-barrierer-notat-menon-infuture_endelig.pdf"
+	format: pdf
+	online_status: not_checked
+normative_level: none
+status: historical
+publication_date: 2022-01-01
+metadata_confidence: medium
+notes: "Dato er satt til årstall fra filnavnet fordi full publiseringsdato ikke er registrert."
+---
+
 
 
 # TEKNOLOGI OG INNOVASJON I HELSE- OG OMSORGSSSEKTOREN – MULIGHETER OG BARRIERER

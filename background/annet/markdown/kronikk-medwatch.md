@@ -1,3 +1,34 @@
+---
+id: ANNET-020
+title: "Kronikk om innovasjon og KI i helsetjenesten"
+document_type: presentation_or_note
+information_categories:
+	- stakeholder_view
+	- problem_or_challenge
+	- proposal_or_measure
+creator:
+	- name: "Anders Austlid Tasken"
+		party_type: person
+		role: author
+		affiliation: "Vidd Medical"
+summary: "Debattinnlegg om barrierer for innovasjon og klinisk KI i helsetjenesten."
+topics:
+	- innovasjon
+	- kunstig intelligens
+	- offentlige anskaffelser
+language: nb
+access_level: open
+web_published: false
+original_document:
+	local_path: "annet/input/kronikk-medwatch.md"
+	format: md
+	online_status: not_checked
+normative_level: none
+status: current
+metadata_confidence: high
+notes: "Dokumentet opplyser selv at det er et uttrykk for skribentens mening."
+---
+
 Et debattinnlegg er en meningsartikkel. Debattinnlegget er utelukkende et uttrykk for skribentens egen mening.
 
 Kronikken er skrevet av Av Anders Austlid Taskén, medgründer og KI-ingeniør i Vidd Medical. PhD i kunstig intelligens fra NTNU/St. Olavs hospital. Selskapet Vidd utvikler KI-verktøy for blant annet notatskriving, epikriser og ukesoppsummeringer.

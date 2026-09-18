@@ -1,3 +1,33 @@
+---
+id: ANNET-019
+title: "Funksjonell innsikt v1 - Digital hjemmeoppfølging i Helse Nord"
+document_type: report
+information_categories:
+  - stakeholder_view
+  - need_or_requirement
+  - problem_or_challenge
+  - research_or_method
+creator:
+  - name: "Helse Nord"
+    party_type: public_body
+    role: project
+summary: "Funksjonell innsiktsrapport fra arbeidet med digital hjemmeoppfølging i Helse Nord."
+topics:
+  - digital hjemmeoppfølging
+  - Helse Nord
+language: nb
+access_level: open
+web_published: false
+original_document:
+  local_path: "annet/input/HelseNord-DHO-funksjonell-innsiktsrapport-v1.pdf"
+  format: pdf
+  online_status: not_checked
+normative_level: none
+status: unknown
+version: "1.0"
+metadata_confidence: medium
+---
+
 
 
 # Funksjonell innsikt v1.0

@@ -1,3 +1,32 @@
+---
+id: ANNET-025
+title: "Sykehuspartner HF utviklingsplan 2024-2028"
+document_type: strategy_or_plan
+information_categories:
+	- goal_or_outcome
+	- organizational_or_governance
+	- technical_or_architectural
+	- implementation_or_operations
+creator:
+	- name: "Sykehuspartner HF"
+		party_type: public_body
+publisher:
+	name: "Sykehuspartner HF"
+	party_type: public_body
+publication_date: 2024-01-01
+language: nb
+access_level: open
+web_published: false
+original_document:
+	local_path: "annet/input/sykehuspartner-hf-utviklingsplan-2024-2028.pdf"
+	format: pdf
+	online_status: not_checked
+normative_level: descriptive
+status: current
+metadata_confidence: medium
+notes: "Dato er satt til første år i planperioden."
+---
+
 
 
 ![](sykehuspartner-hf-utviklingsplan-2024-2028/2dfa6ac3edfe874f68aa0cbccaa42322_img.jpg)

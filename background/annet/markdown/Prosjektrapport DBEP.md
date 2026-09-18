@@ -1,3 +1,33 @@
+---
+id: ANNET-021
+title: "Digital behandlings- og egenbehandlingsplan (DBEP) - prosjektrapport 2021-2023"
+document_type: report
+information_categories:
+    - descriptive
+    - research_or_method
+    - evaluation_or_effects
+    - implementation_or_operations
+creator:
+    - name: unknown
+        party_type: unknown
+summary: "Prosjektrapport om digital behandlings- og egenbehandlingsplan."
+topics:
+    - digital behandlingsplan
+    - egenbehandlingsplan
+language: nb
+access_level: open
+web_published: false
+original_document:
+    local_path: "annet/input/Prosjektrapport DBEP.docx"
+    format: docx
+    online_status: not_checked
+normative_level: none
+status: draft
+publication_date: 2023-01-01
+metadata_confidence: medium
+notes: "Dokumenttittelen angir at rapporten er et utkast. Dato er satt til siste år i rapportperioden."
+---
+
 
 
 # Digital behandlings- og egenbehandlingsplan (DBEP) Prosjektrapport 2021-2023- Utkast

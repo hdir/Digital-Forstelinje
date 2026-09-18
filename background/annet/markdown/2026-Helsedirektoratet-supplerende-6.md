@@ -1,3 +1,32 @@
+---
+id: ANNET-008
+title: "Supplerende tildelingsbrev nr. 6 for 2026"
+document_type: directive_or_assignment
+information_categories:
+  - decision_or_mandate
+  - economic_or_financial
+  - organizational_or_governance
+creator:
+  - name: "Helse- og omsorgsdepartementet"
+    party_type: public_body
+    role: issuer
+publisher:
+  name: "Helse- og omsorgsdepartementet"
+  party_type: public_body
+publication_date: 2026-01-01
+language: nb
+access_level: open
+web_published: false
+original_document:
+  local_path: "annet/input/2026-Helsedirektoratet-supplerende-6.pdf"
+  format: pdf
+  online_status: not_checked
+normative_level: formal_decision
+status: current
+metadata_confidence: medium
+notes: "Dato er satt til årstall fra filnavnet fordi full dato ikke er registrert i metadata."
+---
+
 
 
 Helsedirektoratet  

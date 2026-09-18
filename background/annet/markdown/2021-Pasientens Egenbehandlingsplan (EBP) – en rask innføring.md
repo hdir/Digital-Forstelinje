@@ -1,3 +1,31 @@
+---
+id: ANNET-001
+title: "Pasientens Egenbehandlingsplan (EBP) - en rask innføring"
+document_type: guidance
+information_categories:
+	- descriptive
+	- recommendation
+	- implementation_or_operations
+creator:
+	- name: unknown
+		party_type: unknown
+summary: "Kort innføring i pasientens egenbehandlingsplan."
+topics:
+	- egenbehandlingsplan
+	- pasientmedvirkning
+language: nb
+access_level: open
+web_published: false
+original_document:
+	local_path: "annet/input/2021-Pasientens Egenbehandlingsplan (EBP) – en rask innføring.pdf"
+	format: pdf
+	online_status: not_checked
+normative_level: advisory
+status: unknown
+metadata_confidence: medium
+notes: "Ansvarlig utgiver og publiseringskilde fremgår ikke tydelig av dokumentutdraget."
+---
+
 
 
 # Pasientens Egenbehandlingsplan (EBP) – en rask innføring
