@@ -60,67 +60,14 @@ Kilder:
 
 ## 4 Oversiktsfigur
 
-```mermaid
-flowchart TB
-    subgraph HP["Helsepersonell – nasjonale e-helseløsninger (NHN)"]
-        direction TB
-        ER[E-resept / Sentral\nforskrivningsmodul]
-        KJ[Kjernejournal portal /\nKritisk informasjon]
-        PJ[Pasientens journal-\ndokumenter, prøvesvar,\nrekvisisjoner]
-        PP[Pasientens planer /\nmåledata]
-        DHG[Digitalt helsekort\nfor gravide]
-        MEV[Elektronisk\nmeldingsutveksling]
-        MHE[MyHealthatEU]
-        MELD[Melde / Fødsels-\nmeldingssystemet]
-    end
+![Arkitekturlandskap for nasjonale e-helsetjenester](oversikt-arkitekturlandskap-e-helsetjenester.drawio)
 
-    subgraph GM["Felles grunnmur – tillits- og samhandlingstjenester"]
-        direction TB
-        HID[HelseID]
-        HNETT[Helsenettforbindelse]
-        PVK[Personvernkomponent /\nreservasjon]
-        IDP[ID-porten / Innbygger-STS]
-    end
+Figuren er organisert i tre kolonner: helsepersonelltjenester (NHN) til venstre, felles
+grunnmur av tillits- og samhandlingstjenester (HelseID, Helsenettforbindelse,
+personvernkomponent, ID-porten/Innbygger-STS) i midten, og innbyggertjenester
+(Helsenorge) til høyre. Heltrukne piler viser systemintegrasjon gjennom grunnmuren, mens
+stiplede piler viser hvor de samme underliggende dataene/prosessene vises på begge sider
+– med ulikt grensesnitt og formål for hver brukergruppe.
 
-    subgraph IB["Innbygger – Helsenorgetjenester"]
-        direction TB
-        DIA[Dialog: E-konsultasjon,\nE-kontakt, Reseptfornyelse]
-        JI[Journalinnsyn]
-        TA[Timeavtaler]
-        OPP[Oppgave]
-        HK[Helsekontakter]
-        PVI[Personverninnstillinger]
-        RT[Representasjon og tilgang]
-        VRK[Verktøy]
-        HV[Hendelsesvarsel]
-    end
-
-    ER --> MEV
-    KJ --> PVK
-    PJ --> MEV
-    MHE --> IDP
-    MELD --> HV
-
-    MEV --> HNETT
-    HID --> IDP
-    PVK --> IDP
-
-    HNETT --> DIA
-    IDP --> RT
-    IDP --> PVI
-    PVK --> PVI
-
-    ER -.delt legemiddelgrunnlag.-> DIA
-    KJ -.delt journal-/kritisk info.-> JI
-    PJ -.delt dokument-/prøvesvar.-> JI
-    PP -.delt plan.-> TA
-    PP -.delt plan.-> OPP
-    DHG -.delt forløp.-> HK
-    MELD -.utløser varsel.-> HV
-```
-
-Figuren viser at helsepersonell- og innbyggertjenestene sjelden kobles direkte sammen, men
-deler underliggende data og prosesser gjennom en felles grunnmur av tillits- og
-samhandlingstjenester (HelseID, Helsenettforbindelse, personvernkomponent, ID-porten/
-Innbygger-STS). De stiplede pilene viser hvor de samme underliggende dataene/prosessene
-vises på begge sider – med ulikt grensesnitt og formål for hver brukergruppe.
+Kilde-diagram: [oversikt-arkitekturlandskap-e-helsetjenester.drawio](oversikt-arkitekturlandskap-e-helsetjenester.drawio)
+(åpnes med draw.io-utvidelsen i VS Code eller på [app.diagrams.net](https://app.diagrams.net)).
