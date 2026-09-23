@@ -70,7 +70,7 @@ flowchart TB
         PP[Pasientens planer /\nmåledata]
         DHG[Digitalt helsekort\nfor gravide]
         MEV[Elektronisk\nmeldingsutveksling]
-        MHE[MyHealth@EU]
+        MHE[MyHealthatEU]
         MELD[Melde / Fødsels-\nmeldingssystemet]
     end
 
