@@ -8,7 +8,7 @@
                     <mxGeometry x="40" width="260" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="hdr-gm" value="Felles grunnmur – tillits- og samhandlingstjenester" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="740" width="220" height="40" as="geometry"/>
+                    <mxGeometry x="360" y="760" width="220" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="hdr-ib" value="Innbygger – Helsenorgetjenester" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" parent="1" vertex="1">
                     <mxGeometry x="640" width="260" height="40" as="geometry"/>
@@ -84,7 +84,7 @@
                 <mxCell id="e-L3-L6" style="endArrow=block;html=1;strokeColor=#666666;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="L3" target="L6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e-L2-M3" style="endArrow=block;html=1;strokeColor=#666666;rounded=0;" parent="1" source="L2" target="M3" edge="1">
+                <mxCell id="e-L2-M3" style="endArrow=block;html=1;strokeColor=#666666;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="L2" target="M3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="e-L7-M4" style="endArrow=block;html=1;strokeColor=#666666;rounded=0;" parent="1" source="L7" target="M4" edge="1">
