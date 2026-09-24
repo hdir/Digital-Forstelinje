@@ -1,0 +1,900 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Helsedirektoratet" name="author"/>
+<link href="../../logo/ehelse-hvit.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.7.7" name="generator"/>
+<title>Arkitekturlandskap for nasjonale e-helsetjenester – helsepersonell og innbygger - Arkitektur for digital førstelinje</title>
+<link href="../../assets/stylesheets/main.ec1eaa64.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="red" data-md-color-primary="black" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#arkitekturlandskap-for-nasjonale-e-helsetjenester-helsepersonell-og-innbygger">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Arkitektur for digital førstelinje" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Arkitektur for digital førstelinje">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Arkitektur for digital førstelinje
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Arkitekturlandskap for nasjonale e-helsetjenester – helsepersonell og innbygger
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="red" data-md-color-media="" data-md-color-primary="black" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="red" data-md-color-media="" data-md-color-primary="black" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/hdir/Digital-Forstelinje" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+</div>
+<div class="md-source__repository">
+    hdir/Digital-Forstelinje
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Arkitektur for digital førstelinje" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Arkitektur for digital førstelinje">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Arkitektur for digital førstelinje
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/hdir/Digital-Forstelinje" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+</div>
+<div class="md-source__repository">
+    hdir/Digital-Forstelinje
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    
+  
+    Arkitekturskisser
+  
+
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Arkitekturskisser
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../interessent/">
+<span class="md-ellipsis">
+    
+  
+    Interessentanalyser
+  
+
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Interessentanalyser
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interessent/verdi/">
+<span class="md-ellipsis">
+    
+  
+    Verdiforslag
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interessent/concern/">
+<span class="md-ellipsis">
+    
+  
+    Interesser
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interessent/goals/">
+<span class="md-ellipsis">
+    
+  
+    Målbilde
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../interessent/helsereform/">
+<span class="md-ellipsis">
+    
+  
+    Innspill helsereformutvalget
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../strategi/">
+<span class="md-ellipsis">
+    
+  
+    Verdikjede og strategi
+  
+
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Verdikjede og strategi
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../strategi/value-chain/">
+<span class="md-ellipsis">
+    
+  
+    Verdikjede Innbygger
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../strategi/value-chain-apper/">
+<span class="md-ellipsis">
+    
+  
+    Verdikjeder økosystem
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../strategi/tiltak-kapabiliteter/">
+<span class="md-ellipsis">
+    
+  
+    Tiltak i programmet
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../">
+<span class="md-ellipsis">
+    
+  
+    Forretningsarkitektur
+  
+
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Forretningsarkitektur
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../oversikt-arkitekturlandskap-e-helsetjenester.md">
+<span class="md-ellipsis">
+    
+  
+    Nasjonale e-helsetjenester
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../application/">
+<span class="md-ellipsis">
+    
+  
+    Applikasjonsarkitektur
+  
+
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Applikasjonsarkitektur
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../why/">
+<span class="md-ellipsis">
+    
+  
+    Motivasjon for virksomhetsarkitektur
+  
+
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Motivasjon for virksomhetsarkitektur
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1-tjenester-for-helsepersonell-nhn">
+<span class="md-ellipsis">
+      
+        1 Tjenester for helsepersonell (NHN)
+      
+    </span>
+</a>
+<nav aria-label="1 Tjenester for helsepersonell (NHN)" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11-status-og-datagrunnlag-per-tjeneste">
+<span class="md-ellipsis">
+      
+        1.1 Status og datagrunnlag per tjeneste
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2-tjenester-for-innbygger-helsenorge">
+<span class="md-ellipsis">
+      
+        2 Tjenester for innbygger (Helsenorge)
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3-koblinger-mellom-innbygger-og-helsepersonelltjenester">
+<span class="md-ellipsis">
+      
+        3 Koblinger mellom innbygger- og helsepersonelltjenester
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4-oversiktsfigur">
+<span class="md-ellipsis">
+      
+        4 Oversiktsfigur
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="arkitekturlandskap-for-nasjonale-e-helsetjenester-helsepersonell-og-innbygger">Arkitekturlandskap for nasjonale e-helsetjenester – helsepersonell og innbygger</h1>
+<p>Kort oversikt over hvordan de nasjonale e-helseløsningene for helsepersonell (NHN) og
+innbyggertjenestene på Helsenorge henger sammen, gjennom en felles grunnmur av
+tillits- og samhandlingstjenester.</p>
+<p>Kilder:</p>
+<ul>
+<li><a href="https://www.nhn.no/tjenester">nhn.no/tjenester</a> – oversikt over nasjonale e-helseløsninger for helsepersonell</li>
+<li><a href="https://helsenorge.atlassian.net/wiki/spaces/HELSENORGE/pages/690749444/Helsenorgetjenester">Helsenorgetjenester (Confluence)</a> – oversikt over tjenester for innbygger på Helsenorge</li>
+</ul>
+<hr/>
+<h2 id="1-tjenester-for-helsepersonell-nhn">1 Tjenester for helsepersonell (NHN)</h2>
+<table>
+<thead>
+<tr>
+<th>Gruppe</th>
+<th>Tjenester</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nasjonale e-helseløsninger</td>
+<td>Digitalt helsekort for gravide; Dokumentlager; E-resept; Helsenorge; Kjernejournal portal; Kritisk informasjon; MyHealth@EU; Pasientens journaldokumenter; Pasientens planer; Pasientens måledata; Pasientens prøvesvar; Pasientens rekvisisjoner; Sentral forskrivningsmodul; Velferdsteknologisk knutepunkt</td>
+</tr>
+<tr>
+<td>Grunnleggende tjenester</td>
+<td>Elektronisk meldingsutveksling; HelseID; Helsenettforbindelse</td>
+</tr>
+<tr>
+<td>Videotjenester</td>
+<td>Nasjonal videoplattform for pasient/helsepersonell og fagmiljø</td>
+</tr>
+<tr>
+<td>Registre</td>
+<td>Adresseregisteret; Fastlegeregisteret; Helsepersonellregisteret; Legestillingsregisteret; Medisinske kvalitetsregistre; Persontjenesten; Register for enheter i spesialisthelsetjenesten</td>
+</tr>
+<tr>
+<td>Innrapportering</td>
+<td>Dødsfall og dødsårsak; Fødselsmeldingssystemet; Melde (uønskede hendelser)</td>
+</tr>
+<tr>
+<td>Tilleggstjenester / øvrig</td>
+<td>Domene; Fjernhjelp; Hjemmekontor; Helse- og kommuneCERT; Testunivers; Tjenester for helseforvaltningen</td>
+</tr>
+</tbody>
+</table>
+<h3 id="11-status-og-datagrunnlag-per-tjeneste">1.1 Status og datagrunnlag per tjeneste</h3>
+<p>Hentet fra hver tjenestes underside på nhn.no/tjenester (lenke i kolonnen «Kilde»). Gjelder
+gruppene «Nasjonale e-helseløsninger» og «Grunnleggende tjenester», som er de tjenestene
+som inngår i koblingene i kapittel 3 og i figuren i kapittel 4.</p>
+<table>
+<thead>
+<tr>
+<th>Tjeneste</th>
+<th>Hva den gjør</th>
+<th>Datagrunnlag</th>
+<th>Status</th>
+<th>Kilde</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Digitalt helsekort for gravide (DHG)</td>
+<td>Gjør helseopplysninger om gravide tilgjengelig for alle involvert i svangerskapsomsorgen; den gravide får tilgang via en egen side på Helsenorge (<code>helsenorge.no/gravid/tjeneste-for-gravide</code>), ikke via en av standardkategoriene i Helsenorgetjenester-oversikten</td>
+<td>Journalsystem hos jordmor/fastlege/spesialisthelsetjeneste (API)</td>
+<td>Gradvis innføring – landsdekkende for primærhelsetjenesten fra februar 2026, passert 1000 gravide i mai 2026, mål om alle gravide i 2027</td>
+<td><a href="https://www.nhn.no/tjenester/digitalt-helsekort-for-gravide">digitalt-helsekort-for-gravide</a>; <a href="https://www.nhn.no/tjenester/digitalt-helsekort-for-gravide/om-tjenesten">om-tjenesten</a> (lenke «Gå til helsenorge.no» → helsenorge.no/gravid/tjeneste-for-gravide); <a href="https://www.nhn.no/nyheter/Tusen%20gravide%20har%20f%C3%A5tt%20digitalt%20helsekort%20p%C3%A5%20Helsenorge">nyhetsartikkel</a></td>
+</tr>
+<tr>
+<td>Dokumentlager</td>
+<td>Lar helsevirksomheter lagre og dele journaldokumenter med annet helsepersonell (via Kjernejournal) og med innbygger (via Helsenorge), uten egen infrastruktur</td>
+<td>Journalsystem + NHNs dokumentlager (API)</td>
+<td>I drift</td>
+<td><a href="https://www.nhn.no/tjenester/dokumentlager">dokumentlager</a></td>
+</tr>
+<tr>
+<td>E-resept</td>
+<td>Elektronisk samhandlingskjede for sikker overføring av reseptinformasjon mellom forskriver, apotek og pasient</td>
+<td>Reseptformidleren</td>
+<td>I drift – etablert, «nesten alle leger bruker nå e-resept»</td>
+<td><a href="https://www.nhn.no/tjenester/e-resept">e-resept</a></td>
+</tr>
+<tr>
+<td>Helsenorge</td>
+<td>Nasjonal innbyggerportal; gir helsepersonell mulighet til å kommunisere digitalt med pasienter</td>
+<td>Aggregerer data fra de øvrige nasjonale e-helseløsningene</td>
+<td>I drift</td>
+<td><a href="https://www.nhn.no/tjenester/helsenorge">helsenorge</a></td>
+</tr>
+<tr>
+<td>Kjernejournal portal</td>
+<td>Eget brukergrensesnitt som gir helsepersonell tilgang til kritisk informasjon, legemiddelhistorikk, journaldokumenter, prøvesvar og vaksiner, uavhengig av arbeidssted</td>
+<td>Samler data fra flere kilder inn i Kjernejournal</td>
+<td>I drift</td>
+<td><a href="https://www.nhn.no/tjenester/kjernejournal">kjernejournal</a></td>
+</tr>
+<tr>
+<td>Kritisk informasjon (Pasientens kritiske informasjon)</td>
+<td>Gjør kritisk informasjon (legemiddelallergier, spesielle lidelser, komplikasjoner ved anestesi) tilgjengelig på tvers av helseinstitusjoner</td>
+<td>Kjernejournalforskriften-hjemlet register</td>
+<td>I drift – via Kjernejournal portal fra juni 2024, direkte i journalsystem (API) fra desember 2024</td>
+<td><a href="https://www.nhn.no/tjenester/kritisk-informasjon">kritisk-informasjon</a></td>
+</tr>
+<tr>
+<td>MyHealth@EU</td>
+<td>Utveksling av helseopplysninger på tvers av landegrenser (EU/EØS)</td>
+<td>Nasjonalt kontaktpunkt koblet til EUs digitale infrastruktur</td>
+<td>Under utprøving</td>
+<td><a href="https://www.nhn.no/tjenester/myhealth">myhealth</a></td>
+</tr>
+<tr>
+<td>Pasientens journaldokumenter</td>
+<td>Gir helsepersonell med tjenstlig behov tilgang til å lese journaldokumenter (epikriser, radiologibeskrivelser, henvisninger, prøvesvar) på tvers av institusjoner</td>
+<td>Journalsystem (API) og Kjernejournal portal</td>
+<td>Gradvis tilkobling av virksomheter (se leverandøroversikt/veikart)</td>
+<td><a href="https://www.nhn.no/tjenester/pasientens-journaldokumenter">pasientens-journaldokumenter</a></td>
+</tr>
+<tr>
+<td>Pasientens planer</td>
+<td>Skal gi helsepersonell på tvers av behandlingsnivå lik mulighet til å jobbe med samme behandlingsplan for en pasient</td>
+<td>Fastlegens journalsystem + løsning for digital hjemmeoppfølging</td>
+<td>Under utprøving – første steg prøves ut høsten 2026, foreløpig fastleger/utvalgte kommuner og spesialisthelsetjenesten. <strong>Ingen bekreftet kobling til Helsenorge</strong> (se kapittel 3)</td>
+<td><a href="https://www.nhn.no/tjenester/pasientens-planer">pasientens-planer</a></td>
+</tr>
+<tr>
+<td>Pasientens måledata (PMD)</td>
+<td>Deler medisinske måledata (blodtrykk, puls, respirasjonsfrekvens, oksygenmetning) mellom helsepersonell og med pasienten selv</td>
+<td>Medisinsk-teknisk utstyr/journalsystem (API)</td>
+<td>Under utprøving. Pasienten får tilgang til egne måledata via Helsenorge (se kapittel 3)</td>
+<td><a href="https://www.nhn.no/tjenester/pasientens-maledata">pasientens-maledata</a></td>
+</tr>
+<tr>
+<td>Pasientens prøvesvar (PPS)</td>
+<td>Deler laboratorie- og radiologisvar mellom helsepersonell uavhengig av behandlingsnivå og hvor prøven er tatt</td>
+<td>Kopi av prøvesvar sendt via ordinær meldingsutveksling til PPS</td>
+<td>Under utprøving – breddes gradvis til flere virksomheter, omfatter ikke historiske data ved oppstart</td>
+<td><a href="https://www.nhn.no/tjenester/pasientens-provesvar">pasientens-provesvar</a></td>
+</tr>
+<tr>
+<td>Pasientens rekvisisjoner</td>
+<td>Lar helsepersonell utstede og håndtere rekvisisjoner elektronisk på tvers av helseinstitusjoner</td>
+<td>Fagsystem for rekvirering og prøvetaking (API)</td>
+<td>Under utprøving – kun tilgjengelig for virksomheter som deltar i utprøvingen</td>
+<td><a href="https://www.nhn.no/tjenester/Pasientens-rekvisisjoner">Pasientens-rekvisisjoner</a></td>
+</tr>
+<tr>
+<td>Sentral forskrivningsmodul (SFM)</td>
+<td>Gir sentralisert og oppdatert oversikt over pasientens legemiddelbehandling direkte i journalsystemet</td>
+<td>E-resept, pasientens legemiddelliste (PLL), e-multidose</td>
+<td>Gradvis innføring hos journalsystemleverandører</td>
+<td><a href="https://www.nhn.no/tjenester/sentralforskrivningsmodul">sentralforskrivningsmodul</a></td>
+</tr>
+<tr>
+<td>Velferdsteknologisk knutepunkt (VKP)</td>
+<td>Håndterer informasjonsflyt mellom velferdsteknologiske løsninger og kommunens elektroniske pasientjournal (EPJ)</td>
+<td>Velferdsteknologiske sensorer/systemer</td>
+<td>I drift (ny løsning) – gammel VKP-løsning («VKP min side») under avvikling</td>
+<td><a href="https://www.nhn.no/tjenester/velferdsteknologisk-knutepunkt">velferdsteknologisk-knutepunkt</a></td>
+</tr>
+<tr>
+<td>Elektronisk meldingsutveksling</td>
+<td>Lar helsepersonell sende og motta elektroniske meldinger (henvisninger, epikriser, dialogmeldinger mv.) på tvers av institusjoner</td>
+<td>EDI/meldingstjenester over Helsenettet</td>
+<td>I drift – etablert, høyt volum</td>
+<td><a href="https://www.nhn.no/tjenester/elektronisk-meldingsutveksling">elektronisk-meldingsutveksling</a></td>
+</tr>
+<tr>
+<td>HelseID</td>
+<td>Felles påloggingsløsning (autentisering) for helsepersonell, systemer og virksomheter</td>
+<td>Identitetsføderasjon for helse- og omsorgssektoren</td>
+<td>I drift</td>
+<td><a href="https://www.nhn.no/tjenester/helseid">helseid</a></td>
+</tr>
+<tr>
+<td>Helsenettforbindelse</td>
+<td>Sikker forbindelse til Helsenettet; forutsetning for meldingsutveksling og øvrige nasjonale e-helseløsninger</td>
+<td>Nettverksinfrastruktur (direkte, sky, IPVPN eller internett)</td>
+<td>I drift</td>
+<td><a href="https://www.nhn.no/tjenester/Helsenettforbindelse">Helsenettforbindelse</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-tjenester-for-innbygger-helsenorge">2 Tjenester for innbygger (Helsenorge)</h2>
+<table>
+<thead>
+<tr>
+<th>Gruppe</th>
+<th>Tjenester/innhold</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dialog</td>
+<td>E-konsultasjon; E-kontakt; Reseptfornyelse; Journalkopi; Enveiskontakt; Dialog helsepersonell (spesialisthelsetjenesten)</td>
+</tr>
+<tr>
+<td>Journalinnsyn</td>
+<td>Innsyn pasientjournal</td>
+</tr>
+<tr>
+<td>Timeavtaler</td>
+<td>Bestille, bekrefte og administrere timer</td>
+</tr>
+<tr>
+<td>Personverninnstillinger</td>
+<td>Reservasjoner, samtykker, sperringer</td>
+</tr>
+<tr>
+<td>Representasjon og tilgang</td>
+<td>Helsenorge aktiv; Helsenorge-innlogging; fullmakt/representasjon for andre</td>
+</tr>
+<tr>
+<td>Registerinnsyn sekundærbruk</td>
+<td>Innsyn i registre til sekundærbruk</td>
+</tr>
+<tr>
+<td>Helsekontakter</td>
+<td>Helsekontakt (kobling mot fastlege/tjeneste)</td>
+</tr>
+<tr>
+<td>Oppgave</td>
+<td>Oppgaver til innbygger</td>
+</tr>
+<tr>
+<td>Skjema</td>
+<td>Skjema og strukturert datafangst</td>
+</tr>
+<tr>
+<td>Screening</td>
+<td>Screeningprogrammer</td>
+</tr>
+<tr>
+<td>Forskning</td>
+<td>Deltakelse/informasjon om forskning</td>
+</tr>
+<tr>
+<td>Hendelsesvarsel</td>
+<td>Varsling ved hendelser</td>
+</tr>
+<tr>
+<td>Verktøy</td>
+<td>Helseverktøy (egenmestring)</td>
+</tr>
+<tr>
+<td>Videosamspill</td>
+<td>Videokonsultasjon/-samspill</td>
+</tr>
+<tr>
+<td>Tilpass Helsenorge</td>
+<td>Fraværsregistrering; infomeldinger</td>
+</tr>
+<tr>
+<td>Brev</td>
+<td>Formidling av brev, valg av kanal</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-koblinger-mellom-innbygger-og-helsepersonelltjenester">3 Koblinger mellom innbygger- og helsepersonelltjenester</h2>
+<p>Tabellen under skiller mellom koblinger som er <strong>bekreftet i kildene</strong> (tjenestens egen
+nhn.no-underside, eller Målarkitektur-dokumentet for de tillitstjenestene som ikke er
+omtalt på nhn.no) og koblinger som <strong>ikke er dokumentert</strong> og derfor tatt ut eller markert
+som antakelser. Dette rettet blant annet opp i den tidligere påstanden om en direkte
+kobling mellom «Pasientens planer» og «Timeavtaler»/«Oppgave» – denne er ikke omtalt i
+noen av kildene og er derfor fjernet fra tabellen (se egen rad nederst).</p>
+<table>
+<thead>
+<tr>
+<th>Helsepersonelltjeneste (NHN)</th>
+<th>Innbyggertjeneste (Helsenorge)</th>
+<th>Delt grunnlag</th>
+<th>Kilde/dokumentasjon</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E-resept / Sentral forskrivningsmodul</td>
+<td>Reseptfornyelse, reseptoversikt (Dialog)</td>
+<td>Reseptformidleren / pasientens legemiddelliste</td>
+<td><a href="https://www.nhn.no/tjenester/e-resept">e-resept</a>; <code>background/akson/markdown/Bilag G1 Felles kommunal journalløsning.md</code> (avsnitt om «Mine resepter» på helsenorge.no)</td>
+</tr>
+<tr>
+<td>Dokumentlager</td>
+<td>Journalinnsyn</td>
+<td>Dokumentlageret deler eksplisitt til <em>både</em> Kjernejournal (helsepersonell) og Helsenorge (innbygger)</td>
+<td><a href="https://www.nhn.no/tjenester/dokumentlager">dokumentlager</a> («... dele journaldokumenter med annet helsepersonell gjennom Kjernejournal og Helsenorge»)</td>
+</tr>
+<tr>
+<td>Pasientens journaldokumenter</td>
+<td>Journalinnsyn</td>
+<td>Samme journaldokumenter (epikriser, henvisninger, radiologibeskrivelser, prøvesvar)</td>
+<td><a href="https://www.nhn.no/tjenester/pasientens-journaldokumenter">pasientens-journaldokumenter</a> (lenke «Gå til helsenorge.no» → helsenorge.no/pasientjournal)</td>
+</tr>
+<tr>
+<td>Pasientens prøvesvar (PPS)</td>
+<td>Journalinnsyn</td>
+<td>Samme prøvesvar; kopi sendes via ordinær meldingsutveksling til PPS</td>
+<td><a href="https://www.nhn.no/tjenester/pasientens-provesvar">pasientens-provesvar</a> (lenke «Gå til helsenorge.no» → helsenorge.no/provesvar)</td>
+</tr>
+<tr>
+<td>Pasientens rekvisisjoner</td>
+<td>Oppgave / Hendelsesvarsel</td>
+<td>Samme rekvisisjon; pasienten varsles og ser status på Helsenorge</td>
+<td><a href="https://www.nhn.no/tjenester/Pasientens-rekvisisjoner">Pasientens-rekvisisjoner</a> («Pasienten ser sine rekvisisjoner og blir varslet på Helsenorge»)</td>
+</tr>
+<tr>
+<td>Pasientens måledata (PMD)</td>
+<td>Journalinnsyn</td>
+<td>Samme måledata (blodtrykk, puls mv.)</td>
+<td><a href="https://www.nhn.no/tjenester/pasientens-maledata">pasientens-maledata</a> («Pasienten får tilgang til sine måledata gjennom Helsenorge»)</td>
+</tr>
+<tr>
+<td>Digitalt helsekort for gravide</td>
+<td>Ingen av standardkategoriene i Helsenorgetjenester-oversikten – egen side/verktøy for gravide (<code>helsenorge.no/gravid/tjeneste-for-gravide</code>), nærmest i slækt med kategorien Verktøy siden den gravide fyller ut informasjon og får persontilpasset innhold der</td>
+<td>Samme svangerskapsjournal; den gravide får tilgang, fyller ut skjema og ser persontilpasset informasjon via denne siden</td>
+<td><a href="https://www.nhn.no/tjenester/digitalt-helsekort-for-gravide/om-tjenesten">om-tjenesten</a> (lenke «Gå til helsenorge.no» → helsenorge.no/gravid/tjeneste-for-gravide); <a href="https://www.nhn.no/nyheter/Tusen%20gravide%20har%20f%C3%A5tt%20digitalt%20helsekort%20p%C3%A5%20Helsenorge">nyhetsartikkel</a> («Den gravide selv kan se sitt helsekort på Helsenorge. Der fyller hun ut informasjon før første konsultasjon...»)</td>
+</tr>
+<tr>
+<td>Kritisk informasjon / Kjernejournal</td>
+<td>Personverninnstillinger</td>
+<td>Reservasjon mot Kjernejournal/kritisk informasjon håndteres av personvernkomponenten</td>
+<td><code>background/samhandling/markdown/Målarkitektur for datadeling i helse- og omsorgssektoren.md</code>, kap. 5.3 «Personvernkomponenten» / «Reservasjonstjeneste»</td>
+</tr>
+<tr>
+<td>Elektronisk meldingsutveksling</td>
+<td>Dialog (E-konsultasjon, E-kontakt, Journalkopi)</td>
+<td>Meldingsutveksling er transportlaget som blant annet leverer prøvesvarkopi til Pasientens prøvesvar, og er infrastrukturen bak dialogmeldinger</td>
+<td><a href="https://www.nhn.no/tjenester/elektronisk-meldingsutveksling">elektronisk-meldingsutveksling</a>; <a href="https://www.nhn.no/tjenester/pasientens-provesvar">pasientens-provesvar</a> («Prøvesvarene sendes som en kopi gjennom ordinær meldingsutveksling til Pasientens prøvesvar»)</td>
+</tr>
+<tr>
+<td>ID-porten / Innbygger-STS</td>
+<td>Representasjon og tilgang, Personverninnstillinger</td>
+<td>Innbyggerens tillitstjeneste for autentisering (ID-porten/Feide) og samtykkebasert tilgang</td>
+<td><code>background/samhandling/markdown/Målarkitektur for datadeling i helse- og omsorgssektoren.md</code>, kap. 5.2 «Innbygger-STS»</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ikke bekreftet i kildene (tatt ut av koblingstabellen over):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Antatt kobling</th>
+<th>Hvorfor den er usikker</th>
+<th>Kilde som er sjekket</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pasientens planer → Timeavtaler / Oppgave</td>
+<td>Tjenesten er under utprøving fra høsten 2026 og beskrives kun med pasienttilgang via en egen løsning for digital hjemmeoppfølging – ingen omtale av Helsenorge, Timeavtaler eller Oppgave</td>
+<td><a href="https://www.nhn.no/tjenester/pasientens-planer">pasientens-planer</a></td>
+</tr>
+<tr>
+<td>Melde (uønskede hendelser) / Fødselsmeldingssystemet → Hendelsesvarsel</td>
+<td>Ingen av NHN-undersidene for disse tjenestene omtaler Hendelsesvarsel eller varsling til innbygger</td>
+<td><a href="https://www.nhn.no/tjenester">nhn.no/tjenester</a> (gruppen «Innrapportering»)</td>
+</tr>
+<tr>
+<td>HelseID → ID-porten/Innbygger-STS</td>
+<td>HelseID (helsepersonell) og ID-porten/Innbygger-STS (innbygger) er parallelle, ikke direkte koblede tillitsmodeller</td>
+<td>`background/samhandling/markdown/Målarkitektur for datadeling i helse- og omsorgssektoren.md», kap. 2.2 (figur med «to parallelle modeller»)</td>
+</tr>
+<tr>
+<td>MyHealth@EU → egen innbyggertjeneste på Helsenorge</td>
+<td>Tjenesten er under utprøving og omtales foreløpig kun som et API for helsepersonell; ingen bekreftet Helsenorge-visning ennå</td>
+<td><a href="https://www.nhn.no/tjenester/myhealth">myhealth</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-oversiktsfigur">4 Oversiktsfigur</h2>
+<p><div class="mxgraph" data-mxgraph='{"toolbar-position": "bottom", "toolbar-nohide": "0", "tooltips": "1", "border": 5, "resize": "1", "edit": "_blank", "lightbox": "1", "toolbar": "pages tags zoom layers lightbox", "xml": "&lt;mxfile host=\"65bd71144e\"&gt;\n    &lt;diagram name=\"Arkitekturlandskap\" id=\"arkitekturlandskap-e-helse\"&gt;\n        &lt;mxGraphModel dx=\"515\" dy=\"613\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"1169\" pageHeight=\"826\" math=\"0\" shadow=\"0\"&gt;\n            &lt;root&gt;\n                &lt;mxCell id=\"0\"/&gt;\n                &lt;mxCell id=\"1\" parent=\"0\"/&gt;\n                &lt;mxCell id=\"hdr-hp\" value=\"Helsepersonell \u2013 nasjonale e-helsel\u00f8sninger (NHN)\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" width=\"260\" height=\"40\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"hdr-gm\" value=\"Felles grunnmur \u2013 tillits- og samhandlingstjenester\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"409.92\" y=\"760\" width=\"220\" height=\"40\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"hdr-ib\" value=\"Innbygger \u2013 Helsenorgetjenester\" style=\"rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" width=\"260\" height=\"40\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L1\" value=\"E-resept / Sentral forskrivningsmodul\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"60\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L2\" value=\"Kjernejournal portal / Kritisk informasjon\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"130\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L3\" value=\"Pasientens journaldokumenter, pr\u00f8vesvar, rekvisisjoner\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"200\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L4\" value=\"Pasientens m\u00e5ledata (PMD)\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"270\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L4b\" value=\"Pasientens planer (pilot \u2013 ingen bekreftet Helsenorge-kobling)\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;\" vertex=\"1\" parent=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"340\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L5\" value=\"Digitalt helsekort for gravide\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"410\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L6\" value=\"Elektronisk meldingsutveksling\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"480\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L7\" value=\"MyHealth@EU\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"620\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"L8\" value=\"Melde / F\u00f8dselsmeldingssystemet\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"89.92\" y=\"550\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"M1\" value=\"HelseID\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"109.92\" y=\"690\" width=\"220\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"M3\" value=\"Personvernkomponent / reservasjon\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"409.92\" y=\"550\" width=\"220\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"M4\" value=\"ID-porten / Innbygger-STS\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"409.92\" y=\"620\" width=\"220\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R1\" value=\"Dialog: E-konsultasjon, E-kontakt, Reseptfornyelse\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"60\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R2\" value=\"Journalinnsyn\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"130\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R3\" value=\"Timeavtaler\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"200\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R4\" value=\"Oppgave\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"270\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R5\" value=\"Helsekontakter\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"340\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R6\" value=\"Personverninnstillinger\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"550\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R7\" value=\"Representasjon og tilgang\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"620\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R8\" value=\"Verkt\u00f8y\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"410\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"R9\" value=\"Hendelsesvarsel\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"689.92\" y=\"480\" width=\"260\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L6-L3\" value=\"leverer pr\u00f8vesvarkopi\" style=\"endArrow=block;html=1;strokeColor=#666666;fontColor=#666666;fontSize=10;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;\" edge=\"1\" parent=\"1\" source=\"L6\" target=\"L3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"59.92\" y=\"505\"/&gt;\n                            &lt;mxPoint x=\"59.92\" y=\"225\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L2-M3\" style=\"endArrow=block;html=1;strokeColor=#666666;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;\" parent=\"1\" source=\"L2\" target=\"M3\" edge=\"1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-M4-R7\" style=\"endArrow=block;html=1;strokeColor=#666666;rounded=0;\" parent=\"1\" source=\"M4\" target=\"R7\" edge=\"1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-M4-R6\" style=\"endArrow=block;html=1;strokeColor=#666666;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;\" edge=\"1\" parent=\"1\" source=\"M4\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;mxPoint x=\"689.92\" y=\"590\" as=\"targetPoint\"/&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-M3-R6\" style=\"endArrow=block;html=1;strokeColor=#666666;rounded=0;\" parent=\"1\" source=\"M3\" target=\"R6\" edge=\"1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L1-R1\" value=\"delt legemiddelgrunnlag\" style=\"endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;\" parent=\"1\" source=\"L1\" target=\"R1\" edge=\"1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L2-R2\" value=\"delt journal-/kritisk info\" style=\"endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;\" parent=\"1\" source=\"L2\" target=\"R2\" edge=\"1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L3-R2\" value=\"delt dokument-/pr\u00f8vesvar\" style=\"endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;\" parent=\"1\" source=\"L3\" target=\"R2\" edge=\"1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L4-R2\" value=\"delt m\u00e5ledata\" style=\"endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;\" edge=\"1\" parent=\"1\" source=\"L4\" target=\"R2\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L6-R1\" value=\"delt meldingsinfrastruktur\" style=\"endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"L6\" target=\"R1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L3-R9\" value=\"rekvisisjonsvarsel\" style=\"endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"1\" source=\"L3\" target=\"R9\"&gt;\n                    &lt;mxGeometry x=\"0.2296\" y=\"-4\" relative=\"1\" as=\"geometry\"&gt;\n                        &lt;mxPoint as=\"offset\"/&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e-L5-R8\" value=\"svangerskapsverkt\u00f8y (helsenorge.no/gravid)\" style=\"endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;\" edge=\"1\" parent=\"1\" source=\"L5\" target=\"R8\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"M2\" value=\"Helsenettforbindelse\" style=\"rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;\" parent=\"1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry x=\"409.92\" y=\"690\" width=\"220\" height=\"50\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n            &lt;/root&gt;\n        &lt;/mxGraphModel&gt;\n    &lt;/diagram&gt;\n&lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div></p>
+<p>Figuren er organisert i tre kolonner: helsepersonelltjenester (NHN) til venstre, felles
+grunnmur av tillits- og samhandlingstjenester (HelseID, Helsenettforbindelse,
+personvernkomponent, ID-porten/Innbygger-STS) i midten, og innbyggertjenester
+(Helsenorge) til høyre. Kun koblinger som er bekreftet i kildene i kapittel 3 er tatt med.
+Heltrukne piler viser systemintegrasjon (f.eks. at meldingsutveksling leverer
+prøvesvarkopi til Pasientens prøvesvar, eller at Kjernejournal bruker personvernkomponenten
+til reservasjoner), mens stiplede piler viser hvor de samme underliggende dataene vises på
+begge sider – med ulikt grensesnitt og formål for hver brukergruppe. HelseID og
+Helsenettforbindelse (helsepersonell-siden) og ID-porten/Innbygger-STS (innbyggersiden) er
+bevisst <em>ikke</em> koblet sammen i figuren, siden Målarkitektur-dokumentet beskriver dem som to
+parallelle tillitsmodeller, ikke én sammenhengende kjede.</p>
+<p>«Pasientens måledata» og «Pasientens planer» er splittet i to separate bokser (var slått
+sammen i en tidligere versjon av figuren), siden de har ulik status og ulikt datagrunnlag:
+Pasientens måledata har en bekreftet kobling til Journalinnsyn, mens Pasientens planer (vist
+med stiplet kant) ikke har noen bekreftet kobling til Helsenorge og derfor står uten
+utgående piler. «Digitalt helsekort for gravide» peker til Verktøy (i stedet for Helsekontakter
+som i en tidligere versjon) – den faktiske destinasjonen for den gravide er en egen side
+(<code>helsenorge.no/gravid/tjeneste-for-gravide</code>), som ikke er en del av standardkategoriene i
+Helsenorgetjenester-oversikten; Verktøy er den kategorien den ligner mest på.</p>
+<p>Kilde-diagram: <a href="../oversikt-arkitekturlandskap-e-helsetjenester.drawio">oversikt-arkitekturlandskap-e-helsetjenester.drawio</a>
+(åpnes med draw.io-utvidelsen i VS Code eller på <a href="https://app.diagrams.net">app.diagrams.net</a>).</p>
+<aside class="md-source-file">
+<span class="md-source-file__fact">
+<span class="md-icon" title="Last update">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="September 24, 2026 08:10:18 UTC">September 24, 2026 08:10:18</span>
+</span>
+</aside>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+<script src="https://viewer.diagrams.net/js/viewer-static.min.js"></script></body>
+</html>
