@@ -1,17 +1,17 @@
 <mxfile host="65bd71144e">
     <diagram name="Arkitekturlandskap" id="arkitekturlandskap-e-helse">
-        <mxGraphModel dx="1171" dy="1533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+        <mxGraphModel dx="1308" dy="1818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="hdr-hp" value="Helsepersonell – nasjonale e-helseløsninger (NHN)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="89.92" width="260" height="40" as="geometry"/>
+                    <mxGeometry x="89.92" y="760" width="260" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="hdr-gm" value="Felles grunnmur – tillits- og samhandlingstjenester" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" parent="1" vertex="1">
                     <mxGeometry x="409.92" y="760" width="220" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="hdr-ib" value="Innbygger – Helsenorgetjenester" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;align=center;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="689.92" width="260" height="40" as="geometry"/>
+                    <mxGeometry x="689.92" y="760" width="260" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="L1" value="E-resept / Sentral forskrivningsmodul" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="89.92" y="60" width="260" height="50" as="geometry"/>
@@ -22,32 +22,32 @@
                 <mxCell id="L3" value="Pasientens journaldokumenter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
                     <mxGeometry x="89.92" y="200" width="260" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="L3b" value="Pasientens prøvesvar (PPS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                <mxCell id="L3b" value="Pasientens prøvesvar (PPS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
                     <mxGeometry x="89.92" y="270" width="260" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="L3c" value="Pasientens rekvisisjoner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="89.92" y="340" width="260" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="L4" value="Pasientens måledata (PMD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="89.92" y="410" width="260" height="50" as="geometry"/>
-                </mxCell>
-                <mxCell id="L4b" value="Pasientens planer (pilot – ingen bekreftet Helsenorge-kobling)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" parent="1" vertex="1">
+                <mxCell id="L3c" value="Pasientens rekvisisjoner" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
                     <mxGeometry x="89.92" y="480" width="260" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="L5" value="Digitalt helsekort for gravide" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                <mxCell id="L4" value="Pasientens måledata (PMD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="89.92" y="340" width="260" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="L4b" value="Pasientens planer (pilot – ingen bekreftet Helsenorge-kobling)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" parent="1" vertex="1">
                     <mxGeometry x="89.92" y="550" width="260" height="50" as="geometry"/>
                 </mxCell>
+                <mxCell id="L5" value="Digitalt helsekort for gravide" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+                    <mxGeometry x="89.92" y="410" width="260" height="50" as="geometry"/>
+                </mxCell>
                 <mxCell id="L6" value="Elektronisk meldingsutveksling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="89.92" y="620" width="260" height="50" as="geometry"/>
+                    <mxGeometry x="89.92" y="-10" width="260" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="L8" value="Melde / Fødselsmeldingssystemet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="89.92" y="690" width="260" height="50" as="geometry"/>
+                    <mxGeometry x="89.92" y="620" width="260" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="L7" value="MyHealth@EU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-                    <mxGeometry x="89.92" y="760" width="260" height="50" as="geometry"/>
+                    <mxGeometry x="89.92" y="-80" width="260" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="M1" value="HelseID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-                    <mxGeometry x="709.92" y="690" width="220" height="50" as="geometry"/>
+                    <mxGeometry x="140" y="690" width="220" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="M3" value="Personvernkomponent / reservasjon" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
                     <mxGeometry x="409.92" y="550" width="220" height="50" as="geometry"/>
@@ -82,12 +82,13 @@
                 <mxCell id="R9" value="Hendelsesvarsel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
                     <mxGeometry x="689.92" y="480" width="260" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="e-L6-L3b" value="leverer prøvesvarkopi" style="endArrow=block;html=1;strokeColor=#666666;fontColor=#666666;fontSize=10;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="L6" target="L3b" edge="1">
-                    <mxGeometry relative="1" as="geometry">
+                <mxCell id="e-L6-L3b" value="leverer&amp;nbsp;&lt;div&gt;prøvesvarkopi&lt;/div&gt;" style="endArrow=block;html=1;strokeColor=#666666;fontColor=#666666;fontSize=10;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="L6" target="L3b">
+                    <mxGeometry x="-0.0883" y="-20" relative="1" as="geometry">
                         <Array as="points">
-                            <mxPoint x="59.92" y="645"/>
-                            <mxPoint x="59.92" y="295"/>
+                            <mxPoint x="60" y="15"/>
+                            <mxPoint x="60" y="295"/>
                         </Array>
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="e-L2-M3" style="endArrow=block;html=1;strokeColor=#666666;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="L2" target="M3" edge="1">
@@ -107,22 +108,22 @@
                 <mxCell id="e-L1-R1" value="delt legemiddelgrunnlag" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;" parent="1" source="L1" target="R1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e-L2-R2" value="delt journal-/kritisk info" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;" parent="1" source="L2" target="R2" edge="1">
+                <mxCell id="e-L2-R2" value="delt journal-/kritisk info" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="L2" target="R2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e-L3-R2" value="delt journaldokumenter" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;" parent="1" source="L3" target="R2" edge="1">
+                <mxCell id="e-L3-R2" value="delt journaldokumenter" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="L3" target="R2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e-L3b-R2" value="delt prøvesvar" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;" parent="1" source="L3b" target="R2" edge="1">
+                <mxCell id="e-L3b-R2" value="delt prøvesvar" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="L3b" target="R2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e-L4-R2" value="delt måledata" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="L4" target="R2" edge="1">
+                <mxCell id="e-L4-R2" value="delt måledata" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="L4" target="R2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e-L6-R1" value="delt meldingsinfrastruktur" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="L6" target="R1" edge="1">
+                <mxCell id="e-L6-R1" value="delt meldingsinfrastruktur" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="L6" target="R1" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e-L3c-R9" value="rekvisisjonsvarsel" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;" parent="1" source="L3c" target="R9" edge="1">
+                <mxCell id="e-L3c-R9" value="rekvisisjonsvarsel" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;" edge="1" parent="1" source="L3c" target="R9">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="e-L5-R8" value="svangerskapsverktøy (helsenorge.no/gravid)" style="endArrow=block;html=1;dashed=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;rounded=0;" parent="1" source="L5" target="R8" edge="1">
