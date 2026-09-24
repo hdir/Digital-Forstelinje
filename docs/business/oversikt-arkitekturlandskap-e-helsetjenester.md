@@ -104,7 +104,7 @@ noen av kildene og er derfor fjernet fra tabellen (se egen rad nederst).
 
 ![Arkitekturlandskap for nasjonale e-helsetjenester](oversikt-arkitekturlandskap-e-helsetjenester.drawio)
 
-Figuren er organisert i tre kolonner: helsepersonelltjenester (NHN) til venstre, felles
+<!--- Figuren er organisert i tre kolonner: helsepersonelltjenester (NHN) til venstre, felles
 grunnmur av tillits- og samhandlingstjenester (HelseID, Helsenettforbindelse,
 personvernkomponent, ID-porten/Innbygger-STS) i midten, og innbyggertjenester
 (Helsenorge) til høyre. Kun koblinger som er bekreftet i kildene i kapittel 3 er tatt med.
@@ -120,10 +120,15 @@ parallelle tillitsmodeller, ikke én sammenhengende kjede.
 sammen i en tidligere versjon av figuren), siden de har ulik status og ulikt datagrunnlag:
 Pasientens måledata har en bekreftet kobling til Journalinnsyn, mens Pasientens planer (vist
 med stiplet kant) ikke har noen bekreftet kobling til Helsenorge og derfor står uten
-utgående piler. «Digitalt helsekort for gravide» peker til Verktøy (i stedet for Helsekontakter
-som i en tidligere versjon) – den faktiske destinasjonen for den gravide er en egen side
+utgående piler. Tilsvarende er «Pasientens journaldokumenter», «Pasientens prøvesvar» og
+«Pasientens rekvisisjoner» splittet i tre separate bokser (var slått sammen i én boks
+tidligere), siden hver av dem har sin egen dokumenterte kobling til Helsenorge (henholdsvis
+Journalinnsyn, Journalinnsyn og Hendelsesvarsel/Oppgave) og fordi meldingsutvekslingens rolle
+som transport for prøvesvarkopi kun gjelder Pasientens prøvesvar. «Digitalt helsekort for
+gravide» peker til Verktøy (i stedet for Helsekontakter som i en tidligere versjon) – den
+faktiske destinasjonen for den gravide er en egen side
 (`helsenorge.no/gravid/tjeneste-for-gravide`), som ikke er en del av standardkategoriene i
-Helsenorgetjenester-oversikten; Verktøy er den kategorien den ligner mest på.
+Helsenorgetjenester-oversikten; Verktøy er den kategorien den ligner mest på. -->
 
 Kilde-diagram: [oversikt-arkitekturlandskap-e-helsetjenester.drawio](oversikt-arkitekturlandskap-e-helsetjenester.drawio)
 (åpnes med draw.io-utvidelsen i VS Code eller på [app.diagrams.net](https://app.diagrams.net)).
