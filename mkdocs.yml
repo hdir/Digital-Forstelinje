@@ -18,6 +18,7 @@ nav:
       - Tiltak i programmet: strategi/tiltak-kapabiliteter.md
     - Forretningsarkitektur:
       - business/index.md
+      - Nasjonale e-helsetjenester: business\oversikt-arkitekturlandskap-e-helsetjenester.md
     - Applikasjonsarkitektur:
       - application/index.md
     - Motivasjon for virksomhetsarkitektur:
