@@ -48,6 +48,33 @@ som inngår i koblingene i kapittel 3 og i figuren i kapittel 4.
 | HelseID | Felles påloggingsløsning (autentisering) for helsepersonell, systemer og virksomheter | Identitetsføderasjon for helse- og omsorgssektoren | I drift | [helseid](https://www.nhn.no/tjenester/helseid) |
 | Helsenettforbindelse | Sikker forbindelse til Helsenettet; forutsetning for meldingsutveksling og øvrige nasjonale e-helseløsninger | Nettverksinfrastruktur (direkte, sky, IPVPN eller internett) | I drift | [Helsenettforbindelse](https://www.nhn.no/tjenester/Helsenettforbindelse) |
 
+### 1.2 Koblinger mellom helsepersonelltjenestene
+
+Tabellen viser dokumenterte koblinger mellom tjenestene. «Visningsflate» betyr at én
+tjeneste gjør informasjon fra en annen tilgjengelig for helsepersonell. «Dataleveranse»
+betyr at én tjeneste leverer eller formidler data til en annen. API og Kjernejournal portal
+er alternative tilgangsmåter der dette er oppgitt i kilden.
+
+![Koblinger mellom helsepersonelltjenestene](koblinger-helsepersonelltjenester.drawio)
+
+Figuren skiller mellom datakilder og formidling, nasjonale informasjonstjenester,
+tilgangsflater for helsepersonell og tekniske forutsetninger. Heltrukne forbindelser viser
+dataleveranse, funksjonell integrasjon eller visning. Stiplede forbindelser viser API-tilgang
+eller tekniske forutsetninger. Tabellen under dokumenterer hver kobling og kilde.
+
+| Fra tjeneste | Til tjeneste | Type kobling | Hvordan koblingen fungerer | Kilde/dokumentasjon |
+| --- | --- | --- | --- | --- |
+| Pasientens prøvesvar (PPS) | Kjernejournal portal | Visningsflate | Helsepersonell kan åpne fanen «Prøvesvar» i Kjernejournal portal. PPS kan alternativt integreres direkte i journalsystemet via API. | [PPS – Om tjenesten](https://www.nhn.no/tjenester/pasientens-provesvar/om-tjenesten), «Tilgang til prøvesvar» |
+| Elektronisk meldingsutveksling | Pasientens prøvesvar (PPS) | Dataleveranse | Laboratorie- og bildediagnostiske virksomheter sender en kopi av prøvesvaret gjennom ordinær meldingsutveksling til PPS. | [PPS – Om tjenesten](https://www.nhn.no/tjenester/pasientens-provesvar/om-tjenesten), «Hva er tjenesten?» |
+| Pasientens journaldokumenter (PJD) | Kjernejournal portal | Visningsflate | Helsepersonell finner journaldokumentene i Kjernejournal portal eller direkte i eget journalsystem via API. | [PJD – Om tjenesten](https://www.nhn.no/tjenester/pasientens-journaldokumenter/om-tjenesten), «Slik fungerer det» |
+| Dokumentlager | Pasientens journaldokumenter (PJD) | Dataleveranse | Når et journaldokument deles til NHN Dokumentlager, blir det tilgjengelig gjennom PJD for helsepersonell i fagsystem/Kjernejournal og for innbygger på Helsenorge. | [Dokumentlager – Om tjenesten](https://www.nhn.no/tjenester/dokumentlager/om-tjenesten) |
+| Pasientens kritiske informasjon | Kjernejournal portal | Visningsflate | Kritisk informasjon er tilgjengelig i Kjernejournal portal og kan også integreres direkte i journalsystemet via API. | [Pasientens kritiske informasjon](https://www.nhn.no/tjenester/kritisk-informasjon) |
+| Sentral forskrivningsmodul (SFM) | E-resept | Funksjonell integrasjon | SFM gir helsepersonell tilgang til e-resept og støtte til å rekvirere og ordinere legemidler i e-reseptkjeden. | [SFM – Om tjenesten](https://www.nhn.no/tjenester/sentralforskrivningsmodul/om-tjenesten), «Hva er tjenesten?» |
+| E-resept | Sentral forskrivningsmodul (SFM) | Datagrunnlag | SFM bruker e-resept, pasientens legemiddelliste (PLL), e-multidose, legemiddelreaksjoner og historikk som grunnlag for legemiddelhåndtering. | [SFM – Om tjenesten](https://www.nhn.no/tjenester/sentralforskrivningsmodul/om-tjenesten), «Hva er tjenesten?» |
+| Kjernejournal portal | Pasientens prøvesvar, Pasientens journaldokumenter og Pasientens kritiske informasjon | Samlet visningsflate | Portalen samler flere nasjonale informasjonstjenester i ett brukergrensesnitt for helsepersonell. De underliggende tjenestene har egne datagrunnlag og kan også ha egne API-er. | [Kjernejournal portal](https://www.nhn.no/tjenester/kjernejournal) |
+| Helsenettforbindelse | Elektronisk meldingsutveksling og øvrige nasjonale e-helseløsninger | Teknisk forutsetning | Virksomheten må ha sikker forbindelse til Helsenettet for meldingsutveksling og tilgang til relevante helsetjenester. | [Helsenettforbindelse](https://www.nhn.no/tjenester/Helsenettforbindelse) |
+| HelseID | API-baserte nasjonale e-helseløsninger | Tillit og autentisering | HelseID autentiserer helsepersonell, systemer og virksomheter og beskytter API-basert samhandling. Den konkrete bruken avhenger av integrasjonen til hver tjeneste. | [HelseID](https://www.nhn.no/tjenester/helseid) |
+
 ## 2 Tjenester for innbygger (Helsenorge)
 
 | Gruppe | Tjenester/innhold |
