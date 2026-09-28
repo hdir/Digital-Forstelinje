@@ -1,0 +1,21 @@
+kolonne;Fyll inn;eksempler/kategorier;forklaring;alternativ 1;alternativ 2;alternativ 3;alternativ 4
+Navn på KI-løsning;1 navn;f.eks Boneview;spesifikk løsning;;;;
+leverandør;1 navn;f.eks Gleamer;produsent;;;;
+prosjektfase;1 av 3 kategorier;i drift/produksjon, i anskaffelse, i pilot/utprøving;pilot/utprøving skal minimum være forankret i avdeling/klinikk;i drift/produksjon;i anskaffelse;i pilot/utprøving;
+type bruk;1 av 4 kategorier;klinisk, administrasjon - pasientbehandling, administrasjon - helsepersonell, drift av helse- og omsorgstjenester;"klinisk: f.eks bruddeteksjon, segmentering risikoorgan
+administrasjon - pasientbehandling: f.eks tale til oppsummering
+adminisrasjon - helsepersonell: f.eks turnusplanlegging
+drift av helse- og omsorgstjenester: f.eks bruk/optimalisering av operasjonsstuer, utstyrspark, sykehuslogistikk";klinisk;administrasjon - pasientbehandling;administrasjon - helsepersonell;drift av helse- og omsorgstjenester
+overordnet funksjon;fritekst;f.eks tale-til-oppsummering, segmentering av risikoorgan, mammografiscreening, bruddeteksjon etc;de spesifikke eksemplene gitt over (turnusplanleggin, operasjonsstuer, bruddeteksjon, tale til oppsummering etc);;;;
+MU (CE-merket);1 av 2 kategorier; ja/nei;;ja;nei;;
+KI-komponent;1 av 2 kategorier;frittstående, knyttet til MU;dersom KI er integrert i MU skal KI algoritmen ha invirkning på medisinsk vurdering (f.eks segmentering av risikoorgan, ikke ren støyreduksjon);;;;
+type KI;1 av 2 kategorier;ML, LLM;"ML - deterministisk, statisk, ""smal"" KI, LLM- generativ KI";ML;LLM;;
+modalitet;fritekst, bruk eksempler ;CT, MR, RTG, PPG, foto, tale-til-oppsummering, turnusplanlegging, operasjonsplanlegging etc;;;;;
+region;1 av 4 kategorier;HSØ, HM, HV,HN;;HSØ;HM;HV;HN
+helseforetak;fritekst, bruk offiselt navn;f.eks OUS, St.Olav, Haukeland, UNN etc;;;;;
+klinikk/avdeling;fritekst;;;;;;
+formål med tiltak;fritekst;;;;;;
+forventet gevinst;fritekst;;;;;;
+oppnådd gevinst;fritekst;;;;;;
+utfordringer/hemmere;fritekst;;;;;;
+kontaktperson;navn og mailadresse;;;;;;

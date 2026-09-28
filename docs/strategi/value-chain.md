@@ -1,8 +1,8 @@
 ---
-title: Verdikjede
+title: Verdikjede innbygger og kliniker
 ---
 
-Forenklet verdikjede med noen viktige kapabiliteter som må bygges/videreutvikles for innbygger og kliniker. Viser også at KI på sikt må integreres i de fleste ledd i tjenestereisen med integrerte eller standardiserte KI-kapabiliteter. Nederst ligger noen grunnleggende kapabiliteter som må videreutvikles og tilpasses for å understøtte sammenhengende tjenestereiser hvor et stort økosystem av verktøy kan benyttes for at kliniker og innbygger skal oppleve en sammnhengende helsetjeneste.
+Forenklet verdikjede med noen viktige kapabiliteter som må bygges/videreutvikles for innbygger og kliniker. Viser også at KI på sikt må integreres i de fleste ledd i tjenestereisen med integrerte eller standardiserte KI-kapabiliteter. Nederst ligger noen grunnleggende kapabiliteter som må videreutvikles og tilpasses for å understøtte sammenhengende tjenestereiser hvor et stort økosystem av verktøy kan benyttes for at kliniker og innbygger skal oppleve en sammenhengende helsetjeneste.
 
 ![verdikjede-overordnet](value-chain.drawio)
 
@@ -17,3 +17,9 @@ Noen kapabiliteter som er nødvendige for å fasilistere et økosystem av tjenes
 Hvordan levere tjenester til innbygger og knytte tjenesteforløp sammen med standardiserte data og hendelser.
 
 ![tjeneste-kjede](value-chain.drawio)
+
+## Økosystem livsløp
+
+Noen kapabiliteter som er nødvendige for å fasilistere et livsløp for applikasjoner i et økosysetm
+
+![kapabilitetskart-okosystem](value-chain.drawio)

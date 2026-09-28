@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2026-09-25T00:00:00.000Z" agent="GitHub Copilot" version="24.7.5" type="device">
+  <diagram name="Koblinger" id="koblinger-helsepersonelltjenester">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="Koblinger mellom helsepersonelltjenestene" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="20" width="600" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="hdr-source" value="Datakilder og formidling" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="260" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="hdr-service" value="Nasjonale informasjonstjenester" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="390" y="80" width="280" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="hdr-access" value="Tilgang for helsepersonell" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="780" y="80" width="300" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="msg" value="Elektronisk meldingsutveksling" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="260" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="docstore" value="Dokumentlager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="260" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="eresept" value="E-resept / Reseptformidleren" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="370" width="260" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="pps" value="Pasientens prøvesvar (PPS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="280" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="pjd" value="Pasientens journaldokumenter (PJD)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="280" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="sfm" value="Sentral forskrivningsmodul (SFM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="370" width="280" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="critical" value="Pasientens kritiske informasjon" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="480" width="280" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="kj" value="Kjernejournal portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="190" width="300" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="api" value="Journalsystem / fagsystem via API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="350" width="300" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="foundation-header" value="Tekniske forutsetninger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="390" y="600" width="690" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="healthid" value="HelseID&#xa;autentisering og tillit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="470" y="670" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="helsenett" value="Helsenettforbindelse&#xa;sikker nettverkstilgang" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="790" y="670" width="240" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e-msg-pps" value="kopi av prøvesvar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#666666;fontSize=10;" edge="1" parent="1" source="msg" target="pps">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-doc-pjd" value="lagrer og deler dokument" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#666666;fontSize=10;" edge="1" parent="1" source="docstore" target="pjd">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-er-sfm" value="e-resept, PLL og e-multidose" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startArrow=block;startFill=1;endArrow=block;endFill=1;strokeColor=#666666;fontSize=10;" edge="1" parent="1" source="eresept" target="sfm">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e-pps-kj" value="fanen Prøvesvar" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#6c8ebf;fontSize=10;" edge="1" parent="1" source="pps" target="kj">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-pjd-kj" value="journaldokumenter" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#6c8ebf;fontSize=10;" edge="1" parent="1" source="pjd" target="kj">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-critical-kj" value="kritisk informasjon" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;strokeColor=#6c8ebf;fontSize=10;" edge="1" parent="1" source="critical" target="kj">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e-pps-api" value="API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#6c8ebf;fontSize=10;" edge="1" parent="1" source="pps" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-pjd-api" value="API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#6c8ebf;fontSize=10;" edge="1" parent="1" source="pjd" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-sfm-api" value="API eller eget brukergrensesnitt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#6c8ebf;fontSize=10;" edge="1" parent="1" source="sfm" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-critical-api" value="API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;dashed=1;strokeColor=#6c8ebf;fontSize=10;" edge="1" parent="1" source="critical" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e-healthid-api" value="autentisering" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;strokeColor=#d6b656;fontSize=10;" edge="1" parent="1" source="healthid" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-helsenett-api" value="sikker tilgang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;strokeColor=#d6b656;fontSize=10;" edge="1" parent="1" source="helsenett" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-helsenett-msg" value="transportforutsetning" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;strokeColor=#d6b656;fontSize=10;" edge="1" parent="1" source="helsenett" target="msg">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="700"/>
+              <mxPoint x="1120" y="560"/>
+              <mxPoint x="20" y="560"/>
+              <mxPoint x="20" y="180"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="legend-solid" value="Heltrukket: dataleveranse, funksjonell integrasjon eller visningsflate" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="40" y="765" width="430" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend-dashed" value="Stiplet: API-tilgang eller teknisk forutsetning" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=10;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="470" y="765" width="380" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

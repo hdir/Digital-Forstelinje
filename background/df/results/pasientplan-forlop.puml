@@ -1,0 +1,95 @@
+@startuml
+!include <archimate/Archimate>
+
+title Pasientforløp og behandling av pasientplan
+
+skinparam backgroundColor white
+skinparam defaultFontColor #333333
+skinparam shadowing false
+skinparam ArrowColor #555555
+skinparam linetype ortho
+
+' === Forretningslag ===
+Business_Actor(pasient, "Pasient")
+Business_Actor(helsepersonell, "Helsepersonell")
+Business_Role(team, "Tverrfaglig team")
+
+Business_Process(forlop, "Pasientforløp")
+Business_Process(kartlegg, "Kartlegg forløp og aktører")
+Business_Process(utarbeid, "Utarbeid plan")
+Business_Process(kvalitet, "Kvalitetssikre og godkjenne plan")
+Business_Process(del, "Del og publiser plan")
+Business_Process(oppfolg, "Følg opp behandling og egenbehandling")
+Business_Process(evaluer, "Evaluer og revider plan")
+Business_Process(avslutt, "Avslutt eller overfør forløp")
+
+Business_Object(plan, "Pasientplan")
+Business_Object(egenplan, "Egenbehandlingsplan")
+Business_Object(maling, "Målinger og observasjoner")
+Business_Object(mal, "Pasientens mål")
+
+' === Applikasjonslag ===
+Application_Service(dho, "DHO-støtte")
+Application_Service(epj, "EPJ / Kjernejournal")
+Application_Service(helsenorge, "Helsenorge")
+Application_Service(dialog, "Digital dialog og varsling")
+
+' === Prosess og ansvar ===
+pasient --> forlop : deltar i
+helsepersonell --> forlop : utfører
+team --> kvalitet : kvalitetssikrer
+team --> oppfolg : følger opp
+
+forlop *--> kartlegg : består av
+forlop *--> utarbeid : består av
+forlop *--> kvalitet : består av
+forlop *--> del : består av
+forlop *--> oppfolg : består av
+forlop *--> evaluer : består av
+forlop *--> avslutt : består av
+
+kartlegg --> utarbeid : trigger
+utarbeid --> kvalitet : trigger
+kvalitet --> del : trigger
+del --> oppfolg : trigger
+oppfolg --> evaluer : trigger
+evaluer --> oppfolg : reviderer og fortsetter
+evaluer --> avslutt : avslutter eller overfører
+
+pasient --> mal : definerer
+mal --> plan : inngår i
+utarbeid --> plan : oppretter og endrer
+kvalitet --> plan : godkjenner
+plan --> egenplan : inneholder
+pasient --> egenplan : følger opp
+oppfolg --> maling : samler inn
+maling --> oppfolg : vurderes i
+maling --> evaluer : kan utløse
+
+' === Applikasjonsstøtte ===
+dho --> oppfolg : betjener
+dho --> maling : mottar
+helsenorge --> pasient : viser plan og varsler
+epj --> helsepersonell : viser og dokumenterer
+plan --> epj : tilgjengeliggjøres i
+egenplan --> dho : støttes av
+dialog --> oppfolg : støtter kontakt
+
+note right of plan
+Felles plan med:
+- problemstilling/diagnose
+- pasientens mål og behandlingsmål
+- behandlingstiltak
+- egenbehandlingstiltak
+- ansvar, status og tidspunkt
+- terskler for endring
+end note
+
+note bottom of evaluer
+Planen er dynamisk:
+endring i mål, symptomer,
+målinger, behandling eller ansvar
+kan starte en ny planrunde.
+end note
+
+@enduml
