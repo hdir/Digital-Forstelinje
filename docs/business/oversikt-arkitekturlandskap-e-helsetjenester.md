@@ -418,3 +418,41 @@ forløp. Det siste krever at de organisatoriske plan- og ansvarskapabilitetene i
 sammen med push-/abonnementsmekanismer i de tekniske samhandlingstjenestene, samt at Digital
 førstelinje-verktøyene på innbyggersiden kobles inn i den samme strukturen – ikke bare
 tilgjengeliggjøres som frittstående tjenester ved siden av.
+
+## 7 Kilder utover oversiktskildene
+
+Følgende kilder er brukt i tillegg til [NHNs tjenesteoversikt](https://www.nhn.no/tjenester)
+og [oversikten over Helsenorgetjenester](https://helsenorge.atlassian.net/wiki/spaces/HELSENORGE/pages/690749444/Helsenorgetjenester)
+øverst i dokumentet. NHNs tjenestesider er lenket direkte i tabellene over; listen under
+samler de øvrige kildene som brukes som grunnlag for koblinger, arkitekturmønstre og
+kapabiliteter.
+
+### NHN- og Helsenorge-sider
+
+- [NHN – Digitalt helsekort for gravide](https://www.nhn.no/tjenester/digitalt-helsekort-for-gravide), inkludert [om tjenesten](https://www.nhn.no/tjenester/digitalt-helsekort-for-gravide/om-tjenesten)
+- [NHN – Dokumentlager](https://www.nhn.no/tjenester/dokumentlager), inkludert [om tjenesten](https://www.nhn.no/tjenester/dokumentlager/om-tjenesten)
+- [NHN – Pasientens journaldokumenter](https://www.nhn.no/tjenester/pasientens-journaldokumenter), [om tjenesten](https://www.nhn.no/tjenester/pasientens-journaldokumenter/om-tjenesten)
+- [NHN – Pasientens prøvesvar](https://www.nhn.no/tjenester/pasientens-provesvar), [om tjenesten](https://www.nhn.no/tjenester/pasientens-provesvar/om-tjenesten)
+- [NHN – Pasientens rekvisisjoner](https://www.nhn.no/tjenester/Pasientens-rekvisisjoner)
+- [NHN – Pasientens måledata](https://www.nhn.no/tjenester/pasientens-maledata)
+- [NHN – Pasientens planer](https://www.nhn.no/tjenester/pasientens-planer)
+- [NHN – E-resept](https://www.nhn.no/tjenester/e-resept)
+- [NHN – Sentral forskrivningsmodul](https://www.nhn.no/tjenester/sentralforskrivningsmodul), [om tjenesten](https://www.nhn.no/tjenester/sentralforskrivningsmodul/om-tjenesten)
+- [NHN – Elektronisk meldingsutveksling](https://www.nhn.no/tjenester/elektronisk-meldingsutveksling)
+- [NHN – Kjernejournal](https://www.nhn.no/tjenester/kjernejournal)
+- [NHN – Kritisk informasjon](https://www.nhn.no/tjenester/kritisk-informasjon)
+- [NHN – HelseID](https://www.nhn.no/tjenester/helseid) og [Helsenettforbindelse](https://www.nhn.no/tjenester/Helsenettforbindelse)
+- [NHN – MyHealth@EU](https://www.nhn.no/tjenester/myhealth)
+- [NHN – Nyhet om digitalt helsekort for gravide](https://www.nhn.no/nyheter/Tusen%20gravide%20har%20f%C3%A5tt%20digitalt%20helsekort%20p%C3%A5%20Helsenorge)
+
+### Lokale kildedokumenter i repositoryet
+
+- [Målarkitektur for datadeling i helse- og omsorgssektoren](../../background/samhandling/markdown/M%C3%A5larkitektur%20for%20datadeling%20i%20helse-%20og%20omsorgssektoren.md)
+- [Målarkitektur for dokumentdeling](../../background/samhandling/markdown/M%C3%A5larkitektur%20for%20dokumentdeling.md)
+- [Referansearkitektur for datadeling](../../background/samhandling/markdown/Referansearkitektur%20for%20datadeling.md)
+- [Referansearkitektur for dokumentdeling](../../background/samhandling/markdown/Referansearkitektur%20for%20dokumentdeling.md)
+- [Referansearkitektur for meldings- og dokumentutveksling](../../background/samhandling/markdown/Referansearkitektur%20for%20meldings-%20og%20dokumentutveksling.md)
+- [V3.1 E-helsekapabiliteter Én innbygger - én journal](../../background/samhandling/markdown/V3.1%20E-helsekapabiliteter%20%C3%89n%20innbygger%20-%20%C3%A9n%20journal.md)
+- [Bilag G1 Felles kommunal journalløsning](../../background/akson/markdown/Bilag%20G1%20Felles%20kommunal%20journall%C3%B8sning.md)
+- [Konsept digital førstelinje](../../background/df/markdown/Konsept%20digital%20f%C3%B8rstelinje.md)
+- [Målbilde for et sammenhengende økosystem av digitale selvhjelps- og behandlingsverktøy](../../background/df/markdown/M%C3%A5lbilde%20for%20et%20sammenhengende%20%C3%B8kosystem%20av%20digitale%20selvhjelps-%20og%20behandlingsverkt%C3%B8y.md)
