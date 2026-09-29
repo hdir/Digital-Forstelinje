@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veikart – Digital førstelinje (TB2026-17)</title>
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.js";
+  mermaid.initialize({ startOnLoad: true, theme: "default", securityLevel: "loose" });
+</script>
+<style>
+  :root {
+    --accent: #d32f2f;
+    --ink: #1a1a1a;
+    --muted: #5c5c5c;
+    --border: #ddd;
+    --bg-row-alt: #fafafa;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 4rem;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: #fff;
+    line-height: 1.55;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.25rem;
+  }
+  h2 {
+    font-size: 1.15rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.3rem;
+    margin-top: 2.5rem;
+  }
+  p.lede {
+    color: var(--muted);
+    max-width: 70ch;
+  }
+  a.back {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a.back:hover { text-decoration: underline; }
+  .mermaid {
+    margin: 1.5rem 0;
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 2rem;
+    font-size: 0.92rem;
+  }
+  caption {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: var(--ink);
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.5rem 0.65rem;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--ink);
+    color: #fff;
+    font-weight: 600;
+  }
+  tbody tr:nth-child(even) { background: var(--bg-row-alt); }
+  .legend {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-top: 0.5rem;
+  }
+  .legend span.swatch {
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 2px;
+    margin-right: 0.35rem;
+    vertical-align: middle;
+  }
+  .swatch.done { background: #6b6b6b; }
+  .swatch.active { background: #3b7ddb; }
+  .swatch.milestone { background: var(--accent); border-radius: 50%; }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  code { background: #f2f2f2; padding: 0.1rem 0.3rem; border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <a class="back" href="oversikt-arkitekturlandskap-e-helsetjenester/">&larr; Tilbake til arkitekturoversikten</a>
+
+  <h1>Veikart: Digital førstelinje (TB2026-17)</h1>
+  <p class="lede">
+    Tidslinjen viser tiltak fra e-helsestrategiens veikart som er direkte relevante for
+    oppdraget «Digital førstelinje» (TB2026-17) i tildelingsbrevet til Helsedirektoratet
+    for 2026. Radene (seksjonene) er de strategiske delmålene i e-helsestrategien som har
+    tiltak knyttet til Digital førstelinje; toppaksen er tid i år. Diagrammet er generert
+    fra strukturerte data, ikke tegnet for hånd, og kan oppdateres ved å redigere
+    Mermaid-koden lenger ned i denne filens kildekode.
+  </p>
+
+  <div class="mermaid">
+gantt
+    title Digital førstelinje – tiltak knyttet til TB2026-17
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
+    todayMarker stroke-width:2px,stroke:#d32f2f,opacity:0.6
+
+    section Tverrgående milepæl
+    TB2026-17 frist (31.12.2026) :milestone, frist2026, 2026-12-31, 0d
+
+    section Mål 1 – Digital selvhjelp (1C)
+    Helseverktøy (Helsenorge) :active, m1, 2025-01-01, 2027-12-31
+
+    section Mål 1 – eBehandling spesialisthelsetjenesten (1C)
+    Nettbasert behandling – psykisk helsevern :active, m2, 2024-01-01, 2027-12-31
+    Nettbasert behandling – somatikk :active, m3, 2025-01-01, 2027-12-31
+
+    section Mål 1 – Ungdom (1D)
+    Digi-ung: UngMestring :done, m4, 2022-01-01, 2025-12-31
+
+    section Mål 3 – Kunstig intelligens (3B)
+    Offentlig KI-tjeneste for målrettede helseråd :active, m5, 2023-01-01, 2027-12-31
+  </div>
+
+  <div class="legend">
+    <span><span class="swatch done"></span>Avsluttet/gjennomført (sluttdato passert)</span>
+    <span><span class="swatch active"></span>Under utvikling, tilpasning eller innføring (løpende)</span>
+    <span><span class="swatch milestone"></span>Milepæl/frist</span>
+  </div>
+
+  <h2>Tiltak uten tidfesting i kildedataene</h2>
+  <p class="lede">
+    Disse tiltakene mangler start- og/eller sluttdato i veikart-CSV-en og kan derfor ikke
+    plasseres presist på tidslinjen over. De er likevel del av Digital
+    førstelinje-oppdraget og listes her i stedet.
+  </p>
+  <table>
+    <caption>Tiltak uten dato</caption>
+    <thead>
+      <tr><th>Tiltak</th><th>Mål/delmål</th><th>Veikartfase</th><th>Merknad</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Rask psykisk helsehjelp</td>
+        <td>1C</td>
+        <td>Innføring</td>
+        <td>Etablert lavterskeltilbud i kommunene; ingen dato oppgitt for digitaliseringsløpet i veikartet.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Understøttende rammeverk (ikke egne punkter i tidslinjen)</h2>
+  <p class="lede">
+    Disse tiltakene er forutsetninger for at «Offentlig KI-tjeneste for målrettede
+    helseråd» kan videreutvikles og styres forsvarlig, men er ikke selv
+    innbyggerrettede Digital førstelinje-tjenester.
+  </p>
+  <table>
+    <caption>Understøttende KI-rammeverk</caption>
+    <thead>
+      <tr><th>Tiltak</th><th>Mål/delmål</th><th>Veikartfase</th><th>Startdato</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Sektorsamarbeid om KI (KI-rådet)</td><td>3B</td><td>I bruk</td><td>01.01.2023</td></tr>
+      <tr><td>Rammer og veiledning</td><td>3B</td><td>Utvikling – tilpasning – innføring</td><td>01.01.2023</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Identifiserte hull mot TB2026-17</h2>
+  <p class="lede">
+    Disse elementene er nevnt i TB2026-17, men har ingen tilsvarende rad i
+    veikart-CSV-en (versjon 2026-08) og er derfor ikke med i diagrammet over.
+  </p>
+  <table>
+    <caption>Manglende veikart-data</caption>
+    <thead>
+      <tr><th>TB2026-17-element</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Digital veiviser inn til helsetjenestene (deloppdrag 5)</td>
+        <td>Ingen tilsvarende rad funnet i veikart-CSV-en.</td>
+      </tr>
+      <tr>
+        <td>Nasjonal nettlege</td>
+        <td>Ingen egen rad; omtales i stedet under TB2026-15 (allmennlegetjenesten).</td>
+      </tr>
+      <tr>
+        <td>Automatiserte helsetjenester / integrerte digi-fysiske tjenester</td>
+        <td>Ingen tilsvarende rad funnet blant de gjennomgåtte grupperingene.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <footer>
+    Kildedata: <code>background/annet/markdown/Tiltak-leveranser-veikartliste-e-helsestrategien.csv</code>
+    (versjon 2026-08) og <code>background/annet/markdown/2026-Helsedirektoratet-tildelingsbrev.pdf.md</code>
+    (TB2026-17). Fullstendig tabellgrunnlag:
+    <code>background/annet/markdown/digital-forstelinje-radar-veikart-data.md</code>.
+    Diagrammet er tegnet med <a href="https://mermaid.js.org/syntax/gantt.html" target="_blank" rel="noopener">Mermaid Gantt</a>,
+    lastet fra CDN (krever nettforbindelse for å rendres).
+  </footer>
+
+</div>
+</body>
+</html>
