@@ -99,6 +99,7 @@ antydet), og plasserer «Rask psykisk helsehjelp» i 2025-kolonnen (CSV oppga in
 | Tiltaksnavn | TB2026-17 deloppdrag | Mål/delmål | Strategigruppering | Veikartfase | CSV Startdato | CSV Sluttdato | Plassering iht. Veikart Q3 2026 | Leveranse-ID |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Offentlig KI-tjeneste for målrettede helseråd | 1 | 3B | Rammer og retning for kunstig intelligens (KI) i helse- og omsorgstjenesten | Tilpasning - innføring | 01.01.2023 | – | 2023, videreført inn i Felles KI-plan 2026-2027 (Figur 42) | 56876000019902934 |
+| Rammer og veiledning *(CSV-feilskriving: «Rammerog veiledning»)* | 1 | 3B | Rammer og retning for kunstig intelligens (KI) i helse- og omsorgstjenesten | Utvikling - tilpasning - innføring | 01.01.2023 | – | Ikke egen boks i diagrammet – rammeverk/normering, ett av tre innsatsområder i Figur 42 | 56876000019903246 |
 | Helseverktøy (Helsenorge) | 2 | 1C | Digital selvhjelp | I bruk | 01.01.2025 | – | 2025 – samsvarer med CSV (Figur 10) | 56876000019903546 |
 | Nettbasert behandling (inkl. eBehandling) somatikk | 2 | 1C | Veiledet (eBehandling) internettbehandling fra spesialisthelsetjenesten | Utvikling - tilpasning - innføring | 01.01.2025 | – | **2027** – korrigert fra CSV 2025 (tabell under Delmål 1.C) | 56876000019903558 |
 | Digi-ung: UngMestring | 2, 4 | 1D | Digitale tjenester til barn og unge (0-16 år) | Utvikling og begrenset utprøving | 01.01.2022 | 31.12.2025 | 2022–2025 – ikke motsagt av Q3 2026-dokumentet | (se CSV) |
@@ -109,15 +110,18 @@ Merk: «TB2026-17 deloppdrag» refererer til nummereringen i kap. 1 (1 = KI-tjen
 2 = selvhjelps-/behandlingsverktøy, 3 = psykisk helse/rus, 4 = forebygging/mestring,
 5 = digital veiviser). Flere tiltak understøtter mer enn ett deloppdrag samtidig.
 
-## 5 Støttende/underliggende rammeverk (ikke egne punkter i matrisen)
+## 5 Støttende/underliggende rammeverk – innsatsområdene i Figur 42
 
-Disse tiltakene er ikke selv brukertjenester i Digital førstelinje, men er
-forutsetninger for at «Offentlig KI-tjeneste for målrettede helseråd» (mål 3B)
-kan videreutvikles og styres forsvarlig. De er derfor ikke tatt med som egne
-punkter i matrisen i kap. 3, men er relevante som kontekst:
+Figur 42 (Veikart Q3 2026) grupperer tre innsatsområder under «Rammer og
+retning for kunstig intelligens (KI) i helse- og omsorgstjenesten»:
+Sektorsamarbeid om KI, Rammer og veiledning, og Offentlig KI-tjeneste for
+målrettede helseråd. Kun sistnevnte er tatt med som eget punkt i matrisen i
+kap. 3 (mål 3B); de to øvrige er rammeverk/forutsetninger og er tatt med her
+for fullstendighet:
 
 | Tiltaksnavn | Mål/delmål | Beskrivelse (kort) | Veikartfase | Startdato |
 | --- | --- | --- | --- | --- |
+| Offentlig KI-tjeneste for målrettede helseråd | 3B | «Helsedirektoratet skal etablere en offentlig KI-tjeneste for målrettede helseråd.» Har eget punkt i matrisen i kap. 3 (CSV-leveranse 56876000019902934; del av Felles KI-plan 2026-2027) | Tilpasning - innføring | 01.01.2023 |
 | Sektorsamarbeid om KI | 3B | Etablering av KI-råd som gir Helsedirektoratet strategiske råd om KI-innføring i sektoren | I bruk | 01.01.2023 |
 | Rammer og veiledning | 3B | «Det vil fortsatt være behov i helse- og omsorgstjenesten for å gjøre arbeid knyttet til rammer, veiledning, normering og retningslinjer, og disse aktivitetene samles i ett nytt spor» – ett av tre innsatsområder i Felles KI-plan 2026-2027 (viderefører Felles KI-plan 2024-2025) (`Veikart for nasjonal e-helsestrategi Q3 20261.md`, Figur 42) | Utvikling - tilpasning - innføring | 01.01.2023 |
 
