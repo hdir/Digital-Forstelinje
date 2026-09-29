@@ -50,7 +50,10 @@ perioder. For å kunne bruke samme bånd-stil som forbildefiguren (2025 / 2026-2
 | 2024–2025 | Startdato i 2024 eller 2025 | Tiltak under utvikling/innføring i perioden rett før tildelingsbrevet |
 | 2026 (TB2026-17-året) | Frist/aktivitet forventes i 2026 iht. TB2026-17 (frist 31.12.2026 for hele oppdraget) | Kalenderåret tildelingsbrevet gjelder for |
 | 2027–28 og videre | Sluttdato ≥2027, eller videreføring uten fastsatt sluttdato | Videre faser/videreføring utover 2026 |
-| Ikke tidfestet / løpende | Verken start- eller sluttdato oppgitt i CSV-en | Tiltaket er et løpende lavterskeltilbud uten egen veikart-datering |
+
+Båndet «Ikke tidfestet / løpende» er fjernet: etter korrigeringen mot Veikart Q3 2026
+(se kap. 3) har alle seks tiltakene i matrisen en kilde-forankret årsplassering, og ingen
+gjenstår uten dato.
 
 ### 2.2 Kategoriakse: mål 1–5 i e-helsestrategien
 
@@ -75,24 +78,32 @@ Cellene viser tiltaksnavn og veikartfase i parentes. Tomme celler betyr at det
 ikke er identifisert noe Digital førstelinje-relevant tiltak for den
 kombinasjonen av mål og tidsbånd.
 
-| Mål (delmål) | Etablert (≤2023) | 2024–2025 | 2026 | 2027–28 og videre | Ikke tidfestet / løpende |
-| --- | --- | --- | --- | --- | --- |
-| Mål 1 – Innbygger (1C Digital selvhjelp) | – | Helseverktøy (Helsenorge) *(I bruk, start 2025)* | – | – | – |
-| Mål 1 – Innbygger (1C Veiledet eBehandling, spesialisthelsetjenesten) | – | Nettbasert behandling (eBehandling) psykisk helsevern *(Utvikling–tilpasning–innføring, start 2024)*; Nettbasert behandling (eBehandling) somatikk *(Utvikling–tilpasning–innføring, start 2025)* | – | – | – |
-| Mål 1 – Innbygger (1C Veiledet internettbehandling, kommune) | – | – | – | – | Rask psykisk helsehjelp *(Innføring, ingen dato oppgitt)* |
-| Mål 1 – Innbygger (1D Ungdom) | Digi-ung: UngMestring *(Utvikling og begrenset utprøving, 2022–2025)* | (videreført til og med 2025, se venstre) | – | – | – |
-| Mål 3 – Kunnskap/KI (3B Kunstig intelligens) | Offentlig KI-tjeneste for målrettede helseråd *(Tilpasning–innføring, start 2023)* | (løpende videreutvikling 2023–2025) | Videreføring/prioritering iht. TB2026-17 pkt. 1 | – | – |
+| Mål (delmål) | Etablert (≤2023) | 2024–2025 | 2026 | 2027–28 og videre |
+| --- | --- | --- | --- | --- |
+| Mål 1 – Innbygger (1C Digital selvhjelp) | – | Helseverktøy (Helsenorge) *(I bruk, 2025 – samsvarer i begge kilder)* | – | – |
+| Mål 1 – Innbygger (1C Veiledet eBehandling, spesialisthelsetjenesten) | – | – | Nettbasert behandling (eBehandling) psykisk helsevern *(Utvikling–tilpasning–innføring, 2026 iht. Veikart Q3 2026)* | Nettbasert behandling (eBehandling) somatikk *(Utvikling–tilpasning–innføring, 2027 iht. Veikart Q3 2026)* |
+| Mål 1 – Innbygger (1C Veiledet internettbehandling, kommune) | – | Rask psykisk helsehjelp *(Innføring, 2025 iht. Veikart Q3 2026 – CSV oppga ingen dato)* | – | – |
+| Mål 1 – Innbygger (1D Ungdom) | Digi-ung: UngMestring *(Utvikling og begrenset utprøving, 2022–2025)* | (videreført til og med 2025, se venstre) | – | – |
+| Mål 3 – Kunnskap/KI (3B Kunstig intelligens) | Offentlig KI-tjeneste for målrettede helseråd *(Tilpasning–innføring, start 2023)* | (løpende videreutvikling 2023–2025) | Videreført inn i Felles KI-plan 2026-2027 iht. Veikart Q3 2026 | – |
+
+**Korrigering basert på nyere kilde:** `Veikart for nasjonal e-helsestrategi Q3 20261.md`
+inneholder de faktiske veikart-tabellene fra Helsedirektoratet, med tiltak plassert i
+eksplisitte årskolonner. Denne kilden har høyere presisjon enn CSV-ens generelle
+`Startdato`-felt og er derfor lagt til grunn der de to kildene er uenige: kildetabellen
+under Delmål 1.C plasserer «Nettbasert behandling (eBehandling) psykisk helsevern» i
+2026-kolonnen og «... somatikk» i 2027-kolonnen (ikke 2024/2025 som CSV-ens `Startdato`
+antydet), og plasserer «Rask psykisk helsehjelp» i 2025-kolonnen (CSV oppga ingen dato).
 
 ## 4 Detaljert datagrunnlag per tiltak
 
-| Tiltaksnavn | TB2026-17 deloppdrag | Mål/delmål | Strategigruppering | Veikartfase | Startdato | Sluttdato | Planleggingsstatus | Leveranse-ID |
+| Tiltaksnavn | TB2026-17 deloppdrag | Mål/delmål | Strategigruppering | Veikartfase | CSV Startdato | CSV Sluttdato | Plassering iht. Veikart Q3 2026 | Leveranse-ID |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Offentlig KI-tjeneste for målrettede helseråd | 1 | 3B | Rammer og retning for kunstig intelligens (KI) i helse- og omsorgstjenesten | Tilpasning - innføring | 01.01.2023 | – | Planlagt | 56876000019902934 |
-| Helseverktøy (Helsenorge) | 2 | 1C | Digital selvhjelp | I bruk | 01.01.2025 | – | Planlagt | 56876000019903546 |
-| Nettbasert behandling (inkl. eBehandling) somatikk | 2 | 1C | Veiledet (eBehandling) internettbehandling fra spesialisthelsetjenesten | Utvikling - tilpasning - innføring | 01.01.2025 | – | Planlagt | 56876000019903558 |
-| Digi-ung: UngMestring | 2, 4 | 1D | Digitale tjenester til barn og unge (0-16 år) | Utvikling og begrenset utprøving | 01.01.2022 | 31.12.2025 | Planlagt | (se CSV) |
-| Nettbasert behandling (inkl. eBehandling) psykisk helsevern | 3 | 1C | Veiledet (eBehandling) internettbehandling fra spesialisthelsetjenesten | Utvikling - tilpasning - innføring | 01.01.2024 | – | Planlagt | 56876000019903554 |
-| Rask psykisk helsehjelp | 3 | 1C | Veiledet internettbehandling fra kommunale helsetjenester | Innføring | – | – | Planlagt | 56876000019903550 |
+| Offentlig KI-tjeneste for målrettede helseråd | 1 | 3B | Rammer og retning for kunstig intelligens (KI) i helse- og omsorgstjenesten | Tilpasning - innføring | 01.01.2023 | – | 2023, videreført inn i Felles KI-plan 2026-2027 (Figur 42) | 56876000019902934 |
+| Helseverktøy (Helsenorge) | 2 | 1C | Digital selvhjelp | I bruk | 01.01.2025 | – | 2025 – samsvarer med CSV (Figur 10) | 56876000019903546 |
+| Nettbasert behandling (inkl. eBehandling) somatikk | 2 | 1C | Veiledet (eBehandling) internettbehandling fra spesialisthelsetjenesten | Utvikling - tilpasning - innføring | 01.01.2025 | – | **2027** – korrigert fra CSV 2025 (tabell under Delmål 1.C) | 56876000019903558 |
+| Digi-ung: UngMestring | 2, 4 | 1D | Digitale tjenester til barn og unge (0-16 år) | Utvikling og begrenset utprøving | 01.01.2022 | 31.12.2025 | 2022–2025 – ikke motsagt av Q3 2026-dokumentet | (se CSV) |
+| Nettbasert behandling (inkl. eBehandling) psykisk helsevern | 3 | 1C | Veiledet (eBehandling) internettbehandling fra spesialisthelsetjenesten | Utvikling - tilpasning - innføring | 01.01.2024 | – | **2026** – korrigert fra CSV 2024 (tabell under Delmål 1.C) | 56876000019903554 |
+| Rask psykisk helsehjelp | 3 | 1C | Veiledet internettbehandling fra kommunale helsetjenester | Innføring | – | – | **2025** – CSV oppga ingen dato (Figur 11) | 56876000019903550 |
 
 Merk: «TB2026-17 deloppdrag» refererer til nummereringen i kap. 1 (1 = KI-tjeneste,
 2 = selvhjelps-/behandlingsverktøy, 3 = psykisk helse/rus, 4 = forebygging/mestring,
@@ -108,7 +119,7 @@ punkter i matrisen i kap. 3, men er relevante som kontekst:
 | Tiltaksnavn | Mål/delmål | Beskrivelse (kort) | Veikartfase | Startdato |
 | --- | --- | --- | --- | --- |
 | Sektorsamarbeid om KI | 3B | Etablering av KI-råd som gir Helsedirektoratet strategiske råd om KI-innføring i sektoren | I bruk | 01.01.2023 |
-| Rammer og veiledning | 3B | Arbeid med rammer, veiledning, normering og retningslinjer for KI | Utvikling - tilpasning - innføring | 01.01.2023 |
+| Rammer og veiledning | 3B | «Det vil fortsatt være behov i helse- og omsorgstjenesten for å gjøre arbeid knyttet til rammer, veiledning, normering og retningslinjer, og disse aktivitetene samles i ett nytt spor» – ett av tre innsatsområder i Felles KI-plan 2026-2027 (viderefører Felles KI-plan 2024-2025) (`Veikart for nasjonal e-helsestrategi Q3 20261.md`, Figur 42) | Utvikling - tilpasning - innføring | 01.01.2023 |
 
 Merk at CSV-en også inneholder en rekke andre KI-tiltak under gruppering «Bruk
 av kunstig intelligens i helse- og omsorgstjenesten» (f.eks. MR-skanning for
