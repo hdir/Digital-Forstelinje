@@ -4,10 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Veikart – Digital førstelinje (TB2026-17)</title>
-<script type="module">
-  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.js";
-  mermaid.initialize({ startOnLoad: true, theme: "default", securityLevel: "loose" });
-</script>
 <style>
   :root {
     --accent: #d32f2f;
@@ -15,6 +11,13 @@
     --muted: #5c5c5c;
     --border: #ddd;
     --bg-row-alt: #fafafa;
+    --lane-1: #eaf6ea;
+    --lane-1-head: #cfe9d0;
+    --lane-3: #e7f0fb;
+    --lane-3-head: #cfe0f5;
+    --status-done: #8a8a8a;
+    --status-active: #2f6fb3;
+    --status-milestone: #d32f2f;
   }
   * { box-sizing: border-box; }
   body {
@@ -25,24 +28,15 @@
     background: #fff;
     line-height: 1.55;
   }
-  .container {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  h1 {
-    font-size: 1.6rem;
-    margin-bottom: 0.25rem;
-  }
+  .container { max-width: 1150px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
   h2 {
     font-size: 1.15rem;
     border-bottom: 2px solid var(--accent);
     padding-bottom: 0.3rem;
     margin-top: 2.5rem;
   }
-  p.lede {
-    color: var(--muted);
-    max-width: 70ch;
-  }
+  p.lede { color: var(--muted); max-width: 70ch; }
   a.back {
     display: inline-block;
     margin-bottom: 1rem;
@@ -51,41 +45,141 @@
     font-weight: 600;
   }
   a.back:hover { text-decoration: underline; }
-  .mermaid {
-    margin: 1.5rem 0;
-    overflow-x: auto;
+
+  /* Roadmap grid */
+  .roadmap-scroll { margin: 1.5rem 0; }
+  .roadmap {
+    display: grid;
+    grid-template-columns: 240px repeat(4, minmax(170px, 1fr));
+    gap: 6px;
+    min-width: 900px;
   }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0 2rem;
-    font-size: 0.92rem;
-  }
-  caption {
-    text-align: left;
-    font-weight: 600;
-    margin-bottom: 0.4rem;
-    color: var(--ink);
-  }
-  th, td {
-    border: 1px solid var(--border);
-    padding: 0.5rem 0.65rem;
-    text-align: left;
-    vertical-align: top;
-  }
-  th {
-    background: var(--ink);
+  .roadmap > div { padding: 0.6rem 0.7rem; border-radius: 6px; }
+  .rm-corner { background: var(--ink); border-radius: 6px; }
+  .rm-head {
+    background: #2b2b2b;
     color: #fff;
     font-weight: 600;
+    text-align: center;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  tbody tr:nth-child(even) { background: var(--bg-row-alt); }
+  .rm-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.88rem;
+  }
+  .rm-label small { font-weight: 400; color: var(--muted); font-size: 0.78rem; margin-top: 0.15rem; }
+  .rm-label.lane-1 { background: var(--lane-1-head); }
+  .rm-label.lane-3 { background: var(--lane-3-head); }
+  .rm-label.lane-milestone { background: #f6d9d9; }
+  .rm-cell { min-height: 64px; display: flex; flex-direction: column; gap: 6px; justify-content: center; }
+  .rm-cell.lane-1 { background: var(--lane-1); }
+  .rm-cell.lane-3 { background: var(--lane-3); }
+  .rm-cell.lane-milestone { background: #fdecec; align-items: center; }
+
+  .card {
+    position: relative;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    padding: 0.45rem 0.6rem;
+    border-left: 5px solid var(--status-active);
+    cursor: help;
+  }
+  .card.status-done { border-left-color: var(--status-done); }
+  .card.status-active { border-left-color: var(--status-active); }
+  .card .title { font-weight: 600; font-size: 0.85rem; }
+  .card .meta { font-size: 0.75rem; color: var(--muted); margin-top: 0.15rem; }
+  .card .tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 8px;
+    width: max-content;
+    max-width: 300px;
+    background: #1a1a1a;
+    color: #f2f2f2;
+    font-size: 0.72rem;
+    font-weight: 400;
+    line-height: 1.45;
+    padding: 0.6rem 0.75rem;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    z-index: 40;
+    transition: opacity 0.12s ease;
+    pointer-events: none;
+  }
+  .card .tooltip .src { display: block; margin-top: 0.45rem; color: #aaa; font-style: italic; }
+  .card:hover .tooltip, .card:focus .tooltip, .card:focus-within .tooltip { visibility: visible; opacity: 1; }
+
+  .rm-goal-header {
+    grid-column: 1 / -1;
+    position: relative;
+    background: var(--ink);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding: 0.55rem 0.9rem;
+    cursor: help;
+  }
+  .rm-goal-header .tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 8px;
+    width: max-content;
+    max-width: 420px;
+    background: #1a1a1a;
+    color: #f2f2f2;
+    font-size: 0.78rem;
+    font-weight: 400;
+    line-height: 1.45;
+    padding: 0.6rem 0.75rem;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    z-index: 41;
+    transition: opacity 0.12s ease;
+    pointer-events: none;
+  }
+  .rm-goal-header .tooltip .src { display: block; margin-top: 0.45rem; color: #aaa; font-style: italic; }
+  .rm-goal-header:hover .tooltip, .rm-goal-header:focus .tooltip, .rm-goal-header:focus-within .tooltip { visibility: visible; opacity: 1; }
+  .badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 0.05rem 0.4rem;
+    border-radius: 10px;
+    margin-top: 0.3rem;
+  }
+  .badge.done { background: #e2e2e2; color: #444; }
+  .badge.active { background: #dce9fb; color: #1d4e89; }
+
+  .flag {
+    background: var(--status-milestone);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.78rem;
+    padding: 0.35rem 0.7rem;
+    border-radius: 20px;
+    text-align: center;
+  }
+
   .legend {
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     color: var(--muted);
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
   }
   .legend span.swatch {
     display: inline-block;
@@ -95,9 +189,21 @@
     margin-right: 0.35rem;
     vertical-align: middle;
   }
-  .swatch.done { background: #6b6b6b; }
-  .swatch.active { background: #3b7ddb; }
-  .swatch.milestone { background: var(--accent); border-radius: 50%; }
+  .swatch.done { background: var(--status-done); }
+  .swatch.active { background: var(--status-active); }
+  .swatch.milestone { background: var(--status-milestone); border-radius: 50%; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0 2rem;
+    font-size: 0.92rem;
+  }
+  caption { text-align: left; font-weight: 600; margin-bottom: 0.4rem; color: var(--ink); }
+  th, td { border: 1px solid var(--border); padding: 0.5rem 0.65rem; text-align: left; vertical-align: top; }
+  th { background: var(--ink); color: #fff; font-weight: 600; }
+  tbody tr:nth-child(even) { background: var(--bg-row-alt); }
+
   footer {
     margin-top: 3rem;
     padding-top: 1rem;
@@ -115,36 +221,191 @@
 
   <h1>Veikart: Digital førstelinje (TB2026-17)</h1>
   <p class="lede">
-    Tidslinjen viser tiltak fra e-helsestrategiens veikart som er direkte relevante for
-    oppdraget «Digital førstelinje» (TB2026-17) i tildelingsbrevet til Helsedirektoratet
-    for 2026. Radene (seksjonene) er de strategiske delmålene i e-helsestrategien som har
-    tiltak knyttet til Digital førstelinje; toppaksen er tid i år. Diagrammet er generert
-    fra strukturerte data, ikke tegnet for hånd, og kan oppdateres ved å redigere
-    Mermaid-koden lenger ned i denne filens kildekode.
+    Tiltak fra e-helsestrategiens veikart som er direkte relevante for oppdraget
+    «Digital førstelinje» (TB2026-17) i tildelingsbrevet til Helsedirektoratet for 2026.
+    Radene er de strategiske delmålene i e-helsestrategien som har tiltak knyttet til
+    Digital førstelinje; kolonnene er tidsbånd (se definisjon av båndene i
+    <code>digital-forstelinje-radar-veikart-data.md</code>). Ren HTML/CSS &ndash; ingen
+    tegnebibliotek eller internettforbindelse kreves for å vise figuren. Hold musepekeren
+    over (eller tab til) et tiltak for detaljer og kilder.
+  </p>
+  <p class="lede">
+    Tidsplasseringen for tre tiltak er oppdatert med mer presise data fra
+    <code>Veikart for nasjonal e-helsestrategi Q3 20261.md</code>, som viser eksplisitt
+    hvilket år hvert tiltak er plassert i den offisielle veikarttabellen. Dette overstyrer
+    CSV-ens mer generelle <code>Startdato</code> der de to kildene er uenige (se
+    «Detaljert datagrunnlag» for begge datapunkter).
   </p>
 
-  <div class="mermaid">
-gantt
-    title Digital førstelinje – tiltak knyttet til TB2026-17
-    dateFormat YYYY-MM-DD
-    axisFormat %Y
-    todayMarker stroke-width:2px,stroke:#d32f2f,opacity:0.6
+  <div class="roadmap-scroll">
+    <div class="roadmap">
+      <!-- Header row -->
+      <div class="rm-corner"></div>
+      <div class="rm-head">Etablert (&le;2023)</div>
+      <div class="rm-head">2024&ndash;2025</div>
+      <div class="rm-head">2026 (TB2026-17-året)</div>
+      <div class="rm-head">2027&ndash;28 og videre</div>
 
-    section Tverrgående milepæl
-    TB2026-17 frist (31.12.2026) :milestone, frist2026, 2026-12-31, 0d
+      <!-- Milestone lane -->
+      <div class="rm-label lane-milestone">Tverrgående milepæl</div>
+      <div class="rm-cell lane-milestone"></div>
+      <div class="rm-cell lane-milestone"></div>
+      <div class="rm-cell lane-milestone"><span class="flag">TB2026-17 frist 31.12.2026</span></div>
+      <div class="rm-cell lane-milestone"></div>
 
-    section Mål 1 – Digital selvhjelp (1C)
-    Helseverktøy (Helsenorge) :active, m1, 2025-01-01, 2027-12-31
+      <!-- Hovedmål 1 -->
+      <div class="rm-goal-header" tabindex="0">Mål 1: Aktiv medvirkning i egen og næres helse
+        <div class="tooltip">
+          Digitale helse- og omsorgstjenester skal tilrettelegge for at innbyggere og
+          pårørende enkelt kan involvere seg i forebygging, behandling og oppfølging av
+          egen og næres helse og mestring.
+          <span class="src">Kilde: Nasjonal e-helsestrategi, helsedirektoratet.no</span>
+        </div>
+      </div>
 
-    section Mål 1 – eBehandling spesialisthelsetjenesten (1C)
-    Nettbasert behandling – psykisk helsevern :active, m2, 2024-01-01, 2027-12-31
-    Nettbasert behandling – somatikk :active, m3, 2025-01-01, 2027-12-31
+      <!-- Mål 1 - Digital selvhjelp (1C) -->
+      <div class="rm-label lane-1">Mål 1 &ndash; Digital selvhjelp<small>Delmål 1C</small></div>
+      <div class="rm-cell lane-1"></div>
+      <div class="rm-cell lane-1">
+        <div class="card status-active" tabindex="0">
+          <div class="title">Helseverktøy (Helsenorge)</div>
+          <div class="meta">Start 2025 &middot; I bruk</div>
+          <span class="badge active">Aktiv</span>
+          <div class="tooltip">
+            På Helsenorge finnes digitale hjelpemidler (videoer, apper, verktøy for
+            hjemmeoppfølging) som innbygger kan bruke på egen hånd eller sammen med
+            behandler, via nettleser eller mobilapp.
+            <br><br>
+            Nøkkelpunkt (Veikart Q3 2026): «Digital selvhjelp er digitale løsninger som
+            brukes på egenhånd for å mestre blant annet vanlige psykiske utfordringer og
+            forbedre egen helse.»
+            <span class="src">Kilder: CSV-leveranse 56876000019903546; Figur 10, Veikart Q3 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rm-cell lane-1"></div>
+      <div class="rm-cell lane-1"></div>
 
-    section Mål 1 – Ungdom (1D)
-    Digi-ung: UngMestring :done, m4, 2022-01-01, 2025-12-31
+      <!-- Mål 1 - eBehandling spesialisthelsetjenesten (1C) -->
+      <div class="rm-label lane-1">Mål 1 &ndash; eBehandling, spesialisthelsetjenesten<small>Delmål 1C</small></div>
+      <div class="rm-cell lane-1"></div>
+      <div class="rm-cell lane-1"></div>
+      <div class="rm-cell lane-1">
+        <div class="card status-active" tabindex="0">
+          <div class="title">Nettbasert behandling &ndash; psykisk helsevern</div>
+          <div class="meta">2026 (Veikart Q3 2026) &middot; Utvikling&ndash;tilpasning&ndash;innføring</div>
+          <span class="badge active">Aktiv</span>
+          <div class="tooltip">
+            eBehandling er veiledet internettbehandling som bygger på kognitiv
+            atferdsterapi og gis av regionale helseforetak til pasienter med psykiatriske
+            lidelser (panikklidelser, depresjon, sosial angst, stressmestring, insomni).
+            <br><br>
+            Nøkkelpunkt (Veikart Q3 2026): «eBehandling / veiledet internettbehandling for
+            depresjon, sosial angst og panikklidelse er nå tilgjengelig ved alle sykehus i
+            Norge.» Plassert i 2026-kolonnen i kildetabellen &ndash; korrigerer CSV-ens
+            startdato 01.01.2024.
+            <span class="src">Kilder: CSV-leveranse 56876000019903554; tabell under Delmål 1.C, Veikart Q3 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rm-cell lane-1">
+        <div class="card status-active" tabindex="0">
+          <div class="title">Nettbasert behandling &ndash; somatikk</div>
+          <div class="meta">2027 (Veikart Q3 2026) &middot; Utvikling&ndash;tilpasning&ndash;innføring</div>
+          <span class="badge active">Aktiv</span>
+          <div class="tooltip">
+            Nettbasert behandling for somatiske sykdommer: Helse Vest tilbyr løsning for
+            fordøyelsessykdommer og lungesykdommer, Helse Sør-Øst tilbyr eBehandling for
+            langvarig smerte. Tilbud innen onkologi, endokrinologi og hjertesykdom er
+            under utvikling.
+            <br><br>
+            Nøkkelpunkt (Veikart Q3 2026): plassert ett år etter det psykiske
+            helsevern-sporet i kildetabellen (2027-kolonnen) &ndash; korrigerer CSV-ens
+            startdato 01.01.2025.
+            <span class="src">Kilder: CSV-leveranse 56876000019903558; tabell under Delmål 1.C, Veikart Q3 2026</span>
+          </div>
+        </div>
+      </div>
 
-    section Mål 3 – Kunstig intelligens (3B)
-    Offentlig KI-tjeneste for målrettede helseråd :active, m5, 2023-01-01, 2027-12-31
+      <!-- Mål 1 - Veiledet internettbehandling kommune (1C) -->
+      <div class="rm-label lane-1">Mål 1 &ndash; Veiledet internettbehandling, kommune<small>Delmål 1C</small></div>
+      <div class="rm-cell lane-1"></div>
+      <div class="rm-cell lane-1">
+        <div class="card status-active" tabindex="0">
+          <div class="title">Rask psykisk helsehjelp</div>
+          <div class="meta">2025 (Veikart Q3 2026) &middot; Innføring</div>
+          <span class="badge active">Aktiv</span>
+          <div class="tooltip">
+            Rask psykisk helsehjelp (RPH) er et gratis lavterskeltilbud i kommunen for
+            voksne med lettere til moderat angst og depresjon &ndash; uten henvisning fra
+            lege.
+            <br><br>
+            Nøkkelpunkt (Veikart Q3 2026): «Studie gjennomført av FHI viser at veiledet
+            internettbehandling gav vesentlig bedring i symptomer på angst og depresjon...
+            betydelig tidsbesparelse som kan bidra til at flere med behov kan få hjelp.»
+            Plassert i 2025-kolonnen i kildetabellen &ndash; CSV-en oppga ingen dato.
+            <span class="src">Kilder: CSV-leveranse 56876000019903550; Figur 11, Veikart Q3 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rm-cell lane-1"></div>
+      <div class="rm-cell lane-1"></div>
+
+      <!-- Mål 1 - Ungdom (1D) -->
+      <div class="rm-label lane-1">Mål 1 &ndash; Ungdom<small>Delmål 1D</small></div>
+      <div class="rm-cell lane-1">
+        <div class="card status-done" tabindex="0">
+          <div class="title">Digi-ung: UngMestring</div>
+          <div class="meta">2022&ndash;2025 &middot; Utvikling og begrenset utprøving</div>
+          <span class="badge done">Avsluttet</span>
+          <div class="tooltip">
+            UngMeistring utvikler spill- og nettbaserte behandlinger og
+            selvhjelpsprogram for ungdom 13&ndash;18 år; selvhjelpsprogrammene gjøres
+            tilgjengelig for befolkningen på ung.no.
+            <br><br>
+            Nøkkelpunkt (Veikart Q3 2026): «Regjeringen besluttet i 2022 at ung.no skal
+            være statens primære tverrsektorielle kanal for digital informasjon, dialog
+            og digitale tjenester til barn og unge», realisert blant annet gjennom
+            DigiUng-samarbeidet.
+            <span class="src">Kilder: CSV-leveranse (Digi-ung: UngMestring); Delmål 1.D, Veikart Q3 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rm-cell lane-1"></div>
+      <div class="rm-cell lane-1"></div>
+      <div class="rm-cell lane-1"></div>
+
+      <!-- Hovedmål 3 -->
+      <div class="rm-goal-header" tabindex="0">Mål 3: Helsedata til fornying og forbedring
+        <div class="tooltip">
+          Helse- og omsorgstjenestene, helsepersonell og helseforvaltningen skal i
+          økende grad ta beslutninger basert på data.
+          <span class="src">Kilde: Nasjonal e-helsestrategi, helsedirektoratet.no</span>
+        </div>
+      </div>
+
+      <!-- Mål 3 - Kunstig intelligens (3B) -->
+      <div class="rm-label lane-3">Mål 3 &ndash; Kunstig intelligens<small>Delmål 3B</small></div>
+      <div class="rm-cell lane-3">
+        <div class="card status-active" tabindex="0">
+          <div class="title">Offentlig KI-tjeneste for målrettede helseråd</div>
+          <div class="meta">Start 2023 &middot; videreført inn i Felles KI-plan 2026&ndash;2027</div>
+          <span class="badge active">Aktiv</span>
+          <div class="tooltip">
+            Helsedirektoratet skal etablere en offentlig KI-tjeneste for målrettede
+            helseråd, forankret i sektorens felles KI-planverk.
+            <br><br>
+            Nøkkelpunkt (Veikart Q3 2026): «Dette arbeidet gjøres i første omgang som et
+            prosjekt, som del av Felles KI-plan 2026-2027» &ndash; en videreføring av
+            Felles KI-plan 2024-2025.
+            <span class="src">Kilder: CSV-leveranse 56876000019902934; Figur 42, Veikart Q3 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="rm-cell lane-3"></div>
+      <div class="rm-cell lane-3"></div>
+      <div class="rm-cell lane-3"></div>
+    </div>
   </div>
 
   <div class="legend">
@@ -153,28 +414,23 @@ gantt
     <span><span class="swatch milestone"></span>Milepæl/frist</span>
   </div>
 
-  <h2>Tiltak uten tidfesting i kildedataene</h2>
-  <p class="lede">
-    Disse tiltakene mangler start- og/eller sluttdato i veikart-CSV-en og kan derfor ikke
-    plasseres presist på tidslinjen over. De er likevel del av Digital
-    førstelinje-oppdraget og listes her i stedet.
-  </p>
+  <h2>Detaljert datagrunnlag</h2>
   <table>
-    <caption>Tiltak uten dato</caption>
+    <caption>Alle tiltak vist i figuren over</caption>
     <thead>
-      <tr><th>Tiltak</th><th>Mål/delmål</th><th>Veikartfase</th><th>Merknad</th></tr>
+      <tr><th>Tiltak</th><th>Mål/delmål</th><th>Strategigruppering</th><th>Veikartfase</th><th>CSV Startdato/Sluttdato</th><th>Plassert i figur (kilde)</th></tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Rask psykisk helsehjelp</td>
-        <td>1C</td>
-        <td>Innføring</td>
-        <td>Etablert lavterskeltilbud i kommunene; ingen dato oppgitt for digitaliseringsløpet i veikartet.</td>
-      </tr>
+      <tr><td>Offentlig KI-tjeneste for målrettede helseråd</td><td>3B</td><td>Rammer og retning for kunstig intelligens (KI)</td><td>Tilpasning - innføring</td><td>01.01.2023 / &ndash;</td><td>2023 (CSV Startdato, videreført iht. Veikart Q3 2026)</td></tr>
+      <tr><td>Helseverktøy (Helsenorge)</td><td>1C</td><td>Digital selvhjelp</td><td>I bruk</td><td>01.01.2025 / &ndash;</td><td>2025 (samsvarer med Veikart Q3 2026, Figur 10)</td></tr>
+      <tr><td>Nettbasert behandling &ndash; somatikk</td><td>1C</td><td>Veiledet (eBehandling) internettbehandling, spesialisthelsetjenesten</td><td>Utvikling - tilpasning - innføring</td><td>01.01.2025 / &ndash;</td><td>2027 (Veikart Q3 2026 &ndash; korrigert fra CSV 2025)</td></tr>
+      <tr><td>Digi-ung: UngMestring</td><td>1D</td><td>Digitale tjenester til barn og unge (0-16 år)</td><td>Utvikling og begrenset utprøving</td><td>01.01.2022 / 31.12.2025</td><td>2022&ndash;2025 (CSV; ikke motsagt av Veikart Q3 2026)</td></tr>
+      <tr><td>Nettbasert behandling &ndash; psykisk helsevern</td><td>1C</td><td>Veiledet (eBehandling) internettbehandling, spesialisthelsetjenesten</td><td>Utvikling - tilpasning - innføring</td><td>01.01.2024 / &ndash;</td><td>2026 (Veikart Q3 2026 &ndash; korrigert fra CSV 2024)</td></tr>
+      <tr><td>Rask psykisk helsehjelp</td><td>1C</td><td>Veiledet internettbehandling fra kommunale helsetjenester</td><td>Innføring</td><td>&ndash; / &ndash;</td><td>2025 (Veikart Q3 2026; CSV oppga ingen dato)</td></tr>
     </tbody>
   </table>
 
-  <h2>Understøttende rammeverk (ikke egne punkter i tidslinjen)</h2>
+  <h2>Understøttende rammeverk (ikke egne punkter i figuren)</h2>
   <p class="lede">
     Disse tiltakene er forutsetninger for at «Offentlig KI-tjeneste for målrettede
     helseråd» kan videreutvikles og styres forsvarlig, men er ikke selv
@@ -183,11 +439,11 @@ gantt
   <table>
     <caption>Understøttende KI-rammeverk</caption>
     <thead>
-      <tr><th>Tiltak</th><th>Mål/delmål</th><th>Veikartfase</th><th>Startdato</th></tr>
+      <tr><th>Tiltak</th><th>Mål/delmål</th><th>Beskrivelse</th><th>Veikartfase</th><th>Startdato</th></tr>
     </thead>
     <tbody>
-      <tr><td>Sektorsamarbeid om KI (KI-rådet)</td><td>3B</td><td>I bruk</td><td>01.01.2023</td></tr>
-      <tr><td>Rammer og veiledning</td><td>3B</td><td>Utvikling – tilpasning – innføring</td><td>01.01.2023</td></tr>
+      <tr><td>Sektorsamarbeid om KI (KI-rådet)</td><td>3B</td><td>«Sektorsamarbeid, inkludert KI-rådet og den tverretatlige informasjonssiden om KI.»</td><td>I bruk</td><td>01.01.2023</td></tr>
+      <tr><td>Rammer og veiledning</td><td>3B</td><td>«Det vil fortsatt være behov i helse- og omsorgstjenesten for å gjøre arbeid knyttet til rammer, veiledning, normering og retningslinjer, og disse aktivitetene samles i ett nytt spor.» (én av tre innsatsområder i Felles KI-plan 2026&ndash;2027, videreføring av Felles KI-plan 2024&ndash;2025)</td><td>Utvikling &ndash; tilpasning &ndash; innføring</td><td>01.01.2023</td></tr>
     </tbody>
   </table>
 
@@ -219,11 +475,16 @@ gantt
 
   <footer>
     Kildedata: <code>background/annet/markdown/Tiltak-leveranser-veikartliste-e-helsestrategien.csv</code>
-    (versjon 2026-08) og <code>background/annet/markdown/2026-Helsedirektoratet-tildelingsbrev.pdf.md</code>
-    (TB2026-17). Fullstendig tabellgrunnlag:
+    (versjon 2026-08), <code>background/annet/markdown/2026-Helsedirektoratet-tildelingsbrev.pdf.md</code>
+    (TB2026-17), <code>background/annet/markdown/Veikart for nasjonal e-helsestrategi Q3 20261.md</code>
+    (tidfesting og nøkkelpunkter i musepekerinformasjonen) og
+    <a href="https://www.helsedirektoratet.no/digitalisering-og-e-helse/nasjonal-e-helsestrategi" target="_blank" rel="noopener">Nasjonal e-helsestrategi</a>
+    (kort beskrivelse av hovedmålene i musepekerinformasjonen på mål-radene). Der de to kildene er uenige om
+    dato, er den eksplisitte kolonneplasseringen i Q3 2026-dokumentets tabeller lagt til
+    grunn, se «Detaljert datagrunnlag». Fullstendig tabellgrunnlag:
     <code>background/annet/markdown/digital-forstelinje-radar-veikart-data.md</code>.
-    Diagrammet er tegnet med <a href="https://mermaid.js.org/syntax/gantt.html" target="_blank" rel="noopener">Mermaid Gantt</a>,
-    lastet fra CDN (krever nettforbindelse for å rendres).
+    Figuren er ren HTML/CSS (CSS Grid) &ndash; ingen JavaScript-biblioteker eller
+    internettforbindelse kreves.
   </footer>
 
 </div>
