@@ -1,4 +1,3 @@
-
 ---
 id: ANNET-030
 title: "Veikart for Helsenorge"
@@ -20,12 +19,17 @@ topics:
   - produktutvikling
 publication_date: 2026-06-01
 language: nb
-access_level: open
-web_published: false
+access_level: web_published
+web_published: true
+source:
+  url: "https://www.nhn.no/tjenester/helsenorge/produktstyring-strategi-og-veikart/strategi-og-veikart"
+  retrieved_date: 2026-09-30
+  source_name: "Norsk helsenett (NHN)"
 original_document:
   local_path: "annet/input/Vedlegg 1 Helsenorge veikart.pdf"
   format: pdf
-  online_status: not_checked
+  online_url: "https://www.nhn.no/tjenester/helsenorge/produktstyring-strategi-og-veikart/strategi-og-veikart/Vedlegg%201%20Helsenorge%20veikart.pdf"
+  online_status: verified
 normative_level: advisory
 status: current
 metadata_confidence: medium

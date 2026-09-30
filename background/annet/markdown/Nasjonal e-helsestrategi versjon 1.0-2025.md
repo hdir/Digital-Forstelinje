@@ -1,4 +1,3 @@
-
 ---
 id: ANNET-029
 title: "Nasjonal e-helsestrategi"
@@ -23,12 +22,17 @@ topics:
   - helsedata
   - samhandling
 language: nb
-access_level: open
-web_published: false
+access_level: web_published
+web_published: true
+source:
+  url: "https://www.helsedirektoratet.no/digitalisering-og-e-helse/nasjonal-e-helsestrategi"
+  retrieved_date: 2026-09-30
+  source_name: "Helsedirektoratet"
 original_document:
   local_path: "annet/input/Nasjonal e-helsestrategi versjon 1.0-2025.pdf"
   format: pdf
-  online_status: not_checked
+  online_url: "https://www.helsedirektoratet.no/digitalisering-og-e-helse/nasjonal-e-helsestrategi"
+  online_status: verified
 normative_level: advisory
 status: current
 version: "1.0 (2025; angitt i filnavnet)"
