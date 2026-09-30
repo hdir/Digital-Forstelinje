@@ -34,10 +34,20 @@ Inspect the selected script's `argparse` configuration before building the comma
 For PowerShell on Windows, use the `py` launcher:
 
 ```powershell
-$env:DATALAB_API_KEY = '<set locally; do not commit or print>'
-py 'path/to/convert_to_markdown.py' <script-specific arguments>
-Remove-Item Env:DATALAB_API_KEY
+$ErrorActionPreference = 'Stop'
+try {
+  $env:DATALAB_API_KEY = '<set locally; do not commit or print>'
+  py 'src\convert_to_markdown.py' `
+    'C:\Git\Digital-Forstelinje\background\annet\input\Nasjonal e-helsestrategi versjon 1.0-2025.pdf' `
+    'C:\Git\Digital-Forstelinje\background\annet\input\Vedlegg 1 Helsenorge veikart.pdf' `
+    --output-dir 'C:\Git\Digital-Forstelinje\background\annet\markdown'
+  if ($LASTEXITCODE -ne 0) { throw "Converter exited with code $LASTEXITCODE" }
+} finally {
+  Remove-Item Env:DATALAB_API_KEY -ErrorAction SilentlyContinue
+}
 ```
+
+The converter accepts one or more source paths as positional arguments and uses `--output-dir` for the destination. Replace the example files and destination with the user's requested paths. Do not add `--overwrite` unless the user asked to reconvert or approved replacing existing output.
 
 Do not paste a real key into this skill or save it in a workspace settings file. If a run fails, report the converter's safe error details without exposing request headers or credentials.
 
