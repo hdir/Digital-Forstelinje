@@ -23,12 +23,10 @@ topics:
   - EHDS
 creator:
   - name: "Helsedirektoratet"
-    party_type: public_body
-    role: publisher_and_content_owner
+    agent_type: public_body
 publisher:
   name: "Helsedirektoratet"
-  party_type: public_body
-  role: publisher
+  agent_type: public_body
 publication_date: 2026-08-09
 language: nb
 access_level: web_published

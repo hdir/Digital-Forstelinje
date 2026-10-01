@@ -10,7 +10,7 @@ information_categories:
   - implementation_or_operations
 creator:
   - name: "Produktstyret for Helsenorge"
-    party_type: group
+    agent_type: group
 summary: "Veikart over anbefalte tiltak og endringer for videreutvikling av Helsenorge, gruppert etter strategiske satsingsområder."
 topics:
   - Helsenorge

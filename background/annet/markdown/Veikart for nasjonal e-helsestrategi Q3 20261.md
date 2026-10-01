@@ -23,12 +23,10 @@ topics:
   - gjennomføringskraft
 creator:
   - name: "Helsedirektoratet"
-    party_type: public_body
-    role: creator
+    agent_type: public_body
 publisher:
   name: "Helsedirektoratet"
-  party_type: public_body
-  role: publisher
+  agent_type: public_body
 language: nb
 access_level: web_published
 web_published: true

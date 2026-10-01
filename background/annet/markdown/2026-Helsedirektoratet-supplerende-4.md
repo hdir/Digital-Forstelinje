@@ -3,24 +3,23 @@ id: ANNET-007
 title: "Supplerende tildelingsbrev nr. 4 for 2026"
 document_type: directive_or_assignment
 information_categories:
-	- decision_or_mandate
-	- economic_or_financial
-	- organizational_or_governance
+  - decision_or_mandate
+  - economic_or_financial
+  - organizational_or_governance
 creator:
-	- name: "Helse- og omsorgsdepartementet"
-		party_type: public_body
-		role: issuer
+  - name: "Helse- og omsorgsdepartementet"
+    agent_type: public_body
 publisher:
-	name: "Helse- og omsorgsdepartementet"
-	party_type: public_body
+  name: "Helse- og omsorgsdepartementet"
+  agent_type: public_body
 publication_date: 2026-01-01
 language: nb
 access_level: open
 web_published: false
 original_document:
-	local_path: "annet/input/2026-Helsedirektoratet-supplerende-4.pdf"
-	format: pdf
-	online_status: not_checked
+  local_path: "annet/input/2026-Helsedirektoratet-supplerende-4.pdf"
+  format: pdf
+  online_status: not_checked
 normative_level: formal_decision
 status: current
 metadata_confidence: medium

@@ -9,7 +9,7 @@ information_categories:
     - implementation_or_operations
 creator:
     - name: unknown
-        party_type: unknown
+      agent_type: unknown
 summary: "Prosjektrapport om digital behandlings- og egenbehandlingsplan."
 topics:
     - digital behandlingsplan

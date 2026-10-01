@@ -3,25 +3,25 @@ id: ANNET-018
 title: "Grunnstrukturen i helsetenesta"
 document_type: report
 information_categories:
-	- descriptive
-	- definitions_or_terminology
+  - descriptive
+  - definitions_or_terminology
 creator:
-	- name: "Helse- og omsorgsdepartementet"
-		party_type: public_body
+  - name: "Helse- og omsorgsdepartementet"
+    agent_type: public_body
 publisher:
-	name: "Helse- og omsorgsdepartementet"
-	party_type: public_body
+  name: "Helse- og omsorgsdepartementet"
+  agent_type: public_body
 publication_date: 2025-05-07
 language: nn
 access_level: web_published
 web_published: true
 original_document:
-	format: html
-	online_url: "https://www.regjeringen.no/no/tema/helse-og-omsorg/innsikt/grunnstrukturen-i-helsetenesta/id227440/"
-	online_status: verified
+  format: html
+  online_url: "https://www.regjeringen.no/no/tema/helse-og-omsorg/innsikt/grunnstrukturen-i-helsetenesta/id227440/"
+  online_status: verified
 source:
-	url: "https://www.regjeringen.no/no/tema/helse-og-omsorg/innsikt/grunnstrukturen-i-helsetenesta/id227440/"
-	source_name: "regjeringen.no"
+  url: "https://www.regjeringen.no/no/tema/helse-og-omsorg/innsikt/grunnstrukturen-i-helsetenesta/id227440/"
+  source_name: "regjeringen.no"
 normative_level: none
 status: current
 metadata_confidence: high

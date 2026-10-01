@@ -9,11 +9,10 @@ information_categories:
   - implementation_or_operations
 creator:
   - name: "Helse- og omsorgsdepartementet"
-    party_type: public_body
-    role: issuer
+    agent_type: public_body
 publisher:
   name: "Helse- og omsorgsdepartementet"
-  party_type: public_body
+  agent_type: public_body
 publication_date: 2026-01-19
 language: nb
 access_level: open

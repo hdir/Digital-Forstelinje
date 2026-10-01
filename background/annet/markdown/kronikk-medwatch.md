@@ -3,26 +3,25 @@ id: ANNET-020
 title: "Kronikk om innovasjon og KI i helsetjenesten"
 document_type: presentation_or_note
 information_categories:
-	- stakeholder_view
-	- problem_or_challenge
-	- proposal_or_measure
+  - stakeholder_view
+  - problem_or_challenge
+  - proposal_or_measure
 creator:
-	- name: "Anders Austlid Tasken"
-		party_type: person
-		role: author
-		affiliation: "Vidd Medical"
+  - name: "Anders Austlid Tasken"
+    agent_type: person
+    affiliation: "Vidd Medical"
 summary: "Debattinnlegg om barrierer for innovasjon og klinisk KI i helsetjenesten."
 topics:
-	- innovasjon
-	- kunstig intelligens
-	- offentlige anskaffelser
+  - innovasjon
+  - kunstig intelligens
+  - offentlige anskaffelser
 language: nb
 access_level: open
 web_published: false
 original_document:
-	local_path: "annet/input/kronikk-medwatch.md"
-	format: md
-	online_status: not_checked
+  local_path: "annet/input/kronikk-medwatch.md"
+  format: md
+  online_status: not_checked
 normative_level: none
 status: current
 metadata_confidence: high

@@ -2,12 +2,16 @@
 
 Dette er en kort metadata-modell for kildedokumenter i `background/*/markdown`. Bare Markdown-filer i disse katalogene omfattes. Modellen skal gjøre dokumentene søkbare, sammenlignbare og egnet som underlag for analyse og andre oppgaver.
 
+Maskinlesbar valideringsvariant i JSON Schema Draft 2020-12: [metadata-schema.json](metadata-schema.json).
+
 ## Prinsipper
 
 - Metadata beskriver dokumentet, ikke sannhetsverdien i påstandene i dokumentet.
 - Bruk kontrollerte verdier der det er praktisk mulig, men behold `notes` for tvilstilfeller.
-- Skill mellom hvem som har skrevet dokumentet (`creator`), hvem som har sendt eller godkjent det (`contributor`) og hvem som har publisert eller utstedt det (`publisher`).
+- Skill mellom agentene som har utarbeidet dokumentet (`creator`), bidratt til eller sendt det (`contributor`) og publisert eller utstedt det (`publisher`). Samme agent kan ha flere roller.
 - Skill mellom dokumentets tilgangsnivå og om det faktisk er publisert på nett.
+- `Agent` beskriver aktørens identitet. Roller knyttet til en bestemt aktivitet registreres på agentdeltakelsen i `provenance`, ikke på agentidentiteten.
+- `provenance` beskriver kjente aktiviteter som har generert eller endret Markdown-dokumentet. Hver oppføring gjelder én aktivitet; målet er Markdown-dokumentet selv.
 - Flere verdier er tillatt for `information_categories`, `topics`, `creator` og `contributor`.
 
 ## Metadatafelt
@@ -21,9 +25,9 @@ Dette er en kort metadata-modell for kildedokumenter i `background/*/markdown`. 
 | `information_categories` | enum[] | Ja | Hvilken type informasjon dokumentet inneholder. Minst én verdi, flere ved behov. |
 | `summary` | string | Nei | Kort, nøytral beskrivelse av innhold og formål. |
 | `topics` | string[] | Nei | Søkeord eller kontrollerte emneord, for eksempel `digital helse`, `samhandling`, `styring`. |
-| `creator` | Party[] | Ja | Person(er) eller organisasjon(er) som har utarbeidet innholdet. |
-| `contributor` | Party[] | Nei | Andre bidragsytere, høringsparter, oppdragsgiver eller godkjennende instans. |
-| `publisher` | Party | Nei | Organisasjon som publiserte eller utstedte dokumentet. |
+| `creator` | Agent[] | Ja | Person(er) eller organisasjon(er) som har utarbeidet innholdet. Tilsvarer dokumentets `dc:creator`, ikke i seg selv en aktivitet. |
+| `contributor` | Agent[] | Nei | Andre bidragsytere, høringsparter, oppdragsgiver eller godkjennende instans. Tilsvarer dokumentets `dc:contributor`. |
+| `publisher` | Agent | Nei | Organisasjon som publiserte eller utstedte dokumentet. Tilsvarer dokumentets `dc:publisher`. |
 | `publication_date` | date | Nei | Første publiserings- eller utstedelsesdato, ISO 8601 (`YYYY-MM-DD`). Bruk første dag i måneden bare når kilden oppgir måned og år. |
 | `modified_date` | date | Nei | Siste faglige eller redaksjonelle endring, dersom kjent. |
 | `language` | enum | Ja | Språk, normalt `nb`, `nn`, `no`, `en` eller `mul` (flere språk). |
@@ -31,6 +35,7 @@ Dette er en kort metadata-modell for kildedokumenter i `background/*/markdown`. 
 | `web_published` | boolean | Ja | `true` når dokumentet er publisert på et åpent nettsted. Dette kan være `false` selv om dokumentet er åpent tilgjengelig på annen måte. |
 | `source` | Source | Nei | Kildested, URL, arkiv eller annen sporbar opprinnelse. |
 | `original_document` | OriginalDocument | Nei | Proveniens for den nedlastede originalen eller den direkte webkilden som Markdown-filen er basert på. |
+| `provenance` | Provenance[] | Nei | Kjente aktiviteter som genererte eller endret Markdown-dokumentet, med tilhørende agenter og kildeentiteter. |
 | `normative_level` | enum | Ja | Dokumentets normerende status, eller `none` når det ikke har en slik status. |
 | `status` | enum | Ja | Dokumentets livsløp: `current`, `superseded`, `draft`, `historical` eller `unknown`. |
 | `version` | string | Nei | Versjonsnummer, revisjon eller utgave slik kilden oppgir det. |
@@ -38,16 +43,16 @@ Dette er en kort metadata-modell for kildedokumenter i `background/*/markdown`. 
 | `metadata_confidence` | enum | Ja | `high`, `medium` eller `low`, basert på hvor tydelig metadata kan dokumenteres i kilden. |
 | `notes` | string | Nei | Forbehold, tolkinger, manglende opplysninger eller annen forvaltningsinformasjon. |
 
-### Party
+### Agent
 
-`Party` er et objekt med:
+`Agent` beskriver en aktøridentitet og tilsvarer aktøren som refereres av FHIR `Provenance.agent.who`.
 
 | Felt | Type | Påkrevd | Beskrivelse |
 | --- | --- | --- | --- |
-| `name` | string | Ja | Navn på person eller organisasjon. |
-| `party_type` | enum | Ja | `person`, `organization`, `group`, `public_body`, `company`, `unknown`. |
-| `role` | string | Nei | Rolle i dokumentet, for eksempel `ansvarlig advokat`, `avsender`, `oppdragsgiver` eller `redaksjon`. |
-| `affiliation` | string | Nei | Tilknytning dersom personen opptrer på vegne av en annen organisasjon. |
+| `name` | string | Ja | Navn på person, organisasjon eller annen aktør. |
+| `agent_type` | enum | Ja | `person`, `organization`, `group`, `device`, `software`, `patient`, `practitioner_role`, `care_team`, `related_person`, `public_body`, `company`, `unknown`. `public_body` og `company` er lokale presiseringer av `organization`. |
+| `identifier` | string | Nei | Stabil lokal ID eller ekstern identifikator, helst URI når tilgjengelig. |
+| `affiliation` | string | Nei | Beskrivende organisatorisk tilknytning. Dette er ikke det samme som FHIR `agent.onBehalfOf`, som registreres på en bestemt agentdeltakelse. |
 
 ### Source
 
@@ -66,11 +71,58 @@ Dette er en kort metadata-modell for kildedokumenter i `background/*/markdown`. 
 
 | Felt | Type | Påkrevd | Beskrivelse |
 | --- | --- | --- | --- |
+| `id` | string | Nei | Stabil ID for originalentiteten, brukt av `provenance.entity.what` når den refererer til dette dokumentet. |
 | `local_path` | path | Nei | Relativ sti til originalfilen under `background`, for eksempel `annet/input/rapport.pdf`. |
 | `format` | enum | Ja når objektet finnes | Originalformat: `pdf`, `docx`, `html`, `csv`, `md` eller `other`. |
 | `online_url` | URI | Nei | Canonical URL til originaldokumentet eller den offisielle landingssiden. |
 | `online_status` | enum | Ja når objektet finnes | `verified`, `candidate`, `not_found`, `not_checked` eller `not_applicable`. |
 | `retrieved_date` | date | Nei | Dato originalen eller URL-en ble hentet, ISO 8601. |
+
+### Provenance
+
+`Provenance` følger kjernemønsteret i FHIR R5 `Provenance`: én oppføring beskriver én aktivitet, agentene som deltok, og eventuelle entiteter aktiviteten brukte. `target` er implisitt Markdown-filen som metadataene står i. Bruk flere oppføringer dersom flere aktiviteter skal dokumenteres.
+
+| Felt | Type | Påkrevd | Beskrivelse |
+| --- | --- | --- | --- |
+| `activity` | CodeableConcept | Ja | Aktiviteten som fant sted; tilsvarer FHIR `Provenance.activity`. |
+| `occurred` | date-time eller Period | Nei | Når aktiviteten fant sted; tilsvarer FHIR `Provenance.occurred[x]`. |
+| `recorded` | date-time | Nei | Når proveniensopplysningen ble registrert; tilsvarer FHIR `Provenance.recorded`. |
+| `agent` | AgentParticipation[] | Ja | Minst én agent som deltok i aktiviteten; tilsvarer FHIR `Provenance.agent`. |
+| `entity` | ProvenanceEntity[] | Nei | Entiteter aktiviteten brukte, for eksempel originaldokumentet; tilsvarer FHIR `Provenance.entity`. |
+
+`CodeableConcept` er et objekt med:
+
+| Felt | Type | Påkrevd | Beskrivelse |
+| --- | --- | --- | --- |
+| `coding` | Coding[] | Nei | Kodede verdier. Oppgi minst én kode når konseptet har en kjent kode. |
+| `text` | string | Nei | Menneskelesbar tekst når en kodet verdi ikke finnes eller trenger forklaring. |
+
+`Coding` er et objekt med:
+
+| Felt | Type | Påkrevd | Beskrivelse |
+| --- | --- | --- | --- |
+| `system` | URI | Nei | Kodesystemets URI. |
+| `code` | string | Nei | Kode i kodesystemet. |
+| `display` | string | Nei | Menneskelesbar betegnelse for koden. |
+
+`AgentParticipation` er et objekt med:
+
+| Felt | Type | Påkrevd | Beskrivelse |
+| --- | --- | --- | --- |
+| `who` | Agent | Ja | Aktøren som deltok; tilsvarer FHIR `Provenance.agent.who`. |
+| `type` | CodeableConcept | Nei | Hvordan agenten deltok, for eksempel `author` eller `assembler`; tilsvarer FHIR `Provenance.agent.type`. |
+| `role` | CodeableConcept[] | Nei | Agentens funksjonelle rolle i akkurat denne aktiviteten; tilsvarer FHIR `Provenance.agent.role`. |
+| `on_behalf_of` | Agent | Nei | Agenten som deltakeren handlet på vegne av i denne aktiviteten; tilsvarer FHIR `Provenance.agent.onBehalfOf`. |
+
+`ProvenanceEntity` er et objekt med:
+
+| Felt | Type | Påkrevd | Beskrivelse |
+| --- | --- | --- | --- |
+| `role` | enum | Ja | Hvordan entiteten ble brukt: `revision`, `quotation`, `source`, `instantiates` eller `removal`; tilsvarer FHIR `Provenance.entity.role`. |
+| `what` | string | Ja | Stabil ID eller URI for entiteten; tilsvarer FHIR `Provenance.entity.what`. Bruk `original_document.id` når entiteten er originaldokumentet. |
+| `agent` | AgentParticipation[] | Nei | Agenter som entiteten tilskrives; tilsvarer FHIR `Provenance.entity.agent`. |
+
+Registrer bare en Provenance-oppføring når aktiviteten og minst én deltakende agent kan identifiseres. Ikke utled en aktivitet eller agent fra `creator`, `publisher` eller `publication_date` alene.
 
 ## Kontrollerte vokabularer
 
@@ -109,8 +161,11 @@ Verdiene uttrykker dokumentets status, ikke hvor overbevisende eller faglig godt
 6. `source.url` skal være en absolutt `http`- eller `https`-URI når den finnes.
 7. `original_document.local_path` skal, når den finnes, peke til en eksisterende fil under `background`.
 8. `original_document.online_url` skal være en absolutt `http`- eller `https`-URI når den finnes. `online_status: verified` krever `online_url`.
-9. `creator` skal registreres som `unknown` bare når kilden ikke gir rimelig grunnlag for identifikasjon. Ikke gjett person eller organisasjon.
+9. En agent skal registreres med `agent_type: unknown` bare når kilden ikke gir rimelig grunnlag for identifikasjon. Ikke gjett person eller organisasjon.
 10. Påstander om normativ status skal kunne spores til dokumentet eller en oppgitt kilde. Bruk `metadata_confidence: low` når statusen er tolket.
+11. Hver `provenance`-oppføring skal ha `activity` og minst én `agent` med `who`.
+12. `provenance[].recorded` og `provenance[].occurred` skal, når de er dato/tid, være gyldige ISO 8601-verdier. For `occurred` som periode skal slutten ikke være før starten.
+13. Hver `provenance[].entity[].what` skal peke til en identifiserbar entitet. Når den viser til `original_document`, skal `original_document.id` være utfylt.
 
 ## Anbefalt front matter
 
@@ -126,11 +181,10 @@ topics:
   - digital helse
 creator:
   - name: "Direktoratet for e-helse"
-    party_type: public_body
-    role: publisher_and_creator
+    agent_type: public_body
 publisher:
   name: "Direktoratet for e-helse"
-  party_type: public_body
+  agent_type: public_body
 publication_date: 2019-06-15
 modified_date: 2023-06-15
 language: nb
@@ -142,11 +196,33 @@ source:
   source_name: "Eksempelnettsted"
   source_identifier: "PUB-123"
 original_document:
+  id: "ORIG-DF-0001"
   local_path: "annet/input/eksempel.pdf"
   format: pdf
   online_url: "https://example.org/dokument"
   online_status: verified
   retrieved_date: 2026-09-18
+provenance:
+  - activity:
+      coding:
+        - system: "https://example.org/codes/activity"
+          code: conversion
+          display: "PDF til Markdown-konvertering"
+    occurred: "2026-09-18T10:30:00Z"
+    recorded: "2026-09-18T10:35:00Z"
+    agent:
+      - who:
+          name: "Markdown-konverterer"
+          agent_type: software
+          identifier: "https://example.org/tools/converter"
+        type: assembler
+        role:
+          - coding:
+              - system: "https://example.org/codes/agent-role"
+                code: converter
+    entity:
+      - role: source
+        what: "ORIG-DF-0001"
 normative_level: advisory
 status: current
 version: "1.1"
@@ -155,7 +231,34 @@ metadata_confidence: high
 notes: ""
 ```
 
-## Dublin Core-mapping
+## Standardmapping
+
+Creator, contributor og publisher er metadata om dokumentet og beholdes som
+separate felt. De blir ikke automatisk til en FHIR Provenance-aktivitet. Når
+en proveniensoppføring finnes, mappe den slik:
+
+| Modellfelt | FHIR R5 Provenance |
+| --- | --- |
+| Markdown-filen med metadataene | `target` |
+| `provenance[].activity` | `activity` |
+| `provenance[].occurred` | `occurred[x]` |
+| `provenance[].recorded` | `recorded` |
+| `provenance[].agent[].who` | `agent.who` |
+| `provenance[].agent[].type` | `agent.type` |
+| `provenance[].agent[].role` | `agent.role` |
+| `provenance[].agent[].on_behalf_of` | `agent.onBehalfOf` |
+| `provenance[].entity[].role` | `entity.role` |
+| `provenance[].entity[].what` | `entity.what` |
+| `provenance[].entity[].agent` | `entity.agent` |
+| `original_document` | Kildeentitet referert fra `entity.what`, vanligvis med `entity.role: source` |
+
+FHIR `Provenance` krever minst én `target` og én agent med `who`. I denne
+modellen er målet implisitt den aktuelle Markdown-filen, mens hver oppføring
+krever minst én agentdeltakelse. Ved eksport må lokale ID-er og identiteter
+oversettes til entydige FHIR-referanser. Dette er en praktisk delmodell, ikke
+en full FHIR-ressurs.
+
+### Dublin Core-mapping
 
 | Modellfelt | Dublin Core |
 | --- | --- |
@@ -170,4 +273,4 @@ notes: ""
 | `access_level` | `dc:rights` |
 | `related_documents` | `dc:relation` |
 
-Felt som `information_categories`, `normative_level`, `web_published`, `status` og `metadata_confidence` er prosjektspesifikke utvidelser.
+Felt som `information_categories`, `normative_level`, `web_published`, `status` og `metadata_confidence` er prosjektspesifikke utvidelser. `provenance` følger FHIR R5-mønsteret, men er en avgrenset lokal modell og ikke en full FHIR-ressurs.

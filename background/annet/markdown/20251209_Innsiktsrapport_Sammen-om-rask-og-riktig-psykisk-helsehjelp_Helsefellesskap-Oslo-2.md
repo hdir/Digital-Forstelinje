@@ -9,7 +9,7 @@ information_categories:
   - recommendation
 creator:
   - name: "Helsefellesskap Oslo"
-    party_type: organization
+    agent_type: organization
 summary: "Innsiktsrapport om rask og riktig psykisk helsehjelp."
 topics:
   - psykisk helse

@@ -9,12 +9,10 @@ information_categories:
   - organizational_or_governance
 creator:
   - name: "Helsedirektoratet"
-    party_type: public_body
-    role: "fagmyndighet og koordinator for strategiarbeidet"
+    agent_type: public_body
 contributor:
   - name: "Aktører og interessenter i helse- og omsorgssektoren"
-    party_type: group
-    role: "deltakere i strategiarbeidet"
+    agent_type: group
 summary: "Sektorstrategi som setter felles retning, prioriteringer og mål for digitalisering av helse- og omsorgstjenesten fram mot 2030."
 topics:
   - e-helse
@@ -37,7 +35,7 @@ normative_level: advisory
 status: current
 version: "1.0 (2025; angitt i filnavnet)"
 metadata_confidence: medium
-notes: "Konvertert dokumenttekst angir ikke en eksplisitt publiseringsdato."
+notes: "Helsedirektoratet er oppgitt som fagmyndighet og koordinator; aktører og interessenter er oppgitt som deltakere i strategiarbeidet. Konvertert dokumenttekst angir ikke eksplisitt publiseringsdato."
 ---
 
 ![A large circular graphic containing five smaller circular scenes illustrating various healthcare scenarios: a hospital room with a patient and staff, a doctor with a patient and family, a doctor with a patient and a monitor, a laptop with a heart rate line and a lock, and a group of people in a meeting.](Nasjonal%20e-helsestrategi%20versjon%201.0-2025/935eed7aa61f7777f62cfc032e11bee9_img.jpg)

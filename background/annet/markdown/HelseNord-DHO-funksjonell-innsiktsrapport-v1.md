@@ -9,8 +9,7 @@ information_categories:
   - research_or_method
 creator:
   - name: "Helse Nord"
-    party_type: public_body
-    role: project
+    agent_type: public_body
 summary: "Funksjonell innsiktsrapport fra arbeidet med digital hjemmeoppfølging i Helse Nord."
 topics:
   - digital hjemmeoppfølging

@@ -3,25 +3,25 @@ id: ANNET-022
 title: "Utredning av en integrert ungdomstjeneste på ett nivå"
 document_type: analysis_or_evaluation
 information_categories:
-	- problem_or_challenge
-	- research_or_method
-	- goal_or_outcome
-	- proposal_or_measure
+  - problem_or_challenge
+  - research_or_method
+  - goal_or_outcome
+  - proposal_or_measure
 creator:
-	- name: "Helsedirektoratet"
-		party_type: public_body
+  - name: "Helsedirektoratet"
+    agent_type: public_body
 summary: "Utredning av en integrert ungdomstjeneste på ett nivå, med svar på oppdrag."
 topics:
-	- ungdomstjenester
-	- samhandling
-	- psykisk helse
+  - ungdomstjenester
+  - samhandling
+  - psykisk helse
 language: nb
 access_level: open
 web_published: false
 original_document:
-	local_path: "annet/input/Rapport - Utredning av en integrert ungdomstjeneste på ett nivå.PDF"
-	format: pdf
-	online_status: not_checked
+  local_path: "annet/input/Rapport - Utredning av en integrert ungdomstjeneste på ett nivå.PDF"
+  format: pdf
+  online_status: not_checked
 normative_level: none
 status: current
 publication_date: 2026-01-01
