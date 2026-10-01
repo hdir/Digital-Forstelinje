@@ -1,6 +1,6 @@
 ---
 name: konvertering-og-metadata
-description: "Use when converting one or more source documents to Markdown with this repository's Datalab API converter, including selecting input and output paths, extracting images into a per-document folder, and adding YAML metadata from .llm/data/metadata-schema.md. Also use to validate conversion results, image links, and metadata."
+description: "Use when converting one or more source documents to Markdown with this repository's Datalab API converter, including selecting input and output paths, extracting images into a per-document folder, and adding YAML metadata using .llm/data/metadata-schema.md and .llm/data/metadata-schema.json. Also use to validate conversion results, image links, and metadata."
 ---
 
 # Dokumentkonvertering og metadata
@@ -18,13 +18,13 @@ Convert requested source documents to Markdown with the repository's existing Da
 ## Workflow
 
 1. Identify the requested source file or collection, output directory, and whether existing results may be replaced. Resolve relative paths from the workspace root and verify each input exists.
-2. Read `.llm/data/metadata-schema.md` and inspect the relevant `convert_to_markdown.py` before running it. Check the script's supported formats, argument syntax, default paths, overwrite behavior, image extraction behavior, and environment-variable handling. Prefer the converter closest to the requested input/output area when multiple scripts exist. Do not assume different scripts have the same CLI.
+2. Read `.llm/data/metadata-schema.md` and `.llm/data/metadata-schema.json`, then inspect the relevant `convert_to_markdown.py` before running it. Check the script's supported formats, argument syntax, default paths, overwrite behavior, image extraction behavior, and environment-variable handling. Prefer the converter closest to the requested input/output area when multiple scripts exist. Do not assume different scripts have the same CLI.
 3. If the script does not support the requested inputs, output path, or image extraction requirement, explain the mismatch and use only a compatible existing converter. Do not silently switch to a different API or disable image extraction.
 4. For a single file, pass the exact source and requested output directory using that script's documented arguments. For a collection, pass only the requested files or directory; exclude temporary files and unsupported formats. Preserve the converter's sequential/rate-limit behavior. Set `DATALAB_API_KEY` only for the converter process when practical, and clear the temporary environment value afterward.
 5. Confirm the converter completed successfully for each requested document. Do not report skipped or failed files as converted. If a requested output already existed and was skipped, report that and do not claim it was regenerated.
 6. For every successful conversion, verify that the Markdown file exists and is non-empty. Check that extracted images are in a separate, document-specific subdirectory beneath the output directory, and that Markdown image links resolve to those files. Report the number of extracted images and any extraction warnings.
 7. Add YAML front matter to each eligible Markdown file as described below. Preserve the converted body and any existing valid metadata. Do not produce duplicate YAML keys or add metadata to files outside the schema's scope.
-8. Validate required fields, controlled values, dates, ID uniqueness, local original-file paths, and `web_published`/`access_level` consistency. Recheck that the Markdown body and image references remain intact after front matter is added.
+8. Validate the front matter against `.llm/data/metadata-schema.json`. Also check the cross-field, uniqueness, filesystem, and provenance-reference rules in `.llm/data/metadata-schema.md`, which JSON Schema cannot fully enforce. Recheck that the Markdown body and image references remain intact after front matter is added.
 9. Report the output Markdown paths, per-document image-folder paths and counts, metadata uncertainty, skipped/failed files, and any validation issues. Never include the API key in the report.
 
 ## Converter invocation
@@ -53,50 +53,52 @@ Do not paste a real key into this skill or save it in a workspace settings file.
 
 ## Metadata rules
 
-Use `.llm/data/metadata-schema.md` as the source of truth for field definitions, controlled vocabularies, and validation. Metadata applies only to `.md` files under `background/*/markdown`.
+Use [`.llm/data/metadata-schema.md`](../../data/metadata-schema.md) for metadata scope, field semantics, controlled vocabularies, examples, and validation rules. Use [`.llm/data/metadata-schema.json`](../../data/metadata-schema.json) to validate the structure and machine-checkable constraints. Read both before creating or changing front matter; do not duplicate their field definitions or rules in this skill.
 
-- Include every required field: `id`, `title`, `document_type`, `information_categories`, `creator`, `language`, `access_level`, `web_published`, `normative_level`, `status`, and `metadata_confidence`.
-- Use the exact controlled values in the schema for `document_type`, `information_categories`, `language`, `access_level`, `normative_level`, `status`, `metadata_confidence`, and party types.
-- Base metadata on the document itself and reliable provenance supplied with it. Keep the summary neutral. Do not mistake a cited source in the document body for the source from which the document was obtained.
-- Distinguish `creator`, `contributor`, and `publisher`. Do not infer a named creator from a logo, hosting website, or commissioning party alone.
-- Assign a stable project ID such as `DF-0001`. Before assigning IDs, inspect existing metadata IDs across eligible Markdown files, retain existing IDs on reconversion, and reserve unique IDs for all files in a batch. Never reuse an ID.
-- Set `web_published: true` only when open-web publication is established. Normally pair it with `access_level: web_published`; explain any justified exception in `notes`. A local file or an open-but-unpublished document is not automatically web-published.
-- Add `original_document` for the converted source when useful. `local_path` must be relative to `background` and point to an existing file. Use the schema's format values; use `other` for supported source formats not explicitly enumerated there. Set `online_status: verified` only when an `online_url` has actually been verified. Otherwise use an appropriate value such as `not_checked`, `not_found`, or `not_applicable`.
-- Use ISO 8601 dates. If only a month and year are provided, use the first day of that month as directed by the schema. Do not use the conversion date as the publication date.
-- Choose `normative_level` based on the document's formal status, not how persuasive its content seems. When status is uncertain, use `none` only if the document is clearly non-normative; otherwise use low confidence and explain the interpretation in `notes`.
-- Set `metadata_confidence` according to how directly the source supports the metadata. Record material ambiguity or unavailable facts in `notes` rather than filling gaps by guesswork.
+The Markdown specification includes guidance and checks not expressible in JSON Schema. Follow it alongside JSON Schema validation. If the two schema files disagree, report the discrepancy rather than inventing a resolution.
 
 ## Front matter shape
 
-Follow the schema's recommended structure and omit optional fields when unknown. The example below is the actual front matter from `background/annet/markdown/20251209_Innsiktsrapport_Sammen-om-rask-og-riktig-psykisk-helsehjelp_Helsefellesskap-Oslo-2.md`. It demonstrates the repository's current metadata style; do not copy its document-specific values or reuse its ID for another document.
+Follow the schema's recommended structure and omit optional fields when unknown. The example below is copied from `background/annet/markdown/Nasjonal e-helsestrategi versjon 1.0-2025.md`. It uses the new `Agent` structure. It has no `provenance` record because the file does not identify a specific activity that generated the Markdown target. Do not copy its document-specific values or reuse its ID.
 
 ```yaml
 ---
-id: ANNET-003
-title: "Sammen om rask og riktig psykisk helsehjelp"
-document_type: report
+id: ANNET-029
+title: "Nasjonal e-helsestrategi"
+document_type: strategy_or_plan
 information_categories:
-  - empirical_evidence
-  - problem_or_challenge
-  - stakeholder_view
+  - goal_or_outcome
   - recommendation
+  - technical_or_architectural
+  - organizational_or_governance
 creator:
-  - name: "Helsefellesskap Oslo"
-    party_type: organization
-summary: "Innsiktsrapport om rask og riktig psykisk helsehjelp."
+  - name: "Helsedirektoratet"
+    agent_type: public_body
+contributor:
+  - name: "Aktører og interessenter i helse- og omsorgssektoren"
+    agent_type: group
+summary: "Sektorstrategi som setter felles retning, prioriteringer og mål for digitalisering av helse- og omsorgstjenesten fram mot 2030."
 topics:
-  - psykisk helse
-  - helsefellesskap
+  - e-helse
+  - digitalisering
+  - helsedata
+  - samhandling
 language: nb
-access_level: open
-web_published: false
+access_level: web_published
+web_published: true
+source:
+  url: "https://www.helsedirektoratet.no/digitalisering-og-e-helse/nasjonal-e-helsestrategi"
+  retrieved_date: 2026-09-30
+  source_name: "Helsedirektoratet"
 original_document:
-  local_path: "annet/input/20251209_Innsiktsrapport_Sammen-om-rask-og-riktig-psykisk-helsehjelp_Helsefellesskap-Oslo-2.pdf"
+  local_path: "annet/input/Nasjonal e-helsestrategi versjon 1.0-2025.pdf"
   format: pdf
-  online_status: not_checked
-normative_level: none
+  online_url: "https://www.helsedirektoratet.no/digitalisering-og-e-helse/nasjonal-e-helsestrategi"
+  online_status: verified
+normative_level: advisory
 status: current
-publication_date: 2025-12-09
+version: "1.0 (2025; angitt i filnavnet)"
 metadata_confidence: medium
+notes: "Helsedirektoratet er oppgitt som fagmyndighet og koordinator; aktører og interessenter er oppgitt som deltakere i strategiarbeidet. Konvertert dokumenttekst angir ikke eksplisitt publiseringsdato."
 ---
 ```
