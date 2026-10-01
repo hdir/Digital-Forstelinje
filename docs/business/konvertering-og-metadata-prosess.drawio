@@ -1,0 +1,72 @@
+<mxfile host="65bd71144e">
+    <diagram id="conversion-metadata-process" name="Konvertering og metadata">
+        <mxGraphModel dx="1239" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="680" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=22;fontStyle=1;fontColor=#333333;" value="Konvertering av kildedokumenter og metadata" vertex="1">
+                    <mxGeometry height="40" width="1000" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="source_creator" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=actor;archiType=square;fontColor=#333333;" value="Kildedokumentets opphav / utgiver" vertex="1">
+                    <mxGeometry height="70" width="130" x="40" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="source_files" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.businessObject;overflow=fill;fontColor=#333333;" value="Kildedokumenter&lt;br&gt;PDF, DOCX, HTML m.m." vertex="1">
+                    <mxGeometry height="70" width="130" x="280" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="metadata_schema" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.businessObject;overflow=fill;fontColor=#333333;" value="Metadata-skjema&lt;br&gt;metadata-schema.md + .json" vertex="1">
+                    <mxGeometry height="70" width="130" x="520" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontColor=#333333;fontSize=14;" value="Finn kilder/&lt;br&gt;last ned" vertex="1">
+                    <mxGeometry height="70" width="130" x="40" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontColor=#333333;fontSize=14;" value="Konverter kildedokumenter" vertex="1">
+                    <mxGeometry height="70" width="130" x="280" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="p3" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontColor=#333333;fontSize=14;" value="Registrer metadata og valider" vertex="1">
+                    <mxGeometry height="70" width="130" x="520" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="p4" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.application;appType=proc;archiType=rounded;fontColor=#333333;fontSize=14;" value="Kvalitetsikre metadata og markdown" vertex="1">
+                    <mxGeometry height="70" width="130" x="760" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="datalab" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.service;fontColor=#333333;" value="Datalab API" vertex="1">
+                    <mxGeometry height="70" width="130" x="280" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="converted_files" parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;shape=mxgraph.archimate3.businessObject;overflow=fill;fontColor=#333333;" value="Konvertert filoutput&lt;br&gt;Markdown&lt;br&gt;ekstraherte bilder&amp;nbsp;&lt;br&gt;metadata" vertex="1">
+                    <mxGeometry height="70" width="130" x="520" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_creator_source" edge="1" parent="1" source="source_creator" style="html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;" target="source_files" value="utgir / leverer">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_scope_convert" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#666666;fontColor=#333333;" target="p2" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_convert_metadata" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#666666;fontColor=#333333;" target="p3" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_metadata_delivery" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#666666;fontColor=#333333;" target="p4" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_source_convert" edge="1" parent="1" source="source_files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;" target="p2" value="kilde">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_schema_metadata" edge="1" parent="1" source="metadata_schema" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;" target="p3" value="følger skjema">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_datalab" edge="1" parent="1" source="datalab" style="html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;" target="p2" value="betjener">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_convert_output" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="converted_files" value="genererer">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_metadata_output" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;" target="converted_files" value="beriker">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e_output_delivery" edge="1" parent="1" source="p4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="converted_files" value="kontroller">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="790" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
