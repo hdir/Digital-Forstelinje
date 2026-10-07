@@ -1,0 +1,19 @@
+# Ord- og begrepslister i `background`
+
+Oversikten samler Markdown-dokumentene som inneholder ordlister, begrepslister eller egne definisjoner av begreper. Den tar ikke med dokumenter som bare omtaler kodeverk eller terminologier.
+
+| Dokument | Type innhold | Eksempler på begreper eller tema |
+|---|---|---|
+| [Reguleringsplan for e-helse: innhold og ordforklaringer](<samhandling/markdown/reguleringsplanen-innhold-og-ordforklaringer.md>) | Ordforklaringer for begreper brukt i reguleringsplanen | Aktørtype, arbeidsprosess, informasjonstjeneste, klinisk fagsystem, samhandlingskomponent, teknisk grensesnitt |
+| [Prosjektrapport DBEP](<annet/markdown/Prosjektrapport DBEP.md>) | Kort ordliste | MVP, API |
+| [Notat om finansielle barrierer i samhandlingsmodell for DHO](<helsereform-august/markdown/1-virksomheter-i-helsesektoren/2026-06-Versjon-050226-Notat-om-finansielle-barrierer-samhandlingsmodell-DHO.md>) | Ordforklaring om finansiering og samarbeid | STG, DRG, TFG, samhandlingsbudsjett, innsatsstyrt finansiering, KPR, NPR, helsefellesskap |
+| [Notat om organisatoriske barrierer i samhandlingsmodell for DHO](<helsereform-august/markdown/1-virksomheter-i-helsesektoren/2026-06-Versjon-240426-Notat-om-organisatoriske-barrierer-Samhandlingsmodell-DHO.md>) | Ordforklaringer om digital hjemmeoppfølging og organisering | Oppfølgingssenter, DHO, digital hjemmeoppfølging, SDHO, helsefellesskap |
+| [Notat om teknologiske barrierer i samhandlingsmodell for DHO](<helsereform-august/markdown/1-virksomheter-i-helsesektoren/2026-06-Versjon-270326-Notat-om-teknologiske-barrierer-samhandlingsmodell-DHO.md>) | Ordforklaring om teknologi og helsetjenester | EPJ, DHO-system, velferdsteknologisk knutepunkt, medisinsk ansvarlig, poliklinisk kontakt, utskrivningsklare pasienter |
+| [Vedlegg A Sentrale begreper](<akson/markdown/Vedlegg A Sentrale begreper.md>) | Omfattende tabell med sentrale begreper fra Akson-forprosjektet og tilhørende definisjoner eller beskrivelser | Blant annet Akson, administrativt system, alternativkostnad, anonyme opplysninger, API og arkitektur |
+| [Bilag G1 Felles kommunal journalløsning](<akson/markdown/Bilag G1 Felles kommunal journalløsning.md>) | Begrepsliste for identitets- og tilgangsstyring | API, autentisering, autorisering, bruker, digital identitet, føderering |
+| [Bilag G2 Helhetlig samhandling](<akson/markdown/Bilag G2 Helhetlig samhandling.md>) | Begrepsliste for identitets- og tilgangsstyring | API, autentisering, autorisering, bruker, digital identitet, føderering |
+| [Vedlegg Q – Felles dokument om arkitektur for Akson](<akson/markdown/Vedlegg Q Felles dokument fra KS, Direktoratet for e-helse og utvalgte kommuner vedrørende arkitektur for Akson.md>) | Definisjoner av sentrale arkitekturbegreper slik de brukes i notatet | Økosystem, åpen plattform, samhandlingsplattform, felles grunnmur, felles kommunal journal |
+| [Veileder for bruk av FAIR-prinsippene for helsedatakilder](<samhandling/markdown/Veileder for bruk av FAIR-prinsippene for helsedatakilder v1.0.md>) | Eget avsnitt med begrepsdefinisjoner og kilder | Aggregerte data, analyserom, API, autentisering, autorisering, begrepsmodell |
+| [Referansearkitektur for datadeling](<samhandling/markdown/Referansearkitektur for datadeling.md>) | Vedlegg med sentrale begreper for datadeling | API, Web API, standardisert API, datadelingsgrensesnitt, velferdsteknologi |
+| [Målarkitektur for datadeling i digital hjemmeoppfølging](<samhandling/markdown/Målarkitektur for datadeling i digital hjemmeoppfølging.md>) | Definisjoner av sentrale arkitektur- og tjenestebegreper | Digital hjemmeoppfølging, kapabilitet, informasjonstjeneste |
+| [V3.1 E-helsekapabiliteter – Én innbygger, én journal](<samhandling/markdown/V3.1 E-helsekapabiliteter Én innbygger - én journal.md>) | Definisjonsavsnitt for kapabilitetsområder og tjenestebegreper | Styring og retning, kjernevirksomhet, medisinsk service, fasilitering, tjenestebegrepet |
