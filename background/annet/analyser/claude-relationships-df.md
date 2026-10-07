@@ -84,6 +84,12 @@ Korrigert oppdragsdokument (16.3.2026) endrer kun beløp for Digital foreldrest�
 | **TB2026-83** Ventetidsarbeid / Mitt sykehusvalg (supp. 4) | SHA | Nytt ventetidsmål; videreutvikle «Mitt sykehusvalg»; gjennomføringsplan 1.10.2026 | Største innbyggerrettede tjenesteløftet på Helsenorge i 2026–2028: digital henvisning, ombooking, timeavtaleløsning, kalenderfunksjonalitet. Ledes av Hdir sammen med NHN | «Kalenderfunksjonaliteten på Helsenorge rulles ut i løpet av 2026 og 2027.» / delelementer: «Digital henvisning», «Nasjonal innføring av digital ombooking», «Nasjonal innføring av ny timeavtaleløsning» / «gjennomføres i samarbeid mellom Helsedirektoratet og NHN … for å sikre en bedre brukeropplevelse» |
 | **TB2026-92** Digital sikkerhet og beredskap (supp. 4) | ASI | Foreslå nasjonalt spesialisert planverk for hendelser innen digital sikkerhet (frist 1.12.2026) | Beredskap for de digitale tjenestene innbyggeren er avhengig av | «Helsedirektoratet skal, i samarbeid med Norsk helsenett SF, foreslå hvordan nasjonalt spesialisert planverk for håndtering av hendelser innen digital sikkerhet og beredskap kan utvikles.» |
 
+### Komplementære oppdrag som utfyller Digital førstelinje
+
+| Oppdrag | Avd. | Hovedmål | Hvordan oppdraget utfyller Digital førstelinje | Grunnlag for koblingen |
+|---|---|---|---|---|
+| **TB2026-14** Opptrappingsplan for psykisk helse | KTA | Følge opp opptrappingsplanen, blant annet ved å vurdere modeller for samarbeid om inntaksvurdering – herunder «En vei inn – felles psykisk helsemottak» mellom kommuner og helseforetak. Oppdraget omfatter også ADHD og oppfølging av personer med alvorlige psykiske lidelser og/eller rusmiddelproblemer. | Digital førstelinje kan hjelpe innbyggeren med å finne kvalitetssikret informasjon, selvhjelp og riktig inngang til psykisk helsehjelp. TB2026-14 retter seg mot organiseringen av tilbudet og samarbeidet om vurdering når innbyggeren tar kontakt. Samlet kan oppdragene dermed støtte en mer sammenhengende vei fra digital orientering til faglig vurdering og videre hjelp. | Opptrappingsplanens mål om enkel tilgang og helsehjelp uten unødig opphold, samt kartlegging av modeller for felles inntaksvurdering. Dette er en faglig/operasjonell komplementaritet; oppdragsteksten viser ikke eksplisitt til TB2026-17 eller Digital førstelinje. |
+
 ---
 
 ## 4. Relasjonsbildet
