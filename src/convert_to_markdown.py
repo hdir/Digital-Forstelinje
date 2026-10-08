@@ -39,6 +39,7 @@ def submit_file(file_path: Path) -> tuple[Path, str | None, str | None]:
             "output_format": (None, "markdown"),
             "force_ocr": (None, "false"),
             "disable_image_extraction": (None, "false"),
+            "extras": (None, "extract_links"),
         }
         try:
             response = requests.post(API_URL, headers=HEADERS, files=files, data=data, timeout=60)

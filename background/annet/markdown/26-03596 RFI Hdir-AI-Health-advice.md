@@ -111,9 +111,9 @@ The information meeting will be conducted in English to facilitate participation
 
 For more information about the Norwegian Directorate of Health's assignment (TB2026-17) and the project, please see the following links:
 
-- [Tildelingsbrev 2026 Helsedirektoratet \(Hdir\)](#)
-- [Supplerende tildelingsbrev nr. 2 for 2025 - nye oppdrag og presiseringer av oppdrag i tildelingsbrevet](#)
-- [Supplerende tildelingsbrev nr. 6 Helsedirektoratet](#)
-- [A Public AI Service for Health-Related Questions on Helsenorge - Helsedirektoratet](#)
+- [Tildelingsbrev 2026 Helsedirektoratet \(Hdir\)](https://www.regjeringen.no/contentassets/d8f63d7d01d64def982cb7c8ce1eeb64/2026-hdir-tildelingsbrev.pdf)
+- [Supplerende tildelingsbrev nr. 2 for 2025 - nye oppdrag og presiseringer av oppdrag i tildelingsbrevet](https://www.regjeringen.no/contentassets/d8f63d7d01d64def982cb7c8ce1eeb64/2025-hdir-stb2.pdf)
+- [Supplerende tildelingsbrev nr. 6 Helsedirektoratet](https://www.regjeringen.no/contentassets/d8f63d7d01d64def982cb7c8ce1eeb64/2026-hdir-stb6.pdf)
+- [A Public AI Service for Health-Related Questions on Helsenorge - Helsedirektoratet](https://www.helsedirektoratet.no/digitalisering-og-e-helse/kunstig-intelligens/a-public-ai-service-for-health-related-questions-on-helsenorge)
 
 Questions regarding the market dialogue must be submitted in writing via the communication module in Mercell.
