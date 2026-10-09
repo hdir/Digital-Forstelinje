@@ -1,3 +1,22 @@
+---
+id: DF-001
+title: "Forslag om finansiering av innkjøp og tilpasning av digitale selvhjelps- og behandlingsverktøy"
+document_type: presentation_or_note
+information_categories:
+  - stakeholder_view
+  - proposal_or_measure
+  - implementation_or_operations
+  - recommendation
+creator:
+  - name: Helsedirektoratet
+    agent_type: public_body
+language: nb
+access_level: open
+normative_level: none
+status: unknown
+metadata_confidence: low
+---
+
 # Videre oppfølging av TB2026-17 om Digital førstelinje deloppdrag 2 og 3
 
 ## Foreslåtte tiltak og mulige gevinster
