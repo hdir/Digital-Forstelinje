@@ -5,7 +5,7 @@
 ## Input
 
 * The main goals and strategy for how the healthcare sector in Norway should reach more efficien healthcare services and use interoperability and digital tools is described in C:\Git\Digital-Forstelinje\background\annet\markdown\stm202320240009000ddddocx.md
-* Existing strategy for e-health si descirbed in C:\Git\Digital-Forstelinje\background\annet\markdown\Nasjonal e-helsestrategi versjon 1.0-2025.md
+* Existing strategy for e-health si described in C:\Git\Digital-Forstelinje\background\annet\markdown\Nasjonal e-helsestrategi versjon 1.0-2025.md
 * The existing ways of achieving digital interoperability is described in architecture delivieries collected in C:\Git\Digital-Forstelinje\background\samhandling\markdown
 * The needs and experience concerning use of careplans in the healthcare sector is summarized in C:\Git\Digital-Forstelinje\background\annet\markdown\Prosjektrapport DBEP.md
 * Some older concepts for delinvering coordinated healthcare and achieving better digital interoperability is descibed in
