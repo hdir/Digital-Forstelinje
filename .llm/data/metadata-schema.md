@@ -1,6 +1,6 @@
 # Metadatamodell for kildedokumenter
 
-Dette er en kort metadata-modell for kildedokumenter i `background/*/markdown`. Bare Markdown-filer i disse katalogene omfattes. Modellen skal gjøre dokumentene søkbare, sammenlignbare og egnet som underlag for analyse og andre oppgaver.
+Dette er en kort metadata-modell for kildedokumenter i `background/*/markdown` og `private/markdown`. Bare Markdown-filer i disse katalogene omfattes. Modellen skal gjøre dokumentene søkbare, sammenlignbare og egnet som underlag for analyse og andre oppgaver.
 
 Maskinlesbar valideringsvariant i JSON Schema Draft 2020-12: [metadata-schema.json](metadata-schema.json).
 
@@ -72,7 +72,7 @@ Maskinlesbar valideringsvariant i JSON Schema Draft 2020-12: [metadata-schema.js
 | Felt | Type | Påkrevd | Beskrivelse |
 | --- | --- | --- | --- |
 | `id` | string | Nei | Stabil ID for originalentiteten, brukt av `provenance.entity.what` når den refererer til dette dokumentet. |
-| `local_path` | path | Nei | Relativ sti til originalfilen under `background`, for eksempel `annet/input/rapport.pdf`. |
+| `local_path` | path | Nei | Sti relativ til repository-roten til originalfilen under `background` eller `private`, for eksempel `annet/input/rapport.pdf` eller `private/input/rapport.docx`. |
 | `format` | enum | Ja når objektet finnes | Originalformat: `pdf`, `docx`, `html`, `csv`, `md` eller `other`. |
 | `online_url` | URI | Nei | Canonical URL til originaldokumentet eller den offisielle landingssiden. |
 | `online_status` | enum | Ja når objektet finnes | `verified`, `candidate`, `not_found`, `not_checked` eller `not_applicable`. |
@@ -155,11 +155,11 @@ Verdiene uttrykker dokumentets status, ikke hvor overbevisende eller faglig godt
 
 1. Alle påkrevde felt skal være utfylt. `id` skal være unik.
 2. `title`, `document_type`, `information_categories`, `creator`, `language`, `access_level`, `web_published`, `normative_level`, `status` og `metadata_confidence` skal ikke være tomme.
-3. Metadata skal bare registreres for `.md`-filer under `background/*/markdown`; filer i `input`, `output`, `old` og `html` skal ikke registreres som kildedokumenter.
+3. Metadata skal bare registreres for `.md`-filer under `background/*/markdown` og `private/markdown`; filer i `input`, `output`, `old` og `html` skal ikke registreres som kildedokumenter.
 4. Datoer skal være gyldige ISO 8601-datoer. `modified_date` skal ikke være tidligere enn `publication_date` når begge finnes.
 5. `web_published: true` krever normalt `access_level: web_published`; avvik skal begrunnes i `notes`.
 6. `source.url` skal være en absolutt `http`- eller `https`-URI når den finnes.
-7. `original_document.local_path` skal, når den finnes, peke til en eksisterende fil under `background`.
+7. `original_document.local_path` skal, når den finnes, være en sti relativ til repository-roten og peke til en eksisterende fil under `background` eller `private`.
 8. `original_document.online_url` skal være en absolutt `http`- eller `https`-URI når den finnes. `online_status: verified` krever `online_url`.
 9. En agent skal registreres med `agent_type: unknown` bare når kilden ikke gir rimelig grunnlag for identifikasjon. Ikke gjett person eller organisasjon.
 10. Påstander om normativ status skal kunne spores til dokumentet eller en oppgitt kilde. Bruk `metadata_confidence: low` når statusen er tolket.

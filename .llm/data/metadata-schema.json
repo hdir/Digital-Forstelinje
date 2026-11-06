@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Metadatamodell for kildedokumenter",
-  "description": "JSON Schema for front matter in Markdown source documents under background/*/markdown. Provenance is a practical subset of FHIR R5 Provenance, not a complete FHIR resource.",
+  "description": "JSON Schema for front matter in Markdown source documents under background/*/markdown and private/markdown. Provenance is a practical subset of FHIR R5 Provenance, not a complete FHIR resource.",
   "type": "object",
   "additionalProperties": false,
   "required": [
