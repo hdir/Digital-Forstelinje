@@ -1,0 +1,640 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kjernemodell for roller og verdiutveksling</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333;
+      background: #f7f8f6;
+      font-synthesis: none;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 32px clamp(16px, 4vw, 56px) 48px;
+    }
+
+    header {
+      max-width: 1180px;
+      margin: 0 auto 22px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      color: #315d58;
+      font-size: clamp(1.45rem, 3vw, 2rem);
+      font-weight: 600;
+    }
+
+    header p {
+      margin: 0;
+      max-width: 850px;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .diagram-frame {
+      max-width: 1520px;
+      margin: 0 auto;
+      overflow-x: auto;
+      border: 1px solid #dfe4df;
+      border-radius: 12px;
+      background: #fbfcfa;
+      box-shadow: 0 4px 18px #253b3210;
+    }
+
+    svg {
+      display: block;
+      width: 100%;
+      min-width: 1280px;
+      height: auto;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tier-label {
+      fill: #5b6d64;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+    }
+
+    .tier-background {
+      rx: 12;
+      stroke: #e3e7e4;
+      stroke-width: .8;
+    }
+
+    .role-node {
+      cursor: help;
+      outline: none;
+      pointer-events: all;
+    }
+
+    .role-node rect {
+      fill: #ffff99;
+      stroke: #b7b76c;
+      stroke-width: 1.4;
+      rx: 15;
+      filter: drop-shadow(0 2px 2px #243a3218);
+      transition: stroke-width .14s ease, filter .14s ease;
+    }
+
+    .role-node:hover rect,
+    .role-node:focus rect {
+      stroke: #477a70;
+      stroke-width: 3;
+      filter: drop-shadow(0 3px 5px #243a3230);
+    }
+
+    .role-node text {
+      fill: #333;
+      font-size: 16px;
+      font-weight: 700;
+      text-anchor: middle;
+      pointer-events: none;
+    }
+
+    .role-node .actor-hint {
+      fill: #666;
+      font-size: 11px;
+      font-weight: 400;
+    }
+
+    .edge-line {
+      fill: none;
+      stroke: #66736e;
+      stroke-width: 1.55;
+      stroke-dasharray: 5 4;
+      stroke-linejoin: miter;
+      marker-end: url(#arrow);
+      pointer-events: none;
+    }
+
+    .exchange.bidirectional .edge-line {
+      marker-start: url(#arrow);
+    }
+
+    .exchange.direct .edge-line {
+      stroke-dasharray: none;
+      marker-end: url(#open-arrow);
+    }
+
+    .exchange.direct.bidirectional .edge-line {
+      marker-start: url(#open-arrow);
+    }
+
+    .exchange:hover .edge-line,
+    .exchange:focus-within .edge-line {
+      stroke: #315d58;
+      stroke-width: 2.8;
+    }
+
+    .edge-halo {
+      fill: none;
+      stroke: #fff;
+      stroke-opacity: .65;
+      stroke-width: 6;
+      pointer-events: none;
+    }
+
+    .hit-path {
+      fill: none;
+      stroke: transparent;
+      stroke-width: 14;
+      pointer-events: stroke;
+    }
+
+    .exchange {
+      cursor: help;
+      outline: none;
+      pointer-events: all;
+    }
+
+    .exchange-label rect {
+      fill: #fff;
+      stroke: #e0e4e0;
+      stroke-width: .8;
+      rx: 5;
+    }
+
+    .exchange-label { outline: none; }
+
+    .exchange-label text {
+      fill: #38433f;
+      font-size: 13px;
+      text-anchor: middle;
+      pointer-events: none;
+    }
+
+    .exchange-label:hover rect,
+    .exchange-label:focus rect,
+    .exchange:focus > .exchange-label rect {
+      stroke: #477a70;
+      stroke-width: 1.5;
+    }
+
+    .legend {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      max-width: 1520px;
+      margin: 12px auto 0;
+      color: #59645f;
+      font-size: 13px;
+    }
+
+    .legend-line {
+      display: inline-block;
+      width: 34px;
+      margin-right: 7px;
+      border-top: 2px dashed #66736e;
+      vertical-align: middle;
+    }
+
+    .hint {
+      margin-left: auto;
+      color: #68736e;
+    }
+
+    .model-note {
+      max-width: 1520px;
+      margin: 14px auto 0;
+      color: #59645f;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    #tooltip {
+      position: fixed;
+      z-index: 5;
+      display: none;
+      width: min(360px, calc(100vw - 24px));
+      padding: 12px 14px;
+      border: 1px solid #cbd6d0;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 8px 26px #1c302a26;
+      color: #333;
+      font-size: 13px;
+      line-height: 1.45;
+      pointer-events: none;
+    }
+
+    #tooltip > strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #315d58;
+      font-size: 14px;
+    }
+
+    #tooltip p { margin: 4px 0 0; }
+
+    #tooltip .exchange-name {
+      margin-top: 10px;
+      color: #315d58;
+    }
+
+    #tooltip p strong { font-weight: 700; }
+
+    @media (max-width: 650px) {
+      body { padding: 22px 12px 32px; }
+      .legend { align-items: flex-start; flex-direction: column; gap: 8px; }
+      .hint { margin-left: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kjernemodell: roller og verdiutveksling</h1>
+    <p>Ti kjerneroller i et økosystem for digitale selvhjelps- og behandlingsverktøy. Pilspissen viser mottakeren. Toveis forbindelser har én tekst for hva hver rolle gir. Hold pekeren over en tekst for å lese bare den verdiutvekslingen, eller over pilen for å lese begge retninger. Forklaringene er også tilgjengelige med tastaturet.</p>
+  </header>
+
+  <main>
+    <div class="diagram-frame" aria-label="Rollemodell. På små skjermer kan figuren rulles horisontalt.">
+      <svg id="model" viewBox="0 0 1520 1380" role="group" aria-labelledby="svg-title svg-desc">
+        <title id="svg-title">Kjernemodell for roller og verdiutveksling</title>
+        <desc id="svg-desc">Roller organisert i fem nivåer med dempede bakgrunnsfarger: tjenesteyter, behandler og bruker; plattform; innkjøper og verktøyleverandør; kvalitetsvurderer og effekt- og forbedringsansvarlig; økosystemforvalter og strategisk eier. Plattformen spenner over samme bredde som de tre øverste rollene. Korte, direkte forbindelser brukes der det er fri passasje. Alle utvekslinger mellom øvre og nedre nivåer deles i forbindelser som ender ved plattformen.</desc>
+        <defs>
+          <marker id="arrow" viewBox="0 0 8 8" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+            <path d="M0,0 L8,4 L0,8 z" fill="#66736e"/>
+          </marker>
+          <marker id="open-arrow" viewBox="0 0 9 9" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse">
+            <path d="M1,1 L8,4.5 L1,8" fill="none" stroke="#66736e" stroke-width="1.5"/>
+          </marker>
+        </defs>
+        <g id="tiers"></g>
+        <g id="exchanges"></g>
+        <g id="roles"></g>
+      </svg>
+    </div>
+    <div class="legend">
+      <span><i class="legend-line"></i>Pilspiss = mottaker. Kryss uten punkt er ikke koblinger.</span>
+      <span class="hint">Tips: Tab mellom roller og piler for å lese forklaringene.</span>
+    </div>
+    <p class="model-note">Plattformen er et formidlingslag i denne prinsippskissen. Koblingene innebærer ikke sentral lagring eller overføring av klinisk ansvar, kvalitetsansvar eller dataansvar. Videreformidling og evaluering krever avklart formål og rettslig grunnlag.</p>
+  </main>
+  <div id="tooltip" role="tooltip" aria-live="polite"></div>
+
+  <script>
+    const roleWidth = 240;
+    const roleHeight = 88;
+    const roles = [
+      { id: "service", x: 140, y: 100, lines: ["Tjenesteyter"], actor: "Kommune, helseforetak, fastlege", description: "Integrerer verktøy i tjenesteforløp, legger til rette for forsvarlig bruk og sørger for oppfølging, internkontroll og ikke-digitale alternativer. Avklarer ansvar og ansvarsovergang." },
+      { id: "clinician", x: 640, y: 100, lines: ["Behandler"], actor: "Helsepersonell", description: "Vurderer egnethet, anbefaler eller tildeler verktøy og følger opp. Planlegger mål, tiltak, verktøy og evaluering sammen med brukeren. I fase 1 ivaretar behandler også forløpsansvar når flere behandlere er involvert, og justerer behandlingen etter målte utfall." },
+      { id: "user", x: 1140, y: 100, lines: ["Bruker"], actor: "Innbygger, pasient, pårørende", description: "Medvirker i planleggingen, setter egne mål, bruker verktøy og kan registrere egenmålinger og erfaringer. Mottar forståelig støtte og informasjon om veien videre." },
+      { id: "platform", x: 140, y: 350, width: 1240, lines: ["Plattform og nasjonal inngang"], actor: "Norsk helsenett; innholdsansvar hos Helsedirektoratet", description: "Gir en nasjonal inngang og teknisk samhandling. Drifter felles tjenester, støtter integrasjon og leverandørtilknytning, og viser vurderte verktøy. I figuren formidler plattformen utvekslinger mellom øvre og nedre lag. Dette innebærer ikke sentral lagring eller nye datarettigheter. Rollen avgjør ikke kliniske prioriteringer eller kvalitet." },
+      { id: "buyer", x: 360, y: 540, lines: ["Innkjøper"], actor: "Helsedirektoratet, Sykehusinnkjøp, kommuner", description: "Omsetter behov til anskaffelser og kontrakter med forutsigbare vilkår for pris, volum, drift, videreutvikling, kvalitetsdata og avvikling." },
+      { id: "vendor", x: 920, y: 540, lines: ["Verktøyleverandør"], actor: "Private, ideelle, akademiske og offentlige miljøer", description: "Utvikler, dokumenterer, sikrer, drifter og videreutvikler verktøy. Leverer dokumentasjon og utfallsdata i avtalte formater, og mottar betaling, markedsadgang og tydelige krav." },
+      { id: "quality", x: 360, y: 860, lines: ["Kvalitetsvurderer"], actor: "Foreslått: Helsedirektoratet", description: "Vurderer verktøy mot åpne og risikoproporsjonale kriterier for effekt, pasientsikkerhet, personvern, informasjonssikkerhet, tilgjengelighet og interoperabilitet. Vurderer på nytt når utfallsdata foreligger. Dette er ikke regulatorisk godkjenning." },
+      { id: "outcomes", x: 920, y: 860, lines: ["Effekt- og", "forbedringsansvarlig"], actor: "Helsedirektoratet som eier; evaluering ved FHI/forskningsmiljø", description: "Måler bruk, effekt, sikkerhet og ressursbruk på tvers av pasienter, med avklart dataansvar og rettslig grunnlag. Fastsetter nullpunkt og gir kunnskapen tilbake til styring, innkjøp og kvalitetsvurdering." },
+      { id: "ecosystem", x: 360, y: 1170, lines: ["Økosystemforvalter"], actor: "Foreslått: Helsedirektoratet", description: "Samordner initiativer, forvalter faglige rammer, krav, standarder og råd, holder oversikt og tydeliggjør grensen mellom økosystemets fellesfunksjoner og tjenestenes ansvar." },
+      { id: "owner", x: 920, y: 1170, lines: ["Strategisk eier"], actor: "Helse- og omsorgsdepartementet", description: "Setter mål og prioriteringer, avklarer ansvarsdeling og bevilger midler til innkjøp og evaluering. Gir forutsigbare oppdrag og bruker status, kostnader, risiko og effektkunnskap i styringen." }
+    ];
+
+    const exchanges = [
+      {
+        from: "service", to: "clinician", direct: true,
+        points: [[380, 144], [640, 144]],
+        forward: { x: 510, y: 124, text: "→ Gir: rammer og ansvar", detail: "organisatoriske rammer, tid, støtte til innføring og avklart oppfølgingsansvar." },
+        reverse: { x: 510, y: 172, text: "← Gir: plan og praksiskunnskap", detail: "behandlingsplan, behov og praksiskunnskap som grunnlag for forsvarlig organisering av tjenesten." }
+      },
+      {
+        from: "clinician", to: "user", direct: true,
+        points: [[880, 144], [1140, 144]],
+        forward: { x: 1010, y: 124, text: "→ Gir: plan, mål og oppfølging", detail: "en felles plan, avtalte behandlingsmål, oppfølging og justering av behandling og verktøy etter oppnådd effekt." },
+        reverse: { x: 1010, y: 172, text: "← Gir: egenmålinger og utfall", detail: "egne mål, preferanser, egenmålinger og erfaringer. Dette er pasientnivåets tilbakekobling, ikke systemevaluering." }
+      },
+      {
+        from: "service", to: "platform",
+        points: [[260, 188], [260, 350]],
+        forward: { x: 260, y: 242, text: "↓ Gir: bruks- og effektdata", detail: "avtalte bruks-, effekt- og ressursdata og praksiserfaringer for formidling til Effekt- og forbedringsansvarlig. Dataansvar og rettslig grunnlag må være avklart." },
+        reverse: { x: 260, y: 274, text: "↑ Gir: tilgang og samlet læring", detail: "teknisk tilgang og samlet læring fra evalueringen tilbake til tjenesten. Plattformen overtar ikke tjenestens kliniske ansvar." }
+      },
+      {
+        from: "platform", to: "clinician",
+        points: [[760, 350], [760, 188]],
+        forward: { x: 760, y: 242, text: "↑ Gir: tilgang, tildeling og utfallsdata", detail: "teknisk tilgang, støtte til tildeling og formidling av relevante utfallsdata til behandlerens oppfølging, innenfor avtalte tilganger." },
+        reverse: { x: 760, y: 274, text: "↓ Gir: bruk og faglige tilbakemeldinger", detail: "bruk av tjenestene og faglige tilbakemeldinger. Kliniske beslutninger og ansvar for planen forblir hos behandler og tjenesteyter." }
+      },
+      {
+        from: "platform", to: "user", direct: true,
+        points: [[1260, 350], [1260, 188]],
+        forward: { x: 1260, y: 242, text: "↑ Gir: tilgang, informasjon og støtte", detail: "en nasjonal inngang, tilgang til vurderte verktøy og forståelig informasjon og støtte." },
+        reverse: { x: 1260, y: 274, text: "↓ Gir: erfaringer og egenmålinger", detail: "erfaringer, bruk og egenmålinger der det er avtalt. Videreformidling til klinisk oppfølging eller evaluering krever egne, avklarte formål og rettslig grunnlag; data kan ikke automatisk gjenbrukes." }
+      },
+      {
+        from: "vendor", to: "platform",
+        points: [[1040, 540], [1040, 438]],
+        forward: { x: 1056, y: 480, anchor: "start", text: "↑ Gir: verktøy og metadata", detail: "verktøy, metadata og avtalte grensesnitt for tilgjengeliggjøring og formidling av utfallsdata." },
+        reverse: { x: 1056, y: 512, anchor: "start", text: "↓ Gir: tilknytning og distribusjon", detail: "teknisk tilknytning, integrasjon og distribusjon. Oppføring forutsetter kvalitetsvurdering; plattformen gjør ikke en ny faglig vurdering." }
+      },
+      {
+        from: "quality", to: "platform",
+        points: [[420, 860], [240, 438]],
+        forward: { x: 368, y: 700, anchor: "start", text: "↖ Gir: oppføring og kvalitetsinformasjon", detail: "beslutning om oppføring, kvalitetsmerke og vurderingsgrunnlag som plattformen viser videre til behandler og bruker. Kvalitetsansvaret ligger fortsatt hos Kvalitetsvurderer." }
+      },
+      {
+        from: "platform", to: "outcomes",
+        points: [[1280, 438], [1120, 860]],
+        forward: { x: 1240, y: 700, text: "↙ Gir: avtalte evalueringsdata", detail: "formidling av avtalte bruks-, effekt- og ressursdata og erfaringer fra tjenester, brukere og verktøy. Systemevaluering bygger på aggregerte data med avklart dataansvar og rettslig grunnlag; koblingen er ikke en beslutning om sentral lagring." },
+        reverse: { x: 1240, y: 744, text: "↗ Gir: samlet læring og forbedringsbehov", detail: "samlet kunnskap og forbedringsbehov som formidles videre til tjenestene og brukerne. Dette erstatter ikke individuell vurdering og oppfølging." }
+      },
+      {
+        from: "buyer", to: "vendor",
+        points: [[600, 584], [920, 584]],
+        forward: { x: 760, y: 564, text: "→ Gir: kontrakt og betaling", detail: "etterspørsel, kontrakt, betaling og forutsigbare krav til pris, volum, drift, videreutvikling og avvikling." },
+        reverse: { x: 760, y: 612, text: "← Gir: verktøy, drift og support", detail: "verktøy, drift, support og avtalte kvalitets- og bruksdata." }
+      },
+      {
+        from: "vendor", to: "quality",
+        points: [[960, 628], [560, 860]],
+        forward: { x: 760, y: 722, text: "↙ Gir: dokumentasjon", detail: "dokumentasjon om effekt, pasientsikkerhet, personvern, informasjonssikkerhet og regulatorisk status, inkludert CE der det er relevant." },
+        reverse: { x: 760, y: 774, text: "↗ Gir: vurdering og kvalitetsmerke", detail: "begrunnet vurdering, kvalitetsmerke og krav til forbedring. Dette er ikke regulatorisk godkjenning." }
+      },
+      {
+        from: "outcomes", to: "quality",
+        points: [[920, 904], [600, 904]],
+        forward: { x: 760, y: 884, text: "← Gir: kunnskap om effekt og risiko", detail: "aggregert kunnskap om effekt, pasientsikkerhet og risiko som grunnlag for å vurdere verktøy på nytt." }
+      },
+      {
+        from: "ecosystem", to: "quality",
+        points: [[480, 1170], [480, 948]],
+        forward: { x: 480, y: 1040, text: "↑ Gir: kriterier og standarder", detail: "felles faglige rammer, standarder og kriterier for kvalitetsvurdering." },
+        reverse: { x: 480, y: 1072, text: "↓ Gir: behov og erfaringer", detail: "vurderingsbehov og erfaringer med hvordan kriteriene og rammeverket fungerer." }
+      },
+      {
+        from: "owner", to: "ecosystem",
+        points: [[920, 1220], [600, 1220]],
+        forward: { x: 760, y: 1200, text: "← Gir: mandat, mål og midler", detail: "mandat, mål, prioriteringer og midler til samordnet utvikling og forvaltning av økosystemet." },
+        reverse: { x: 760, y: 1248, text: "→ Gir: status, risiko og effekt", detail: "status, risiko, kostnader og effektkunnskap til strategisk styring." }
+      },
+      {
+        from: "owner", to: "buyer",
+        points: [[1040, 1258], [1040, 1312], [280, 1312], [280, 584], [360, 584]],
+        forward: { x: 760, y: 1300, text: "← Gir: innkjøpsmidler og prioriteringer", detail: "finansiering og overordnede prioriteringer for anskaffelser." },
+        reverse: { x: 760, y: 1348, text: "→ Gir: kostnader og resultater", detail: "informasjon om kostnader, anskaffelser og resultater til strategisk styring." }
+      },
+      {
+        from: "outcomes", to: "ecosystem",
+        points: [[960, 948], [560, 1170]],
+        forward: { x: 760, y: 1060, text: "↙ Gir: effekt- og risikokunnskap", detail: "aggregert kunnskap om effekt, sikkerhet og ressursbruk som grunnlag for forbedring av økosystemet." },
+        reverse: { x: 760, y: 1108, text: "↗ Gir: prioriteringer", detail: "prioriteringer og kunnskapsbehov for videre evaluering og forbedring." }
+      },
+      {
+        from: "outcomes", to: "owner",
+        points: [[1040, 948], [1040, 1170]],
+        forward: { x: 1040, y: 1040, text: "↓ Gir: resultater og evaluering", detail: "evaluering og beslutningsgrunnlag om effekt, sikkerhet, kostnader og ressursbruk." },
+        reverse: { x: 1040, y: 1072, text: "↑ Gir: styringssignaler", detail: "styringssignaler og prioriteringer for videre evaluering og utvikling." }
+      }
+    ];
+
+    const svgNS = "http://www.w3.org/2000/svg";
+    const roleLayer = document.getElementById("roles");
+    const edgeLayer = document.getElementById("exchanges");
+    const tierLayer = document.getElementById("tiers");
+    const tooltip = document.getElementById("tooltip");
+    const byId = Object.fromEntries(roles.map(role => [role.id, role]));
+    const tooltipSections = new WeakMap();
+    let hoveredElement = null;
+    let focusedElement = null;
+    let tooltipContentElement = null;
+    let tooltipMode = "pointer";
+    let pointerX = null;
+    let pointerY = null;
+
+    const tiers = [
+      { top: 24, bottom: 300, y: 60, color: "#eef4f1", label: "TJENESTE OG BRUK" },
+      { top: 304, bottom: 458, y: 326, color: "#eef2f6", label: "NASJONAL INNGANG" },
+      { top: 470, bottom: 790, y: 506, color: "#f6f2e9", label: "MARKED OG LEVERANSE" },
+      { top: 802, bottom: 1088, y: 826, color: "#f2eef6", label: "KVALITET OG EFFEKT" },
+      { top: 1100, bottom: 1364, y: 1136, color: "#edf2f2", label: "STYRING OG FORVALTNING" }
+    ];
+
+    tiers.forEach(tier => {
+      const background = document.createElementNS(svgNS, "rect");
+      background.setAttribute("class", "tier-background");
+      background.setAttribute("x", "24");
+      background.setAttribute("y", String(tier.top));
+      background.setAttribute("width", "1472");
+      background.setAttribute("height", String(tier.bottom - tier.top));
+      background.setAttribute("fill", tier.color);
+      tierLayer.appendChild(background);
+      const text = document.createElementNS(svgNS, "text");
+      text.setAttribute("class", "tier-label");
+      text.setAttribute("x", "48");
+      text.setAttribute("y", String(tier.y));
+      text.textContent = tier.label;
+      tierLayer.appendChild(text);
+    });
+
+    function renderTooltip(element, event) {
+      const title = element.dataset.title;
+      const description = element.dataset.description;
+      if (tooltipContentElement !== element) {
+        tooltip.replaceChildren();
+        const heading = document.createElement("strong");
+        heading.textContent = title;
+        tooltip.appendChild(heading);
+        const sections = tooltipSections.get(element);
+        if (sections.length) {
+          sections.forEach(section => {
+            if (section.name !== title) {
+              const name = document.createElement("p");
+              name.className = "exchange-name";
+              const bold = document.createElement("strong");
+              bold.textContent = section.name;
+              name.appendChild(bold);
+              tooltip.appendChild(name);
+            }
+            const direction = document.createElement("p");
+            const giver = document.createElement("strong");
+            giver.textContent = section.from;
+            const receiver = document.createElement("strong");
+            receiver.textContent = section.to;
+            direction.append(giver, " gir → ", receiver, " mottar");
+            const detail = document.createElement("p");
+            detail.textContent = section.detail;
+            tooltip.append(direction, detail);
+          });
+        } else {
+          const body = document.createElement("p");
+          body.textContent = description;
+          tooltip.appendChild(body);
+        }
+        tooltipContentElement = element;
+      }
+      tooltip.style.display = "block";
+      const rect = element.getBoundingClientRect();
+      const x = event && event.clientX ? event.clientX + 14 : rect.left + rect.width / 2;
+      const y = event && event.clientY ? event.clientY + 14 : rect.bottom + 8;
+      tooltip.style.left = `${Math.max(12, Math.min(x, window.innerWidth - tooltip.offsetWidth - 12))}px`;
+      tooltip.style.top = `${Math.max(12, Math.min(y, window.innerHeight - tooltip.offsetHeight - 12))}px`;
+    }
+
+    function updateTooltip(event) {
+      if (event && (event.clientX !== pointerX || event.clientY !== pointerY)) {
+        tooltipMode = "pointer";
+        pointerX = event.clientX;
+        pointerY = event.clientY;
+      }
+      const activeElement = tooltipMode === "pointer"
+        ? hoveredElement || focusedElement
+        : focusedElement || hoveredElement;
+      if (!activeElement) {
+        tooltip.style.display = "none";
+        return;
+      }
+      renderTooltip(activeElement, activeElement === hoveredElement ? event : undefined);
+    }
+
+    function makeInteractive(element, title, description, sections = []) {
+      element.dataset.title = title;
+      element.dataset.description = description;
+      element.dataset.tooltip = "";
+      tooltipSections.set(element, sections);
+      element.setAttribute("role", "group");
+      element.setAttribute("tabindex", "0");
+      element.setAttribute("aria-label", `${title}. ${description}`);
+      element.addEventListener("mouseenter", event => {
+        hoveredElement = element;
+        updateTooltip(event);
+      });
+      element.addEventListener("mousemove", event => {
+        updateTooltip(event);
+      });
+      element.addEventListener("mouseleave", event => {
+        if (hoveredElement === element) {
+          hoveredElement = event.relatedTarget instanceof Element
+            ? event.relatedTarget.closest("[data-tooltip]")
+            : null;
+        }
+        updateTooltip();
+      });
+      element.addEventListener("focus", () => {
+        focusedElement = element;
+        tooltipMode = "focus";
+        updateTooltip();
+      });
+      element.addEventListener("blur", () => {
+        if (focusedElement === element) focusedElement = null;
+        updateTooltip();
+      });
+      element.addEventListener("keydown", event => {
+        if (event.key === "Escape") {
+          event.stopPropagation();
+          focusedElement = null;
+          hoveredElement = null;
+          element.blur();
+          updateTooltip();
+        }
+      });
+    }
+
+    exchanges.forEach(exchange => {
+      const from = byId[exchange.from];
+      const to = byId[exchange.to];
+      const group = document.createElementNS(svgNS, "g");
+      group.id = `exchange-${exchange.from}-${exchange.to}`;
+      group.dataset.from = exchange.from;
+      group.dataset.to = exchange.to;
+      group.setAttribute("class", `exchange${exchange.direct ? " direct" : ""}${exchange.reverse ? " bidirectional" : ""}`);
+      const pathData = exchange.points.map(([x, y], index) => `${index === 0 ? "M" : "L"} ${x} ${y}`).join(" ");
+      const halo = document.createElementNS(svgNS, "path");
+      halo.setAttribute("class", "edge-halo");
+      halo.setAttribute("d", pathData);
+      group.appendChild(halo);
+      const path = document.createElementNS(svgNS, "path");
+      path.setAttribute("class", "edge-line");
+      path.setAttribute("d", pathData);
+      group.appendChild(path);
+      const hitPath = document.createElementNS(svgNS, "path");
+      hitPath.setAttribute("class", "hit-path");
+      hitPath.setAttribute("d", pathData);
+      group.appendChild(hitPath);
+      edgeLayer.appendChild(group);
+      const fromName = from.lines.join(" ");
+      const toName = to.lines.join(" ");
+      const descriptions = [`${fromName} gir; ${toName} mottar: ${exchange.forward.detail}`];
+      const directions = [{ name: "forward", label: exchange.forward, from: fromName, to: toName }];
+      if (exchange.reverse) {
+        descriptions.push(`${toName} gir; ${fromName} mottar: ${exchange.reverse.detail}`);
+        directions.push({ name: "reverse", label: exchange.reverse, from: toName, to: fromName });
+      }
+      const sections = directions.map(direction => {
+        const name = direction.label.text.replace(/^[^:]*:\s*/, "");
+        return {
+          name: name.charAt(0).toUpperCase() + name.slice(1),
+          from: direction.from,
+          to: direction.to,
+          detail: direction.label.detail
+        };
+      });
+      makeInteractive(group, `${fromName} ${exchange.reverse ? "↔" : "→"} ${toName}`, descriptions.join("\n\n"), sections);
+      directions.forEach(({ name, label: value }, index) => {
+        const labelGroup = document.createElementNS(svgNS, "g");
+        labelGroup.setAttribute("class", "exchange-label");
+        labelGroup.dataset.direction = name;
+        const label = document.createElementNS(svgNS, "text");
+        label.setAttribute("x", String(value.x));
+        label.setAttribute("y", String(value.y));
+        label.style.textAnchor = value.anchor || "middle";
+        label.textContent = value.text;
+        labelGroup.appendChild(label);
+        group.appendChild(labelGroup);
+        const textBox = label.getBBox();
+        const bg = document.createElementNS(svgNS, "rect");
+        bg.setAttribute("x", String(textBox.x - 6));
+        bg.setAttribute("y", String(textBox.y - 4));
+        bg.setAttribute("width", String(textBox.width + 12));
+        bg.setAttribute("height", String(textBox.height + 8));
+        labelGroup.insertBefore(bg, label);
+        makeInteractive(labelGroup, sections[index].name, descriptions[index], [sections[index]]);
+      });
+    });
+
+    roles.forEach(role => {
+      const width = role.width || roleWidth;
+      const group = document.createElementNS(svgNS, "g");
+      group.id = `role-${role.id}`;
+      group.setAttribute("class", "role-node");
+      group.setAttribute("transform", `translate(${role.x},${role.y})`);
+      const rect = document.createElementNS(svgNS, "rect");
+      rect.setAttribute("width", String(width));
+      rect.setAttribute("height", String(roleHeight));
+      group.appendChild(rect);
+
+      const name = document.createElementNS(svgNS, "text");
+      name.setAttribute("x", String(width / 2));
+      name.setAttribute("y", role.lines.length > 1 ? "32" : "34");
+      role.lines.forEach((line, index) => {
+        const span = document.createElementNS(svgNS, "tspan");
+        span.setAttribute("x", String(width / 2));
+        if (index > 0) span.setAttribute("dy", "19");
+        span.textContent = line;
+        name.appendChild(span);
+      });
+      group.appendChild(name);
+
+      const actor = document.createElementNS(svgNS, "text");
+      actor.setAttribute("class", "actor-hint");
+      actor.setAttribute("x", String(width / 2));
+      actor.setAttribute("y", "68");
+      actor.textContent = role.id !== "platform" && role.actor.length > 35 ? `${role.actor.slice(0, 32)}…` : role.actor;
+      group.appendChild(actor);
+
+      roleLayer.appendChild(group);
+      makeInteractive(group, role.lines.join(" "), `${role.description} Aktørforslag: ${role.actor}.`);
+    });
+  </script>
+</body>
+</html>
