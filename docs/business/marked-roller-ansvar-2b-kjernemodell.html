@@ -292,13 +292,13 @@
       { id: "service", x: 140, y: 100, lines: ["Tjenesteyter"], actor: "Kommune, helseforetak, fastlege", description: "Integrerer verktøy i tjenesteforløp, legger til rette for forsvarlig bruk og sørger for oppfølging, internkontroll og ikke-digitale alternativer. Avklarer ansvar og ansvarsovergang." },
       { id: "clinician", x: 640, y: 100, lines: ["Behandler"], actor: "Helsepersonell", description: "Vurderer egnethet, anbefaler eller tildeler verktøy og følger opp. Planlegger mål, tiltak, verktøy og evaluering sammen med brukeren. I fase 1 ivaretar behandler også forløpsansvar når flere behandlere er involvert, og justerer behandlingen etter målte utfall." },
       { id: "user", x: 1140, y: 100, lines: ["Bruker"], actor: "Innbygger, pasient, pårørende", description: "Medvirker i planleggingen, setter egne mål, bruker verktøy og kan registrere egenmålinger og erfaringer. Mottar forståelig støtte og informasjon om veien videre." },
-      { id: "platform", x: 140, y: 350, width: 1240, lines: ["Plattform og nasjonal inngang"], actor: "Norsk helsenett; innholdsansvar hos Helsedirektoratet", description: "Gir en nasjonal inngang og teknisk samhandling. Drifter felles tjenester, støtter integrasjon og leverandørtilknytning, og viser vurderte verktøy. I figuren formidler plattformen utvekslinger mellom øvre og nedre lag. Dette innebærer ikke sentral lagring eller nye datarettigheter. Rollen avgjør ikke kliniske prioriteringer eller kvalitet." },
-      { id: "buyer", x: 360, y: 540, lines: ["Innkjøper"], actor: "Helsedirektoratet, Sykehusinnkjøp, kommuner", description: "Omsetter behov til anskaffelser og kontrakter med forutsigbare vilkår for pris, volum, drift, videreutvikling, kvalitetsdata og avvikling." },
-      { id: "vendor", x: 920, y: 540, lines: ["Verktøyleverandør"], actor: "Private, ideelle, akademiske og offentlige miljøer", description: "Utvikler, dokumenterer, sikrer, drifter og videreutvikler verktøy. Leverer dokumentasjon og utfallsdata i avtalte formater, og mottar betaling, markedsadgang og tydelige krav." },
+      { id: "platform", x: 140, y: 350, width: 1240, lines: ["Plattform og nasjonal inngang"], actor: "Norsk helsenett; innholdsansvar hos Helsedirektoratet", description: "Gir en nasjonal inngang og teknisk samhandling. Drifter felles tjenester, støtter integrasjon og leverandørtilknytning, og viser vurderte verktøy. Tilbyr en felles verktøyoversikt med visninger for bruker, behandler, tjenesteyter og innkjøper, med innhold fra Kvalitetsvurderer, Verktøyleverandør og Innkjøper. I figuren formidler plattformen utvekslinger mellom øvre og nedre lag. Dette innebærer ikke sentral lagring eller nye datarettigheter. Rollen avgjør ikke kliniske prioriteringer eller kvalitet." },
+      { id: "buyer", x: 360, y: 540, lines: ["Innkjøper"], actor: "Helsedirektoratet, Sykehusinnkjøp, kommuner", description: "Omsetter behov til anskaffelser og kontrakter med forutsigbare vilkår for pris, volum, drift, videreutvikling, kvalitetsdata og avvikling. Bruker verktøyoversikten til å se hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder." },
+      { id: "vendor", x: 920, y: 540, lines: ["Verktøyleverandør"], actor: "Private, ideelle, akademiske og offentlige miljøer", description: "Utvikler, dokumenterer, sikrer, drifter og videreutvikler verktøy. Leverer dokumentasjon og utfallsdata i avtalte formater, og mottar betaling, markedsadgang, tydelige krav og en langsiktig strategisk retning." },
       { id: "quality", x: 360, y: 860, lines: ["Kvalitetsvurderer"], actor: "Foreslått: Helsedirektoratet", description: "Vurderer verktøy mot åpne og risikoproporsjonale kriterier for effekt, pasientsikkerhet, personvern, informasjonssikkerhet, tilgjengelighet og interoperabilitet. Vurderer på nytt når utfallsdata foreligger. Dette er ikke regulatorisk godkjenning." },
       { id: "outcomes", x: 920, y: 860, lines: ["Effekt- og", "forbedringsansvarlig"], actor: "Helsedirektoratet som eier; evaluering ved FHI/forskningsmiljø", description: "Måler bruk, effekt, sikkerhet og ressursbruk på tvers av pasienter, med avklart dataansvar og rettslig grunnlag. Fastsetter nullpunkt og gir kunnskapen tilbake til styring, innkjøp og kvalitetsvurdering." },
-      { id: "ecosystem", x: 360, y: 1170, lines: ["Økosystemforvalter"], actor: "Foreslått: Helsedirektoratet", description: "Samordner initiativer, forvalter faglige rammer, krav, standarder og råd, holder oversikt og tydeliggjør grensen mellom økosystemets fellesfunksjoner og tjenestenes ansvar." },
-      { id: "owner", x: 920, y: 1170, lines: ["Strategisk eier"], actor: "Helse- og omsorgsdepartementet", description: "Setter mål og prioriteringer, avklarer ansvarsdeling og bevilger midler til innkjøp og evaluering. Gir forutsigbare oppdrag og bruker status, kostnader, risiko og effektkunnskap i styringen." }
+      { id: "ecosystem", x: 360, y: 1170, lines: ["Økosystemforvalter"], actor: "Foreslått: Helsedirektoratet", description: "Samordner initiativer, forvalter faglige rammer, krav, standarder og råd, holder oversikt, forvalter et veikart for markedet og tydeliggjør grensen mellom økosystemets fellesfunksjoner og tjenestenes ansvar." },
+      { id: "owner", x: 920, y: 1170, lines: ["Strategisk eier"], actor: "Helse- og omsorgsdepartementet", description: "Setter mål og prioriteringer, avklarer ansvarsdeling og bevilger midler til innkjøp og evaluering. Gir forutsigbare oppdrag og en langsiktig strategisk retning for markedet, og bruker status, kostnader, risiko og effektkunnskap i styringen." }
     ];
 
     const exchanges = [
@@ -318,36 +318,47 @@
         from: "service", to: "platform",
         points: [[260, 188], [260, 350]],
         forward: { x: 260, y: 242, text: "↓ Gir: bruks- og effektdata", detail: "avtalte bruks-, effekt- og ressursdata og praksiserfaringer for formidling til Effekt- og forbedringsansvarlig. Dataansvar og rettslig grunnlag må være avklart." },
-        reverse: { x: 260, y: 274, text: "↑ Gir: tilgang og samlet læring", detail: "teknisk tilgang og samlet læring fra evalueringen tilbake til tjenesten. Plattformen overtar ikke tjenestens kliniske ansvar." }
+        reverse: { x: 260, y: 274, text: "↑ Gir: oversikt, tilgang og læring", detail: "oversikt over vurderte verktøy og lavterskeltilbud som kan inngå i tjenestens forløp, hva de krever av oppfølging og integrasjon og hva som brukes andre steder i sektoren. I tillegg teknisk tilgang og samlet læring fra evalueringen tilbake til tjenesten. Plattformen overtar ikke tjenestens kliniske ansvar." }
       },
       {
         from: "platform", to: "clinician",
         points: [[760, 350], [760, 188]],
-        forward: { x: 760, y: 242, text: "↑ Gir: tilgang, tildeling og utfallsdata", detail: "teknisk tilgang, støtte til tildeling og formidling av relevante utfallsdata til behandlerens oppfølging, innenfor avtalte tilganger." },
+        forward: { x: 760, y: 242, text: "↑ Gir: oversikt, tildeling og utfallsdata", detail: "oversikt over relevante, vurderte verktøy: hva de gjør, hvem de egner seg for og hvilke utfall de måler. I tillegg teknisk tilgang, støtte til tildeling og formidling av relevante utfallsdata til behandlerens oppfølging, innenfor avtalte tilganger." },
         reverse: { x: 760, y: 274, text: "↓ Gir: bruk og faglige tilbakemeldinger", detail: "bruk av tjenestene og faglige tilbakemeldinger. Kliniske beslutninger og ansvar for planen forblir hos behandler og tjenesteyter." }
       },
       {
         from: "platform", to: "user", direct: true,
         points: [[1260, 350], [1260, 188]],
-        forward: { x: 1260, y: 242, text: "↑ Gir: tilgang, informasjon og støtte", detail: "en nasjonal inngang, tilgang til vurderte verktøy og forståelig informasjon og støtte." },
+        forward: { x: 1260, y: 242, text: "↑ Gir: oversikt, tilgang og støtte", detail: "en nasjonal inngang med oversikt over vurderte verktøy som kan passe brukerens behov og hva de kan hjelpe med, tilgang til verktøyene og forståelig informasjon og støtte." },
         reverse: { x: 1260, y: 274, text: "↓ Gir: erfaringer og egenmålinger", detail: "erfaringer, bruk og egenmålinger der det er avtalt. Videreformidling til klinisk oppfølging eller evaluering krever egne, avklarte formål og rettslig grunnlag; data kan ikke automatisk gjenbrukes." }
       },
       {
         from: "vendor", to: "platform",
         points: [[1040, 540], [1040, 438]],
-        forward: { x: 1056, y: 480, anchor: "start", text: "↑ Gir: verktøy og metadata", detail: "verktøy, metadata og avtalte grensesnitt for tilgjengeliggjøring og formidling av utfallsdata." },
+        forward: { x: 1056, y: 480, anchor: "start", text: "↑ Gir: verktøy og metadata", detail: "verktøy, avtalte grensesnitt og strukturerte produktopplysninger til verktøyoversikten: formål, målgruppe, funksjoner, integrasjon og hvilke utfall verktøyet måler." },
         reverse: { x: 1056, y: 512, anchor: "start", text: "↓ Gir: tilknytning og distribusjon", detail: "teknisk tilknytning, integrasjon og distribusjon. Oppføring forutsetter kvalitetsvurdering; plattformen gjør ikke en ny faglig vurdering." }
       },
       {
         from: "quality", to: "platform",
         points: [[420, 860], [240, 438]],
-        forward: { x: 368, y: 700, anchor: "start", text: "↖ Gir: oppføring og kvalitetsinformasjon", detail: "beslutning om oppføring, kvalitetsmerke og vurderingsgrunnlag som plattformen viser videre til behandler og bruker. Kvalitetsansvaret ligger fortsatt hos Kvalitetsvurderer." }
+        forward: { x: 368, y: 700, anchor: "start", text: "↖ Gir: oppføring og kvalitetsinformasjon", detail: "beslutning om oppføring, kvalitetsmerke og vurderingsgrunnlag som plattformen viser i verktøyoversikten. Kvalitetsansvaret ligger fortsatt hos Kvalitetsvurderer." }
       },
       {
         from: "platform", to: "outcomes",
         points: [[1280, 438], [1120, 860]],
         forward: { x: 1240, y: 700, text: "↙ Gir: avtalte evalueringsdata", detail: "formidling av avtalte bruks-, effekt- og ressursdata og erfaringer fra tjenester, brukere og verktøy. Systemevaluering bygger på aggregerte data med avklart dataansvar og rettslig grunnlag; koblingen er ikke en beslutning om sentral lagring." },
         reverse: { x: 1240, y: 744, text: "↗ Gir: samlet læring og forbedringsbehov", detail: "samlet kunnskap og forbedringsbehov som formidles videre til tjenestene og brukerne. Dette erstatter ikke individuell vurdering og oppfølging." }
+      },
+      {
+        from: "platform", to: "buyer", direct: true,
+        points: [[480, 438], [480, 540]],
+        forward: { x: 496, y: 480, anchor: "start", text: "↓ Gir: verktøyoversikt", detail: "oversikt over hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder, med funksjoner, dokumentasjon og vilkår. Gir grunnlag for behovsavklaring og bidrar til å unngå dobbeltkjøp." },
+        reverse: { x: 496, y: 512, anchor: "start", text: "↑ Gir: avtalestatus og vilkår", detail: "avtalestatus og vilkår for anskaffede verktøy, for eksempel om et verktøy er nasjonalt anskaffet og hvem som har tilgang." }
+      },
+      {
+        from: "owner", to: "vendor",
+        points: [[1160, 1214], [1440, 1214], [1440, 584], [1160, 584]],
+        forward: { x: 1428, y: 1040, anchor: "end", text: "↑ Gir: langsiktig strategisk retning", detail: "en tydelig og langsiktig retning for hvordan markedet skal utvikles: mål, prioriterte segmenter, prinsipper for innkjøp og finansiering, og varslede endringer i krav. Retningen konkretiseres i Økosystemforvalters veikart og gir leverandørene grunnlag for å investere i dokumentasjon, kvalitet og drift. Leverandørenes innspill går i hovedsak via økosystemforum, Økosystemforvalter og Innkjøper." }
       },
       {
         from: "buyer", to: "vendor",
