@@ -46,3 +46,6 @@ Tabellen skiller mellom ArchiMate-elementene **Business Actor** og **Business Ro
 - `Innbygger`, `Helsepersonell`, `Helsevirksomhet`, `Næringslivsaktør`, `Nasjonal infrastrukturaktør` og `Myndighet` er **Business Actors**.
 - `Bruker av digitale verktøy`, `Produsent`, `Innkjøper` og de øvrige oppgavene i tabellen er **Business Roles**.
 - Én Business Actor kan fylle flere Business Roles, og én Business Role kan fylles av flere Business Actors.
+
+## Kilder
+

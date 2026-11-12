@@ -1,0 +1,393 @@
+<mxfile host="65bd71144e">
+    <diagram id="kjernemodell" name="kjernemodell">
+        <mxGraphModel dx="1359" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1520" pageHeight="1540" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=24;fontStyle=1;spacing=0;" value="Kjernemodell: roller og verdiutveksling (fase 1)" vertex="1">
+                    <mxGeometry height="32" width="1456" x="32" y="12" as="geometry"/>
+                </mxCell>
+                <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=13;fontStyle=0;spacing=0;" value="Ti kjerneroller. Pilspissen viser mottakeren. Toveispiler sammenfatter to retningsbestemte verdiutvekslinger, med én tekst for hva hver rolle gir." vertex="1">
+                    <mxGeometry height="30" width="1456" x="32" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="tier_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=12;fontStyle=1;spacing=0;" value="TJENESTE OG BRUK" vertex="1">
+                    <mxGeometry height="20" width="450" x="32" y="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="tier_1" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=12;fontStyle=1;spacing=0;" value="NASJONAL INNGANG" vertex="1">
+                    <mxGeometry height="20" width="170" x="30" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="tier_2" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=12;fontStyle=1;spacing=0;" value="MARKED OG LEVERANSE" vertex="1">
+                    <mxGeometry height="20" width="450" x="20" y="562" as="geometry"/>
+                </mxCell>
+                <mxCell id="tier_3" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=12;fontStyle=1;spacing=0;" value="KVALITET OG EFFEKT" vertex="1">
+                    <mxGeometry height="20" width="450" x="10" y="882" as="geometry"/>
+                </mxCell>
+                <mxCell id="tier_4" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=12;fontStyle=1;spacing=0;" value="STYRING OG FORVALTNING" vertex="1">
+                    <mxGeometry height="20" width="450" x="10" y="1200" as="geometry"/>
+                </mxCell>
+                <object label="" tooltip="Tjenesteyter gir; Behandler mottar: organisatoriske rammer, tid, støtte til innføring og avklart oppfølgingsansvar.&#xa;&#xa;Behandler gir; Tjenesteyter mottar: behandlingsplan, behov og praksiskunnskap som grunnlag for forsvarlig organisering av tjenesten." fromRole="service" toRole="clinician" viewpoint="Value exchange summary" id="e_tj_be">
+                    <mxCell edge="1" parent="1" source="r_tj" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=open;endFill=0;endSize=8;startArrow=open;startFill=0;startSize=8;dashed=0;dashPattern=5 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_be">
+                        <mxGeometry relative="1" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="→ Gir: rammer og ansvar" tooltip="Tjenesteyter gir; Behandler mottar: organisatoriske rammer, tid, støtte til innføring og avklart oppfølgingsansvar." direction="forward" id="e_tj_be_forward">
+                    <mxCell connectable="0" parent="e_tj_be" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="-24.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="← Gir: plan og praksiskunnskap" tooltip="Behandler gir; Tjenesteyter mottar: behandlingsplan, behov og praksiskunnskap som grunnlag for forsvarlig organisering av tjenesten." direction="reverse" id="e_tj_be_reverse">
+                    <mxCell connectable="0" parent="e_tj_be" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="23.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Behandler gir; Bruker mottar: en felles plan, avtalte behandlingsmål, oppfølging og justering av behandling og verktøy etter oppnådd effekt.&#xa;&#xa;Bruker gir; Behandler mottar: egne mål, preferanser, egenmålinger og erfaringer. Dette er pasientnivåets tilbakekobling, ikke systemevaluering." fromRole="clinician" toRole="user" viewpoint="Value exchange summary" id="e_be_br">
+                    <mxCell edge="1" parent="1" source="r_be" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=open;endFill=0;endSize=8;startArrow=open;startFill=0;startSize=8;dashed=0;dashPattern=5 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_br">
+                        <mxGeometry relative="1" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="→ Gir: plan, mål og oppfølging" tooltip="Behandler gir; Bruker mottar: en felles plan, avtalte behandlingsmål, oppfølging og justering av behandling og verktøy etter oppnådd effekt." direction="forward" id="e_be_br_forward">
+                    <mxCell connectable="0" parent="e_be_br" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="-24.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="← Gir: egenmålinger og utfall" tooltip="Bruker gir; Behandler mottar: egne mål, preferanser, egenmålinger og erfaringer. Dette er pasientnivåets tilbakekobling, ikke systemevaluering." direction="reverse" id="e_be_br_reverse">
+                    <mxCell connectable="0" parent="e_be_br" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="23.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Tjenesteyter gir; Plattform og nasjonal inngang mottar: avtalte bruks-, effekt- og ressursdata og praksiserfaringer for formidling til Effekt- og forbedringsansvarlig. Dataansvar og rettslig grunnlag må være avklart.&#xa;&#xa;Plattform og nasjonal inngang gir; Tjenesteyter mottar: teknisk tilgang og samlet læring fra evalueringen tilbake til tjenesten. Plattformen overtar ikke tjenestens kliniske ansvar." fromRole="service" toRole="platform" viewpoint="Value exchange summary" id="e_tj_pl">
+                    <mxCell edge="1" parent="1" source="r_tj" style="rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.097;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_pl">
+                        <mxGeometry relative="1" x="0.3179" as="geometry">
+                            <mxPoint x="300" y="400" as="targetPoint"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↓ Gir: bruks- og effektdata" tooltip="Tjenesteyter gir; Plattform og nasjonal inngang mottar: avtalte bruks-, effekt- og ressursdata og praksiserfaringer for formidling til Effekt- og forbedringsansvarlig. Dataansvar og rettslig grunnlag må være avklart." direction="forward" id="e_tj_pl_forward">
+                    <mxCell connectable="0" parent="e_tj_pl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-1" as="geometry">
+                            <mxPoint x="80" y="82" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↑ Gir: tilgang og samlet læring" tooltip="Plattform og nasjonal inngang gir; Tjenesteyter mottar: teknisk tilgang og samlet læring fra evalueringen tilbake til tjenesten. Plattformen overtar ikke tjenestens kliniske ansvar." direction="reverse" id="e_tj_pl_reverse">
+                    <mxCell connectable="0" parent="e_tj_pl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="0.5747" as="geometry">
+                            <mxPoint x="90" y="-66" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Plattform og nasjonal inngang gir; Behandler mottar: teknisk tilgang, støtte til tildeling og formidling av relevante utfallsdata til behandlerens oppfølging, innenfor avtalte tilganger.&#xa;&#xa;Behandler gir; Plattform og nasjonal inngang mottar: bruk av tjenestene og faglige tilbakemeldinger. Kliniske beslutninger og ansvar for planen forblir hos behandler og tjenesteyter." fromRole="platform" toRole="clinician" viewpoint="Value exchange summary" id="e_pl_be">
+                    <mxCell edge="1" parent="1" source="r_pl" style="rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_be">
+                        <mxGeometry relative="1" x="-0.3832" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="↑ Gir: tilgang, tildeling og utfallsdata" tooltip="Plattform og nasjonal inngang gir; Behandler mottar: teknisk tilgang, støtte til tildeling og formidling av relevante utfallsdata til behandlerens oppfølging, innenfor avtalte tilganger." direction="forward" id="e_pl_be_forward">
+                    <mxCell connectable="0" parent="e_pl_be" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.3323" as="geometry">
+                            <mxPoint x="100" y="-46" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↓ Gir: bruk og faglige tilbakemeldinger" tooltip="Behandler gir; Plattform og nasjonal inngang mottar: bruk av tjenestene og faglige tilbakemeldinger. Kliniske beslutninger og ansvar for planen forblir hos behandler og tjenesteyter." direction="reverse" id="e_pl_be_reverse">
+                    <mxCell connectable="0" parent="e_pl_be" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.5358" as="geometry">
+                            <mxPoint x="106" y="-46" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Plattform og nasjonal inngang gir; Bruker mottar: en nasjonal inngang, tilgang til vurderte verktøy og forståelig informasjon og støtte.&#xa;&#xa;Bruker gir; Plattform og nasjonal inngang mottar: erfaringer, bruk og egenmålinger der det er avtalt. Videreformidling til klinisk oppfølging eller evaluering krever egne, avklarte formål og rettslig grunnlag; data kan ikke automatisk gjenbrukes." fromRole="platform" toRole="user" viewpoint="Value exchange summary" id="e_pl_br">
+                    <mxCell edge="1" parent="1" source="r_pl" style="rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=open;endFill=0;endSize=8;startArrow=open;startFill=0;startSize=8;dashed=0;dashPattern=5 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.905;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" target="r_br">
+                        <mxGeometry relative="1" x="-0.3397" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="↑ Gir: tilgang, informasjon og støtte" tooltip="Plattform og nasjonal inngang gir; Bruker mottar: en nasjonal inngang, tilgang til vurderte verktøy og forståelig informasjon og støtte." direction="forward" id="e_pl_br_forward">
+                    <mxCell connectable="0" parent="e_pl_br" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="0.9967" as="geometry">
+                            <mxPoint x="110" y="52" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↓ Gir: erfaringer og egenmålinger" tooltip="Bruker gir; Plattform og nasjonal inngang mottar: erfaringer, bruk og egenmålinger der det er avtalt. Videreformidling til klinisk oppfølging eller evaluering krever egne, avklarte formål og rettslig grunnlag; data kan ikke automatisk gjenbrukes." direction="reverse" id="e_pl_br_reverse">
+                    <mxCell connectable="0" parent="e_pl_br" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.588" as="geometry">
+                            <mxPoint x="102" y="-50" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Verktøyleverandør gir; Plattform og nasjonal inngang mottar: verktøy, metadata og avtalte grensesnitt for tilgjengeliggjøring og formidling av utfallsdata.&#xa;&#xa;Plattform og nasjonal inngang gir; Verktøyleverandør mottar: teknisk tilknytning, integrasjon og distribusjon. Oppføring forutsetter kvalitetsvurdering; plattformen gjør ikke en ny faglig vurdering." fromRole="vendor" toRole="platform" viewpoint="Value exchange summary" id="e_vl_pl">
+                    <mxCell edge="1" parent="1" source="r_vl" style="rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_pl">
+                        <mxGeometry relative="1" x="0.2415" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="↑ Gir: verktøy og metadata" tooltip="Verktøyleverandør gir; Plattform og nasjonal inngang mottar: verktøy, metadata og avtalte grensesnitt for tilgjengeliggjøring og formidling av utfallsdata." direction="forward" id="e_vl_pl_forward">
+                    <mxCell connectable="0" parent="e_vl_pl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.8307" as="geometry">
+                            <mxPoint x="90" y="-61" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↓ Gir: tilknytning og distribusjon" tooltip="Plattform og nasjonal inngang gir; Verktøyleverandør mottar: teknisk tilknytning, integrasjon og distribusjon. Oppføring forutsetter kvalitetsvurdering; plattformen gjør ikke en ny faglig vurdering." direction="reverse" id="e_vl_pl_reverse">
+                    <mxCell connectable="0" parent="e_vl_pl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.9248" as="geometry">
+                            <mxPoint x="100" y="-44" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Kvalitetsvurderer gir; Plattform og nasjonal inngang mottar: beslutning om oppføring, kvalitetsmerke og vurderingsgrunnlag som plattformen viser videre til behandler og bruker. Kvalitetsansvaret ligger fortsatt hos Kvalitetsvurderer." fromRole="quality" toRole="platform" viewpoint="Value exchange summary" id="e_kv_pl">
+                    <mxCell edge="1" parent="1" source="r_kv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=none;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0;exitY=0.1818181818;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.03296703297;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_pl">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="180.9" y="946"/>
+                            </Array>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↑ Gir: oppføring og kvalitetsinformasjon" tooltip="Kvalitetsvurderer gir; Plattform og nasjonal inngang mottar: beslutning om oppføring, kvalitetsmerke og vurderingsgrunnlag som plattformen viser videre til behandler og bruker. Kvalitetsansvaret ligger fortsatt hos Kvalitetsvurderer." direction="forward" id="e_kv_pl_forward">
+                    <mxCell connectable="0" parent="e_kv_pl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="0.896" as="geometry">
+                            <mxPoint x="9" y="70" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Plattform og nasjonal inngang gir; Effekt- og forbedringsansvarlig mottar: formidling av avtalte bruks-, effekt- og ressursdata og erfaringer fra tjenester, brukere og verktøy. Systemevaluering bygger på aggregerte data med avklart dataansvar og rettslig grunnlag; koblingen er ikke en beslutning om sentral lagring.&#xa;&#xa;Effekt- og forbedringsansvarlig gir; Plattform og nasjonal inngang mottar: samlet kunnskap og forbedringsbehov som formidles videre til tjenestene og brukerne. Dette erstatter ikke individuell vurdering og oppfølging." fromRole="platform" toRole="outcomes" viewpoint="Value exchange summary" id="e_pl_ef">
+                    <mxCell edge="1" parent="1" source="r_pl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0.9532967033;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.3181818182;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_ef">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="1322.1" y="958"/>
+                            </Array>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↓ Gir: avtalte evalueringsdata" tooltip="Plattform og nasjonal inngang gir; Effekt- og forbedringsansvarlig mottar: formidling av avtalte bruks-, effekt- og ressursdata og erfaringer fra tjenester, brukere og verktøy. Systemevaluering bygger på aggregerte data med avklart dataansvar og rettslig grunnlag; koblingen er ikke en beslutning om sentral lagring." direction="forward" id="e_pl_ef_forward">
+                    <mxCell connectable="0" parent="e_pl_ef" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.2352112676" as="geometry">
+                            <mxPoint x="-92" y="48" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↑ Gir: samlet læring og forbedringsbehov" tooltip="Effekt- og forbedringsansvarlig gir; Plattform og nasjonal inngang mottar: samlet kunnskap og forbedringsbehov som formidles videre til tjenestene og brukerne. Dette erstatter ikke individuell vurdering og oppfølging." direction="reverse" id="e_pl_ef_reverse">
+                    <mxCell connectable="0" parent="e_pl_ef" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.1450704225" as="geometry">
+                            <mxPoint x="-122" y="40" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Innkjøper gir; Verktøyleverandør mottar: etterspørsel, kontrakt, betaling og forutsigbare krav til pris, volum, drift, videreutvikling og avvikling.&#xa;&#xa;Verktøyleverandør gir; Innkjøper mottar: verktøy, drift, support og avtalte kvalitets- og bruksdata." fromRole="buyer" toRole="vendor" viewpoint="Value exchange summary" id="e_ik_vl">
+                    <mxCell edge="1" parent="1" source="r_ik" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_vl">
+                        <mxGeometry relative="1" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="→ Gir: kontrakt og betaling" tooltip="Innkjøper gir; Verktøyleverandør mottar: etterspørsel, kontrakt, betaling og forutsigbare krav til pris, volum, drift, videreutvikling og avvikling." direction="forward" id="e_ik_vl_forward">
+                    <mxCell connectable="0" parent="e_ik_vl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="-24.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="← Gir: verktøy, drift og support" tooltip="Verktøyleverandør gir; Innkjøper mottar: verktøy, drift, support og avtalte kvalitets- og bruksdata." direction="reverse" id="e_ik_vl_reverse">
+                    <mxCell connectable="0" parent="e_ik_vl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="23.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Verktøyleverandør gir; Kvalitetsvurderer mottar: dokumentasjon om effekt, pasientsikkerhet, personvern, informasjonssikkerhet og regulatorisk status, inkludert CE der det er relevant.&#xa;&#xa;Kvalitetsvurderer gir; Verktøyleverandør mottar: begrunnet vurdering, kvalitetsmerke og krav til forbedring. Dette er ikke regulatorisk godkjenning." fromRole="vendor" toRole="quality" viewpoint="Value exchange summary" id="e_vl_kv">
+                    <mxCell edge="1" parent="1" source="r_vl" style="rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0;exitY=0.7954545455;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=-2.9;entryDy=2.9;entryPerimeter=0;" target="r_kv">
+                        <mxGeometry relative="1" x="-0.1929" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="← Gir: dokumentasjon" tooltip="Verktøyleverandør gir; Kvalitetsvurderer mottar: dokumentasjon om effekt, pasientsikkerhet, personvern, informasjonssikkerhet og regulatorisk status, inkludert CE der det er relevant." direction="forward" id="e_vl_kv_forward">
+                    <mxCell connectable="0" parent="e_vl_kv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.254" as="geometry">
+                            <mxPoint x="-18" y="6" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="→ Gir: vurdering og kvalitetsmerke" tooltip="Kvalitetsvurderer gir; Verktøyleverandør mottar: begrunnet vurdering, kvalitetsmerke og krav til forbedring. Dette er ikke regulatorisk godkjenning." direction="reverse" id="e_vl_kv_reverse">
+                    <mxCell connectable="0" parent="e_vl_kv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.254" as="geometry">
+                            <mxPoint y="23.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Effekt- og forbedringsansvarlig gir; Kvalitetsvurderer mottar: aggregert kunnskap om effekt, pasientsikkerhet og risiko som grunnlag for å vurdere verktøy på nytt." fromRole="outcomes" toRole="quality" viewpoint="Value exchange summary" id="e_ef_kv">
+                    <mxCell edge="1" parent="1" source="r_ef" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=none;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_kv">
+                        <mxGeometry relative="1" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="← Gir: kunnskap om effekt og risiko" tooltip="Effekt- og forbedringsansvarlig gir; Kvalitetsvurderer mottar: aggregert kunnskap om effekt, pasientsikkerhet og risiko som grunnlag for å vurdere verktøy på nytt." direction="forward" id="e_ef_kv_forward">
+                    <mxCell connectable="0" parent="e_ef_kv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="-24.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Økosystemforvalter gir; Kvalitetsvurderer mottar: felles faglige rammer, standarder og kriterier for kvalitetsvurdering.&#xa;&#xa;Kvalitetsvurderer gir; Økosystemforvalter mottar: vurderingsbehov og erfaringer med hvordan kriteriene og rammeverket fungerer." fromRole="ecosystem" toRole="quality" viewpoint="Value exchange summary" id="e_of_kv">
+                    <mxCell edge="1" parent="1" source="r_of" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0;exitY=0.2954545455;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.7727272727;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_kv">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="300" y="1266"/>
+                                <mxPoint x="300" y="998"/>
+                            </Array>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↑ Gir: kriterier og standarder" tooltip="Økosystemforvalter gir; Kvalitetsvurderer mottar: felles faglige rammer, standarder og kriterier for kvalitetsvurdering." direction="forward" id="e_of_kv_forward">
+                    <mxCell connectable="0" parent="e_of_kv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="0.1365979381" as="geometry">
+                            <mxPoint x="97" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↓ Gir: behov og erfaringer" tooltip="Kvalitetsvurderer gir; Økosystemforvalter mottar: vurderingsbehov og erfaringer med hvordan kriteriene og rammeverket fungerer." direction="reverse" id="e_of_kv_reverse">
+                    <mxCell connectable="0" parent="e_of_kv" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.02835051546" as="geometry">
+                            <mxPoint x="89.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Strategisk eier gir; Økosystemforvalter mottar: mandat, mål, prioriteringer og midler til samordnet utvikling og forvaltning av økosystemet.&#xa;&#xa;Økosystemforvalter gir; Strategisk eier mottar: status, risiko, kostnader og effektkunnskap til strategisk styring." fromRole="owner" toRole="ecosystem" viewpoint="Value exchange summary" id="e_se_of">
+                    <mxCell edge="1" parent="1" source="r_se" style="edgeStyle=none;noEdgeStyle=1;rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0;exitY=0.5681818182;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5681818182;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_of">
+                        <mxGeometry relative="1" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="← Gir: mandat, mål og midler" tooltip="Strategisk eier gir; Økosystemforvalter mottar: mandat, mål, prioriteringer og midler til samordnet utvikling og forvaltning av økosystemet." direction="forward" id="e_se_of_forward">
+                    <mxCell connectable="0" parent="e_se_of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="-24.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="→ Gir: status, risiko og effekt" tooltip="Økosystemforvalter gir; Strategisk eier mottar: status, risiko, kostnader og effektkunnskap til strategisk styring." direction="reverse" id="e_se_of_reverse">
+                    <mxCell connectable="0" parent="e_se_of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" as="geometry">
+                            <mxPoint y="23.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Strategisk eier gir; Innkjøper mottar: finansiering og overordnede prioriteringer for anskaffelser.&#xa;&#xa;Innkjøper gir; Strategisk eier mottar: informasjon om kostnader, anskaffelser og resultater til strategisk styring." fromRole="owner" toRole="buyer" viewpoint="Value exchange summary" id="e_se_ik">
+                    <mxCell edge="1" parent="1" source="r_se" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=1;exitY=0.6818181818;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_ik">
+                        <mxGeometry relative="1" x="-0.1118" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="1190" y="1300"/>
+                                <mxPoint x="1190" y="1400"/>
+                                <mxPoint x="220" y="1400"/>
+                                <mxPoint x="220" y="654"/>
+                            </Array>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="← Gir: innkjøpsmidler og prioriteringer" tooltip="Strategisk eier gir; Innkjøper mottar: finansiering og overordnede prioriteringer for anskaffelser." direction="forward" id="e_se_ik_forward">
+                    <mxCell connectable="0" parent="e_se_ik" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.2447" as="geometry">
+                            <mxPoint x="-220" y="-20" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="→ Gir: kostnader og resultater" tooltip="Innkjøper gir; Strategisk eier mottar: informasjon om kostnader, anskaffelser og resultater til strategisk styring." direction="reverse" id="e_se_ik_reverse">
+                    <mxCell connectable="0" parent="e_se_ik" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.2447" as="geometry">
+                            <mxPoint x="-240" y="24" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Effekt- og forbedringsansvarlig gir; Økosystemforvalter mottar: aggregert kunnskap om effekt, sikkerhet og ressursbruk som grunnlag for forbedring av økosystemet.&#xa;&#xa;Økosystemforvalter gir; Effekt- og forbedringsansvarlig mottar: prioriteringer og kunnskapsbehov for videre evaluering og forbedring." fromRole="outcomes" toRole="ecosystem" viewpoint="Value exchange summary" id="e_ef_of">
+                    <mxCell edge="1" parent="1" source="r_ef" style="rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.2272727273;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_of">
+                        <mxGeometry relative="1" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="← Gir: effekt- og risikokunnskap" tooltip="Effekt- og forbedringsansvarlig gir; Økosystemforvalter mottar: aggregert kunnskap om effekt, sikkerhet og ressursbruk som grunnlag for forbedring av økosystemet." direction="forward" id="e_ef_of_forward">
+                    <mxCell connectable="0" parent="e_ef_of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="0.07534246575" as="geometry">
+                            <mxPoint y="-24.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="→ Gir: prioriteringer" tooltip="Økosystemforvalter gir; Effekt- og forbedringsansvarlig mottar: prioriteringer og kunnskapsbehov for videre evaluering og forbedring." direction="reverse" id="e_ef_of_reverse">
+                    <mxCell connectable="0" parent="e_ef_of" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="0.07534246575" as="geometry">
+                            <mxPoint y="23.5" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="" tooltip="Effekt- og forbedringsansvarlig gir; Strategisk eier mottar: evaluering og beslutningsgrunnlag om effekt, sikkerhet, kostnader og ressursbruk.&#xa;&#xa;Strategisk eier gir; Effekt- og forbedringsansvarlig mottar: styringssignaler og prioriteringer for videre evaluering og utvikling." fromRole="outcomes" toRole="owner" viewpoint="Value exchange summary" id="e_ef_se">
+                    <mxCell edge="1" parent="1" source="r_ef" style="rounded=0;curved=0;html=1;orthogonalLoop=1;strokeColor=#666666;strokeWidth=1.5;fontColor=#333333;fontFamily=Arial;fontSize=13;jumpStyle=gap;jumpSize=6;endArrow=block;endFill=1;endSize=8;startArrow=block;startFill=1;startSize=8;dashed=1;dashPattern=5 4;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="r_se">
+                        <mxGeometry relative="1" x="-0.0005" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="↓ Gir: resultater og evaluering" tooltip="Effekt- og forbedringsansvarlig gir; Strategisk eier mottar: evaluering og beslutningsgrunnlag om effekt, sikkerhet, kostnader og ressursbruk." direction="forward" id="e_ef_se_forward">
+                    <mxCell connectable="0" parent="e_ef_se" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="-0.067" as="geometry">
+                            <mxPoint x="100" y="7" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="↑ Gir: styringssignaler" tooltip="Strategisk eier gir; Effekt- og forbedringsansvarlig mottar: styringssignaler og prioriteringer for videre evaluering og utvikling." direction="reverse" id="e_ef_se_reverse">
+                    <mxCell connectable="0" parent="e_ef_se" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Arial;fontSize=13;fontColor=#333333;labelBackgroundColor=#ffffff;labelBorderColor=#e0e4e0;spacing=4;" vertex="1">
+                        <mxGeometry relative="1" x="0.0181" as="geometry">
+                            <mxPoint x="70" y="19" as="offset"/>
+                        </mxGeometry>
+                    </mxCell>
+                </object>
+                <object label="Tjenesteyter&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Kommune, helseforetak, fastlege&lt;/span&gt;" tooltip="Integrerer verktøy i tjenesteforløp, legger til rette for forsvarlig bruk og sørger for oppfølging, internkontroll og ikke-digitale alternativer. Avklarer ansvar og ansvarsovergang.&#xa;&#xa;Aktørforslag: Kommune, helseforetak, fastlege." roleId="service" roleName="Tjenesteyter" id="r_tj">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="140" y="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Behandler&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Helsepersonell&lt;/span&gt;" tooltip="Vurderer egnethet, anbefaler eller tildeler verktøy og følger opp. Planlegger mål, tiltak, verktøy og evaluering sammen med brukeren. I fase 1 ivaretar behandler også forløpsansvar når flere behandlere er involvert, og justerer behandlingen etter målte utfall.&#xa;&#xa;Aktørforslag: Helsepersonell." roleId="clinician" roleName="Behandler" id="r_be">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="640" y="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Bruker&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Innbygger, pasient, pårørende&lt;/span&gt;" tooltip="Medvirker i planleggingen, setter egne mål, bruker verktøy og kan registrere egenmålinger og erfaringer. Mottar forståelig støtte og informasjon om veien videre.&#xa;&#xa;Aktørforslag: Innbygger, pasient, pårørende." roleId="user" roleName="Bruker" id="r_br">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="1140" y="170" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Plattform og nasjonal inngang&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Norsk helsenett; innholdsansvar hos Helsedirektoratet&lt;/span&gt;" tooltip="Gir en nasjonal inngang og teknisk samhandling. Drifter felles tjenester, støtter integrasjon og leverandørtilknytning, og viser vurderte verktøy. I figuren formidler plattformen utvekslinger mellom øvre og nedre lag. Dette innebærer ikke sentral lagring eller nye datarettigheter. Rollen avgjør ikke kliniske prioriteringer eller kvalitet.&#xa;&#xa;Aktørforslag: Norsk helsenett; innholdsansvar hos Helsedirektoratet." roleId="platform" roleName="Plattform og nasjonal inngang" id="r_pl">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="1240" x="140" y="420" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Innkjøper&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Helsedirektoratet, Sykehusinnkjø…&lt;/span&gt;" tooltip="Omsetter behov til anskaffelser og kontrakter med forutsigbare vilkår for pris, volum, drift, videreutvikling, kvalitetsdata og avvikling.&#xa;&#xa;Aktørforslag: Helsedirektoratet, Sykehusinnkjøp, kommuner." roleId="buyer" roleName="Innkjøper" id="r_ik">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="360" y="610" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Verktøyleverandør&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Private, ideelle, akademiske og …&lt;/span&gt;" tooltip="Utvikler, dokumenterer, sikrer, drifter og videreutvikler verktøy. Leverer dokumentasjon og utfallsdata i avtalte formater, og mottar betaling, markedsadgang og tydelige krav.&#xa;&#xa;Aktørforslag: Private, ideelle, akademiske og offentlige miljøer." roleId="vendor" roleName="Verktøyleverandør" id="r_vl">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="950" y="610" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Kvalitetsvurderer&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Foreslått: Helsedirektoratet&lt;/span&gt;" tooltip="Vurderer verktøy mot åpne og risikoproporsjonale kriterier for effekt, pasientsikkerhet, personvern, informasjonssikkerhet, tilgjengelighet og interoperabilitet. Vurderer på nytt når utfallsdata foreligger. Dette er ikke regulatorisk godkjenning.&#xa;&#xa;Aktørforslag: Foreslått: Helsedirektoratet." roleId="quality" roleName="Kvalitetsvurderer" id="r_kv">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="360" y="930" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Effekt- og&lt;br&gt;forbedringsansvarlig&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Helsedirektoratet som eier; eval…&lt;/span&gt;" tooltip="Måler bruk, effekt, sikkerhet og ressursbruk på tvers av pasienter, med avklart dataansvar og rettslig grunnlag. Fastsetter nullpunkt og gir kunnskapen tilbake til styring, innkjøp og kvalitetsvurdering.&#xa;&#xa;Aktørforslag: Helsedirektoratet som eier; evaluering ved FHI/forskningsmiljø." roleId="outcomes" roleName="Effekt- og forbedringsansvarlig" id="r_ef">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="920" y="930" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Økosystemforvalter&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Foreslått: Helsedirektoratet&lt;/span&gt;" tooltip="Samordner initiativer, forvalter faglige rammer, krav, standarder og råd, holder oversikt og tydeliggjør grensen mellom økosystemets fellesfunksjoner og tjenestenes ansvar.&#xa;&#xa;Aktørforslag: Foreslått: Helsedirektoratet." roleId="ecosystem" roleName="Økosystemforvalter" id="r_of">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="360" y="1240" as="geometry"/>
+                    </mxCell>
+                </object>
+                <object label="Strategisk eier&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Helse- og omsorgsdepartementet&lt;/span&gt;" tooltip="Setter mål og prioriteringer, avklarer ansvarsdeling og bevilger midler til innkjøp og evaluering. Gir forutsigbare oppdrag og bruker status, kostnader, risiko og effektkunnskap i styringen.&#xa;&#xa;Aktørforslag: Helse- og omsorgsdepartementet." roleId="owner" roleName="Strategisk eier" id="r_se">
+                    <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
+                        <mxGeometry height="88" width="240" x="920" y="1240" as="geometry"/>
+                    </mxCell>
+                </object>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
