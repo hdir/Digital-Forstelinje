@@ -305,107 +305,107 @@
       {
         from: "service", to: "clinician", direct: true,
         points: [[380, 144], [640, 144]],
-        forward: { x: 510, y: 124, text: "→ Gir: rammer og ansvar", detail: "organisatoriske rammer, tid, støtte til innføring og avklart oppfølgingsansvar." },
-        reverse: { x: 510, y: 172, text: "← Gir: plan og praksiskunnskap", detail: "behandlingsplan, behov og praksiskunnskap som grunnlag for forsvarlig organisering av tjenesten." }
+        forward: { x: 510, y: 124, text: "→ Rammer og ansvar", detail: "organisatoriske rammer, tid, støtte til innføring og avklart oppfølgingsansvar." },
+        reverse: { x: 510, y: 172, text: "← Plan og praksiskunnskap", detail: "behandlingsplan, behov og praksiskunnskap som grunnlag for forsvarlig organisering av tjenesten." }
       },
       {
         from: "clinician", to: "user", direct: true,
         points: [[880, 144], [1140, 144]],
-        forward: { x: 1010, y: 124, text: "→ Gir: plan, mål og oppfølging", detail: "en felles plan, avtalte behandlingsmål, oppfølging og justering av behandling og verktøy etter oppnådd effekt." },
-        reverse: { x: 1010, y: 172, text: "← Gir: egenmålinger og utfall", detail: "egne mål, preferanser, egenmålinger og erfaringer. Dette er pasientnivåets tilbakekobling, ikke systemevaluering." }
+        forward: { x: 1030, y: 124, text: "→ Plan, mål og oppfølging", detail: "en felles plan, avtalte behandlingsmål, oppfølging og justering av behandling og verktøy etter oppnådd effekt." },
+        reverse: { x: 990, y: 172, text: "← Egenmålinger og utfall", detail: "egne mål, preferanser, egenmålinger og erfaringer. Dette er pasientnivåets tilbakekobling, ikke systemevaluering." }
       },
       {
         from: "service", to: "platform",
         points: [[260, 188], [260, 350]],
-        forward: { x: 260, y: 242, text: "↓ Gir: bruks- og effektdata", detail: "avtalte bruks-, effekt- og ressursdata og praksiserfaringer for formidling til Effekt- og forbedringsansvarlig. Dataansvar og rettslig grunnlag må være avklart." },
-        reverse: { x: 260, y: 274, text: "↑ Gir: oversikt, tilgang og læring", detail: "oversikt over vurderte verktøy og lavterskeltilbud som kan inngå i tjenestens forløp, hva de krever av oppfølging og integrasjon og hva som brukes andre steder i sektoren. I tillegg teknisk tilgang og samlet læring fra evalueringen tilbake til tjenesten. Plattformen overtar ikke tjenestens kliniske ansvar." }
+        forward: { x: 260, y: 274, text: "↓ Bruks- og effektdata", detail: "avtalte bruks-, effekt- og ressursdata og praksiserfaringer for formidling til Effekt- og forbedringsansvarlig. Dataansvar og rettslig grunnlag må være avklart." },
+        reverse: { x: 260, y: 242, text: "↑ Oversikt, tilgang og læring", detail: "oversikt over vurderte verktøy og lavterskeltilbud som kan inngå i tjenestens forløp, hva de krever av oppfølging og integrasjon og hva som brukes andre steder i sektoren. I tillegg teknisk tilgang og samlet læring fra evalueringen tilbake til tjenesten. Plattformen overtar ikke tjenestens kliniske ansvar." }
       },
       {
         from: "platform", to: "clinician",
         points: [[760, 350], [760, 188]],
-        forward: { x: 760, y: 242, text: "↑ Gir: oversikt, tildeling og utfallsdata", detail: "oversikt over relevante, vurderte verktøy: hva de gjør, hvem de egner seg for og hvilke utfall de måler. I tillegg teknisk tilgang, støtte til tildeling og formidling av relevante utfallsdata til behandlerens oppfølging, innenfor avtalte tilganger." },
-        reverse: { x: 760, y: 274, text: "↓ Gir: bruk og faglige tilbakemeldinger", detail: "bruk av tjenestene og faglige tilbakemeldinger. Kliniske beslutninger og ansvar for planen forblir hos behandler og tjenesteyter." }
+        forward: { x: 760, y: 242, text: "↑ Oversikt, tildeling og utfallsdata", detail: "oversikt over relevante, vurderte verktøy: hva de gjør, hvem de egner seg for og hvilke utfall de måler. I tillegg teknisk tilgang, støtte til tildeling og formidling av relevante utfallsdata til behandlerens oppfølging, innenfor avtalte tilganger." },
+        reverse: { x: 760, y: 274, text: "↓ Bruk og faglige tilbakemeldinger", detail: "bruk av tjenestene og faglige tilbakemeldinger. Kliniske beslutninger og ansvar for planen forblir hos behandler og tjenesteyter." }
       },
       {
         from: "platform", to: "user", direct: true,
         points: [[1260, 350], [1260, 188]],
-        forward: { x: 1260, y: 242, text: "↑ Gir: oversikt, tilgang og støtte", detail: "en nasjonal inngang med oversikt over vurderte verktøy som kan passe brukerens behov og hva de kan hjelpe med, tilgang til verktøyene og forståelig informasjon og støtte." },
-        reverse: { x: 1260, y: 274, text: "↓ Gir: erfaringer og egenmålinger", detail: "erfaringer, bruk og egenmålinger der det er avtalt. Videreformidling til klinisk oppfølging eller evaluering krever egne, avklarte formål og rettslig grunnlag; data kan ikke automatisk gjenbrukes." }
+        forward: { x: 1260, y: 242, text: "↑ Oversikt, tilgang og støtte", detail: "en nasjonal inngang med oversikt over vurderte verktøy som kan passe brukerens behov og hva de kan hjelpe med, tilgang til verktøyene og forståelig informasjon og støtte." },
+        reverse: { x: 1260, y: 274, text: "↓ Erfaringer og egenmålinger", detail: "erfaringer, bruk og egenmålinger der det er avtalt. Videreformidling til klinisk oppfølging eller evaluering krever egne, avklarte formål og rettslig grunnlag; data kan ikke automatisk gjenbrukes." }
       },
       {
         from: "vendor", to: "platform",
         points: [[1040, 540], [1040, 438]],
-        forward: { x: 1056, y: 480, anchor: "start", text: "↑ Gir: verktøy og metadata", detail: "verktøy, avtalte grensesnitt og strukturerte produktopplysninger til verktøyoversikten: formål, målgruppe, funksjoner, integrasjon og hvilke utfall verktøyet måler." },
-        reverse: { x: 1056, y: 512, anchor: "start", text: "↓ Gir: tilknytning og distribusjon", detail: "teknisk tilknytning, integrasjon og distribusjon. Oppføring forutsetter kvalitetsvurdering; plattformen gjør ikke en ny faglig vurdering." }
+        forward: { x: 1056, y: 480, anchor: "start", text: "↑ Verktøy og metadata", detail: "verktøy, avtalte grensesnitt og strukturerte produktopplysninger til verktøyoversikten: formål, målgruppe, funksjoner, integrasjon og hvilke utfall verktøyet måler." },
+        reverse: { x: 1056, y: 512, anchor: "start", text: "↓ Tilknytning og distribusjon", detail: "teknisk tilknytning, integrasjon og distribusjon. Oppføring forutsetter kvalitetsvurdering; plattformen gjør ikke en ny faglig vurdering." }
       },
       {
         from: "quality", to: "platform",
         points: [[420, 860], [240, 438]],
-        forward: { x: 368, y: 700, anchor: "start", text: "↖ Gir: oppføring og kvalitetsinformasjon", detail: "beslutning om oppføring, kvalitetsmerke og vurderingsgrunnlag som plattformen viser i verktøyoversikten. Kvalitetsansvaret ligger fortsatt hos Kvalitetsvurderer." }
+        forward: { x: 368, y: 700, anchor: "start", text: "↖ Oppføring og kvalitetsinformasjon", detail: "beslutning om oppføring, kvalitetsmerke og vurderingsgrunnlag som plattformen viser i verktøyoversikten. Kvalitetsansvaret ligger fortsatt hos Kvalitetsvurderer." }
       },
       {
         from: "platform", to: "outcomes",
         points: [[1280, 438], [1120, 860]],
-        forward: { x: 1240, y: 700, text: "↙ Gir: avtalte evalueringsdata", detail: "formidling av avtalte bruks-, effekt- og ressursdata og erfaringer fra tjenester, brukere og verktøy. Systemevaluering bygger på aggregerte data med avklart dataansvar og rettslig grunnlag; koblingen er ikke en beslutning om sentral lagring." },
-        reverse: { x: 1240, y: 744, text: "↗ Gir: samlet læring og forbedringsbehov", detail: "samlet kunnskap og forbedringsbehov som formidles videre til tjenestene og brukerne. Dette erstatter ikke individuell vurdering og oppfølging." }
+        forward: { x: 1180, y: 744, text: "↙ Avtalte evalueringsdata", detail: "formidling av avtalte bruks-, effekt- og ressursdata og erfaringer fra tjenester, brukere og verktøy. Systemevaluering bygger på aggregerte data med avklart dataansvar og rettslig grunnlag; koblingen er ikke en beslutning om sentral lagring." },
+        reverse: { x: 1300, y: 700, text: "↗ Samlet læring og forbedringsbehov", detail: "samlet kunnskap og forbedringsbehov som formidles videre til tjenestene og brukerne. Dette erstatter ikke individuell vurdering og oppfølging." }
       },
       {
         from: "platform", to: "buyer", direct: true,
         points: [[480, 438], [480, 540]],
-        forward: { x: 496, y: 480, anchor: "start", text: "↓ Gir: verktøyoversikt", detail: "oversikt over hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder, med funksjoner, dokumentasjon og vilkår. Gir grunnlag for behovsavklaring og bidrar til å unngå dobbeltkjøp." },
-        reverse: { x: 496, y: 512, anchor: "start", text: "↑ Gir: avtalestatus og vilkår", detail: "avtalestatus og vilkår for anskaffede verktøy, for eksempel om et verktøy er nasjonalt anskaffet og hvem som har tilgang." }
+        forward: { x: 496, y: 512, anchor: "start", text: "↓ Verktøyoversikt", detail: "oversikt over hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder, med funksjoner, dokumentasjon og vilkår. Gir grunnlag for behovsavklaring og bidrar til å unngå dobbeltkjøp." },
+        reverse: { x: 496, y: 480, anchor: "start", text: "↑ Avtalestatus og vilkår", detail: "avtalestatus og vilkår for anskaffede verktøy, for eksempel om et verktøy er nasjonalt anskaffet og hvem som har tilgang." }
       },
       {
         from: "owner", to: "vendor",
         points: [[1160, 1214], [1440, 1214], [1440, 584], [1160, 584]],
-        forward: { x: 1428, y: 1040, anchor: "end", text: "↑ Gir: langsiktig strategisk retning", detail: "en tydelig og langsiktig retning for hvordan markedet skal utvikles: mål, prioriterte segmenter, prinsipper for innkjøp og finansiering, og varslede endringer i krav. Retningen konkretiseres i Økosystemforvalters veikart og gir leverandørene grunnlag for å investere i dokumentasjon, kvalitet og drift. Leverandørenes innspill går i hovedsak via økosystemforum, Økosystemforvalter og Innkjøper." }
+        forward: { x: 1428, y: 1040, anchor: "end", text: "↑ Langsiktig strategisk retning", detail: "en tydelig og langsiktig retning for hvordan markedet skal utvikles: mål, prioriterte segmenter, prinsipper for innkjøp og finansiering, og varslede endringer i krav. Retningen konkretiseres i Økosystemforvalters veikart og gir leverandørene grunnlag for å investere i dokumentasjon, kvalitet og drift. Leverandørenes innspill går i hovedsak via økosystemforum, Økosystemforvalter og Innkjøper." }
       },
       {
         from: "buyer", to: "vendor",
         points: [[600, 584], [920, 584]],
-        forward: { x: 760, y: 564, text: "→ Gir: kontrakt og betaling", detail: "etterspørsel, kontrakt, betaling og forutsigbare krav til pris, volum, drift, videreutvikling og avvikling. Kjøpet kan skje gjennom flere kanaler, som nasjonale lisenser, samordnede eller lokale anskaffelser, rammeavtaler med avrop og egenbetaling fra innbyggeren. Hvilke kanaler som skal brukes, er ikke avklart." },
-        reverse: { x: 760, y: 612, text: "← Gir: verktøy, drift og support", detail: "verktøy, drift, support og avtalte kvalitets- og bruksdata." }
+        forward: { x: 760, y: 564, text: "→ Kontrakt og betaling", detail: "etterspørsel, kontrakt, betaling og forutsigbare krav til pris, volum, drift, videreutvikling og avvikling. Kjøpet kan skje gjennom flere kanaler, som nasjonale lisenser, samordnede eller lokale anskaffelser, rammeavtaler med avrop og egenbetaling fra innbyggeren. Hvilke kanaler som skal brukes, er ikke avklart." },
+        reverse: { x: 760, y: 612, text: "← Verktøy, drift og support", detail: "verktøy, drift, support og avtalte kvalitets- og bruksdata." }
       },
       {
         from: "vendor", to: "quality",
         points: [[960, 628], [560, 860]],
-        forward: { x: 760, y: 722, text: "↙ Gir: dokumentasjon", detail: "dokumentasjon om effekt, pasientsikkerhet, personvern, informasjonssikkerhet og regulatorisk status, inkludert CE der det er relevant." },
-        reverse: { x: 760, y: 774, text: "↗ Gir: vurdering og kvalitetsmerke", detail: "begrunnet vurdering, kvalitetsmerke og krav til forbedring. Dette er ikke regulatorisk godkjenning." }
+        forward: { x: 700, y: 774, text: "↙ Dokumentasjon", detail: "dokumentasjon om effekt, pasientsikkerhet, personvern, informasjonssikkerhet og regulatorisk status, inkludert CE der det er relevant." },
+        reverse: { x: 820, y: 722, text: "↗ Vurdering og kvalitetsmerke", detail: "begrunnet vurdering, kvalitetsmerke og krav til forbedring. Dette er ikke regulatorisk godkjenning." }
       },
       {
         from: "outcomes", to: "quality",
         points: [[920, 904], [600, 904]],
-        forward: { x: 760, y: 884, text: "← Gir: kunnskap om effekt og risiko", detail: "aggregert kunnskap om effekt, pasientsikkerhet og risiko som grunnlag for å vurdere verktøy på nytt." }
+        forward: { x: 760, y: 884, text: "← Kunnskap om effekt og risiko", detail: "aggregert kunnskap om effekt, pasientsikkerhet og risiko som grunnlag for å vurdere verktøy på nytt." }
       },
       {
         from: "ecosystem", to: "quality",
         points: [[480, 1170], [480, 948]],
-        forward: { x: 480, y: 1040, text: "↑ Gir: kriterier og standarder", detail: "felles faglige rammer, standarder og kriterier for kvalitetsvurdering." },
-        reverse: { x: 480, y: 1072, text: "↓ Gir: behov og erfaringer", detail: "vurderingsbehov og erfaringer med hvordan kriteriene og rammeverket fungerer." }
+        forward: { x: 480, y: 1040, text: "↑ Kriterier og standarder", detail: "felles faglige rammer, standarder og kriterier for kvalitetsvurdering." },
+        reverse: { x: 480, y: 1072, text: "↓ Behov og erfaringer", detail: "vurderingsbehov og erfaringer med hvordan kriteriene og rammeverket fungerer." }
       },
       {
         from: "owner", to: "ecosystem",
         points: [[920, 1220], [600, 1220]],
-        forward: { x: 760, y: 1200, text: "← Gir: mandat, mål og midler", detail: "mandat, mål, prioriteringer og midler til samordnet utvikling og forvaltning av økosystemet." },
-        reverse: { x: 760, y: 1248, text: "→ Gir: status, risiko og effekt", detail: "status, risiko, kostnader og effektkunnskap til strategisk styring." }
+        forward: { x: 740, y: 1200, text: "← Mandat, mål og midler", detail: "mandat, mål, prioriteringer og midler til samordnet utvikling og forvaltning av økosystemet." },
+        reverse: { x: 780, y: 1248, text: "→ Status, risiko og effekt", detail: "status, risiko, kostnader og effektkunnskap til strategisk styring." }
       },
       {
         from: "owner", to: "buyer",
         points: [[1040, 1258], [1040, 1312], [280, 1312], [280, 584], [360, 584]],
-        forward: { x: 760, y: 1300, text: "← Gir: innkjøpsmidler og prioriteringer", detail: "finansiering og overordnede prioriteringer for anskaffelser." },
-        reverse: { x: 760, y: 1348, text: "→ Gir: kostnader og resultater", detail: "informasjon om kostnader, anskaffelser og resultater til strategisk styring." }
+        forward: { x: 760, y: 1300, text: "← Innkjøpsmidler og prioriteringer", detail: "finansiering og overordnede prioriteringer for anskaffelser." },
+        reverse: { x: 760, y: 1348, text: "→ Kostnader og resultater", detail: "informasjon om kostnader, anskaffelser og resultater til strategisk styring." }
       },
       {
         from: "outcomes", to: "ecosystem",
         points: [[960, 948], [560, 1170]],
-        forward: { x: 760, y: 1060, text: "↙ Gir: effekt- og risikokunnskap", detail: "aggregert kunnskap om effekt, sikkerhet og ressursbruk som grunnlag for forbedring av økosystemet." },
-        reverse: { x: 760, y: 1108, text: "↗ Gir: prioriteringer", detail: "prioriteringer og kunnskapsbehov for videre evaluering og forbedring." }
+        forward: { x: 740, y: 1108, text: "↙ Effekt- og risikokunnskap", detail: "aggregert kunnskap om effekt, sikkerhet og ressursbruk som grunnlag for forbedring av økosystemet." },
+        reverse: { x: 780, y: 1060, text: "↗ Prioriteringer", detail: "prioriteringer og kunnskapsbehov for videre evaluering og forbedring." }
       },
       {
         from: "outcomes", to: "owner",
         points: [[1040, 948], [1040, 1170]],
-        forward: { x: 1040, y: 1040, text: "↓ Gir: resultater og evaluering", detail: "evaluering og beslutningsgrunnlag om effekt, sikkerhet, kostnader og ressursbruk." },
-        reverse: { x: 1040, y: 1072, text: "↑ Gir: styringssignaler", detail: "styringssignaler og prioriteringer for videre evaluering og utvikling." }
+        forward: { x: 1040, y: 1072, text: "↓ Resultater og evaluering", detail: "evaluering og beslutningsgrunnlag om effekt, sikkerhet, kostnader og ressursbruk." },
+        reverse: { x: 1040, y: 1040, text: "↑ Styringssignaler", detail: "styringssignaler og prioriteringer for videre evaluering og utvikling." }
       }
     ];
 
