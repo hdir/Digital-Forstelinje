@@ -256,7 +256,7 @@
 <body>
   <header>
     <h1>Kjernemodell: roller og verdiutveksling</h1>
-    <p>Ti kjerneroller i et økosystem for digitale selvhjelps- og behandlingsverktøy. Pilspissen viser mottakeren. Toveis forbindelser har én tekst for hva hver rolle gir. Hold pekeren over en tekst for å lese bare den verdiutvekslingen, eller over pilen for å lese begge retninger. Forklaringene er også tilgjengelige med tastaturet.</p>
+    <p>Ti kjerneroller i et økosystem for digitale selvhjelps- og behandlingsverktøy. Aktørene under hver rolle er forslag, ikke avklarte ansvarsforhold. Pilspissen viser mottakeren. Toveis forbindelser har én tekst for hva hver rolle gir. Hold pekeren over en tekst for å lese bare den verdiutvekslingen, eller over pilen for å lese begge retninger. Forklaringene er også tilgjengelige med tastaturet.</p>
   </header>
 
   <main>
@@ -291,13 +291,13 @@
     const roles = [
       { id: "service", x: 140, y: 100, lines: ["Tjenesteyter"], actor: "Kommune, helseforetak, fastlege", description: "Integrerer verktøy i tjenesteforløp, legger til rette for forsvarlig bruk og sørger for oppfølging, internkontroll og ikke-digitale alternativer. Avklarer ansvar og ansvarsovergang." },
       { id: "clinician", x: 640, y: 100, lines: ["Behandler"], actor: "Helsepersonell", description: "Vurderer egnethet, anbefaler eller tildeler verktøy og følger opp. Planlegger mål, tiltak, verktøy og evaluering sammen med brukeren. I fase 1 ivaretar behandler også forløpsansvar når flere behandlere er involvert, og justerer behandlingen etter målte utfall." },
-      { id: "user", x: 1140, y: 100, lines: ["Bruker"], actor: "Innbygger, pasient, pårørende", description: "Medvirker i planleggingen, setter egne mål, bruker verktøy og kan registrere egenmålinger og erfaringer. Mottar forståelig støtte og informasjon om veien videre." },
+      { id: "user", x: 1140, y: 100, lines: ["Bruker"], actor: "Innbygger, pasient, pårørende", description: "Medvirker i planleggingen, setter egne mål, bruker verktøy og kan registrere egenmålinger og erfaringer. Mottar forståelig støtte og informasjon om veien videre. Kan også selv være innkjøper ved egenbetaling for verktøy som ikke er offentlig anskaffet." },
       { id: "platform", x: 140, y: 350, width: 1240, lines: ["Plattform og nasjonal inngang"], actor: "Norsk helsenett; innholdsansvar hos Helsedirektoratet", description: "Gir en nasjonal inngang og teknisk samhandling. Drifter felles tjenester, støtter integrasjon og leverandørtilknytning, og viser vurderte verktøy. Tilbyr en felles verktøyoversikt med visninger for bruker, behandler, tjenesteyter og innkjøper, med innhold fra Kvalitetsvurderer, Verktøyleverandør og Innkjøper. I figuren formidler plattformen utvekslinger mellom øvre og nedre lag. Dette innebærer ikke sentral lagring eller nye datarettigheter. Rollen avgjør ikke kliniske prioriteringer eller kvalitet." },
-      { id: "buyer", x: 360, y: 540, lines: ["Innkjøper"], actor: "Helsedirektoratet, Sykehusinnkjøp, kommuner", description: "Omsetter behov til anskaffelser og kontrakter med forutsigbare vilkår for pris, volum, drift, videreutvikling, kvalitetsdata og avvikling. Bruker verktøyoversikten til å se hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder." },
+      { id: "buyer", x: 360, y: 540, lines: ["Innkjøper"], actor: "Helsedirektoratet, kommuner, helseforetak, innbygger", actorLines: ["Helsedirektoratet, kommuner,", "helseforetak, innbygger"], description: "Omsetter behov til anskaffelser og kontrakter med forutsigbare vilkår for pris, volum, drift, videreutvikling, kvalitetsdata og avvikling. Bruker verktøyoversikten til å se hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder. Rollen kan fylles av flere aktører samtidig: Helsedirektoratet (nasjonale lisenser), kommuner, helseforetak (eventuelt via Sykehusinnkjøp) og innbyggeren selv ved egenbetaling. Hvem som kjøper og hvem som finansierer, kan være ulike aktører. Hovedlinjer per segment skal foreslås i det videre utredningsarbeidet." },
       { id: "vendor", x: 920, y: 540, lines: ["Verktøyleverandør"], actor: "Private, ideelle, akademiske og offentlige miljøer", description: "Utvikler, dokumenterer, sikrer, drifter og videreutvikler verktøy. Leverer dokumentasjon og utfallsdata i avtalte formater, og mottar betaling, markedsadgang, tydelige krav og en langsiktig strategisk retning." },
-      { id: "quality", x: 360, y: 860, lines: ["Kvalitetsvurderer"], actor: "Foreslått: Helsedirektoratet", description: "Vurderer verktøy mot åpne og risikoproporsjonale kriterier for effekt, pasientsikkerhet, personvern, informasjonssikkerhet, tilgjengelighet og interoperabilitet. Vurderer på nytt når utfallsdata foreligger. Dette er ikke regulatorisk godkjenning." },
+      { id: "quality", x: 360, y: 860, lines: ["Kvalitetsvurderer"], actor: "Helsedirektoratet", description: "Vurderer verktøy mot åpne og risikoproporsjonale kriterier for effekt, pasientsikkerhet, personvern, informasjonssikkerhet, tilgjengelighet og interoperabilitet. Vurderer på nytt når utfallsdata foreligger. Dette er ikke regulatorisk godkjenning." },
       { id: "outcomes", x: 920, y: 860, lines: ["Effekt- og", "forbedringsansvarlig"], actor: "Helsedirektoratet som eier; evaluering ved FHI/forskningsmiljø", description: "Måler bruk, effekt, sikkerhet og ressursbruk på tvers av pasienter, med avklart dataansvar og rettslig grunnlag. Fastsetter nullpunkt og gir kunnskapen tilbake til styring, innkjøp og kvalitetsvurdering." },
-      { id: "ecosystem", x: 360, y: 1170, lines: ["Økosystemforvalter"], actor: "Foreslått: Helsedirektoratet", description: "Samordner initiativer, forvalter faglige rammer, krav, standarder og råd, holder oversikt, forvalter et veikart for markedet og tydeliggjør grensen mellom økosystemets fellesfunksjoner og tjenestenes ansvar." },
+      { id: "ecosystem", x: 360, y: 1170, lines: ["Økosystemforvalter"], actor: "Helsedirektoratet", description: "Samordner initiativer, forvalter faglige rammer, krav, standarder og råd, holder oversikt, forvalter et veikart for markedet og tydeliggjør grensen mellom økosystemets fellesfunksjoner og tjenestenes ansvar." },
       { id: "owner", x: 920, y: 1170, lines: ["Strategisk eier"], actor: "Helse- og omsorgsdepartementet", description: "Setter mål og prioriteringer, avklarer ansvarsdeling og bevilger midler til innkjøp og evaluering. Gir forutsigbare oppdrag og en langsiktig strategisk retning for markedet, og bruker status, kostnader, risiko og effektkunnskap i styringen." }
     ];
 
@@ -363,7 +363,7 @@
       {
         from: "buyer", to: "vendor",
         points: [[600, 584], [920, 584]],
-        forward: { x: 760, y: 564, text: "→ Gir: kontrakt og betaling", detail: "etterspørsel, kontrakt, betaling og forutsigbare krav til pris, volum, drift, videreutvikling og avvikling." },
+        forward: { x: 760, y: 564, text: "→ Gir: kontrakt og betaling", detail: "etterspørsel, kontrakt, betaling og forutsigbare krav til pris, volum, drift, videreutvikling og avvikling. Kjøpet kan skje gjennom flere kanaler, som nasjonale lisenser, samordnede eller lokale anskaffelser, rammeavtaler med avrop og egenbetaling fra innbyggeren. Hvilke kanaler som skal brukes, er ikke avklart." },
         reverse: { x: 760, y: 612, text: "← Gir: verktøy, drift og support", detail: "verktøy, drift, support og avtalte kvalitets- og bruksdata." }
       },
       {
@@ -639,8 +639,19 @@
       const actor = document.createElementNS(svgNS, "text");
       actor.setAttribute("class", "actor-hint");
       actor.setAttribute("x", String(width / 2));
-      actor.setAttribute("y", "68");
-      actor.textContent = role.id !== "platform" && role.actor.length > 35 ? `${role.actor.slice(0, 32)}…` : role.actor;
+      if (role.actorLines) {
+        actor.setAttribute("y", "60");
+        role.actorLines.forEach((line, index) => {
+          const span = document.createElementNS(svgNS, "tspan");
+          span.setAttribute("x", String(width / 2));
+          if (index > 0) span.setAttribute("dy", "14");
+          span.textContent = line;
+          actor.appendChild(span);
+        });
+      } else {
+        actor.setAttribute("y", "68");
+        actor.textContent = role.id !== "platform" && role.actor.length > 35 ? `${role.actor.slice(0, 32)}…` : role.actor;
+      }
       group.appendChild(actor);
 
       roleLayer.appendChild(group);

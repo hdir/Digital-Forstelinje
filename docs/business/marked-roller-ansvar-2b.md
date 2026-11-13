@@ -8,6 +8,8 @@ Et levende marked krever mer enn at det offentlige kjøper apper. Leverandørene
 
 Et hensiktsmessig utgangspunkt er en **hybridmodell**: Staten kan ta ansvar for felles rammer, oversikt og nasjonal tilgjengeliggjøring, mens kommuner og helseforetak bidrar til å definere behov, velger hvordan verktøy inngår i tjenestene og følger opp bruken. Leverandører utvikler og drifter løsningene, innenfor tydelige krav og med forutsigbare avtaler. Finansieringen bør dekke hele livsløpet – ikke bare anskaffelsen.
 
+Hvem som skal kjøpe inn og hvem som skal finansiere ulike typer verktøy, er **ikke avklart**. Det er ikke tatt strategiske valg om at innkjøp skal samles hos én eller noen få aktører, og utfallsrommet er stort. Erfaringer fra Norge og andre land tyder på at mange aktører kan kjøpe inn verktøy, også innbyggeren selv og helseforetakene, og at ulike segmenter trolig trenger ulike modeller. Det videre utredningsarbeidet må derfor beskrive hvilken rolle de ulike aktørene kan ta, og foreslå hovedlinjer for hvem som kjøper inn og hvem som finansierer innkjøp og bruk (se avsnittet «Hvem kjøper inn og hvem finansierer» under modeller for innkjøp).
+
 Dette svarer på utfordringer beskrevet i underlaget: anskaffelser og ansvar er fragmentert, og verktøy kan mangle finansiering til forvaltning og videreutvikling når prosjektmidler tar slutt. Samtidig peker erfaringer fra helsenæringen på at offentlige anskaffelser kan skape vekst når krav og kommersielle vilkår er forutsigbare.
 
 ## Roller og aktører i økosystemet
@@ -29,7 +31,7 @@ Minimum for at økosystemet skal fungere, er at seks sløyfer er sluttet. Mangle
 | Behandling (pasientnivå) | Behandler ↔ Bruker, Verktøyleverandør → Behandler | Felles plan og mål, egenmålinger og utfallsdata, justering av behandling og verktøy |
 | Læring (systemnivå) | Bruker, Tjenesteyter og Verktøyleverandør → Effekt- og forbedringsansvarlig → Strategisk eier, Økosystemforvalter og Kvalitetsvurderer | Aggregerte utfallsdata, effekt, risiko og forbedringsbehov |
 
-Figuren [marked-roller-ansvar-2b-kjernemodell.drawio](marked-roller-ansvar-2b-kjernemodell.drawio) viser kjernerollene og de viktigste verdiutvekslingene som ArchiMate Business Roles med Flow- og Serving-relasjoner. Aktørforslagene vises som tooltip på hver rolle. Pilen fra Strategisk eier til Verktøyleverandør er enveis, fordi leverandørenes innspill til strategien går via økosystemforum, Økosystemforvalter og Innkjøper.
+Figuren [marked-roller-ansvar-2b-kjernemodell.drawio](marked-roller-ansvar-2b-kjernemodell.drawio) viser kjernerollene og de viktigste verdiutvekslingene som ArchiMate Business Roles med Flow- og Serving-relasjoner. Aktørforslagene vises under rollenavnet og i tooltip på hver rolle. Alle aktørene er forslag til videre utredning, ikke avklarte ansvarsforhold. Pilen fra Strategisk eier til Verktøyleverandør er enveis, fordi leverandørenes innspill til strategien går via økosystemforum, Økosystemforvalter og Innkjøper.
 
 ### Kjerneroller i fase 1
 
@@ -38,7 +40,7 @@ Figuren [marked-roller-ansvar-2b-kjernemodell.drawio](marked-roller-ansvar-2b-kj
 | 1 | **Strategisk eier** | Helse- og omsorgsdepartementet | Sette mål og prioriteringer, avklare ansvarsdeling og bevilge midler til innkjøp og evaluering. Gi forutsigbare oppdrag, slik at varig drift ikke avhenger av kortvarige prosjektmidler. Fastsette og kommunisere en langsiktig retning for markedet (mål, prioriterte segmenter, prinsipper for innkjøp og finansiering, og ansvarsdeling), og holde den stabil over tid med varslede endringer. | Gir mandat, mål og midler, og langsiktig strategisk retning til markedet. Mottar status, risiko, kostnader og effektkunnskap. |
 | 2 | **Økosystemforvalter** | Helsedirektoratet | Samordne initiativer, sette faglige krav, standarder og råd, holde felles oversikt og tydeliggjøre grensene mot tjenestenes ansvar. Forvalte et offentlig veikart som konkretiserer den strategiske retningen, med planlagte krav, standarder og tidslinjer (for eksempel ISO/TS 82304-2 og helsedataforordningen) og prinsipper for revisjon. | Gir faglige rammer, koordinering og veikart. Mottar behov, leveranser og kunnskap fra tjenester, leverandører og brukere. |
 | 3 | **Kvalitetsvurderer** | Helsedirektoratet (veilednings- og godkjenningsordningen). Modellvalget er åpent. | Vurdere verktøy mot åpne, risikoproporsjonale kriterier (effekt, pasientsikkerhet, personvern, informasjonssikkerhet, tilgjengelighet, interoperabilitet, evne til å måle og rapportere utfall) og avgjøre oppføring. Vurdere verktøyet på nytt ut fra utfallsdata. Må ikke forveksles med regulatorisk godkjenning. | Gir vurdering og kvalitetsmerke. Mottar dokumentasjon fra leverandør og utfallsdata fra Effekt- og forbedringsansvarlig. |
-| 4 | **Innkjøper** | Helsedirektoratet (nasjonale lisenser for selvhjelp), Sykehusinnkjøp og kommuner (behandlingsverktøy) | Omsette behov til konkurranse og kontrakt med forutsigbare vilkår for pris, volum, drift, videreutvikling og avvikling. Bruke oversikten til å se hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder. | Gir betaling og etterspørsel, og avtalestatus og vilkår til oversikten. Mottar verktøy, drift, support og avtalte kvalitets- og bruksdata, og oversikt over vurderte verktøy og eksisterende avtaler. |
+| 4 | **Innkjøper** | Helsedirektoratet (i dag nasjonale lisenser for selvhjelp), kommuner, helseforetak (eventuelt via Sykehusinnkjøp) og innbyggeren selv ved egenbetaling | Omsette behov til konkurranse og kontrakt med forutsigbare vilkår for pris, volum, drift, videreutvikling og avvikling. Rollen kan fylles av flere aktører samtidig, avhengig av segment og verktøytype. Når innbyggeren kjøper selv, gjelder ikke anskaffelsesregelverket, og kvalitetsinformasjonen i oversikten blir det viktigste vernet. Bruke oversikten til å se hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder. | Gir betaling og etterspørsel, og avtalestatus og vilkår til oversikten. Mottar verktøy, drift, support og avtalte kvalitets- og bruksdata, og oversikt over vurderte verktøy og eksisterende avtaler. |
 | 5 | **Verktøyleverandør** | Private, ideelle og akademiske aktører, og helsevirksomheter som utvikler egne verktøy | Utvikle, dokumentere, sikre, drifte og videreutvikle verktøy. Ta produsentansvar (CE) og rollen som databehandler der det er aktuelt. Levere utfallsdata i standard format og en visning for behandler. Beskrive verktøyet strukturert for oversikten. | Gir verktøy, drift, dokumentasjon og utfallsdata, og strukturerte produktopplysninger til oversikten (formål, målgruppe, funksjoner, integrasjon og hvilke utfall verktøyet måler). Mottar betaling, markedsadgang, tydelige krav og erfaringer, og en langsiktig strategisk retning som gir grunnlag for å investere. |
 | 6 | **Plattform og nasjonal inngang** | Norsk helsenett (Helsenorge, drift, sikkerhet, integrasjon). Innholdsansvar hos Helsedirektoratet. | Etablere, drifte og forvalte felles tjenester og innbyggerflater, støtte integrasjon og leverandørtilknytning, og vise bare vurderte verktøy uten eget skjønn over oppføring. Tilby en felles verktøyoversikt med visninger tilpasset bruker, behandler, tjenesteyter og innkjøper (se «Felles verktøyoversikt»). Leverandørrollen innebærer ikke ansvar for helsefaglige prioriteringer, klinisk oppfølging eller regulatorisk godkjenning. | Gir tilgang, verktøyoversikt og teknisk samhandling til innbyggere, helsepersonell, tjenester, innkjøpere og leverandører. Mottar mandat, finansiering, krav og innhold: vurdering fra Kvalitetsvurderer, produktopplysninger fra Verktøyleverandør og avtalestatus fra Innkjøper. |
 | 7 | **Tjenesteyter** | Kommuner, helseforetak og fastlegevirksomheter | Integrere verktøy i forløp, ta ansvar for forsvarlig bruk og internkontroll, og for behandlingsansvar når verktøyet inngår i helsehjelp. Sørge for ikke-digitale alternativer og for felles plan og formell ansvarsovergang mellom behandlere og nivåer. | Gir behov og praksiskunnskap. Mottar verktøy som kan bedre tilgang eller frigjøre kapasitet, og oversikt over hvilke verktøy og lavterskeltilbud som passer inn i forløpene. |
@@ -95,11 +97,11 @@ Samme utfallsdata brukes to ganger: til å justere den enkelte pasients behandli
 | Helse- og omsorgsdepartementet | Strategisk eier | Eier også finansiering i fase 1. |
 | Helsedirektoratet | Økosystemforvalter, Kvalitetsvurderer, Innkjøper (selvhjelp), Effekt- og forbedringsansvarlig, innholdsansvar for Plattform | Mange roller i én aktør krever vern mot skjevhet. Fra 2027 også Digital helsemyndighet (EHDS). Dataansvarlig for enkelte nasjonale tjenester. |
 | Norsk helsenett | Plattform og nasjonal inngang | Nasjonal tjenesteleverandør. Dataansvar og leverandørrolle holdes atskilt, slik som for MyHealth@EU, der Helsedirektoratet er dataansvarlig. Helse- og KommuneCERT er en del av rollen. |
-| Sykehusinnkjøp og kommuner | Innkjøper | For behandlingsverktøy. Ansvaret må avklares mot sørge-for-ansvaret. |
-| Kommuner, helseforetak og fastlegevirksomheter | Tjenesteyter (og Innkjøper, Verktøyleverandør som intern produsent) | Virksomhetens ansvar for forsvarlig bruk kan ikke delegeres til leverandør. |
+| Sykehusinnkjøp | Innkjøper (på vegne av helseforetakene) | Samordnet anskaffelse for spesialisthelsetjenesten, for eksempel etter beslutning i Nye metoder. Om digitale verktøy skal gå denne veien, er ikke avklart. |
+| Kommuner, helseforetak og fastlegevirksomheter | Tjenesteyter, Innkjøper (særlig verktøy som inngår i et behandlingsforløp), Verktøyleverandør (som intern produsent) | Virksomhetens ansvar for forsvarlig bruk kan ikke delegeres til leverandør. Innkjøp kan skje lokalt, i interkommunale samarbeid eller regionalt. |
 | Helsepersonell | Behandler | Navngitt ansvarlig behandler for planen i fase 1 (forløpsansvar). |
 | Private, ideelle og akademiske leverandører | Verktøyleverandør | |
-| Innbyggere | Bruker | |
+| Innbyggere | Bruker, Innkjøper (ved egenbetaling) | Kjøper i dag selv verktøy som ikke er offentlig anskaffet. Egenbetaling gir lav terskel, men risiko for ulik tilgang. |
 | FHI og forskningsmiljøer | Evaluering for Effekt- og forbedringsansvarlig | Uavhengig av innkjøper og eier. |
 
 ### Evnene rollene til sammen dekker
@@ -111,7 +113,7 @@ K = klinisk (pasientrettet), A = administrativ.
 | Styre og prioritere, og gi langsiktig strategisk retning for markedet | A | Strategisk eier, Økosystemforvalter (veikart) |
 | Avklare regelverk og juridisk ansvar | A | Økosystemforvalter. Tilsynet følger lovpålagt ordning utenfor kjernen. |
 | Normere og vurdere kvalitet (pasientsikkerhet, personvern, interoperabilitet) | K/A | Økosystemforvalter, Kvalitetsvurderer |
-| Kjøpe og finansiere | A | Strategisk eier, Innkjøper |
+| Kjøpe og finansiere | A | Strategisk eier, Innkjøper. Hvem som kjøper og hvem som finansierer, kan være ulike aktører og er ikke avklart. |
 | Tilby og forvalte verktøy | A | Verktøyleverandør, Innkjøper (livsløp i avtalen) |
 | Tilgjengeliggjøre | A | Plattform og nasjonal inngang |
 | Gi oversikt over verktøy og hva de kan bidra med | A | Plattform og nasjonal inngang (tilbyr), med innhold fra Kvalitetsvurderer, Verktøyleverandør og Innkjøper |
@@ -142,7 +144,7 @@ Disse rollene er ikke nødvendige for at økosystemet skal fungere i første fas
 |---|---|---|
 | **Tilsynsmyndighet** | Lovpålagt tilsyn utøves allerede uavhengig av økosystemet: Direktoratet for medisinske produkter (medisinsk utstyr), Datatilsynet (personvern) og Statens helsetilsyn og Statsforvalteren (bruk i tjenesten). Verktøyleverandør og Tjenesteyter følger regelverket selv. | Antall verktøy og leverandører vokser, eller hendelser krever samordnet oppfølging. Fra 26.03.2027 får DMP også markedstilsyn med selvhjelpsapplikasjoner (helsedataforordningen). |
 | **Forløpsansvarlig** | Behandler (navngitt ansvarlig behandler for behandlingsplanen) | Forløpet omfatter flere behandlere eller nivåer (kommune og spesialisthelsetjeneste), og ansvaret for felles plan, mål og utfall ikke lenger kan bæres av én behandler. Typiske tilfeller er individuell plan, flere samtidige verktøy og forløp på tvers av nivåer. Aktørene varierer per forløp: fastlege, ansvarlig behandler i Rask psykisk helsehjelp, DPS eller BUP, eller kommunal koordinator. |
-| **Finansieringsansvarlig** (insentiver, takst, refusjon) | Strategisk eier (bevilgning) og Innkjøper | Bruk skal bæres av ordinære ordninger i stedet for prosjektmidler. *Utredningen bør likevel starte tidlig.* Fagrådet peker på økonomi og insentiver som viktigste årsak til lav bruk. |
+| **Finansieringsansvarlig** (insentiver, takst, refusjon) | Strategisk eier (bevilgning), Innkjøper og, for verktøy utenfor offentlige avtaler, innbyggeren selv | Bruk skal bæres av ordinære ordninger i stedet for prosjektmidler, eller grensen mellom egenbetaling og offentlig finansiering skal avklares. *Utredningen bør likevel starte tidlig.* Fagrådet peker på økonomi og insentiver som viktigste årsak til lav bruk. |
 | **Innføringsstøtte** | Tjenesteyter, utprøvingen og eksisterende kompetansesentre | Skalering utover utprøvingen. HOD ønsker ikke et nytt kompetansesenter, så oppgaven bør legges til eksisterende sentre. |
 | **Næringsfremmer** | Innkjøper og økosystemforum (markedsdialog). Langsiktig strategisk retning for markedet er ikke en del av denne rollen; den ligger i kjernen fra fase 1 hos Strategisk eier og Økosystemforvalter. Bare aktiv næringsfremming, som vekst-, skalerings- og eksportstøtte, kan vente. | Leverandørmarkedet vokser, eller overgangen fra utvikling til drift blir en flaskehals |
 | **Kurator** | Kvalitetsvurderer (oppføring følger vurderingen). Selve verktøyoversikten finnes fra fase 1; det er bare redaksjonell kuratering som kan skilles ut senere. | Katalogen vokser, får flere kilder eller skal omfatte kommunale lavterskeltilbud |
@@ -227,11 +229,51 @@ Aktuelle finansieringsformer bør vurderes opp mot tjenestene som skal bruke ver
 
 En enkelt refusjonsordning for alle verktøy er neppe riktig startpunkt. Selv internasjonale ordninger med offentlig finansiering stiller betydelige krav til leverandørene, og kvalifisering gir ikke i seg selv bærekraftig bruk eller lønnsomhet.
 
+### Hvem kjøper inn og hvem finansierer
+
+Det er ikke besluttet hvem som skal kjøpe inn og hvem som skal finansiere ulike typer verktøy. Rollefordelingen mellom stat, kommuner, helseforetak og marked er uttrykkelig holdt åpen og skal behandles i egen sak. Underlaget viser at flere aktører allerede kjøper inn verktøy: «I dag anskaffer både innbyggere, helseforetak, kommuner og Helsedirektoratet digitale verktøy.» Fordelingen er preget av tilfeldigheter, og noen gode verktøy er bare tilgjengelige mot egenbetaling. Erfaringer fra andre land peker i samme retning:
+
+- I Sverige gir mange innkjøpere (21 regioner), innbyggernes frie valg og refusjonsordninger større etterspørsel enn i Norge. Samtidig utvikler de største aktørene i stor grad egen teknologi i stedet for å kjøpe i markedet.
+- I Tyskland (DiGA) finansieres godkjente verktøy gjennom refusjon, mens pasienten og behandler velger verktøy.
+- I Belgia får sykehuset en samlet betaling for forløpet og velger og forhandler med leverandør selv.
+
+Det taler for at **Innkjøper er én rolle som kan fylles av mange aktører**, og at det viktigste er å skille mellom tre spørsmål som ofte blandes sammen:
+
+1. **Hvem kjøper inn** (velger verktøy og inngår avtale)?
+2. **Hvem finansierer** innkjøpet og bruken, inkludert helsepersonellets tid?
+3. **Hvem har ansvaret** for bruken i tjenesten?
+
+Det mulige utfallsrommet er stort:
+
+| Innkjøpskanal | Hvem kjøper | Hvem finansierer | Styrker | Utfordringer |
+|---|---|---|---|---|
+| **Egenbetaling** | Innbyggeren | Innbyggeren | Lav terskel, markedet avgjør, ingen offentlig anskaffelse | Lav betalingsvilje, ulik tilgang, risiko for forretningsmodeller basert på salg av data |
+| **Innkjøp i tjenesten** | Kommune, helseforetak eller fastlegevirksomhet | Tjenestens budsjett, eventuelt med tilskudd | Nær behovet og knyttet til forløpet | Mange små anskaffelser, ujevnt tilbud, høye transaksjonskostnader for leverandørene |
+| **Samordnet innkjøp** | Sykehusinnkjøp, regionale helseforetak eller interkommunale samarbeid | Virksomhetene som avroper | Samler etterspørsel og kompetanse, mer lik tilgang | Lengre beslutningsløp, må avklares mot sørge-for-ansvaret |
+| **Nasjonalt innkjøp** | Helsedirektoratet eller annen statlig aktør | Statsbudsjettet | Lik tilgang og rask innføring for selvhjelp | Avhengig av årlige bevilgninger, staten velger «vinnere» |
+| **Nasjonal rammeavtale med lokal avrop** | Staten inngår avtalen, tjenestene avroper | Tjenestene eller staten | Kombinerer felles vilkår med lokale valg | Krever tydelig ansvarsdeling for valg, oppfølging og betaling |
+| **Refusjon eller takst** | Behandler eller innbygger velger verktøy | Folketrygden eller tilsvarende | Forutsigbart, betaling kan knyttes til helsenytte | Krever beslutningsregime, dokumentasjon og kostnadskontroll |
+| **Delt finansiering** | Varierer | Flere parter, for eksempel med egenandel | Fordeler kostnad og ansvar | Administrativt komplekst, spørsmål om likeverd |
+
+Kanalene utelukker ikke hverandre. Trolig vil flere eksistere side om side. For næringslivet betyr flere kanaler flere mulige kunder og forretningsmodeller, og mindre avhengighet av at én innkjøper velger «vinnere». For innbyggere og tjenester kan for mange kanaler gi uoversiktlig og ulik tilgang. Felles kvalitetsvurdering og felles verktøyoversikt bør derfor gjelde uansett hvem som kjøper og betaler.
+
+**Utgangspunkt for hovedlinjer i det videre arbeidet.** Dette er hypoteser som skal utredes, ikke anbefalinger:
+
+| Segment | Mulig hovedinnkjøper | Mulig hovedfinansiering | Åpne spørsmål |
+|---|---|---|---|
+| Selvhjelp og læringsressurser uten oppfølging | Staten (nasjonale lisenser) der det gir likere tilgang. Ellers innbyggeren selv. | Statsbudsjett eller egenbetaling | Hvilke behov skal være offentlig finansiert, og hvor går grensen mot egenbetaling? |
+| Egenmestring med oppfølging ved behov | Tjenesteyter eller nasjonal rammeavtale med lokal avrop | Tjenestens budsjett, eventuelt med statlig tilskudd i en overgang | Hvem velger verktøy, og hvem betaler når bruken går på tvers av nivåer? |
+| Kartlegging og behandling som inngår i helsehjelp | Virksomheten med sørge-for-ansvaret: kommune, eller helseforetak eventuelt via Sykehusinnkjøp | Ordinære tjenestebudsjetter, takster eller forløpsfinansiering, eventuelt refusjon på sikt | Skal digitale behandlingsverktøy gjennom Nye metoder? Hvordan finansieres helsepersonellets tid? |
+
+Utredningen bør beskrive hvilken rolle hver aktør kan ta i hvert segment, hvordan kanalene skal virke sammen, og hvilke konsekvenser valgene får for tilgang, likeverd, kostnader og leverandørmarkedet. Valgene bør inngå i markedsstrategien og veikartet (tiltak 7).
+
+Kilder: notat om Helsedirektoratets rolle i å anskaffe, forvalte og tilgjengeliggjøre selvhjelpsverktøy, DF L2 og utredning om nasjonalt rammeverk for kvalitetsvurdering (interne arbeidsdokumenter, publiseres senere), og [samarbeid med næringslivet (2021)](https://github.com/hdir/Digital-Forstelinje/blob/main/background/annet/markdown/2021-Samarbeid%20med%20næringslivet%20på%20e-helseområdet.md).
+
 ## Første anbefalte tiltak
 
 1. **Etabler en trinnvis, risikoproporsjonal kvalitetsvurdering.** Ha åpne kriterier for dokumentasjon, pasientsikkerhet, personvern, sikkerhet, tilgjengelighet, brukervennlighet, interoperabilitet og drift. Kravene bør øke med verktøyets risiko og behandlingsrolle. Skill tydelig mellom kvalitetsvurdering, regulatorisk status, anbefaling og offentlig finansiering.
 
-2. **Avklar nasjonal funksjon og ansvar.** Utred om Helsedirektoratet bør forvalte en felles oversikt og gjennomføre utvalgte nasjonale anskaffelser, og hvilke oppgaver som fortsatt bør ligge hos kommuner og helseforetak. Avklar samtidig ansvar for valg, tildeling, oppfølging, hendelser og finansiering, samt dataansvar per verktøytype. Sørg for at kvalitetsvurdering, innkjøp, oppføring og evaluering holdes atskilt, også om samme aktør fyller flere roller i fase 1 (se «Vern mot skjevhet»).
+2. **Avklar nasjonal funksjon og ansvar.** Utred om Helsedirektoratet bør forvalte en felles oversikt og gjennomføre utvalgte nasjonale anskaffelser, og hvilke oppgaver som fortsatt bør ligge hos kommuner og helseforetak. Foreslå hovedlinjer per segment for hvem som kjøper inn og hvem som finansierer innkjøp og bruk, inkludert grensen mellom egenbetaling og offentlig finansiering og rollen til helseforetak, kommuner, staten og innbyggeren (se «Hvem kjøper inn og hvem finansierer»). Avklar samtidig ansvar for valg, tildeling, oppfølging, hendelser og finansiering, samt dataansvar per verktøytype. Sørg for at kvalitetsvurdering, innkjøp, oppføring og evaluering holdes atskilt, også om samme aktør fyller flere roller i fase 1 (se «Vern mot skjevhet»).
 
 3. **Gjør markedstilgangen forutsigbar.** Publiser en forståelig inngang for leverandører med kriterier, vurderingsløp, forventet tidsbruk og kontaktpunkt. Sørg for at oversikten også kan romme relevante verktøy som ikke er nasjonalt kjøpt, og at den viser hva verktøyene kan bidra med for bruker, behandler, tjenesteyter og innkjøper. Vurder hvordan innbyggere og helsepersonell får tilgang gjennom etablerte kanaler.
 

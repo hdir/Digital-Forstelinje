@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="kjernemodell" name="kjernemodell">
-        <mxGraphModel dx="1759" dy="1147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1520" pageHeight="1540" math="0" shadow="0">
+        <mxGraphModel dx="803" dy="48" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1520" pageHeight="1540" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=24;fontStyle=1;spacing=0;" value="Kjernemodell: roller og verdiutveksling (fase 1)" vertex="1">
                     <mxGeometry height="32" width="1456" x="32" y="12" as="geometry"/>
                 </mxCell>
-                <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=13;fontStyle=0;spacing=0;" value="Ti kjerneroller. Pilspissen viser mottakeren. Toveispiler sammenfatter to retningsbestemte verdiutvekslinger, med én tekst for hva hver rolle gir." vertex="1">
+                <mxCell id="subtitle" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=13;fontStyle=0;spacing=0;" value="Ti kjerneroller. Aktørene under hver rolle er forslag, ikke avklarte ansvarsforhold. Pilspissen viser mottakeren. Toveispiler sammenfatter to retningsbestemte verdiutvekslinger, med én tekst for hva hver rolle gir." vertex="1">
                     <mxGeometry height="30" width="1456" x="32" y="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="tier_0" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontColor=#333333;fontFamily=Arial;fontSize=12;fontStyle=1;spacing=0;" value="TJENESTE OG BRUK" vertex="1">
@@ -378,7 +378,7 @@
                         <mxGeometry height="88" width="240" x="640" y="170" as="geometry"/>
                     </mxCell>
                 </object>
-                <object label="Bruker&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Innbygger, pasient, pårørende&lt;/span&gt;" tooltip="Medvirker i planleggingen, setter egne mål, bruker verktøy og kan registrere egenmålinger og erfaringer. Mottar forståelig støtte og informasjon om veien videre.&#xa;&#xa;Aktørforslag: Innbygger, pasient, pårørende." roleId="user" roleName="Bruker" id="r_br">
+                <object label="Bruker&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Innbygger, pasient, pårørende&lt;/span&gt;" tooltip="Medvirker i planleggingen, setter egne mål, bruker verktøy og kan registrere egenmålinger og erfaringer. Mottar forståelig støtte og informasjon om veien videre. Kan også selv være innkjøper ved egenbetaling for verktøy som ikke er offentlig anskaffet.&#xa;&#xa;Aktørforslag: Innbygger, pasient, pårørende." roleId="user" roleName="Bruker" id="r_br">
                     <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
                         <mxGeometry height="88" width="240" x="1140" y="170" as="geometry"/>
                     </mxCell>
@@ -388,7 +388,7 @@
                         <mxGeometry height="88" width="1240" x="140" y="420" as="geometry"/>
                     </mxCell>
                 </object>
-                <object label="Innkjøper&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Helsedirektoratet, Sykehusinnkjø…&lt;/span&gt;" tooltip="Omsetter behov til anskaffelser og kontrakter med forutsigbare vilkår for pris, volum, drift, videreutvikling, kvalitetsdata og avvikling. Bruker verktøyoversikten til å se hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder.&#xa;&#xa;Aktørforslag: Helsedirektoratet, Sykehusinnkjøp, kommuner." roleId="buyer" roleName="Innkjøper" id="r_ik">
+                <object label="Innkjøper&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Helsedirektoratet, kommuner,&lt;br&gt;helseforetak, innbygger&lt;/span&gt;" tooltip="Omsetter behov til anskaffelser og kontrakter med forutsigbare vilkår for pris, volum, drift, videreutvikling, kvalitetsdata og avvikling. Bruker verktøyoversikten til å se hva som finnes, hva som er vurdert og hva som allerede er anskaffet andre steder.&#xa;&#xa;Rollen kan fylles av flere aktører samtidig. Hvem som kjøper og hvem som finansierer, kan være ulike aktører. Hovedlinjer per segment skal foreslås i det videre utredningsarbeidet.&#xa;&#xa;Aktørforslag: Helsedirektoratet (nasjonale lisenser), kommuner, helseforetak (eventuelt via Sykehusinnkjøp) og innbyggeren selv ved egenbetaling." roleId="buyer" roleName="Innkjøper" id="r_ik">
                     <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
                         <mxGeometry height="88" width="240" x="360" y="610" as="geometry"/>
                     </mxCell>
@@ -398,7 +398,7 @@
                         <mxGeometry height="88" width="240" x="950" y="610" as="geometry"/>
                     </mxCell>
                 </object>
-                <object label="Kvalitetsvurderer&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Foreslått: Helsedirektoratet&lt;/span&gt;" tooltip="Vurderer verktøy mot åpne og risikoproporsjonale kriterier for effekt, pasientsikkerhet, personvern, informasjonssikkerhet, tilgjengelighet og interoperabilitet. Vurderer på nytt når utfallsdata foreligger. Dette er ikke regulatorisk godkjenning.&#xa;&#xa;Aktørforslag: Foreslått: Helsedirektoratet." roleId="quality" roleName="Kvalitetsvurderer" id="r_kv">
+                <object label="Kvalitetsvurderer&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Helsedirektoratet&lt;/span&gt;" tooltip="Vurderer verktøy mot åpne og risikoproporsjonale kriterier for effekt, pasientsikkerhet, personvern, informasjonssikkerhet, tilgjengelighet og interoperabilitet. Vurderer på nytt når utfallsdata foreligger. Dette er ikke regulatorisk godkjenning.&#xa;&#xa;Aktørforslag: Helsedirektoratet." roleId="quality" roleName="Kvalitetsvurderer" id="r_kv">
                     <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
                         <mxGeometry height="88" width="240" x="360" y="930" as="geometry"/>
                     </mxCell>
@@ -408,7 +408,7 @@
                         <mxGeometry height="88" width="240" x="920" y="930" as="geometry"/>
                     </mxCell>
                 </object>
-                <object label="Økosystemforvalter&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Foreslått: Helsedirektoratet&lt;/span&gt;" tooltip="Samordner initiativer, forvalter faglige rammer, krav, standarder og råd, holder oversikt, forvalter et veikart for markedet og tydeliggjør grensen mellom økosystemets fellesfunksjoner og tjenestenes ansvar.&#xa;&#xa;Aktørforslag: Foreslått: Helsedirektoratet." roleId="ecosystem" roleName="Økosystemforvalter" id="r_of">
+                <object label="Økosystemforvalter&lt;br&gt;&lt;span style=&quot;font-size:11px;font-weight:normal&quot;&gt;Helsedirektoratet&lt;/span&gt;" tooltip="Samordner initiativer, forvalter faglige rammer, krav, standarder og råd, holder oversikt, forvalter et veikart for markedet og tydeliggjør grensen mellom økosystemets fellesfunksjoner og tjenestenes ansvar.&#xa;&#xa;Aktørforslag: Helsedirektoratet." roleId="ecosystem" roleName="Økosystemforvalter" id="r_of">
                     <mxCell parent="1" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;fontColor=#333333;fontFamily=Arial;fontSize=14;fontStyle=1;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=20;shape=mxgraph.archimate3.application;appType=role;archiType=rounded;" vertex="1">
                         <mxGeometry height="88" width="240" x="360" y="1240" as="geometry"/>
                     </mxCell>
