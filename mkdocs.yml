@@ -5,11 +5,11 @@ site_author: Helsedirektoratet
 nav:
     - Arkitekturskisser: 
       - index.md
-    - Interessentanalyser:
+    - Målbilde og interessentanalyser:
       - interessent/index.md
+      - Målbilde: interessent/goals.md
       - Verdiforslag: interessent/verdi.md
       - Interesser: interessent/concern.md
-      - Målbilde: interessent/goals.md
       - Innspill helsereformutvalget: interessent/helsereform.md
     - Verdikjede og strategi:
       - strategi/index.md
