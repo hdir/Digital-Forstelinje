@@ -4,9 +4,9 @@ title: Forretningsarkitektur
 
 ### Roller i et levende marked
 
-Beskrivelse av de viktigste rollene for et levende marked for digitale selvhjelps og behandlingsverktøy beskrives i [roller og ansvar](marked-roller-ansvar-2b.md). En interaktiv modell:
+Beskrivelse av de viktigste rollene for et levende marked for digitale selvhjelps og behandlingsverktøy beskrives i [roller og ansvar](marked-roller-ansvar-2b.md).  
 
-[Marked interaktiv](marked-roller-ansvar-2b-kjernemodell.html)
+En interaktiv modell: [Marked interaktiv](marked-roller-ansvar-2b-kjernemodell.html)  
 
 ![Marked](marked-roller-ansvar-2b-kjernemodell.drawio)  
 
