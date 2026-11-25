@@ -61,6 +61,23 @@ Kilder for sammenligningen:
 * `private/markdown/TB2025-18-Økt bruk av kvalitetssikrede digitale løsninger innen psykisk helse og rus og avhengighet_.md`, målhierarkiet linje 408–427 og oppsummeringen linje 884–893.
 * `private/markdown/Leveranse 2a ny versjon 08.md`, kapittel 5, linje 709–751.
 
+## Samfunns- og effektmål for offentlig KI-tjeneste for målrettede helseråd
+
+Styringsdokumentet for prosjektet beskriver følgende mål for satsingen:
+
+### Samfunnsmål
+
+* Innbyggerne i Norge har lik tilgang på trygge, målrettede helseråd som øker helsekompetansen og gjør innbyggerne bedre i stand til å forebygge og ta vare på egen og andres helse.
+
+### Effektmål
+
+* Innbyggere får trygge helseråd basert på evidensbasert kunnskap.
+* Mer effektiv ressursbruk i helse- og omsorgstjenestene gjennom å redusere eller utsette behovet for helsetjenester og mer rettidig bruk av helsetjenesten.
+
+Styringsdokumentet skiller målene for satsingen fra resultatmålene for prosjektet i 2026: å tydeliggjøre hva målrettede helseråd er, og å beskrive rammer og forutsetninger for satsingen.
+
+Kilde: `private/markdown/Styringsdokument prosjekt offentlig KI-tjeneste målrettede helseråd  v 1.1.md`, kapittel 2.1, linje 170–181, og kapittel 2.2, linje 245–250.
+
 ## Kilde
 
 Helse- og omsorgsdepartementets tildelingsbrev til Helsedirektoratet for 2026, oppdrag **TB2026-17 – Digital førstelinje**, i `background/annet/markdown/2026-Helsedirektoratet-tildelingsbrev.pdf.md`, linje 496–501.
