@@ -1,0 +1,477 @@
+<mxfile host="65bd71144e">
+    <diagram id="df-samlet" name="DF-samlet-oversikt">
+        <mxGraphModel dx="1942" dy="1542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1560" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;align=left;fontSize=24;fontStyle=1;fontColor=#333333;" value="Digital førstelinje – samlet oversikt over mål og deloppdragenes bidrag" vertex="1">
+                    <mxGeometry height="40" width="1800" x="40" y="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontColor=#333333;" value="Goal = samfunnsmål. Outcome = forventet virkning. Stiplede piler oppover = positiv Influence (+), ikke dokumentert effekt eller direkte realisering. Kolonnene følger hovedoppdragets effektmål; radene følger deloppdragene." vertex="1">
+                    <mxGeometry height="60" width="1800" x="40" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="goals-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Samfunnsmål&lt;br&gt;TB2026-17&lt;br&gt;(tolkning)" vertex="1">
+                    <mxGeometry height="90" width="160" x="40" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="g1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" value="G1 · Goal&lt;br&gt;Aktiv rolle i egen&lt;br&gt;og næres helse" vertex="1">
+                    <mxGeometry height="100" width="270" x="220" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="g2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" value="G2 · Goal&lt;br&gt;Hjelpe flere med&lt;br&gt;god kvalitet" vertex="1">
+                    <mxGeometry height="100" width="270" x="650" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" value="G3 · Goal&lt;br&gt;Sammenhengende, tilgjengelige og bærekraftige digitale løsninger&lt;br&gt;som støtter innbyggere og helsepersonell" vertex="1">
+                    <mxGeometry height="100" width="700" x="1080" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="effects-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Effektmål&lt;br&gt;Hovedoppdrag&lt;br&gt;(tolkning)" vertex="1">
+                    <mxGeometry height="100" width="160" x="40" y="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E1 · Outcome&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" vertex="1">
+                    <mxGeometry height="110" width="270" x="220" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E3 · Outcome&lt;br&gt;Styrket evne til å gi helsehjelp&lt;br&gt;til flere med god kvalitet" vertex="1">
+                    <mxGeometry height="110" width="270" x="650" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E4 · Outcome&lt;br&gt;Støtte til personellets arbeid&lt;br&gt;og sammenhengende tjenester" vertex="1">
+                    <mxGeometry height="110" width="270" x="1080" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E2 · Outcome&lt;br&gt;Enklere å finne riktig&lt;br&gt;helsetjeneste for behovet" vertex="1">
+                    <mxGeometry height="110" width="270" x="1510" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="p-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Deloppdrag 3&lt;br&gt;Psykisk helse&lt;br&gt;og rus&lt;br&gt;TB2025-18" vertex="1">
+                    <mxGeometry height="110" width="160" x="40" y="570" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="P1 · Outcome (EM1)&lt;br&gt;Mer tilgjengelige tjenester&lt;br&gt;for psykiske helseplager" vertex="1">
+                    <mxGeometry height="80" width="270" x="650" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="P2 · Outcome (EM2)&lt;br&gt;Mer effektiv ressursutnyttelse&lt;br&gt;ved bruk av digitale verktøy" vertex="1">
+                    <mxGeometry height="80" width="270" x="650" y="650" as="geometry"/>
+                </mxCell>
+                <mxCell id="p-note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Tidligere hjelp og fleksible forløp&lt;br&gt;er delmål som også kan støtte E1/E4.&lt;br&gt;De er ikke egne EM1/EM2." vertex="1">
+                    <mxGeometry height="100" width="270" x="220" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="p-goal" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Kildens Goal:&lt;br&gt;God psykisk helse og livskvalitet;&lt;br&gt;god, lett tilgjengelig hjelp.&lt;br&gt;Beholdes som eget mål på detaljsiden." vertex="1">
+                    <mxGeometry height="140" width="270" x="1080" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="d5" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=course;archiType=rounded;fillColor=#F5DEAA;fontColor=#333333;fontSize=16;" value="Course of Action · Deloppdrag 5&lt;br&gt;Etablere første trinn&lt;br&gt;av en digital veiviser" vertex="1">
+                    <mxGeometry height="100" width="270" x="1510" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2-note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Tilgang til verktøy og rettidig bruk&lt;br&gt;er ikke det samme som veivisning.&lt;br&gt;E2 ivaretas særlig av deloppdrag 5." vertex="1">
+                    <mxGeometry height="100" width="270" x="1510" y="690" as="geometry"/>
+                </mxCell>
+                <mxCell id="v-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Deloppdrag 2&lt;br&gt;Selvhjelps- og&lt;br&gt;behandlingsverktøy&lt;br&gt;Leveranse 2a&lt;br&gt;(foreløpige mål)" vertex="1">
+                    <mxGeometry height="150" width="160" x="40" y="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="v1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V1 · Outcome&lt;br&gt;Økt egenmestring&lt;br&gt;og bedre helse" vertex="1">
+                    <mxGeometry height="80" width="270" x="220" y="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="v2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V2 · Outcome&lt;br&gt;Tidlig og tilpasset støtte&lt;br&gt;til forebygging" vertex="1">
+                    <mxGeometry height="80" width="270" x="220" y="950" as="geometry"/>
+                </mxCell>
+                <mxCell id="v3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V3 · Outcome&lt;br&gt;Bedre tilgang til virksomme&lt;br&gt;digitale behandlingsverktøy" vertex="1">
+                    <mxGeometry height="80" width="270" x="650" y="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="v4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V4 · Outcome&lt;br&gt;Mindre geografiske og organisatoriske&lt;br&gt;forskjeller i tilgang" vertex="1">
+                    <mxGeometry height="80" width="270" x="650" y="950" as="geometry"/>
+                </mxCell>
+                <mxCell id="v5" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V5 · Outcome&lt;br&gt;Bedre ressursutnyttelse&lt;br&gt;og økt kapasitet" vertex="1">
+                    <mxGeometry height="80" width="270" x="650" y="1050" as="geometry"/>
+                </mxCell>
+                <mxCell id="v6" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V6 · Outcome&lt;br&gt;Personelltid og kompetanse&lt;br&gt;til de største behovene" vertex="1">
+                    <mxGeometry height="80" width="270" x="650" y="1150" as="geometry"/>
+                </mxCell>
+                <mxCell id="v7" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V7 · Outcome&lt;br&gt;Fleksibel og individuelt&lt;br&gt;tilpasset behandling og oppfølging" vertex="1">
+                    <mxGeometry height="80" width="270" x="1080" y="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="v8" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V8 · Outcome&lt;br&gt;Innovativ tjeneste i samarbeid&lt;br&gt;med forskning og næringsliv" vertex="1">
+                    <mxGeometry height="80" width="270" x="1080" y="950" as="geometry"/>
+                </mxCell>
+                <mxCell id="v-note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="V8 → E4 er indirekte.&lt;br&gt;Økt bruk (R1) er et mellomliggende&lt;br&gt;resultat, ikke bevis for helsegevinst.&lt;br&gt;R1 og forutsetningene er vist&lt;br&gt;på detaljsidene og forklart i teksten." vertex="1">
+                    <mxGeometry height="160" width="270" x="1510" y="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="k-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Deloppdrag 1&lt;br&gt;Målrettede&lt;br&gt;helseråd&lt;br&gt;Styringsdokument&lt;br&gt;v1.1" vertex="1">
+                    <mxGeometry height="130" width="160" x="40" y="1310" as="geometry"/>
+                </mxCell>
+                <mxCell id="k1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="K1 · Outcome&lt;br&gt;Trygge, evidensbaserte&lt;br&gt;helseråd" vertex="1">
+                    <mxGeometry height="90" width="270" x="220" y="1320" as="geometry"/>
+                </mxCell>
+                <mxCell id="k2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="K2 · Outcome&lt;br&gt;Effektiv ressursbruk: redusert/utsatt&lt;br&gt;behov og mer rettidig tjenestebruk" vertex="1">
+                    <mxGeometry height="90" width="270" x="650" y="1320" as="geometry"/>
+                </mxCell>
+                <mxCell id="k-goal" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Kildens Goal:&lt;br&gt;Lik tilgang til trygge helseråd,&lt;br&gt;økt helsekompetanse og evne&lt;br&gt;til å ivareta egen og andres helse." vertex="1">
+                    <mxGeometry height="120" width="270" x="1080" y="1320" as="geometry"/>
+                </mxCell>
+                <mxCell id="k-note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="K1 bidrar via forståelse og anvendelse.&lt;br&gt;K2 forutsetter at nødvendig hjelp&lt;br&gt;ikke forsinkes. Effektene er forventede,&lt;br&gt;ikke dokumentert oppnådd." vertex="1">
+                    <mxGeometry height="120" width="270" x="1510" y="1320" as="geometry"/>
+                </mxCell>
+                <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Kilder: TB2026-17 (497–501); TB2025-18 (408–427); Leveranse 2a (709–736); styringsdokument målrettede helseråd v1.1 (170–181). Måltekster er forkortet; pilene er analytiske bidrag. Deloppdrag 4 om forebygging/helsekompetanse er et tverrgående hensyn til E1." vertex="1">
+                    <mxGeometry height="60" width="1800" x="40" y="1480" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1-g1" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g1" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3-g2" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g2" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4-g3" edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.193;entryY=1;" target="g3" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2-g3" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.807;entryY=1;" target="g3" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-e3" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.85;" target="e3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="940" y="590"/>
+                            <mxPoint x="940" y="413.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="p2-e3" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.75;" target="e3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="955" y="690"/>
+                            <mxPoint x="955" y="402.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v1-e1" edge="1" parent="1" source="v1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.7;" target="e1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="510" y="890"/>
+                            <mxPoint x="510" y="397"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v2-e1" edge="1" parent="1" source="v2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="e1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="535" y="990"/>
+                            <mxPoint x="535" y="375"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v3-e3" edge="1" parent="1" source="v3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.65;" target="e3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="970" y="890"/>
+                            <mxPoint x="970" y="391.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v4-e3" edge="1" parent="1" source="v4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.55;" target="e3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="985" y="990"/>
+                            <mxPoint x="985" y="380.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v5-e3" edge="1" parent="1" source="v5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.45;" target="e3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1000" y="1090"/>
+                            <mxPoint x="1000" y="369.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v6-e3" edge="1" parent="1" source="v6" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.35;" target="e3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1015" y="1190"/>
+                            <mxPoint x="1015" y="358.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v7-e4" edge="1" parent="1" source="v7" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.6;" target="e4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1370" y="890"/>
+                            <mxPoint x="1370" y="386"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v8-e4" edge="1" parent="1" source="v8" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;" target="e4">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1395" y="990"/>
+                            <mxPoint x="1395" y="353"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="k1-e1" edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;" target="e1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="1365"/>
+                            <mxPoint x="560" y="353"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="k2-e3" edge="1" parent="1" source="k2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.25;" target="e3">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1030" y="1365"/>
+                            <mxPoint x="1030" y="347.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="d5-e2" edge="1" parent="1" source="d5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="e2" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="df-overordnet" name="DF-overordnet">
+        <mxGraphModel dx="1412" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;align=left;fontSize=22;fontStyle=1;fontColor=#333333;" value="Digital førstelinje – overordnede mål (tolkning av TB2026-17)" vertex="1">
+                    <mxGeometry height="40" width="1320" x="40" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Goal = overordnet ønsket sluttilstand. Outcome = forventet virkning. Stiplet pil med + = positiv Influence fra bidrag til mål, ikke dokumentert årsakssammenheng." vertex="1">
+                    <mxGeometry height="50" width="1320" x="40" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="g1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="G1 · Goal&lt;br&gt;Innbyggerne kan ta en aktiv rolle&lt;br&gt;i egen og næres helse" vertex="1">
+                    <mxGeometry height="100" width="380" x="60" y="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="g2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="G2 · Goal&lt;br&gt;Helse- og omsorgstjenesten kan hjelpe&lt;br&gt;flere med god kvalitet" vertex="1">
+                    <mxGeometry height="100" width="380" x="500" y="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="g3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="G3 · Goal&lt;br&gt;Sammenhengende, tilgjengelige og bærekraftige&lt;br&gt;digitale løsninger for innbyggere og personell" vertex="1">
+                    <mxGeometry height="100" width="380" x="940" y="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="E1 · Outcome&lt;br&gt;Bedre mulighet for aktiv helserolle,&lt;br&gt;forebygging, helsekompetanse og mestring" vertex="1">
+                    <mxGeometry height="110" width="280" x="60" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="E2 · Outcome&lt;br&gt;Innbyggerne finner enklere riktig&lt;br&gt;helsetjeneste for sine behov" vertex="1">
+                    <mxGeometry height="110" width="280" x="390" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="E3 · Outcome&lt;br&gt;Styrket evne til å yte helsehjelp&lt;br&gt;til flere med god kvalitet" vertex="1">
+                    <mxGeometry height="110" width="280" x="720" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="E4 · Outcome&lt;br&gt;Bedre støtte til personellets arbeidshverdag&lt;br&gt;og sammenhengende, tilgjengelige tjenester" vertex="1">
+                    <mxGeometry height="110" width="280" x="1050" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="R1 · Outcome (mellomliggende resultat)&lt;br&gt;Økt bruk av digitale selvhjelps- og behandlingsverktøy" vertex="1">
+                    <mxGeometry height="90" width="610" x="60" y="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="E1–E4 er analytiske kortnavn, ikke offisielle målnumre. R1 kan bidra til E1 og E3 når verktøyene er virksomme og brukes hensiktsmessig. Flere brukere er ikke i seg selv bevis for bedre helse eller kapasitet." vertex="1">
+                    <mxGeometry height="90" width="610" x="720" y="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Kilde: TB2026-17, oppdragsinnledning og deloppdrag 2, 4 og 5. Relasjonene er analyse. De neste sidene viser bidrag til samme E1–E4." vertex="1">
+                    <mxGeometry height="50" width="1320" x="40" y="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1-g1" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g1" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2-g3" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.2;entryY=1;" target="g3" value="+">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="530" y="340"/>
+                            <mxPoint x="1016" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e3-g2" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.8;entryY=1;" target="g2" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4-g3" edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.7;entryY=1;" target="g3" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1-e1" edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.25;exitY=0;entryX=0.5;entryY=1;" target="e1" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1-e3" edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.75;exitY=0;entryX=0.5;entryY=1;" target="e3" value="+">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="518" y="590"/>
+                            <mxPoint x="860" y="590"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="df-psykisk" name="D3-psykisk-helse-rus">
+        <mxGraphModel dx="1386" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;align=left;fontSize=22;fontStyle=1;fontColor=#333333;" value="Deloppdrag 3 – psykisk helse og rus (TB2025-18)" vertex="1">
+                    <mxGeometry height="40" width="1320" x="40" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Venstre: kildens eksplisitte mål. Høyre: hovedoppdragets Outcomes. + = positiv Influence (analytisk bidrag)." vertex="1">
+                    <mxGeometry height="50" width="1320" x="40" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="sg" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="Goal · Samfunnsmål&lt;br&gt;God psykisk helse og livskvalitet;&lt;br&gt;god og lett tilgjengelig psykisk helsehjelp" vertex="1">
+                    <mxGeometry height="110" width="500" x="60" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="P1 · Outcome (EM1)&lt;br&gt;Mer tilgjengelige tjenester for psykiske helseplager&lt;br&gt;gjennom økt bruk av digitale verktøy" vertex="1">
+                    <mxGeometry height="110" width="500" x="60" y="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="P2 · Outcome (EM2)&lt;br&gt;Mer effektiv ressursutnyttelse i helsetjenesten&lt;br&gt;ved økt bruk av digitale verktøy" vertex="1">
+                    <mxGeometry height="110" width="500" x="60" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E3 · Outcome (hovedoppdrag)&lt;br&gt;Styrket evne til å yte helsehjelp&lt;br&gt;til flere med god kvalitet" vertex="1">
+                    <mxGeometry height="110" width="450" x="880" y="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="DM1–DM4 utdyper P1/P2: likere tilbud, tidligere hjelp, fleksible forløp og frigjort personelltid. Tidligere hjelp kan også støtte E1; fleksible forløp kan støtte E4. P1 er ikke det samme som E2: tilgjengelig hjelp innebærer ikke nødvendigvis enklere veivisning." vertex="1">
+                    <mxGeometry height="150" width="450" x="880" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Kilder: TB2025-18, målhierarki linje 408–427; TB2026-17, deloppdrag 3. P1/P2 bidrar innen psykisk helse, men realiserer ikke alene hovedoppdragets brede mål." vertex="1">
+                    <mxGeometry height="60" width="1320" x="40" y="790" as="geometry"/>
+                </mxCell>
+                <mxCell id="p1-sg" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="sg" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-sg" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="sg" value="+">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="30" y="605"/>
+                            <mxPoint x="30" y="205"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="p1-e3" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e3" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="p2-e3" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e3" value="+">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="720" y="605"/>
+                            <mxPoint x="720" y="427"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="df-verktoy" name="D2-selvhjelp-behandling">
+        <mxGraphModel dx="1165" dy="925" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1150" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;align=left;fontSize=22;fontStyle=1;fontColor=#333333;" value="Deloppdrag 2 – digitale selvhjelps- og behandlingsverktøy" vertex="1">
+                    <mxGeometry height="40" width="1320" x="40" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="V1–V8: foreløpige effektmål i Leveranse 2a, forkortet og klassifisert som Outcome. + = analytisk positiv Influence til hovedoppdraget." vertex="1">
+                    <mxGeometry height="50" width="1320" x="40" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="v1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V1 · Outcome&lt;br&gt;Økt egenmestring og bedre helse" vertex="1">
+                    <mxGeometry height="80" width="510" x="60" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="v2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V2 · Outcome&lt;br&gt;Tidlig og tilpasset støtte til forebygging" vertex="1">
+                    <mxGeometry height="80" width="510" x="60" y="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="v3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V3 · Outcome&lt;br&gt;Bedre tilgang til virksomme digitale behandlingsverktøy" vertex="1">
+                    <mxGeometry height="80" width="510" x="60" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="v4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V4 · Outcome&lt;br&gt;Mindre geografiske og organisatoriske forskjeller i tilgang" vertex="1">
+                    <mxGeometry height="80" width="510" x="60" y="490" as="geometry"/>
+                </mxCell>
+                <mxCell id="v5" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V5 · Outcome&lt;br&gt;Bedre ressursutnyttelse og økt kapasitet" vertex="1">
+                    <mxGeometry height="80" width="510" x="60" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="v6" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V6 · Outcome&lt;br&gt;Mer personelltid og kompetanse til de største behovene" vertex="1">
+                    <mxGeometry height="80" width="510" x="60" y="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="v7" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V7 · Outcome&lt;br&gt;Fleksibel og individuelt tilpasset behandling og oppfølging" vertex="1">
+                    <mxGeometry height="80" width="510" x="60" y="820" as="geometry"/>
+                </mxCell>
+                <mxCell id="v8" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V8 · Outcome&lt;br&gt;Mer innovativ tjeneste i samarbeid med forskning og næringsliv" vertex="1">
+                    <mxGeometry height="80" width="510" x="60" y="930" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E1 · Outcome (hovedoppdrag)&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" vertex="1">
+                    <mxGeometry height="110" width="400" x="920" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E3 · Outcome (hovedoppdrag)&lt;br&gt;Helsehjelp til flere med god kvalitet" vertex="1">
+                    <mxGeometry height="110" width="400" x="920" y="500" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E4 · Outcome (hovedoppdrag)&lt;br&gt;Støtte til personellets arbeidshverdag&lt;br&gt;og sammenhengende tjenester" vertex="1">
+                    <mxGeometry height="110" width="400" x="920" y="830" as="geometry"/>
+                </mxCell>
+                <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Kilde: Leveranse 2a, kapittel 5.1–5.2, linje 719–736. Ingen selvstendig samfunnsmålformulering i dette kapitlet. E2 støttes særlig av resultatmål om enkel tilgang, ikke direkte av alle effektmål. V8 → E4 er et indirekte bidrag, avhengig av hva innovasjonen fører til." vertex="1">
+                    <mxGeometry height="70" width="1320" x="40" y="1050" as="geometry"/>
+                </mxCell>
+                <mxCell id="v1-e1" edge="1" parent="1" source="v1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e1" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v2-e1" edge="1" parent="1" source="v2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e1" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v3-e3" edge="1" parent="1" source="v3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.2;" target="e3" value="+">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="780" y="420"/>
+                            <mxPoint x="780" y="522"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v4-e3" edge="1" parent="1" source="v4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.4;" target="e3" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v5-e3" edge="1" parent="1" source="v5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.6;" target="e3" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v6-e3" edge="1" parent="1" source="v6" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.8;" target="e3" value="+">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="840" y="750"/>
+                            <mxPoint x="840" y="588"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="v7-e4" edge="1" parent="1" source="v7" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e4" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="v8-e4" edge="1" parent="1" source="v8" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e4" value="+ (indirekte)">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="df-ki" name="D1-malrettede-helserad">
+        <mxGraphModel dx="1226" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;align=left;fontSize=22;fontStyle=1;fontColor=#333333;" value="Deloppdrag 1 – offentlig KI-tjeneste for målrettede helseråd" vertex="1">
+                    <mxGeometry height="40" width="1320" x="40" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Venstre: satsingens eksplisitte mål (styringsdokument v1.1). Høyre: hovedoppdragets Outcomes. + = analytisk positiv Influence." vertex="1">
+                    <mxGeometry height="50" width="1320" x="40" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="sg" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="Goal · Samfunnsmål&lt;br&gt;Lik tilgang til trygge, målrettede helseråd som&lt;br&gt;øker helsekompetansen og evnen til å ivareta helse" vertex="1">
+                    <mxGeometry height="110" width="510" x="60" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="k1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="K1 · Outcome&lt;br&gt;Trygge helseråd basert på evidensbasert kunnskap" vertex="1">
+                    <mxGeometry height="110" width="510" x="60" y="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="k2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="K2 · Outcome&lt;br&gt;Mer effektiv ressursbruk ved redusert eller utsatt&lt;br&gt;tjenestebehov og mer rettidig bruk av tjenestene" vertex="1">
+                    <mxGeometry height="110" width="510" x="60" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E1 · Outcome (hovedoppdrag)&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" vertex="1">
+                    <mxGeometry height="110" width="400" x="920" y="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E3 · Outcome (hovedoppdrag)&lt;br&gt;Helsehjelp til flere med god kvalitet" vertex="1">
+                    <mxGeometry height="110" width="400" x="920" y="550" as="geometry"/>
+                </mxCell>
+                <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="K1 støtter E1 når rådene forstås og kan brukes. K2 støtter E3 dersom kapasitet faktisk frigjøres uten kvalitetstap. Rettidig tjenestebruk er ikke det samme som E2 (å finne riktig tjeneste); veivisning må ivaretas særskilt i deloppdrag 5." vertex="1">
+                    <mxGeometry height="70" width="1260" x="60" y="710" as="geometry"/>
+                </mxCell>
+                <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Kilde: Styringsdokument offentlig KI-tjeneste for målrettede helseråd v1.1, kapittel 2.1, linje 170–181. Prosjektets resultatmål for 2026 holdes atskilt fra satsingens effekter." vertex="1">
+                    <mxGeometry height="50" width="1320" x="40" y="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="k1-sg" edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="sg" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="k1-e1" edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="e1" value="+ (via anvendelse)">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="k2-e3" edge="1" parent="1" source="k2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="e3" value="+">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
