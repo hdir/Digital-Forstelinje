@@ -8,6 +8,7 @@ nav:
     - Målbilde og interessentanalyser:
       - interessent/index.md
       - Målbilde: interessent/goals.md
+      - Målbildeanalyse DF: interessent/malbilde-analyse.md
       - Verdiforslag: interessent/verdi.md
       - Interesser: interessent/concern.md
       - Innspill helsereformutvalget: interessent/helsereform.md

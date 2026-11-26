@@ -4,9 +4,9 @@ title: Målbildeanalyse – TB2026-17 Digital førstelinje
 
 ## Formål og tolkning
 
-Tildelingsbrevet har ikke egne overskrifter eller nummererte mål for samfunnsmål og effektmål. Denne analysen skiller derfor mellom den overordnede målretningen og de forventede virkningene som følger av oppdragsteksten. I ArchiMate-termer kan den overordnede målretningen forstås som et **Goal**, mens forventede endringer for innbyggere og helse- og omsorgstjenesten forstås som **Outcomes**.
+Oppsummering av samfunnsmål og effektmål for Digital Førstelinje, basert på tildelingsbrevet.
 
-## Samfunnsmål – overordnet Goal
+## Samfunnsmål
 
 Digitale helsetjenester skal bidra til at:
 
@@ -16,7 +16,7 @@ Digitale helsetjenester skal bidra til at:
 
 Dette er en sammenstilling av den overordnede målretningen i oppdraget, ikke et ordrett mål som er merket «samfunnsmål».
 
-## Effektmål – forventede Outcomes
+## Effektmål
 
 Oppdraget peker på følgende forventede virkninger:
 
@@ -31,6 +31,12 @@ Oppdraget peker på følgende forventede virkninger:
 * Tjenesten styrker evnen til å yte helsehjelp til flere, med god kvalitet.
 * Digitale løsninger støtter helsepersonellets arbeidshverdag og bidrar til sammenhengende og tilgjengelige tjenester.
 * Bruken av digitale selvhjelps- og behandlingsverktøy øker gjennom en stegvis tilnærming.
+
+## Sammenhenger med deloppdrag
+
+Sammenhenger med målbildene for de ulike deloppdragene som er nevnt som en del av digital førstelinje. Kapitlene under lister opp sammenhengene som er vist i figuren og begrunnelsen for disse.  
+
+![DF-samlet-oversikt](malbilde-analyse.drawio)  
 
 ## Forutsetninger og oppdrag som ikke er effektmål i seg selv
 
