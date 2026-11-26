@@ -1,0 +1,1184 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Helsedirektoratet" name="author"/>
+<link href="../goals/" rel="prev"/>
+<link href="../verdi/" rel="next"/>
+<link href="../../logo/ehelse-hvit.png" rel="icon"/>
+<meta content="mkdocs-1.6.1, mkdocs-material-9.8.2" name="generator"/>
+<title>Målbildeanalyse – TB2026-17 Digital førstelinje - Arkitektur for digital førstelinje</title>
+<link href="../../assets/stylesheets/main.57a0d79d.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.fb2fffe2.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="red" data-md-color-primary="black" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#formal-og-tolkning">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header md-header--shadow" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Arkitektur for digital førstelinje" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Arkitektur for digital førstelinje">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Arkitektur for digital førstelinje
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Målbildeanalyse – TB2026-17 Digital førstelinje
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="red" data-md-color-media="" data-md-color-primary="black" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="red" data-md-color-media="" data-md-color-primary="black" data-md-color-scheme="slate" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+</label>
+</form>
+<script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/hdir/Digital-Forstelinje" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+</div>
+<div class="md-source__repository">
+    hdir/Digital-Forstelinje
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Arkitektur for digital førstelinje" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Arkitektur for digital førstelinje">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+</a>
+    Arkitektur for digital førstelinje
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/hdir/Digital-Forstelinje" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
+</div>
+<div class="md-source__repository">
+    hdir/Digital-Forstelinje
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_1" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../..">
+<span class="md-ellipsis">
+    
+  
+    Arkitekturskisser
+  
+
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_1_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_1">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Arkitekturskisser
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../">
+<span class="md-ellipsis">
+    
+  
+    Målbilde og interessentanalyser
+  
+
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Målbilde og interessentanalyser
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../goals/">
+<span class="md-ellipsis">
+    
+  
+    Målbilde
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    
+  
+    Målbildeanalyse DF
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<span class="md-ellipsis">
+    
+  
+    Målbildeanalyse DF
+  
+
+    
+  </span>
+</a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formal-og-tolkning">
+<span class="md-ellipsis">
+      
+        Formål og tolkning
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samfunnsmal">
+<span class="md-ellipsis">
+      
+        Samfunnsmål
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#effektmal">
+<span class="md-ellipsis">
+      
+        Effektmål
+      
+    </span>
+</a>
+<nav aria-label="Effektmål" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#for-innbyggere">
+<span class="md-ellipsis">
+      
+        For innbyggere
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#for-helse-og-omsorgstjenesten">
+<span class="md-ellipsis">
+      
+        For helse- og omsorgstjenesten
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sammenhenger-med-deloppdrag">
+<span class="md-ellipsis">
+      
+        Sammenhenger med deloppdrag
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#forutsetninger-og-oppdrag-som-ikke-er-effektmal-i-seg-selv">
+<span class="md-ellipsis">
+      
+        Forutsetninger og oppdrag som ikke er effektmål i seg selv
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sammenheng-med-malene-i-tb2025-18-og-leveranse-2a">
+<span class="md-ellipsis">
+      
+        Sammenheng med målene i TB2025-18 og Leveranse 2a
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samfunns-og-effektmal-for-offentlig-ki-tjeneste-for-malrettede-helserad">
+<span class="md-ellipsis">
+      
+        Samfunns- og effektmål for offentlig KI-tjeneste for målrettede helseråd
+      
+    </span>
+</a>
+<nav aria-label="Samfunns- og effektmål for offentlig KI-tjeneste for målrettede helseråd" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samfunnsmal_1">
+<span class="md-ellipsis">
+      
+        Samfunnsmål
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#effektmal_1">
+<span class="md-ellipsis">
+      
+        Effektmål
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#grafisk-malmodell-og-deloppdragenes-bidrag">
+<span class="md-ellipsis">
+      
+        Grafisk målmodell og deloppdragenes bidrag
+      
+    </span>
+</a>
+<nav aria-label="Grafisk målmodell og deloppdragenes bidrag" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samlet-oversikt">
+<span class="md-ellipsis">
+      
+        Samlet oversikt
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#klassifisering-og-relasjoner-i-archimate-32">
+<span class="md-ellipsis">
+      
+        Klassifisering og relasjoner i ArchiMate 3.2
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hovedoppdrag-effektmal-som-bidrar-til-samfunnsmal">
+<span class="md-ellipsis">
+      
+        Hovedoppdrag: effektmål som bidrar til samfunnsmål
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deloppdrag-3-psykisk-helse-og-rus-tb2025-18">
+<span class="md-ellipsis">
+      
+        Deloppdrag 3: psykisk helse og rus – TB2025-18
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deloppdrag-2-kt-bruk-av-digitale-selvhjelps-og-behandlingsverkty">
+<span class="md-ellipsis">
+      
+        Deloppdrag 2: økt bruk av digitale selvhjelps- og behandlingsverktøy
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deloppdrag-1-malrettede-helserad">
+<span class="md-ellipsis">
+      
+        Deloppdrag 1: målrettede helseråd
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kommunal-nettlege">
+<span class="md-ellipsis">
+      
+        Kommunal nettlege
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tverrgaende-sammenheng-og-avgrensning">
+<span class="md-ellipsis">
+      
+        Tverrgående sammenheng og avgrensning
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kilde">
+<span class="md-ellipsis">
+      
+        Kilde
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../verdi/">
+<span class="md-ellipsis">
+    
+  
+    Verdiforslag
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../concern/">
+<span class="md-ellipsis">
+    
+  
+    Interesser
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../helsereform/">
+<span class="md-ellipsis">
+    
+  
+    Innspill helsereformutvalget
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../strategi/">
+<span class="md-ellipsis">
+    
+  
+    Verdikjede og strategi
+  
+
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Verdikjede og strategi
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../strategi/value-chain/">
+<span class="md-ellipsis">
+    
+  
+    Verdikjede Innbygger
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../strategi/value-chain-apper/">
+<span class="md-ellipsis">
+    
+  
+    Verdikjeder økosystem
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../strategi/tiltak-kapabiliteter/">
+<span class="md-ellipsis">
+    
+  
+    Tiltak i programmet
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../business/">
+<span class="md-ellipsis">
+    
+  
+    Forretningsarkitektur
+  
+
+    
+  </span>
+</a>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Forretningsarkitektur
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../business/oversikt-arkitekturlandskap-e-helsetjenester/">
+<span class="md-ellipsis">
+    
+  
+    Nasjonale e-helsetjenester
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../business/digital-forstelinje-veikart.html">
+<span class="md-ellipsis">
+    
+  
+    Veikart Digital førstelinje (TB2026-17)
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../application/">
+<span class="md-ellipsis">
+    
+  
+    Applikasjonsarkitektur
+  
+
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Applikasjonsarkitektur
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../why/">
+<span class="md-ellipsis">
+    
+  
+    Motivasjon for virksomhetsarkitektur
+  
+
+    
+  </span>
+</a>
+</div>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Motivasjon for virksomhetsarkitektur
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formal-og-tolkning">
+<span class="md-ellipsis">
+      
+        Formål og tolkning
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samfunnsmal">
+<span class="md-ellipsis">
+      
+        Samfunnsmål
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#effektmal">
+<span class="md-ellipsis">
+      
+        Effektmål
+      
+    </span>
+</a>
+<nav aria-label="Effektmål" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#for-innbyggere">
+<span class="md-ellipsis">
+      
+        For innbyggere
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#for-helse-og-omsorgstjenesten">
+<span class="md-ellipsis">
+      
+        For helse- og omsorgstjenesten
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sammenhenger-med-deloppdrag">
+<span class="md-ellipsis">
+      
+        Sammenhenger med deloppdrag
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#forutsetninger-og-oppdrag-som-ikke-er-effektmal-i-seg-selv">
+<span class="md-ellipsis">
+      
+        Forutsetninger og oppdrag som ikke er effektmål i seg selv
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sammenheng-med-malene-i-tb2025-18-og-leveranse-2a">
+<span class="md-ellipsis">
+      
+        Sammenheng med målene i TB2025-18 og Leveranse 2a
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samfunns-og-effektmal-for-offentlig-ki-tjeneste-for-malrettede-helserad">
+<span class="md-ellipsis">
+      
+        Samfunns- og effektmål for offentlig KI-tjeneste for målrettede helseråd
+      
+    </span>
+</a>
+<nav aria-label="Samfunns- og effektmål for offentlig KI-tjeneste for målrettede helseråd" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samfunnsmal_1">
+<span class="md-ellipsis">
+      
+        Samfunnsmål
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#effektmal_1">
+<span class="md-ellipsis">
+      
+        Effektmål
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#grafisk-malmodell-og-deloppdragenes-bidrag">
+<span class="md-ellipsis">
+      
+        Grafisk målmodell og deloppdragenes bidrag
+      
+    </span>
+</a>
+<nav aria-label="Grafisk målmodell og deloppdragenes bidrag" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#samlet-oversikt">
+<span class="md-ellipsis">
+      
+        Samlet oversikt
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#klassifisering-og-relasjoner-i-archimate-32">
+<span class="md-ellipsis">
+      
+        Klassifisering og relasjoner i ArchiMate 3.2
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#hovedoppdrag-effektmal-som-bidrar-til-samfunnsmal">
+<span class="md-ellipsis">
+      
+        Hovedoppdrag: effektmål som bidrar til samfunnsmål
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deloppdrag-3-psykisk-helse-og-rus-tb2025-18">
+<span class="md-ellipsis">
+      
+        Deloppdrag 3: psykisk helse og rus – TB2025-18
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deloppdrag-2-kt-bruk-av-digitale-selvhjelps-og-behandlingsverkty">
+<span class="md-ellipsis">
+      
+        Deloppdrag 2: økt bruk av digitale selvhjelps- og behandlingsverktøy
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deloppdrag-1-malrettede-helserad">
+<span class="md-ellipsis">
+      
+        Deloppdrag 1: målrettede helseråd
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kommunal-nettlege">
+<span class="md-ellipsis">
+      
+        Kommunal nettlege
+      
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tverrgaende-sammenheng-og-avgrensning">
+<span class="md-ellipsis">
+      
+        Tverrgående sammenheng og avgrensning
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#kilde">
+<span class="md-ellipsis">
+      
+        Kilde
+      
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Målbildeanalyse DF</h1>
+<h2 id="formal-og-tolkning">Formål og tolkning</h2>
+<p>Oppsummering av samfunnsmål og effektmål for Digital Førstelinje, basert på tildelingsbrevet.</p>
+<h2 id="samfunnsmal">Samfunnsmål</h2>
+<p>Digitale helsetjenester skal bidra til at:</p>
+<ul>
+<li>innbyggerne kan ta en aktiv rolle i egen og næres helse</li>
+<li>helse- og omsorgstjenesten kan yte helsehjelp til flere, med god kvalitet</li>
+<li>digitale løsninger er sammenhengende, tilgjengelige og bærekraftige, og støtter både innbyggernes behov og helsepersonellets arbeidshverdag</li>
+</ul>
+<p>Dette er en sammenstilling av den overordnede målretningen i oppdraget, ikke et ordrett mål som er merket «samfunnsmål».</p>
+<h2 id="effektmal">Effektmål</h2>
+<p>Oppdraget peker på følgende forventede virkninger:</p>
+<h3 id="for-innbyggere">For innbyggere</h3>
+<ul>
+<li>Innbyggerne får bedre mulighet til å ta en aktiv rolle i egen og næres helse.</li>
+<li>Innbyggerne får støtte til forebygging, bedre helsekompetanse og mestring av egen helse.</li>
+<li>Det blir enklere å finne riktig helsetjeneste ut fra egne behov, gjennom en digital veiviser som på sikt skal fungere på tvers av de aktuelle tjenesteområdene og nettlegen.</li>
+</ul>
+<h3 id="for-helse-og-omsorgstjenesten">For helse- og omsorgstjenesten</h3>
+<ul>
+<li>Tjenesten styrker evnen til å yte helsehjelp til flere, med god kvalitet.</li>
+<li>Digitale løsninger støtter helsepersonellets arbeidshverdag og bidrar til sammenhengende og tilgjengelige tjenester.</li>
+<li>Bruken av digitale selvhjelps- og behandlingsverktøy øker gjennom en stegvis tilnærming.</li>
+</ul>
+<h2 id="sammenhenger-med-deloppdrag">Sammenhenger med deloppdrag</h2>
+<p>Sammenhenger med målbildene for de ulike deloppdragene som er nevnt som en del av digital førstelinje. Kapitlene under lister opp sammenhengene som er vist i figuren og begrunnelsen for disse.  </p>
+<p><div class="mxgraph" data-mxgraph='{"toolbar-position": "bottom", "toolbar-nohide": "0", "tooltips": "1", "border": 5, "resize": "1", "edit": "_blank", "lightbox": "1", "toolbar": "pages tags zoom layers lightbox", "xml": "&lt;mxfile host=\"65bd71144e\"&gt;&lt;diagram id=\"df-samlet\" name=\"DF-samlet-oversikt\"&gt;\n        &lt;mxGraphModel dx=\"1942\" dy=\"1542\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"1900\" pageHeight=\"1960\" background=\"#ffffff\" math=\"0\" shadow=\"0\"&gt;\n            &lt;root&gt;\n                &lt;mxCell id=\"0\"/&gt;\n                &lt;mxCell id=\"1\" parent=\"0\"/&gt;\n                &lt;mxCell id=\"title\" parent=\"1\" style=\"text;html=1;align=left;fontSize=24;fontStyle=1;fontColor=#333333;\" value=\"Digital f\u00f8rstelinje \u2013 samlet oversikt over m\u00e5l og deloppdragenes bidrag\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"40\" width=\"1800\" x=\"40\" y=\"20\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"legend\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontColor=#333333;\" value=\"Samfunnsm\u00e5l = \u00f8nsket retning. Effektm\u00e5l = forventet virkning. Stiplede piler oppover = positiv Influence (+), ikke dokumentert effekt eller direkte realisering. Kolonnene f\u00f8lger hovedoppdragets effektm\u00e5l; radene f\u00f8lger deloppdragene.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"60\" width=\"1800\" x=\"40\" y=\"70\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"goals-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Samfunnsm\u00e5l&amp;lt;br&amp;gt;TB2026-17&amp;lt;br&amp;gt;(tolkning)\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"90\" width=\"160\" x=\"40\" y=\"160\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" value=\"G1 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Aktiv rolle i egen&amp;lt;br&amp;gt;og n\u00e6res helse\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"220\" y=\"150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" value=\"G2 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Hjelpe flere med&amp;lt;br&amp;gt;god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"650\" y=\"150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" value=\"G3 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Sammenhengende, tilgjengelige og b\u00e6rekraftige digitale l\u00f8sninger&amp;lt;br&amp;gt;som st\u00f8tter innbyggere og helsepersonell\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"700\" x=\"1080\" y=\"150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"effects-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Effektm\u00e5l&amp;lt;br&amp;gt;Hovedoppdrag&amp;lt;br&amp;gt;(tolkning)\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"160\" x=\"40\" y=\"330\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Aktiv helserolle, forebygging,&amp;lt;br&amp;gt;helsekompetanse og mestring\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"270\" x=\"220\" y=\"320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Styrket evne til \u00e5 gi helsehjelp&amp;lt;br&amp;gt;til flere med god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"270\" x=\"650\" y=\"320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e4\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;St\u00f8tte til personellets arbeid&amp;lt;br&amp;gt;og sammenhengende tjenester\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"270\" x=\"1080\" y=\"320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Enklere \u00e5 finne riktig&amp;lt;br&amp;gt;helsetjeneste for behovet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"270\" x=\"1510\" y=\"320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 3&amp;lt;br&amp;gt;Psykisk helse&amp;lt;br&amp;gt;og rus&amp;lt;br&amp;gt;TB2025-18\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"160\" x=\"40\" y=\"570\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"P1 \u00b7 Effektm\u00e5l (EM1)&amp;lt;br&amp;gt;Mer tilgjengelige tjenester&amp;lt;br&amp;gt;for psykiske helseplager\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"P2 \u00b7 Effektm\u00e5l (EM2)&amp;lt;br&amp;gt;Mer effektiv ressursutnyttelse&amp;lt;br&amp;gt;ved bruk av digitale verkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"650\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p-note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Tidligere hjelp og fleksible forl\u00f8p&amp;lt;br&amp;gt;er delm\u00e5l som ogs\u00e5 kan st\u00f8tte E1/E4.&amp;lt;br&amp;gt;De er ikke egne EM1/EM2.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"220\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p-goal\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Kildens Samfunnsm\u00e5l:&amp;lt;br&amp;gt;God psykisk helse og livskvalitet;&amp;lt;br&amp;gt;god, lett tilgjengelig hjelp.&amp;lt;br&amp;gt;Beholdes som eget m\u00e5l p\u00e5 detaljsiden.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"140\" width=\"270\" x=\"1080\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"d5\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=course;archiType=rounded;fillColor=#F5DEAA;fontColor=#333333;fontSize=16;\" value=\"Course of Action \u00b7 Deloppdrag 5&amp;lt;br&amp;gt;Etablere f\u00f8rste trinn&amp;lt;br&amp;gt;av en digital veiviser\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"1510\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e2-note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Tilgang til verkt\u00f8y og rettidig bruk&amp;lt;br&amp;gt;er ikke det samme som veivisning.&amp;lt;br&amp;gt;E2 ivaretas s\u00e6rlig av deloppdrag 5.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"1510\" y=\"690\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 2&amp;lt;br&amp;gt;Selvhjelps- og&amp;lt;br&amp;gt;behandlingsverkt\u00f8y&amp;lt;br&amp;gt;Leveranse 2a&amp;lt;br&amp;gt;(forel\u00f8pige m\u00e5l)\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"150\" width=\"160\" x=\"40\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt egenmestring&amp;lt;br&amp;gt;og bedre helse\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"220\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Tidlig og tilpasset st\u00f8tte&amp;lt;br&amp;gt;til forebygging\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"220\" y=\"950\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Bedre tilgang til virksomme&amp;lt;br&amp;gt;digitale behandlingsverkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v4\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mindre geografiske og organisatoriske&amp;lt;br&amp;gt;forskjeller i tilgang\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"950\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v5\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V5 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Bedre ressursutnyttelse&amp;lt;br&amp;gt;og \u00f8kt kapasitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"1050\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v6\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V6 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Personelltid og kompetanse&amp;lt;br&amp;gt;til de st\u00f8rste behovene\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"1150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v7\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V7 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Fleksibel og individuelt&amp;lt;br&amp;gt;tilpasset behandling og oppf\u00f8lging\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"1080\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v8\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V8 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Innovativ tjeneste i samarbeid&amp;lt;br&amp;gt;med forskning og n\u00e6ringsliv\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"1080\" y=\"950\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v-note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"V8 \u2192 E4 er indirekte.&amp;lt;br&amp;gt;\u00d8kt bruk (R1) er et mellomliggende&amp;lt;br&amp;gt;resultat, ikke bevis for helsegevinst.&amp;lt;br&amp;gt;R1 og forutsetningene er vist&amp;lt;br&amp;gt;p\u00e5 detaljsidene og forklart i teksten.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"160\" width=\"270\" x=\"1510\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 1&amp;lt;br&amp;gt;M\u00e5lrettede&amp;lt;br&amp;gt;helser\u00e5d&amp;lt;br&amp;gt;Styringsdokument&amp;lt;br&amp;gt;v1.1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"130\" width=\"160\" x=\"40\" y=\"1310\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"K1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Trygge, evidensbaserte&amp;lt;br&amp;gt;helser\u00e5d\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"90\" width=\"270\" x=\"220\" y=\"1320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"K2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Effektiv ressursbruk: redusert/utsatt&amp;lt;br&amp;gt;behov og mer rettidig tjenestebruk\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"90\" width=\"270\" x=\"650\" y=\"1320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k-goal\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Kildens Samfunnsm\u00e5l:&amp;lt;br&amp;gt;Lik tilgang til trygge helser\u00e5d,&amp;lt;br&amp;gt;\u00f8kt helsekompetanse og evne&amp;lt;br&amp;gt;til \u00e5 ivareta egen og andres helse.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"120\" width=\"270\" x=\"1080\" y=\"1320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k-note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"K1 bidrar via forst\u00e5else og anvendelse.&amp;lt;br&amp;gt;K2 forutsetter at n\u00f8dvendig hjelp&amp;lt;br&amp;gt;ikke forsinkes. Effektene er forventede,&amp;lt;br&amp;gt;ikke dokumentert oppn\u00e5dd.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"120\" width=\"270\" x=\"1510\" y=\"1320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"source\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Kilder: TB2026-17 (497\u2013501); TB2025-18 (408\u2013427); Leveranse 2a (709\u2013736); styringsdokument m\u00e5lrettede helser\u00e5d v1.1 (170\u2013181); Digital nettlege oppsummering, lysbilde 2\u20136. M\u00e5ltekster er forkortet; pilene er analytiske bidrag. Deloppdrag 4 om forebygging/helsekompetanse er et tverrg\u00e5ende hensyn til E1.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"60\" width=\"1800\" x=\"40\" y=\"1860\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-label\" value=\"Kommunal&amp;lt;br&amp;gt;nettlege&amp;lt;br&amp;gt;Utpr\u00f8ving&amp;lt;br&amp;gt;(2025\u20132027)\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"40\" y=\"1540\" width=\"160\" height=\"130\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n1\" value=\"N1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt tilgjengelighet og mer&amp;lt;br&amp;gt;likeverdig tilgang\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"650\" y=\"1520\" width=\"270\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n2\" value=\"N2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Avlastning av andre deler&amp;lt;br&amp;gt;av allmennlegetjenesten\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"650\" y=\"1640\" width=\"270\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n3\" value=\"N3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mer tidsriktige&amp;lt;br&amp;gt;allmennlegetjenester\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1080\" y=\"1520\" width=\"270\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n4\" value=\"N4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt tilfredshet&amp;lt;br&amp;gt;blant innbyggere\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1510\" y=\"1520\" width=\"270\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-note\" value=\"N1/N2 kan st\u00f8tte E3, N3 kan st\u00f8tte E4. N4 er en \u00f8nsket virkning, men tilfredshet alene dokumenterer ikke m\u00e5loppn\u00e5else. Nettlegens m\u00e5l og direkte bidrag til G1\u2013G3 vises p\u00e5 detaljsiden Kommunal-nettlege.\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1080\" y=\"1640\" width=\"700\" height=\"120\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n1-e3\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.8;\" edge=\"1\" parent=\"1\" source=\"nettlege-n1\" target=\"e3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"610\" y=\"1560\"/&gt;&lt;mxPoint x=\"610\" y=\"408\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n2-e3\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.6;\" edge=\"1\" parent=\"1\" source=\"nettlege-n2\" target=\"e3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"590\" y=\"1680\"/&gt;&lt;mxPoint x=\"590\" y=\"386\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n3-e4\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.1;\" edge=\"1\" parent=\"1\" source=\"nettlege-n3\" target=\"e4\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"1420\" y=\"1560\"/&gt;&lt;mxPoint x=\"1420\" y=\"331\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"e1-g1\" edge=\"1\" parent=\"1\" source=\"e1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"g1\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3-g2\" edge=\"1\" parent=\"1\" source=\"e3\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"g2\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e4-g3\" edge=\"1\" parent=\"1\" source=\"e4\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.193;entryY=1;\" target=\"g3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e2-g3\" edge=\"1\" parent=\"1\" source=\"e2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.807;entryY=1;\" target=\"g3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p1-e3\" edge=\"1\" parent=\"1\" source=\"p1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.85;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"940\" y=\"590\"/&gt;\n                            &lt;mxPoint x=\"940\" y=\"413.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p2-e3\" edge=\"1\" parent=\"1\" source=\"p2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.75;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"955\" y=\"690\"/&gt;\n                            &lt;mxPoint x=\"955\" y=\"402.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v1-e1\" edge=\"1\" parent=\"1\" source=\"v1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.7;\" target=\"e1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"510\" y=\"890\"/&gt;\n                            &lt;mxPoint x=\"510\" y=\"397\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v2-e1\" edge=\"1\" parent=\"1\" source=\"v2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;\" target=\"e1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"535\" y=\"990\"/&gt;\n                            &lt;mxPoint x=\"535\" y=\"375\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v3-e3\" edge=\"1\" parent=\"1\" source=\"v3\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.65;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"970\" y=\"890\"/&gt;\n                            &lt;mxPoint x=\"970\" y=\"391.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v4-e3\" edge=\"1\" parent=\"1\" source=\"v4\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.55;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"985\" y=\"990\"/&gt;\n                            &lt;mxPoint x=\"985\" y=\"380.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v5-e3\" edge=\"1\" parent=\"1\" source=\"v5\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.45;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1000\" y=\"1090\"/&gt;\n                            &lt;mxPoint x=\"1000\" y=\"369.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v6-e3\" edge=\"1\" parent=\"1\" source=\"v6\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.35;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1015\" y=\"1190\"/&gt;\n                            &lt;mxPoint x=\"1015\" y=\"358.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v7-e4\" edge=\"1\" parent=\"1\" source=\"v7\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.6;\" target=\"e4\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1370\" y=\"890\"/&gt;\n                            &lt;mxPoint x=\"1370\" y=\"386\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v8-e4\" edge=\"1\" parent=\"1\" source=\"v8\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;\" target=\"e4\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1395\" y=\"990\"/&gt;\n                            &lt;mxPoint x=\"1395\" y=\"353\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k1-e1\" edge=\"1\" parent=\"1\" source=\"k1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;\" target=\"e1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"560\" y=\"1365\"/&gt;\n                            &lt;mxPoint x=\"560\" y=\"353\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k2-e3\" edge=\"1\" parent=\"1\" source=\"k2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.25;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1030\" y=\"1365\"/&gt;\n                            &lt;mxPoint x=\"1030\" y=\"347.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"d5-e2\" edge=\"1\" parent=\"1\" source=\"d5\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"e2\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n            &lt;/root&gt;\n        &lt;/mxGraphModel&gt;\n    &lt;/diagram&gt;\n    &lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div> </p>
+<h2 id="forutsetninger-og-oppdrag-som-ikke-er-effektmal-i-seg-selv">Forutsetninger og oppdrag som ikke er effektmål i seg selv</h2>
+<ul>
+<li>Arbeidet skal inkludere tiltak for et bærekraftig økosystem og næringsliv. Dette er formulert som en forutsetning/innsats i arbeidet, ikke som en konkret oppnådd effekt.</li>
+<li>Oppfølging av rapporten om en offentlig KI-tjeneste og utvalgte tiltak fra 2025-rapporten er deloppdrag. Tildelingsbrevet angir ikke egne forventede virkninger for disse deloppdragene.</li>
+<li>Vurderinger av finansiering, kvalitetssikring, prioritering, ansvar, implementering og effektevaluering er aktiviteter eller avklaringsbehov, ikke måltilstander.</li>
+</ul>
+<h2 id="sammenheng-med-malene-i-tb2025-18-og-leveranse-2a">Sammenheng med målene i TB2025-18 og Leveranse 2a</h2>
+<p>Målene i TB2025-18 og Leveranse 2a kan i hovedsak forstås som utdypinger av og bidrag til den bredere målretningen i TB2026-17. Sammenhengene nedenfor er en analyse, ikke et formelt fastsatt målhierarki. TB2025-18 gjelder psykisk helse og rus, mens Leveranse 2a omfatter digitale selvhjelps- og behandlingsverktøy på flere helseområder. Målene i Leveranse 2a er foreløpige.</p>
+<table>
+<thead>
+<tr>
+<th>Målretning i TB2026-17</th>
+<th>Sammenheng med TB2025-18</th>
+<th>Sammenheng med Leveranse 2a</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Innbyggerne tar en aktiv rolle i egen og næres helse.</td>
+<td>Samfunnsmålet om god psykisk helse og livskvalitet støttes av delmålet om tidligere hjelp gjennom selvhjelpsverktøy.</td>
+<td>Økt egenmestring, bedre helse og tidlig, tilpasset støtte konkretiserer målretningen på flere helseområder.</td>
+</tr>
+<tr>
+<td>Helse- og omsorgstjenesten gir helsehjelp til flere, med god kvalitet.</td>
+<td>Effektmålene om bedre tilgjengelighet og mer effektiv ressursutnyttelse støtter denne målretningen innen psykisk helse.</td>
+<td>Bedre tilgang til virksomme behandlingsverktøy, mindre ulikhet i tilgang og økt kapasitet konkretiserer hva målretningen kan innebære.</td>
+</tr>
+<tr>
+<td>Innbyggerne finner lettere riktig tjeneste.</td>
+<td>Tidligere hjelp og likere tilbud støtter ambisjonen om tilgjengelig hjelp, men er ikke det samme som veivisning til riktig tjeneste.</td>
+<td>Enkel tilgang til selvhjelpsverktøy og bedre tilgang til behandlingstilbud understøtter målet. Veiviseren i TB2026-17 er en konkret tilnærming til å finne riktig tjeneste.</td>
+</tr>
+<tr>
+<td>Digitale løsninger støtter sammenhengende tjenester og helsepersonellets arbeidshverdag.</td>
+<td>Delmål om fleksible behandlingsforløp og frigjort tid for helsepersonell støtter målretningen.</td>
+<td>Fleksibel og individuelt tilpasset oppfølging, bedre ressursutnyttelse og mer tid til innbyggere med størst eller mest sammensatte behov konkretiserer forventede virkninger.</td>
+</tr>
+<tr>
+<td>Bruken av digitale selvhjelps- og behandlingsverktøy øker.</td>
+<td>En senere oppsummering omtaler økt bruk av kvalitetssikrede digitale verktøy som effektmål. I det detaljerte målhierarkiet er økt bruk knyttet til effektmålene om tilgjengelighet og ressursutnyttelse.</td>
+<td>Økt og hensiktsmessig bruk av virksomme verktøy er utgangspunktet for de foreslåtte helse- og tjenestegevinstene.</td>
+</tr>
+</tbody>
+</table>
+<p>Samfunnsmålet i TB2025-18 om god psykisk helse og livskvalitet og god, lett tilgjengelig psykisk helsehjelp er en sektorspesifikk målformulering som støtter den bredere målretningen i TB2026-17. TB2025-18 har også fire delmål om likere tilbud, tidligere hjelp, fleksible behandlingsforløp og frigjort tid for helsepersonell.</p>
+<p>Leveranse 2a foreslår i tillegg resultatmål om enkel tilgang, kombinasjon av digitale og fysiske pasientforløp, personellkompetanse, finansiering, forutsigbare rammebetingelser og innsyn i og kontroll over helseopplysninger. Disse beskriver konkrete resultater og forutsetninger som skal understøtte effektmålene, ikke nødvendigvis selvstendige samfunnseffekter.</p>
+<p>Økt bruk kan forstås som et mellomliggende resultat som forventes å bidra til bedre helse, tidligere hjelp og større kapasitet, snarere enn en endelig samfunnseffekt i seg selv. Et bærekraftig økosystem er tilsvarende en mulig forutsetning for måloppnåelse, ikke en dokumentert effekt. I ArchiMate kan den overordnede målretningen modelleres som <strong>Goal</strong>, mens forventede virkninger som bedre tilgang, økt egenmestring og kapasitet kan modelleres som <strong>Outcomes</strong>. Relasjonene mellom dem er begrunnede bidrag, ikke nødvendigvis direkte realisering.</p>
+<p>Kilder for sammenligningen:</p>
+<ul>
+<li><code>private/markdown/TB2025-18-Økt bruk av kvalitetssikrede digitale løsninger innen psykisk helse og rus og avhengighet_.md</code>, målhierarkiet linje 408–427 og oppsummeringen linje 884–893.</li>
+<li><code>private/markdown/Leveranse 2a ny versjon 08.md</code>, kapittel 5, linje 709–751.</li>
+</ul>
+<h2 id="samfunns-og-effektmal-for-offentlig-ki-tjeneste-for-malrettede-helserad">Samfunns- og effektmål for offentlig KI-tjeneste for målrettede helseråd</h2>
+<p>Styringsdokumentet for prosjektet beskriver følgende mål for satsingen:</p>
+<h3 id="samfunnsmal_1">Samfunnsmål</h3>
+<ul>
+<li>Innbyggerne i Norge har lik tilgang på trygge, målrettede helseråd som øker helsekompetansen og gjør innbyggerne bedre i stand til å forebygge og ta vare på egen og andres helse.</li>
+</ul>
+<h3 id="effektmal_1">Effektmål</h3>
+<ul>
+<li>Innbyggere får trygge helseråd basert på evidensbasert kunnskap.</li>
+<li>Mer effektiv ressursbruk i helse- og omsorgstjenestene gjennom å redusere eller utsette behovet for helsetjenester og mer rettidig bruk av helsetjenesten.</li>
+</ul>
+<p>Styringsdokumentet skiller målene for satsingen fra resultatmålene for prosjektet i 2026: å tydeliggjøre hva målrettede helseråd er, og å beskrive rammer og forutsetninger for satsingen.</p>
+<p>Kilde: <code>private/markdown/Styringsdokument prosjekt offentlig KI-tjeneste målrettede helseråd  v 1.1.md</code>, kapittel 2.1, linje 170–181, og kapittel 2.2, linje 245–250.</p>
+<h2 id="grafisk-malmodell-og-deloppdragenes-bidrag">Grafisk målmodell og deloppdragenes bidrag</h2>
+<p>Modellen er en analytisk sammenstilling av kildene, ikke et vedtatt målhierarki eller dokumentasjon på oppnådde effekter. Måltekstene i figurene er forkortet. G1–G3, E1–E4, R1, P1–P2, V1–V8, K1–K2, NG1–NG4 og N1–N4 er lokale modellidentifikatorer, ikke offisielle målnumre.</p>
+<h3 id="samlet-oversikt">Samlet oversikt</h3>
+<p><div class="mxgraph" data-mxgraph='{"toolbar-position": "bottom", "toolbar-nohide": "0", "tooltips": "1", "border": 5, "resize": "1", "edit": "_blank", "lightbox": "1", "toolbar": "pages tags zoom layers lightbox", "xml": "&lt;mxfile host=\"65bd71144e\"&gt;&lt;diagram id=\"df-samlet\" name=\"DF-samlet-oversikt\"&gt;\n        &lt;mxGraphModel dx=\"1942\" dy=\"1542\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"1900\" pageHeight=\"1960\" background=\"#ffffff\" math=\"0\" shadow=\"0\"&gt;\n            &lt;root&gt;\n                &lt;mxCell id=\"0\"/&gt;\n                &lt;mxCell id=\"1\" parent=\"0\"/&gt;\n                &lt;mxCell id=\"title\" parent=\"1\" style=\"text;html=1;align=left;fontSize=24;fontStyle=1;fontColor=#333333;\" value=\"Digital f\u00f8rstelinje \u2013 samlet oversikt over m\u00e5l og deloppdragenes bidrag\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"40\" width=\"1800\" x=\"40\" y=\"20\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"legend\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontColor=#333333;\" value=\"Samfunnsm\u00e5l = \u00f8nsket retning. Effektm\u00e5l = forventet virkning. Stiplede piler oppover = positiv Influence (+), ikke dokumentert effekt eller direkte realisering. Kolonnene f\u00f8lger hovedoppdragets effektm\u00e5l; radene f\u00f8lger deloppdragene.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"60\" width=\"1800\" x=\"40\" y=\"70\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"goals-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Samfunnsm\u00e5l&amp;lt;br&amp;gt;TB2026-17&amp;lt;br&amp;gt;(tolkning)\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"90\" width=\"160\" x=\"40\" y=\"160\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" value=\"G1 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Aktiv rolle i egen&amp;lt;br&amp;gt;og n\u00e6res helse\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"220\" y=\"150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" value=\"G2 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Hjelpe flere med&amp;lt;br&amp;gt;god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"650\" y=\"150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" value=\"G3 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Sammenhengende, tilgjengelige og b\u00e6rekraftige digitale l\u00f8sninger&amp;lt;br&amp;gt;som st\u00f8tter innbyggere og helsepersonell\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"700\" x=\"1080\" y=\"150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"effects-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Effektm\u00e5l&amp;lt;br&amp;gt;Hovedoppdrag&amp;lt;br&amp;gt;(tolkning)\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"160\" x=\"40\" y=\"330\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Aktiv helserolle, forebygging,&amp;lt;br&amp;gt;helsekompetanse og mestring\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"270\" x=\"220\" y=\"320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Styrket evne til \u00e5 gi helsehjelp&amp;lt;br&amp;gt;til flere med god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"270\" x=\"650\" y=\"320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e4\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;St\u00f8tte til personellets arbeid&amp;lt;br&amp;gt;og sammenhengende tjenester\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"270\" x=\"1080\" y=\"320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Enklere \u00e5 finne riktig&amp;lt;br&amp;gt;helsetjeneste for behovet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"270\" x=\"1510\" y=\"320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 3&amp;lt;br&amp;gt;Psykisk helse&amp;lt;br&amp;gt;og rus&amp;lt;br&amp;gt;TB2025-18\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"160\" x=\"40\" y=\"570\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"P1 \u00b7 Effektm\u00e5l (EM1)&amp;lt;br&amp;gt;Mer tilgjengelige tjenester&amp;lt;br&amp;gt;for psykiske helseplager\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"P2 \u00b7 Effektm\u00e5l (EM2)&amp;lt;br&amp;gt;Mer effektiv ressursutnyttelse&amp;lt;br&amp;gt;ved bruk av digitale verkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"650\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p-note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Tidligere hjelp og fleksible forl\u00f8p&amp;lt;br&amp;gt;er delm\u00e5l som ogs\u00e5 kan st\u00f8tte E1/E4.&amp;lt;br&amp;gt;De er ikke egne EM1/EM2.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"220\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p-goal\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Kildens Samfunnsm\u00e5l:&amp;lt;br&amp;gt;God psykisk helse og livskvalitet;&amp;lt;br&amp;gt;god, lett tilgjengelig hjelp.&amp;lt;br&amp;gt;Beholdes som eget m\u00e5l p\u00e5 detaljsiden.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"140\" width=\"270\" x=\"1080\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"d5\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=course;archiType=rounded;fillColor=#F5DEAA;fontColor=#333333;fontSize=16;\" value=\"Course of Action \u00b7 Deloppdrag 5&amp;lt;br&amp;gt;Etablere f\u00f8rste trinn&amp;lt;br&amp;gt;av en digital veiviser\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"1510\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e2-note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Tilgang til verkt\u00f8y og rettidig bruk&amp;lt;br&amp;gt;er ikke det samme som veivisning.&amp;lt;br&amp;gt;E2 ivaretas s\u00e6rlig av deloppdrag 5.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"270\" x=\"1510\" y=\"690\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 2&amp;lt;br&amp;gt;Selvhjelps- og&amp;lt;br&amp;gt;behandlingsverkt\u00f8y&amp;lt;br&amp;gt;Leveranse 2a&amp;lt;br&amp;gt;(forel\u00f8pige m\u00e5l)\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"150\" width=\"160\" x=\"40\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt egenmestring&amp;lt;br&amp;gt;og bedre helse\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"220\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Tidlig og tilpasset st\u00f8tte&amp;lt;br&amp;gt;til forebygging\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"220\" y=\"950\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Bedre tilgang til virksomme&amp;lt;br&amp;gt;digitale behandlingsverkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v4\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mindre geografiske og organisatoriske&amp;lt;br&amp;gt;forskjeller i tilgang\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"950\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v5\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V5 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Bedre ressursutnyttelse&amp;lt;br&amp;gt;og \u00f8kt kapasitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"1050\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v6\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V6 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Personelltid og kompetanse&amp;lt;br&amp;gt;til de st\u00f8rste behovene\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"650\" y=\"1150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v7\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V7 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Fleksibel og individuelt&amp;lt;br&amp;gt;tilpasset behandling og oppf\u00f8lging\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"1080\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v8\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"V8 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Innovativ tjeneste i samarbeid&amp;lt;br&amp;gt;med forskning og n\u00e6ringsliv\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"270\" x=\"1080\" y=\"950\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v-note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"V8 \u2192 E4 er indirekte.&amp;lt;br&amp;gt;\u00d8kt bruk (R1) er et mellomliggende&amp;lt;br&amp;gt;resultat, ikke bevis for helsegevinst.&amp;lt;br&amp;gt;R1 og forutsetningene er vist&amp;lt;br&amp;gt;p\u00e5 detaljsidene og forklart i teksten.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"160\" width=\"270\" x=\"1510\" y=\"850\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k-label\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 1&amp;lt;br&amp;gt;M\u00e5lrettede&amp;lt;br&amp;gt;helser\u00e5d&amp;lt;br&amp;gt;Styringsdokument&amp;lt;br&amp;gt;v1.1\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"130\" width=\"160\" x=\"40\" y=\"1310\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"K1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Trygge, evidensbaserte&amp;lt;br&amp;gt;helser\u00e5d\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"90\" width=\"270\" x=\"220\" y=\"1320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"K2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Effektiv ressursbruk: redusert/utsatt&amp;lt;br&amp;gt;behov og mer rettidig tjenestebruk\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"90\" width=\"270\" x=\"650\" y=\"1320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k-goal\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Kildens Samfunnsm\u00e5l:&amp;lt;br&amp;gt;Lik tilgang til trygge helser\u00e5d,&amp;lt;br&amp;gt;\u00f8kt helsekompetanse og evne&amp;lt;br&amp;gt;til \u00e5 ivareta egen og andres helse.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"120\" width=\"270\" x=\"1080\" y=\"1320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k-note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"K1 bidrar via forst\u00e5else og anvendelse.&amp;lt;br&amp;gt;K2 forutsetter at n\u00f8dvendig hjelp&amp;lt;br&amp;gt;ikke forsinkes. Effektene er forventede,&amp;lt;br&amp;gt;ikke dokumentert oppn\u00e5dd.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"120\" width=\"270\" x=\"1510\" y=\"1320\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"source\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"Kilder: TB2026-17 (497\u2013501); TB2025-18 (408\u2013427); Leveranse 2a (709\u2013736); styringsdokument m\u00e5lrettede helser\u00e5d v1.1 (170\u2013181); Digital nettlege oppsummering, lysbilde 2\u20136. M\u00e5ltekster er forkortet; pilene er analytiske bidrag. Deloppdrag 4 om forebygging/helsekompetanse er et tverrg\u00e5ende hensyn til E1.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"60\" width=\"1800\" x=\"40\" y=\"1860\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-label\" value=\"Kommunal&amp;lt;br&amp;gt;nettlege&amp;lt;br&amp;gt;Utpr\u00f8ving&amp;lt;br&amp;gt;(2025\u20132027)\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"40\" y=\"1540\" width=\"160\" height=\"130\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n1\" value=\"N1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt tilgjengelighet og mer&amp;lt;br&amp;gt;likeverdig tilgang\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"650\" y=\"1520\" width=\"270\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n2\" value=\"N2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Avlastning av andre deler&amp;lt;br&amp;gt;av allmennlegetjenesten\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"650\" y=\"1640\" width=\"270\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n3\" value=\"N3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mer tidsriktige&amp;lt;br&amp;gt;allmennlegetjenester\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1080\" y=\"1520\" width=\"270\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n4\" value=\"N4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt tilfredshet&amp;lt;br&amp;gt;blant innbyggere\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1510\" y=\"1520\" width=\"270\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-note\" value=\"N1/N2 kan st\u00f8tte E3, N3 kan st\u00f8tte E4. N4 er en \u00f8nsket virkning, men tilfredshet alene dokumenterer ikke m\u00e5loppn\u00e5else. Nettlegens m\u00e5l og direkte bidrag til G1\u2013G3 vises p\u00e5 detaljsiden Kommunal-nettlege.\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1080\" y=\"1640\" width=\"700\" height=\"120\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n1-e3\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.8;\" edge=\"1\" parent=\"1\" source=\"nettlege-n1\" target=\"e3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"610\" y=\"1560\"/&gt;&lt;mxPoint x=\"610\" y=\"408\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n2-e3\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.6;\" edge=\"1\" parent=\"1\" source=\"nettlege-n2\" target=\"e3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"590\" y=\"1680\"/&gt;&lt;mxPoint x=\"590\" y=\"386\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"nettlege-n3-e4\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.1;\" edge=\"1\" parent=\"1\" source=\"nettlege-n3\" target=\"e4\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"1420\" y=\"1560\"/&gt;&lt;mxPoint x=\"1420\" y=\"331\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"e1-g1\" edge=\"1\" parent=\"1\" source=\"e1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"g1\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3-g2\" edge=\"1\" parent=\"1\" source=\"e3\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"g2\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e4-g3\" edge=\"1\" parent=\"1\" source=\"e4\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.193;entryY=1;\" target=\"g3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e2-g3\" edge=\"1\" parent=\"1\" source=\"e2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.807;entryY=1;\" target=\"g3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p1-e3\" edge=\"1\" parent=\"1\" source=\"p1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.85;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"940\" y=\"590\"/&gt;\n                            &lt;mxPoint x=\"940\" y=\"413.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p2-e3\" edge=\"1\" parent=\"1\" source=\"p2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.75;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"955\" y=\"690\"/&gt;\n                            &lt;mxPoint x=\"955\" y=\"402.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v1-e1\" edge=\"1\" parent=\"1\" source=\"v1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.7;\" target=\"e1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"510\" y=\"890\"/&gt;\n                            &lt;mxPoint x=\"510\" y=\"397\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v2-e1\" edge=\"1\" parent=\"1\" source=\"v2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;\" target=\"e1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"535\" y=\"990\"/&gt;\n                            &lt;mxPoint x=\"535\" y=\"375\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v3-e3\" edge=\"1\" parent=\"1\" source=\"v3\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.65;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"970\" y=\"890\"/&gt;\n                            &lt;mxPoint x=\"970\" y=\"391.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v4-e3\" edge=\"1\" parent=\"1\" source=\"v4\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.55;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"985\" y=\"990\"/&gt;\n                            &lt;mxPoint x=\"985\" y=\"380.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v5-e3\" edge=\"1\" parent=\"1\" source=\"v5\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.45;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1000\" y=\"1090\"/&gt;\n                            &lt;mxPoint x=\"1000\" y=\"369.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v6-e3\" edge=\"1\" parent=\"1\" source=\"v6\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.35;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1015\" y=\"1190\"/&gt;\n                            &lt;mxPoint x=\"1015\" y=\"358.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v7-e4\" edge=\"1\" parent=\"1\" source=\"v7\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.6;\" target=\"e4\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1370\" y=\"890\"/&gt;\n                            &lt;mxPoint x=\"1370\" y=\"386\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v8-e4\" edge=\"1\" parent=\"1\" source=\"v8\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;\" target=\"e4\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1395\" y=\"990\"/&gt;\n                            &lt;mxPoint x=\"1395\" y=\"353\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k1-e1\" edge=\"1\" parent=\"1\" source=\"k1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;\" target=\"e1\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"560\" y=\"1365\"/&gt;\n                            &lt;mxPoint x=\"560\" y=\"353\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k2-e3\" edge=\"1\" parent=\"1\" source=\"k2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.25;\" target=\"e3\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"1030\" y=\"1365\"/&gt;\n                            &lt;mxPoint x=\"1030\" y=\"347.5\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"d5-e2\" edge=\"1\" parent=\"1\" source=\"d5\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"e2\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n            &lt;/root&gt;\n        &lt;/mxGraphModel&gt;\n    &lt;/diagram&gt;\n    &lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div></p>
+<p>Oversikten samler hovedoppdraget, de tre deloppdragenes effektmål og kommunal nettleges ønskede virkninger på én side. Les figuren nedenfra og opp: Outcomes kan påvirke hovedoppdragets Outcomes, som igjen støtter samfunnsmålene. Radene viser innsatsområdene; kolonnene viser hvilket overordnet effektmål de særlig bidrar til. E1, E3, E4 og E2 er plassert i denne rekkefølgen for å holde pilene innenfor hver kolonne og redusere kryssende relasjoner.</p>
+<p>Alle tolv effektmål fra de tre deloppdragene er beholdt som egne Outcome-elementer. Kildenes egne samfunnsmål er oppsummert i tekst på denne oversiktssiden og modellert som Goal på detaljsidene. Deloppdrag 5 om veiviser er vist som Course of Action for å tydeliggjøre E2s særskilte forankring. R1, resultatmål og ytterligere indirekte bidrag forklares i teksten og på detaljsidene, slik at hovedoversikten ikke blir et fullt nettverk av alle mulige koblinger.</p>
+<p>Detaljvisningene nedenfor er beholdt; den samlede oversikten er første side i Draw.io-filen. Kommunal nettlege har også en egen detaljside med mål og direkte bidrag til G1–G3.</p>
+<h3 id="klassifisering-og-relasjoner-i-archimate-32">Klassifisering og relasjoner i ArchiMate 3.2</h3>
+<ul>
+<li><strong>Goal:</strong> Samfunnsmålene uttrykker overordnet ønsket retning eller sluttilstand. Hovedoppdragets tre målretninger modelleres som G1–G3. De eksplisitte samfunnsmålene for psykisk helse og målrettede helseråd beholdes som egne Goal-elementer med sitt opprinnelige virkeområde.</li>
+<li><strong>Outcome:</strong> Effektmålene beskriver forventede virkninger for innbyggere og tjenesten. De modelleres som Outcomes, selv om de ennå ikke er oppnådd. Figurene angir forventninger, ikke målte resultater.</li>
+<li><strong>Outcome som mellomliggende resultat:</strong> Økt bruk modelleres separat som R1. Det er ikke i seg selv dokumentasjon på bedre helse, kvalitet eller ressursutnyttelse.</li>
+<li><strong>Influence (+):</strong> Pilene går fra et bidrag til målet det støtter. De viser forventet positiv påvirkning, ikke at ett deloppdrag alene oppfyller hele målet. Ingen av de analytiske koblingene er tegnet som Realization.</li>
+<li><strong>Course of Action og Deliverable:</strong> Deloppdragene er bestillinger på arbeid, ikke effektmål. En plan eller tilnærming kan modelleres som Course of Action, konkrete prosjektarbeider som Work Package og leveransene som Deliverable. Figurene viser deloppdragenes forventede Outcomes, ikke bestillingene som Outcome-elementer.</li>
+</ul>
+<h3 id="hovedoppdrag-effektmal-som-bidrar-til-samfunnsmal">Hovedoppdrag: effektmål som bidrar til samfunnsmål</h3>
+<p><div class="mxgraph" data-mxgraph='{"toolbar-position": "bottom", "toolbar-nohide": "0", "tooltips": "1", "border": 5, "resize": "1", "edit": "_blank", "lightbox": "1", "toolbar": "pages tags zoom layers lightbox", "xml": "&lt;mxfile host=\"65bd71144e\"&gt;&lt;diagram id=\"df-overordnet\" name=\"DF-overordnet\"&gt;\n        &lt;mxGraphModel dx=\"1412\" dy=\"1121\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"1400\" pageHeight=\"900\" background=\"#ffffff\" math=\"0\" shadow=\"0\"&gt;\n            &lt;root&gt;\n                &lt;mxCell id=\"0\"/&gt;\n                &lt;mxCell id=\"1\" parent=\"0\"/&gt;\n                &lt;mxCell id=\"title\" parent=\"1\" style=\"text;html=1;align=left;fontSize=22;fontStyle=1;fontColor=#333333;\" value=\"Digital f\u00f8rstelinje \u2013 overordnede m\u00e5l (tolkning av TB2026-17)\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"40\" width=\"1320\" x=\"40\" y=\"30\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"legend\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"Samfunnsm\u00e5l = overordnet \u00f8nsket sluttilstand. Effektm\u00e5l = forventet virkning. Stiplet pil med + = positiv Influence fra bidrag til m\u00e5l, ikke dokumentert \u00e5rsakssammenheng.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"50\" width=\"1320\" x=\"40\" y=\"80\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"G1 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Innbyggerne kan ta en aktiv rolle&amp;lt;br&amp;gt;i egen og n\u00e6res helse\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"380\" x=\"60\" y=\"180\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"G2 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Helse- og omsorgstjenesten kan hjelpe&amp;lt;br&amp;gt;flere med god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"380\" x=\"500\" y=\"180\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"g3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"G3 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Sammenhengende, tilgjengelige og b\u00e6rekraftige&amp;lt;br&amp;gt;digitale l\u00f8sninger for innbyggere og personell\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"100\" width=\"380\" x=\"940\" y=\"180\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"E1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Bedre mulighet for aktiv helserolle,&amp;lt;br&amp;gt;forebygging, helsekompetanse og mestring\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"280\" x=\"60\" y=\"430\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"E2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Innbyggerne finner enklere riktig&amp;lt;br&amp;gt;helsetjeneste for sine behov\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"280\" x=\"390\" y=\"430\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"E3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Styrket evne til \u00e5 yte helsehjelp&amp;lt;br&amp;gt;til flere med god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"280\" x=\"720\" y=\"430\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e4\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"E4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Bedre st\u00f8tte til personellets arbeidshverdag&amp;lt;br&amp;gt;og sammenhengende, tilgjengelige tjenester\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"280\" x=\"1050\" y=\"430\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"r1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"R1 \u00b7 Effektm\u00e5l (mellomliggende resultat)&amp;lt;br&amp;gt;\u00d8kt bruk av digitale selvhjelps- og behandlingsverkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"90\" width=\"610\" x=\"60\" y=\"660\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"E1\u2013E4 er analytiske kortnavn, ikke offisielle m\u00e5lnumre. R1 kan bidra til E1 og E3 n\u00e5r verkt\u00f8yene er virksomme og brukes hensiktsmessig. Flere brukere er ikke i seg selv bevis for bedre helse eller kapasitet.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"90\" width=\"610\" x=\"720\" y=\"660\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"source\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"Kilde: TB2026-17, oppdragsinnledning og deloppdrag 2, 4 og 5. Relasjonene er analyse. De neste sidene viser bidrag til samme E1\u2013E4.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"50\" width=\"1320\" x=\"40\" y=\"800\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e1-g1\" edge=\"1\" parent=\"1\" source=\"e1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"g1\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e2-g3\" edge=\"1\" parent=\"1\" source=\"e2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.2;entryY=1;\" target=\"g3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"530\" y=\"340\"/&gt;\n                            &lt;mxPoint x=\"1016\" y=\"340\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3-g2\" edge=\"1\" parent=\"1\" source=\"e3\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.8;entryY=1;\" target=\"g2\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e4-g3\" edge=\"1\" parent=\"1\" source=\"e4\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.7;entryY=1;\" target=\"g3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"r1-e1\" edge=\"1\" parent=\"1\" source=\"r1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.25;exitY=0;entryX=0.5;entryY=1;\" target=\"e1\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"r1-e3\" edge=\"1\" parent=\"1\" source=\"r1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.75;exitY=0;entryX=0.5;entryY=1;\" target=\"e3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"518\" y=\"590\"/&gt;\n                            &lt;mxPoint x=\"860\" y=\"590\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n            &lt;/root&gt;\n        &lt;/mxGraphModel&gt;\n    &lt;/diagram&gt;\n    &lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div></p>
+<table>
+<thead>
+<tr>
+<th>Overordnet effektmål (Outcome)</th>
+<th>Samfunnsmål (Goal) som støttes</th>
+<th>Begrunnelse</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E1: Bedre mulighet for aktiv helserolle, forebygging, helsekompetanse og mestring.</td>
+<td>G1: Aktiv rolle i egen og næres helse.</td>
+<td>Kunnskap og mestring støtter innbyggernes mulighet til å ivareta helse.</td>
+</tr>
+<tr>
+<td>E2: Innbyggerne finner enklere riktig helsetjeneste for sine behov.</td>
+<td>G3: Sammenhengende, tilgjengelige og bærekraftige digitale løsninger.</td>
+<td>Veivisning konkretiserer tilgjengeligheten til relevante tjenester, men realiserer ikke alene sammenheng eller bærekraft.</td>
+</tr>
+<tr>
+<td>E3: Styrket evne til å yte helsehjelp til flere med god kvalitet.</td>
+<td>G2: Tjenesten kan hjelpe flere med god kvalitet.</td>
+<td>Effektmålet uttrykker den forventede endringen i tjenestens evne til å oppfylle samfunnsmålet.</td>
+</tr>
+<tr>
+<td>E4: Bedre støtte til personellets arbeidshverdag og sammenhengende, tilgjengelige tjenester.</td>
+<td>G3: Sammenhengende, tilgjengelige og bærekraftige digitale løsninger.</td>
+<td>Arbeidsflyt og samhandling støtter målretningen, men bærekraft må også vurderes særskilt.</td>
+</tr>
+</tbody>
+</table>
+<p>E1 samler to nært beslektede innbyggerformuleringer fra hovedoppdraget. R1 holdes utenfor E1–E4 som mellomliggende resultat. Koblingene R1 → E1 og R1 → E3 forutsetter virksomme verktøy og hensiktsmessig bruk.</p>
+<p>Kilde: <a href="../../background/annet/markdown/2026-Helsedirektoratet-tildelingsbrev.pdf.md">TB2026-17, oppdragsinnledning og deloppdrag 2, 4 og 5</a>, linje 497–501.</p>
+<h3 id="deloppdrag-3-psykisk-helse-og-rus-tb2025-18">Deloppdrag 3: psykisk helse og rus – TB2025-18</h3>
+<p><div class="mxgraph" data-mxgraph='{"toolbar-position": "bottom", "toolbar-nohide": "0", "tooltips": "1", "border": 5, "resize": "1", "edit": "_blank", "lightbox": "1", "toolbar": "pages tags zoom layers lightbox", "xml": "&lt;mxfile host=\"65bd71144e\"&gt;&lt;diagram id=\"df-psykisk\" name=\"D3-psykisk-helse-rus\"&gt;\n        &lt;mxGraphModel dx=\"1386\" dy=\"1000\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"1400\" pageHeight=\"900\" background=\"#ffffff\" math=\"0\" shadow=\"0\"&gt;\n            &lt;root&gt;\n                &lt;mxCell id=\"0\"/&gt;\n                &lt;mxCell id=\"1\" parent=\"0\"/&gt;\n                &lt;mxCell id=\"title\" parent=\"1\" style=\"text;html=1;align=left;fontSize=22;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 3 \u2013 psykisk helse og rus (TB2025-18)\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"40\" width=\"1320\" x=\"40\" y=\"30\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"legend\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"Venstre: kildens eksplisitte m\u00e5l. H\u00f8yre: hovedoppdragets effektm\u00e5l. + = positiv Influence (analytisk bidrag).\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"50\" width=\"1320\" x=\"40\" y=\"80\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"sg\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"Samfunnsm\u00e5l&amp;lt;br&amp;gt;God psykisk helse og livskvalitet;&amp;lt;br&amp;gt;god og lett tilgjengelig psykisk helsehjelp\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"500\" x=\"60\" y=\"150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"P1 \u00b7 Effektm\u00e5l (EM1)&amp;lt;br&amp;gt;Mer tilgjengelige tjenester for psykiske helseplager&amp;lt;br&amp;gt;gjennom \u00f8kt bruk av digitale verkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"500\" x=\"60\" y=\"350\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"P2 \u00b7 Effektm\u00e5l (EM2)&amp;lt;br&amp;gt;Mer effektiv ressursutnyttelse i helsetjenesten&amp;lt;br&amp;gt;ved \u00f8kt bruk av digitale verkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"500\" x=\"60\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E3 \u00b7 Effektm\u00e5l (hovedoppdrag)&amp;lt;br&amp;gt;Styrket evne til \u00e5 yte helsehjelp&amp;lt;br&amp;gt;til flere med god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"450\" x=\"880\" y=\"350\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" value=\"DM1\u2013DM4 utdyper P1/P2: likere tilbud, tidligere hjelp, fleksible forl\u00f8p og frigjort personelltid. Tidligere hjelp kan ogs\u00e5 st\u00f8tte E1; fleksible forl\u00f8p kan st\u00f8tte E4. P1 er ikke det samme som E2: tilgjengelig hjelp inneb\u00e6rer ikke n\u00f8dvendigvis enklere veivisning.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"150\" width=\"450\" x=\"880\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"source\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"Kilder: TB2025-18, m\u00e5lhierarki linje 408\u2013427; TB2026-17, deloppdrag 3. P1/P2 bidrar innen psykisk helse, men realiserer ikke alene hovedoppdragets brede m\u00e5l.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"60\" width=\"1320\" x=\"40\" y=\"790\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p1-sg\" edge=\"1\" parent=\"1\" source=\"p1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"sg\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p2-sg\" edge=\"1\" parent=\"1\" source=\"p2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.5;\" target=\"sg\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"30\" y=\"605\"/&gt;\n                            &lt;mxPoint x=\"30\" y=\"205\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p1-e3\" edge=\"1\" parent=\"1\" source=\"p1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;\" target=\"e3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"p2-e3\" edge=\"1\" parent=\"1\" source=\"p2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;\" target=\"e3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"720\" y=\"605\"/&gt;\n                            &lt;mxPoint x=\"720\" y=\"427\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n            &lt;/root&gt;\n        &lt;/mxGraphModel&gt;\n    &lt;/diagram&gt;\n    &lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div></p>
+<ul>
+<li><strong>P1 – mer tilgjengelige tjenester for psykiske helseplager:</strong> Bidrar til E3 ved at flere kan få hjelp innen dette helseområdet. P1 er et tilgangsmål, ikke et eksplisitt mål om å finne riktig tjeneste (E2).</li>
+<li><strong>P2 – mer effektiv ressursutnyttelse:</strong> Bidrar til E3 dersom ressursgevinsten kan brukes til å hjelpe flere og kvaliteten ivaretas.</li>
+<li>Begge støtter kildens eget samfunnsmål om god psykisk helse og livskvalitet og god, lett tilgjengelig hjelp. Samfunnsmålet er tematisk forenlig med hovedoppdragets mål, men skal ikke erstattes av det eller behandles som identisk med det.</li>
+<li>Kildens delmål utdyper bidragene: tidligere hjelp kan støtte E1, mens fleksible behandlingsforløp og frigjort personelltid kan støtte E4 og E3. Dette er ytterligere analytiske koblinger; de er omtalt i figuren uten å legge flere kryssende piler til hovedmodellen.</li>
+</ul>
+<p>TB2025-18 er grunnlagsrapporten som TB2026-17 deloppdrag 3 ber om oppfølging av. Det er ikke et nytt deloppdragsnummer i 2026. Figurens P1/P2 svarer til rapportens EM1/EM2.</p>
+<h3 id="deloppdrag-2-kt-bruk-av-digitale-selvhjelps-og-behandlingsverkty">Deloppdrag 2: økt bruk av digitale selvhjelps- og behandlingsverktøy</h3>
+<p><div class="mxgraph" data-mxgraph='{"toolbar-position": "bottom", "toolbar-nohide": "0", "tooltips": "1", "border": 5, "resize": "1", "edit": "_blank", "lightbox": "1", "toolbar": "pages tags zoom layers lightbox", "xml": "&lt;mxfile host=\"65bd71144e\"&gt;&lt;diagram id=\"df-verktoy\" name=\"D2-selvhjelp-behandling\"&gt;\n        &lt;mxGraphModel dx=\"1165\" dy=\"925\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"1400\" pageHeight=\"1150\" background=\"#ffffff\" math=\"0\" shadow=\"0\"&gt;\n            &lt;root&gt;\n                &lt;mxCell id=\"0\"/&gt;\n                &lt;mxCell id=\"1\" parent=\"0\"/&gt;\n                &lt;mxCell id=\"title\" parent=\"1\" style=\"text;html=1;align=left;fontSize=22;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 2 \u2013 digitale selvhjelps- og behandlingsverkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"40\" width=\"1320\" x=\"40\" y=\"30\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"legend\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"V1\u2013V8: forel\u00f8pige effektm\u00e5l i Leveranse 2a, forkortet og klassifisert som Effektm\u00e5l. + = analytisk positiv Influence til hovedoppdraget.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"50\" width=\"1320\" x=\"40\" y=\"80\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"V1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt egenmestring og bedre helse\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"510\" x=\"60\" y=\"160\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"V2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Tidlig og tilpasset st\u00f8tte til forebygging\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"510\" x=\"60\" y=\"270\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"V3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Bedre tilgang til virksomme digitale behandlingsverkt\u00f8y\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"510\" x=\"60\" y=\"380\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v4\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"V4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mindre geografiske og organisatoriske forskjeller i tilgang\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"510\" x=\"60\" y=\"490\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v5\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"V5 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Bedre ressursutnyttelse og \u00f8kt kapasitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"510\" x=\"60\" y=\"600\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v6\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"V6 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mer personelltid og kompetanse til de st\u00f8rste behovene\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"510\" x=\"60\" y=\"710\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v7\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"V7 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Fleksibel og individuelt tilpasset behandling og oppf\u00f8lging\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"510\" x=\"60\" y=\"820\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v8\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;\" value=\"V8 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mer innovativ tjeneste i samarbeid med forskning og n\u00e6ringsliv\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"80\" width=\"510\" x=\"60\" y=\"930\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E1 \u00b7 Effektm\u00e5l (hovedoppdrag)&amp;lt;br&amp;gt;Aktiv helserolle, forebygging,&amp;lt;br&amp;gt;helsekompetanse og mestring\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"400\" x=\"920\" y=\"200\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E3 \u00b7 Effektm\u00e5l (hovedoppdrag)&amp;lt;br&amp;gt;Helsehjelp til flere med god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"400\" x=\"920\" y=\"500\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e4\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E4 \u00b7 Effektm\u00e5l (hovedoppdrag)&amp;lt;br&amp;gt;St\u00f8tte til personellets arbeidshverdag&amp;lt;br&amp;gt;og sammenhengende tjenester\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"400\" x=\"920\" y=\"830\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"source\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"Kilde: Leveranse 2a, kapittel 5.1\u20135.2, linje 719\u2013736. Ingen selvstendig samfunnsm\u00e5lformulering i dette kapitlet. E2 st\u00f8ttes s\u00e6rlig av resultatm\u00e5l om enkel tilgang, ikke direkte av alle effektm\u00e5l. V8 \u2192 E4 er et indirekte bidrag, avhengig av hva innovasjonen f\u00f8rer til.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"70\" width=\"1320\" x=\"40\" y=\"1050\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v1-e1\" edge=\"1\" parent=\"1\" source=\"v1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;\" target=\"e1\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v2-e1\" edge=\"1\" parent=\"1\" source=\"v2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;\" target=\"e1\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v3-e3\" edge=\"1\" parent=\"1\" source=\"v3\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.2;\" target=\"e3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"780\" y=\"420\"/&gt;\n                            &lt;mxPoint x=\"780\" y=\"522\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v4-e3\" edge=\"1\" parent=\"1\" source=\"v4\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.4;\" target=\"e3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v5-e3\" edge=\"1\" parent=\"1\" source=\"v5\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.6;\" target=\"e3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v6-e3\" edge=\"1\" parent=\"1\" source=\"v6\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.8;\" target=\"e3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;\n                        &lt;Array as=\"points\"&gt;\n                            &lt;mxPoint x=\"840\" y=\"750\"/&gt;\n                            &lt;mxPoint x=\"840\" y=\"588\"/&gt;\n                        &lt;/Array&gt;\n                    &lt;/mxGeometry&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v7-e4\" edge=\"1\" parent=\"1\" source=\"v7\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;\" target=\"e4\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"v8-e4\" edge=\"1\" parent=\"1\" source=\"v8\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;\" target=\"e4\" value=\"+ (indirekte)\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n            &lt;/root&gt;\n        &lt;/mxGraphModel&gt;\n    &lt;/diagram&gt;\n    &lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div></p>
+<p>De åtte foreløpige effektmålene i Leveranse 2a konkretiserer særlig E1, E3 og E4:</p>
+<table>
+<thead>
+<tr>
+<th>Effektmål i Leveranse 2a (Outcome)</th>
+<th>Bidrag til hovedoppdraget</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>V1: Økt egenmestring og bedre helse gjennom forebygging, behandling og oppfølging.</td>
+<td>E1: Mulighet for aktiv helserolle og mestring.</td>
+</tr>
+<tr>
+<td>V2: Tidlig og tilpasset støtte til å forebygge eller begrense helseutfordringer.</td>
+<td>E1: Forebygging og mestring, med eller uten personelloppfølging.</td>
+</tr>
+<tr>
+<td>V3: Bedre tilgang til virksomme digitale behandlingsverktøy som del av helsehjelpen.</td>
+<td>E3: Flere får tilgang til relevant helsehjelp.</td>
+</tr>
+<tr>
+<td>V4: Reduserte geografiske og organisatoriske forskjeller i tilgang til relevante, kvalitetssikrede verktøy.</td>
+<td>E3: Tilgangsgevinsten kan nå flere grupper.</td>
+</tr>
+<tr>
+<td>V5: Bedre ressursutnyttelse og økt kapasitet.</td>
+<td>E3: Større evne til å hjelpe flere med god kvalitet.</td>
+</tr>
+<tr>
+<td>V6: Personellets tid og kompetanse brukes i større grad på innbyggere med størst eller mest sammensatte behov.</td>
+<td>E3: Bedre prioritering av kapasitet og kompetanse.</td>
+</tr>
+<tr>
+<td>V7: Mer fleksibel og individuelt tilpasset behandling og oppfølging.</td>
+<td>E4: Bedre støtte til arbeidsflyt og sammenhengende tjenestetilbud.</td>
+</tr>
+<tr>
+<td>V8: En mer innovativ tjeneste som nyttiggjør seg forskningens og næringslivets kompetanse, kapasitet og løsninger.</td>
+<td>Indirekte bidrag til E4, avhengig av hvilke løsninger og arbeidsformer innovasjonen gir.</td>
+</tr>
+</tbody>
+</table>
+<p>E2 støttes særlig av resultatmålet om enkel tilgang til relevante selvhjelpsverktøy. Enkel tilgang til verktøy er likevel smalere enn veivisning til riktig helsetjeneste. Kombinasjon av digitale og fysiske pasientforløp støtter E4. Kompetanse, finansiering, rammebetingelser og kontroll over helseopplysninger er støttende resultater og forutsetninger, ikke bevis for at effektmålene er oppnådd.</p>
+<p>Leveranse 2a formulerer ikke et eget samfunnsmål i kapittel 5. Det er derfor ikke laget et nytt Goal-element for dette deloppdraget.</p>
+<h3 id="deloppdrag-1-malrettede-helserad">Deloppdrag 1: målrettede helseråd</h3>
+<p><div class="mxgraph" data-mxgraph='{"toolbar-position": "bottom", "toolbar-nohide": "0", "tooltips": "1", "border": 5, "resize": "1", "edit": "_blank", "lightbox": "1", "toolbar": "pages tags zoom layers lightbox", "xml": "&lt;mxfile host=\"65bd71144e\"&gt;&lt;diagram id=\"df-ki\" name=\"D1-malrettede-helserad\"&gt;\n        &lt;mxGraphModel dx=\"1226\" dy=\"974\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1\" pageWidth=\"1400\" pageHeight=\"900\" background=\"#ffffff\" math=\"0\" shadow=\"0\"&gt;\n            &lt;root&gt;\n                &lt;mxCell id=\"0\"/&gt;\n                &lt;mxCell id=\"1\" parent=\"0\"/&gt;\n                &lt;mxCell id=\"title\" parent=\"1\" style=\"text;html=1;align=left;fontSize=22;fontStyle=1;fontColor=#333333;\" value=\"Deloppdrag 1 \u2013 offentlig KI-tjeneste for m\u00e5lrettede helser\u00e5d\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"40\" width=\"1320\" x=\"40\" y=\"30\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"legend\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"Venstre: satsingens eksplisitte m\u00e5l (styringsdokument v1.1). H\u00f8yre: hovedoppdragets effektm\u00e5l. + = analytisk positiv Influence.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"50\" width=\"1320\" x=\"40\" y=\"80\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"sg\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"Samfunnsm\u00e5l&amp;lt;br&amp;gt;Lik tilgang til trygge, m\u00e5lrettede helser\u00e5d som&amp;lt;br&amp;gt;\u00f8ker helsekompetansen og evnen til \u00e5 ivareta helse\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"510\" x=\"60\" y=\"150\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"K1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Trygge helser\u00e5d basert p\u00e5 evidensbasert kunnskap\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"510\" x=\"60\" y=\"350\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k2\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"K2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mer effektiv ressursbruk ved redusert eller utsatt&amp;lt;br&amp;gt;tjenestebehov og mer rettidig bruk av tjenestene\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"510\" x=\"60\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e1\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E1 \u00b7 Effektm\u00e5l (hovedoppdrag)&amp;lt;br&amp;gt;Aktiv helserolle, forebygging,&amp;lt;br&amp;gt;helsekompetanse og mestring\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"400\" x=\"920\" y=\"350\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"e3\" parent=\"1\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" value=\"E3 \u00b7 Effektm\u00e5l (hovedoppdrag)&amp;lt;br&amp;gt;Helsehjelp til flere med god kvalitet\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"110\" width=\"400\" x=\"920\" y=\"550\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"note\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"K1 st\u00f8tter E1 n\u00e5r r\u00e5dene forst\u00e5s og kan brukes. K2 st\u00f8tter E3 dersom kapasitet faktisk frigj\u00f8res uten kvalitetstap. Rettidig tjenestebruk er ikke det samme som E2 (\u00e5 finne riktig tjeneste); veivisning m\u00e5 ivaretas s\u00e6rskilt i deloppdrag 5.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"70\" width=\"1260\" x=\"60\" y=\"710\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"source\" parent=\"1\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;\" value=\"Kilde: Styringsdokument offentlig KI-tjeneste for m\u00e5lrettede helser\u00e5d v1.1, kapittel 2.1, linje 170\u2013181. Prosjektets resultatm\u00e5l for 2026 holdes atskilt fra satsingens effekter.\" vertex=\"1\"&gt;\n                    &lt;mxGeometry height=\"50\" width=\"1320\" x=\"40\" y=\"810\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k1-sg\" edge=\"1\" parent=\"1\" source=\"k1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" target=\"sg\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k1-e1\" edge=\"1\" parent=\"1\" source=\"k1\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;\" target=\"e1\" value=\"+ (via anvendelse)\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n                &lt;mxCell id=\"k2-e3\" edge=\"1\" parent=\"1\" source=\"k2\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;\" target=\"e3\" value=\"+\"&gt;\n                    &lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;\n                &lt;/mxCell&gt;\n            &lt;/root&gt;\n        &lt;/mxGraphModel&gt;\n    &lt;/diagram&gt;\n&lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div></p>
+<ul>
+<li><strong>K1 – trygge helseråd basert på evidensbasert kunnskap:</strong> Bidrar til E1 gjennom kunnskap som innbyggerne kan forstå og anvende. Trygge råd alene garanterer ikke økt helsekompetanse eller endret helseadferd.</li>
+<li><strong>K2 – mer effektiv ressursbruk ved redusert eller utsatt tjenestebehov og mer rettidig bruk:</strong> Bidrar til E3 dersom nødvendig helsehjelp ikke forsinkes og kapasitet faktisk frigjøres. Rettidig tjenestebruk er ikke identisk med E2 om enklere veivisning.</li>
+<li>Satsingens eget samfunnsmål om lik tilgang til trygge helseråd, økt helsekompetanse og bedre evne til å ivareta helse støtter særlig G1 og tilgjengelighetsdelen av G3.</li>
+<li>Resultatmålene for prosjektet i 2026 – å tydeliggjøre målrettede helseråd og beskrive rammer og forutsetninger – forbereder satsingen. De må ikke behandles som allerede oppnådde helseeffekter.</li>
+</ul>
+<h3 id="kommunal-nettlege">Kommunal nettlege</h3>
+<p><div class="mxgraph" data-mxgraph='{"toolbar-position": "bottom", "toolbar-nohide": "0", "tooltips": "1", "border": 5, "resize": "1", "edit": "_blank", "lightbox": "1", "toolbar": "pages tags zoom layers lightbox", "xml": "&lt;mxfile host=\"65bd71144e\"&gt;&lt;diagram id=\"df-nettlege\" name=\"Kommunal-nettlege\"&gt;\n        &lt;mxGraphModel grid=\"1\" gridSize=\"10\" page=\"1\" pageScale=\"1\" pageWidth=\"1900\" pageHeight=\"1160\" background=\"#ffffff\"&gt;\n            &lt;root&gt;\n                &lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;\n                &lt;mxCell id=\"title\" value=\"Kommunal nettlege \u2013 sammenheng med samfunnsm\u00e5lene for digital f\u00f8rstelinje\" style=\"text;html=1;align=left;fontSize=23;fontStyle=1;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"40\" y=\"20\" width=\"1800\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"legend\" value=\"Samfunnsm\u00e5l = \u00f8nsket retning; Effektm\u00e5l = forventet virkning. Stiplet pil med + = analytisk Influence. N4 er vist uten pil: tilfredshet kan indikere nytte, men oppfyller ikke samfunnsm\u00e5lene i seg selv.\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"40\" y=\"70\" width=\"1800\" height=\"70\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"g1\" value=\"G1 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Aktiv rolle i egen og n\u00e6res helse\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"80\" y=\"170\" width=\"300\" height=\"90\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"g2\" value=\"G2 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Hjelpe flere med god kvalitet\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"500\" y=\"170\" width=\"300\" height=\"90\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"g3\" value=\"G3 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Sammenhengende, tilgjengelige og b\u00e6rekraftige digitale l\u00f8sninger&amp;lt;br&amp;gt;som st\u00f8tter innbyggere og helsepersonell\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"920\" y=\"170\" width=\"720\" height=\"90\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"goals-label\" value=\"Nettlegens overordnede m\u00e5l (Samfunnsm\u00e5l; tolkning av lysbilde 2\u20134)\" style=\"text;html=1;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"40\" y=\"320\" width=\"1700\" height=\"35\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"ng1\" value=\"NG1 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Aktiv medvirkning&amp;lt;br&amp;gt;i egen og n\u00e6res helse\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"80\" y=\"380\" width=\"300\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"ng2\" value=\"NG2 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Fleksibel og tilgjengelig&amp;lt;br&amp;gt;offentlig allmennlegetjeneste\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"500\" y=\"380\" width=\"300\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"ng3\" value=\"NG3 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;Sammenhengende, tilgjengelige&amp;lt;br&amp;gt;og enkle offentlige tjenester\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"920\" y=\"380\" width=\"300\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"ng4\" value=\"NG4 \u00b7 Samfunnsm\u00e5l&amp;lt;br&amp;gt;B\u00e6rekraftig&amp;lt;br&amp;gt;allmennlegetjeneste\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1340\" y=\"380\" width=\"300\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"outcomes-label\" value=\"Nettlegens \u00f8nskede virkninger (Effektm\u00e5l; lysbilde 6)\" style=\"text;html=1;align=left;fontSize=16;fontStyle=1;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"40\" y=\"560\" width=\"1700\" height=\"35\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"n4\" value=\"N4 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt tilfredshet&amp;lt;br&amp;gt;blant innbyggere\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"80\" y=\"620\" width=\"300\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"n2\" value=\"N2 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Avlastning av andre deler&amp;lt;br&amp;gt;av allmennlegetjenesten\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"500\" y=\"620\" width=\"300\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"n1\" value=\"N1 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;\u00d8kt tilgjengelighet og mer&amp;lt;br&amp;gt;likeverdig tilgang til allmennlege\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"920\" y=\"620\" width=\"300\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"n3\" value=\"N3 \u00b7 Effektm\u00e5l&amp;lt;br&amp;gt;Mer tidsriktige&amp;lt;br&amp;gt;allmennlegetjenester\" style=\"html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1340\" y=\"620\" width=\"300\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"note\" value=\"Hovedbidrag vises med pil. Ytterligere mulige bidrag: NG2 og N1 \u2192 G3/G2; NG4 og N2 \u2192 G2/G3; N3 \u2192 G1 gjennom digital dialog. N4 kan indikere brukernytte for G1/G3. Tilgang alene er ikke bevis for god kvalitet; avlastning m\u00e5 vurderes for tjenesten samlet.\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"40\" y=\"800\" width=\"1780\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"source\" value=\"Kilder: Digital nettlege oppsummering, lysbilde 2\u20136; TB2026-17, linje 497\u2013501. M\u00e5lene er tolket, ikke formelt navngitte samfunns- og effektm\u00e5l. Utpr\u00f8vingen er ikke dokumentasjon p\u00e5 oppn\u00e5dde effekter.\" style=\"text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"40\" y=\"970\" width=\"1780\" height=\"70\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"ng1-g1\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" edge=\"1\" parent=\"1\" source=\"ng1\" target=\"g1\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"ng2-g2\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;\" edge=\"1\" parent=\"1\" source=\"ng2\" target=\"g2\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"ng3-g3\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.2083;entryY=1;\" edge=\"1\" parent=\"1\" source=\"ng3\" target=\"g3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"ng4-g3\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.7917;entryY=1;\" edge=\"1\" parent=\"1\" source=\"ng4\" target=\"g3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"n2-g2\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;\" edge=\"1\" parent=\"1\" source=\"n2\" target=\"g2\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"840\" y=\"670\"/&gt;&lt;mxPoint x=\"840\" y=\"215\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"n1-g3\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0.45;entryY=1;\" edge=\"1\" parent=\"1\" source=\"n1\" target=\"g3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"1244\" y=\"670\"/&gt;&lt;mxPoint x=\"1244\" y=\"290\"/&gt;&lt;mxPoint x=\"1244\" y=\"260\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n                &lt;mxCell id=\"n3-g3\" value=\"+\" style=\"edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;\" edge=\"1\" parent=\"1\" source=\"n3\" target=\"g3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"1680\" y=\"670\"/&gt;&lt;mxPoint x=\"1680\" y=\"215\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;\n            &lt;/root&gt;\n        &lt;/mxGraphModel&gt;\n    &lt;/diagram&gt;\n    &lt;/mxfile&gt;"}' style="max-width:100%;border:1px solid transparent;"></div></p>
+<p>Presentasjonen bruker ikke betegnelsene «samfunnsmål» og «effektmål». NG1–NG4 og N1–N4 er derfor analytiske klassifiseringer av målretninger og ønskede virkninger, ikke formelt navngitte mål. Tjenesten prøves ut som et supplement til fastlege og legevakt; den er ikke et av de fem nummererte deloppdragene i TB2026-17.</p>
+<table>
+<thead>
+<tr>
+<th>Nettlegens målretning (Goal)</th>
+<th>Sammenheng med samfunnsmålene for digital førstelinje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NG1: Aktiv medvirkning i egen og næres helse.</td>
+<td>Samsvarer med G1. Digital dialog og oppfølging kan støtte medvirkning.</td>
+</tr>
+<tr>
+<td>NG2: En mer fleksibel og tilgjengelig offentlig allmennlegetjeneste.</td>
+<td>Støtter G2 og tilgjengelighetsdelen av G3. Nettlegens virkeområde er allmennlegetjenesten.</td>
+</tr>
+<tr>
+<td>NG3: Sammenhengende, tilgjengelige og enkle offentlige tjenester.</td>
+<td>Støtter G3; sammenheng forutsetter at samarbeidet med fastlege og legevakt fungerer i praksis.</td>
+</tr>
+<tr>
+<td>NG4: En mer bærekraftig allmennlegetjeneste.</td>
+<td>Støtter G2 og bærekraftsdelen av G3 dersom samlet kapasitet brukes bedre uten at kvaliteten svekkes.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nettlegens ønskede virkning (Outcome)</th>
+<th>Sammenheng med samfunnsmålene for digital førstelinje</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N1: Økt tilgjengelighet og mer likeverdig tilgang til allmennlegetjenester for hele befolkningen.</td>
+<td>Støtter G3 og kan bidra til G2 når flere får nødvendig helsehjelp.</td>
+</tr>
+<tr>
+<td>N2: Avlastning av andre deler av den offentlige allmennlegetjenesten.</td>
+<td>Kan bidra til G2 og bærekraftsdelen av G3 dersom kapasitet frigjøres samlet sett.</td>
+</tr>
+<tr>
+<td>N3: Mer tidsriktige allmennlegetjenester.</td>
+<td>Støtter G3 gjennom et digitalt tilbud, og kan støtte G1 gjennom enklere digital dialog.</td>
+</tr>
+<tr>
+<td>N4: Økt tilfredshet blant innbyggere.</td>
+<td>Kan indikere brukernytte i forhold til G1 og G3, men tilfredshet alene viser ikke sammenheng, bærekraft eller god kvalitet. N4 er derfor vist uten Influence-pil.</td>
+</tr>
+</tbody>
+</table>
+<p>Figurene viser hovedbidragene som positive <strong>Influence</strong>-relasjoner; de øvrige mulige koblingene er beskrevet i tabellene. I den samlede oversikten er N1 og N2 knyttet til E3, og N3 til E4. Resultatene er forventede virkninger som må vurderes i utprøvingen, ikke dokumenterte gevinster.</p>
+<p>Kilde: <code>private/input/Digital nettlege oppsummering.pptx</code>, lysbilde 2–6. Deler av presentasjonen er merket som arbeidsutkast.</p>
+<h3 id="tverrgaende-sammenheng-og-avgrensning">Tverrgående sammenheng og avgrensning</h3>
+<p>Deloppdragene utfyller hverandre: psykisk helse og rus bidrar innen et bestemt helseområde, selvhjelps- og behandlingsverktøy gir konkrete forebyggings- og behandlingstilbud, og målrettede helseråd gir kunnskapsbasert støtte. E2 har særlig forankring i <strong>deloppdrag 5 om digital veiviser</strong>. Deloppdrag 4 om forebygging, helsekompetanse og mestring er et tverrgående hensyn som støtter E1, ikke et fjerde effektmålsett som er formulert i de tre grunnlagsdokumentene.</p>
+<p>Modellen viser de viktigste begrunnede koblingene, ikke alle mulige påvirkninger. Et bærekraftig økosystem og næringsliv er en forutsetning for langsiktig utvikling og bruk. Verken økt bruk, innovasjon eller lavere ressursbruk alene viser at innbyggerne får bedre helse eller riktig hjelp. Slike gevinster må evalueres, med hensyn til pasientsikkerhet, personvern og risiko for utsatt nødvendig behandling.</p>
+<p>Kildegrunnlag for deloppdragenes effektmål:</p>
+<ul>
+<li><a href="../../private/markdown/TB2025-18-Økt%20bruk%20av%20kvalitetssikrede%20digitale%20løsninger%20innen%20psykisk%20helse%20og%20rus%20og%20avhengighet_.md">TB2025-18 – psykisk helse og rus</a>, kapittel om samfunns- og effektmål, linje 408–427.</li>
+<li><a href="../../private/markdown/Leveranse%202a%20ny%20versjon%2008.md">Leveranse 2a – ny versjon 08</a>, kapittel 5, linje 709–751. Målene er foreløpige.</li>
+<li><a href="../../private/markdown/Styringsdokument%20prosjekt%20offentlig%20KI-tjeneste%20målrettede%20helseråd%20%20v%201.1.md">Styringsdokument for målrettede helseråd v1.1</a>, kapittel 2.1, linje 170–181, og kapittel 2.2, linje 245–250.</li>
+</ul>
+<h2 id="kilde">Kilde</h2>
+<p>Helse- og omsorgsdepartementets tildelingsbrev til Helsedirektoratet for 2026, oppdrag <strong>TB2026-17 – Digital førstelinje</strong>, i <code>background/annet/markdown/2026-Helsedirektoratet-tildelingsbrev.pdf.md</code>, linje 496–501.</p>
+<aside class="md-source-file">
+<span class="md-source-file__fact">
+<span class="md-icon" title="Last update">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime" title="November 26, 2026 14:32:35 UTC">November 26, 2026 14:32:35</span>
+</span>
+</aside>
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+<script src="https://viewer.diagrams.net/js/viewer-static.min.js"></script></body>
+</html>
