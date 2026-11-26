@@ -80,17 +80,17 @@ Kilde: `private/markdown/Styringsdokument prosjekt offentlig KI-tjeneste målret
 
 ## Grafisk målmodell og deloppdragenes bidrag
 
-Modellen er en analytisk sammenstilling av kildene, ikke et vedtatt målhierarki eller dokumentasjon på oppnådde effekter. Måltekstene i figurene er forkortet. G1–G3, E1–E4, R1, P1–P2, V1–V8 og K1–K2 er lokale modellidentifikatorer, ikke offisielle målnumre.
+Modellen er en analytisk sammenstilling av kildene, ikke et vedtatt målhierarki eller dokumentasjon på oppnådde effekter. Måltekstene i figurene er forkortet. G1–G3, E1–E4, R1, P1–P2, V1–V8, K1–K2, NG1–NG4 og N1–N4 er lokale modellidentifikatorer, ikke offisielle målnumre.
 
 ### Samlet oversikt
 
 ![DF-samlet-oversikt](malbilde-analyse.drawio)
 
-Oversikten samler hovedoppdraget og de tre deloppdragenes effektmål på én side. Les figuren nedenfra og opp: deloppdragenes Outcomes påvirker hovedoppdragets Outcomes, som igjen støtter samfunnsmålene. Radene viser deloppdragene; kolonnene viser hvilket overordnet effektmål de særlig bidrar til. E1, E3, E4 og E2 er plassert i denne rekkefølgen for å holde pilene innenfor hver kolonne og unngå kryssende relasjoner.
+Oversikten samler hovedoppdraget, de tre deloppdragenes effektmål og kommunal nettleges ønskede virkninger på én side. Les figuren nedenfra og opp: Outcomes kan påvirke hovedoppdragets Outcomes, som igjen støtter samfunnsmålene. Radene viser innsatsområdene; kolonnene viser hvilket overordnet effektmål de særlig bidrar til. E1, E3, E4 og E2 er plassert i denne rekkefølgen for å holde pilene innenfor hver kolonne og redusere kryssende relasjoner.
 
 Alle tolv effektmål fra de tre deloppdragene er beholdt som egne Outcome-elementer. Kildenes egne samfunnsmål er oppsummert i tekst på denne oversiktssiden og modellert som Goal på detaljsidene. Deloppdrag 5 om veiviser er vist som Course of Action for å tydeliggjøre E2s særskilte forankring. R1, resultatmål og ytterligere indirekte bidrag forklares i teksten og på detaljsidene, slik at hovedoversikten ikke blir et fullt nettverk av alle mulige koblinger.
 
-De fire opprinnelige sidene nedenfor er beholdt som detaljvisninger; den samlede oversikten er første side i Draw.io-filen.
+Detaljvisningene nedenfor er beholdt; den samlede oversikten er første side i Draw.io-filen. Kommunal nettlege har også en egen detaljside med mål og direkte bidrag til G1–G3.
 
 ### Klassifisering og relasjoner i ArchiMate 3.2
 
@@ -155,6 +155,30 @@ Leveranse 2a formulerer ikke et eget samfunnsmål i kapittel 5. Det er derfor ik
 * **K2 – mer effektiv ressursbruk ved redusert eller utsatt tjenestebehov og mer rettidig bruk:** Bidrar til E3 dersom nødvendig helsehjelp ikke forsinkes og kapasitet faktisk frigjøres. Rettidig tjenestebruk er ikke identisk med E2 om enklere veivisning.
 * Satsingens eget samfunnsmål om lik tilgang til trygge helseråd, økt helsekompetanse og bedre evne til å ivareta helse støtter særlig G1 og tilgjengelighetsdelen av G3.
 * Resultatmålene for prosjektet i 2026 – å tydeliggjøre målrettede helseråd og beskrive rammer og forutsetninger – forbereder satsingen. De må ikke behandles som allerede oppnådde helseeffekter.
+
+### Kommunal nettlege
+
+![Kommunal-nettlege](malbilde-analyse.drawio)
+
+Presentasjonen bruker ikke betegnelsene «samfunnsmål» og «effektmål». NG1–NG4 og N1–N4 er derfor analytiske klassifiseringer av målretninger og ønskede virkninger, ikke formelt navngitte mål. Tjenesten prøves ut som et supplement til fastlege og legevakt; den er ikke et av de fem nummererte deloppdragene i TB2026-17.
+
+| Nettlegens målretning (Goal) | Sammenheng med samfunnsmålene for digital førstelinje |
+|---|---|
+| NG1: Aktiv medvirkning i egen og næres helse. | Samsvarer med G1. Digital dialog og oppfølging kan støtte medvirkning. |
+| NG2: En mer fleksibel og tilgjengelig offentlig allmennlegetjeneste. | Støtter G2 og tilgjengelighetsdelen av G3. Nettlegens virkeområde er allmennlegetjenesten. |
+| NG3: Sammenhengende, tilgjengelige og enkle offentlige tjenester. | Støtter G3; sammenheng forutsetter at samarbeidet med fastlege og legevakt fungerer i praksis. |
+| NG4: En mer bærekraftig allmennlegetjeneste. | Støtter G2 og bærekraftsdelen av G3 dersom samlet kapasitet brukes bedre uten at kvaliteten svekkes. |
+
+| Nettlegens ønskede virkning (Outcome) | Sammenheng med samfunnsmålene for digital førstelinje |
+|---|---|
+| N1: Økt tilgjengelighet og mer likeverdig tilgang til allmennlegetjenester for hele befolkningen. | Støtter G3 og kan bidra til G2 når flere får nødvendig helsehjelp. |
+| N2: Avlastning av andre deler av den offentlige allmennlegetjenesten. | Kan bidra til G2 og bærekraftsdelen av G3 dersom kapasitet frigjøres samlet sett. |
+| N3: Mer tidsriktige allmennlegetjenester. | Støtter G3 gjennom et digitalt tilbud, og kan støtte G1 gjennom enklere digital dialog. |
+| N4: Økt tilfredshet blant innbyggere. | Kan indikere brukernytte i forhold til G1 og G3, men tilfredshet alene viser ikke sammenheng, bærekraft eller god kvalitet. N4 er derfor vist uten Influence-pil. |
+
+Figurene viser hovedbidragene som positive **Influence**-relasjoner; de øvrige mulige koblingene er beskrevet i tabellene. I den samlede oversikten er N1 og N2 knyttet til E3, og N3 til E4. Resultatene er forventede virkninger som må vurderes i utprøvingen, ikke dokumenterte gevinster.
+
+Kilde: `private/input/Digital nettlege oppsummering.pptx`, lysbilde 2–6. Deler av presentasjonen er merket som arbeidsutkast.
 
 ### Tverrgående sammenheng og avgrensning
 
