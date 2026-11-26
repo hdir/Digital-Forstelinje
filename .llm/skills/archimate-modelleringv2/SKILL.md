@@ -474,6 +474,11 @@ samme `fillColor` per lag i alle nye diagrammer:
 - Ikke sett egen `strokeColor` på ArchiMate-shapes — Draw.io henter standard
   konturfarge fra ArchiMate-temaet, og dette matcher referansediagrammet.
 
+### Draw.io dokumentasjon
+
+* Hvis det eksisterer dokumentasjon fra markdown eller andre kilder som forklarer innholdet i elementer eller relasjoner, kan et utdrag/oppsummering av disse inkluders som verktøytips/tooltip i draw.io diagrammer for bedre lesbarhet og mer komplett dokumentasjon.
+* Tooltip bør uansett inneholde navnet på elementet eller relasjonen det gjelder, slik at brukeren enklere kan lese enkeltelementer i diagrammet med mouseover, også når diagrammet er stort og teksten er blitt for liten til å lese direkte.
+
 ### Draw.io ArchiMate-shapes
 
 Draw.io har innebygd ArchiMate 3.0-bibliotek. Bruk shape-prefiks `mxgraph.archimate3.*`:
