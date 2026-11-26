@@ -13,90 +13,130 @@
                 <mxCell id="goals-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Samfunnsmål&lt;br&gt;TB2026-17&lt;br&gt;(tolkning)" vertex="1">
                     <mxGeometry height="90" width="160" x="40" y="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="g1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" value="G1 · Samfunnsmål&lt;br&gt;Aktiv rolle i egen&lt;br&gt;og næres helse" vertex="1">
+                <object label="G1 · Samfunnsmål&lt;br&gt;Aktiv rolle i egen&lt;br&gt;og næres helse" tooltip="G1 – Aktiv rolle i egen og næres helse: Innbyggerne kan ta en aktiv rolle i å ivareta egen og næres helse. Dette er en tolkning av målretningen i TB2026-17." id="g1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1">
                     <mxGeometry height="100" width="270" x="220" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="g2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" value="G2 · Samfunnsmål&lt;br&gt;Hjelpe flere med&lt;br&gt;god kvalitet" vertex="1">
+                </object>
+                <object label="G2 · Samfunnsmål&lt;br&gt;Hjelpe flere med&lt;br&gt;god kvalitet" tooltip="G2 – Hjelpe flere med god kvalitet: Helse- og omsorgstjenesten skal styrke evnen til å yte helsehjelp til flere, med god kvalitet. Dette er en tolkning av TB2026-17." id="g2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1">
                     <mxGeometry height="100" width="270" x="650" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="g3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" value="G3 · Samfunnsmål&lt;br&gt;Sammenhengende, tilgjengelige og bærekraftige digitale løsninger&lt;br&gt;som støtter innbyggere og helsepersonell" vertex="1">
+                </object>
+                <object label="G3 · Samfunnsmål&lt;br&gt;Sammenhengende, tilgjengelige og bærekraftige digitale løsninger&lt;br&gt;som støtter innbyggere og helsepersonell" tooltip="G3 – Sammenhengende, tilgjengelige og bærekraftige digitale løsninger: Løsningene skal støtte innbyggernes behov og helsepersonellets arbeidshverdag. Dette er en tolkning av TB2026-17." id="g3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1">
                     <mxGeometry height="100" width="700" x="1080" y="150" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="effects-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Effektmål&lt;br&gt;Hovedoppdrag&lt;br&gt;(tolkning)" vertex="1">
                     <mxGeometry height="100" width="160" x="40" y="330" as="geometry"/>
                 </mxCell>
-                <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E1 · Effektmål&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" vertex="1">
+                <object label="E1 · Effektmål&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" tooltip="E1 – Aktiv helserolle, forebygging, helsekompetanse og mestring: Innbyggerne får bedre mulighet til å ivareta egen og næres helse, forebygge helseutfordringer og mestre egen helse." id="e1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="270" x="220" y="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E3 · Effektmål&lt;br&gt;Styrket evne til å gi helsehjelp&lt;br&gt;til flere med god kvalitet" vertex="1">
+                </object>
+                <object label="E3 · Effektmål&lt;br&gt;Styrket evne til å gi helsehjelp&lt;br&gt;til flere med god kvalitet" tooltip="E3 – Helsehjelp til flere med god kvalitet: Tjenesten styrker evnen til å yte helsehjelp til flere, samtidig som kvaliteten ivaretas." id="e3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="270" x="650" y="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="e4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E4 · Effektmål&lt;br&gt;Støtte til personellets arbeid&lt;br&gt;og sammenhengende tjenester" vertex="1">
+                </object>
+                <object label="E4 · Effektmål&lt;br&gt;Støtte til personellets arbeid&lt;br&gt;og sammenhengende tjenester" tooltip="E4 – Støtte til helsepersonell og sammenhengende tjenester: Digitale løsninger støtter helsepersonellets arbeidshverdag og bidrar til sammenhengende og tilgjengelige tjenester." id="e4">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="270" x="1080" y="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="e2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E2 · Effektmål&lt;br&gt;Enklere å finne riktig&lt;br&gt;helsetjeneste for behovet" vertex="1">
+                </object>
+                <object label="E2 · Effektmål&lt;br&gt;Enklere å finne riktig&lt;br&gt;helsetjeneste for behovet" tooltip="E2 – Enklere å finne riktig helsetjeneste: En digital veiviser skal på sikt gjøre det enklere for innbyggerne å finne en tjeneste som passer deres behov." id="e2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="270" x="1510" y="320" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="p-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Deloppdrag 3&lt;br&gt;Psykisk helse&lt;br&gt;og rus&lt;br&gt;TB2025-18" vertex="1">
                     <mxGeometry height="110" width="160" x="40" y="570" as="geometry"/>
                 </mxCell>
-                <mxCell id="p1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="P1 · Effektmål (EM1)&lt;br&gt;Mer tilgjengelige tjenester&lt;br&gt;for psykiske helseplager" vertex="1">
+                <object label="P1 · Effektmål (EM1)&lt;br&gt;Mer tilgjengelige tjenester&lt;br&gt;for psykiske helseplager" tooltip="P1 / EM1 – Mer tilgjengelige tjenester for psykiske helseplager: Innbyggerne får mer tilgjengelige helse- og omsorgstjenester gjennom økt bruk av digitale verktøy. Kilde: TB2025-18." id="p1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="650" y="550" as="geometry"/>
                 </mxCell>
-                <mxCell id="p2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="P2 · Effektmål (EM2)&lt;br&gt;Mer effektiv ressursutnyttelse&lt;br&gt;ved bruk av digitale verktøy" vertex="1">
+                </object>
+                <object label="P2 · Effektmål (EM2)&lt;br&gt;Mer effektiv ressursutnyttelse&lt;br&gt;ved bruk av digitale verktøy" tooltip="P2 / EM2 – Mer effektiv ressursutnyttelse: Helsetjenesten utnytter ressursene mer effektivt ved økt bruk av digitale verktøy. Kilde: TB2025-18." id="p2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="650" y="650" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="p-note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Tidligere hjelp og fleksible forløp&lt;br&gt;er delmål som også kan støtte E1/E4.&lt;br&gt;De er ikke egne EM1/EM2." vertex="1">
                     <mxGeometry height="100" width="270" x="220" y="550" as="geometry"/>
                 </mxCell>
                 <mxCell id="p-goal" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Kildens Samfunnsmål:&lt;br&gt;God psykisk helse og livskvalitet;&lt;br&gt;god, lett tilgjengelig hjelp.&lt;br&gt;Beholdes som eget mål på detaljsiden." vertex="1">
                     <mxGeometry height="140" width="270" x="1080" y="550" as="geometry"/>
                 </mxCell>
-                <mxCell id="d5" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=course;archiType=rounded;fillColor=#F5DEAA;fontColor=#333333;fontSize=16;" value="Course of Action · Deloppdrag 5&lt;br&gt;Etablere første trinn&lt;br&gt;av en digital veiviser" vertex="1">
+                <object label="Course of Action · Deloppdrag 5&lt;br&gt;Etablere første trinn&lt;br&gt;av en digital veiviser" tooltip="Deloppdrag 5 – Digital veiviser: Et første trinn skal etableres på tvers av de aktuelle tjenesteområdene og nettlegen, slik at innbyggerne på sikt lettere finner riktig tjeneste." id="d5">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=course;archiType=rounded;fillColor=#F5DEAA;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="100" width="270" x="1510" y="550" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="e2-note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Tilgang til verktøy og rettidig bruk&lt;br&gt;er ikke det samme som veivisning.&lt;br&gt;E2 ivaretas særlig av deloppdrag 5." vertex="1">
                     <mxGeometry height="100" width="270" x="1510" y="690" as="geometry"/>
                 </mxCell>
                 <mxCell id="v-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Deloppdrag 2&lt;br&gt;Selvhjelps- og&lt;br&gt;behandlingsverktøy&lt;br&gt;Leveranse 2a&lt;br&gt;(foreløpige mål)" vertex="1">
                     <mxGeometry height="150" width="160" x="40" y="850" as="geometry"/>
                 </mxCell>
-                <mxCell id="v1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V1 · Effektmål&lt;br&gt;Økt egenmestring&lt;br&gt;og bedre helse" vertex="1">
+                <object label="V1 · Effektmål&lt;br&gt;Økt egenmestring&lt;br&gt;og bedre helse" tooltip="V1 – Økt egenmestring og bedre helse: Flere innbyggere opplever bedre helse gjennom forebygging, behandling og oppfølging. Foreløpig effektmål i Leveranse 2a." id="v1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="220" y="850" as="geometry"/>
                 </mxCell>
-                <mxCell id="v2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V2 · Effektmål&lt;br&gt;Tidlig og tilpasset støtte&lt;br&gt;til forebygging" vertex="1">
+                </object>
+                <object label="V2 · Effektmål&lt;br&gt;Tidlig og tilpasset støtte&lt;br&gt;til forebygging" tooltip="V2 – Tidlig og tilpasset støtte: Flere får hjelp til å forebygge eller begrense helseutfordringer, på egen hånd eller med oppfølging fra helsepersonell. Foreløpig effektmål i Leveranse 2a." id="v2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="220" y="950" as="geometry"/>
                 </mxCell>
-                <mxCell id="v3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V3 · Effektmål&lt;br&gt;Bedre tilgang til virksomme&lt;br&gt;digitale behandlingsverktøy" vertex="1">
+                </object>
+                <object label="V3 · Effektmål&lt;br&gt;Bedre tilgang til virksomme&lt;br&gt;digitale behandlingsverktøy" tooltip="V3 – Bedre tilgang til digitale behandlingsverktøy: Innbyggere med behov for behandling får bedre tilgang til virksomme digitale behandlingsverktøy som del av helsehjelpen. Foreløpig effektmål i Leveranse 2a." id="v3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="650" y="850" as="geometry"/>
                 </mxCell>
-                <mxCell id="v4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V4 · Effektmål&lt;br&gt;Mindre geografiske og organisatoriske&lt;br&gt;forskjeller i tilgang" vertex="1">
+                </object>
+                <object label="V4 · Effektmål&lt;br&gt;Mindre geografiske og organisatoriske&lt;br&gt;forskjeller i tilgang" tooltip="V4 – Mer likeverdig tilgang: Geografiske og organisatoriske forskjeller i tilgang til relevante, kvalitetssikrede verktøy reduseres. Foreløpig effektmål i Leveranse 2a." id="v4">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="650" y="950" as="geometry"/>
                 </mxCell>
-                <mxCell id="v5" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V5 · Effektmål&lt;br&gt;Bedre ressursutnyttelse&lt;br&gt;og økt kapasitet" vertex="1">
+                </object>
+                <object label="V5 · Effektmål&lt;br&gt;Bedre ressursutnyttelse&lt;br&gt;og økt kapasitet" tooltip="V5 – Bedre ressursutnyttelse og økt kapasitet: Helse- og omsorgstjenesten kan utnytte ressurser bedre og øke kapasiteten. Foreløpig effektmål i Leveranse 2a." id="v5">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="650" y="1050" as="geometry"/>
                 </mxCell>
-                <mxCell id="v6" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V6 · Effektmål&lt;br&gt;Personelltid og kompetanse&lt;br&gt;til de største behovene" vertex="1">
+                </object>
+                <object label="V6 · Effektmål&lt;br&gt;Personelltid og kompetanse&lt;br&gt;til de største behovene" tooltip="V6 – Personelltid til de største behovene: Helsepersonellets tid og kompetanse kan i større grad brukes til innbyggere med de største eller mest sammensatte behovene. Foreløpig effektmål i Leveranse 2a." id="v6">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="650" y="1150" as="geometry"/>
                 </mxCell>
-                <mxCell id="v7" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V7 · Effektmål&lt;br&gt;Fleksibel og individuelt&lt;br&gt;tilpasset behandling og oppfølging" vertex="1">
+                </object>
+                <object label="V7 · Effektmål&lt;br&gt;Fleksibel og individuelt&lt;br&gt;tilpasset behandling og oppfølging" tooltip="V7 – Fleksibel og individuelt tilpasset behandling: Behandling og oppfølging blir mer fleksibel og tilpasset den enkelte. Foreløpig effektmål i Leveranse 2a." id="v7">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="1080" y="850" as="geometry"/>
                 </mxCell>
-                <mxCell id="v8" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="V8 · Effektmål&lt;br&gt;Innovativ tjeneste i samarbeid&lt;br&gt;med forskning og næringsliv" vertex="1">
+                </object>
+                <object label="V8 · Effektmål&lt;br&gt;Innovativ tjeneste i samarbeid&lt;br&gt;med forskning og næringsliv" tooltip="V8 – Mer innovativ helse- og omsorgstjeneste: Tjenesten samarbeider med forskningsmiljøer og næringsliv og nyttiggjør seg deres kompetanse, kapasitet og løsninger. Foreløpig effektmål i Leveranse 2a." id="v8">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="80" width="270" x="1080" y="950" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="v-note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="V8 → E4 er indirekte.&lt;br&gt;Økt bruk (R1) er et mellomliggende&lt;br&gt;resultat, ikke bevis for helsegevinst.&lt;br&gt;R1 og forutsetningene er vist&lt;br&gt;på detaljsidene og forklart i teksten." vertex="1">
                     <mxGeometry height="160" width="270" x="1510" y="850" as="geometry"/>
                 </mxCell>
                 <mxCell id="k-label" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" value="Deloppdrag 1&lt;br&gt;Målrettede&lt;br&gt;helseråd&lt;br&gt;Styringsdokument&lt;br&gt;v1.1" vertex="1">
                     <mxGeometry height="130" width="160" x="40" y="1310" as="geometry"/>
                 </mxCell>
-                <mxCell id="k1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="K1 · Effektmål&lt;br&gt;Trygge, evidensbaserte&lt;br&gt;helseråd" vertex="1">
+                <object label="K1 · Effektmål&lt;br&gt;Trygge, evidensbaserte&lt;br&gt;helseråd" tooltip="K1 – Trygge, evidensbaserte helseråd: Innbyggere får trygge helseråd basert på evidensbasert kunnskap. Kilde: styringsdokumentet for målrettede helseråd." id="k1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="90" width="270" x="220" y="1320" as="geometry"/>
                 </mxCell>
-                <mxCell id="k2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="K2 · Effektmål&lt;br&gt;Effektiv ressursbruk: redusert/utsatt&lt;br&gt;behov og mer rettidig tjenestebruk" vertex="1">
+                </object>
+                <object label="K2 · Effektmål&lt;br&gt;Effektiv ressursbruk: redusert/utsatt&lt;br&gt;behov og mer rettidig tjenestebruk" tooltip="K2 – Mer effektiv ressursbruk: Behov for helsetjenester reduseres eller utsettes, og tjenestene brukes mer rettidig. Nødvendig helsehjelp må ikke forsinkes." id="k2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="90" width="270" x="650" y="1320" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="k-goal" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="Kildens Samfunnsmål:&lt;br&gt;Lik tilgang til trygge helseråd,&lt;br&gt;økt helsekompetanse og evne&lt;br&gt;til å ivareta egen og andres helse." vertex="1">
                     <mxGeometry height="120" width="270" x="1080" y="1320" as="geometry"/>
                 </mxCell>
@@ -107,27 +147,50 @@
                     <mxGeometry height="60" width="1800" x="40" y="1860" as="geometry"/>
                 </mxCell>
                 <mxCell id="nettlege-label" value="Kommunal&lt;br&gt;nettlege&lt;br&gt;Utprøving&lt;br&gt;(2025–2027)" style="text;html=1;whiteSpace=wrap;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="1540" width="160" height="130" as="geometry"/></mxCell>
-                <mxCell id="nettlege-n1" value="N1 · Effektmål&lt;br&gt;Økt tilgjengelighet og mer&lt;br&gt;likeverdig tilgang" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="650" y="1520" width="270" height="80" as="geometry"/></mxCell>
-                <mxCell id="nettlege-n2" value="N2 · Effektmål&lt;br&gt;Avlastning av andre deler&lt;br&gt;av allmennlegetjenesten" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="650" y="1640" width="270" height="80" as="geometry"/></mxCell>
-                <mxCell id="nettlege-n3" value="N3 · Effektmål&lt;br&gt;Mer tidsriktige&lt;br&gt;allmennlegetjenester" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="1080" y="1520" width="270" height="80" as="geometry"/></mxCell>
-                <mxCell id="nettlege-n4" value="N4 · Effektmål&lt;br&gt;Økt tilfredshet&lt;br&gt;blant innbyggere" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="1510" y="1520" width="270" height="80" as="geometry"/></mxCell>
+                <object label="N1 · Effektmål&lt;br&gt;Økt tilgjengelighet og mer&lt;br&gt;likeverdig tilgang" tooltip="N1 – Økt tilgjengelighet og likeverdig tilgang: Hele befolkningen skal få bedre og mer likeverdig tilgang til allmennlegetjenester. Ønsket virkning fra nettlegepresentasjonen." id="nettlege-n1">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="650" y="1520" width="270" height="80" as="geometry"/></mxCell>
+                </object>
+                <object label="N2 · Effektmål&lt;br&gt;Avlastning av andre deler&lt;br&gt;av allmennlegetjenesten" tooltip="N2 – Avlastning: Andre deler av den offentlige allmennlegetjenesten skal avlastes. Frigjort kapasitet må vurderes for tjenesten samlet." id="nettlege-n2">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="650" y="1640" width="270" height="80" as="geometry"/></mxCell>
+                </object>
+                <object label="N3 · Effektmål&lt;br&gt;Mer tidsriktige&lt;br&gt;allmennlegetjenester" tooltip="N3 – Mer tidsriktige allmennlegetjenester: Den kommunale nettlegen gir et digitalt tilbud til innbyggere med problemstillinger som egner seg for videokonsultasjon." id="nettlege-n3">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="1080" y="1520" width="270" height="80" as="geometry"/></mxCell>
+                </object>
+                <object label="N4 · Effektmål&lt;br&gt;Økt tilfredshet&lt;br&gt;blant innbyggere" tooltip="N4 – Økt tilfredshet: Innbyggerne skal bli mer tilfredse. Tilfredshet alene dokumenterer ikke sammenheng, bærekraft eller god kvalitet." id="nettlege-n4">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="1510" y="1520" width="270" height="80" as="geometry"/></mxCell>
+                </object>
                 <mxCell id="nettlege-note" value="N1/N2 kan støtte E3, N3 kan støtte E4. N4 er en ønsket virkning, men tilfredshet alene dokumenterer ikke måloppnåelse. Nettlegens mål og direkte bidrag til G1–G3 vises på detaljsiden Kommunal-nettlege." style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="1080" y="1640" width="700" height="120" as="geometry"/></mxCell>
-                <mxCell id="nettlege-n1-e3" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.8;" edge="1" parent="1" source="nettlege-n1" target="e3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="610" y="1560"/><mxPoint x="610" y="408"/></Array></mxGeometry></mxCell>
-                <mxCell id="nettlege-n2-e3" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.6;" edge="1" parent="1" source="nettlege-n2" target="e3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="590" y="1680"/><mxPoint x="590" y="386"/></Array></mxGeometry></mxCell>
-                <mxCell id="nettlege-n3-e4" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.1;" edge="1" parent="1" source="nettlege-n3" target="e4"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1420" y="1560"/><mxPoint x="1420" y="331"/></Array></mxGeometry></mxCell>
-                <mxCell id="e1-g1" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g1" value="+">
+                <object label="+" tooltip="Fra N1 · Effektmål Økt tilgjengelighet og mer likeverdig tilgang til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Bedre og mer likeverdig tilgang til allmennlege kan styrke evnen til å hjelpe flere når nødvendig helsehjelp og god kvalitet ivaretas. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="nettlege-n1-e3">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.8;" edge="1" parent="1" source="nettlege-n1" target="e3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="610" y="1560"/><mxPoint x="610" y="408"/></Array></mxGeometry></mxCell>
+                </object>
+                <object label="+" tooltip="Fra N2 · Effektmål Avlastning av andre deler av allmennlegetjenesten til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Avlastning kan bidra til å hjelpe flere dersom den frigjør kapasitet for allmennlegetjenesten samlet og kvaliteten opprettholdes. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="nettlege-n2-e3">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.6;" edge="1" parent="1" source="nettlege-n2" target="e3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="590" y="1680"/><mxPoint x="590" y="386"/></Array></mxGeometry></mxCell>
+                </object>
+                <object label="+" tooltip="Fra N3 · Effektmål Mer tidsriktige allmennlegetjenester til E4 · Effektmål Støtte til personellets arbeid og sammenhengende tjenester. Et tidsriktig digitalt tilbud kan støtte helsepersonellets arbeidsmåter og sammenhengende tjenester dersom samhandling fungerer i praksis. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="nettlege-n3-e4">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.1;" edge="1" parent="1" source="nettlege-n3" target="e4"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1420" y="1560"/><mxPoint x="1420" y="331"/></Array></mxGeometry></mxCell>
+                </object>
+                <object label="+" tooltip="Fra E1 · Effektmål Aktiv helserolle, forebygging, helsekompetanse og mestring til G1 · Samfunnsmål Aktiv rolle i egen og næres helse. Kunnskap og mestring støtter innbyggernes mulighet til å ta en aktiv rolle i å ivareta egen og næres helse. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="e1-g1">
+                    <mxCell edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e3-g2" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g2" value="+">
+                </object>
+                <object label="+" tooltip="Fra E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet til G2 · Samfunnsmål Hjelpe flere med god kvalitet. Styrket evne til å hjelpe flere med god kvalitet uttrykker den forventede endringen som støtter den overordnede målretningen. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="e3-g2">
+                    <mxCell edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e4-g3" edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.193;entryY=1;" target="g3" value="+">
+                </object>
+                <object label="+" tooltip="Fra E4 · Effektmål Støtte til personellets arbeid og sammenhengende tjenester til G3 · Samfunnsmål Sammenhengende, tilgjengelige og bærekraftige digitale løsninger som støtter innbyggere og helsepersonell. Bedre arbeidsflyt, samhandling og tilgjengelige tjenester støtter målretningen om sammenhengende digitale løsninger. Bærekraft må også vurderes særskilt. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="e4-g3">
+                    <mxCell edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.193;entryY=1;" target="g3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e2-g3" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.807;entryY=1;" target="g3" value="+">
+                </object>
+                <object label="+" tooltip="Fra E2 · Effektmål Enklere å finne riktig helsetjeneste for behovet til G3 · Samfunnsmål Sammenhengende, tilgjengelige og bærekraftige digitale løsninger som støtter innbyggere og helsepersonell. Veivisning kan gjøre relevante tjenester mer tilgjengelige, men realiserer ikke alene sammenhengende eller bærekraftige løsninger. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="e2-g3">
+                    <mxCell edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.807;entryY=1;" target="g3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="p1-e3" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.85;" target="e3">
+                </object>
+                <object label="" tooltip="Fra P1 · Effektmål (EM1) Mer tilgjengelige tjenester for psykiske helseplager til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Bedre tilgjengelighet til tjenester for psykiske helseplager kan bidra til at flere får hjelp innen dette helseområdet. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="p1-e3">
+                    <mxCell edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.85;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="940" y="590"/>
@@ -135,7 +198,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="p2-e3" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.75;" target="e3">
+                </object>
+                <object label="" tooltip="Fra P2 · Effektmål (EM2) Mer effektiv ressursutnyttelse ved bruk av digitale verktøy til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Mer effektiv ressursutnyttelse kan bidra til at flere får hjelp dersom gevinsten frigjør kapasitet og kvaliteten ivaretas. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="p2-e3">
+                    <mxCell edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.75;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="955" y="690"/>
@@ -143,7 +208,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v1-e1" edge="1" parent="1" source="v1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.7;" target="e1">
+                </object>
+                <object label="" tooltip="Fra V1 · Effektmål Økt egenmestring og bedre helse til E1 · Effektmål Aktiv helserolle, forebygging, helsekompetanse og mestring. Bedre helse og økt egenmestring konkretiserer innbyggernes aktive rolle i å ivareta egen helse. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v1-e1">
+                    <mxCell edge="1" parent="1" source="v1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.7;" target="e1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="510" y="890"/>
@@ -151,7 +218,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v2-e1" edge="1" parent="1" source="v2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="e1">
+                </object>
+                <object label="" tooltip="Fra V2 · Effektmål Tidlig og tilpasset støtte til forebygging til E1 · Effektmål Aktiv helserolle, forebygging, helsekompetanse og mestring. Tidlig og tilpasset støtte kan hjelpe innbyggerne å forebygge eller begrense helseutfordringer og mestre egen helse. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v2-e1">
+                    <mxCell edge="1" parent="1" source="v2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="e1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="535" y="990"/>
@@ -159,7 +228,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v3-e3" edge="1" parent="1" source="v3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.65;" target="e3">
+                </object>
+                <object label="" tooltip="Fra V3 · Effektmål Bedre tilgang til virksomme digitale behandlingsverktøy til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Bedre tilgang til virksomme digitale behandlingsverktøy som del av helsehjelpen kan gi flere tilgang til relevant hjelp. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v3-e3">
+                    <mxCell edge="1" parent="1" source="v3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.65;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="970" y="890"/>
@@ -167,7 +238,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v4-e3" edge="1" parent="1" source="v4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.55;" target="e3">
+                </object>
+                <object label="" tooltip="Fra V4 · Effektmål Mindre geografiske og organisatoriske forskjeller i tilgang til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Mindre geografisk og organisatorisk ulikhet i tilgang kan gjøre at relevante, kvalitetssikrede verktøy når flere grupper. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v4-e3">
+                    <mxCell edge="1" parent="1" source="v4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.55;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="985" y="990"/>
@@ -175,7 +248,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v5-e3" edge="1" parent="1" source="v5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.45;" target="e3">
+                </object>
+                <object label="" tooltip="Fra V5 · Effektmål Bedre ressursutnyttelse og økt kapasitet til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Bedre ressursutnyttelse og økt kapasitet kan styrke tjenestens evne til å hjelpe flere med god kvalitet. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v5-e3">
+                    <mxCell edge="1" parent="1" source="v5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.45;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1000" y="1090"/>
@@ -183,7 +258,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v6-e3" edge="1" parent="1" source="v6" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.35;" target="e3">
+                </object>
+                <object label="" tooltip="Fra V6 · Effektmål Personelltid og kompetanse til de største behovene til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Mer tid og kompetanse til de største eller mest sammensatte behovene kan gi bedre prioritering av kapasitet og kompetanse. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v6-e3">
+                    <mxCell edge="1" parent="1" source="v6" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.35;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1015" y="1190"/>
@@ -191,7 +268,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v7-e4" edge="1" parent="1" source="v7" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.6;" target="e4">
+                </object>
+                <object label="" tooltip="Fra V7 · Effektmål Fleksibel og individuelt tilpasset behandling og oppfølging til E4 · Effektmål Støtte til personellets arbeid og sammenhengende tjenester. Fleksibel og individuelt tilpasset behandling og oppfølging kan støtte arbeidsflyt og sammenhengende tjenestetilbud. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v7-e4">
+                    <mxCell edge="1" parent="1" source="v7" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.6;" target="e4">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1370" y="890"/>
@@ -199,7 +278,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v8-e4" edge="1" parent="1" source="v8" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;" target="e4">
+                </object>
+                <object label="" tooltip="Fra V8 · Effektmål Innovativ tjeneste i samarbeid med forskning og næringsliv til E4 · Effektmål Støtte til personellets arbeid og sammenhengende tjenester. Innovasjon kan indirekte støtte arbeidsflyt og sammenhengende tjenester, avhengig av hvilke løsninger og arbeidsformer samarbeidet gir. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v8-e4">
+                    <mxCell edge="1" parent="1" source="v8" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;" target="e4">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1395" y="990"/>
@@ -207,7 +288,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="k1-e1" edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;" target="e1">
+                </object>
+                <object label="" tooltip="Fra K1 · Effektmål Trygge, evidensbaserte helseråd til E1 · Effektmål Aktiv helserolle, forebygging, helsekompetanse og mestring. Trygge, evidensbaserte råd kan støtte helsekompetanse og mestring når innbyggerne forstår og kan anvende dem; råd alene garanterer ikke endret atferd. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="k1-e1">
+                    <mxCell edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.3;" target="e1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="560" y="1365"/>
@@ -215,7 +298,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="k2-e3" edge="1" parent="1" source="k2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.25;" target="e3">
+                </object>
+                <object label="" tooltip="Fra K2 · Effektmål Effektiv ressursbruk: redusert/utsatt behov og mer rettidig tjenestebruk til E3 · Effektmål Styrket evne til å gi helsehjelp til flere med god kvalitet. Mer effektiv ressursbruk kan styrke kapasiteten til å hjelpe flere dersom nødvendig helsehjelp ikke forsinkes og kapasitet faktisk frigjøres. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="k2-e3">
+                    <mxCell edge="1" parent="1" source="k2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.25;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="1030" y="1365"/>
@@ -223,9 +308,12 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="d5-e2" edge="1" parent="1" source="d5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="e2" value="+">
+                </object>
+                <object label="+" tooltip="Fra Course of Action · Deloppdrag 5 Etablere første trinn av en digital veiviser til E2 · Effektmål Enklere å finne riktig helsetjeneste for behovet. En digital veiviser er et tiltak som på sikt skal gjøre det enklere å finne riktig helsetjeneste for innbyggerens behov. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="d5-e2">
+                    <mxCell edge="1" parent="1" source="d5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="e2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                </object>
             </root>
         </mxGraphModel>
     </diagram>
@@ -235,28 +323,64 @@
                 <mxCell id="0"/><mxCell id="1" parent="0"/>
                 <mxCell id="title" value="Kommunal nettlege – sammenheng med samfunnsmålene for digital førstelinje" style="text;html=1;align=left;fontSize=23;fontStyle=1;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="20" width="1800" height="40" as="geometry"/></mxCell>
                 <mxCell id="legend" value="Samfunnsmål = ønsket retning; Effektmål = forventet virkning. Stiplet pil med + = analytisk Influence. N4 er vist uten pil: tilfredshet kan indikere nytte, men oppfyller ikke samfunnsmålene i seg selv." style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="70" width="1800" height="70" as="geometry"/></mxCell>
-                <mxCell id="g1" value="G1 · Samfunnsmål&lt;br&gt;Aktiv rolle i egen og næres helse" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1" parent="1"><mxGeometry x="80" y="170" width="300" height="90" as="geometry"/></mxCell>
-                <mxCell id="g2" value="G2 · Samfunnsmål&lt;br&gt;Hjelpe flere med god kvalitet" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1" parent="1"><mxGeometry x="500" y="170" width="300" height="90" as="geometry"/></mxCell>
-                <mxCell id="g3" value="G3 · Samfunnsmål&lt;br&gt;Sammenhengende, tilgjengelige og bærekraftige digitale løsninger&lt;br&gt;som støtter innbyggere og helsepersonell" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1" parent="1"><mxGeometry x="920" y="170" width="720" height="90" as="geometry"/></mxCell>
+                <object label="G1 · Samfunnsmål&lt;br&gt;Aktiv rolle i egen og næres helse" tooltip="G1 – Aktiv rolle i egen og næres helse: Innbyggerne kan ta en aktiv rolle i å ivareta egen og næres helse. Dette er en tolkning av målretningen i TB2026-17." id="g1">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1" parent="1"><mxGeometry x="80" y="170" width="300" height="90" as="geometry"/></mxCell>
+                </object>
+                <object label="G2 · Samfunnsmål&lt;br&gt;Hjelpe flere med god kvalitet" tooltip="G2 – Hjelpe flere med god kvalitet: Helse- og omsorgstjenesten skal styrke evnen til å yte helsehjelp til flere, med god kvalitet. Dette er en tolkning av TB2026-17." id="g2">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1" parent="1"><mxGeometry x="500" y="170" width="300" height="90" as="geometry"/></mxCell>
+                </object>
+                <object label="G3 · Samfunnsmål&lt;br&gt;Sammenhengende, tilgjengelige og bærekraftige digitale løsninger&lt;br&gt;som støtter innbyggere og helsepersonell" tooltip="G3 – Sammenhengende, tilgjengelige og bærekraftige digitale løsninger: Løsningene skal støtte innbyggernes behov og helsepersonellets arbeidshverdag. Dette er en tolkning av TB2026-17." id="g3">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=17;" vertex="1" parent="1"><mxGeometry x="920" y="170" width="720" height="90" as="geometry"/></mxCell>
+                </object>
                 <mxCell id="goals-label" value="Nettlegens overordnede mål (Samfunnsmål; tolkning av lysbilde 2–4)" style="text;html=1;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="320" width="1700" height="35" as="geometry"/></mxCell>
-                <mxCell id="ng1" value="NG1 · Samfunnsmål&lt;br&gt;Aktiv medvirkning&lt;br&gt;i egen og næres helse" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="80" y="380" width="300" height="100" as="geometry"/></mxCell>
-                <mxCell id="ng2" value="NG2 · Samfunnsmål&lt;br&gt;Fleksibel og tilgjengelig&lt;br&gt;offentlig allmennlegetjeneste" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="500" y="380" width="300" height="100" as="geometry"/></mxCell>
-                <mxCell id="ng3" value="NG3 · Samfunnsmål&lt;br&gt;Sammenhengende, tilgjengelige&lt;br&gt;og enkle offentlige tjenester" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="920" y="380" width="300" height="100" as="geometry"/></mxCell>
-                <mxCell id="ng4" value="NG4 · Samfunnsmål&lt;br&gt;Bærekraftig&lt;br&gt;allmennlegetjeneste" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="1340" y="380" width="300" height="100" as="geometry"/></mxCell>
+                <object label="NG1 · Samfunnsmål&lt;br&gt;Aktiv medvirkning&lt;br&gt;i egen og næres helse" tooltip="NG1 – Aktiv medvirkning i egen og næres helse: Digital dialog og oppfølging kan styrke innbyggernes rolle. Analytisk målretning basert på nettlegepresentasjonen." id="ng1">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="80" y="380" width="300" height="100" as="geometry"/></mxCell>
+                </object>
+                <object label="NG2 · Samfunnsmål&lt;br&gt;Fleksibel og tilgjengelig&lt;br&gt;offentlig allmennlegetjeneste" tooltip="NG2 – Fleksibel og tilgjengelig allmennlegetjeneste: Den offentlige allmennlegetjenesten skal være mer fleksibel og tilgjengelig. Analytisk målretning basert på nettlegepresentasjonen." id="ng2">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="500" y="380" width="300" height="100" as="geometry"/></mxCell>
+                </object>
+                <object label="NG3 · Samfunnsmål&lt;br&gt;Sammenhengende, tilgjengelige&lt;br&gt;og enkle offentlige tjenester" tooltip="NG3 – Sammenhengende, tilgjengelige og enkle offentlige tjenester: Digital inngang og samarbeid med fastlege og legevakt kan støtte sammenheng. Analytisk målretning basert på nettlegepresentasjonen." id="ng3">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="920" y="380" width="300" height="100" as="geometry"/></mxCell>
+                </object>
+                <object label="NG4 · Samfunnsmål&lt;br&gt;Bærekraftig&lt;br&gt;allmennlegetjeneste" tooltip="NG4 – Bærekraftig allmennlegetjeneste: Tjenesten kan bli mer bærekraftig gjennom bedre samlet ressursbruk uten at kvaliteten svekkes. Analytisk målretning basert på nettlegepresentasjonen." id="ng4">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="1340" y="380" width="300" height="100" as="geometry"/></mxCell>
+                </object>
                 <mxCell id="outcomes-label" value="Nettlegens ønskede virkninger (Effektmål; lysbilde 6)" style="text;html=1;align=left;fontSize=16;fontStyle=1;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="560" width="1700" height="35" as="geometry"/></mxCell>
-                <mxCell id="n4" value="N4 · Effektmål&lt;br&gt;Økt tilfredshet&lt;br&gt;blant innbyggere" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="80" y="620" width="300" height="100" as="geometry"/></mxCell>
-                <mxCell id="n2" value="N2 · Effektmål&lt;br&gt;Avlastning av andre deler&lt;br&gt;av allmennlegetjenesten" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="500" y="620" width="300" height="100" as="geometry"/></mxCell>
-                <mxCell id="n1" value="N1 · Effektmål&lt;br&gt;Økt tilgjengelighet og mer&lt;br&gt;likeverdig tilgang til allmennlege" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="920" y="620" width="300" height="100" as="geometry"/></mxCell>
-                <mxCell id="n3" value="N3 · Effektmål&lt;br&gt;Mer tidsriktige&lt;br&gt;allmennlegetjenester" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="1340" y="620" width="300" height="100" as="geometry"/></mxCell>
+                <object label="N4 · Effektmål&lt;br&gt;Økt tilfredshet&lt;br&gt;blant innbyggere" tooltip="N4 – Økt tilfredshet: Innbyggerne skal bli mer tilfredse. Tilfredshet alene dokumenterer ikke sammenheng, bærekraft eller god kvalitet." id="n4">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="80" y="620" width="300" height="100" as="geometry"/></mxCell>
+                </object>
+                <object label="N2 · Effektmål&lt;br&gt;Avlastning av andre deler&lt;br&gt;av allmennlegetjenesten" tooltip="N2 – Avlastning: Andre deler av den offentlige allmennlegetjenesten skal avlastes. Frigjort kapasitet må vurderes for tjenesten samlet." id="n2">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="500" y="620" width="300" height="100" as="geometry"/></mxCell>
+                </object>
+                <object label="N1 · Effektmål&lt;br&gt;Økt tilgjengelighet og mer&lt;br&gt;likeverdig tilgang til allmennlege" tooltip="N1 – Økt tilgjengelighet og likeverdig tilgang: Hele befolkningen skal få bedre og mer likeverdig tilgang til allmennlegetjenester. Ønsket virkning fra nettlegepresentasjonen." id="n1">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="920" y="620" width="300" height="100" as="geometry"/></mxCell>
+                </object>
+                <object label="N3 · Effektmål&lt;br&gt;Mer tidsriktige&lt;br&gt;allmennlegetjenester" tooltip="N3 – Mer tidsriktige allmennlegetjenester: Den kommunale nettlegen gir et digitalt tilbud til innbyggere med problemstillinger som egner seg for videokonsultasjon." id="n3">
+                    <mxCell style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1" parent="1"><mxGeometry x="1340" y="620" width="300" height="100" as="geometry"/></mxCell>
+                </object>
                 <mxCell id="note" value="Hovedbidrag vises med pil. Ytterligere mulige bidrag: NG2 og N1 → G3/G2; NG4 og N2 → G2/G3; N3 → G1 gjennom digital dialog. N4 kan indikere brukernytte for G1/G3. Tilgang alene er ikke bevis for god kvalitet; avlastning må vurderes for tjenesten samlet." style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="800" width="1780" height="100" as="geometry"/></mxCell>
                 <mxCell id="source" value="Kilder: Digital nettlege oppsummering, lysbilde 2–6; TB2026-17, linje 497–501. Målene er tolket, ikke formelt navngitte samfunns- og effektmål. Utprøvingen er ikke dokumentasjon på oppnådde effekter." style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" vertex="1" parent="1"><mxGeometry x="40" y="970" width="1780" height="70" as="geometry"/></mxCell>
-                <mxCell id="ng1-g1" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="ng1" target="g1"><mxGeometry relative="1" as="geometry"/></mxCell>
-                <mxCell id="ng2-g2" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="ng2" target="g2"><mxGeometry relative="1" as="geometry"/></mxCell>
-                <mxCell id="ng3-g3" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.2083;entryY=1;" edge="1" parent="1" source="ng3" target="g3"><mxGeometry relative="1" as="geometry"/></mxCell>
-                <mxCell id="ng4-g3" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.7917;entryY=1;" edge="1" parent="1" source="ng4" target="g3"><mxGeometry relative="1" as="geometry"/></mxCell>
-                <mxCell id="n2-g2" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n2" target="g2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="840" y="670"/><mxPoint x="840" y="215"/></Array></mxGeometry></mxCell>
-                <mxCell id="n1-g3" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0.45;entryY=1;" edge="1" parent="1" source="n1" target="g3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1244" y="670"/><mxPoint x="1244" y="290"/><mxPoint x="1244" y="260"/></Array></mxGeometry></mxCell>
-                <mxCell id="n3-g3" value="+" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n3" target="g3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1680" y="670"/><mxPoint x="1680" y="215"/></Array></mxGeometry></mxCell>
+                <object label="+" tooltip="Fra NG1 · Samfunnsmål Aktiv medvirkning i egen og næres helse til G1 · Samfunnsmål Aktiv rolle i egen og næres helse. Aktiv medvirkning i egen og næres helse samsvarer med G1. Digital dialog og oppfølging kan støtte slik medvirkning. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="ng1-g1">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="ng1" target="g1"><mxGeometry relative="1" as="geometry"/></mxCell>
+                </object>
+                <object label="+" tooltip="Fra NG2 · Samfunnsmål Fleksibel og tilgjengelig offentlig allmennlegetjeneste til G2 · Samfunnsmål Hjelpe flere med god kvalitet. En mer fleksibel og tilgjengelig allmennlegetjeneste kan bidra til at flere får hjelp; god kvalitet må ivaretas og vurderes. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="ng2-g2">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="ng2" target="g2"><mxGeometry relative="1" as="geometry"/></mxCell>
+                </object>
+                <object label="+" tooltip="Fra NG3 · Samfunnsmål Sammenhengende, tilgjengelige og enkle offentlige tjenester til G3 · Samfunnsmål Sammenhengende, tilgjengelige og bærekraftige digitale løsninger som støtter innbyggere og helsepersonell. Sammenhengende og enkle offentlige tjenester støtter G3. Sammenheng forutsetter at samarbeidet med fastlege og legevakt fungerer i praksis. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="ng3-g3">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.2083;entryY=1;" edge="1" parent="1" source="ng3" target="g3"><mxGeometry relative="1" as="geometry"/></mxCell>
+                </object>
+                <object label="+" tooltip="Fra NG4 · Samfunnsmål Bærekraftig allmennlegetjeneste til G3 · Samfunnsmål Sammenhengende, tilgjengelige og bærekraftige digitale løsninger som støtter innbyggere og helsepersonell. En bærekraftig allmennlegetjeneste støtter bærekraftsdelen av G3 dersom samlet kapasitet brukes bedre uten at kvaliteten svekkes. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="ng4-g3">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.7917;entryY=1;" edge="1" parent="1" source="ng4" target="g3"><mxGeometry relative="1" as="geometry"/></mxCell>
+                </object>
+                <object label="+" tooltip="Fra N2 · Effektmål Avlastning av andre deler av allmennlegetjenesten til G2 · Samfunnsmål Hjelpe flere med god kvalitet. Avlastning kan bidra til at flere får hjelp dersom den frigjør kapasitet for tjenesten samlet og kvaliteten ivaretas. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="n2-g2">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n2" target="g2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="840" y="670"/><mxPoint x="840" y="215"/></Array></mxGeometry></mxCell>
+                </object>
+                <object label="+" tooltip="Fra N1 · Effektmål Økt tilgjengelighet og mer likeverdig tilgang til allmennlege til G3 · Samfunnsmål Sammenhengende, tilgjengelige og bærekraftige digitale løsninger som støtter innbyggere og helsepersonell. Økt tilgjengelighet og mer likeverdig tilgang til allmennlegetjenester støtter tilgjengelighetsdelen av G3. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="n1-g3">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0.45;entryY=1;" edge="1" parent="1" source="n1" target="g3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1244" y="670"/><mxPoint x="1244" y="290"/><mxPoint x="1244" y="260"/></Array></mxGeometry></mxCell>
+                </object>
+                <object label="+" tooltip="Fra N3 · Effektmål Mer tidsriktige allmennlegetjenester til G3 · Samfunnsmål Sammenhengende, tilgjengelige og bærekraftige digitale løsninger som støtter innbyggere og helsepersonell. Et tidsriktig digitalt tilbud kan støtte tilgjengelige og sammenhengende tjenester; faktisk samhandling og bærekraft må vurderes. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="n3-g3">
+                    <mxCell style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n3" target="g3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1680" y="670"/><mxPoint x="1680" y="215"/></Array></mxGeometry></mxCell>
+                </object>
             </root>
         </mxGraphModel>
     </diagram>
@@ -271,40 +395,59 @@
                 <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Samfunnsmål = overordnet ønsket sluttilstand. Effektmål = forventet virkning. Stiplet pil med + = positiv Influence fra bidrag til mål, ikke dokumentert årsakssammenheng." vertex="1">
                     <mxGeometry height="50" width="1320" x="40" y="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="g1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="G1 · Samfunnsmål&lt;br&gt;Innbyggerne kan ta en aktiv rolle&lt;br&gt;i egen og næres helse" vertex="1">
+                <object label="G1 · Samfunnsmål&lt;br&gt;Innbyggerne kan ta en aktiv rolle&lt;br&gt;i egen og næres helse" tooltip="G1 – Aktiv rolle i egen og næres helse: Innbyggerne kan ta en aktiv rolle i å ivareta egen og næres helse. Dette er en tolkning av målretningen i TB2026-17." id="g1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="100" width="380" x="60" y="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="g2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="G2 · Samfunnsmål&lt;br&gt;Helse- og omsorgstjenesten kan hjelpe&lt;br&gt;flere med god kvalitet" vertex="1">
+                </object>
+                <object label="G2 · Samfunnsmål&lt;br&gt;Helse- og omsorgstjenesten kan hjelpe&lt;br&gt;flere med god kvalitet" tooltip="G2 – Hjelpe flere med god kvalitet: Helse- og omsorgstjenesten skal styrke evnen til å yte helsehjelp til flere, med god kvalitet. Dette er en tolkning av TB2026-17." id="g2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="100" width="380" x="500" y="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="g3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="G3 · Samfunnsmål&lt;br&gt;Sammenhengende, tilgjengelige og bærekraftige&lt;br&gt;digitale løsninger for innbyggere og personell" vertex="1">
+                </object>
+                <object label="G3 · Samfunnsmål&lt;br&gt;Sammenhengende, tilgjengelige og bærekraftige&lt;br&gt;digitale løsninger for innbyggere og personell" tooltip="G3 – Sammenhengende, tilgjengelige og bærekraftige digitale løsninger: Løsningene skal støtte innbyggernes behov og helsepersonellets arbeidshverdag. Dette er en tolkning av TB2026-17." id="g3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="100" width="380" x="940" y="180" as="geometry"/>
                 </mxCell>
-                <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="E1 · Effektmål&lt;br&gt;Bedre mulighet for aktiv helserolle,&lt;br&gt;forebygging, helsekompetanse og mestring" vertex="1">
+                </object>
+                <object label="E1 · Effektmål&lt;br&gt;Bedre mulighet for aktiv helserolle,&lt;br&gt;forebygging, helsekompetanse og mestring" tooltip="E1 – Aktiv helserolle, forebygging, helsekompetanse og mestring: Innbyggerne får bedre mulighet til å ivareta egen og næres helse, forebygge helseutfordringer og mestre egen helse." id="e1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="110" width="280" x="60" y="430" as="geometry"/>
                 </mxCell>
-                <mxCell id="e2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="E2 · Effektmål&lt;br&gt;Innbyggerne finner enklere riktig&lt;br&gt;helsetjeneste for sine behov" vertex="1">
+                </object>
+                <object label="E2 · Effektmål&lt;br&gt;Innbyggerne finner enklere riktig&lt;br&gt;helsetjeneste for sine behov" tooltip="E2 – Enklere å finne riktig helsetjeneste: En digital veiviser skal på sikt gjøre det enklere for innbyggerne å finne en tjeneste som passer deres behov." id="e2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="110" width="280" x="390" y="430" as="geometry"/>
                 </mxCell>
-                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="E3 · Effektmål&lt;br&gt;Styrket evne til å yte helsehjelp&lt;br&gt;til flere med god kvalitet" vertex="1">
+                </object>
+                <object label="E3 · Effektmål&lt;br&gt;Styrket evne til å yte helsehjelp&lt;br&gt;til flere med god kvalitet" tooltip="E3 – Helsehjelp til flere med god kvalitet: Tjenesten styrker evnen til å yte helsehjelp til flere, samtidig som kvaliteten ivaretas." id="e3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="110" width="280" x="720" y="430" as="geometry"/>
                 </mxCell>
-                <mxCell id="e4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="E4 · Effektmål&lt;br&gt;Bedre støtte til personellets arbeidshverdag&lt;br&gt;og sammenhengende, tilgjengelige tjenester" vertex="1">
+                </object>
+                <object label="E4 · Effektmål&lt;br&gt;Bedre støtte til personellets arbeidshverdag&lt;br&gt;og sammenhengende, tilgjengelige tjenester" tooltip="E4 – Støtte til helsepersonell og sammenhengende tjenester: Digitale løsninger støtter helsepersonellets arbeidshverdag og bidrar til sammenhengende og tilgjengelige tjenester." id="e4">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="110" width="280" x="1050" y="430" as="geometry"/>
                 </mxCell>
-                <mxCell id="r1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="R1 · Effektmål (mellomliggende resultat)&lt;br&gt;Økt bruk av digitale selvhjelps- og behandlingsverktøy" vertex="1">
+                </object>
+                <object label="R1 · Effektmål (mellomliggende resultat)&lt;br&gt;Økt bruk av digitale selvhjelps- og behandlingsverktøy" tooltip="R1 – Økt bruk av digitale selvhjelps- og behandlingsverktøy: Et mellomliggende resultat som kan bidra til bedre helse og kapasitet når verktøyene er virksomme og brukes hensiktsmessig. Økt bruk er ikke i seg selv en dokumentert helsegevinst." id="r1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="90" width="610" x="60" y="660" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="E1–E4 er analytiske kortnavn, ikke offisielle målnumre. R1 kan bidra til E1 og E3 når verktøyene er virksomme og brukes hensiktsmessig. Flere brukere er ikke i seg selv bevis for bedre helse eller kapasitet." vertex="1">
                     <mxGeometry height="90" width="610" x="720" y="660" as="geometry"/>
                 </mxCell>
                 <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Kilde: TB2026-17, oppdragsinnledning og deloppdrag 2, 4 og 5. Relasjonene er analyse. De neste sidene viser bidrag til samme E1–E4." vertex="1">
                     <mxGeometry height="50" width="1320" x="40" y="800" as="geometry"/>
                 </mxCell>
-                <mxCell id="e1-g1" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g1" value="+">
+                <object label="+" tooltip="Fra E1 · Effektmål Bedre mulighet for aktiv helserolle, forebygging, helsekompetanse og mestring til G1 · Samfunnsmål Innbyggerne kan ta en aktiv rolle i egen og næres helse. Kunnskap og mestring støtter innbyggernes mulighet til å ta en aktiv rolle i å ivareta egen og næres helse. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="e1-g1">
+                    <mxCell edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="g1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e2-g3" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.2;entryY=1;" target="g3" value="+">
+                </object>
+                <object label="+" tooltip="Fra E2 · Effektmål Innbyggerne finner enklere riktig helsetjeneste for sine behov til G3 · Samfunnsmål Sammenhengende, tilgjengelige og bærekraftige digitale løsninger for innbyggere og personell. Veivisning kan gjøre relevante tjenester mer tilgjengelige, men realiserer ikke alene sammenhengende eller bærekraftige løsninger. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="e2-g3">
+                    <mxCell edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.2;entryY=1;" target="g3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="530" y="340"/>
@@ -312,16 +455,24 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="e3-g2" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.8;entryY=1;" target="g2" value="+">
+                </object>
+                <object label="+" tooltip="Fra E3 · Effektmål Styrket evne til å yte helsehjelp til flere med god kvalitet til G2 · Samfunnsmål Helse- og omsorgstjenesten kan hjelpe flere med god kvalitet. Styrket evne til å hjelpe flere med god kvalitet uttrykker den forventede endringen som støtter den overordnede målretningen. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="e3-g2">
+                    <mxCell edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.8;entryY=1;" target="g2">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="e4-g3" edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.7;entryY=1;" target="g3" value="+">
+                </object>
+                <object label="+" tooltip="Fra E4 · Effektmål Bedre støtte til personellets arbeidshverdag og sammenhengende, tilgjengelige tjenester til G3 · Samfunnsmål Sammenhengende, tilgjengelige og bærekraftige digitale løsninger for innbyggere og personell. Bedre arbeidsflyt, samhandling og tilgjengelige tjenester støtter målretningen om sammenhengende digitale løsninger. Bærekraft må også vurderes særskilt. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="e4-g3">
+                    <mxCell edge="1" parent="1" source="e4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.7;entryY=1;" target="g3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="r1-e1" edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.25;exitY=0;entryX=0.5;entryY=1;" target="e1" value="+">
+                </object>
+                <object label="+" tooltip="Fra R1 · Effektmål (mellomliggende resultat) Økt bruk av digitale selvhjelps- og behandlingsverktøy til E1 · Effektmål Bedre mulighet for aktiv helserolle, forebygging, helsekompetanse og mestring. Økt bruk kan støtte egenmestring og aktiv helserolle dersom verktøyene er virksomme og brukes hensiktsmessig; bruk alene viser ikke helsegevinst. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="r1-e1">
+                    <mxCell edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.25;exitY=0;entryX=0.5;entryY=1;" target="e1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="r1-e3" edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.75;exitY=0;entryX=0.5;entryY=1;" target="e3" value="+">
+                </object>
+                <object label="+" tooltip="Fra R1 · Effektmål (mellomliggende resultat) Økt bruk av digitale selvhjelps- og behandlingsverktøy til E3 · Effektmål Styrket evne til å yte helsehjelp til flere med god kvalitet. Økt bruk kan bidra til kapasitet dersom verktøyene er virksomme og brukes hensiktsmessig; bruk alene dokumenterer ikke gevinsten. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="r1-e3">
+                    <mxCell edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.75;exitY=0;entryX=0.5;entryY=1;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="518" y="590"/>
@@ -329,6 +480,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                </object>
             </root>
         </mxGraphModel>
     </diagram>
@@ -343,28 +495,39 @@
                 <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Venstre: kildens eksplisitte mål. Høyre: hovedoppdragets effektmål. + = positiv Influence (analytisk bidrag)." vertex="1">
                     <mxGeometry height="50" width="1320" x="40" y="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="sg" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="Samfunnsmål&lt;br&gt;God psykisk helse og livskvalitet;&lt;br&gt;god og lett tilgjengelig psykisk helsehjelp" vertex="1">
+                <object label="Samfunnsmål&lt;br&gt;God psykisk helse og livskvalitet;&lt;br&gt;god og lett tilgjengelig psykisk helsehjelp" tooltip="Samfunnsmål for psykisk helse: Flere skal oppleve god psykisk helse og livskvalitet, og de som trenger psykisk helsehjelp skal få god og lett tilgjengelig hjelp. Kilde: TB2025-18." id="sg">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="500" x="60" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="p1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="P1 · Effektmål (EM1)&lt;br&gt;Mer tilgjengelige tjenester for psykiske helseplager&lt;br&gt;gjennom økt bruk av digitale verktøy" vertex="1">
+                </object>
+                <object label="P1 · Effektmål (EM1)&lt;br&gt;Mer tilgjengelige tjenester for psykiske helseplager&lt;br&gt;gjennom økt bruk av digitale verktøy" tooltip="P1 / EM1 – Mer tilgjengelige tjenester for psykiske helseplager: Innbyggerne får mer tilgjengelige helse- og omsorgstjenester gjennom økt bruk av digitale verktøy. Kilde: TB2025-18." id="p1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="500" x="60" y="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="p2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="P2 · Effektmål (EM2)&lt;br&gt;Mer effektiv ressursutnyttelse i helsetjenesten&lt;br&gt;ved økt bruk av digitale verktøy" vertex="1">
+                </object>
+                <object label="P2 · Effektmål (EM2)&lt;br&gt;Mer effektiv ressursutnyttelse i helsetjenesten&lt;br&gt;ved økt bruk av digitale verktøy" tooltip="P2 / EM2 – Mer effektiv ressursutnyttelse: Helsetjenesten utnytter ressursene mer effektivt ved økt bruk av digitale verktøy. Kilde: TB2025-18." id="p2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="500" x="60" y="550" as="geometry"/>
                 </mxCell>
-                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E3 · Effektmål (hovedoppdrag)&lt;br&gt;Styrket evne til å yte helsehjelp&lt;br&gt;til flere med god kvalitet" vertex="1">
+                </object>
+                <object label="E3 · Effektmål (hovedoppdrag)&lt;br&gt;Styrket evne til å yte helsehjelp&lt;br&gt;til flere med god kvalitet" tooltip="E3 – Helsehjelp til flere med god kvalitet: Tjenesten styrker evnen til å yte helsehjelp til flere, samtidig som kvaliteten ivaretas." id="e3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="450" x="880" y="350" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=15;fontColor=#333333;" value="DM1–DM4 utdyper P1/P2: likere tilbud, tidligere hjelp, fleksible forløp og frigjort personelltid. Tidligere hjelp kan også støtte E1; fleksible forløp kan støtte E4. P1 er ikke det samme som E2: tilgjengelig hjelp innebærer ikke nødvendigvis enklere veivisning." vertex="1">
                     <mxGeometry height="150" width="450" x="880" y="550" as="geometry"/>
                 </mxCell>
                 <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Kilder: TB2025-18, målhierarki linje 408–427; TB2026-17, deloppdrag 3. P1/P2 bidrar innen psykisk helse, men realiserer ikke alene hovedoppdragets brede mål." vertex="1">
                     <mxGeometry height="60" width="1320" x="40" y="790" as="geometry"/>
                 </mxCell>
-                <mxCell id="p1-sg" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="sg" value="+">
+                <object label="+" tooltip="Fra P1 · Effektmål (EM1) Mer tilgjengelige tjenester for psykiske helseplager gjennom økt bruk av digitale verktøy til Samfunnsmål God psykisk helse og livskvalitet; god og lett tilgjengelig psykisk helsehjelp. Bedre tilgjengelighet til tjenester for psykiske helseplager støtter samfunnsmålet om god og lett tilgjengelig psykisk helsehjelp. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="p1-sg">
+                    <mxCell edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="sg">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="p2-sg" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="sg" value="+">
+                </object>
+                <object label="+" tooltip="Fra P2 · Effektmål (EM2) Mer effektiv ressursutnyttelse i helsetjenesten ved økt bruk av digitale verktøy til Samfunnsmål God psykisk helse og livskvalitet; god og lett tilgjengelig psykisk helsehjelp. Mer effektiv ressursutnyttelse kan gi kapasitet til bedre tilgjengelig hjelp, forutsatt at kvalitet og nødvendig helsehjelp ivaretas. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="p2-sg">
+                    <mxCell edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="sg">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="30" y="605"/>
@@ -372,10 +535,14 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="p1-e3" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e3" value="+">
+                </object>
+                <object label="+" tooltip="Fra P1 · Effektmål (EM1) Mer tilgjengelige tjenester for psykiske helseplager gjennom økt bruk av digitale verktøy til E3 · Effektmål (hovedoppdrag) Styrket evne til å yte helsehjelp til flere med god kvalitet. Bedre tilgjengelighet til tjenester for psykiske helseplager kan bidra til at flere får hjelp innen dette helseområdet. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="p1-e3">
+                    <mxCell edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="p2-e3" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e3" value="+">
+                </object>
+                <object label="+" tooltip="Fra P2 · Effektmål (EM2) Mer effektiv ressursutnyttelse i helsetjenesten ved økt bruk av digitale verktøy til E3 · Effektmål (hovedoppdrag) Styrket evne til å yte helsehjelp til flere med god kvalitet. Mer effektiv ressursutnyttelse kan bidra til at flere får hjelp dersom gevinsten frigjør kapasitet og kvaliteten ivaretas. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="p2-e3">
+                    <mxCell edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="720" y="605"/>
@@ -383,6 +550,7 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                </object>
             </root>
         </mxGraphModel>
     </diagram>
@@ -397,49 +565,76 @@
                 <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="V1–V8: foreløpige effektmål i Leveranse 2a, forkortet og klassifisert som Effektmål. + = analytisk positiv Influence til hovedoppdraget." vertex="1">
                     <mxGeometry height="50" width="1320" x="40" y="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="v1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V1 · Effektmål&lt;br&gt;Økt egenmestring og bedre helse" vertex="1">
+                <object label="V1 · Effektmål&lt;br&gt;Økt egenmestring og bedre helse" tooltip="V1 – Økt egenmestring og bedre helse: Flere innbyggere opplever bedre helse gjennom forebygging, behandling og oppfølging. Foreløpig effektmål i Leveranse 2a." id="v1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="80" width="510" x="60" y="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="v2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V2 · Effektmål&lt;br&gt;Tidlig og tilpasset støtte til forebygging" vertex="1">
+                </object>
+                <object label="V2 · Effektmål&lt;br&gt;Tidlig og tilpasset støtte til forebygging" tooltip="V2 – Tidlig og tilpasset støtte: Flere får hjelp til å forebygge eller begrense helseutfordringer, på egen hånd eller med oppfølging fra helsepersonell. Foreløpig effektmål i Leveranse 2a." id="v2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="80" width="510" x="60" y="270" as="geometry"/>
                 </mxCell>
-                <mxCell id="v3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V3 · Effektmål&lt;br&gt;Bedre tilgang til virksomme digitale behandlingsverktøy" vertex="1">
+                </object>
+                <object label="V3 · Effektmål&lt;br&gt;Bedre tilgang til virksomme digitale behandlingsverktøy" tooltip="V3 – Bedre tilgang til digitale behandlingsverktøy: Innbyggere med behov for behandling får bedre tilgang til virksomme digitale behandlingsverktøy som del av helsehjelpen. Foreløpig effektmål i Leveranse 2a." id="v3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="80" width="510" x="60" y="380" as="geometry"/>
                 </mxCell>
-                <mxCell id="v4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V4 · Effektmål&lt;br&gt;Mindre geografiske og organisatoriske forskjeller i tilgang" vertex="1">
+                </object>
+                <object label="V4 · Effektmål&lt;br&gt;Mindre geografiske og organisatoriske forskjeller i tilgang" tooltip="V4 – Mer likeverdig tilgang: Geografiske og organisatoriske forskjeller i tilgang til relevante, kvalitetssikrede verktøy reduseres. Foreløpig effektmål i Leveranse 2a." id="v4">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="80" width="510" x="60" y="490" as="geometry"/>
                 </mxCell>
-                <mxCell id="v5" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V5 · Effektmål&lt;br&gt;Bedre ressursutnyttelse og økt kapasitet" vertex="1">
+                </object>
+                <object label="V5 · Effektmål&lt;br&gt;Bedre ressursutnyttelse og økt kapasitet" tooltip="V5 – Bedre ressursutnyttelse og økt kapasitet: Helse- og omsorgstjenesten kan utnytte ressurser bedre og øke kapasiteten. Foreløpig effektmål i Leveranse 2a." id="v5">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="80" width="510" x="60" y="600" as="geometry"/>
                 </mxCell>
-                <mxCell id="v6" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V6 · Effektmål&lt;br&gt;Mer personelltid og kompetanse til de største behovene" vertex="1">
+                </object>
+                <object label="V6 · Effektmål&lt;br&gt;Mer personelltid og kompetanse til de største behovene" tooltip="V6 – Personelltid til de største behovene: Helsepersonellets tid og kompetanse kan i større grad brukes til innbyggere med de største eller mest sammensatte behovene. Foreløpig effektmål i Leveranse 2a." id="v6">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="80" width="510" x="60" y="710" as="geometry"/>
                 </mxCell>
-                <mxCell id="v7" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V7 · Effektmål&lt;br&gt;Fleksibel og individuelt tilpasset behandling og oppfølging" vertex="1">
+                </object>
+                <object label="V7 · Effektmål&lt;br&gt;Fleksibel og individuelt tilpasset behandling og oppfølging" tooltip="V7 – Fleksibel og individuelt tilpasset behandling: Behandling og oppfølging blir mer fleksibel og tilpasset den enkelte. Foreløpig effektmål i Leveranse 2a." id="v7">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="80" width="510" x="60" y="820" as="geometry"/>
                 </mxCell>
-                <mxCell id="v8" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" value="V8 · Effektmål&lt;br&gt;Mer innovativ tjeneste i samarbeid med forskning og næringsliv" vertex="1">
+                </object>
+                <object label="V8 · Effektmål&lt;br&gt;Mer innovativ tjeneste i samarbeid med forskning og næringsliv" tooltip="V8 – Mer innovativ helse- og omsorgstjeneste: Tjenesten samarbeider med forskningsmiljøer og næringsliv og nyttiggjør seg deres kompetanse, kapasitet og løsninger. Foreløpig effektmål i Leveranse 2a." id="v8">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=15;" vertex="1">
                     <mxGeometry height="80" width="510" x="60" y="930" as="geometry"/>
                 </mxCell>
-                <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E1 · Effektmål (hovedoppdrag)&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" vertex="1">
+                </object>
+                <object label="E1 · Effektmål (hovedoppdrag)&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" tooltip="E1 – Aktiv helserolle, forebygging, helsekompetanse og mestring: Innbyggerne får bedre mulighet til å ivareta egen og næres helse, forebygge helseutfordringer og mestre egen helse." id="e1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="400" x="920" y="200" as="geometry"/>
                 </mxCell>
-                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E3 · Effektmål (hovedoppdrag)&lt;br&gt;Helsehjelp til flere med god kvalitet" vertex="1">
+                </object>
+                <object label="E3 · Effektmål (hovedoppdrag)&lt;br&gt;Helsehjelp til flere med god kvalitet" tooltip="E3 – Helsehjelp til flere med god kvalitet: Tjenesten styrker evnen til å yte helsehjelp til flere, samtidig som kvaliteten ivaretas." id="e3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="400" x="920" y="500" as="geometry"/>
                 </mxCell>
-                <mxCell id="e4" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E4 · Effektmål (hovedoppdrag)&lt;br&gt;Støtte til personellets arbeidshverdag&lt;br&gt;og sammenhengende tjenester" vertex="1">
+                </object>
+                <object label="E4 · Effektmål (hovedoppdrag)&lt;br&gt;Støtte til personellets arbeidshverdag&lt;br&gt;og sammenhengende tjenester" tooltip="E4 – Støtte til helsepersonell og sammenhengende tjenester: Digitale løsninger støtter helsepersonellets arbeidshverdag og bidrar til sammenhengende og tilgjengelige tjenester." id="e4">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="400" x="920" y="830" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Kilde: Leveranse 2a, kapittel 5.1–5.2, linje 719–736. Ingen selvstendig samfunnsmålformulering i dette kapitlet. E2 støttes særlig av resultatmål om enkel tilgang, ikke direkte av alle effektmål. V8 → E4 er et indirekte bidrag, avhengig av hva innovasjonen fører til." vertex="1">
                     <mxGeometry height="70" width="1320" x="40" y="1050" as="geometry"/>
                 </mxCell>
-                <mxCell id="v1-e1" edge="1" parent="1" source="v1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e1" value="+">
+                <object label="+" tooltip="Fra V1 · Effektmål Økt egenmestring og bedre helse til E1 · Effektmål (hovedoppdrag) Aktiv helserolle, forebygging, helsekompetanse og mestring. Bedre helse og økt egenmestring konkretiserer innbyggernes aktive rolle i å ivareta egen helse. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v1-e1">
+                    <mxCell edge="1" parent="1" source="v1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="v2-e1" edge="1" parent="1" source="v2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e1" value="+">
+                </object>
+                <object label="+" tooltip="Fra V2 · Effektmål Tidlig og tilpasset støtte til forebygging til E1 · Effektmål (hovedoppdrag) Aktiv helserolle, forebygging, helsekompetanse og mestring. Tidlig og tilpasset støtte kan hjelpe innbyggerne å forebygge eller begrense helseutfordringer og mestre egen helse. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v2-e1">
+                    <mxCell edge="1" parent="1" source="v2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="v3-e3" edge="1" parent="1" source="v3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.2;" target="e3" value="+">
+                </object>
+                <object label="+" tooltip="Fra V3 · Effektmål Bedre tilgang til virksomme digitale behandlingsverktøy til E3 · Effektmål (hovedoppdrag) Helsehjelp til flere med god kvalitet. Bedre tilgang til virksomme digitale behandlingsverktøy som del av helsehjelpen kan gi flere tilgang til relevant hjelp. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v3-e3">
+                    <mxCell edge="1" parent="1" source="v3" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.2;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="780" y="420"/>
@@ -447,13 +642,19 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v4-e3" edge="1" parent="1" source="v4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.4;" target="e3" value="+">
+                </object>
+                <object label="+" tooltip="Fra V4 · Effektmål Mindre geografiske og organisatoriske forskjeller i tilgang til E3 · Effektmål (hovedoppdrag) Helsehjelp til flere med god kvalitet. Mindre geografisk og organisatorisk ulikhet i tilgang kan gjøre at relevante, kvalitetssikrede verktøy når flere grupper. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v4-e3">
+                    <mxCell edge="1" parent="1" source="v4" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.4;" target="e3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="v5-e3" edge="1" parent="1" source="v5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.6;" target="e3" value="+">
+                </object>
+                <object label="+" tooltip="Fra V5 · Effektmål Bedre ressursutnyttelse og økt kapasitet til E3 · Effektmål (hovedoppdrag) Helsehjelp til flere med god kvalitet. Bedre ressursutnyttelse og økt kapasitet kan styrke tjenestens evne til å hjelpe flere med god kvalitet. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v5-e3">
+                    <mxCell edge="1" parent="1" source="v5" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.6;" target="e3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="v6-e3" edge="1" parent="1" source="v6" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.8;" target="e3" value="+">
+                </object>
+                <object label="+" tooltip="Fra V6 · Effektmål Mer personelltid og kompetanse til de største behovene til E3 · Effektmål (hovedoppdrag) Helsehjelp til flere med god kvalitet. Mer tid og kompetanse til de største eller mest sammensatte behovene kan gi bedre prioritering av kapasitet og kompetanse. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v6-e3">
+                    <mxCell edge="1" parent="1" source="v6" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.8;" target="e3">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="840" y="750"/>
@@ -461,12 +662,17 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="v7-e4" edge="1" parent="1" source="v7" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e4" value="+">
+                </object>
+                <object label="+" tooltip="Fra V7 · Effektmål Fleksibel og individuelt tilpasset behandling og oppfølging til E4 · Effektmål (hovedoppdrag) Støtte til personellets arbeidshverdag og sammenhengende tjenester. Fleksibel og individuelt tilpasset behandling og oppfølging kan støtte arbeidsflyt og sammenhengende tjenestetilbud. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v7-e4">
+                    <mxCell edge="1" parent="1" source="v7" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.3;" target="e4">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="v8-e4" edge="1" parent="1" source="v8" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e4" value="+ (indirekte)">
+                </object>
+                <object label="+ (indirekte)" tooltip="Fra V8 · Effektmål Mer innovativ tjeneste i samarbeid med forskning og næringsliv til E4 · Effektmål (hovedoppdrag) Støtte til personellets arbeidshverdag og sammenhengende tjenester. Innovasjon kan indirekte støtte arbeidsflyt og sammenhengende tjenester, avhengig av hvilke løsninger og arbeidsformer samarbeidet gir. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="v8-e4">
+                    <mxCell edge="1" parent="1" source="v8" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" target="e4">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                </object>
             </root>
         </mxGraphModel>
     </diagram>
@@ -481,36 +687,52 @@
                 <mxCell id="legend" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Venstre: satsingens eksplisitte mål (styringsdokument v1.1). Høyre: hovedoppdragets effektmål. + = analytisk positiv Influence." vertex="1">
                     <mxGeometry height="50" width="1320" x="40" y="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="sg" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="Samfunnsmål&lt;br&gt;Lik tilgang til trygge, målrettede helseråd som&lt;br&gt;øker helsekompetansen og evnen til å ivareta helse" vertex="1">
+                <object label="Samfunnsmål&lt;br&gt;Lik tilgang til trygge, målrettede helseråd som&lt;br&gt;øker helsekompetansen og evnen til å ivareta helse" tooltip="Samfunnsmål for målrettede helseråd: Innbyggerne har lik tilgang til trygge helseråd som øker helsekompetansen og evnen til å forebygge og ivareta egen og andres helse." id="sg">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="510" x="60" y="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="k1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="K1 · Effektmål&lt;br&gt;Trygge helseråd basert på evidensbasert kunnskap" vertex="1">
+                </object>
+                <object label="K1 · Effektmål&lt;br&gt;Trygge helseråd basert på evidensbasert kunnskap" tooltip="K1 – Trygge, evidensbaserte helseråd: Innbyggere får trygge helseråd basert på evidensbasert kunnskap. Kilde: styringsdokumentet for målrettede helseråd." id="k1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="510" x="60" y="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="k2" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="K2 · Effektmål&lt;br&gt;Mer effektiv ressursbruk ved redusert eller utsatt&lt;br&gt;tjenestebehov og mer rettidig bruk av tjenestene" vertex="1">
+                </object>
+                <object label="K2 · Effektmål&lt;br&gt;Mer effektiv ressursbruk ved redusert eller utsatt&lt;br&gt;tjenestebehov og mer rettidig bruk av tjenestene" tooltip="K2 – Mer effektiv ressursbruk: Behov for helsetjenester reduseres eller utsettes, og tjenestene brukes mer rettidig. Nødvendig helsehjelp må ikke forsinkes." id="k2">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="510" x="60" y="550" as="geometry"/>
                 </mxCell>
-                <mxCell id="e1" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E1 · Effektmål (hovedoppdrag)&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" vertex="1">
+                </object>
+                <object label="E1 · Effektmål (hovedoppdrag)&lt;br&gt;Aktiv helserolle, forebygging,&lt;br&gt;helsekompetanse og mestring" tooltip="E1 – Aktiv helserolle, forebygging, helsekompetanse og mestring: Innbyggerne får bedre mulighet til å ivareta egen og næres helse, forebygge helseutfordringer og mestre egen helse." id="e1">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="400" x="920" y="350" as="geometry"/>
                 </mxCell>
-                <mxCell id="e3" parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" value="E3 · Effektmål (hovedoppdrag)&lt;br&gt;Helsehjelp til flere med god kvalitet" vertex="1">
+                </object>
+                <object label="E3 · Effektmål (hovedoppdrag)&lt;br&gt;Helsehjelp til flere med god kvalitet" tooltip="E3 – Helsehjelp til flere med god kvalitet: Tjenesten styrker evnen til å yte helsehjelp til flere, samtidig som kvaliteten ivaretas." id="e3">
+                    <mxCell parent="1" style="html=1;whiteSpace=wrap;shape=mxgraph.archimate3.application;appType=outcome;archiType=oct;fillColor=#CCCCFF;fontColor=#333333;fontSize=16;" vertex="1">
                     <mxGeometry height="110" width="400" x="920" y="550" as="geometry"/>
                 </mxCell>
+                </object>
                 <mxCell id="note" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="K1 støtter E1 når rådene forstås og kan brukes. K2 støtter E3 dersom kapasitet faktisk frigjøres uten kvalitetstap. Rettidig tjenestebruk er ikke det samme som E2 (å finne riktig tjeneste); veivisning må ivaretas særskilt i deloppdrag 5." vertex="1">
                     <mxGeometry height="70" width="1260" x="60" y="710" as="geometry"/>
                 </mxCell>
                 <mxCell id="source" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontSize=14;fontColor=#333333;" value="Kilde: Styringsdokument offentlig KI-tjeneste for målrettede helseråd v1.1, kapittel 2.1, linje 170–181. Prosjektets resultatmål for 2026 holdes atskilt fra satsingens effekter." vertex="1">
                     <mxGeometry height="50" width="1320" x="40" y="810" as="geometry"/>
                 </mxCell>
-                <mxCell id="k1-sg" edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="sg" value="+">
+                <object label="+" tooltip="Fra K1 · Effektmål Trygge helseråd basert på evidensbasert kunnskap til Samfunnsmål Lik tilgang til trygge, målrettede helseråd som øker helsekompetansen og evnen til å ivareta helse. Trygge, evidensbaserte helseråd støtter målretningen om trygge råd, helsekompetanse og evne til å ivareta helse. Rådene må også være tilgjengelige og anvendelige. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="k1-sg">
+                    <mxCell edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" target="sg">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="k1-e1" edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="e1" value="+ (via anvendelse)">
+                </object>
+                <object label="+ (via anvendelse)" tooltip="Fra K1 · Effektmål Trygge helseråd basert på evidensbasert kunnskap til E1 · Effektmål (hovedoppdrag) Aktiv helserolle, forebygging, helsekompetanse og mestring. Trygge, evidensbaserte råd kan støtte helsekompetanse og mestring når innbyggerne forstår og kan anvende dem; råd alene garanterer ikke endret atferd. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="k1-e1">
+                    <mxCell edge="1" parent="1" source="k1" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="e1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="k2-e3" edge="1" parent="1" source="k2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="e3" value="+">
+                </object>
+                <object label="+" tooltip="Fra K2 · Effektmål Mer effektiv ressursbruk ved redusert eller utsatt tjenestebehov og mer rettidig bruk av tjenestene til E3 · Effektmål (hovedoppdrag) Helsehjelp til flere med god kvalitet. Mer effektiv ressursbruk kan styrke kapasiteten til å hjelpe flere dersom nødvendig helsehjelp ikke forsinkes og kapasitet faktisk frigjøres. Koblingen er en forventet positiv påvirkning og analytisk vurdering, ikke dokumentasjon på oppnådd effekt." id="k2-e3">
+                    <mxCell edge="1" parent="1" source="k2" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#666666;fontColor=#333333;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="e3">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+                </object>
             </root>
         </mxGraphModel>
     </diagram>
