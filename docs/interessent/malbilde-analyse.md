@@ -65,7 +65,7 @@ Målene i TB2025-18 og Leveranse 2a kan i hovedsak forstås som utdypinger av og
 
 Samfunnsmålet i TB2025-18 om god psykisk helse og livskvalitet og god, lett tilgjengelig psykisk helsehjelp er en sektorspesifikk målformulering som støtter den bredere målretningen i TB2026-17. Samfunnsmålet er hentet fra Opptrappingsplanen for psykisk helse, Meld. St. 23 (2022–2023), og må ikke forveksles med allmennlegemeldingen Meld. St. 23 (2024–2025) som kommunal nettlege viser til. TB2025-18 har også fire delmål: likere tilbud (DM1) og tidligere hjelp (DM2) bygger opp under EM1 om tilgjengelighet, mens fleksible behandlingsforløp (DM3) og frigjort tid for helsepersonell (DM4) bygger opp under EM2 om ressursutnyttelse.
 
-Leveranse 2a foreslår i tillegg resultatmål om enkel tilgang, kombinasjon av digitale og fysiske pasientforløp, personellkompetanse, finansiering, forutsigbare rammebetingelser og innsyn i og kontroll over helseopplysninger. Disse beskriver konkrete resultater og forutsetninger som skal understøtte effektmålene, ikke nødvendigvis selvstendige samfunnseffekter.
+Leveranse 2a foreslår resultatmål om enkel tilgang, kombinasjon av digitale og fysiske pasientforløp, personellkompetanse, finansiering, forutsigbare rammebetingelser og innsyn i og kontroll over helseopplysninger. De er gjengitt og drøftet under deloppdrag 2 nedenfor. TB2025-18 formulerer delmål, ikke egne resultatmål.
 
 Økt bruk kan forstås som et mellomliggende resultat som forventes å bidra til bedre helse, tidligere hjelp og større kapasitet, snarere enn en endelig samfunnseffekt i seg selv. Et bærekraftig økosystem er tilsvarende en mulig forutsetning for måloppnåelse, ikke en dokumentert effekt. I ArchiMate kan den overordnede målretningen modelleres som **Goal**, mens forventede virkninger som bedre tilgang, økt egenmestring og kapasitet kan modelleres som **Outcomes**. Relasjonene mellom dem er begrunnede bidrag, ikke nødvendigvis direkte realisering.
 
@@ -139,6 +139,8 @@ Kilde: [TB2026-17, oppdragsinnledning og deloppdrag 2, 4 og 5](../../background/
 
 TB2025-18 er grunnlagsrapporten som TB2026-17 deloppdrag 3 ber om oppfølging av. Det er ikke et nytt deloppdragsnummer i 2026. Figurens P1/P2 svarer til rapportens EM1/EM2.
 
+TB2025-18s eget målhierarki bruker fire delmål (DM1–DM4), ikke resultatmål. Et samlet vedlegg til TB2025-18 viser også til et resultatmål i Opptrappingsplanen: barn og unge som henvises til psykisk helsevern (PHBU), skal få tilbud om en vurderingssamtale for å avklare videre oppfølging i spesialisthelsetjenesten eller kommunale helse- og omsorgstjenester. Dette gjelder et annet tiltak og er ikke et resultatmål for digital førstelinje eller for TB2025-18s digitale verktøy, så det er ikke tatt inn i målmodellen.
+
 ### Deloppdrag 2: økt bruk av digitale selvhjelps- og behandlingsverktøy
 
 ![D2-selvhjelp-behandling](malbilde-analyse.drawio)
@@ -156,7 +158,20 @@ De åtte foreløpige effektmålene i Leveranse 2a konkretiserer særlig E1, E3 o
 | V7: Mer fleksibel og individuelt tilpasset behandling og oppfølging. | E4: Fleksible forløp der digital og fysisk oppfølging kombineres (jf. resultatmål 2), støtter sammenhengende tjenester. V7 bidrar også til kvalitetsdelen av E3. |
 | V8: En mer innovativ tjeneste som nyttiggjør seg forskningens og næringslivets kompetanse, kapasitet og løsninger. | Indirekte bidrag til E4, avhengig av hvilke løsninger og arbeidsformer innovasjonen gir. V8 er også den målformuleringen som ligger nærmest deloppdrag 2s krav om et bærekraftig økosystem og næringsliv, og dermed bærekraftsdelen av G3. |
 
-E2 støttes særlig av resultatmålet om enkel tilgang til relevante selvhjelpsverktøy. Enkel tilgang til verktøy er likevel smalere enn veivisning til riktig helsetjeneste. Kombinasjon av digitale og fysiske pasientforløp støtter E4. Kompetanse, finansiering, rammebetingelser og kontroll over helseopplysninger er støttende resultater og forutsetninger, ikke bevis for at effektmålene er oppnådd.
+#### Resultatmål i Leveranse 2a
+
+Rapporten beskriver resultatmålene som konkrete resultater og forutsetninger som bør være på plass for å oppnå effektmålene. Målene er foreløpige. De er ikke dokumentasjon på at virkningene er oppnådd.
+
+| Resultatmål | Forklaring og sammenheng med effektmålene |
+|---|---|
+| **1. Enkel tilgang til selvhjelpsverktøy:** Innbyggerne kan enkelt finne og ta i bruk relevante, kvalitetssikrede digitale selvhjelpsverktøy. | Tilgjengeliggjøring gjør at verktøyene kan tas i bruk. Dette støtter særlig V2–V4 og E2. Tilgang til verktøy er likevel smalere enn veivisning til riktig helsetjeneste på tvers av områdene. |
+| **2. Digitale og fysiske pasientforløp:** Verktøyene inngår i pasientforløp der de gir nytte, og kan kombineres med annen helsehjelp etter behov. | Integrasjon i tjenestene kan støtte V3 og V7 og bidra til E4. Det beskriver en forutsetning for sammenhengende oppfølging, ikke en dokumentert kvalitetsgevinst. |
+| **3. Kompetanse hos helsepersonell:** Helsepersonell kan vurdere, anbefale og bruke relevante verktøy på en faglig forsvarlig måte. | Kompetanse legger til rette for hensiktsmessig bruk, særlig i sammenheng med V6 og V7. Kompetanse alene viser ikke at verktøyene gir bedre helse eller frigjør kapasitet. |
+| **4. Bærekraftig finansiering:** Finansierings- og insentivordninger legger til rette for innføring, bruk og videreføring av virksomme verktøy. | Forutsigbar finansiering støtter langsiktig tilgjengeliggjøring og bruk, og er relevant for V5 og V8. Finansiering er en forutsetning, ikke i seg selv en tjeneste- eller helsegevinst. |
+| **5. Tydelige og forutsigbare rammebetingelser:** Offentlige og private aktører har tydelige rammer for kvalitetsvurdering, tilgjengeliggjøring, anskaffelse og videreføring. | Felles og forutsigbare rammer kan støtte kvalitetssikret tilgang, innovasjon og økosystemet rundt verktøyene, særlig V4 og V8. |
+| **6. Innsyn og kontroll over helseopplysninger:** Innbyggerne har innsyn i og kontroll over egne helseopplysninger og kan dele relevante opplysninger med aktuelle verktøy innenfor gjeldende regelverk. | Dette er en personvern- og tillitsforutsetning for at digitale verktøy kan brukes forsvarlig i relevante forløp. Den støtter måloppnåelsen, men er ikke alene en effekt for innbyggerne. |
+
+Resultatmål 1 støtter E2 gjennom enkel tilgang til selvhjelpsverktøy, men er smalere enn veivisning til riktig tjeneste. Resultatmål 2 støtter særlig E4 gjennom kombinasjon av digitale og fysiske forløp. Resultatmålene om kompetanse, finansiering, rammebetingelser og kontroll over helseopplysninger er støttende resultater og forutsetninger, ikke bevis for at effektmålene er oppnådd.
 
 Leveranse 2a formulerer ikke et eget samfunnsmål i kapittel 5. Det er derfor ikke laget et nytt Goal-element for dette deloppdraget.
 
@@ -167,7 +182,15 @@ Leveranse 2a formulerer ikke et eget samfunnsmål i kapittel 5. Det er derfor ik
 * **K1 – trygge helseråd basert på evidensbasert kunnskap:** Bidrar til E1 gjennom kunnskap som innbyggerne kan forstå og anvende. Trygge råd alene garanterer ikke økt helsekompetanse eller endret helseadferd.
 * **K2 – mer effektiv ressursbruk ved redusert eller utsatt tjenestebehov og mer rettidig bruk:** Bidrar til E3 dersom nødvendig helsehjelp ikke forsinkes og kapasitet faktisk frigjøres. Rettidig tjenestebruk er ikke identisk med E2 om enklere veivisning, men de utfyller hverandre. Veiviseren i deloppdrag 5 skal fungere på tvers av deloppdrag 1–4 og nettlegen, og målrettede helseråd kan inngå i veivisningen.
 * Satsingens eget samfunnsmål om lik tilgang til trygge helseråd, økt helsekompetanse og bedre evne til å ivareta helse støtter særlig G1 og tilgjengelighetsdelen av G3.
-* Resultatmålene for prosjektet i 2026 – å tydeliggjøre målrettede helseråd og beskrive rammer og forutsetninger – forbereder satsingen. De må ikke behandles som allerede oppnådde helseeffekter.
+
+#### Resultatmål for prosjektet i 2026
+
+Styringsdokumentet skiller satsingens samfunns- og effektmål fra resultatmålene for prosjektet i 2026. Resultatmålene skal forberede en eventuell satsing i 2027–2029; de er ikke helseeffekter i seg selv.
+
+| Resultatmål | Forklaring og suksesskriterier |
+|---|---|
+| **1. Det er tydeliggjort hva målrettede helseråd er.** | Begrepet og konseptet skal avklares, og prosjektet skal få innsikt i hva som kreves for å etablere og forvalte en slik tjeneste. Kildens suksesskriterier er en konsept- og prioriteringsmodell og en etablert Proof of Concept (PoC). |
+| **2. Rammer og forutsetninger for satsing på en offentlig KI-tjeneste for målrettede helseråd er beskrevet.** | Suksesskriteriene omfatter at juridiske rammer og eventuelle endringsbehov er forstått og formidlet til HOD; nasjonalt forvaltningsansvar og medisinsk ansvar er definert og forankret; første versjon av KI-kvalitetsrammeverket er testet og publisert; rammer for KI-klare data er definert og levert på relevante områder; forslag til organisering av kunnskapsforvaltningen er utarbeidet; og målarkitektur og målbilde for et modulært økosystem er utarbeidet. |
 
 ### Kommunal nettlege
 
